@@ -1,10 +1,11 @@
 {
   "model":"Collection<io.alkapivo.visu.service.subtitle.SubtitleTemplate>",
+  "version":"1",
   "data":{
     "subtitle_alkapivo":{
       "lines":[
         "Alkapivo",
-        "2024"
+        "2025"
       ]
     },
     "subtitle_schnoopy_destination_unknown":{
@@ -19,6 +20,5 @@
         ""
       ]
     }
-  },
-  "version":"1"
+  }
 }

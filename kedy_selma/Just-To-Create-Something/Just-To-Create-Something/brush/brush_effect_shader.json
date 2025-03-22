@@ -1,11 +1,12 @@
 {
-  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>",
   "data":[
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader Broken Time Portal 01",
+      "type":"brush_effect_shader",
       "color":"#FF0054",
+      "name":"shader Broken Time Portal 01",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":10.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -16,16 +17,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader Broken Time Portal 02",
+      "type":"brush_effect_shader",
       "color":"#94E0FF",
+      "name":"shader Broken Time Portal 02",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":10.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -36,16 +37,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader Broken Time Portal 03",
+      "type":"brush_effect_shader",
       "color":"#94FF8E",
+      "name":"shader Broken Time Portal 03",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":7.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -56,16 +57,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader Broken Time Portal 04",
+      "type":"brush_effect_shader",
       "color":"#00CD56",
+      "name":"shader Broken Time Portal 04",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":0.88,
         "ef-shd_duration":7.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -76,16 +77,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":0.88
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader Broken Time Portal 05",
+      "type":"brush_effect_shader",
       "color":"#9200F5",
+      "name":"shader Broken Time Portal 05",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":0.90000000000000002,
         "ef-shd_duration":7.0,
         "ef-shd_fade-in":0.5,
         "ef-shd_fade-out":0.5,
@@ -96,16 +97,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":0.90000000000000002
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader Broken Time Portal 06",
+      "type":"brush_effect_shader",
       "color":"#C7F36C",
+      "name":"shader Broken Time Portal 06",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":7.0,
         "ef-shd_fade-in":0.5,
         "ef-shd_fade-out":0.5,
@@ -116,16 +117,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader Broken Time Portal 07",
+      "type":"brush_effect_shader",
       "color":"#FF2A39",
+      "name":"shader Broken Time Portal 07",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":8.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -136,16 +137,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader Broken Time Portal 08",
+      "type":"brush_effect_shader",
       "color":"#94008E",
+      "name":"shader Broken Time Portal 08",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":10.0,
         "ef-shd_fade-in":1.5,
         "ef-shd_fade-out":1.5,
@@ -156,16 +157,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader Cubular 01",
+      "type":"brush_effect_shader",
       "color":"#A435FF",
+      "name":"shader Cubular 01",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":8.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -176,16 +177,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader Cubular 02",
+      "type":"brush_effect_shader",
       "color":"#A435FF",
+      "name":"shader Cubular 02",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":10.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -196,16 +197,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader Cubular 03",
+      "type":"brush_effect_shader",
       "color":"#A435FF",
+      "name":"shader Cubular 03",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":10.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -216,16 +217,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader Sincos 3D 01",
+      "type":"brush_effect_shader",
       "color":"#0094BC",
+      "name":"shader Sincos 3D 01",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":10.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -236,16 +237,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader Sincos 3D 02",
+      "type":"brush_effect_shader",
       "color":"#0094BC",
+      "name":"shader Sincos 3D 02",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":0.84999999999999998,
         "ef-shd_duration":10.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -256,16 +257,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":0.84999999999999998
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader Sincos 3D 03",
+      "type":"brush_effect_shader",
       "color":"#0094BC",
+      "name":"shader Sincos 3D 03",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":0.84999999999999998,
         "ef-shd_duration":10.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -276,16 +277,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":0.84999999999999998
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader Sincos 3D 04",
+      "type":"brush_effect_shader",
       "color":"#0094BC",
+      "name":"shader Sincos 3D 04",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":0.69999999999999996,
         "ef-shd_duration":10.0,
         "ef-shd_fade-in":2.0,
         "ef-shd_fade-out":2.0,
@@ -296,16 +297,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":0.69999999999999996
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader Sincos 3D 05",
+      "type":"brush_effect_shader",
       "color":"#0094BC",
+      "name":"shader Sincos 3D 05",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":0.69999999999999996,
         "ef-shd_duration":15.0,
         "ef-shd_fade-in":2.0,
         "ef-shd_fade-out":2.0,
@@ -316,16 +317,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":0.69999999999999996
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader Base warp fBM 01",
+      "type":"brush_effect_shader",
       "color":"#5E5739",
+      "name":"shader Base warp fBM 01",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":0.5,
         "ef-shd_duration":5.75,
         "ef-shd_fade-in":0.5,
         "ef-shd_fade-out":0.5,
@@ -336,16 +337,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":0.5
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader Base warp fBM 02",
+      "type":"brush_effect_shader",
       "color":"#5E5739",
+      "name":"shader Base warp fBM 02",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":7.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -356,16 +357,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader Base warp fBM 03",
+      "type":"brush_effect_shader",
       "color":"#5E5739",
+      "name":"shader Base warp fBM 03",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":0.94999999999999996,
         "ef-shd_duration":10.0,
         "ef-shd_fade-in":0.5,
         "ef-shd_fade-out":0.5,
@@ -376,16 +377,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":0.94999999999999996
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader discoteq 2 01",
+      "type":"brush_effect_shader",
       "color":"#D2BD00",
+      "name":"shader discoteq 2 01",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":1.2,
         "ef-shd_fade-in":0.080000000000000002,
         "ef-shd_fade-out":0.080000000000000002,
@@ -396,16 +397,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader discoteq 2 02",
+      "type":"brush_effect_shader",
       "color":"#D2BD00",
+      "name":"shader discoteq 2 02",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":1.2,
         "ef-shd_fade-in":0.080000000000000002,
         "ef-shd_fade-out":0.080000000000000002,
@@ -416,16 +417,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader discoteq 2 03",
+      "type":"brush_effect_shader",
       "color":"#D2BD00",
+      "name":"shader discoteq 2 03",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":1.2,
         "ef-shd_fade-in":0.080000000000000002,
         "ef-shd_fade-out":0.080000000000000002,
@@ -436,16 +437,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader warp speed 2 01",
+      "type":"brush_effect_shader",
       "color":"#8312C7",
+      "name":"shader warp speed 2 01",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":5.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -456,16 +457,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader warp speed 2 02",
+      "type":"brush_effect_shader",
       "color":"#8312C7",
+      "name":"shader warp speed 2 02",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":10.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -476,16 +477,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader warp speed 2 03",
+      "type":"brush_effect_shader",
       "color":"#8312C7",
+      "name":"shader warp speed 2 03",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":10.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -496,16 +497,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader warp speed 2 04",
+      "type":"brush_effect_shader",
       "color":"#8312C7",
+      "name":"shader warp speed 2 04",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":10.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -516,16 +517,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader warp speed 2 05",
+      "type":"brush_effect_shader",
       "color":"#8312C7",
+      "name":"shader warp speed 2 05",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":10.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -536,16 +537,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader warp speed 2 06",
+      "type":"brush_effect_shader",
       "color":"#8312C7",
+      "name":"shader warp speed 2 06",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":10.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -556,16 +557,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader warp speed 2 07",
+      "type":"brush_effect_shader",
       "color":"#8312C7",
+      "name":"shader warp speed 2 07",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":10.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -576,16 +577,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader 002 blue 01",
+      "type":"brush_effect_shader",
       "color":"#CD56BD",
+      "name":"shader 002 blue 01",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":10.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -596,16 +597,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader 002 blue 02",
+      "type":"brush_effect_shader",
       "color":"#139CFF",
+      "name":"shader 002 blue 02",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":18.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -616,16 +617,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader 002 blue 03",
+      "type":"brush_effect_shader",
       "color":"#1ACB66",
+      "name":"shader 002 blue 03",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":15.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -636,16 +637,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader 002 blue 04",
+      "type":"brush_effect_shader",
       "color":"#D7FF00",
+      "name":"shader 002 blue 04",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":13.33,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -656,16 +657,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader 002 blue 05",
+      "type":"brush_effect_shader",
       "color":"#9E5EE2",
+      "name":"shader 002 blue 05",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":10.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -676,16 +677,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader Dive to Cloud 01",
+      "type":"brush_effect_shader",
       "color":"#50B4FF",
+      "name":"shader Dive to Cloud 01",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":8.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -696,16 +697,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader clouds 2d 01",
+      "type":"brush_effect_shader",
       "color":"#69CCFF",
+      "name":"shader clouds 2d 01",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":5.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -716,16 +717,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader CineShader Lava 01",
+      "type":"brush_effect_shader",
       "color":"#7B54D4",
+      "name":"shader CineShader Lava 01",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":10.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -736,16 +737,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader CineShader Lava 02",
+      "type":"brush_effect_shader",
       "color":"#7B54D4",
+      "name":"shader CineShader Lava 02",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":5.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -756,16 +757,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader lighing with glow 01",
+      "type":"brush_effect_shader",
       "color":"#B882FF",
+      "name":"shader lighing with glow 01",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":1.2,
         "ef-shd_fade-in":0.080000000000000002,
         "ef-shd_fade-out":0.080000000000000002,
@@ -776,16 +777,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader lighing with glow 02",
+      "type":"brush_effect_shader",
       "color":"#B848FF",
+      "name":"shader lighing with glow 02",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":1.2,
         "ef-shd_fade-in":0.080000000000000002,
         "ef-shd_fade-out":0.080000000000000002,
@@ -796,16 +797,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader lighing with glow 03",
+      "type":"brush_effect_shader",
       "color":"#B12FCD",
+      "name":"shader lighing with glow 03",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":1.2,
         "ef-shd_fade-in":0.080000000000000002,
         "ef-shd_fade-out":0.080000000000000002,
@@ -816,16 +817,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader ui noise halo 01",
+      "type":"brush_effect_shader",
       "color":"#CDA95E",
+      "name":"shader ui noise halo 01",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":5.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -836,16 +837,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader flame 01",
+      "type":"brush_effect_shader",
       "color":"#FF5000",
+      "name":"shader flame 01",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":5.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -856,16 +857,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader monster 01",
+      "type":"brush_effect_shader",
       "color":"#A64000",
+      "name":"shader monster 01",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":5.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -876,16 +877,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader monster 02",
+      "type":"brush_effect_shader",
       "color":"#A64000",
+      "name":"shader monster 02",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":5.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -896,16 +897,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader monster 03",
+      "type":"brush_effect_shader",
       "color":"#A64000",
+      "name":"shader monster 03",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":5.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -916,16 +917,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader monster 04",
+      "type":"brush_effect_shader",
       "color":"#A64000",
+      "name":"shader monster 04",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":8.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -936,16 +937,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader monster 05",
+      "type":"brush_effect_shader",
       "color":"#A64000",
+      "name":"shader monster 05",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":5.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -956,16 +957,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader colors embody 01",
+      "type":"brush_effect_shader",
       "color":"#7BFF2D",
+      "name":"shader colors embody 01",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":5.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -976,16 +977,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
+      "type":"brush_effect_shader",
+      "color":"#0ACF6C",
       "name":"shader whirlpool 01",
-      "color":"#0ACF6C",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":5.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -996,16 +997,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
+      "type":"brush_effect_shader",
+      "color":"#0ACF6C",
       "name":"shader whirlpool 02",
-      "color":"#0ACF6C",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":5.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -1016,16 +1017,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader 70s Melt 01",
+      "type":"brush_effect_shader",
       "color":"#42BB38",
+      "name":"shader 70s Melt 01",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":10.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -1036,16 +1037,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader 70s Melt 02",
+      "type":"brush_effect_shader",
       "color":"#42BB38",
+      "name":"shader 70s Melt 02",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":10.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -1056,16 +1057,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader 70s Melt 03",
+      "type":"brush_effect_shader",
       "color":"#42BB38",
+      "name":"shader 70s Melt 03",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":10.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -1076,16 +1077,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader 70s Melt 04",
+      "type":"brush_effect_shader",
       "color":"#42BB38",
+      "name":"shader 70s Melt 04",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":10.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -1096,16 +1097,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader 70s Melt 05",
+      "type":"brush_effect_shader",
       "color":"#42BB38",
+      "name":"shader 70s Melt 05",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":10.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -1116,16 +1117,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader ART 01",
+      "type":"brush_effect_shader",
       "color":"#FF82FF",
+      "name":"shader ART 01",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":1.6000000000000001,
         "ef-shd_fade-in":0.25,
         "ef-shd_fade-out":0.25,
@@ -1136,16 +1137,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader ART 02",
+      "type":"brush_effect_shader",
       "color":"#FF82FF",
+      "name":"shader ART 02",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":5.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -1156,16 +1157,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader ART 03",
+      "type":"brush_effect_shader",
       "color":"#FF82FF",
+      "name":"shader ART 03",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":5.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -1176,16 +1177,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader ART 04",
+      "type":"brush_effect_shader",
       "color":"#FF82FF",
+      "name":"shader ART 04",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":10.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -1196,16 +1197,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader ART 05",
+      "type":"brush_effect_shader",
       "color":"#FF82FF",
+      "name":"shader ART 05",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":5.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -1216,16 +1217,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader Phanom Star 01",
+      "type":"brush_effect_shader",
       "color":"#B141FF",
+      "name":"shader Phanom Star 01",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":0.10000000000000001,
         "ef-shd_duration":3.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -1236,16 +1237,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":0.10000000000000001
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader Phanom Star 02",
+      "type":"brush_effect_shader",
       "color":"#B141FF",
+      "name":"shader Phanom Star 02",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":12.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":2.0,
@@ -1256,16 +1257,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader Phanom Star 03",
+      "type":"brush_effect_shader",
       "color":"#B141FF",
+      "name":"shader Phanom Star 03",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":16.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -1276,16 +1277,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader Phanom Star 04",
+      "type":"brush_effect_shader",
       "color":"#B141FF",
+      "name":"shader Phanom Star 04",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":13.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -1296,16 +1297,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader Phanom Star 05",
+      "type":"brush_effect_shader",
       "color":"#B141FF",
+      "name":"shader Phanom Star 05",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":13.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":3.0,
@@ -1316,16 +1317,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader Phanom Star 06",
+      "type":"brush_effect_shader",
       "color":"#B141FF",
+      "name":"shader Phanom Star 06",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":13.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -1336,16 +1337,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader Warp 01",
+      "type":"brush_effect_shader",
       "color":"#00B87B",
+      "name":"shader Warp 01",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":10.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -1356,16 +1357,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader Warp 02",
+      "type":"brush_effect_shader",
       "color":"#00B87B",
+      "name":"shader Warp 02",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":10.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -1376,16 +1377,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader Warp 04",
+      "type":"brush_effect_shader",
       "color":"#00B87B",
+      "name":"shader Warp 04",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":10.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -1396,16 +1397,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader Warp 03",
+      "type":"brush_effect_shader",
       "color":"#00B87B",
+      "name":"shader Warp 03",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":10.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -1416,16 +1417,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader Warp 05",
+      "type":"brush_effect_shader",
       "color":"#00B87B",
+      "name":"shader Warp 05",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":10.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -1436,16 +1437,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader Octagrams 01",
+      "type":"brush_effect_shader",
       "color":"#4B6BBC",
+      "name":"shader Octagrams 01",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":10.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -1456,16 +1457,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader Octagrams 02",
+      "type":"brush_effect_shader",
       "color":"#4B6BBC",
+      "name":"shader Octagrams 02",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":10.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -1476,16 +1477,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader Octagrams 03",
+      "type":"brush_effect_shader",
       "color":"#4B6BBC",
+      "name":"shader Octagrams 03",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":12.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -1496,16 +1497,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader Octagrams 04",
+      "type":"brush_effect_shader",
       "color":"#4B6BBC",
+      "name":"shader Octagrams 04",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":0.90000000000000002,
         "ef-shd_duration":12.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -1516,16 +1517,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":0.90000000000000002
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader Octagrams 05",
+      "type":"brush_effect_shader",
       "color":"#4B6BBC",
+      "name":"shader Octagrams 05",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":8.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":2.0,
@@ -1536,16 +1537,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader Octagrams 06",
+      "type":"brush_effect_shader",
       "color":"#4B6BBC",
+      "name":"shader Octagrams 06",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":8.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -1556,16 +1557,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader Octagrams 07",
+      "type":"brush_effect_shader",
       "color":"#4B6BBC",
+      "name":"shader Octagrams 07",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":8.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -1576,16 +1577,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader Wave 01",
+      "type":"brush_effect_shader",
       "color":"#CC6351",
+      "name":"shader Wave 01",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":5.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -1596,16 +1597,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader Wave 02",
+      "type":"brush_effect_shader",
       "color":"#CC6351",
+      "name":"shader Wave 02",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":10.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -1616,16 +1617,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader Wave 03",
+      "type":"brush_effect_shader",
       "color":"#CC6351",
+      "name":"shader Wave 03",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":5.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -1636,16 +1637,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader Wave 04",
+      "type":"brush_effect_shader",
       "color":"#CC6351",
+      "name":"shader Wave 04",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":10.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -1656,16 +1657,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader Wave 05",
+      "type":"brush_effect_shader",
       "color":"#CC6351",
+      "name":"shader Wave 05",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":10.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -1676,16 +1677,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader CRT 01",
+      "type":"brush_effect_shader",
       "color":"#00ACFF",
+      "name":"shader CRT 01",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":10.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -1696,16 +1697,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader CRT 02",
+      "type":"brush_effect_shader",
       "color":"#00ACFF",
+      "name":"shader CRT 02",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":10.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -1716,16 +1717,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader CRT 03",
+      "type":"brush_effect_shader",
       "color":"#00ACFF",
+      "name":"shader CRT 03",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":10.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -1736,16 +1737,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader CRT 04",
+      "type":"brush_effect_shader",
       "color":"#00ACFF",
+      "name":"shader CRT 04",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":5.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -1756,16 +1757,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader LED 01",
+      "type":"brush_effect_shader",
       "color":"#63D171",
+      "name":"shader LED 01",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":10.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -1776,16 +1777,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader LED 02",
+      "type":"brush_effect_shader",
       "color":"#63D171",
+      "name":"shader LED 02",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":9.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -1796,16 +1797,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader LED 03",
+      "type":"brush_effect_shader",
       "color":"#63D171",
+      "name":"shader LED 03",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":8.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -1816,16 +1817,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader LED 04",
+      "type":"brush_effect_shader",
       "color":"#63D171",
+      "name":"shader LED 04",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":8.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -1836,16 +1837,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader LED 05",
+      "type":"brush_effect_shader",
       "color":"#63D171",
+      "name":"shader LED 05",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":8.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -1856,16 +1857,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader HUE 01",
+      "type":"brush_effect_shader",
       "color":"#FF598E",
+      "name":"shader HUE 01",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":8.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -1876,16 +1877,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader HUE 02",
+      "type":"brush_effect_shader",
       "color":"#FF598E",
+      "name":"shader HUE 02",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":8.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -1896,16 +1897,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader HUE 03",
+      "type":"brush_effect_shader",
       "color":"#FF598E",
+      "name":"shader HUE 03",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":10.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -1916,16 +1917,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader HUE 04",
+      "type":"brush_effect_shader",
       "color":"#FF598E",
+      "name":"shader HUE 04",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":8.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -1936,16 +1937,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader HUE 05",
+      "type":"brush_effect_shader",
       "color":"#FF598E",
+      "name":"shader HUE 05",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":8.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -1956,16 +1957,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader Magnify 01",
+      "type":"brush_effect_shader",
       "color":"#0AFF00",
+      "name":"shader Magnify 01",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":5.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -1976,16 +1977,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader Magnify 02",
+      "type":"brush_effect_shader",
       "color":"#0AFF00",
+      "name":"shader Magnify 02",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":8.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -1996,16 +1997,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader Magnify 03",
+      "type":"brush_effect_shader",
       "color":"#0AFF00",
+      "name":"shader Magnify 03",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":8.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -2016,16 +2017,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader Magnify 04",
+      "type":"brush_effect_shader",
       "color":"#0AFF00",
+      "name":"shader Magnify 04",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":8.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -2036,16 +2037,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader Magnify 05",
+      "type":"brush_effect_shader",
       "color":"#0AFF00",
+      "name":"shader Magnify 05",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":8.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -2056,16 +2057,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader Mosaic 01",
+      "type":"brush_effect_shader",
       "color":"#ABFF71",
+      "name":"shader Mosaic 01",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":5.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -2076,16 +2077,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader Mosaic 02",
+      "type":"brush_effect_shader",
       "color":"#ABFF71",
+      "name":"shader Mosaic 02",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":8.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -2096,16 +2097,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader Mosaic 03",
+      "type":"brush_effect_shader",
       "color":"#ABFF71",
+      "name":"shader Mosaic 03",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":8.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -2116,16 +2117,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader Mosaic 04",
+      "type":"brush_effect_shader",
       "color":"#ABFF71",
+      "name":"shader Mosaic 04",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":8.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -2136,16 +2137,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader Mosaic 05",
+      "type":"brush_effect_shader",
       "color":"#ABFF71",
+      "name":"shader Mosaic 05",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":8.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -2156,16 +2157,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader Posterization 02",
+      "type":"brush_effect_shader",
       "color":"#9C6BDC",
+      "name":"shader Posterization 02",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":8.0,
         "ef-shd_fade-in":0.20000000000000001,
         "ef-shd_fade-out":0.20000000000000001,
@@ -2176,16 +2177,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader Posterization 03",
+      "type":"brush_effect_shader",
       "color":"#9C6BDC",
+      "name":"shader Posterization 03",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":8.0,
         "ef-shd_fade-in":0.20000000000000001,
         "ef-shd_fade-out":0.20000000000000001,
@@ -2196,16 +2197,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader Posterization 04",
+      "type":"brush_effect_shader",
       "color":"#9C6BDC",
+      "name":"shader Posterization 04",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":8.0,
         "ef-shd_fade-in":0.20000000000000001,
         "ef-shd_fade-out":0.20000000000000001,
@@ -2216,16 +2217,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader Posterization 05",
+      "type":"brush_effect_shader",
       "color":"#9C6BDC",
+      "name":"shader Posterization 05",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":8.0,
         "ef-shd_fade-in":0.20000000000000001,
         "ef-shd_fade-out":0.20000000000000001,
@@ -2236,16 +2237,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader Ripple 01",
+      "type":"brush_effect_shader",
       "color":"#006077",
+      "name":"shader Ripple 01",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":10.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -2256,16 +2257,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader Ripple 02",
+      "type":"brush_effect_shader",
       "color":"#006077",
+      "name":"shader Ripple 02",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":5.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -2276,16 +2277,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader Ripple 03",
+      "type":"brush_effect_shader",
       "color":"#006077",
+      "name":"shader Ripple 03",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":5.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -2296,16 +2297,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader Ripple 04",
+      "type":"brush_effect_shader",
       "color":"#006077",
+      "name":"shader Ripple 04",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":5.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -2316,16 +2317,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader Ripple 05",
+      "type":"brush_effect_shader",
       "color":"#006077",
+      "name":"shader Ripple 05",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":5.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -2336,16 +2337,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader Shok Wave 01",
+      "type":"brush_effect_shader",
       "color":"#1594FF",
+      "name":"shader Shok Wave 01",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":5.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -2356,16 +2357,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader Shok Wave 02",
+      "type":"brush_effect_shader",
       "color":"#1594FF",
+      "name":"shader Shok Wave 02",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":5.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -2376,16 +2377,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader Shok Wave 03",
+      "type":"brush_effect_shader",
       "color":"#1594FF",
+      "name":"shader Shok Wave 03",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":5.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -2396,16 +2397,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader Shok Wave 04",
+      "type":"brush_effect_shader",
       "color":"#1594FF",
+      "name":"shader Shok Wave 04",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":5.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -2416,16 +2417,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader Shok Wave 05",
+      "type":"brush_effect_shader",
       "color":"#1594FF",
+      "name":"shader Shok Wave 05",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":5.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -2436,16 +2437,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader Sketch 01",
+      "type":"brush_effect_shader",
       "color":"#FF8C5E",
+      "name":"shader Sketch 01",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":5.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -2456,16 +2457,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader Sketch 02",
+      "type":"brush_effect_shader",
       "color":"#FF8C5E",
+      "name":"shader Sketch 02",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":1.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -2476,16 +2477,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader Sketch 03",
+      "type":"brush_effect_shader",
       "color":"#FF8C5E",
+      "name":"shader Sketch 03",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":1.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -2496,16 +2497,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader Scanlines 01",
+      "type":"brush_effect_shader",
       "color":"#2ECCD1",
+      "name":"shader Scanlines 01",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":5.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -2516,16 +2517,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader Scanlines 02",
+      "type":"brush_effect_shader",
       "color":"#2ECCD1",
+      "name":"shader Scanlines 02",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":5.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -2536,16 +2537,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader Scanlines 03",
+      "type":"brush_effect_shader",
       "color":"#2ECCD1",
+      "name":"shader Scanlines 03",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":5.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -2556,16 +2557,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader Emboss 01",
+      "type":"brush_effect_shader",
       "color":"#A381FF",
+      "name":"shader Emboss 01",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":5.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -2576,16 +2577,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader Emboss 02",
+      "type":"brush_effect_shader",
       "color":"#A381FF",
+      "name":"shader Emboss 02",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":5.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -2596,16 +2597,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader Emboss 03",
+      "type":"brush_effect_shader",
       "color":"#A381FF",
+      "name":"shader Emboss 03",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":5.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -2616,16 +2617,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader Abberation",
+      "type":"brush_effect_shader",
       "color":"#9C0DE4",
+      "name":"shader Abberation",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":10.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -2636,16 +2637,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader Posterization 01",
+      "type":"brush_effect_shader",
       "color":"#9C6BDC",
+      "name":"shader Posterization 01",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":5.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -2656,16 +2657,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader Thermal",
+      "type":"brush_effect_shader",
       "color":"#D62800",
+      "name":"shader Thermal",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":5.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -2676,16 +2677,16 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     },
     {
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"shader Revert",
+      "type":"brush_effect_shader",
       "color":"#009EB1",
+      "name":"shader Revert",
+      "texture":"texture_ve_icon_effect_shader",
       "properties":{
+        "ef-shd_alpha":1.0,
         "ef-shd_duration":5.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
@@ -2696,11 +2697,10 @@
         "ef-shd_use-merge-cfg":false,
         "icon":{
           "name":"texture_baron"
-        },
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader"
+        }
+      }
     }
   ],
+  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>",
   "version":"1"
 }

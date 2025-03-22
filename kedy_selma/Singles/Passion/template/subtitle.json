@@ -1,16 +1,10 @@
 {
-  "version":"1",
   "data":{
-    "subtitle_alkapivo":{
+    "subtitle_kedy_selma_passion_poem":{
       "lines":[
-        "Alkapivo",
-        "2024"
-      ]
-    },
-    "subtitle_kedy_selma":{
-      "lines":[
-        "kedy_selma",
-        ""
+        "Lorem ipsum",
+        "",
+        "kedy_selma"
       ]
     },
     "subtitle_kedy_selma_passion":{
@@ -19,13 +13,19 @@
         "Passion"
       ]
     },
-    "subtitle_kedy_selma_passion_poem":{
+    "subtitle_alkapivo":{
       "lines":[
-        "Lorem ipsum",
-        "",
-        "kedy_selma"
+        "Alkapivo",
+        "2025"
+      ]
+    },
+    "subtitle_kedy_selma":{
+      "lines":[
+        "kedy_selma",
+        ""
       ]
     }
   },
-  "model":"Collection<io.alkapivo.visu.service.subtitle.SubtitleTemplate>"
+  "model":"Collection<io.alkapivo.visu.service.subtitle.SubtitleTemplate>",
+  "version":"1"
 }

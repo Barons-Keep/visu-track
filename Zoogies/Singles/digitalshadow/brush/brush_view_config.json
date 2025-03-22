@@ -1,102 +1,43 @@
 {
+  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>",
   "version":"1",
   "data":[
     {
-      "color":"#26FF00",
       "type":"brush_view_config",
+      "texture":"texture_ve_icon_view_config",
+      "name":"default",
       "properties":{
-        "vw-cfg_cls-subtitle":false,
+        "vw-cfg_video-blend-col":"#FFFFFF",
+        "vw-cfg_video-blend-col-spd":0.0,
+        "vw-cfg_video-blend-dest":"INV_SRC_ALPHA",
+        "vw-cfg_video-blend-eq":"ADD",
+        "vw-cfg_video-blend-eq-alpha":"ADD",
+        "vw-cfg_video-blend-src":"SRC_ALPHA",
+        "vw-cfg_video-use-blend":true,
+        "vw-cfg_video-use-blend-col":true,
+        "vw-cfg_change-video-alpha":false,
+        "vw-cfg_cls-bkg-col":true,
+        "vw-cfg_cls-bkg-texture":true,
+        "vw-cfg_cls-frg-col":true,
+        "vw-cfg_cls-frg-texture":true,
+        "vw-cfg_cls-subtitle":true,
         "vw-cfg_render-hud":true,
-        "vw-cfg_render-video":false,
+        "vw-cfg_render-subtitle":true,
+        "vw-cfg_render-video":true,
+        "vw-cfg_render-video-after":false,
         "vw-cfg_use-render-hud":true,
-        "icon":{
-          "name":"texture_baron"
-        },
-        "vw-cfg_use-render-video":false
+        "vw-cfg_use-render-subtitle":true,
+        "vw-cfg_use-render-video":true,
+        "vw-cfg_use-render-video-after":true,
+        "vw-cfg_use-video-alpha":true,
+        "vw-cfg_video-alpha":{
+          "factor":0.0,
+          "target":0.0,
+          "value":1.0,
+          "increase":0.0
+        }
       },
-      "texture":"texture_ve_icon_view_config",
-      "name":"render HUD ON"
-    },
-    {
-      "color":"#FF2800",
-      "type":"brush_view_config",
-      "properties":{
-        "vw-cfg_cls-subtitle":false,
-        "vw-cfg_render-hud":false,
-        "vw-cfg_render-video":0.0,
-        "vw-cfg_use-render-hud":true,
-        "icon":{
-          "name":"texture_baron"
-        },
-        "vw-cfg_use-render-video":false
-      },
-      "texture":"texture_ve_icon_view_config",
-      "name":"render HUD OFF"
-    },
-    {
-      "color":"#26FF00",
-      "type":"brush_view_config",
-      "properties":{
-        "vw-cfg_cls-subtitle":false,
-        "vw-cfg_render-hud":false,
-        "vw-cfg_render-video":1.0,
-        "vw-cfg_use-render-hud":false,
-        "icon":{
-          "name":"texture_baron"
-        },
-        "vw-cfg_use-render-video":1.0
-      },
-      "texture":"texture_ve_icon_view_config",
-      "name":"render video ON"
-    },
-    {
-      "color":"#FF2800",
-      "type":"brush_view_config",
-      "properties":{
-        "vw-cfg_cls-subtitle":false,
-        "vw-cfg_render-hud":false,
-        "vw-cfg_render-video":0.0,
-        "vw-cfg_use-render-hud":false,
-        "icon":{
-          "name":"texture_baron"
-        },
-        "vw-cfg_use-render-video":1.0
-      },
-      "texture":"texture_ve_icon_view_config",
-      "name":"render video OFF"
-    },
-    {
-      "color":"#5BD908",
-      "type":"brush_view_config",
-      "properties":{
-        "vw-cfg_cls-subtitle":false,
-        "vw-cfg_render-hud":false,
-        "vw-cfg_render-video":1.0,
-        "vw-cfg_use-render-hud":false,
-        "icon":{
-          "name":"texture_baron"
-        },
-        "vw-cfg_use-render-video":0.0
-      },
-      "texture":"texture_ve_icon_view_config",
-      "name":"render particles ON"
-    },
-    {
-      "color":"#FF2859",
-      "type":"brush_view_config",
-      "properties":{
-        "vw-cfg_cls-subtitle":false,
-        "vw-cfg_render-hud":false,
-        "vw-cfg_render-video":1.0,
-        "vw-cfg_use-render-hud":false,
-        "icon":{
-          "name":"texture_baron"
-        },
-        "vw-cfg_use-render-video":0.0
-      },
-      "texture":"texture_ve_icon_view_config",
-      "name":"render particles OFF"
+      "color":"#00FF00"
     }
-  ],
-  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>"
+  ]
 }

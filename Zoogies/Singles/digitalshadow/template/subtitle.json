@@ -1,6 +1,13 @@
 {
+  "model":"Collection<io.alkapivo.visu.service.subtitle.SubtitleTemplate>",
   "version":"1",
   "data":{
+    "subtitle_alkapivo":{
+      "lines":[
+        "Alkapivo",
+        "2025"
+      ]
+    },
     "subtitle-gm-boot-log":{
       "lines":[
         "Collision Event time(microsecs)=3",
@@ -32,12 +39,6 @@
         "        "
       ]
     },
-    "subtitle_alkapivo":{
-      "lines":[
-        "Alkapivo",
-        "2024"
-      ]
-    },
     "subtitle_zoogies_digitalshadow":{
       "lines":[
         "",
@@ -50,6 +51,5 @@
         ""
       ]
     }
-  },
-  "model":"Collection<io.alkapivo.visu.service.subtitle.SubtitleTemplate>"
+  }
 }

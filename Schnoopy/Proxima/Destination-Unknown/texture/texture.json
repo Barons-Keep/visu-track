@@ -1,222 +1,110 @@
 {
   "model":"Collection<io.alkapivo.core.service.texture.TextureIntent>",
+  "version":"1",
   "data":{
-    "texture_shroom_bazyl_green":{
-      "prefetch":true,
-      "originX":128.0,
-      "file":"texture/texture_shroom_bazyl_green.png",
-      "originY":128.0,
-      "name":"texture_shroom_bazyl_green",
-      "frames":2.0
-    },
-    "texture_shroom_bazyl_magenta":{
-      "prefetch":true,
-      "originX":128.0,
-      "file":"texture/texture_shroom_bazyl_magenta.png",
-      "originY":128.0,
-      "name":"texture_shroom_bazyl_magenta",
-      "frames":2.0
-    },
-    "texture_shroom_bazyl_red":{
-      "prefetch":true,
-      "originX":128.0,
-      "file":"texture/texture_shroom_bazyl_red.png",
-      "originY":128.0,
-      "name":"texture_shroom_bazyl_red",
-      "frames":2.0
-    },
-    "texture_shroom_baron_green":{
-      "prefetch":true,
-      "originX":144.0,
-      "file":"texture/texture_shroom_baron_green.png",
-      "originY":128.0,
-      "name":"texture_shroom_baron_green",
-      "frames":2.0
-    },
-    "texture_shroom_baron_magenta":{
-      "prefetch":true,
-      "originX":144.0,
-      "file":"texture/texture_shroom_baron_magenta.png",
-      "originY":128.0,
-      "name":"texture_shroom_baron_magenta",
-      "frames":2.0
-    },
-    "texture_shroom_baron_red":{
-      "prefetch":true,
-      "originX":144.0,
-      "file":"texture/texture_shroom_baron_red.png",
-      "originY":128.0,
-      "name":"texture_shroom_baron_red",
-      "frames":2.0
-    },
     "texture_schnoopy_green":{
-      "prefetch":true,
       "originX":128.0,
-      "file":"texture/texture_schnoopy_green.png",
       "originY":128.0,
+      "frames":2.0,
       "name":"texture_schnoopy_green",
-      "frames":2.0
+      "file":"texture/texture_schnoopy_green.png",
+      "prefetch":true
     },
     "texture_schnoopy_blue":{
-      "prefetch":true,
       "originX":128.0,
-      "file":"texture/texture_schnoopy_blue.png",
       "originY":128.0,
+      "frames":2.0,
       "name":"texture_schnoopy_blue",
-      "frames":2.0
+      "file":"texture/texture_schnoopy_blue.png",
+      "prefetch":true
     },
     "texture_bkg_schnoopy_redacted":{
-      "prefetch":true,
       "originX":0.0,
-      "file":"texture/texture_bkg_schnoopy_redacted.png",
       "originY":0.0,
+      "frames":1.0,
       "name":"texture_bkg_schnoopy_redacted",
-      "frames":1.0
+      "file":"texture/texture_bkg_schnoopy_redacted.png",
+      "prefetch":true
     },
     "texture_bkg_spaace_2":{
-      "prefetch":true,
       "originX":0.0,
-      "file":"texture/texture_bkg_spaace_2.png",
       "originY":0.0,
+      "frames":1.0,
       "name":"texture_bkg_spaace_2",
-      "frames":1.0
+      "file":"texture/texture_bkg_spaace_2.png",
+      "prefetch":true
     },
     "texture_bkg_spaace_1":{
-      "prefetch":true,
       "originX":0.0,
-      "file":"texture/texture_bkg_spaace_1.png",
       "originY":0.0,
+      "frames":1.0,
       "name":"texture_bkg_spaace_1",
-      "frames":1.0
-    },
-    "texture_abstract_1":{
-      "prefetch":true,
-      "originX":0.0,
-      "file":"texture/texture_abstract_1.png",
-      "originY":0.0,
-      "name":"texture_abstract_1",
-      "frames":1.0
-    },
-    "texture_abstract_2":{
-      "prefetch":true,
-      "originX":0.0,
-      "file":"texture/texture_abstract_2.png",
-      "originY":0.0,
-      "name":"texture_abstract_2",
-      "frames":1.0
+      "file":"texture/texture_bkg_spaace_1.png",
+      "prefetch":true
     },
     "texture_bkg_schnoopy_kastles":{
-      "prefetch":true,
       "originX":0.0,
-      "file":"texture/texture_bkg_schnoopy_kastles.png",
       "originY":0.0,
+      "frames":1.0,
       "name":"texture_bkg_schnoopy_kastles",
-      "frames":1.0
+      "file":"texture/texture_bkg_schnoopy_kastles.png",
+      "prefetch":true
     },
     "texture_bkg_schnoopy_kassykasai":{
-      "prefetch":true,
       "originX":0.0,
-      "file":"texture/texture_bkg_schnoopy_kassykasai.png",
       "originY":0.0,
+      "frames":1.0,
       "name":"texture_bkg_schnoopy_kassykasai",
-      "frames":1.0
+      "file":"texture/texture_bkg_schnoopy_kassykasai.png",
+      "prefetch":true
     },
     "texture_schnoopy_white":{
-      "prefetch":true,
       "originX":128.0,
-      "file":"texture/texture_schnoopy_white.png",
       "originY":128.0,
+      "frames":2.0,
       "name":"texture_schnoopy_white",
-      "frames":2.0
-    },
-    "texture_bullet_blue":{
-      "prefetch":true,
-      "originX":32.0,
-      "file":"texture/texture_bullet_blue.png",
-      "originY":32.0,
-      "name":"texture_bullet_blue",
-      "frames":10.0
+      "file":"texture/texture_schnoopy_white.png",
+      "prefetch":true
     },
     "texture_schnoopy_yellow":{
-      "prefetch":true,
       "originX":128.0,
-      "file":"texture/texture_schnoopy_yellow.png",
       "originY":128.0,
+      "frames":2.0,
       "name":"texture_schnoopy_yellow",
-      "frames":2.0
+      "file":"texture/texture_schnoopy_yellow.png",
+      "prefetch":true
     },
     "texture_schnoopy_red":{
-      "prefetch":true,
       "originX":128.0,
-      "file":"texture/texture_schnoopy_red.png",
       "originY":128.0,
+      "frames":2.0,
       "name":"texture_schnoopy_red",
-      "frames":2.0
-    },
-    "texture_bullet_circle_blue":{
-      "prefetch":true,
-      "originX":32.0,
-      "file":"texture/texture_bullet_circle_blue.png",
-      "originY":32.0,
-      "name":"texture_bullet_circle_blue",
-      "frames":6.0
+      "file":"texture/texture_schnoopy_red.png",
+      "prefetch":true
     },
     "texture_schnoopy_magenta":{
-      "prefetch":true,
       "originX":128.0,
-      "file":"texture/texture_schnoopy_magenta.png",
       "originY":128.0,
+      "frames":2.0,
       "name":"texture_schnoopy_magenta",
-      "frames":2.0
+      "file":"texture/texture_schnoopy_magenta.png",
+      "prefetch":true
     },
-    "texture_shroom_baron_yellow":{
-      "prefetch":true,
-      "originX":144.0,
-      "file":"texture/texture_shroom_baron_yellow.png",
-      "originY":128.0,
-      "name":"texture_shroom_baron_yellow",
-      "frames":2.0
+    "texture_abstract_2":{
+      "originX":0.0,
+      "originY":0.0,
+      "frames":1.0,
+      "name":"texture_abstract_2",
+      "file":"texture/texture_abstract_2.png",
+      "prefetch":true
     },
-    "texture_shroom_bazyl_yellow":{
-      "prefetch":true,
-      "originX":128.0,
-      "file":"texture/texture_shroom_bazyl_yellow.png",
-      "originY":128.0,
-      "name":"texture_shroom_bazyl_yellow",
-      "frames":2.0
-    },
-    "texture_shroom_baron":{
-      "prefetch":true,
-      "originX":144.0,
-      "file":"texture/texture_shroom_baron.png",
-      "originY":128.0,
-      "name":"texture_shroom_baron",
-      "frames":2.0
-    },
-    "texture_shroom_bazyl":{
-      "prefetch":true,
-      "originX":128.0,
-      "file":"texture/texture_shroom_bazyl.png",
-      "originY":128.0,
-      "name":"texture_shroom_bazyl",
-      "frames":2.0
-    },
-    "texture_shroom_baron_blue":{
-      "prefetch":true,
-      "originX":144.0,
-      "file":"texture/texture_shroom_baron_blue.png",
-      "originY":128.0,
-      "name":"texture_shroom_baron_blue",
-      "frames":2.0
-    },
-    "texture_shroom_bazyl_blue":{
-      "prefetch":true,
-      "originX":128.0,
-      "file":"texture/texture_shroom_bazyl_blue.png",
-      "originY":128.0,
-      "name":"texture_shroom_bazyl_blue",
-      "frames":2.0
+    "texture_abstract_1":{
+      "originX":0.0,
+      "originY":0.0,
+      "frames":1.0,
+      "name":"texture_abstract_1",
+      "file":"texture/texture_abstract_1.png",
+      "prefetch":true
     }
-  },
-  "version":"1"
+  }
 }

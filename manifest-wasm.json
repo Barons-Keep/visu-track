@@ -3,7 +3,7 @@
   "model": "Collection<io.alkapivo.visu.ui.VisuMenuNode>",
   "data": {
     "root.artists": {
-      "title": "Select artist",
+      "title": "Choose Artist",
       "back": "root",
       "entries": [
         {
@@ -25,6 +25,15 @@
           }
         },
         {
+          "name": "Sewerslvt",
+          "event": {
+            "type": "open-node",
+            "data": {
+              "node": "root.artists.sewerslvt"
+            }
+          }
+        },
+        {
           "name": "Zoogies",
           "event": {
             "type": "open-node",
@@ -36,7 +45,7 @@
       ]
     },
     "root.artists.kedy_selma": {
-      "title": "Select track",
+      "title": "Pick a Track",
       "back": "root.artists",
       "entries": [
         {
@@ -60,11 +69,11 @@
       ]
     },
     "root.artists.schnoopy": {
-      "title": "Select track",
+      "title": "Pick a Track",
       "back": "root.artists",
       "entries": [
         {
-          "name": "Destination Unknown",
+          "name": "Destination Unknown\n(level under construction)",
           "event": {
             "type": "load-track",
             "data": {
@@ -74,8 +83,32 @@
         }
       ]
     },
+    "root.artists.sewerslvt": {
+      "title": "Pick a Track",
+      "back": "root.artists",
+      "entries": [
+        {
+          "name": "Psychosis",
+          "event": {
+            "type": "load-track",
+            "data": {
+              "path": "track/Sewerslvt/The-World-is-Fvcked/Psychosis/manifest.visu"
+            }
+          }
+        },
+        {
+          "name": "Purple Hearts In Her Eyes\n(level under construction)",
+          "event": {
+            "type": "load-track",
+            "data": {
+              "path": "track/Sewerslvt/Skitzofrenia-Simulation/Purple-Hearts-In-Her-Eyes/manifest.visu"
+            }
+          }
+        }
+      ]
+    },
     "root.artists.zoogies": {
-      "title": "Select track",
+      "title": "Pick a Track",
       "back": "root.artists",
       "entries": [
         {
