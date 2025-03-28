@@ -1,0 +1,9 @@
+{
+  "model":"Collection<io.alkapivo.core.service.sound.SoundIntent>",
+  "data":{
+    "sound_external":{
+      "file":"Schnoopy-Destination-Unknown.ogg"
+    }
+  },
+  "version":"1"
+}

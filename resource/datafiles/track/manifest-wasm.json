@@ -1,0 +1,150 @@
+{
+  "version": "1",
+  "model": "Collection<io.alkapivo.visu.ui.VisuMenuNode>",
+  "data": {
+    "root.artists": {
+      "title": "Choose Artist",
+      "back": "root",
+      "entries": [
+        {
+          "name": "kedy_selma",
+          "event": {
+            "type": "open-node",
+            "data": {
+              "node": "root.artists.kedy_selma"
+            }
+          }
+        },
+        {
+          "name": "nfract",
+          "event": {
+            "type": "open-node",
+            "data": {
+              "node": "root.artists.nfract"
+            }
+          }
+        },
+        {
+          "name": "Schnoopy",
+          "event": {
+            "type": "open-node",
+            "data": {
+              "node": "root.artists.schnoopy"
+            }
+          }
+        },
+        {
+          "name": "Sewerslvt",
+          "event": {
+            "type": "open-node",
+            "data": {
+              "node": "root.artists.sewerslvt"
+            }
+          }
+        },
+        {
+          "name": "Zoogies",
+          "event": {
+            "type": "open-node",
+            "data": {
+              "node": "root.artists.zoogies"
+            }
+          }
+        }
+      ]
+    },
+    "root.artists.kedy_selma": {
+      "title": "Pick a Track",
+      "back": "root.artists",
+      "entries": [
+        {
+          "name": "Just To Create Something",
+          "event": {
+            "type": "load-track",
+            "data": {
+              "path": "track/kedy_selma/Just-To-Create-Something/Just-To-Create-Something/manifest.visu"
+            }
+          }
+        },
+        {
+          "name": "Passion",
+          "event": {
+            "type": "load-track",
+            "data": {
+              "path": "track/kedy_selma/Singles/Passion/manifest.visu"
+            }
+          }
+        }
+      ]
+    },
+    "root.artists.nfract": {
+      "title": "Pick a Track",
+      "back": "root.artists",
+      "entries": [
+        {
+          "name": "Hikikomori Condition\n(level under construction)",
+          "event": {
+            "type": "load-track",
+            "data": {
+              "path": "track/nfract/Emo-Girl/Hikikomori-Condition/manifest.visu"
+            }
+          }
+        }
+      ]
+    },
+    "root.artists.schnoopy": {
+      "title": "Pick a Track",
+      "back": "root.artists",
+      "entries": [
+        {
+          "name": "Destination Unknown\n(level under construction)",
+          "event": {
+            "type": "load-track",
+            "data": {
+              "path": "track/Schnoopy/Proxima/Destination-Unknown/manifest.visu"
+            }
+          }
+        }
+      ]
+    },
+    "root.artists.sewerslvt": {
+      "title": "Pick a Track",
+      "back": "root.artists",
+      "entries": [
+        {
+          "name": "Psychosis",
+          "event": {
+            "type": "load-track",
+            "data": {
+              "path": "track/Sewerslvt/The-World-is-Fvcked/Psychosis/manifest.visu"
+            }
+          }
+        },
+        {
+          "name": "Purple Hearts In Her Eyes\n(level under construction)",
+          "event": {
+            "type": "load-track",
+            "data": {
+              "path": "track/Sewerslvt/Skitzofrenia-Simulation/Purple-Hearts-In-Her-Eyes/manifest.visu"
+            }
+          }
+        }
+      ]
+    },
+    "root.artists.zoogies": {
+      "title": "Pick a Track",
+      "back": "root.artists",
+      "entries": [
+        {
+          "name": "digitalshadow",
+          "event": {
+            "type": "load-track",
+            "data": {
+              "path": "track/Zoogies/Singles/digitalshadow/manifest.visu"
+            }
+          }
+        }
+      ]
+    }
+  }
+}
