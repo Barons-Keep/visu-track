@@ -1,5 +1,4 @@
 {
-  "model":"Collection<io.alkapivo.visu.service.coin.CoinTemplate>",
   "data":{
     "coin-force-5":{
       "category":"force",
@@ -11,8 +10,8 @@
         "animate":false,
         "blend":"#FFFFFF",
         "scaleX":6.5,
-        "scaleY":6.5,
         "speed":30.0,
+        "scaleY":6.5,
         "name":"texture_coin_force",
         "randomFrame":false
       },
@@ -36,8 +35,8 @@
         "animate":false,
         "blend":"#FFFFFF",
         "scaleX":6.5,
-        "scaleY":6.5,
         "speed":30.0,
+        "scaleY":6.5,
         "name":"texture_coin_point",
         "randomFrame":false
       },
@@ -52,5 +51,6 @@
       "amount":5.0
     }
   },
+  "model":"Collection<io.alkapivo.visu.service.coin.CoinTemplate>",
   "version":"1"
 }

@@ -1,5 +1,4 @@
 {
-  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>",
   "data":[
     {
       "properties":{
@@ -67,8 +66,8 @@
         }
       },
       "type":"brush_grid_config",
-      "name":"default",
       "color":"#00FF00",
+      "name":"default",
       "texture":"texture_ve_icon_grid_config"
     },
     {
@@ -137,8 +136,8 @@
         }
       },
       "type":"brush_grid_config",
-      "name":"clear, alpha: 0.0",
       "color":"#2E74FC",
+      "name":"clear, alpha: 0.0",
       "texture":"texture_ve_icon_grid_config"
     },
     {
@@ -207,8 +206,8 @@
         }
       },
       "type":"brush_grid_config",
-      "name":"no-clear, alpha: 0.1",
       "color":"#FF4020",
+      "name":"no-clear, alpha: 0.1",
       "texture":"texture_ve_icon_grid_config"
     },
     {
@@ -277,10 +276,11 @@
         }
       },
       "type":"brush_grid_config",
-      "name":"speed: 0 >(0.5)> 2",
       "color":"#008EFF",
+      "name":"speed: 0 >(0.5)> 2",
       "texture":"texture_ve_icon_grid_config"
     }
   ],
+  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>",
   "version":"1"
 }

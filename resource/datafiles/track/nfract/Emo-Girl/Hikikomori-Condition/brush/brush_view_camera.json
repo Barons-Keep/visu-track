@@ -1,14 +1,14 @@
 {
-  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>",
   "data":[
     {
       "properties":{
+        "vw-cam_change-x":false,
         "vw-cam_change-y":false,
         "vw-cam_change-z":false,
         "vw-cam_dir":{
           "increase":0.0,
-          "target":0.0,
           "factor":0.0,
+          "target":0.0,
           "value":270.0
         },
         "vw-cam_follow":true,
@@ -19,20 +19,20 @@
         "vw-cam_lock-y":false,
         "vw-cam_move-angle":{
           "increase":0.0,
-          "target":1.0,
           "factor":0.01,
+          "target":1.0,
           "value":90.0
         },
         "vw-cam_move-speed":{
           "increase":0.0,
-          "target":1.0,
           "factor":0.01,
+          "target":1.0,
           "value":0.0
         },
         "vw-cam_pitch":{
           "increase":0.0,
-          "target":0.0,
           "factor":0.0,
+          "target":0.0,
           "value":-60.0
         },
         "vw-cam_reset-follow":true,
@@ -50,33 +50,33 @@
         "vw-cam_use-z":true,
         "vw-cam_x":{
           "increase":0.0,
-          "target":0.0,
           "factor":0.0,
+          "target":0.0,
           "value":4096.0
         },
         "vw-cam_y":{
           "increase":0.0,
-          "target":0.0,
           "factor":0.0,
+          "target":0.0,
           "value":6000.0
         },
         "vw-cam_z":{
           "increase":0.0,
-          "target":0.0,
           "factor":9999.0,
+          "target":0.0,
           "value":6000.0
         },
         "vw-cam_change-dir":false,
         "vw-cam_change-move-angle":true,
         "vw-cam_change-move-speed":true,
-        "vw-cam_change-pitch":false,
-        "vw-cam_change-x":false
+        "vw-cam_change-pitch":false
       },
       "type":"brush_view_camera",
-      "name":"default",
       "color":"#00FF00",
+      "name":"default",
       "texture":"texture_ve_icon_view_camera"
     }
   ],
+  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>",
   "version":"1"
 }

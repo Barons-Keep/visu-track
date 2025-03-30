@@ -1,5 +1,4 @@
 {
-  "model":"io.alkapivo.visu.controller.VisuTrack",
   "data":{
     "bpm-sub":2.0,
     "coin":"template/coin.json",
@@ -11,7 +10,6 @@
     "sound":"sound.json",
     "bullet":"template/bullet.json",
     "shader":"template/shader.json",
-    "texture":"texture/texture.json",
     "editor":[
       "brush/brush_view_layer.json",
       "brush/brush_view_subtitle.json",
@@ -30,8 +28,10 @@
       "brush/brush_view_camera.json",
       "brush/brush_view_config.json"
     ],
+    "texture":"texture/texture.json",
     "bpm":127.0,
     "bpm-count":8.0
   },
+  "model":"io.alkapivo.visu.controller.VisuTrack",
   "version":"1"
 }

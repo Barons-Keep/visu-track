@@ -39,7 +39,7 @@
               "feature":"SpriteFeature"
             },
             {
-              "lifespawnTimer":{
+              "lifespanTimer":{
                 "duration":15.0,
                 "finished":false,
                 "time":3.3713423333333328,
@@ -52,7 +52,7 @@
               "data":{
                 "duration":15.0
               },
-              "feature":"LifespawnFeature"
+              "feature":"LifespanFeature"
             },
             {
               "data":{
@@ -64,7 +64,7 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":0.5
@@ -96,14 +96,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":1.2
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":1.7
@@ -156,14 +156,14 @@
               "randomSpeed":2.5,
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":1.71
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":2.2999999999999998
@@ -189,14 +189,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":2.3999999999999999
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":2.8999999999999999
@@ -228,14 +228,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":3.6000000000000001
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":4.0999999999999996
@@ -288,14 +288,14 @@
               "randomSpeed":2.5,
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":3.7999999999999998
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":4.2999999999999998
@@ -321,14 +321,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":4.7999999999999998
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":5.2999999999999998
@@ -360,7 +360,7 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":5.75
@@ -455,7 +455,7 @@
         "name":"texture_shroom_baron_red",
         "randomFrame":false
       },
-      "lifespawnMax":15.0,
+      "lifespanMax":15.0,
       "mask":{
         "x":44.0,
         "y":28.0,
@@ -491,7 +491,7 @@
               "data":{
                 "duration":15.0
               },
-              "feature":"LifespawnFeature"
+              "feature":"LifespanFeature"
             },
             {
               "data":{
@@ -503,14 +503,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":2.0
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":2.2999999999999998
@@ -536,14 +536,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":1.7
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":2.7999999999999998
@@ -562,14 +562,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":3.2999999999999998
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":4.0
@@ -588,14 +588,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":4.0999999999999996
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":4.5999999999999996
@@ -614,14 +614,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":5.0
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":5.5
@@ -688,7 +688,7 @@
         "name":"texture_shroom_baron_green",
         "randomFrame":false
       },
-      "lifespawnMax":15.0,
+      "lifespanMax":15.0,
       "mask":{
         "x":44.0,
         "y":28.0,
@@ -724,7 +724,7 @@
               "data":{
                 "duration":15.0
               },
-              "feature":"LifespawnFeature"
+              "feature":"LifespanFeature"
             },
             {
               "data":{
@@ -736,14 +736,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":2.0
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":2.2999999999999998
@@ -769,14 +769,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":1.7
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":2.7999999999999998
@@ -795,14 +795,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":3.2999999999999998
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":4.0
@@ -821,14 +821,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":4.0999999999999996
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":4.5999999999999996
@@ -847,14 +847,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":5.0
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":5.5
@@ -921,7 +921,7 @@
         "name":"texture_shroom_baron_yellow",
         "randomFrame":false
       },
-      "lifespawnMax":15.0,
+      "lifespanMax":15.0,
       "mask":{
         "x":44.0,
         "y":28.0,
@@ -940,7 +940,7 @@
               "data":{
                 "duration":15.0
               },
-              "feature":"LifespawnFeature"
+              "feature":"LifespanFeature"
             },
             {
               "data":{
@@ -952,14 +952,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":2.0
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":2.2999999999999998
@@ -978,14 +978,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":3.2999999999999998
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":4.0
@@ -1004,14 +1004,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":4.0999999999999996
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":4.5999999999999996
@@ -1030,14 +1030,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":5.0
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":5.5
@@ -1103,7 +1103,7 @@
         "name":"texture_shroom_baron_green",
         "randomFrame":false
       },
-      "lifespawnMax":15.0,
+      "lifespanMax":15.0,
       "mask":{
         "x":44.0,
         "y":28.0,
@@ -1142,7 +1142,7 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":0.050000000000000003
@@ -1175,7 +1175,7 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":0.0625
@@ -1188,7 +1188,7 @@
               "data":{
                 "duration":16.0
               },
-              "feature":"LifespawnFeature"
+              "feature":"LifespanFeature"
             },
             {
               "data":{
@@ -1198,7 +1198,7 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":1.6000000000000001
@@ -1225,7 +1225,7 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":1.25
@@ -1245,7 +1245,7 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":1.25
@@ -1265,7 +1265,7 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":1.25
@@ -1288,14 +1288,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":3.02
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":4.5
@@ -1313,7 +1313,7 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":4.5
@@ -1381,7 +1381,7 @@
         "name":"texture_shroom_bazyl_red",
         "randomFrame":true
       },
-      "lifespawnMax":15.0,
+      "lifespanMax":15.0,
       "mask":{
         "x":32.0,
         "y":32.0,
@@ -1400,7 +1400,7 @@
               "data":{
                 "duration":16.0
               },
-              "feature":"LifespawnFeature"
+              "feature":"LifespanFeature"
             },
             {
               "data":{
@@ -1410,7 +1410,7 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":1.3
@@ -1435,7 +1435,7 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":1.8
@@ -1454,7 +1454,7 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":1.8
@@ -1510,7 +1510,7 @@
         "name":"texture_shroom_bazyl_blue",
         "randomFrame":true
       },
-      "lifespawnMax":15.0,
+      "lifespanMax":15.0,
       "mask":{
         "x":32.0,
         "y":32.0,
@@ -1529,7 +1529,7 @@
               "data":{
                 "duration":16.0
               },
-              "feature":"LifespawnFeature"
+              "feature":"LifespanFeature"
             },
             {
               "data":{
@@ -1539,7 +1539,7 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":1.3
@@ -1564,7 +1564,7 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":1.8
@@ -1583,7 +1583,7 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":1.8
@@ -1639,7 +1639,7 @@
         "name":"texture_shroom_bazyl_red",
         "randomFrame":true
       },
-      "lifespawnMax":15.0,
+      "lifespanMax":15.0,
       "mask":{
         "x":32.0,
         "y":32.0,
@@ -1656,7 +1656,7 @@
           "type":108776.0,
           "features":[
             {
-              "lifespawnTimer":{
+              "lifespanTimer":{
                 "duration":16.0,
                 "finished":false,
                 "time":5.0264339999999965,
@@ -1669,7 +1669,7 @@
               "data":{
                 "duration":16.0
               },
-              "feature":"LifespawnFeature"
+              "feature":"LifespanFeature"
             },
             {
               "angle":{
@@ -1696,7 +1696,7 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":0.050000000000000003
@@ -1750,7 +1750,7 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":1.3300000000000001
@@ -1831,7 +1831,7 @@
         "name":"texture_shroom_bazyl_yellow",
         "randomFrame":true
       },
-      "lifespawnMax":15.0,
+      "lifespanMax":15.0,
       "mask":{
         "x":32.0,
         "y":32.0,
@@ -1848,7 +1848,7 @@
           "type":108776.0,
           "features":[
             {
-              "lifespawnTimer":{
+              "lifespanTimer":{
                 "duration":16.0,
                 "finished":false,
                 "time":6.1933136666666604,
@@ -1861,7 +1861,7 @@
               "data":{
                 "duration":16.0
               },
-              "feature":"LifespawnFeature"
+              "feature":"LifespanFeature"
             },
             {
               "angle":{
@@ -1888,7 +1888,7 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":0.050000000000000003
@@ -1942,7 +1942,7 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":1.3300000000000001
@@ -2023,7 +2023,7 @@
         "name":"texture_shroom_bazyl_green",
         "randomFrame":true
       },
-      "lifespawnMax":15.0,
+      "lifespanMax":15.0,
       "mask":{
         "x":32.0,
         "y":32.0,
@@ -2042,7 +2042,7 @@
               "data":{
                 "duration":16.0
               },
-              "feature":"LifespawnFeature"
+              "feature":"LifespanFeature"
             },
             {
               "data":{
@@ -2068,7 +2068,7 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":0.050000000000000003
@@ -2097,7 +2097,7 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":0.0625
@@ -2114,7 +2114,7 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":1.3
@@ -2145,14 +2145,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":1.8
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":2.5
@@ -2176,14 +2176,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":2.5
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":3.5
@@ -2210,14 +2210,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":3.5
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":4.5
@@ -2238,7 +2238,7 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":2.5
@@ -2302,7 +2302,7 @@
         "name":"texture_shroom_bazyl",
         "randomFrame":true
       },
-      "lifespawnMax":15.0,
+      "lifespanMax":15.0,
       "mask":{
         "x":32.0,
         "y":32.0,
@@ -2343,7 +2343,7 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":0.050000000000000003
@@ -2383,7 +2383,7 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":0.0625
@@ -2399,7 +2399,7 @@
               "feature":"SpriteFeature"
             },
             {
-              "lifespawnTimer":{
+              "lifespanTimer":{
                 "duration":15.0,
                 "finished":false,
                 "time":12.4372996666667,
@@ -2412,7 +2412,7 @@
               "data":{
                 "duration":15.0
               },
-              "feature":"LifespawnFeature"
+              "feature":"LifespanFeature"
             },
             {
               "cooldown":{
@@ -2436,14 +2436,14 @@
               "randomSpeed":0.0,
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":0.5
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":9.0
@@ -2529,7 +2529,7 @@
         "name":"texture_shroom_baron_yellow",
         "randomFrame":true
       },
-      "lifespawnMax":15.0,
+      "lifespanMax":15.0,
       "mask":{
         "x":44.0,
         "y":28.0,
@@ -2570,7 +2570,7 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":0.050000000000000003
@@ -2610,7 +2610,7 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":0.0625
@@ -2626,7 +2626,7 @@
               "feature":"SpriteFeature"
             },
             {
-              "lifespawnTimer":{
+              "lifespanTimer":{
                 "duration":15.0,
                 "finished":false,
                 "time":0.30030800000000002,
@@ -2639,7 +2639,7 @@
               "data":{
                 "duration":15.0
               },
-              "feature":"LifespawnFeature"
+              "feature":"LifespanFeature"
             },
             {
               "cooldown":{
@@ -2664,14 +2664,14 @@
               "randomSpeed":0.0,
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":0.25
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":5.0
@@ -2738,7 +2738,7 @@
         "name":"texture_shroom_baron_green",
         "randomFrame":true
       },
-      "lifespawnMax":15.0,
+      "lifespanMax":15.0,
       "mask":{
         "x":44.0,
         "y":28.0,
@@ -2755,7 +2755,7 @@
           "type":108776.0,
           "features":[
             {
-              "lifespawnTimer":{
+              "lifespanTimer":{
                 "duration":15.0,
                 "finished":false,
                 "time":6.1601866666666583,
@@ -2768,7 +2768,7 @@
               "data":{
                 "duration":15.0
               },
-              "feature":"LifespawnFeature"
+              "feature":"LifespanFeature"
             },
             {
               "data":{
@@ -2780,14 +2780,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":0.0
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":1.6000000000000001
@@ -2832,14 +2832,14 @@
               "randomSpeed":0.0,
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":1.5
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":4.5
@@ -2865,14 +2865,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":4.0
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":7.0
@@ -2917,14 +2917,14 @@
               "randomSpeed":0.0,
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":7.0
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":9.0
@@ -2950,14 +2950,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":9.0
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":11.0
@@ -3053,7 +3053,7 @@
         "name":"texture_shroom_baron_blue",
         "randomFrame":true
       },
-      "lifespawnMax":15.0,
+      "lifespanMax":15.0,
       "mask":{
         "x":44.0,
         "y":28.0,
@@ -3070,7 +3070,7 @@
           "type":108776.0,
           "features":[
             {
-              "lifespawnTimer":{
+              "lifespanTimer":{
                 "duration":16.0,
                 "finished":false,
                 "time":2.5479003333333323,
@@ -3083,7 +3083,7 @@
               "data":{
                 "duration":16.0
               },
-              "feature":"LifespawnFeature"
+              "feature":"LifespanFeature"
             },
             {
               "angle":{
@@ -3110,7 +3110,7 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":0.050000000000000003
@@ -3150,7 +3150,7 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":0.0625
@@ -3173,7 +3173,7 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":0.5
@@ -3217,14 +3217,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":1.3
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":1.7
@@ -3261,14 +3261,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":3.0
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":3.5
@@ -3308,14 +3308,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":4.0
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":4.5
@@ -3349,7 +3349,7 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":3.2000000000000002
@@ -3437,7 +3437,7 @@
         "name":"texture_shroom_baron",
         "randomFrame":true
       },
-      "lifespawnMax":15.0,
+      "lifespanMax":15.0,
       "mask":{
         "x":44.0,
         "y":28.0,
@@ -3478,7 +3478,7 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":0.050000000000000003
@@ -3518,7 +3518,7 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":0.0625
@@ -3534,7 +3534,7 @@
               "feature":"SpriteFeature"
             },
             {
-              "lifespawnTimer":{
+              "lifespanTimer":{
                 "duration":15.0,
                 "finished":false,
                 "time":5.8707853333333215,
@@ -3547,7 +3547,7 @@
               "data":{
                 "duration":15.0
               },
-              "feature":"LifespawnFeature"
+              "feature":"LifespanFeature"
             },
             {
               "duration":0.016666666666666666,
@@ -3619,7 +3619,7 @@
         "name":"texture_shroom_baron_yellow",
         "randomFrame":true
       },
-      "lifespawnMax":15.0,
+      "lifespanMax":15.0,
       "mask":{
         "x":44.0,
         "y":28.0,
@@ -3638,7 +3638,7 @@
               "data":{
                 "duration":15.0
               },
-              "feature":"LifespawnFeature"
+              "feature":"LifespanFeature"
             },
             {
               "data":{
@@ -3650,14 +3650,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":0.0
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":1.6000000000000001
@@ -3677,14 +3677,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":1.5
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":4.5
@@ -3703,14 +3703,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":4.0
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":7.0
@@ -3730,14 +3730,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":6.0
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":9.0
@@ -3756,14 +3756,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":9.0
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":11.0
@@ -3829,7 +3829,7 @@
         "name":"texture_shroom_baron_red",
         "randomFrame":true
       },
-      "lifespawnMax":15.0,
+      "lifespanMax":15.0,
       "mask":{
         "x":44.0,
         "y":28.0,
@@ -3870,7 +3870,7 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":0.050000000000000003
@@ -3910,7 +3910,7 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":0.0625
@@ -3926,7 +3926,7 @@
               "feature":"SpriteFeature"
             },
             {
-              "lifespawnTimer":{
+              "lifespanTimer":{
                 "duration":15.0,
                 "finished":false,
                 "time":6.0209919999999952,
@@ -3939,7 +3939,7 @@
               "data":{
                 "duration":15.0
               },
-              "feature":"LifespawnFeature"
+              "feature":"LifespanFeature"
             },
             {
               "duration":0.016666666666666666,
@@ -3992,7 +3992,7 @@
         "name":"texture_shroom_baron_green",
         "randomFrame":true
       },
-      "lifespawnMax":15.0,
+      "lifespanMax":15.0,
       "mask":{
         "x":44.0,
         "y":28.0,
@@ -4032,7 +4032,7 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":0.65000000000000002
@@ -4071,7 +4071,7 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":0.66000000000000003
@@ -4135,7 +4135,7 @@
               "size":5.0
             },
             {
-              "lifespawnTimer":{
+              "lifespanTimer":{
                 "duration":15.0,
                 "finished":false,
                 "time":3.989356666666664,
@@ -4148,7 +4148,7 @@
               "data":{
                 "duration":15.0
               },
-              "feature":"LifespawnFeature"
+              "feature":"LifespanFeature"
             },
             {
               "duration":0.016666666666666666,
@@ -4220,7 +4220,7 @@
         "name":"texture_shroom_baron_magenta",
         "randomFrame":true
       },
-      "lifespawnMax":15.0,
+      "lifespanMax":15.0,
       "mask":{
         "x":44.0,
         "y":28.0,
@@ -4259,7 +4259,7 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":0.050000000000000003
@@ -4292,7 +4292,7 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":0.0625
@@ -4305,7 +4305,7 @@
               "data":{
                 "duration":16.0
               },
-              "feature":"LifespawnFeature"
+              "feature":"LifespanFeature"
             },
             {
               "data":{
@@ -4315,7 +4315,7 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":1.5
@@ -4341,7 +4341,7 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":1.6000000000000001
@@ -4365,14 +4365,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":2.0
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":3.0
@@ -4396,14 +4396,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":3.0
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":4.0
@@ -4424,7 +4424,7 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":5.0
@@ -4499,7 +4499,7 @@
         "name":"texture_shroom_bazyl_magenta",
         "randomFrame":true
       },
-      "lifespawnMax":15.0,
+      "lifespanMax":15.0,
       "mask":{
         "x":32.0,
         "y":32.0,
@@ -4516,7 +4516,7 @@
           "type":108776.0,
           "features":[
             {
-              "lifespawnTimer":{
+              "lifespanTimer":{
                 "duration":16.0,
                 "finished":false,
                 "time":12.924935333333378,
@@ -4529,7 +4529,7 @@
               "data":{
                 "duration":16.0
               },
-              "feature":"LifespawnFeature"
+              "feature":"LifespanFeature"
             },
             {
               "data":{
@@ -4539,7 +4539,7 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":1.6000000000000001
@@ -4590,7 +4590,7 @@
               "randomSpeed":0.0,
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":1.8
@@ -4628,7 +4628,7 @@
               "randomSpeed":0.0,
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":1.8
@@ -4666,7 +4666,7 @@
               "randomSpeed":0.0,
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":1.8
@@ -4704,7 +4704,7 @@
               "randomSpeed":0.0,
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":1.8
@@ -4742,7 +4742,7 @@
               "randomSpeed":0.0,
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":1.8
@@ -4780,7 +4780,7 @@
               "randomSpeed":0.0,
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":1.8
@@ -4818,7 +4818,7 @@
               "randomSpeed":0.0,
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":1.8
@@ -4856,7 +4856,7 @@
               "randomSpeed":0.0,
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":1.8
@@ -4881,7 +4881,7 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":2.2999999999999998
@@ -4912,7 +4912,7 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":3.0
@@ -5008,7 +5008,7 @@
         "name":"texture_shroom_bazyl_blue",
         "randomFrame":true
       },
-      "lifespawnMax":15.0,
+      "lifespanMax":15.0,
       "mask":{
         "x":32.0,
         "y":32.0,
@@ -5025,7 +5025,7 @@
           "type":108776.0,
           "features":[
             {
-              "lifespawnTimer":{
+              "lifespanTimer":{
                 "duration":15.0,
                 "finished":false,
                 "time":3.4047026666666675,
@@ -5038,7 +5038,7 @@
               "data":{
                 "duration":15.0
               },
-              "feature":"LifespawnFeature"
+              "feature":"LifespanFeature"
             },
             {
               "data":{
@@ -5050,7 +5050,7 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":0.5
@@ -5082,14 +5082,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":1.2
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":1.7
@@ -5121,14 +5121,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":2.3999999999999999
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":2.8999999999999999
@@ -5160,14 +5160,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":3.6000000000000001
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":4.0999999999999996
@@ -5199,14 +5199,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":4.7999999999999998
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":5.2999999999999998
@@ -5238,7 +5238,7 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":5.75
@@ -5333,7 +5333,7 @@
         "name":"texture_shroom_baron_red",
         "randomFrame":false
       },
-      "lifespawnMax":15.0,
+      "lifespanMax":15.0,
       "mask":{
         "x":44.0,
         "y":28.0,
@@ -5352,7 +5352,7 @@
               "data":{
                 "duration":15.0
               },
-              "feature":"LifespawnFeature"
+              "feature":"LifespanFeature"
             },
             {
               "data":{
@@ -5364,14 +5364,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":2.0
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":2.2999999999999998
@@ -5390,14 +5390,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":3.2999999999999998
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":4.0
@@ -5416,14 +5416,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":4.0999999999999996
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":4.5999999999999996
@@ -5442,14 +5442,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":5.0
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":5.5
@@ -5515,7 +5515,7 @@
         "name":"texture_shroom_baron_yellow",
         "randomFrame":false
       },
-      "lifespawnMax":15.0,
+      "lifespanMax":15.0,
       "mask":{
         "x":44.0,
         "y":28.0,
@@ -5534,7 +5534,7 @@
               "data":{
                 "duration":15.0
               },
-              "feature":"LifespawnFeature"
+              "feature":"LifespanFeature"
             },
             {
               "data":{
@@ -5546,7 +5546,7 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":2.0
@@ -5568,7 +5568,7 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":0.80000000000000004
@@ -5590,14 +5590,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":2.0
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":2.6000000000000001
@@ -5616,7 +5616,7 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":2.2000000000000002
@@ -5642,14 +5642,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":3.5
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":3.6000000000000001
@@ -5675,14 +5675,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":4.5
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":4.5999999999999996
@@ -5749,7 +5749,7 @@
         "name":"texture_shroom_bazyl_green",
         "randomFrame":false
       },
-      "lifespawnMax":15.0,
+      "lifespanMax":15.0,
       "mask":{
         "x":32.0,
         "y":32.0,
@@ -5788,7 +5788,7 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":0.050000000000000003
@@ -5821,7 +5821,7 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":0.0625
@@ -5834,7 +5834,7 @@
               "data":{
                 "duration":15.0
               },
-              "feature":"LifespawnFeature"
+              "feature":"LifespanFeature"
             },
             {
               "data":{
@@ -5855,7 +5855,7 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":2.0
@@ -5878,14 +5878,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":1.0
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":2.0
@@ -5904,7 +5904,7 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":2.5
@@ -5922,7 +5922,7 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":2.5
@@ -5989,7 +5989,7 @@
         "name":"texture_shroom_bazyl",
         "randomFrame":true
       },
-      "lifespawnMax":15.0,
+      "lifespanMax":15.0,
       "mask":{
         "x":32.0,
         "y":32.0,
@@ -6008,7 +6008,7 @@
               "data":{
                 "duration":15.0
               },
-              "feature":"LifespawnFeature"
+              "feature":"LifespanFeature"
             },
             {
               "data":{
@@ -6020,7 +6020,7 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":2.0
@@ -6042,14 +6042,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":1.0
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":3.0
@@ -6071,14 +6071,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":2.0
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":2.6000000000000001
@@ -6097,7 +6097,7 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":2.2000000000000002
@@ -6123,14 +6123,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":3.5
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":3.6000000000000001
@@ -6156,14 +6156,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":4.5
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":4.5999999999999996
@@ -6230,7 +6230,7 @@
         "name":"texture_shroom_bazyl_blue",
         "randomFrame":false
       },
-      "lifespawnMax":15.0,
+      "lifespanMax":15.0,
       "mask":{
         "x":32.0,
         "y":32.0,
@@ -6271,7 +6271,7 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":1.5
@@ -6287,7 +6287,7 @@
               "feature":"SpriteFeature"
             },
             {
-              "lifespawnTimer":{
+              "lifespanTimer":{
                 "duration":20.0,
                 "finished":false,
                 "time":4.8415003333333297,
@@ -6300,7 +6300,7 @@
               "data":{
                 "duration":20.0
               },
-              "feature":"LifespawnFeature"
+              "feature":"LifespanFeature"
             },
             {
               "data":{
@@ -6312,7 +6312,7 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":1.2
@@ -6360,14 +6360,14 @@
               "randomSpeed":8.0,
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":2.0
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":7.0
@@ -6396,14 +6396,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":1.3500000000000001
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":5.0
@@ -6435,14 +6435,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":2.0
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":6.0
@@ -6589,7 +6589,7 @@
         "name":"texture_shroom_baron_magenta",
         "randomFrame":false
       },
-      "lifespawnMax":15.0,
+      "lifespanMax":15.0,
       "mask":{
         "x":44.0,
         "y":28.0,
@@ -6608,7 +6608,7 @@
               "data":{
                 "duration":15.0
               },
-              "feature":"LifespawnFeature"
+              "feature":"LifespanFeature"
             },
             {
               "data":{
@@ -6620,7 +6620,7 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":0.5
@@ -6639,14 +6639,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":1.2
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":1.7
@@ -6665,14 +6665,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":2.3999999999999999
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":2.8999999999999999
@@ -6691,14 +6691,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":3.6000000000000001
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":4.0999999999999996
@@ -6717,14 +6717,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":4.7999999999999998
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":5.2999999999999998
@@ -6743,7 +6743,7 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":5.75
@@ -6810,7 +6810,7 @@
         "name":"texture_shroom_baron_blue",
         "randomFrame":false
       },
-      "lifespawnMax":15.0,
+      "lifespanMax":15.0,
       "mask":{
         "x":44.0,
         "y":28.0,
@@ -6829,7 +6829,7 @@
               "data":{
                 "duration":15.0
               },
-              "feature":"LifespawnFeature"
+              "feature":"LifespanFeature"
             },
             {
               "data":{
@@ -6840,14 +6840,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":2.0
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":0.59999999999999998
@@ -6869,7 +6869,7 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":2.0
@@ -6891,14 +6891,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":1.8999999999999999
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":3.6000000000000001
@@ -6917,7 +6917,7 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":2.6000000000000001
@@ -6943,14 +6943,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":3.5
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":3.6000000000000001
@@ -6976,14 +6976,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":4.5
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":4.5999999999999996
@@ -7050,7 +7050,7 @@
         "name":"texture_shroom_bazyl_red",
         "randomFrame":false
       },
-      "lifespawnMax":15.0,
+      "lifespanMax":15.0,
       "mask":{
         "x":32.0,
         "y":32.0,
@@ -7067,7 +7067,7 @@
           "type":108776.0,
           "features":[
             {
-              "lifespawnTimer":{
+              "lifespanTimer":{
                 "duration":15.0,
                 "finished":false,
                 "time":0.4683903333333333,
@@ -7080,7 +7080,7 @@
               "data":{
                 "duration":15.0
               },
-              "feature":"LifespawnFeature"
+              "feature":"LifespanFeature"
             },
             {
               "angle":{
@@ -7106,7 +7106,7 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"less",
                     "value":1.0
@@ -7130,14 +7130,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":1.0
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"less",
                     "value":1.1000000000000001
@@ -7183,14 +7183,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":1.0
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"less",
                     "value":2.0
@@ -7214,14 +7214,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":2.0
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"less",
                     "value":2.1000000000000001
@@ -7267,14 +7267,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":2.0
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"less",
                     "value":3.0
@@ -7298,14 +7298,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":3.0
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"less",
                     "value":3.1000000000000001
@@ -7351,14 +7351,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":3.0
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"less",
                     "value":4.0
@@ -7382,14 +7382,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":4.0
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"less",
                     "value":4.0999999999999996
@@ -7435,7 +7435,7 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":4.0
@@ -7467,14 +7467,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":4.0999999999999996
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"less",
                     "value":5.0
@@ -7570,7 +7570,7 @@
         "name":"texture_shroom_baron_blue",
         "randomFrame":false
       },
-      "lifespawnMax":15.0,
+      "lifespanMax":15.0,
       "mask":{
         "x":44.0,
         "y":28.0,
@@ -7606,7 +7606,7 @@
               "data":{
                 "duration":15.0
               },
-              "feature":"LifespawnFeature"
+              "feature":"LifespanFeature"
             },
             {
               "data":{
@@ -7618,7 +7618,7 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":0.5
@@ -7637,14 +7637,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":1.2
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":1.7
@@ -7672,14 +7672,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":1.71
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":2.2999999999999998
@@ -7698,14 +7698,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":2.3999999999999999
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":2.8999999999999999
@@ -7724,14 +7724,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":3.6000000000000001
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":4.0999999999999996
@@ -7759,14 +7759,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":3.7999999999999998
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":4.2999999999999998
@@ -7785,14 +7785,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":4.7999999999999998
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":5.2999999999999998
@@ -7811,7 +7811,7 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":5.75
@@ -7877,7 +7877,7 @@
         "name":"texture_shroom_baron_blue",
         "randomFrame":false
       },
-      "lifespawnMax":15.0,
+      "lifespanMax":15.0,
       "mask":{
         "x":44.0,
         "y":28.0,
@@ -7894,7 +7894,7 @@
           "type":108776.0,
           "features":[
             {
-              "lifespawnTimer":{
+              "lifespanTimer":{
                 "duration":15.0,
                 "finished":false,
                 "time":3.3054049999999973,
@@ -7907,7 +7907,7 @@
               "data":{
                 "duration":15.0
               },
-              "feature":"LifespawnFeature"
+              "feature":"LifespanFeature"
             },
             {
               "angle":{
@@ -7933,7 +7933,7 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"less",
                     "value":1.0
@@ -7957,14 +7957,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":1.0
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"less",
                     "value":1.1000000000000001
@@ -8010,14 +8010,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":1.0
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"less",
                     "value":2.0
@@ -8041,14 +8041,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":2.0
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"less",
                     "value":2.1000000000000001
@@ -8094,14 +8094,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":2.0
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"less",
                     "value":3.0
@@ -8125,14 +8125,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":3.0
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"less",
                     "value":3.1000000000000001
@@ -8178,14 +8178,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":3.0
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"less",
                     "value":4.0
@@ -8209,14 +8209,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":4.0
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"less",
                     "value":4.0999999999999996
@@ -8262,7 +8262,7 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":4.0
@@ -8294,14 +8294,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":4.0999999999999996
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"less",
                     "value":5.0
@@ -8397,7 +8397,7 @@
         "name":"texture_shroom_baron_red",
         "randomFrame":false
       },
-      "lifespawnMax":15.0,
+      "lifespanMax":15.0,
       "mask":{
         "x":44.0,
         "y":28.0,
@@ -8414,7 +8414,7 @@
           "type":108776.0,
           "features":[
             {
-              "lifespawnTimer":{
+              "lifespanTimer":{
                 "duration":15.0,
                 "finished":false,
                 "time":3.2590939999999979,
@@ -8427,7 +8427,7 @@
               "data":{
                 "duration":15.0
               },
-              "feature":"LifespawnFeature"
+              "feature":"LifespanFeature"
             },
             {
               "angle":{
@@ -8453,7 +8453,7 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"less",
                     "value":1.0
@@ -8477,14 +8477,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":1.0
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"less",
                     "value":1.1000000000000001
@@ -8531,14 +8531,14 @@
               "randomSpeed":1.0,
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":1.0
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"less",
                     "value":1.1000000000000001
@@ -8578,14 +8578,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":1.0
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"less",
                     "value":2.0
@@ -8609,14 +8609,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":2.0
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"less",
                     "value":2.1000000000000001
@@ -8663,14 +8663,14 @@
               "randomSpeed":1.0,
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":2.0
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"less",
                     "value":2.1000000000000001
@@ -8710,14 +8710,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":2.0
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"less",
                     "value":3.0
@@ -8741,14 +8741,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":3.0
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"less",
                     "value":3.1000000000000001
@@ -8795,14 +8795,14 @@
               "randomSpeed":1.0,
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":3.0
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"less",
                     "value":3.1000000000000001
@@ -8842,14 +8842,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":3.0
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"less",
                     "value":4.0
@@ -8873,14 +8873,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":4.0
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"less",
                     "value":4.0999999999999996
@@ -8927,14 +8927,14 @@
               "randomSpeed":1.0,
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":4.0
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"less",
                     "value":4.0999999999999996
@@ -8974,7 +8974,7 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":4.0
@@ -9006,14 +9006,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":4.0999999999999996
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"less",
                     "value":5.0
@@ -9109,7 +9109,7 @@
         "name":"texture_shroom_baron_blue",
         "randomFrame":false
       },
-      "lifespawnMax":15.0,
+      "lifespanMax":15.0,
       "mask":{
         "x":44.0,
         "y":28.0,
@@ -9126,7 +9126,7 @@
           "type":108776.0,
           "features":[
             {
-              "lifespawnTimer":{
+              "lifespanTimer":{
                 "duration":15.0,
                 "finished":false,
                 "time":13.653587000000043,
@@ -9139,7 +9139,7 @@
               "data":{
                 "duration":15.0
               },
-              "feature":"LifespawnFeature"
+              "feature":"LifespanFeature"
             },
             {
               "angle":{
@@ -9165,7 +9165,7 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"less",
                     "value":1.0
@@ -9189,14 +9189,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":1.0
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"less",
                     "value":1.1000000000000001
@@ -9243,14 +9243,14 @@
               "randomSpeed":1.0,
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":1.0
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"less",
                     "value":1.1000000000000001
@@ -9290,14 +9290,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":1.0
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"less",
                     "value":2.0
@@ -9321,14 +9321,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":2.0
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"less",
                     "value":2.1000000000000001
@@ -9375,14 +9375,14 @@
               "randomSpeed":1.0,
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":2.0
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"less",
                     "value":2.1000000000000001
@@ -9422,14 +9422,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":2.0
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"less",
                     "value":3.0
@@ -9453,14 +9453,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":3.0
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"less",
                     "value":3.1000000000000001
@@ -9507,14 +9507,14 @@
               "randomSpeed":1.0,
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":3.0
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"less",
                     "value":3.1000000000000001
@@ -9554,14 +9554,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":3.0
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"less",
                     "value":4.0
@@ -9585,14 +9585,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":4.0
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"less",
                     "value":4.0999999999999996
@@ -9639,14 +9639,14 @@
               "randomSpeed":1.0,
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":4.0
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"less",
                     "value":4.0999999999999996
@@ -9686,7 +9686,7 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":4.0
@@ -9718,14 +9718,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":4.0999999999999996
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"less",
                     "value":5.0
@@ -9821,7 +9821,7 @@
         "name":"texture_shroom_baron_red",
         "randomFrame":false
       },
-      "lifespawnMax":15.0,
+      "lifespanMax":15.0,
       "mask":{
         "x":44.0,
         "y":28.0,
@@ -9838,7 +9838,7 @@
           "type":108776.0,
           "features":[
             {
-              "lifespawnTimer":{
+              "lifespanTimer":{
                 "duration":15.0,
                 "finished":false,
                 "time":8.2976923333333357,
@@ -9851,7 +9851,7 @@
               "data":{
                 "duration":15.0
               },
-              "feature":"LifespawnFeature"
+              "feature":"LifespanFeature"
             },
             {
               "data":{
@@ -9863,7 +9863,7 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"less",
                     "value":1.0
@@ -9909,7 +9909,7 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":0.66000000000000003
@@ -9949,14 +9949,14 @@
               "randomSpeed":0.0,
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":0.33000000000000002
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"less",
                     "value":6.0
@@ -9990,14 +9990,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":1.5
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":4.5
@@ -10028,7 +10028,7 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":2.0
@@ -10125,7 +10125,7 @@
         "name":"texture_schnoopy_green",
         "randomFrame":true
       },
-      "lifespawnMax":15.0,
+      "lifespanMax":15.0,
       "mask":{
         "x":56.0,
         "y":56.0,
@@ -10142,7 +10142,7 @@
           "type":108776.0,
           "features":[
             {
-              "lifespawnTimer":{
+              "lifespanTimer":{
                 "duration":16.0,
                 "finished":false,
                 "time":3.9914083333333319,
@@ -10155,7 +10155,7 @@
               "data":{
                 "duration":16.0
               },
-              "feature":"LifespawnFeature"
+              "feature":"LifespanFeature"
             },
             {
               "angle":{
@@ -10182,7 +10182,7 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"less",
                     "value":0.33000000000000002
@@ -10222,7 +10222,7 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":0.29999999999999999
@@ -10244,7 +10244,7 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":0.71999999999999997
@@ -10272,7 +10272,7 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"less",
                     "value":3.0
@@ -10325,7 +10325,7 @@
               "randomSpeed":10.0,
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":0.66000000000000003
@@ -10354,14 +10354,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":1.0
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"less",
                     "value":1.6599999999999999
@@ -10396,14 +10396,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":2.3300000000000001
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"less",
                     "value":3.0
@@ -10437,7 +10437,7 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":3.0
@@ -10533,7 +10533,7 @@
         "name":"texture_schnoopy_blue",
         "randomFrame":true
       },
-      "lifespawnMax":15.0,
+      "lifespanMax":15.0,
       "mask":{
         "x":56.0,
         "y":56.0,
@@ -10574,7 +10574,7 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":0.050000000000000003
@@ -10614,7 +10614,7 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":0.0625
@@ -10637,7 +10637,7 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":0.5
@@ -10681,14 +10681,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":1.3
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":2.0499999999999998
@@ -10725,14 +10725,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":2.6000000000000001
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":3.2000000000000002
@@ -10766,7 +10766,7 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":3.6000000000000001
@@ -10851,7 +10851,7 @@
         "name":"texture_schnoopy_white",
         "randomFrame":true
       },
-      "lifespawnMax":15.0,
+      "lifespanMax":15.0,
       "mask":{
         "x":56.0,
         "y":56.0,
@@ -10868,7 +10868,7 @@
           "type":108776.0,
           "features":[
             {
-              "lifespawnTimer":{
+              "lifespanTimer":{
                 "duration":16.0,
                 "finished":false,
                 "time":4.3247069999999974,
@@ -10881,7 +10881,7 @@
               "data":{
                 "duration":16.0
               },
-              "feature":"LifespawnFeature"
+              "feature":"LifespanFeature"
             },
             {
               "angle":{
@@ -10908,7 +10908,7 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":0.050000000000000003
@@ -10948,7 +10948,7 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":0.33000000000000002
@@ -10975,14 +10975,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":0.40000000000000002
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":1.2
@@ -11031,14 +11031,14 @@
               "randomSpeed":4.0,
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":0.40000000000000002
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":1.6000000000000001
@@ -11063,14 +11063,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":0.40000000000000002
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":2.0
@@ -11108,14 +11108,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":2.7000000000000002
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":3.5
@@ -11146,14 +11146,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":1.8
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":3.0
@@ -11199,7 +11199,7 @@
               "randomSpeed":0.0,
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":3.0
@@ -11274,7 +11274,7 @@
         "name":"texture_schnoopy_red",
         "randomFrame":true
       },
-      "lifespawnMax":15.0,
+      "lifespanMax":15.0,
       "mask":{
         "x":56.0,
         "y":56.0,
@@ -11291,7 +11291,7 @@
           "type":108776.0,
           "features":[
             {
-              "lifespawnTimer":{
+              "lifespanTimer":{
                 "duration":15.0,
                 "finished":false,
                 "time":6.1589573333333281,
@@ -11304,7 +11304,7 @@
               "data":{
                 "duration":15.0
               },
-              "feature":"LifespawnFeature"
+              "feature":"LifespanFeature"
             },
             {
               "angle":{
@@ -11330,7 +11330,7 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"less",
                     "value":2.0
@@ -11352,7 +11352,7 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"less",
                     "value":2.0
@@ -11396,7 +11396,7 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":2.0
@@ -11418,7 +11418,7 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":2.0
@@ -11541,7 +11541,7 @@
         "name":"texture_schnoopy_magenta",
         "randomFrame":true
       },
-      "lifespawnMax":15.0,
+      "lifespanMax":15.0,
       "mask":{
         "x":56.0,
         "y":56.0,
@@ -11582,7 +11582,7 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":0.050000000000000003
@@ -11622,7 +11622,7 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":0.0625
@@ -11657,14 +11657,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":2.0
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":3.0
@@ -11708,14 +11708,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":3.0
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":4.0
@@ -11738,7 +11738,7 @@
               "isAngleSet":false
             },
             {
-              "lifespawnTimer":{
+              "lifespanTimer":{
                 "duration":15.0,
                 "finished":false,
                 "time":1.4854166666666668,
@@ -11751,7 +11751,7 @@
               "data":{
                 "duration":15.0
               },
-              "feature":"LifespawnFeature"
+              "feature":"LifespanFeature"
             },
             {
               "duration":0.016666666666666666,
@@ -11804,7 +11804,7 @@
         "name":"texture_schnoopy_green",
         "randomFrame":true
       },
-      "lifespawnMax":15.0,
+      "lifespanMax":15.0,
       "mask":{
         "x":56.0,
         "y":56.0,
@@ -11845,7 +11845,7 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":0.050000000000000003
@@ -11885,7 +11885,7 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":0.0625
@@ -11901,7 +11901,7 @@
               "feature":"SpriteFeature"
             },
             {
-              "lifespawnTimer":{
+              "lifespanTimer":{
                 "duration":15.0,
                 "finished":false,
                 "time":5.6582323333333324,
@@ -11914,7 +11914,7 @@
               "data":{
                 "duration":15.0
               },
-              "feature":"LifespawnFeature"
+              "feature":"LifespanFeature"
             },
             {
               "duration":0.016666666666666666,
@@ -11967,7 +11967,7 @@
         "name":"texture_schnoopy_magenta",
         "randomFrame":true
       },
-      "lifespawnMax":15.0,
+      "lifespanMax":15.0,
       "mask":{
         "x":56.0,
         "y":56.0,
@@ -12008,7 +12008,7 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":0.050000000000000003
@@ -12048,7 +12048,7 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":0.0625
@@ -12064,7 +12064,7 @@
               "feature":"SpriteFeature"
             },
             {
-              "lifespawnTimer":{
+              "lifespanTimer":{
                 "duration":15.0,
                 "finished":false,
                 "time":2.2037919999999982,
@@ -12077,7 +12077,7 @@
               "data":{
                 "duration":15.0
               },
-              "feature":"LifespawnFeature"
+              "feature":"LifespanFeature"
             },
             {
               "data":{
@@ -12095,14 +12095,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":0.66000000000000003
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":0.90000000000000002
@@ -12140,14 +12140,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":1.3200000000000001
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":1.6000000000000001
@@ -12182,14 +12182,14 @@
               },
               "conditions":[
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"greaterOrEqual",
                     "value":1.98
                   }
                 },
                 {
-                  "type":"lifespawn",
+                  "type":"lifespan",
                   "data":{
                     "operator":"lessOrEqual",
                     "value":2.6000000000000001
@@ -12262,7 +12262,7 @@
         "name":"texture_schnoopy_yellow",
         "randomFrame":true
       },
-      "lifespawnMax":15.0,
+      "lifespanMax":15.0,
       "mask":{
         "x":56.0,
         "y":56.0,

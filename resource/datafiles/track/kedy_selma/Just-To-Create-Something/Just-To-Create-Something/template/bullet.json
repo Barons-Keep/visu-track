@@ -12,7 +12,7 @@
       "changeAngleOffset":false,
       "wiggleTimeRng":false,
       "changeSpeedOffset":false,
-      "lifespawnMax":10.0,
+      "lifespanMax":10.0,
       "mask":{
         "x":12.0,
         "y":12.0,
@@ -65,7 +65,7 @@
       "changeAngleOffset":false,
       "wiggleTimeRng":true,
       "changeSpeedOffset":false,
-      "lifespawnMax":10.0,
+      "lifespanMax":10.0,
       "mask":{
         "x":12.0,
         "y":12.0,
@@ -118,7 +118,7 @@
       "changeAngleOffset":false,
       "wiggleTimeRng":false,
       "changeSpeedOffset":false,
-      "lifespawnMax":15.0,
+      "lifespanMax":15.0,
       "mask":{
         "x":16.0,
         "y":16.0,
@@ -162,7 +162,7 @@
       "changeAngleOffset":false,
       "wiggleTimeRng":false,
       "changeSpeedOffset":false,
-      "lifespawnMax":10.0,
+      "lifespanMax":10.0,
       "mask":{
         "x":12.0,
         "y":12.0,
@@ -215,7 +215,7 @@
       "changeAngleOffset":false,
       "wiggleTimeRng":false,
       "changeSpeedOffset":false,
-      "lifespawnMax":15.0,
+      "lifespanMax":15.0,
       "mask":{
         "x":16.0,
         "y":16.0,

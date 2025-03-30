@@ -1,5 +1,4 @@
 {
-  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>",
   "data":[
     {
       "properties":{
@@ -53,10 +52,11 @@
         }
       },
       "type":"brush_grid_column",
-      "name":"default (alpha: 0)",
       "color":"#00FF00",
+      "name":"default (alpha: 0)",
       "texture":"texture_ve_icon_grid_column"
     }
   ],
+  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>",
   "version":"1"
 }

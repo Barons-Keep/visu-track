@@ -36,9 +36,9 @@
           "randomFrame":false
         },
         "vw-layer_texture-blend":"#FFFFFF",
-        "vw-layer_texture-lifespawn":0.0,
+        "vw-layer_texture-lifespan":0.0,
         "vw-layer_texture-reset-pos":true,
-        "vw-layer_texture-use-lifespawn":false,
+        "vw-layer_texture-use-lifespan":false,
         "vw-layer_type":"FOREGROUND",
         "vw-layer_use-blend":true,
         "vw-layer_use-col":false,
@@ -108,9 +108,9 @@
           "randomFrame":false
         },
         "vw-layer_texture-blend":"#D20052",
-        "vw-layer_texture-lifespawn":0.0,
+        "vw-layer_texture-lifespan":0.0,
         "vw-layer_texture-reset-pos":true,
-        "vw-layer_texture-use-lifespawn":false,
+        "vw-layer_texture-use-lifespan":false,
         "vw-layer_type":"BACKGROUND",
         "vw-layer_use-blend":true,
         "vw-layer_use-col":true,

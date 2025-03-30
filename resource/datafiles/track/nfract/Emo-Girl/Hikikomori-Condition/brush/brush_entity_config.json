@@ -1,5 +1,4 @@
 {
-  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>",
   "data":[
     {
       "properties":{
@@ -49,10 +48,11 @@
         }
       },
       "type":"brush_entity_config",
-      "name":"default",
       "color":"#00FF00",
+      "name":"default",
       "texture":"texture_ve_icon_entity_config"
     }
   ],
+  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>",
   "version":"1"
 }

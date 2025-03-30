@@ -1,5 +1,4 @@
 {
-  "model":"Collection<io.alkapivo.core.service.particle.ParticleTemplate>",
   "data":{
     "particle-shroom-times-up":{
       "angle":{
@@ -16,8 +15,8 @@
       "sprite":{
         "animate":false,
         "stretch":false,
-        "name":"texture_particle",
-        "randomValue":false
+        "randomValue":false,
+        "name":"texture_particle"
       },
       "speed":{
         "maxValue":1.0,
@@ -49,11 +48,11 @@
         "halfway":0.65186599999999995
       },
       "orientation":{
+        "relative":0.0,
         "maxValue":0.0,
         "increase":5.0,
         "minValue":0.0,
-        "wiggle":0.0,
-        "relative":0.0
+        "wiggle":0.0
       },
       "blend":true,
       "shape":"CIRCLE"
@@ -73,8 +72,8 @@
       "sprite":{
         "animate":false,
         "stretch":false,
-        "name":"texture_particle",
-        "randomValue":false
+        "randomValue":false,
+        "name":"texture_particle"
       },
       "speed":{
         "maxValue":60.0,
@@ -106,11 +105,11 @@
         "halfway":0.83604699999999998
       },
       "orientation":{
+        "relative":0.0,
         "maxValue":360.0,
         "increase":3.0,
         "minValue":0.0,
-        "wiggle":1.0,
-        "relative":0.0
+        "wiggle":1.0
       },
       "blend":true,
       "shape":"CIRCLE"
@@ -130,8 +129,8 @@
       "sprite":{
         "animate":false,
         "stretch":false,
-        "name":"texture_particle",
-        "randomValue":false
+        "randomValue":false,
+        "name":"texture_particle"
       },
       "speed":{
         "maxValue":1.0,
@@ -163,70 +162,13 @@
         "halfway":0.65186599999999995
       },
       "orientation":{
+        "relative":0.0,
         "maxValue":0.0,
         "increase":5.0,
         "minValue":0.0,
-        "wiggle":0.0,
-        "relative":0.0
+        "wiggle":0.0
       },
       "blend":true,
-      "shape":"CIRCLE"
-    },
-    "particle-default":{
-      "angle":{
-        "maxValue":360.0,
-        "increase":0.01,
-        "minValue":0.0,
-        "wiggle":0.0
-      },
-      "color":{
-        "start":"#ffffff",
-        "finish":"#ffffff",
-        "halfway":"#ffffff"
-      },
-      "sprite":{
-        "animate":0.0,
-        "stretch":0.0,
-        "name":"texture_particle",
-        "randomValue":0.0
-      },
-      "speed":{
-        "maxValue":5.0,
-        "increase":0.001,
-        "minValue":0.01,
-        "wiggle":0.0
-      },
-      "gravity":{
-        "angle":0.0,
-        "amount":0.0
-      },
-      "size":{
-        "maxValue":32.0,
-        "increase":0.0,
-        "minValue":1.0,
-        "wiggle":0.0
-      },
-      "life":{
-        "maxValue":120.0,
-        "minValue":80.0
-      },
-      "scale":{
-        "x":1.0,
-        "y":1.0
-      },
-      "alpha":{
-        "start":1.0,
-        "finish":0.0,
-        "halfway":0.0
-      },
-      "orientation":{
-        "maxValue":360.0,
-        "increase":0.001,
-        "minValue":0.0,
-        "wiggle":0.0,
-        "relative":0.0
-      },
-      "blend":0.0,
       "shape":"CIRCLE"
     },
     "particle-baron":{
@@ -244,8 +186,8 @@
       "sprite":{
         "animate":true,
         "stretch":true,
-        "name":"texture_baron",
-        "randomValue":true
+        "randomValue":true,
+        "name":"texture_baron"
       },
       "speed":{
         "maxValue":1.0,
@@ -277,15 +219,73 @@
         "halfway":0.74086399999999997
       },
       "orientation":{
+        "relative":0.0,
         "maxValue":360.0,
         "increase":-0.5,
         "minValue":0.0,
-        "wiggle":0.0,
-        "relative":0.0
+        "wiggle":0.0
       },
       "blend":false,
       "shape":"CIRCLE"
+    },
+    "particle-default":{
+      "angle":{
+        "maxValue":360.0,
+        "increase":0.01,
+        "minValue":0.0,
+        "wiggle":0.0
+      },
+      "color":{
+        "start":"#ffffff",
+        "finish":"#ffffff",
+        "halfway":"#ffffff"
+      },
+      "sprite":{
+        "animate":0.0,
+        "stretch":0.0,
+        "randomValue":0.0,
+        "name":"texture_particle"
+      },
+      "speed":{
+        "maxValue":5.0,
+        "increase":0.001,
+        "minValue":0.01,
+        "wiggle":0.0
+      },
+      "gravity":{
+        "angle":0.0,
+        "amount":0.0
+      },
+      "size":{
+        "maxValue":32.0,
+        "increase":0.0,
+        "minValue":1.0,
+        "wiggle":0.0
+      },
+      "life":{
+        "maxValue":120.0,
+        "minValue":80.0
+      },
+      "scale":{
+        "x":1.0,
+        "y":1.0
+      },
+      "alpha":{
+        "start":1.0,
+        "finish":0.0,
+        "halfway":0.0
+      },
+      "orientation":{
+        "relative":0.0,
+        "maxValue":360.0,
+        "increase":0.001,
+        "minValue":0.0,
+        "wiggle":0.0
+      },
+      "blend":0.0,
+      "shape":"CIRCLE"
     }
   },
+  "model":"Collection<io.alkapivo.core.service.particle.ParticleTemplate>",
   "version":"1"
 }
