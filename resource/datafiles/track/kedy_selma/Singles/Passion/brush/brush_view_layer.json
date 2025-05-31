@@ -1,40 +1,11 @@
 {
   "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>",
+  "version":"1",
   "data":[
     {
+      "name":"default bkg",
+      "texture":"texture_ve_icon_view_layer",
       "properties":{
-        "vw-layer_fade-in":0.0,
-        "vw-layer_fade-out":0.0,
-        "vw-layer_scale-x":{
-          "increase":0.0,
-          "factor":1.0,
-          "target":0.0,
-          "value":1.0
-        },
-        "vw-layer_scale-y":{
-          "increase":0.0,
-          "factor":1.0,
-          "target":0.0,
-          "value":1.0
-        },
-        "vw-layer_spd":{
-          "increase":0.0,
-          "factor":1.0,
-          "target":0.0,
-          "value":0.0
-        },
-        "vw-layer_texture":{
-          "angle":0.0,
-          "frame":0.0,
-          "alpha":1.0,
-          "animate":false,
-          "blend":"#FFFFFF",
-          "scaleX":1.0,
-          "speed":30.0,
-          "scaleY":1.0,
-          "name":"texture_missing",
-          "randomFrame":false
-        },
         "vw-layer_texture-blend":"#BC2EFC",
         "vw-layer_texture-lifespan":0.0,
         "vw-layer_texture-reset-pos":true,
@@ -62,17 +33,47 @@
         "vw-layer_cls-texture":true,
         "vw-layer_col":"#000000",
         "vw-layer_dir":{
+          "value":0.0,
           "increase":0.0,
           "factor":1.0,
-          "target":0.0,
-          "value":0.0
+          "target":0.0
+        },
+        "vw-layer_fade-in":0.0,
+        "vw-layer_fade-out":0.0,
+        "vw-layer_scale-x":{
+          "value":1.0,
+          "increase":0.0,
+          "factor":1.0,
+          "target":0.0
+        },
+        "vw-layer_scale-y":{
+          "value":1.0,
+          "increase":0.0,
+          "factor":1.0,
+          "target":0.0
+        },
+        "vw-layer_spd":{
+          "value":0.0,
+          "increase":0.0,
+          "factor":1.0,
+          "target":0.0
+        },
+        "vw-layer_texture":{
+          "animate":false,
+          "name":"texture_missing",
+          "frame":0.0,
+          "blend":"#FFFFFF",
+          "scaleX":1.0,
+          "speed":30.0,
+          "angle":0.0,
+          "scaleY":1.0,
+          "randomFrame":false,
+          "alpha":1.0
         }
       },
+      "hidden":false,
       "type":"brush_view_layer",
-      "name":"default bkg",
-      "color":"#FFFF00",
-      "texture":"texture_ve_icon_view_layer"
+      "color":"#FFFF00"
     }
-  ],
-  "version":"1"
+  ]
 }

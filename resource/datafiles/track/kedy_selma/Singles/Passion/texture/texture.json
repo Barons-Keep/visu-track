@@ -1,54 +1,54 @@
 {
   "model":"Collection<io.alkapivo.core.service.texture.TextureIntent>",
+  "version":"1",
   "data":{
-    "texture_241026_a1":{
-      "file":"texture/texture_241026_a1.png",
-      "frames":1.0,
-      "prefetch":true,
-      "originX":0.0,
-      "originY":0.0,
-      "name":"texture_241026_a1"
-    },
-    "texture_241026_a2":{
-      "file":"texture/texture_241026_a2.png",
-      "frames":1.0,
-      "prefetch":true,
-      "originX":0.0,
-      "originY":0.0,
-      "name":"texture_241026_a2"
-    },
-    "texture_241026_a3":{
-      "file":"texture/texture_241026_a3.png",
-      "frames":1.0,
-      "prefetch":true,
-      "originX":0.0,
-      "originY":0.0,
-      "name":"texture_241026_a3"
-    },
-    "texture_241026_a4":{
-      "file":"texture/texture_241026_a4.png",
-      "frames":1.0,
-      "prefetch":true,
-      "originX":0.0,
-      "originY":0.0,
-      "name":"texture_241026_a4"
-    },
     "texture_abstract_1":{
-      "file":"texture/texture_abstract_1.png",
-      "frames":1.0,
+      "name":"texture_abstract_1",
       "prefetch":true,
+      "frames":1.0,
       "originX":0.0,
       "originY":0.0,
-      "name":"texture_abstract_1"
+      "file":"texture/texture_abstract_1.png"
     },
     "texture_abstract_2":{
-      "file":"texture/texture_abstract_2.png",
-      "frames":1.0,
+      "name":"texture_abstract_2",
       "prefetch":true,
+      "frames":1.0,
       "originX":0.0,
       "originY":0.0,
-      "name":"texture_abstract_2"
+      "file":"texture/texture_abstract_2.png"
+    },
+    "texture_241026_a1":{
+      "name":"texture_241026_a1",
+      "prefetch":true,
+      "frames":1.0,
+      "originX":0.0,
+      "originY":0.0,
+      "file":"texture/texture_241026_a1.png"
+    },
+    "texture_241026_a2":{
+      "name":"texture_241026_a2",
+      "prefetch":true,
+      "frames":1.0,
+      "originX":0.0,
+      "originY":0.0,
+      "file":"texture/texture_241026_a2.png"
+    },
+    "texture_241026_a3":{
+      "name":"texture_241026_a3",
+      "prefetch":true,
+      "frames":1.0,
+      "originX":0.0,
+      "originY":0.0,
+      "file":"texture/texture_241026_a3.png"
+    },
+    "texture_241026_a4":{
+      "name":"texture_241026_a4",
+      "prefetch":true,
+      "frames":1.0,
+      "originX":0.0,
+      "originY":0.0,
+      "file":"texture/texture_241026_a4.png"
     }
-  },
-  "version":"1"
+  }
 }

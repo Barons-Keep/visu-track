@@ -1,7 +1,9 @@
 {
+  "version":"1",
   "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>",
   "data":[
     {
+      "color":"#00FF00",
       "properties":{
         "vw-cfg_change-video-alpha":false,
         "vw-cfg_cls-bkg-col":true,
@@ -19,10 +21,10 @@
         "vw-cfg_use-render-video-after":true,
         "vw-cfg_use-video-alpha":true,
         "vw-cfg_video-alpha":{
+          "value":1.0,
           "increase":0.0,
           "factor":0.0,
-          "target":0.0,
-          "value":1.0
+          "target":0.0
         },
         "vw-cfg_video-blend-col":"#FFFFFF",
         "vw-cfg_video-blend-col-spd":0.0,
@@ -35,9 +37,8 @@
       },
       "type":"brush_view_config",
       "name":"default",
-      "color":"#00FF00",
+      "hidden":false,
       "texture":"texture_ve_icon_view_config"
     }
-  ],
-  "version":"1"
+  ]
 }
