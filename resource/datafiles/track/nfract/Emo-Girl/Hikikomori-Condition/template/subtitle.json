@@ -1,11 +1,10 @@
 {
   "model":"Collection<io.alkapivo.visu.service.subtitle.SubtitleTemplate>",
-  "version":"1",
   "data":{
-    "subtitle_nfract_hikikomori_condition":{
+    "subtitle_alkapivo":{
       "lines":[
-        "",
-        "Hikikomori Condition"
+        "Alkapivo",
+        "2025"
       ]
     },
     "subtitle_nfract":{
@@ -14,11 +13,12 @@
         ""
       ]
     },
-    "subtitle_alkapivo":{
+    "subtitle_nfract_hikikomori_condition":{
       "lines":[
-        "Alkapivo",
-        "2025"
+        "",
+        "Hikikomori Condition"
       ]
     }
-  }
+  },
+  "version":"1"
 }
