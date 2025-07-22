@@ -1,21 +1,23 @@
 {
-  "version":"1",
   "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>",
   "data":[
     {
+      "hidden":false,
+      "name":"default",
+      "type":"brush_effect_config",
+      "texture":"texture_ve_icon_effect_config",
       "color":"#00FF00",
       "properties":{
-        "ef-cfg_use-render-shd-gr":true,
         "ef-cfg_change-cls-frame-alpha":false,
         "ef-cfg_change-particle-z":false,
         "ef-cfg_cls-frame":true,
         "ef-cfg_cls-frame-alpha":{
-          "increase":0.0,
-          "factor":0.0,
           "duration":0.0,
-          "value":0.0,
+          "target":0.0,
           "ease":"LEGACY",
-          "target":0.0
+          "factor":0.0,
+          "value":0.0,
+          "increase":0.0
         },
         "ef-cfg_cls-frame-col":"#FFFFFF",
         "ef-cfg_cls-frame-col-spd":0.0,
@@ -31,12 +33,12 @@
         "ef-cfg_hide-shd-cls-alpha":false,
         "ef-cfg_hide-shd-cls-col":false,
         "ef-cfg_particle-z":{
-          "increase":0.0,
-          "factor":0.0,
           "duration":0.0,
-          "value":2045.0,
+          "target":0.0,
           "ease":"LEGACY",
-          "target":0.0
+          "factor":0.0,
+          "value":2045.0,
+          "increase":0.0
         },
         "ef-cfg_render-glt":true,
         "ef-cfg_render-part":true,
@@ -50,12 +52,10 @@
         "ef-cfg_use-render-glt":true,
         "ef-cfg_use-render-part":true,
         "ef-cfg_use-render-shd-all":true,
-        "ef-cfg_use-render-shd-bkg":true
-      },
-      "type":"brush_effect_config",
-      "name":"default",
-      "hidden":false,
-      "texture":"texture_ve_icon_effect_config"
+        "ef-cfg_use-render-shd-bkg":true,
+        "ef-cfg_use-render-shd-gr":true
+      }
     }
-  ]
+  ],
+  "version":"1"
 }
