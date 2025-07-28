@@ -1,12 +1,6 @@
 {
   "version":"1",
   "data":{
-    "subtitle_schnoopy":{
-      "lines":[
-        "Schnoopy",
-        ""
-      ]
-    },
     "subtitle_sewerslvt":{
       "lines":[
         "Sewerslvt",
@@ -17,6 +11,12 @@
       "lines":[
         "",
         "Psychosis"
+      ]
+    },
+    "subtitle_schnoopy":{
+      "lines":[
+        "Schnoopy",
+        ""
       ]
     },
     "subtitle_schnoopy_destination_unknown":{

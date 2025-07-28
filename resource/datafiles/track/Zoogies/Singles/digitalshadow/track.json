@@ -107,9 +107,12 @@
               "ef-shd_duration":4.7000000000000002,
               "ef-shd_fade-in":2.0,
               "ef-shd_fade-out":0.5,
+              "hidden":false,
+              "ef-shd_hide":false,
+              "ef-shd_hide-merge-cfg":false,
               "ef-shd_merge-cfg":{
               },
-              "ef-shd_pipeline":"GRID",
+              "ef-shd_pipeline":"COMBINED",
               "ef-shd_template":"Octagrams 07",
               "ef-shd_use-merge-cfg":false,
               "icon":{
@@ -142,9 +145,12 @@
           {
             "data":{
               "ef-shd_alpha":1.0,
-              "ef-shd_duration":3.2999999999999998,
+              "ef-shd_duration":3.3999999999999999,
               "ef-shd_fade-in":0.25,
               "ef-shd_fade-out":0.5,
+              "hidden":false,
+              "ef-shd_hide":false,
+              "ef-shd_hide-merge-cfg":false,
               "ef-shd_merge-cfg":{
               },
               "ef-shd_pipeline":"GRID",
@@ -162,11 +168,14 @@
             "data":{
               "ef-shd_alpha":1.0,
               "ef-shd_duration":3.2999999999999998,
-              "ef-shd_fade-in":0.25,
+              "ef-shd_fade-in":0.0,
               "ef-shd_fade-out":0.5,
+              "hidden":false,
+              "ef-shd_hide":false,
+              "ef-shd_hide-merge-cfg":false,
               "ef-shd_merge-cfg":{
               },
-              "ef-shd_pipeline":"GRID",
+              "ef-shd_pipeline":"COMBINED",
               "ef-shd_template":"Octagrams 01",
               "ef-shd_use-merge-cfg":false,
               "icon":{
@@ -183,6 +192,9 @@
               "ef-shd_duration":4.0,
               "ef-shd_fade-in":0.5,
               "ef-shd_fade-out":1.0,
+              "hidden":false,
+              "ef-shd_hide":false,
+              "ef-shd_hide-merge-cfg":false,
               "ef-shd_merge-cfg":{
               },
               "ef-shd_pipeline":"GRID",
@@ -1011,58 +1023,6 @@
           },
           {
             "data":{
-              "en-shr_dir":150.0,
-              "en-shr_use-dir-rng":false,
-              "en-shr_dir-rng":0.0,
-              "en-shr_use-rng-x":false,
-              "en-shr_use-rng-y":false,
-              "en-shr_use-spd-rng":false,
-              "en-shr_x":12.5,
-              "en-shr_y":1.25,
-              "en-shr_preview":true,
-              "en-shr_rng-x":0.0,
-              "en-shr_rng-y":0.0,
-              "en-shr_snap-x":false,
-              "en-shr_snap-y":false,
-              "en-shr_spd":13.0,
-              "icon":{
-                "name":"texture_baron",
-                "blend":"#00FF00"
-              },
-              "en-shr_spd-rng":0.0,
-              "en-shr_template":"baron-1-thunder-r-p3x2"
-            },
-            "callable":"brush_entity_shroom",
-            "timestamp":57.758620999999998
-          },
-          {
-            "data":{
-              "en-shr_dir":30.0,
-              "en-shr_use-dir-rng":false,
-              "en-shr_dir-rng":0.0,
-              "en-shr_use-rng-x":false,
-              "en-shr_use-rng-y":false,
-              "en-shr_use-spd-rng":false,
-              "en-shr_x":-9.5,
-              "en-shr_y":-3.7500000000000004,
-              "en-shr_preview":true,
-              "en-shr_rng-x":0.0,
-              "en-shr_rng-y":0.0,
-              "en-shr_snap-x":true,
-              "en-shr_snap-y":true,
-              "en-shr_spd":13.0,
-              "icon":{
-                "name":"texture_baron",
-                "blend":"#FFFF00"
-              },
-              "en-shr_spd-rng":0.0,
-              "en-shr_template":"baron-1-thunder-l-p3x2"
-            },
-            "callable":"brush_entity_shroom",
-            "timestamp":60.517240999999999
-          },
-          {
-            "data":{
               "en-shr_dir":0.0,
               "en-shr_use-dir-rng":false,
               "en-shr_dir-rng":0.0,
@@ -1726,58 +1686,6 @@
           },
           {
             "data":{
-              "en-shr_dir":0.0,
-              "en-shr_use-dir-rng":false,
-              "en-shr_dir-rng":0.0,
-              "en-shr_use-rng-x":false,
-              "en-shr_use-rng-y":false,
-              "en-shr_use-spd-rng":false,
-              "en-shr_x":-10.1666875,
-              "en-shr_y":-1.9166687500000001,
-              "en-shr_preview":true,
-              "en-shr_rng-x":0.0,
-              "en-shr_rng-y":0.0,
-              "en-shr_snap-x":false,
-              "en-shr_snap-y":false,
-              "en-shr_spd":14.0,
-              "icon":{
-                "name":"texture_baron",
-                "blend":"#0000FF"
-              },
-              "en-shr_spd-rng":0.0,
-              "en-shr_template":"baron-1-zig-l-p2x3"
-            },
-            "callable":"brush_entity_shroom",
-            "timestamp":63.448276
-          },
-          {
-            "data":{
-              "en-shr_dir":180.0,
-              "en-shr_use-dir-rng":false,
-              "en-shr_dir-rng":0.0,
-              "en-shr_use-rng-x":false,
-              "en-shr_use-rng-y":false,
-              "en-shr_use-spd-rng":false,
-              "en-shr_x":10.5,
-              "en-shr_y":-4.9166687500000004,
-              "en-shr_preview":true,
-              "en-shr_rng-x":0.0,
-              "en-shr_rng-y":0.0,
-              "en-shr_snap-x":false,
-              "en-shr_snap-y":false,
-              "en-shr_spd":14.0,
-              "icon":{
-                "name":"texture_baron",
-                "blend":"#FF0000"
-              },
-              "en-shr_spd-rng":0.0,
-              "en-shr_template":"baron-1-zig-r-p2x3"
-            },
-            "callable":"brush_entity_shroom",
-            "timestamp":66.206896551724142
-          },
-          {
-            "data":{
               "en-shr_dir":90.0,
               "en-shr_use-dir-rng":false,
               "en-shr_dir-rng":0.0,
@@ -2152,58 +2060,6 @@
             },
             "callable":"brush_entity_shroom",
             "timestamp":44.310344000000001
-          },
-          {
-            "data":{
-              "en-shr_dir":150.0,
-              "en-shr_use-dir-rng":false,
-              "en-shr_dir-rng":0.0,
-              "en-shr_use-rng-x":false,
-              "en-shr_use-rng-y":false,
-              "en-shr_use-spd-rng":false,
-              "en-shr_x":10.5,
-              "en-shr_y":-0.75,
-              "en-shr_preview":true,
-              "en-shr_rng-x":0.0,
-              "en-shr_rng-y":0.0,
-              "en-shr_snap-x":false,
-              "en-shr_snap-y":false,
-              "en-shr_spd":17.0,
-              "icon":{
-                "name":"texture_baron",
-                "blend":"#00FF00"
-              },
-              "en-shr_spd-rng":0.0,
-              "en-shr_template":"baron-1-thunder-r-p3x2"
-            },
-            "callable":"brush_entity_shroom",
-            "timestamp":58.103448999999998
-          },
-          {
-            "data":{
-              "en-shr_dir":30.0,
-              "en-shr_use-dir-rng":false,
-              "en-shr_dir-rng":0.0,
-              "en-shr_use-rng-x":false,
-              "en-shr_use-rng-y":false,
-              "en-shr_use-spd-rng":false,
-              "en-shr_x":-11.5,
-              "en-shr_y":-1.7500000000000002,
-              "en-shr_preview":true,
-              "en-shr_rng-x":0.0,
-              "en-shr_rng-y":0.0,
-              "en-shr_snap-x":true,
-              "en-shr_snap-y":true,
-              "en-shr_spd":17.0,
-              "icon":{
-                "name":"texture_baron",
-                "blend":"#FFFF00"
-              },
-              "en-shr_spd-rng":0.0,
-              "en-shr_template":"baron-1-thunder-l-p3x2"
-            },
-            "callable":"brush_entity_shroom",
-            "timestamp":60.862069379310356
           },
           {
             "data":{
@@ -2711,58 +2567,6 @@
             },
             "callable":"brush_entity_shroom",
             "timestamp":61.034482379310354
-          },
-          {
-            "data":{
-              "en-shr_dir":0.0,
-              "en-shr_use-dir-rng":false,
-              "en-shr_dir-rng":0.0,
-              "en-shr_use-rng-x":false,
-              "en-shr_use-rng-y":false,
-              "en-shr_use-spd-rng":false,
-              "en-shr_x":-12.166687499999998,
-              "en-shr_y":0.083331249999999898,
-              "en-shr_preview":true,
-              "en-shr_rng-x":0.0,
-              "en-shr_rng-y":0.0,
-              "en-shr_snap-x":false,
-              "en-shr_snap-y":false,
-              "en-shr_spd":16.0,
-              "icon":{
-                "name":"texture_baron",
-                "blend":"#0000FF"
-              },
-              "en-shr_spd-rng":0.0,
-              "en-shr_template":"baron-1-zig-l-p2x3"
-            },
-            "callable":"brush_entity_shroom",
-            "timestamp":63.448276
-          },
-          {
-            "data":{
-              "en-shr_dir":180.0,
-              "en-shr_use-dir-rng":false,
-              "en-shr_dir-rng":0.0,
-              "en-shr_use-rng-x":false,
-              "en-shr_use-rng-y":false,
-              "en-shr_use-spd-rng":false,
-              "en-shr_x":12.5,
-              "en-shr_y":-2.9166687500000004,
-              "en-shr_preview":true,
-              "en-shr_rng-x":0.0,
-              "en-shr_rng-y":0.0,
-              "en-shr_snap-x":false,
-              "en-shr_snap-y":false,
-              "en-shr_spd":16.0,
-              "icon":{
-                "name":"texture_baron",
-                "blend":"#FF0000"
-              },
-              "en-shr_spd-rng":0.0,
-              "en-shr_template":"baron-1-zig-r-p2x3"
-            },
-            "callable":"brush_entity_shroom",
-            "timestamp":66.206896999999998
           },
           {
             "data":{
@@ -3858,6 +3662,84 @@
           },
           {
             "data":{
+              "en-shr_dir":150.0,
+              "en-shr_use-dir-rng":false,
+              "en-shr_dir-rng":0.0,
+              "en-shr_use-rng-x":false,
+              "en-shr_use-rng-y":false,
+              "en-shr_use-spd-rng":false,
+              "en-shr_x":12.5,
+              "en-shr_y":1.25,
+              "en-shr_preview":true,
+              "en-shr_rng-x":0.0,
+              "en-shr_rng-y":0.0,
+              "en-shr_snap-x":false,
+              "en-shr_snap-y":false,
+              "en-shr_spd":13.0,
+              "icon":{
+                "name":"texture_baron",
+                "blend":"#00FF00"
+              },
+              "en-shr_spd-rng":0.0,
+              "en-shr_template":"baron-1-thunder-r-p3x2"
+            },
+            "callable":"brush_entity_shroom",
+            "timestamp":57.758620689655174
+          },
+          {
+            "data":{
+              "en-shr_dir":30.0,
+              "en-shr_use-dir-rng":false,
+              "en-shr_dir-rng":0.0,
+              "en-shr_use-rng-x":false,
+              "en-shr_use-rng-y":false,
+              "en-shr_use-spd-rng":false,
+              "en-shr_x":-9.5,
+              "en-shr_y":-3.7500000000000004,
+              "en-shr_preview":true,
+              "en-shr_rng-x":0.0,
+              "en-shr_rng-y":0.0,
+              "en-shr_snap-x":true,
+              "en-shr_snap-y":true,
+              "en-shr_spd":13.0,
+              "icon":{
+                "name":"texture_baron",
+                "blend":"#FFFF00"
+              },
+              "en-shr_spd-rng":0.0,
+              "en-shr_template":"baron-1-thunder-l-p3x2"
+            },
+            "callable":"brush_entity_shroom",
+            "timestamp":60.517240689655175
+          },
+          {
+            "data":{
+              "en-shr_dir":0.0,
+              "en-shr_use-dir-rng":false,
+              "en-shr_dir-rng":0.0,
+              "en-shr_use-rng-x":false,
+              "en-shr_use-rng-y":false,
+              "en-shr_use-spd-rng":false,
+              "en-shr_x":-10.1666875,
+              "en-shr_y":-1.9166687500000001,
+              "en-shr_preview":true,
+              "en-shr_rng-x":0.0,
+              "en-shr_rng-y":0.0,
+              "en-shr_snap-x":false,
+              "en-shr_snap-y":false,
+              "en-shr_spd":14.0,
+              "icon":{
+                "name":"texture_baron",
+                "blend":"#0000FF"
+              },
+              "en-shr_spd-rng":0.0,
+              "en-shr_template":"baron-1-zig-l-p2x3"
+            },
+            "callable":"brush_entity_shroom",
+            "timestamp":63.448275862068968
+          },
+          {
+            "data":{
               "en-shr_dir":270.0,
               "en-shr_use-dir-rng":false,
               "en-shr_dir-rng":0.0,
@@ -3881,6 +3763,32 @@
             },
             "callable":"brush_entity_shroom",
             "timestamp":65.17241320689655
+          },
+          {
+            "data":{
+              "en-shr_dir":180.0,
+              "en-shr_use-dir-rng":false,
+              "en-shr_dir-rng":0.0,
+              "en-shr_use-rng-x":false,
+              "en-shr_use-rng-y":false,
+              "en-shr_use-spd-rng":false,
+              "en-shr_x":10.5,
+              "en-shr_y":-4.9166687500000004,
+              "en-shr_preview":true,
+              "en-shr_rng-x":0.0,
+              "en-shr_rng-y":0.0,
+              "en-shr_snap-x":false,
+              "en-shr_snap-y":false,
+              "en-shr_spd":14.0,
+              "icon":{
+                "name":"texture_baron",
+                "blend":"#FF0000"
+              },
+              "en-shr_spd-rng":0.0,
+              "en-shr_template":"baron-1-zig-r-p2x3"
+            },
+            "callable":"brush_entity_shroom",
+            "timestamp":66.206896551724142
           },
           {
             "data":{
@@ -4469,6 +4377,84 @@
           },
           {
             "data":{
+              "en-shr_dir":150.0,
+              "en-shr_use-dir-rng":false,
+              "en-shr_dir-rng":0.0,
+              "en-shr_use-rng-x":false,
+              "en-shr_use-rng-y":false,
+              "en-shr_use-spd-rng":false,
+              "en-shr_x":10.5,
+              "en-shr_y":-0.75,
+              "en-shr_preview":true,
+              "en-shr_rng-x":0.0,
+              "en-shr_rng-y":0.0,
+              "en-shr_snap-x":false,
+              "en-shr_snap-y":false,
+              "en-shr_spd":17.0,
+              "icon":{
+                "name":"texture_baron",
+                "blend":"#00FF00"
+              },
+              "en-shr_spd-rng":0.0,
+              "en-shr_template":"baron-1-thunder-r-p3x2"
+            },
+            "callable":"brush_entity_shroom",
+            "timestamp":58.103448586206888
+          },
+          {
+            "data":{
+              "en-shr_dir":30.0,
+              "en-shr_use-dir-rng":false,
+              "en-shr_dir-rng":0.0,
+              "en-shr_use-rng-x":false,
+              "en-shr_use-rng-y":false,
+              "en-shr_use-spd-rng":false,
+              "en-shr_x":-11.5,
+              "en-shr_y":-1.7500000000000002,
+              "en-shr_preview":true,
+              "en-shr_rng-x":0.0,
+              "en-shr_rng-y":0.0,
+              "en-shr_snap-x":true,
+              "en-shr_snap-y":true,
+              "en-shr_spd":17.0,
+              "icon":{
+                "name":"texture_baron",
+                "blend":"#FFFF00"
+              },
+              "en-shr_spd-rng":0.0,
+              "en-shr_template":"baron-1-thunder-l-p3x2"
+            },
+            "callable":"brush_entity_shroom",
+            "timestamp":60.862068965517246
+          },
+          {
+            "data":{
+              "en-shr_dir":0.0,
+              "en-shr_use-dir-rng":false,
+              "en-shr_dir-rng":0.0,
+              "en-shr_use-rng-x":false,
+              "en-shr_use-rng-y":false,
+              "en-shr_use-spd-rng":false,
+              "en-shr_x":-12.166687499999998,
+              "en-shr_y":0.083331249999999898,
+              "en-shr_preview":true,
+              "en-shr_rng-x":0.0,
+              "en-shr_rng-y":0.0,
+              "en-shr_snap-x":false,
+              "en-shr_snap-y":false,
+              "en-shr_spd":16.0,
+              "icon":{
+                "name":"texture_baron",
+                "blend":"#0000FF"
+              },
+              "en-shr_spd-rng":0.0,
+              "en-shr_template":"baron-1-zig-l-p2x3"
+            },
+            "callable":"brush_entity_shroom",
+            "timestamp":63.448275862068968
+          },
+          {
+            "data":{
               "en-shr_dir":270.0,
               "en-shr_use-dir-rng":false,
               "en-shr_dir-rng":0.0,
@@ -4492,6 +4478,32 @@
             },
             "callable":"brush_entity_shroom",
             "timestamp":65.517241724137932
+          },
+          {
+            "data":{
+              "en-shr_dir":180.0,
+              "en-shr_use-dir-rng":false,
+              "en-shr_dir-rng":0.0,
+              "en-shr_use-rng-x":false,
+              "en-shr_use-rng-y":false,
+              "en-shr_use-spd-rng":false,
+              "en-shr_x":12.5,
+              "en-shr_y":-2.9166687500000004,
+              "en-shr_preview":true,
+              "en-shr_rng-x":0.0,
+              "en-shr_rng-y":0.0,
+              "en-shr_snap-x":false,
+              "en-shr_snap-y":false,
+              "en-shr_spd":16.0,
+              "icon":{
+                "name":"texture_baron",
+                "blend":"#FF0000"
+              },
+              "en-shr_spd-rng":0.0,
+              "en-shr_template":"baron-1-zig-r-p2x3"
+            },
+            "callable":"brush_entity_shroom",
+            "timestamp":66.206896862068959
           },
           {
             "data":{
@@ -10277,7 +10289,7 @@
               "hidden":false,
               "en-cfg_cls-coin":true,
               "en-cfg_cls-player":true,
-              "en-cfg_cls-shr":false,
+              "en-cfg_cls-shr":true,
               "en-cfg_hide-bullet":false,
               "en-cfg_hide-cfg":false,
               "en-cfg_hide-cls":false,

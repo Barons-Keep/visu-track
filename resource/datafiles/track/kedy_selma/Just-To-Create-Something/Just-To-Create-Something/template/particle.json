@@ -229,57 +229,6 @@
         "minValue":4.0
       }
     },
-    "particle-shroom-damage":{
-      "shape":"STAR",
-      "alpha":{
-        "halfway":1.0,
-        "finish":0.0,
-        "start":1.0
-      },
-      "speed":{
-        "maxValue":100.0,
-        "minValue":25.0,
-        "wiggle":20.0,
-        "increase":0.5
-      },
-      "orientation":{
-        "relative":0.0,
-        "maxValue":360.0,
-        "minValue":0.0,
-        "wiggle":1.0,
-        "increase":5.0
-      },
-      "gravity":{
-        "amount":0.0,
-        "angle":0.0
-      },
-      "scale":{
-        "x":1.25,
-        "y":1.25
-      },
-      "color":{
-        "halfway":"#E7FF6C",
-        "finish":"#720000",
-        "start":"#FF6A00"
-      },
-      "angle":{
-        "maxValue":360.0,
-        "minValue":0.0,
-        "wiggle":5.0,
-        "increase":0.5
-      },
-      "blend":true,
-      "life":{
-        "maxValue":26.0,
-        "minValue":22.0
-      },
-      "size":{
-        "maxValue":1.5,
-        "minValue":0.0,
-        "wiggle":0.0,
-        "increase":0.75
-      }
-    },
     "particle-baron-1":{
       "shape":"CIRCLE",
       "sprite":{
@@ -449,6 +398,57 @@
         "increase":0.080000000000000002,
         "wiggle":0.02,
         "minValue":0.0
+      }
+    },
+    "particle-shroom-damage":{
+      "shape":"STAR",
+      "alpha":{
+        "halfway":1.0,
+        "finish":0.0,
+        "start":1.0
+      },
+      "speed":{
+        "maxValue":100.0,
+        "minValue":25.0,
+        "wiggle":20.0,
+        "increase":0.5
+      },
+      "orientation":{
+        "relative":0.0,
+        "maxValue":360.0,
+        "minValue":0.0,
+        "wiggle":1.0,
+        "increase":5.0
+      },
+      "gravity":{
+        "amount":0.0,
+        "angle":0.0
+      },
+      "scale":{
+        "x":1.25,
+        "y":1.25
+      },
+      "color":{
+        "halfway":"#E7FF6C",
+        "finish":"#720000",
+        "start":"#FF6A00"
+      },
+      "angle":{
+        "maxValue":360.0,
+        "minValue":0.0,
+        "wiggle":5.0,
+        "increase":0.5
+      },
+      "blend":true,
+      "life":{
+        "maxValue":26.0,
+        "minValue":22.0
+      },
+      "size":{
+        "maxValue":1.5,
+        "minValue":0.0,
+        "wiggle":0.0,
+        "increase":0.75
       }
     },
     "particle-baron-3":{

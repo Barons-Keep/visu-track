@@ -1,6 +1,18 @@
 {
   "version":"1",
   "data":{
+    "subtitle_kedy_selma":{
+      "lines":[
+        "kedy_selma",
+        ""
+      ]
+    },
+    "subtitle_alkapivo":{
+      "lines":[
+        "Alkapivo",
+        "2025"
+      ]
+    },
     "subtitle_kedy_selma_jtcs_poem":{
       "lines":[
         "If it was easier,",
@@ -16,18 +28,6 @@
       "lines":[
         "",
         "Just To Create Something"
-      ]
-    },
-    "subtitle_kedy_selma":{
-      "lines":[
-        "kedy_selma",
-        ""
-      ]
-    },
-    "subtitle_alkapivo":{
-      "lines":[
-        "Alkapivo",
-        "2025"
       ]
     }
   },
