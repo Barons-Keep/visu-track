@@ -1,43 +1,42 @@
 {
-  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>",
+  "version":"1",
   "data":[
     {
-      "hidden":false,
-      "name":"default bkg",
       "type":"brush_view_layer",
-      "texture":"texture_ve_icon_view_layer",
       "color":"#00FF00",
+      "texture":"texture_ve_icon_view_layer",
       "properties":{
+        "vw-layer_fade-in":0.0,
         "vw-layer_fade-out":1.0,
         "vw-layer_scale-x":{
-          "factor":0.0,
           "target":0.0,
           "value":1.0,
+          "factor":0.0,
           "increase":0.0
         },
         "vw-layer_scale-y":{
-          "factor":0.0,
           "target":0.0,
           "value":1.0,
+          "factor":0.0,
           "increase":0.0
         },
         "vw-layer_spd":{
-          "factor":0.0,
           "target":0.0,
           "value":0.0,
+          "factor":0.0,
           "increase":0.0
         },
         "vw-layer_texture":{
-          "frame":0.0,
+          "randomFrame":false,
+          "animate":false,
+          "angle":0.0,
+          "scaleX":1.0,
           "scaleY":1.0,
           "name":"texture_missing",
-          "animate":false,
-          "randomFrame":false,
-          "speed":30.0,
-          "angle":0.0,
           "blend":"#FFFFFF",
           "alpha":1.0,
-          "scaleX":1.0
+          "speed":30.0,
+          "frame":0.0
         },
         "vw-layer_texture-blend":"#000000",
         "vw-layer_texture-lifespan":0.0,
@@ -66,14 +65,15 @@
         "vw-layer_cls-texture":false,
         "vw-layer_col":"#0A1119",
         "vw-layer_dir":{
-          "factor":0.0,
           "target":0.0,
           "value":0.0,
+          "factor":0.0,
           "increase":0.0
-        },
-        "vw-layer_fade-in":0.0
-      }
+        }
+      },
+      "hidden":false,
+      "name":"default bkg"
     }
   ],
-  "version":"1"
+  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>"
 }

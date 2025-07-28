@@ -1,54 +1,54 @@
 {
-  "model":"Collection<io.alkapivo.core.service.texture.TextureIntent>",
+  "version":"1",
   "data":{
     "texture_schnoopy_blue":{
-      "frames":2.0,
-      "name":"texture_schnoopy_blue",
       "file":"texture/texture_schnoopy_blue.png",
+      "prefetch":true,
+      "name":"texture_schnoopy_blue",
+      "frames":2.0,
       "originX":128.0,
-      "originY":128.0,
-      "prefetch":true
+      "originY":128.0
     },
     "texture_schnoopy_white":{
-      "frames":2.0,
-      "name":"texture_schnoopy_white",
       "file":"texture/texture_schnoopy_white.png",
+      "prefetch":true,
+      "name":"texture_schnoopy_white",
+      "frames":2.0,
       "originX":128.0,
-      "originY":128.0,
-      "prefetch":true
+      "originY":128.0
     },
     "texture_schnoopy_yellow":{
-      "frames":2.0,
-      "name":"texture_schnoopy_yellow",
       "file":"texture/texture_schnoopy_yellow.png",
+      "prefetch":true,
+      "name":"texture_schnoopy_yellow",
+      "frames":2.0,
       "originX":128.0,
-      "originY":128.0,
-      "prefetch":true
+      "originY":128.0
     },
     "texture_schnoopy_red":{
-      "frames":2.0,
-      "name":"texture_schnoopy_red",
       "file":"texture/texture_schnoopy_red.png",
+      "prefetch":true,
+      "name":"texture_schnoopy_red",
+      "frames":2.0,
       "originX":128.0,
-      "originY":128.0,
-      "prefetch":true
+      "originY":128.0
     },
     "texture_schnoopy_magenta":{
-      "frames":2.0,
-      "name":"texture_schnoopy_magenta",
       "file":"texture/texture_schnoopy_magenta.png",
+      "prefetch":true,
+      "name":"texture_schnoopy_magenta",
+      "frames":2.0,
       "originX":128.0,
-      "originY":128.0,
-      "prefetch":true
+      "originY":128.0
     },
     "texture_schnoopy_green":{
-      "frames":2.0,
-      "name":"texture_schnoopy_green",
       "file":"texture/texture_schnoopy_green.png",
+      "prefetch":true,
+      "name":"texture_schnoopy_green",
+      "frames":2.0,
       "originX":128.0,
-      "originY":128.0,
-      "prefetch":true
+      "originY":128.0
     }
   },
-  "version":"1"
+  "model":"Collection<io.alkapivo.core.service.texture.TextureIntent>"
 }

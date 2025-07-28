@@ -1,14 +1,14 @@
 {
-  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>",
+  "version":"1",
   "data":[
     {
       "type":"brush_entity_player",
       "color":"#0080FF",
       "texture":"texture_ve_icon_entity_player",
       "properties":{
-        "en-pl_use-racing":1.0,
-        "en-pl_use-stats":false,
         "en-pl_bullethell":{
+          "guns":[
+          ],
           "x":{
             "friction":20.0,
             "acceleration":0.0,
@@ -19,8 +19,6 @@
             "acceleration":0.0,
             "speedMax":0.0
           },
-          "guns":[
-          ],
           "focusCooldown":0.016
         },
         "en-pl_hide":true,
@@ -40,21 +38,16 @@
             "acceleration":1.9199999999999999,
             "speedMax":2.5
           },
-          "jump":{
-            "size":4.0
-          },
           "y":{
             "friction":0.0,
             "acceleration":1.9199999999999999,
             "speedMax":25.0
+          },
+          "jump":{
+            "size":4.0
           }
         },
         "en-pl_racing":{
-          "wheel":{
-            "friction":0.059999999999999998,
-            "acceleration":0.29999999999999999,
-            "speedMax":3.0
-          },
           "throttle":{
             "friction":0.5,
             "acceleration":0.20000000000000001,
@@ -64,30 +57,35 @@
             "friction":1.0,
             "acceleration":0.5,
             "speedMax":1.0
+          },
+          "wheel":{
+            "friction":0.059999999999999998,
+            "acceleration":0.29999999999999999,
+            "speedMax":3.0
           }
         },
         "en-pl_reset-pos":false,
         "en-pl_shadow":false,
         "en-pl_stats":{
-          "force":{
-            "minValue":0.0,
-            "maxValue":250.0,
-            "value":0.0
-          },
-          "bomb":{
-            "minValue":0.0,
-            "maxValue":10.0,
-            "value":7.0
-          },
           "life":{
-            "minValue":0.0,
             "maxValue":10.0,
-            "value":4.0
+            "value":4.0,
+            "minValue":0.0
           },
           "point":{
-            "minValue":0.0,
             "maxValue":9999999.0,
-            "value":0.0
+            "value":0.0,
+            "minValue":0.0
+          },
+          "force":{
+            "maxValue":250.0,
+            "value":0.0,
+            "minValue":0.0
+          },
+          "bomb":{
+            "maxValue":10.0,
+            "value":7.0,
+            "minValue":0.0
           }
         },
         "en-pl_texture":{
@@ -95,16 +93,18 @@
           "animate":false,
           "angle":0.0,
           "scaleX":1.0,
-          "blend":"#FFFFFF",
           "scaleY":1.0,
-          "speed":0.0,
-          "alpha":0.0,
+          "blend":"#FFFFFF",
           "name":"texture_empty",
+          "alpha":0.0,
+          "speed":0.0,
           "frame":0.0
         },
         "en-pl_use-bullethell":true,
         "en-pl_use-mask":true,
-        "en-pl_use-platformer":1.0
+        "en-pl_use-platformer":1.0,
+        "en-pl_use-racing":1.0,
+        "en-pl_use-stats":false
       },
       "hidden":true,
       "name":"empty"
@@ -114,9 +114,85 @@
       "color":"#00A000",
       "texture":"texture_ve_icon_entity_player",
       "properties":{
-        "en-pl_use-racing":1.0,
-        "en-pl_use-stats":true,
         "en-pl_bullethell":{
+          "guns":[
+            {
+              "focus":false,
+              "angle":93.0,
+              "cooldown":13.6,
+              "bullet":"bullet-player-l",
+              "speed":50.0,
+              "offsetX":-240.0,
+              "offsetY":300.0
+            },
+            {
+              "focus":true,
+              "angle":90.0,
+              "cooldown":10.6,
+              "bullet":"bullet-player",
+              "speed":75.0,
+              "offsetX":160.0,
+              "offsetY":300.0
+            },
+            {
+              "focus":true,
+              "angle":90.0,
+              "cooldown":10.6,
+              "bullet":"bullet-player",
+              "speed":75.0,
+              "offsetX":-160.0,
+              "offsetY":300.0
+            },
+            {
+              "focus":false,
+              "angle":87.0,
+              "cooldown":13.6,
+              "bullet":"bullet-player-r",
+              "speed":50.0,
+              "offsetX":240.0,
+              "offsetY":300.0
+            },
+            {
+              "focus":false,
+              "minForce":1.0,
+              "angle":120.0,
+              "cooldown":13.6,
+              "bullet":"bullet-player-l",
+              "speed":60.0,
+              "offsetX":-180.0,
+              "offsetY":300.0
+            },
+            {
+              "focus":false,
+              "minForce":1.0,
+              "angle":60.0,
+              "cooldown":13.6,
+              "bullet":"bullet-player-r",
+              "speed":60.0,
+              "offsetX":200.0,
+              "offsetY":300.0
+            },
+            {
+              "focus":true,
+              "minForce":1.0,
+              "angle":80.0,
+              "cooldown":10.6,
+              "bullet":"bullet-player",
+              "speed":75.0,
+              "offsetX":160.0,
+              "offsetY":300.0
+            },
+            {
+              "focus":true,
+              "minForce":1.0,
+              "angle":100.0,
+              "cooldown":10.6,
+              "bullet":"bullet-player",
+              "speed":75.0,
+              "offsetX":-160.0,
+              "offsetY":300.0
+            }
+          ],
           "x":{
             "friction":20.0,
             "acceleration":2.0,
@@ -127,84 +203,6 @@
             "acceleration":2.0,
             "speedMax":1.6000000000000001
           },
-          "guns":[
-            {
-              "offsetY":300.0,
-              "focus":false,
-              "angle":93.0,
-              "cooldown":13.6,
-              "bullet":"bullet-player-l",
-              "speed":50.0,
-              "offsetX":-240.0
-            },
-            {
-              "offsetY":300.0,
-              "focus":true,
-              "angle":90.0,
-              "cooldown":10.6,
-              "bullet":"bullet-player",
-              "speed":75.0,
-              "offsetX":160.0
-            },
-            {
-              "offsetY":300.0,
-              "focus":true,
-              "angle":90.0,
-              "cooldown":10.6,
-              "bullet":"bullet-player",
-              "speed":75.0,
-              "offsetX":-160.0
-            },
-            {
-              "offsetY":300.0,
-              "focus":false,
-              "angle":87.0,
-              "cooldown":13.6,
-              "bullet":"bullet-player-r",
-              "speed":50.0,
-              "offsetX":240.0
-            },
-            {
-              "offsetY":300.0,
-              "focus":false,
-              "minForce":1.0,
-              "angle":120.0,
-              "cooldown":13.6,
-              "bullet":"bullet-player-l",
-              "speed":60.0,
-              "offsetX":-180.0
-            },
-            {
-              "offsetY":300.0,
-              "focus":false,
-              "minForce":1.0,
-              "angle":60.0,
-              "cooldown":13.6,
-              "bullet":"bullet-player-r",
-              "speed":60.0,
-              "offsetX":200.0
-            },
-            {
-              "offsetY":300.0,
-              "focus":true,
-              "minForce":1.0,
-              "angle":80.0,
-              "cooldown":10.6,
-              "bullet":"bullet-player",
-              "speed":75.0,
-              "offsetX":160.0
-            },
-            {
-              "offsetY":300.0,
-              "focus":true,
-              "minForce":1.0,
-              "angle":100.0,
-              "cooldown":10.6,
-              "bullet":"bullet-player",
-              "speed":75.0,
-              "offsetX":-160.0
-            }
-          ],
           "focusCooldown":0.016
         },
         "en-pl_hide":false,
@@ -224,21 +222,16 @@
             "acceleration":1.9199999999999999,
             "speedMax":2.5
           },
-          "jump":{
-            "size":4.0
-          },
           "y":{
             "friction":0.0,
             "acceleration":1.9199999999999999,
             "speedMax":25.0
+          },
+          "jump":{
+            "size":4.0
           }
         },
         "en-pl_racing":{
-          "wheel":{
-            "friction":0.059999999999999998,
-            "acceleration":0.29999999999999999,
-            "speedMax":3.0
-          },
           "throttle":{
             "friction":0.5,
             "acceleration":0.20000000000000001,
@@ -248,30 +241,35 @@
             "friction":1.0,
             "acceleration":0.5,
             "speedMax":1.0
+          },
+          "wheel":{
+            "friction":0.059999999999999998,
+            "acceleration":0.29999999999999999,
+            "speedMax":3.0
           }
         },
         "en-pl_reset-pos":true,
         "en-pl_shadow":true,
         "en-pl_stats":{
-          "force":{
-            "minValue":0.0,
-            "maxValue":250.0,
-            "value":0.0
-          },
-          "bomb":{
-            "minValue":0.0,
-            "maxValue":10.0,
-            "value":5.0
-          },
           "life":{
-            "minValue":0.0,
             "maxValue":10.0,
-            "value":4.0
+            "value":4.0,
+            "minValue":0.0
           },
           "point":{
-            "minValue":0.0,
             "maxValue":9999999.0,
-            "value":0.0
+            "value":0.0,
+            "minValue":0.0
+          },
+          "force":{
+            "maxValue":250.0,
+            "value":0.0,
+            "minValue":0.0
+          },
+          "bomb":{
+            "maxValue":10.0,
+            "value":5.0,
+            "minValue":0.0
           }
         },
         "en-pl_texture":{
@@ -281,18 +279,20 @@
           "scaleX":3.0,
           "scaleY":3.0,
           "blend":"#FFFFFF",
-          "speed":13.0,
-          "alpha":1.0,
           "name":"texture_player",
+          "alpha":1.0,
+          "speed":13.0,
           "frame":0.0
         },
         "en-pl_use-bullethell":1.0,
         "en-pl_use-mask":true,
-        "en-pl_use-platformer":1.0
+        "en-pl_use-platformer":1.0,
+        "en-pl_use-racing":1.0,
+        "en-pl_use-stats":true
       },
       "hidden":false,
       "name":"default"
     }
   ],
-  "version":"1"
+  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>"
 }

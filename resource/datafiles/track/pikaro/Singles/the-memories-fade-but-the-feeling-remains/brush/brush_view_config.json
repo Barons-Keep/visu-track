@@ -1,5 +1,5 @@
 {
-  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>",
+  "version":"1",
   "data":[
     {
       "type":"brush_view_config",
@@ -28,12 +28,12 @@
         "vw-cfg_use-render-video-after":false,
         "vw-cfg_use-video-alpha":false,
         "vw-cfg_video-alpha":{
-          "duration":0.0,
           "target":0.0,
           "ease":"LINEAR",
           "increase":0.0,
           "factor":0.0,
-          "value":0.0
+          "value":0.0,
+          "duration":0.0
         },
         "vw-cfg_video-blend-col":"#FFFFFF",
         "vw-cfg_video-blend-col-spd":0.0,
@@ -74,12 +74,12 @@
         "vw-cfg_use-render-video-after":true,
         "vw-cfg_use-video-alpha":true,
         "vw-cfg_video-alpha":{
-          "duration":0.0,
           "target":0.0,
           "ease":"LINEAR",
           "increase":0.0,
           "factor":0.0,
-          "value":0.0
+          "value":0.0,
+          "duration":0.0
         },
         "vw-cfg_video-blend-col":"#FFFFFF",
         "vw-cfg_video-blend-col-spd":0.0,
@@ -94,5 +94,5 @@
       "name":"default"
     }
   ],
-  "version":"1"
+  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>"
 }

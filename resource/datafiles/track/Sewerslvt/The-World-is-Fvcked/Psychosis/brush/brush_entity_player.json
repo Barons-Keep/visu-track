@@ -1,79 +1,77 @@
 {
-  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>",
+  "version":"1",
   "data":[
     {
-      "hidden":false,
-      "name":"player",
       "type":"brush_entity_player",
-      "texture":"texture_ve_icon_entity_player",
       "color":"#49FF29",
+      "texture":"texture_ve_icon_entity_player",
       "properties":{
         "en-pl_bullethell":{
-          "x":{
-            "acceleration":2.0,
-            "speedMax":1.6000000000000001,
-            "friction":20.0
-          },
           "guns":[
             {
               "focus":false,
-              "offsetX":-240.0,
-              "offsetY":300.0,
-              "speed":50.0,
               "angle":93.0,
+              "cooldown":13.6,
               "bullet":"bullet-player-l",
-              "cooldown":13.6
+              "speed":50.0,
+              "offsetX":-240.0,
+              "offsetY":300.0
             },
             {
               "focus":true,
+              "angle":90.0,
+              "cooldown":10.6,
+              "bullet":"bullet-player",
+              "speed":75.0,
               "offsetX":160.0,
-              "offsetY":300.0,
-              "speed":75.0,
-              "angle":90.0,
-              "bullet":"bullet-player",
-              "cooldown":10.6
+              "offsetY":300.0
             },
             {
               "focus":true,
-              "offsetX":-160.0,
-              "offsetY":300.0,
-              "speed":75.0,
               "angle":90.0,
+              "cooldown":10.6,
               "bullet":"bullet-player",
-              "cooldown":10.6
+              "speed":75.0,
+              "offsetX":-160.0,
+              "offsetY":300.0
             },
             {
               "focus":false,
-              "offsetX":240.0,
-              "offsetY":300.0,
-              "speed":50.0,
               "angle":87.0,
+              "cooldown":13.6,
               "bullet":"bullet-player-r",
-              "cooldown":13.6
+              "speed":50.0,
+              "offsetX":240.0,
+              "offsetY":300.0
             },
             {
-              "offsetX":-180.0,
-              "offsetY":300.0,
-              "speed":70.0,
+              "minForce":1.0,
               "angle":96.0,
-              "bullet":"bullet-player",
               "cooldown":13.6,
-              "minForce":1.0
+              "bullet":"bullet-player",
+              "speed":70.0,
+              "offsetX":-180.0,
+              "offsetY":300.0
             },
             {
-              "offsetX":200.0,
-              "offsetY":300.0,
-              "speed":70.0,
+              "minForce":1.0,
               "angle":84.0,
-              "bullet":"bullet-player",
               "cooldown":13.6,
-              "minForce":1.0
+              "bullet":"bullet-player",
+              "speed":70.0,
+              "offsetX":200.0,
+              "offsetY":300.0
             }
           ],
+          "x":{
+            "acceleration":2.0,
+            "friction":20.0,
+            "speedMax":1.6000000000000001
+          },
           "y":{
             "acceleration":2.0,
-            "speedMax":1.6000000000000001,
-            "friction":20.0
+            "friction":20.0,
+            "speedMax":1.6000000000000001
           },
           "focusCooldown":0.016
         },
@@ -91,130 +89,130 @@
         "en-pl_platformer":{
           "x":{
             "acceleration":1.9199999999999999,
-            "speedMax":2.5,
-            "friction":9.3000000000000007
-          },
-          "jump":{
-            "size":4.0
+            "friction":9.3000000000000007,
+            "speedMax":2.5
           },
           "y":{
             "acceleration":1.9199999999999999,
-            "speedMax":25.0,
-            "friction":0.0
+            "friction":0.0,
+            "speedMax":25.0
+          },
+          "jump":{
+            "size":4.0
           }
         },
         "en-pl_racing":{
           "throttle":{
             "acceleration":0.20000000000000001,
-            "speedMax":1.5,
-            "friction":0.5
-          },
-          "wheel":{
-            "acceleration":0.29999999999999999,
-            "speedMax":3.0,
-            "friction":0.059999999999999998
+            "friction":0.5,
+            "speedMax":1.5
           },
           "nitro":{
             "acceleration":0.5,
-            "speedMax":1.0,
-            "friction":1.0
+            "friction":1.0,
+            "speedMax":1.0
+          },
+          "wheel":{
+            "acceleration":0.29999999999999999,
+            "friction":0.059999999999999998,
+            "speedMax":3.0
           }
         },
         "en-pl_reset-pos":true,
         "en-pl_stats":{
-          "force":{
-            "maxValue":250.0,
-            "value":0.0,
-            "minValue":0.0
-          },
           "life":{
             "maxValue":10.0,
             "value":4.0,
-            "minValue":0.0
-          },
-          "bomb":{
-            "maxValue":10.0,
-            "value":7.0,
             "minValue":0.0
           },
           "point":{
             "maxValue":9999999.0,
             "value":0.0,
             "minValue":0.0
+          },
+          "force":{
+            "maxValue":250.0,
+            "value":0.0,
+            "minValue":0.0
+          },
+          "bomb":{
+            "maxValue":10.0,
+            "value":7.0,
+            "minValue":0.0
           }
         },
         "en-pl_texture":{
-          "scaleY":3.0,
-          "frame":0.046923670000000001,
-          "name":"texture_player",
-          "animate":1.0,
           "randomFrame":false,
-          "speed":13.0,
+          "animate":1.0,
           "angle":0.0,
+          "scaleX":3.0,
+          "scaleY":3.0,
+          "name":"texture_player",
           "blend":"#FFFFFF",
           "alpha":1.0,
-          "scaleX":3.0
+          "speed":13.0,
+          "frame":0.046923670000000001
         },
         "en-pl_use-bullethell":1.0,
         "en-pl_use-mask":true,
         "en-pl_use-platformer":1.0,
         "en-pl_use-racing":1.0,
         "en-pl_use-stats":true
-      }
+      },
+      "hidden":false,
+      "name":"player"
     },
     {
-      "hidden":false,
-      "name":"default",
       "type":"brush_entity_player",
-      "texture":"texture_ve_icon_entity_player",
       "color":"#49FF29",
+      "texture":"texture_ve_icon_entity_player",
       "properties":{
         "en-pl_bullethell":{
-          "x":{
-            "acceleration":2.0,
-            "speedMax":1.6000000000000001,
-            "friction":20.0
-          },
           "guns":[
             {
-              "offsetX":-112.0,
-              "offsetY":-96.0,
-              "speed":24.0,
               "angle":90.0,
+              "cooldown":15.0,
               "bullet":"bullet-player",
-              "cooldown":15.0
+              "speed":24.0,
+              "offsetX":-112.0,
+              "offsetY":-96.0
             },
             {
+              "angle":90.0,
+              "cooldown":15.0,
+              "bullet":"bullet-player",
+              "speed":24.0,
               "offsetX":112.0,
-              "offsetY":-96.0,
-              "speed":24.0,
-              "angle":90.0,
-              "bullet":"bullet-player",
-              "cooldown":15.0
+              "offsetY":-96.0
             },
             {
-              "offsetX":-112.0,
-              "offsetY":96.0,
-              "speed":24.0,
+              "minForce":1.0,
               "angle":96.0,
-              "bullet":"bullet-player",
               "cooldown":15.0,
-              "minForce":1.0
+              "bullet":"bullet-player",
+              "speed":24.0,
+              "offsetX":-112.0,
+              "offsetY":96.0
             },
             {
-              "offsetX":112.0,
-              "offsetY":96.0,
-              "speed":24.0,
+              "minForce":1.0,
               "angle":84.0,
-              "bullet":"bullet-player",
               "cooldown":15.0,
-              "minForce":1.0
+              "bullet":"bullet-player",
+              "speed":24.0,
+              "offsetX":112.0,
+              "offsetY":96.0
             }
           ],
+          "x":{
+            "acceleration":2.0,
+            "friction":20.0,
+            "speedMax":1.6000000000000001
+          },
           "y":{
             "acceleration":2.0,
-            "speedMax":1.6000000000000001,
-            "friction":20.0
+            "friction":20.0,
+            "speedMax":1.6000000000000001
           }
         },
         "en-pl_mask":{
@@ -226,142 +224,142 @@
         "en-pl_platformer":{
           "x":{
             "acceleration":1.9199999999999999,
-            "speedMax":2.5,
-            "friction":9.3000000000000007
-          },
-          "jump":{
-            "size":4.0
+            "friction":9.3000000000000007,
+            "speedMax":2.5
           },
           "y":{
             "acceleration":1.9199999999999999,
-            "speedMax":25.0,
-            "friction":0.0
+            "friction":0.0,
+            "speedMax":25.0
+          },
+          "jump":{
+            "size":4.0
           }
         },
         "en-pl_racing":{
           "throttle":{
             "acceleration":0.20000000000000001,
-            "speedMax":1.5,
-            "friction":0.5
-          },
-          "wheel":{
-            "acceleration":0.29999999999999999,
-            "speedMax":3.0,
-            "friction":0.059999999999999998
+            "friction":0.5,
+            "speedMax":1.5
           },
           "nitro":{
             "acceleration":0.5,
-            "speedMax":1.0,
-            "friction":1.0
+            "friction":1.0,
+            "speedMax":1.0
+          },
+          "wheel":{
+            "acceleration":0.29999999999999999,
+            "friction":0.059999999999999998,
+            "speedMax":3.0
           }
         },
         "en-pl_reset-pos":true,
         "en-pl_stats":{
-          "force":{
-            "value":0.0
-          },
           "life":{
             "value":4.0
           },
-          "bomb":{
-            "value":5.0
-          },
           "point":{
             "value":0.0
+          },
+          "force":{
+            "value":0.0
+          },
+          "bomb":{
+            "value":5.0
           }
         },
         "en-pl_texture":{
-          "scaleY":2.0,
-          "frame":0.046923670000000001,
-          "name":"texture_player",
-          "animate":1.0,
           "randomFrame":false,
-          "speed":7.0,
+          "animate":1.0,
           "angle":0.0,
+          "scaleX":2.0,
+          "scaleY":2.0,
+          "name":"texture_player",
           "blend":"#FFFFFF",
           "alpha":1.0,
-          "scaleX":2.0
+          "speed":7.0,
+          "frame":0.046923670000000001
         },
         "en-pl_use-bullethell":1.0,
         "en-pl_use-mask":true,
         "en-pl_use-platformer":1.0,
         "en-pl_use-racing":1.0,
         "en-pl_use-stats":true
-      }
+      },
+      "hidden":false,
+      "name":"default"
     },
     {
-      "hidden":false,
-      "name":"player2",
       "type":"brush_entity_player",
-      "texture":"texture_ve_icon_entity_player",
       "color":"#49FF29",
+      "texture":"texture_ve_icon_entity_player",
       "properties":{
         "en-pl_bullethell":{
-          "x":{
-            "acceleration":2.0,
-            "speedMax":1.6000000000000001,
-            "friction":20.0
-          },
           "guns":[
             {
               "focus":false,
-              "offsetX":-240.0,
-              "offsetY":300.0,
-              "speed":50.0,
               "angle":93.0,
+              "cooldown":13.6,
               "bullet":"bullet-player-l",
-              "cooldown":13.6
+              "speed":50.0,
+              "offsetX":-240.0,
+              "offsetY":300.0
             },
             {
               "focus":true,
+              "angle":90.0,
+              "cooldown":10.6,
+              "bullet":"bullet-player",
+              "speed":75.0,
               "offsetX":160.0,
-              "offsetY":300.0,
-              "speed":75.0,
-              "angle":90.0,
-              "bullet":"bullet-player",
-              "cooldown":10.6
+              "offsetY":300.0
             },
             {
               "focus":true,
-              "offsetX":-160.0,
-              "offsetY":300.0,
-              "speed":75.0,
               "angle":90.0,
+              "cooldown":10.6,
               "bullet":"bullet-player",
-              "cooldown":10.6
+              "speed":75.0,
+              "offsetX":-160.0,
+              "offsetY":300.0
             },
             {
               "focus":false,
-              "offsetX":240.0,
-              "offsetY":300.0,
-              "speed":50.0,
               "angle":87.0,
+              "cooldown":13.6,
               "bullet":"bullet-player-r",
-              "cooldown":13.6
+              "speed":50.0,
+              "offsetX":240.0,
+              "offsetY":300.0
             },
             {
-              "offsetX":-180.0,
-              "offsetY":300.0,
-              "speed":70.0,
+              "minForce":1.0,
               "angle":96.0,
-              "bullet":"bullet-player",
               "cooldown":13.6,
-              "minForce":1.0
+              "bullet":"bullet-player",
+              "speed":70.0,
+              "offsetX":-180.0,
+              "offsetY":300.0
             },
             {
-              "offsetX":200.0,
-              "offsetY":300.0,
-              "speed":70.0,
+              "minForce":1.0,
               "angle":84.0,
-              "bullet":"bullet-player",
               "cooldown":13.6,
-              "minForce":1.0
+              "bullet":"bullet-player",
+              "speed":70.0,
+              "offsetX":200.0,
+              "offsetY":300.0
             }
           ],
+          "x":{
+            "acceleration":2.0,
+            "friction":20.0,
+            "speedMax":1.6000000000000001
+          },
           "y":{
             "acceleration":2.0,
-            "speedMax":1.6000000000000001,
-            "friction":20.0
+            "friction":20.0,
+            "speedMax":1.6000000000000001
           },
           "focusCooldown":0.016
         },
@@ -374,77 +372,79 @@
         "en-pl_platformer":{
           "x":{
             "acceleration":1.9199999999999999,
-            "speedMax":2.5,
-            "friction":9.3000000000000007
-          },
-          "jump":{
-            "size":4.0
+            "friction":9.3000000000000007,
+            "speedMax":2.5
           },
           "y":{
             "acceleration":1.9199999999999999,
-            "speedMax":25.0,
-            "friction":0.0
+            "friction":0.0,
+            "speedMax":25.0
+          },
+          "jump":{
+            "size":4.0
           }
         },
         "en-pl_racing":{
           "throttle":{
             "acceleration":0.20000000000000001,
-            "speedMax":1.5,
-            "friction":0.5
-          },
-          "wheel":{
-            "acceleration":0.29999999999999999,
-            "speedMax":3.0,
-            "friction":0.059999999999999998
+            "friction":0.5,
+            "speedMax":1.5
           },
           "nitro":{
             "acceleration":0.5,
-            "speedMax":1.0,
-            "friction":1.0
+            "friction":1.0,
+            "speedMax":1.0
+          },
+          "wheel":{
+            "acceleration":0.29999999999999999,
+            "friction":0.059999999999999998,
+            "speedMax":3.0
           }
         },
         "en-pl_reset-pos":true,
         "en-pl_stats":{
-          "force":{
-            "maxValue":250.0,
-            "value":0.0,
-            "minValue":0.0
-          },
           "life":{
             "maxValue":10.0,
             "value":4.0,
-            "minValue":0.0
-          },
-          "bomb":{
-            "maxValue":10.0,
-            "value":7.0,
             "minValue":0.0
           },
           "point":{
             "maxValue":9999999.0,
             "value":0.0,
             "minValue":0.0
+          },
+          "force":{
+            "maxValue":250.0,
+            "value":0.0,
+            "minValue":0.0
+          },
+          "bomb":{
+            "maxValue":10.0,
+            "value":7.0,
+            "minValue":0.0
           }
         },
         "en-pl_texture":{
-          "scaleY":3.0,
-          "frame":0.046923670000000001,
-          "name":"texture_player",
-          "animate":1.0,
           "randomFrame":false,
-          "speed":13.0,
+          "animate":1.0,
           "angle":0.0,
+          "scaleX":3.0,
+          "scaleY":3.0,
+          "name":"texture_player",
           "blend":"#FFFFFF",
           "alpha":1.0,
-          "scaleX":3.0
+          "speed":13.0,
+          "frame":0.046923670000000001
         },
         "en-pl_use-bullethell":1.0,
         "en-pl_use-mask":true,
         "en-pl_use-platformer":1.0,
         "en-pl_use-racing":1.0,
         "en-pl_use-stats":true
-      }
+      },
+      "hidden":false,
+      "name":"player2"
     }
   ],
-  "version":"1"
+  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>"
 }

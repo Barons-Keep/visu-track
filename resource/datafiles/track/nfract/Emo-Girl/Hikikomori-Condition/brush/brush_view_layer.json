@@ -1,43 +1,42 @@
 {
-  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>",
+  "version":"1",
   "data":[
     {
-      "hidden":false,
-      "name":"tx_nfract_1",
       "type":"brush_view_layer",
-      "texture":"texture_ve_icon_view_layer",
       "color":"#00FF00",
+      "texture":"texture_ve_icon_view_layer",
       "properties":{
+        "vw-layer_fade-in":2.0,
         "vw-layer_fade-out":3.0,
         "vw-layer_scale-x":{
-          "factor":0.00050000000000000001,
           "target":1.0,
           "value":0.66000000000000003,
+          "factor":0.00050000000000000001,
           "increase":0.0
         },
         "vw-layer_scale-y":{
-          "factor":0.00050000000000000001,
           "target":1.0,
           "value":0.66000000000000003,
+          "factor":0.00050000000000000001,
           "increase":0.0
         },
         "vw-layer_spd":{
-          "factor":0.001,
           "target":2.0,
           "value":0.5,
+          "factor":0.001,
           "increase":0.0
         },
         "vw-layer_texture":{
-          "frame":0.0,
+          "randomFrame":false,
+          "animate":false,
+          "angle":0.0,
+          "scaleX":0.23225806451612904,
           "scaleY":0.23225806451612904,
           "name":"tx_nfract_1",
-          "animate":false,
-          "randomFrame":false,
-          "angle":0.0,
-          "speed":30.0,
           "blend":"#FFFFFF",
           "alpha":0.69999999999999996,
-          "scaleX":0.23225806451612904
+          "speed":30.0,
+          "frame":0.0
         },
         "vw-layer_texture-blend":"#5A2277",
         "vw-layer_texture-lifespan":12.0,
@@ -66,51 +65,51 @@
         "vw-layer_cls-texture":false,
         "vw-layer_col":"#1E1E50",
         "vw-layer_dir":{
-          "factor":1.0,
           "target":0.0,
           "value":0.0,
+          "factor":1.0,
           "increase":0.0
-        },
-        "vw-layer_fade-in":2.0
-      }
+        }
+      },
+      "hidden":false,
+      "name":"tx_nfract_1"
     },
     {
-      "hidden":false,
-      "name":"default bkg",
       "type":"brush_view_layer",
-      "texture":"texture_ve_icon_view_layer",
       "color":"#FF0000",
+      "texture":"texture_ve_icon_view_layer",
       "properties":{
+        "vw-layer_fade-in":0.016,
         "vw-layer_fade-out":0.016,
         "vw-layer_scale-x":{
-          "factor":1.0,
           "target":0.0,
           "value":1.0,
+          "factor":1.0,
           "increase":0.0
         },
         "vw-layer_scale-y":{
-          "factor":1.0,
           "target":0.0,
           "value":1.0,
+          "factor":1.0,
           "increase":0.0
         },
         "vw-layer_spd":{
-          "factor":1.0,
           "target":0.0,
           "value":0.0,
+          "factor":1.0,
           "increase":0.0
         },
         "vw-layer_texture":{
-          "frame":0.0,
+          "randomFrame":false,
+          "animate":false,
+          "angle":0.0,
+          "scaleX":0.23225806451612904,
           "scaleY":0.23225806451612904,
           "name":"texture_empty",
-          "animate":false,
-          "randomFrame":false,
-          "angle":0.0,
-          "speed":30.0,
           "blend":"#FFFFFF",
           "alpha":1.0,
-          "scaleX":0.23225806451612904
+          "speed":30.0,
+          "frame":0.0
         },
         "vw-layer_texture-blend":"#BC2EFC",
         "vw-layer_texture-lifespan":0.0,
@@ -139,14 +138,15 @@
         "vw-layer_cls-texture":true,
         "vw-layer_col":"#1E1E50",
         "vw-layer_dir":{
-          "factor":1.0,
           "target":0.0,
           "value":0.0,
+          "factor":1.0,
           "increase":0.0
-        },
-        "vw-layer_fade-in":0.016
-      }
+        }
+      },
+      "hidden":false,
+      "name":"default bkg"
     }
   ],
-  "version":"1"
+  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>"
 }

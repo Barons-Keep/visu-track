@@ -1,8 +1,7 @@
 {
-  "model":"Collection<io.alkapivo.visu.service.shroom.ShroomTemplate>",
+  "version":"1",
   "data":{
     "_coin-extra-force":{
-      "lifespanMax":15.0,
       "healthPoints":1.0,
       "sprite":{
         "randomFrame":false,
@@ -11,9 +10,9 @@
         "scaleX":1.0,
         "scaleY":1.0,
         "blend":"#FFFFFF",
-        "speed":30.0,
-        "alpha":1.0,
         "name":"texture_baron",
+        "alpha":1.0,
+        "speed":30.0,
         "frame":0.0
       },
       "mask":{
@@ -23,17 +22,16 @@
         "width":0.0
       },
       "use_shroom_features":true,
+      "use_shroom_healthPoints":false,
       "gameModes":{
-        "platformer":{
-        },
         "bulletHell":{
           "features":[
             {
               "data":{
-                "offsetY":-296.0,
                 "amount":2.0,
                 "luck":0.75,
-                "coin":"coin-force-2"
+                "coin":"coin-force-2",
+                "offsetY":-296.0
               },
               "conditions":[
                 {
@@ -45,9 +43,10 @@
           ]
         },
         "racing":{
+        },
+        "platformer":{
         }
       },
-      "use_shroom_healthPoints":false,
       "use_shroom_inherit":true,
       "use_shroom_lifespan":false,
       "use_shroom_mask":false,
@@ -59,10 +58,10 @@
       "shroom_hide_features":false,
       "shroom_hide_inherit":true,
       "shroom_hide_mask":true,
-      "shroom_hide_texture":true
+      "shroom_hide_texture":true,
+      "lifespanMax":15.0
     },
     "_coin-extra-point":{
-      "lifespanMax":15.0,
       "healthPoints":1.0,
       "sprite":{
         "randomFrame":false,
@@ -71,9 +70,9 @@
         "scaleX":1.0,
         "scaleY":1.0,
         "blend":"#FFFFFF",
-        "speed":30.0,
-        "alpha":1.0,
         "name":"texture_baron",
+        "alpha":1.0,
+        "speed":30.0,
         "frame":0.0
       },
       "mask":{
@@ -83,17 +82,16 @@
         "width":0.0
       },
       "use_shroom_features":true,
+      "use_shroom_healthPoints":false,
       "gameModes":{
-        "platformer":{
-        },
         "bulletHell":{
           "features":[
             {
               "data":{
-                "offsetY":-256.0,
                 "amount":2.0,
                 "luck":0.75,
-                "coin":"coin-point-2"
+                "coin":"coin-point-2",
+                "offsetY":-256.0
               },
               "conditions":[
                 {
@@ -105,9 +103,10 @@
           ]
         },
         "racing":{
+        },
+        "platformer":{
         }
       },
-      "use_shroom_healthPoints":false,
       "use_shroom_inherit":true,
       "use_shroom_lifespan":false,
       "use_shroom_mask":false,
@@ -119,10 +118,10 @@
       "shroom_hide_features":false,
       "shroom_hide_inherit":true,
       "shroom_hide_mask":true,
-      "shroom_hide_texture":true
+      "shroom_hide_texture":true,
+      "lifespanMax":15.0
     },
     "pikaro-3-r":{
-      "lifespanMax":15.0,
       "healthPoints":5.0,
       "sprite":{
         "randomFrame":true,
@@ -131,9 +130,9 @@
         "scaleX":2.0,
         "scaleY":2.0,
         "blend":"#FFFFFF",
-        "speed":2.2000000000000002,
-        "alpha":1.0,
         "name":"texture_shroom_baron",
+        "alpha":1.0,
+        "speed":2.2000000000000002,
         "frame":0.0
       },
       "mask":{
@@ -143,9 +142,8 @@
         "width":136.0
       },
       "use_shroom_features":true,
+      "use_shroom_healthPoints":true,
       "gameModes":{
-        "platformer":{
-        },
         "bulletHell":{
           "features":[
             {
@@ -166,17 +164,17 @@
             {
               "data":{
                 "transform":{
-                  "duration":4.3200000000000003,
                   "target":180.0,
                   "ease":"IN_OUT_SINE",
-                  "value":0.0
+                  "value":0.0,
+                  "duration":4.3200000000000003
                 }
               },
               "conditions":[
                 {
                   "data":{
-                    "operator":"greaterOrEqual",
-                    "value":1.0800000000000001
+                    "value":1.0800000000000001,
+                    "operator":"greaterOrEqual"
                   },
                   "type":"lifespan"
                 }
@@ -186,17 +184,17 @@
             {
               "data":{
                 "transform":{
-                  "duration":1.0800000000000001,
                   "target":0.0,
                   "ease":"OUT_SINE",
-                  "value":24.0
+                  "value":24.0,
+                  "duration":1.0800000000000001
                 }
               },
               "conditions":[
                 {
                   "data":{
-                    "operator":"less",
-                    "value":1.0800000000000001
+                    "value":1.0800000000000001,
+                    "operator":"less"
                   },
                   "type":"lifespan"
                 }
@@ -206,9 +204,10 @@
           ]
         },
         "racing":{
+        },
+        "platformer":{
         }
       },
-      "use_shroom_healthPoints":true,
       "use_shroom_inherit":true,
       "use_shroom_lifespan":false,
       "use_shroom_mask":true,
@@ -223,10 +222,10 @@
       "shroom_hide_features":true,
       "shroom_hide_inherit":false,
       "shroom_hide_mask":false,
-      "shroom_hide_texture":false
+      "shroom_hide_texture":false,
+      "lifespanMax":15.0
     },
     "pikaro-4-l":{
-      "lifespanMax":15.0,
       "healthPoints":6.0,
       "sprite":{
         "randomFrame":true,
@@ -235,9 +234,9 @@
         "scaleX":2.0,
         "scaleY":2.0,
         "blend":"#FFFFFF",
-        "speed":1.5,
-        "alpha":1.0,
         "name":"texture_shroom_bazyl_red",
+        "alpha":1.0,
+        "speed":1.5,
         "frame":1.0
       },
       "mask":{
@@ -247,22 +246,21 @@
         "width":136.0
       },
       "use_shroom_features":true,
+      "use_shroom_healthPoints":true,
       "gameModes":{
-        "platformer":{
-        },
         "bulletHell":{
           "features":[
             {
               "data":{
                 "angle":{
                   "add":{
-                    "duration":0.5,
                     "target":[
                       3.0,
                       -3.0
                     ],
                     "ease":"LINEAR",
-                    "value":0.0
+                    "value":0.0,
+                    "duration":0.5
                   }
                 }
               },
@@ -273,17 +271,17 @@
             {
               "data":{
                 "transform":{
-                  "duration":2.1600000000000001,
                   "target":15.0,
                   "ease":"IN_OUT_SINE",
-                  "value":0.0
+                  "value":0.0,
+                  "duration":2.1600000000000001
                 }
               },
               "conditions":[
                 {
                   "data":{
-                    "operator":"greaterOrEqual",
-                    "value":0.54000000000000004
+                    "value":0.54000000000000004,
+                    "operator":"greaterOrEqual"
                   },
                   "type":"lifespan"
                 }
@@ -293,9 +291,10 @@
           ]
         },
         "racing":{
+        },
+        "platformer":{
         }
       },
-      "use_shroom_healthPoints":true,
       "use_shroom_inherit":true,
       "use_shroom_lifespan":false,
       "use_shroom_mask":true,
@@ -309,10 +308,10 @@
       "shroom_hide_features":true,
       "shroom_hide_inherit":true,
       "shroom_hide_mask":true,
-      "shroom_hide_texture":false
+      "shroom_hide_texture":false,
+      "lifespanMax":15.0
     },
     "pikaro-4":{
-      "lifespanMax":15.0,
       "healthPoints":16.0,
       "sprite":{
         "randomFrame":true,
@@ -321,9 +320,9 @@
         "scaleX":6.0,
         "scaleY":6.0,
         "blend":"#FFFFFF",
-        "speed":30.0,
-        "alpha":1.0,
         "name":"texture_shroom_baron_blue",
+        "alpha":1.0,
+        "speed":30.0,
         "frame":1.0
       },
       "mask":{
@@ -333,30 +332,29 @@
         "width":136.0
       },
       "use_shroom_features":true,
+      "use_shroom_healthPoints":true,
       "gameModes":{
-        "platformer":{
-        },
         "bulletHell":{
           "features":[
             {
               "data":{
                 "angle":{
                   "add":{
-                    "duration":1.0,
                     "target":[
                       1.0,
                       -1.0
                     ],
                     "ease":"LINEAR",
-                    "value":0.0
+                    "value":0.0,
+                    "duration":1.0
                   }
                 }
               },
               "conditions":[
                 {
                   "data":{
-                    "operator":"less",
-                    "value":1.0800000000000001
+                    "value":1.0800000000000001,
+                    "operator":"less"
                   },
                   "type":"lifespan"
                 }
@@ -367,28 +365,28 @@
               "data":{
                 "angle":{
                   "add":{
-                    "duration":1.0,
                     "target":[
                       5.0,
                       -5.0
                     ],
                     "ease":"LINEAR",
-                    "value":0.0
+                    "value":0.0,
+                    "duration":1.0
                   }
                 }
               },
               "conditions":[
                 {
                   "data":{
-                    "operator":"greaterOrEqual",
-                    "value":1.0800000000000001
+                    "value":1.0800000000000001,
+                    "operator":"greaterOrEqual"
                   },
                   "type":"lifespan"
                 },
                 {
                   "data":{
-                    "operator":"less",
-                    "value":4.3200000000000003
+                    "value":4.3200000000000003,
+                    "operator":"less"
                   },
                   "type":"lifespan"
                 }
@@ -399,21 +397,21 @@
               "data":{
                 "angle":{
                   "add":{
-                    "duration":1.0,
                     "target":[
                       0.5,
                       -0.5
                     ],
                     "ease":"LINEAR",
-                    "value":0.0
+                    "value":0.0,
+                    "duration":1.0
                   }
                 }
               },
               "conditions":[
                 {
                   "data":{
-                    "operator":"greaterOrEqual",
-                    "value":4.3200000000000003
+                    "value":4.3200000000000003,
+                    "operator":"greaterOrEqual"
                   },
                   "type":"lifespan"
                 }
@@ -422,32 +420,32 @@
             },
             {
               "data":{
-                "size":5.0,
-                "amount":8.0
+                "amount":8.0,
+                "size":5.0
               },
               "feature":"SwingFeature"
             },
             {
               "data":{
                 "transform":{
-                  "duration":1.0800000000000001,
                   "target":-20.0,
                   "ease":"LINEAR",
-                  "value":0.0
+                  "value":0.0,
+                  "duration":1.0800000000000001
                 }
               },
               "conditions":[
                 {
                   "data":{
-                    "operator":"greaterOrEqual",
-                    "value":1.0800000000000001
+                    "value":1.0800000000000001,
+                    "operator":"greaterOrEqual"
                   },
                   "type":"lifespan"
                 },
                 {
                   "data":{
-                    "operator":"less",
-                    "value":2.1600000000000001
+                    "value":2.1600000000000001,
+                    "operator":"less"
                   },
                   "type":"lifespan"
                 }
@@ -457,17 +455,17 @@
             {
               "data":{
                 "transform":{
-                  "duration":4.3200000000000003,
                   "target":20.0,
                   "ease":"LINEAR",
-                  "value":0.0
+                  "value":0.0,
+                  "duration":4.3200000000000003
                 }
               },
               "conditions":[
                 {
                   "data":{
-                    "operator":"greaterOrEqual",
-                    "value":3.2400000000000002
+                    "value":3.2400000000000002,
+                    "operator":"greaterOrEqual"
                   },
                   "type":"lifespan"
                 }
@@ -478,90 +476,90 @@
               "data":{
                 "bullet":"bullet-pikaro-2-l",
                 "emitter":{
-                  "angleRng":0.0,
-                  "arrays":{
-                    "duration":0.0,
-                    "target":12.0,
-                    "ease":"LINEAR",
-                    "value":12.0
-                  },
                   "angleStep":{
-                    "duration":2.1600000000000001,
                     "target":30.0,
                     "ease":"LINEAR",
-                    "value":30.0
+                    "value":30.0,
+                    "duration":2.1600000000000001
+                  },
+                  "arrays":{
+                    "target":12.0,
+                    "ease":"LINEAR",
+                    "value":12.0,
+                    "duration":0.0
                   },
                   "perArray":{
-                    "duration":0.0,
                     "target":1.0,
                     "ease":"LINEAR",
-                    "value":1.0
+                    "value":1.0,
+                    "duration":0.0
                   },
                   "speed":{
-                    "duration":2.1600000000000001,
                     "target":14.0,
                     "ease":"LINEAR",
-                    "value":10.0
+                    "value":10.0,
+                    "duration":2.1600000000000001
                   },
                   "offset":{
-                    "duration":2.1600000000000001,
                     "target":0.0,
                     "ease":"LINEAR",
-                    "value":0.0
+                    "value":0.0,
+                    "duration":2.1600000000000001
                   },
                   "offsetX":{
-                    "duration":0.0,
                     "target":0.0,
                     "ease":"LINEAR",
-                    "value":0.0
+                    "value":0.0,
+                    "duration":0.0
                   },
                   "offsetY":{
-                    "duration":2.1600000000000001,
                     "target":0.0,
                     "ease":"LINEAR",
-                    "value":0.0
+                    "value":0.0,
+                    "duration":2.1600000000000001
                   },
                   "duration":2.1600000000000001,
                   "speedRng":0.0,
                   "amount":8.0,
                   "angle":{
-                    "duration":2.1600000000000001,
                     "target":30.0,
                     "ease":"LINEAR",
-                    "value":0.0
+                    "value":0.0,
+                    "duration":2.1600000000000001
                   },
                   "wiggleAmplitude":{
-                    "duration":0.0,
                     "target":0.0,
                     "ease":"LINEAR",
-                    "value":0.0
-                  },
-                  "anglePerArray":{
-                    "duration":2.1600000000000001,
-                    "target":0.0,
-                    "ease":"LINEAR",
-                    "value":0.0
+                    "value":0.0,
+                    "duration":0.0
                   },
                   "wiggleFrequency":{
-                    "duration":0.0,
                     "target":0.0,
                     "ease":"LINEAR",
-                    "value":0.0
+                    "value":0.0,
+                    "duration":0.0
+                  },
+                  "anglePerArray":{
+                    "target":0.0,
+                    "ease":"LINEAR",
+                    "value":0.0,
+                    "duration":2.1600000000000001
                   },
                   "anglePerArrayRng":0.0,
                   "anglePerArrayStep":{
-                    "duration":0.0,
                     "target":0.0,
                     "ease":"LINEAR",
-                    "value":0.0
-                  }
+                    "value":0.0,
+                    "duration":0.0
+                  },
+                  "angleRng":0.0
                 }
               },
               "conditions":[
                 {
                   "data":{
-                    "operator":"greaterOrEqual",
-                    "value":2.1600000000000001
+                    "value":2.1600000000000001,
+                    "operator":"greaterOrEqual"
                   },
                   "type":"lifespan"
                 }
@@ -571,9 +569,10 @@
           ]
         },
         "racing":{
+        },
+        "platformer":{
         }
       },
-      "use_shroom_healthPoints":true,
       "use_shroom_inherit":true,
       "use_shroom_lifespan":false,
       "use_shroom_mask":true,
@@ -588,10 +587,10 @@
       "shroom_hide_features":false,
       "shroom_hide_inherit":false,
       "shroom_hide_mask":true,
-      "shroom_hide_texture":false
+      "shroom_hide_texture":false,
+      "lifespanMax":15.0
     },
     "pikaro-2-r":{
-      "lifespanMax":15.0,
       "healthPoints":6.0,
       "sprite":{
         "randomFrame":true,
@@ -600,9 +599,9 @@
         "scaleX":5.0,
         "scaleY":5.0,
         "blend":"#FFFFFF",
-        "speed":1.2,
-        "alpha":1.0,
         "name":"texture_shroom_baron_red",
+        "alpha":1.0,
+        "speed":1.2,
         "frame":1.0
       },
       "mask":{
@@ -612,22 +611,21 @@
         "width":136.0
       },
       "use_shroom_features":true,
+      "use_shroom_healthPoints":true,
       "gameModes":{
-        "platformer":{
-        },
         "bulletHell":{
           "features":[
             {
               "data":{
                 "angle":{
                   "add":{
-                    "duration":1.0,
                     "target":[
                       1.0,
                       -1.0
                     ],
                     "ease":"LINEAR",
-                    "value":0.0
+                    "value":0.0,
+                    "duration":1.0
                   }
                 }
               },
@@ -638,17 +636,17 @@
             {
               "data":{
                 "transform":{
-                  "duration":2.1600000000000001,
                   "target":60.0,
                   "ease":"IN_OUT_SINE",
-                  "value":0.0
+                  "value":0.0,
+                  "duration":2.1600000000000001
                 }
               },
               "conditions":[
                 {
                   "data":{
-                    "operator":"less",
-                    "value":2.1600000000000001
+                    "value":2.1600000000000001,
+                    "operator":"less"
                   },
                   "type":"lifespan"
                 }
@@ -658,17 +656,17 @@
             {
               "data":{
                 "transform":{
-                  "duration":2.1600000000000001,
                   "target":-60.0,
                   "ease":"IN_OUT_SINE",
-                  "value":0.0
+                  "value":0.0,
+                  "duration":2.1600000000000001
                 }
               },
               "conditions":[
                 {
                   "data":{
-                    "operator":"greaterOrEqual",
-                    "value":2.1600000000000001
+                    "value":2.1600000000000001,
+                    "operator":"greaterOrEqual"
                   },
                   "type":"lifespan"
                 }
@@ -679,112 +677,112 @@
               "data":{
                 "bullet":"bullet-pikaro-2-r",
                 "emitter":{
-                  "angleRng":{
-                    "duration":0.0,
-                    "target":0.0,
-                    "ease":"LINEAR",
-                    "value":0.0
-                  },
-                  "arrays":{
-                    "duration":1.0,
-                    "target":7.0,
-                    "ease":"LINEAR",
-                    "value":7.0
-                  },
                   "angleStep":{
-                    "duration":1.1599999999999999,
                     "target":60.0,
                     "ease":"LINEAR",
-                    "value":60.0
+                    "value":60.0,
+                    "duration":1.1599999999999999
+                  },
+                  "arrays":{
+                    "target":7.0,
+                    "ease":"LINEAR",
+                    "value":7.0,
+                    "duration":1.0
                   },
                   "perArray":{
-                    "duration":0.0,
                     "target":1.0,
                     "ease":"LINEAR",
-                    "value":1.0
+                    "value":1.0,
+                    "duration":0.0
                   },
                   "speed":{
-                    "duration":1.1599999999999999,
                     "target":30.0,
                     "ease":"LINEAR",
-                    "value":10.0
+                    "value":10.0,
+                    "duration":1.1599999999999999
                   },
                   "offset":{
-                    "duration":1.0,
                     "target":0.0,
                     "ease":"LINEAR",
-                    "value":0.0
+                    "value":0.0,
+                    "duration":1.0
                   },
                   "offsetX":{
-                    "duration":1.0,
                     "target":0.0,
                     "ease":"LINEAR",
-                    "value":0.0
+                    "value":0.0,
+                    "duration":1.0
                   },
                   "offsetY":{
-                    "duration":1.1599999999999999,
                     "target":0.0,
                     "ease":"LINEAR",
-                    "value":0.0
+                    "value":0.0,
+                    "duration":1.1599999999999999
                   },
                   "duration":1.1599999999999999,
                   "speedRng":{
-                    "duration":0.0,
                     "target":0.0,
                     "ease":"LINEAR",
-                    "value":0.0
+                    "value":0.0,
+                    "duration":0.0
                   },
                   "amount":12.0,
                   "angle":{
-                    "duration":1.1599999999999999,
                     "target":45.0,
                     "ease":"LINEAR",
-                    "value":90.0
+                    "value":90.0,
+                    "duration":1.1599999999999999
                   },
                   "wiggleAmplitude":{
-                    "duration":0.0,
                     "target":0.0,
                     "ease":"LINEAR",
-                    "value":0.0
-                  },
-                  "anglePerArray":{
-                    "duration":1.0,
-                    "target":20.0,
-                    "ease":"OUT_EXPO",
-                    "value":60.0
+                    "value":0.0,
+                    "duration":0.0
                   },
                   "wiggleFrequency":{
-                    "duration":0.0,
                     "target":0.0,
                     "ease":"LINEAR",
-                    "value":0.0
+                    "value":0.0,
+                    "duration":0.0
+                  },
+                  "anglePerArray":{
+                    "target":20.0,
+                    "ease":"OUT_EXPO",
+                    "value":60.0,
+                    "duration":1.0
                   },
                   "anglePerArrayRng":{
-                    "duration":0.0,
                     "target":0.0,
                     "ease":"LINEAR",
-                    "value":0.0
+                    "value":0.0,
+                    "duration":0.0
                   },
                   "anglePerArrayStep":{
-                    "duration":1.0,
                     "target":0.0,
                     "ease":"LINEAR",
-                    "value":0.0
+                    "value":0.0,
+                    "duration":1.0
+                  },
+                  "angleRng":{
+                    "target":0.0,
+                    "ease":"LINEAR",
+                    "value":0.0,
+                    "duration":0.0
                   }
                 }
               },
               "conditions":[
                 {
                   "data":{
-                    "operator":"greater",
-                    "value":1.000000000000004
+                    "value":1.000000000000004,
+                    "operator":"greater"
                   },
                   "type":"lifespan"
                 },
                 {
                   "data":{
-                    "operator":"lessOrEqual",
-                    "value":2.1600039999999998
+                    "value":2.1600039999999998,
+                    "operator":"lessOrEqual"
                   },
                   "type":"lifespan"
                 }
@@ -794,9 +792,10 @@
           ]
         },
         "racing":{
+        },
+        "platformer":{
         }
       },
-      "use_shroom_healthPoints":true,
       "use_shroom_inherit":true,
       "use_shroom_lifespan":false,
       "use_shroom_mask":true,
@@ -810,21 +809,21 @@
       "shroom_hide_features":false,
       "shroom_hide_inherit":false,
       "shroom_hide_mask":false,
-      "shroom_hide_texture":false
+      "shroom_hide_texture":false,
+      "lifespanMax":15.0
     },
     "pikaro-intro-1-r":{
-      "lifespanMax":15.0,
       "healthPoints":2.0,
       "sprite":{
         "randomFrame":true,
         "animate":false,
         "angle":0.0,
         "scaleX":2.5,
-        "blend":"#FFFFFF",
         "scaleY":2.5,
-        "speed":6.0,
-        "alpha":1.0,
+        "blend":"#FFFFFF",
         "name":"texture_shroom_baron_red",
+        "alpha":1.0,
+        "speed":6.0,
         "frame":0.0
       },
       "mask":{
@@ -834,30 +833,29 @@
         "width":136.0
       },
       "use_shroom_features":true,
+      "use_shroom_healthPoints":true,
       "gameModes":{
-        "platformer":{
-        },
         "bulletHell":{
           "features":[
             {
               "data":{
                 "angle":{
                   "add":{
-                    "duration":1.0,
                     "target":[
                       1.0,
                       -1.0
                     ],
                     "ease":"LINEAR",
-                    "value":0.0
+                    "value":0.0,
+                    "duration":1.0
                   }
                 }
               },
               "conditions":[
                 {
                   "data":{
-                    "operator":"less",
-                    "value":2.0
+                    "value":2.0,
+                    "operator":"less"
                   },
                   "type":"lifespan"
                 }
@@ -868,21 +866,21 @@
               "data":{
                 "angle":{
                   "add":{
-                    "duration":0.5,
                     "target":[
                       5.0,
                       -5.0
                     ],
                     "ease":"LINEAR",
-                    "value":0.0
+                    "value":0.0,
+                    "duration":0.5
                   }
                 }
               },
               "conditions":[
                 {
                   "data":{
-                    "operator":"greaterOrEqual",
-                    "value":2.0
+                    "value":2.0,
+                    "operator":"greaterOrEqual"
                   },
                   "type":"lifespan"
                 }
@@ -892,17 +890,17 @@
             {
               "data":{
                 "transform":{
-                  "duration":0.5,
                   "target":-90.0,
                   "ease":"LINEAR",
-                  "value":0.0
+                  "value":0.0,
+                  "duration":0.5
                 }
               },
               "conditions":[
                 {
                   "data":{
-                    "operator":"greaterOrEqual",
-                    "value":2.0
+                    "value":2.0,
+                    "operator":"greaterOrEqual"
                   },
                   "type":"lifespan"
                 }
@@ -912,17 +910,17 @@
             {
               "data":{
                 "transform":{
-                  "duration":2.0,
                   "target":-10.0,
                   "ease":"LINEAR",
-                  "value":0.0
+                  "value":0.0,
+                  "duration":2.0
                 }
               },
               "conditions":[
                 {
                   "data":{
-                    "operator":"less",
-                    "value":2.0
+                    "value":2.0,
+                    "operator":"less"
                   },
                   "type":"lifespan"
                 }
@@ -932,17 +930,17 @@
             {
               "data":{
                 "transform":{
-                  "duration":2.0,
                   "target":30.0,
                   "ease":"LINEAR",
-                  "value":0.0
+                  "value":0.0,
+                  "duration":2.0
                 }
               },
               "conditions":[
                 {
                   "data":{
-                    "operator":"greaterOrEqual",
-                    "value":2.0
+                    "value":2.0,
+                    "operator":"greaterOrEqual"
                   },
                   "type":"lifespan"
                 }
@@ -952,9 +950,10 @@
           ]
         },
         "racing":{
+        },
+        "platformer":{
         }
       },
-      "use_shroom_healthPoints":true,
       "use_shroom_inherit":true,
       "use_shroom_lifespan":false,
       "use_shroom_mask":true,
@@ -969,21 +968,21 @@
       "shroom_hide_features":true,
       "shroom_hide_inherit":false,
       "shroom_hide_mask":false,
-      "shroom_hide_texture":false
+      "shroom_hide_texture":false,
+      "lifespanMax":15.0
     },
     "_coin-low-force":{
-      "lifespanMax":15.0,
       "healthPoints":1.0,
       "sprite":{
         "randomFrame":false,
         "animate":false,
         "angle":0.0,
         "scaleX":1.0,
-        "blend":"#FFFFFF",
         "scaleY":1.0,
-        "speed":30.0,
-        "alpha":1.0,
+        "blend":"#FFFFFF",
         "name":"texture_baron",
+        "alpha":1.0,
+        "speed":30.0,
         "frame":0.0
       },
       "mask":{
@@ -993,17 +992,16 @@
         "width":0.0
       },
       "use_shroom_features":true,
+      "use_shroom_healthPoints":false,
       "gameModes":{
-        "platformer":{
-        },
         "bulletHell":{
           "features":[
             {
               "data":{
-                "offsetY":-256.0,
                 "amount":1.0,
                 "luck":0.40000000000000002,
-                "coin":"coin-force"
+                "coin":"coin-force",
+                "offsetY":-256.0
               },
               "conditions":[
                 {
@@ -1015,9 +1013,10 @@
           ]
         },
         "racing":{
+        },
+        "platformer":{
         }
       },
-      "use_shroom_healthPoints":false,
       "use_shroom_inherit":true,
       "use_shroom_lifespan":false,
       "use_shroom_mask":false,
@@ -1029,10 +1028,10 @@
       "shroom_hide_features":false,
       "shroom_hide_inherit":true,
       "shroom_hide_mask":true,
-      "shroom_hide_texture":true
+      "shroom_hide_texture":true,
+      "lifespanMax":15.0
     },
     "pikaro-4-r":{
-      "lifespanMax":15.0,
       "healthPoints":6.0,
       "sprite":{
         "randomFrame":true,
@@ -1041,9 +1040,9 @@
         "scaleX":2.0,
         "scaleY":2.0,
         "blend":"#FFFFFF",
-        "speed":1.8,
-        "alpha":1.0,
         "name":"texture_shroom_baron_yellow",
+        "alpha":1.0,
+        "speed":1.8,
         "frame":2.0
       },
       "mask":{
@@ -1053,22 +1052,21 @@
         "width":136.0
       },
       "use_shroom_features":true,
+      "use_shroom_healthPoints":true,
       "gameModes":{
-        "platformer":{
-        },
         "bulletHell":{
           "features":[
             {
               "data":{
                 "angle":{
                   "add":{
-                    "duration":0.5,
                     "target":[
                       3.0,
                       -3.0
                     ],
                     "ease":"LINEAR",
-                    "value":0.0
+                    "value":0.0,
+                    "duration":0.5
                   }
                 }
               },
@@ -1079,17 +1077,17 @@
             {
               "data":{
                 "transform":{
-                  "duration":2.1600000000000001,
                   "target":15.0,
                   "ease":"IN_OUT_SINE",
-                  "value":0.0
+                  "value":0.0,
+                  "duration":2.1600000000000001
                 }
               },
               "conditions":[
                 {
                   "data":{
-                    "operator":"greaterOrEqual",
-                    "value":0.54000000000000004
+                    "value":0.54000000000000004,
+                    "operator":"greaterOrEqual"
                   },
                   "type":"lifespan"
                 }
@@ -1099,9 +1097,10 @@
           ]
         },
         "racing":{
+        },
+        "platformer":{
         }
       },
-      "use_shroom_healthPoints":true,
       "use_shroom_inherit":true,
       "use_shroom_lifespan":false,
       "use_shroom_mask":true,
@@ -1115,21 +1114,21 @@
       "shroom_hide_features":true,
       "shroom_hide_inherit":true,
       "shroom_hide_mask":true,
-      "shroom_hide_texture":false
+      "shroom_hide_texture":false,
+      "lifespanMax":15.0
     },
     "_particle":{
-      "lifespanMax":15.0,
       "healthPoints":1.0,
       "sprite":{
         "randomFrame":false,
         "animate":false,
         "angle":0.0,
         "scaleX":1.0,
-        "blend":"#FFFFFF",
         "scaleY":1.0,
-        "speed":30.0,
-        "alpha":1.0,
+        "blend":"#FFFFFF",
         "name":"texture_baron",
+        "alpha":1.0,
+        "speed":30.0,
         "frame":0.0
       },
       "mask":{
@@ -1139,9 +1138,8 @@
         "width":0.0
       },
       "use_shroom_features":true,
+      "use_shroom_healthPoints":false,
       "gameModes":{
-        "platformer":{
-        },
         "bulletHell":{
           "features":[
             {
@@ -1171,9 +1169,10 @@
           ]
         },
         "racing":{
+        },
+        "platformer":{
         }
       },
-      "use_shroom_healthPoints":false,
       "use_shroom_inherit":false,
       "use_shroom_lifespan":false,
       "use_shroom_mask":false,
@@ -1185,21 +1184,21 @@
       "shroom_hide_features":false,
       "shroom_hide_inherit":true,
       "shroom_hide_mask":true,
-      "shroom_hide_texture":true
+      "shroom_hide_texture":true,
+      "lifespanMax":15.0
     },
     "_coin-low-point":{
-      "lifespanMax":15.0,
       "healthPoints":1.0,
       "sprite":{
         "randomFrame":false,
         "animate":false,
         "angle":0.0,
         "scaleX":1.0,
-        "blend":"#FFFFFF",
         "scaleY":1.0,
-        "speed":30.0,
-        "alpha":1.0,
+        "blend":"#FFFFFF",
         "name":"texture_baron",
+        "alpha":1.0,
+        "speed":30.0,
         "frame":0.0
       },
       "mask":{
@@ -1209,17 +1208,16 @@
         "width":0.0
       },
       "use_shroom_features":true,
+      "use_shroom_healthPoints":false,
       "gameModes":{
-        "platformer":{
-        },
         "bulletHell":{
           "features":[
             {
               "data":{
-                "offsetY":-256.0,
                 "amount":2.0,
                 "luck":0.40000000000000002,
-                "coin":"coin-point"
+                "coin":"coin-point",
+                "offsetY":-256.0
               },
               "conditions":[
                 {
@@ -1231,9 +1229,10 @@
           ]
         },
         "racing":{
+        },
+        "platformer":{
         }
       },
-      "use_shroom_healthPoints":false,
       "use_shroom_inherit":true,
       "use_shroom_lifespan":false,
       "use_shroom_mask":false,
@@ -1245,10 +1244,10 @@
       "shroom_hide_features":false,
       "shroom_hide_inherit":true,
       "shroom_hide_mask":true,
-      "shroom_hide_texture":true
+      "shroom_hide_texture":true,
+      "lifespanMax":15.0
     },
     "_coin-high-point":{
-      "lifespanMax":15.0,
       "healthPoints":1.0,
       "sprite":{
         "randomFrame":false,
@@ -1257,9 +1256,9 @@
         "scaleX":1.0,
         "scaleY":1.0,
         "blend":"#FFFFFF",
-        "speed":30.0,
-        "alpha":1.0,
         "name":"texture_baron",
+        "alpha":1.0,
+        "speed":30.0,
         "frame":0.0
       },
       "mask":{
@@ -1269,17 +1268,16 @@
         "width":0.0
       },
       "use_shroom_features":true,
+      "use_shroom_healthPoints":false,
       "gameModes":{
-        "platformer":{
-        },
         "bulletHell":{
           "features":[
             {
               "data":{
-                "offsetY":-276.0,
                 "amount":2.0,
                 "luck":0.80000000000000004,
-                "coin":"coin-point-5"
+                "coin":"coin-point-5",
+                "offsetY":-276.0
               },
               "conditions":[
                 {
@@ -1291,9 +1289,10 @@
           ]
         },
         "racing":{
+        },
+        "platformer":{
         }
       },
-      "use_shroom_healthPoints":false,
       "use_shroom_inherit":true,
       "use_shroom_lifespan":false,
       "use_shroom_mask":false,
@@ -1305,10 +1304,10 @@
       "shroom_hide_features":false,
       "shroom_hide_inherit":true,
       "shroom_hide_mask":true,
-      "shroom_hide_texture":true
+      "shroom_hide_texture":true,
+      "lifespanMax":15.0
     },
     "_coin-high-force":{
-      "lifespanMax":15.0,
       "healthPoints":1.0,
       "sprite":{
         "randomFrame":false,
@@ -1317,9 +1316,9 @@
         "scaleX":1.0,
         "scaleY":1.0,
         "blend":"#FFFFFF",
-        "speed":30.0,
-        "alpha":1.0,
         "name":"texture_baron",
+        "alpha":1.0,
+        "speed":30.0,
         "frame":0.0
       },
       "mask":{
@@ -1329,17 +1328,16 @@
         "width":0.0
       },
       "use_shroom_features":true,
+      "use_shroom_healthPoints":false,
       "gameModes":{
-        "platformer":{
-        },
         "bulletHell":{
           "features":[
             {
               "data":{
-                "offsetY":-266.0,
                 "amount":2.0,
                 "luck":0.80000000000000004,
-                "coin":"coin-force-5"
+                "coin":"coin-force-5",
+                "offsetY":-266.0
               },
               "conditions":[
                 {
@@ -1351,9 +1349,10 @@
           ]
         },
         "racing":{
+        },
+        "platformer":{
         }
       },
-      "use_shroom_healthPoints":false,
       "use_shroom_inherit":true,
       "use_shroom_lifespan":false,
       "use_shroom_mask":false,
@@ -1365,21 +1364,21 @@
       "shroom_hide_features":false,
       "shroom_hide_inherit":true,
       "shroom_hide_mask":true,
-      "shroom_hide_texture":true
+      "shroom_hide_texture":true,
+      "lifespanMax":15.0
     },
     "_coin-force":{
-      "lifespanMax":15.0,
       "healthPoints":1.0,
       "sprite":{
         "randomFrame":false,
         "animate":false,
         "angle":0.0,
         "scaleX":1.0,
-        "blend":"#FFFFFF",
         "scaleY":1.0,
-        "speed":30.0,
-        "alpha":1.0,
+        "blend":"#FFFFFF",
         "name":"texture_baron",
+        "alpha":1.0,
+        "speed":30.0,
         "frame":0.0
       },
       "mask":{
@@ -1389,17 +1388,16 @@
         "width":0.0
       },
       "use_shroom_features":true,
+      "use_shroom_healthPoints":false,
       "gameModes":{
-        "platformer":{
-        },
         "bulletHell":{
           "features":[
             {
               "data":{
-                "offsetY":-256.0,
                 "amount":2.0,
                 "luck":0.5,
-                "coin":"coin-force"
+                "coin":"coin-force",
+                "offsetY":-256.0
               },
               "conditions":[
                 {
@@ -1411,9 +1409,10 @@
           ]
         },
         "racing":{
+        },
+        "platformer":{
         }
       },
-      "use_shroom_healthPoints":false,
       "use_shroom_inherit":true,
       "use_shroom_lifespan":false,
       "use_shroom_mask":false,
@@ -1425,21 +1424,21 @@
       "shroom_hide_features":false,
       "shroom_hide_inherit":true,
       "shroom_hide_mask":true,
-      "shroom_hide_texture":true
+      "shroom_hide_texture":true,
+      "lifespanMax":15.0
     },
     "_coin-point":{
-      "lifespanMax":15.0,
       "healthPoints":1.0,
       "sprite":{
         "randomFrame":false,
         "animate":false,
         "angle":0.0,
         "scaleX":1.0,
-        "blend":"#FFFFFF",
         "scaleY":1.0,
-        "speed":30.0,
-        "alpha":1.0,
+        "blend":"#FFFFFF",
         "name":"texture_baron",
+        "alpha":1.0,
+        "speed":30.0,
         "frame":0.0
       },
       "mask":{
@@ -1449,17 +1448,16 @@
         "width":0.0
       },
       "use_shroom_features":true,
+      "use_shroom_healthPoints":false,
       "gameModes":{
-        "platformer":{
-        },
         "bulletHell":{
           "features":[
             {
               "data":{
-                "offsetY":-256.0,
                 "amount":2.0,
                 "luck":0.5,
-                "coin":"coin-point"
+                "coin":"coin-point",
+                "offsetY":-256.0
               },
               "conditions":[
                 {
@@ -1471,9 +1469,10 @@
           ]
         },
         "racing":{
+        },
+        "platformer":{
         }
       },
-      "use_shroom_healthPoints":false,
       "use_shroom_inherit":true,
       "use_shroom_lifespan":false,
       "use_shroom_mask":false,
@@ -1485,21 +1484,21 @@
       "shroom_hide_features":false,
       "shroom_hide_inherit":true,
       "shroom_hide_mask":true,
-      "shroom_hide_texture":true
+      "shroom_hide_texture":true,
+      "lifespanMax":15.0
     },
     "pikaro-3":{
-      "lifespanMax":20.0,
       "healthPoints":16.0,
       "sprite":{
         "randomFrame":true,
         "animate":false,
         "angle":0.0,
         "scaleX":7.0,
-        "blend":"#FFFFFF",
         "scaleY":7.0,
-        "speed":2.23,
-        "alpha":1.0,
+        "blend":"#FFFFFF",
         "name":"texture_shroom_baron",
+        "alpha":1.0,
+        "speed":2.23,
         "frame":2.0
       },
       "mask":{
@@ -1509,25 +1508,24 @@
         "width":136.0
       },
       "use_shroom_features":true,
+      "use_shroom_healthPoints":true,
       "gameModes":{
-        "platformer":{
-        },
         "bulletHell":{
           "features":[
             {
               "data":{
                 "transform":{
-                  "duration":3.1600000000000001,
                   "target":-15.0,
                   "ease":"LINEAR",
-                  "value":0.0
+                  "value":0.0,
+                  "duration":3.1600000000000001
                 }
               },
               "conditions":[
                 {
                   "data":{
-                    "operator":"less",
-                    "value":3.1600000000000001
+                    "value":3.1600000000000001,
+                    "operator":"less"
                   },
                   "type":"lifespan"
                 }
@@ -1537,17 +1535,17 @@
             {
               "data":{
                 "transform":{
-                  "duration":2.1600000000000001,
                   "target":-0.20000000000000001,
                   "ease":"LINEAR",
-                  "value":0.0
+                  "value":0.0,
+                  "duration":2.1600000000000001
                 }
               },
               "conditions":[
                 {
                   "data":{
-                    "operator":"greaterOrEqual",
-                    "value":4.3200000000000003
+                    "value":4.3200000000000003,
+                    "operator":"greaterOrEqual"
                   },
                   "type":"lifespan"
                 }
@@ -1557,17 +1555,17 @@
             {
               "data":{
                 "transform":{
-                  "duration":1.0,
                   "target":180.0,
                   "ease":"LINEAR",
-                  "value":0.0
+                  "value":0.0,
+                  "duration":1.0
                 }
               },
               "conditions":[
                 {
                   "data":{
-                    "operator":"greaterOrEqual",
-                    "value":4.3200000000000003
+                    "value":4.3200000000000003,
+                    "operator":"greaterOrEqual"
                   },
                   "type":"lifespan"
                 }
@@ -1576,14 +1574,14 @@
             },
             {
               "data":{
-                "size":80.0,
-                "amount":2.0
+                "amount":2.0,
+                "size":80.0
               },
               "conditions":[
                 {
                   "data":{
-                    "operator":"greaterOrEqual",
-                    "value":4.3200000000000003
+                    "value":4.3200000000000003,
+                    "operator":"greaterOrEqual"
                   },
                   "type":"lifespan"
                 }
@@ -1594,90 +1592,90 @@
               "data":{
                 "bullet":"bullet-pikaro-3",
                 "emitter":{
-                  "angleRng":0.0,
-                  "arrays":{
-                    "duration":0.0,
-                    "target":12.0,
-                    "ease":"LINEAR",
-                    "value":12.0
-                  },
                   "angleStep":{
-                    "duration":2.1600000000000001,
                     "target":30.0,
                     "ease":"LINEAR",
-                    "value":30.0
+                    "value":30.0,
+                    "duration":2.1600000000000001
+                  },
+                  "arrays":{
+                    "target":12.0,
+                    "ease":"LINEAR",
+                    "value":12.0,
+                    "duration":0.0
                   },
                   "perArray":{
-                    "duration":0.0,
                     "target":1.0,
                     "ease":"LINEAR",
-                    "value":1.0
+                    "value":1.0,
+                    "duration":0.0
                   },
                   "speed":{
-                    "duration":2.1600000000000001,
                     "target":10.0,
                     "ease":"LINEAR",
-                    "value":15.0
+                    "value":15.0,
+                    "duration":2.1600000000000001
                   },
                   "offset":{
-                    "duration":2.1600000000000001,
                     "target":8.0,
                     "ease":"LINEAR",
-                    "value":0.0
+                    "value":0.0,
+                    "duration":2.1600000000000001
                   },
                   "offsetX":{
-                    "duration":0.0,
                     "target":0.0,
                     "ease":"LINEAR",
-                    "value":0.0
+                    "value":0.0,
+                    "duration":0.0
                   },
                   "offsetY":{
-                    "duration":0.0,
                     "target":0.0,
                     "ease":"LINEAR",
-                    "value":0.0
+                    "value":0.0,
+                    "duration":0.0
                   },
                   "duration":2.1600000000000001,
                   "speedRng":0.0,
                   "amount":12.0,
                   "angle":{
-                    "duration":2.1600000000000001,
                     "target":30.0,
                     "ease":"LINEAR",
-                    "value":0.0
+                    "value":0.0,
+                    "duration":2.1600000000000001
                   },
                   "wiggleAmplitude":{
-                    "duration":0.0,
                     "target":0.0,
                     "ease":"LINEAR",
-                    "value":0.0
-                  },
-                  "anglePerArray":{
-                    "duration":2.1600000000000001,
-                    "target":0.0,
-                    "ease":"LINEAR",
-                    "value":-90.0
+                    "value":0.0,
+                    "duration":0.0
                   },
                   "wiggleFrequency":{
-                    "duration":0.0,
                     "target":0.0,
                     "ease":"LINEAR",
-                    "value":0.0
+                    "value":0.0,
+                    "duration":0.0
+                  },
+                  "anglePerArray":{
+                    "target":0.0,
+                    "ease":"LINEAR",
+                    "value":-90.0,
+                    "duration":2.1600000000000001
                   },
                   "anglePerArrayRng":0.0,
                   "anglePerArrayStep":{
-                    "duration":2.1600000000000001,
                     "target":30.0,
                     "ease":"LINEAR",
-                    "value":0.0
-                  }
+                    "value":0.0,
+                    "duration":2.1600000000000001
+                  },
+                  "angleRng":0.0
                 }
               },
               "conditions":[
                 {
                   "data":{
-                    "operator":"greater",
-                    "value":2.1600000000000001
+                    "value":2.1600000000000001,
+                    "operator":"greater"
                   },
                   "type":"lifespan"
                 }
@@ -1686,10 +1684,10 @@
             },
             {
               "data":{
-                "offsetY":-256.0,
                 "amount":10.0,
                 "luck":0.69999999999999996,
-                "coin":"coin-force"
+                "coin":"coin-force",
+                "offsetY":-256.0
               },
               "conditions":[
                 {
@@ -1701,9 +1699,10 @@
           ]
         },
         "racing":{
+        },
+        "platformer":{
         }
       },
-      "use_shroom_healthPoints":true,
       "use_shroom_inherit":true,
       "use_shroom_lifespan":true,
       "use_shroom_mask":true,
@@ -1721,21 +1720,21 @@
       "shroom_hide_features":false,
       "shroom_hide_inherit":false,
       "shroom_hide_mask":true,
-      "shroom_hide_texture":false
+      "shroom_hide_texture":false,
+      "lifespanMax":20.0
     },
     "pikaro-1-r":{
-      "lifespanMax":15.0,
       "healthPoints":4.0,
       "sprite":{
         "randomFrame":true,
         "animate":false,
         "angle":0.0,
         "scaleX":3.0,
-        "blend":"#FFFFFF",
         "scaleY":3.0,
-        "speed":2.2000000000000002,
-        "alpha":1.0,
+        "blend":"#FFFFFF",
         "name":"texture_shroom_baron_magenta",
+        "alpha":1.0,
+        "speed":2.2000000000000002,
         "frame":2.0
       },
       "mask":{
@@ -1745,22 +1744,21 @@
         "width":136.0
       },
       "use_shroom_features":true,
+      "use_shroom_healthPoints":true,
       "gameModes":{
-        "platformer":{
-        },
         "bulletHell":{
           "features":[
             {
               "data":{
                 "angle":{
                   "add":{
-                    "duration":1.0,
                     "target":[
                       1.0,
                       -1.0
                     ],
                     "ease":"LINEAR",
-                    "value":0.0
+                    "value":0.0,
+                    "duration":1.0
                   }
                 }
               },
@@ -1771,17 +1769,17 @@
             {
               "data":{
                 "transform":{
-                  "duration":2.1600000000000001,
                   "target":60.0,
                   "ease":"IN_OUT_SINE",
-                  "value":0.0
+                  "value":0.0,
+                  "duration":2.1600000000000001
                 }
               },
               "conditions":[
                 {
                   "data":{
-                    "operator":"less",
-                    "value":2.1600000000000001
+                    "value":2.1600000000000001,
+                    "operator":"less"
                   },
                   "type":"lifespan"
                 }
@@ -1791,17 +1789,17 @@
             {
               "data":{
                 "transform":{
-                  "duration":2.1600000000000001,
                   "target":-60.0,
                   "ease":"IN_OUT_SINE",
-                  "value":0.0
+                  "value":0.0,
+                  "duration":2.1600000000000001
                 }
               },
               "conditions":[
                 {
                   "data":{
-                    "operator":"greaterOrEqual",
-                    "value":2.1600000000000001
+                    "value":2.1600000000000001,
+                    "operator":"greaterOrEqual"
                   },
                   "type":"lifespan"
                 }
@@ -1811,9 +1809,10 @@
           ]
         },
         "racing":{
+        },
+        "platformer":{
         }
       },
-      "use_shroom_healthPoints":true,
       "use_shroom_inherit":true,
       "use_shroom_lifespan":false,
       "use_shroom_mask":true,
@@ -1828,21 +1827,21 @@
       "shroom_hide_features":true,
       "shroom_hide_inherit":false,
       "shroom_hide_mask":false,
-      "shroom_hide_texture":false
+      "shroom_hide_texture":false,
+      "lifespanMax":15.0
     },
     "pikaro-1-l":{
-      "lifespanMax":15.0,
       "healthPoints":4.0,
       "sprite":{
         "randomFrame":true,
         "animate":false,
         "angle":0.0,
         "scaleX":3.0,
-        "blend":"#FFFFFF",
         "scaleY":3.0,
-        "speed":0.0,
-        "alpha":1.0,
+        "blend":"#FFFFFF",
         "name":"texture_shroom_bazyl_magenta",
+        "alpha":1.0,
+        "speed":0.0,
         "frame":2.0
       },
       "mask":{
@@ -1852,22 +1851,21 @@
         "width":136.0
       },
       "use_shroom_features":true,
+      "use_shroom_healthPoints":true,
       "gameModes":{
-        "platformer":{
-        },
         "bulletHell":{
           "features":[
             {
               "data":{
                 "angle":{
                   "add":{
-                    "duration":1.0,
                     "target":[
                       1.0,
                       -1.0
                     ],
                     "ease":"LINEAR",
-                    "value":0.0
+                    "value":0.0,
+                    "duration":1.0
                   }
                 }
               },
@@ -1878,17 +1876,17 @@
             {
               "data":{
                 "transform":{
-                  "duration":2.1600000000000001,
                   "target":-60.0,
                   "ease":"IN_OUT_SINE",
-                  "value":0.0
+                  "value":0.0,
+                  "duration":2.1600000000000001
                 }
               },
               "conditions":[
                 {
                   "data":{
-                    "operator":"less",
-                    "value":2.1600000000000001
+                    "value":2.1600000000000001,
+                    "operator":"less"
                   },
                   "type":"lifespan"
                 }
@@ -1898,17 +1896,17 @@
             {
               "data":{
                 "transform":{
-                  "duration":2.1600000000000001,
                   "target":60.0,
                   "ease":"IN_OUT_SINE",
-                  "value":0.0
+                  "value":0.0,
+                  "duration":2.1600000000000001
                 }
               },
               "conditions":[
                 {
                   "data":{
-                    "operator":"greaterOrEqual",
-                    "value":2.1600000000000001
+                    "value":2.1600000000000001,
+                    "operator":"greaterOrEqual"
                   },
                   "type":"lifespan"
                 }
@@ -1918,9 +1916,10 @@
           ]
         },
         "racing":{
+        },
+        "platformer":{
         }
       },
-      "use_shroom_healthPoints":true,
       "use_shroom_inherit":true,
       "use_shroom_lifespan":false,
       "use_shroom_mask":true,
@@ -1935,10 +1934,10 @@
       "shroom_hide_features":true,
       "shroom_hide_inherit":true,
       "shroom_hide_mask":false,
-      "shroom_hide_texture":false
+      "shroom_hide_texture":false,
+      "lifespanMax":15.0
     },
     "pikaro-2-l":{
-      "lifespanMax":15.0,
       "healthPoints":6.0,
       "sprite":{
         "randomFrame":true,
@@ -1947,9 +1946,9 @@
         "scaleX":5.0,
         "scaleY":5.0,
         "blend":"#FFFFFF",
-        "speed":0.0,
-        "alpha":1.0,
         "name":"texture_shroom_bazyl_yellow",
+        "alpha":1.0,
+        "speed":0.0,
         "frame":0.0
       },
       "mask":{
@@ -1959,22 +1958,21 @@
         "width":136.0
       },
       "use_shroom_features":true,
+      "use_shroom_healthPoints":true,
       "gameModes":{
-        "platformer":{
-        },
         "bulletHell":{
           "features":[
             {
               "data":{
                 "angle":{
                   "add":{
-                    "duration":1.0,
                     "target":[
                       1.0,
                       -1.0
                     ],
                     "ease":"LINEAR",
-                    "value":0.0
+                    "value":0.0,
+                    "duration":1.0
                   }
                 }
               },
@@ -1985,17 +1983,17 @@
             {
               "data":{
                 "transform":{
-                  "duration":2.1600000000000001,
                   "target":-60.0,
                   "ease":"IN_OUT_SINE",
-                  "value":0.0
+                  "value":0.0,
+                  "duration":2.1600000000000001
                 }
               },
               "conditions":[
                 {
                   "data":{
-                    "operator":"less",
-                    "value":2.1600000000000001
+                    "value":2.1600000000000001,
+                    "operator":"less"
                   },
                   "type":"lifespan"
                 }
@@ -2005,17 +2003,17 @@
             {
               "data":{
                 "transform":{
-                  "duration":2.1600000000000001,
                   "target":60.0,
                   "ease":"IN_OUT_SINE",
-                  "value":0.0
+                  "value":0.0,
+                  "duration":2.1600000000000001
                 }
               },
               "conditions":[
                 {
                   "data":{
-                    "operator":"greaterOrEqual",
-                    "value":2.1600000000000001
+                    "value":2.1600000000000001,
+                    "operator":"greaterOrEqual"
                   },
                   "type":"lifespan"
                 }
@@ -2026,112 +2024,112 @@
               "data":{
                 "bullet":"bullet-pikaro-2-l",
                 "emitter":{
-                  "angleRng":{
-                    "duration":0.0,
-                    "target":0.0,
-                    "ease":"LINEAR",
-                    "value":0.0
-                  },
-                  "arrays":{
-                    "duration":1.0,
-                    "target":6.0,
-                    "ease":"LINEAR",
-                    "value":6.0
-                  },
                   "angleStep":{
-                    "duration":1.1599999999999999,
                     "target":30.0,
                     "ease":"LINEAR",
-                    "value":60.0
+                    "value":60.0,
+                    "duration":1.1599999999999999
+                  },
+                  "arrays":{
+                    "target":6.0,
+                    "ease":"LINEAR",
+                    "value":6.0,
+                    "duration":1.0
                   },
                   "perArray":{
-                    "duration":0.0,
                     "target":1.0,
                     "ease":"LINEAR",
-                    "value":1.0
+                    "value":1.0,
+                    "duration":0.0
                   },
                   "speed":{
-                    "duration":1.1599999999999999,
                     "target":25.0,
                     "ease":"LINEAR",
-                    "value":10.0
+                    "value":10.0,
+                    "duration":1.1599999999999999
                   },
                   "offset":{
-                    "duration":1.1599999999999999,
                     "target":-1.0,
                     "ease":"LINEAR",
-                    "value":0.0
+                    "value":0.0,
+                    "duration":1.1599999999999999
                   },
                   "offsetX":{
-                    "duration":1.0,
                     "target":0.0,
                     "ease":"LINEAR",
-                    "value":0.0
+                    "value":0.0,
+                    "duration":1.0
                   },
                   "offsetY":{
-                    "duration":1.0,
                     "target":0.0,
                     "ease":"LINEAR",
-                    "value":0.0
+                    "value":0.0,
+                    "duration":1.0
                   },
                   "duration":1.1599999999999999,
                   "speedRng":{
-                    "duration":0.0,
                     "target":0.0,
                     "ease":"LINEAR",
-                    "value":0.0
+                    "value":0.0,
+                    "duration":0.0
                   },
                   "amount":12.0,
                   "angle":{
-                    "duration":1.1599999999999999,
                     "target":45.0,
                     "ease":"LINEAR",
-                    "value":90.0
+                    "value":90.0,
+                    "duration":1.1599999999999999
                   },
                   "wiggleAmplitude":{
-                    "duration":0.0,
                     "target":0.0,
                     "ease":"LINEAR",
-                    "value":0.0
-                  },
-                  "anglePerArray":{
-                    "duration":1.1599999999999999,
-                    "target":0.0,
-                    "ease":"OUT_EXPO",
-                    "value":60.0
+                    "value":0.0,
+                    "duration":0.0
                   },
                   "wiggleFrequency":{
-                    "duration":0.0,
                     "target":0.0,
                     "ease":"LINEAR",
-                    "value":0.0
+                    "value":0.0,
+                    "duration":0.0
+                  },
+                  "anglePerArray":{
+                    "target":0.0,
+                    "ease":"OUT_EXPO",
+                    "value":60.0,
+                    "duration":1.1599999999999999
                   },
                   "anglePerArrayRng":{
-                    "duration":1.0,
                     "target":0.0,
                     "ease":"LINEAR",
-                    "value":0.0
+                    "value":0.0,
+                    "duration":1.0
                   },
                   "anglePerArrayStep":{
-                    "duration":1.0,
                     "target":0.0,
                     "ease":"LINEAR",
-                    "value":0.0
+                    "value":0.0,
+                    "duration":1.0
+                  },
+                  "angleRng":{
+                    "target":0.0,
+                    "ease":"LINEAR",
+                    "value":0.0,
+                    "duration":0.0
                   }
                 }
               },
               "conditions":[
                 {
                   "data":{
-                    "operator":"greater",
-                    "value":1.000000000000004
+                    "value":1.000000000000004,
+                    "operator":"greater"
                   },
                   "type":"lifespan"
                 },
                 {
                   "data":{
-                    "operator":"lessOrEqual",
-                    "value":2.1600000000000001
+                    "value":2.1600000000000001,
+                    "operator":"lessOrEqual"
                   },
                   "type":"lifespan"
                 }
@@ -2141,9 +2139,10 @@
           ]
         },
         "racing":{
+        },
+        "platformer":{
         }
       },
-      "use_shroom_healthPoints":true,
       "use_shroom_inherit":true,
       "use_shroom_lifespan":false,
       "use_shroom_mask":true,
@@ -2157,10 +2156,10 @@
       "shroom_hide_features":false,
       "shroom_hide_inherit":false,
       "shroom_hide_mask":true,
-      "shroom_hide_texture":false
+      "shroom_hide_texture":false,
+      "lifespanMax":15.0
     },
     "pikaro-intro-1-l":{
-      "lifespanMax":15.0,
       "healthPoints":2.0,
       "sprite":{
         "randomFrame":true,
@@ -2169,9 +2168,9 @@
         "scaleX":2.5,
         "scaleY":2.5,
         "blend":"#FFFFFF",
-        "speed":6.0,
-        "alpha":1.0,
         "name":"texture_shroom_bazyl_blue",
+        "alpha":1.0,
+        "speed":6.0,
         "frame":0.0
       },
       "mask":{
@@ -2181,30 +2180,29 @@
         "width":136.0
       },
       "use_shroom_features":true,
+      "use_shroom_healthPoints":true,
       "gameModes":{
-        "platformer":{
-        },
         "bulletHell":{
           "features":[
             {
               "data":{
                 "angle":{
                   "add":{
-                    "duration":1.0,
                     "target":[
                       1.0,
                       -1.0
                     ],
                     "ease":"LINEAR",
-                    "value":0.0
+                    "value":0.0,
+                    "duration":1.0
                   }
                 }
               },
               "conditions":[
                 {
                   "data":{
-                    "operator":"less",
-                    "value":2.0
+                    "value":2.0,
+                    "operator":"less"
                   },
                   "type":"lifespan"
                 }
@@ -2215,21 +2213,21 @@
               "data":{
                 "angle":{
                   "add":{
-                    "duration":0.5,
                     "target":[
                       5.0,
                       -5.0
                     ],
                     "ease":"LINEAR",
-                    "value":0.0
+                    "value":0.0,
+                    "duration":0.5
                   }
                 }
               },
               "conditions":[
                 {
                   "data":{
-                    "operator":"greaterOrEqual",
-                    "value":2.0
+                    "value":2.0,
+                    "operator":"greaterOrEqual"
                   },
                   "type":"lifespan"
                 }
@@ -2239,17 +2237,17 @@
             {
               "data":{
                 "transform":{
-                  "duration":0.5,
                   "target":90.0,
                   "ease":"LINEAR",
-                  "value":0.0
+                  "value":0.0,
+                  "duration":0.5
                 }
               },
               "conditions":[
                 {
                   "data":{
-                    "operator":"greaterOrEqual",
-                    "value":2.0
+                    "value":2.0,
+                    "operator":"greaterOrEqual"
                   },
                   "type":"lifespan"
                 }
@@ -2259,17 +2257,17 @@
             {
               "data":{
                 "transform":{
-                  "duration":2.0,
                   "target":-10.0,
                   "ease":"LINEAR",
-                  "value":0.0
+                  "value":0.0,
+                  "duration":2.0
                 }
               },
               "conditions":[
                 {
                   "data":{
-                    "operator":"less",
-                    "value":2.0
+                    "value":2.0,
+                    "operator":"less"
                   },
                   "type":"lifespan"
                 }
@@ -2279,17 +2277,17 @@
             {
               "data":{
                 "transform":{
-                  "duration":2.0,
                   "target":30.0,
                   "ease":"LINEAR",
-                  "value":0.0
+                  "value":0.0,
+                  "duration":2.0
                 }
               },
               "conditions":[
                 {
                   "data":{
-                    "operator":"greaterOrEqual",
-                    "value":2.0
+                    "value":2.0,
+                    "operator":"greaterOrEqual"
                   },
                   "type":"lifespan"
                 }
@@ -2299,9 +2297,10 @@
           ]
         },
         "racing":{
+        },
+        "platformer":{
         }
       },
-      "use_shroom_healthPoints":true,
       "use_shroom_inherit":true,
       "use_shroom_lifespan":false,
       "use_shroom_mask":true,
@@ -2316,10 +2315,10 @@
       "shroom_hide_features":true,
       "shroom_hide_inherit":false,
       "shroom_hide_mask":false,
-      "shroom_hide_texture":false
+      "shroom_hide_texture":false,
+      "lifespanMax":15.0
     },
     "pikaro-3-l":{
-      "lifespanMax":15.0,
       "healthPoints":5.0,
       "sprite":{
         "randomFrame":true,
@@ -2328,9 +2327,9 @@
         "scaleX":2.0,
         "scaleY":2.0,
         "blend":"#FFFFFF",
-        "speed":2.2000000000000002,
-        "alpha":1.0,
         "name":"texture_shroom_bazyl",
+        "alpha":1.0,
+        "speed":2.2000000000000002,
         "frame":2.0
       },
       "mask":{
@@ -2340,9 +2339,8 @@
         "width":136.0
       },
       "use_shroom_features":true,
+      "use_shroom_healthPoints":true,
       "gameModes":{
-        "platformer":{
-        },
         "bulletHell":{
           "features":[
             {
@@ -2363,17 +2361,17 @@
             {
               "data":{
                 "transform":{
-                  "duration":4.3200000000000003,
                   "target":-179.0,
                   "ease":"IN_OUT_SINE",
-                  "value":0.0
+                  "value":0.0,
+                  "duration":4.3200000000000003
                 }
               },
               "conditions":[
                 {
                   "data":{
-                    "operator":"greaterOrEqual",
-                    "value":1.0800000000000001
+                    "value":1.0800000000000001,
+                    "operator":"greaterOrEqual"
                   },
                   "type":"lifespan"
                 }
@@ -2383,17 +2381,17 @@
             {
               "data":{
                 "transform":{
-                  "duration":1.0800000000000001,
                   "target":0.0,
                   "ease":"OUT_SINE",
-                  "value":24.0
+                  "value":24.0,
+                  "duration":1.0800000000000001
                 }
               },
               "conditions":[
                 {
                   "data":{
-                    "operator":"less",
-                    "value":1.0800000000000001
+                    "value":1.0800000000000001,
+                    "operator":"less"
                   },
                   "type":"lifespan"
                 }
@@ -2403,9 +2401,10 @@
           ]
         },
         "racing":{
+        },
+        "platformer":{
         }
       },
-      "use_shroom_healthPoints":true,
       "use_shroom_inherit":true,
       "use_shroom_lifespan":false,
       "use_shroom_mask":true,
@@ -2420,8 +2419,9 @@
       "shroom_hide_features":true,
       "shroom_hide_inherit":false,
       "shroom_hide_mask":false,
-      "shroom_hide_texture":false
+      "shroom_hide_texture":false,
+      "lifespanMax":15.0
     }
   },
-  "version":"1"
+  "model":"Collection<io.alkapivo.visu.service.shroom.ShroomTemplate>"
 }

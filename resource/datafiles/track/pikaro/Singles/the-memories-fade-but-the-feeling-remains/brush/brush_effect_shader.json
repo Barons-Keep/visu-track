@@ -1,5 +1,5 @@
 {
-  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>",
+  "version":"1",
   "data":[
     {
       "type":"brush_effect_shader",
@@ -122,5 +122,5 @@
       "name":"wavy mesh 1"
     }
   ],
-  "version":"1"
+  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>"
 }

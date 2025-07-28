@@ -1,14 +1,11 @@
 {
-  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>",
+  "version":"1",
   "data":[
     {
       "type":"brush_view_subtitle",
       "color":"#009EB9",
       "texture":"texture_ve_icon_view",
       "properties":{
-        "vw-sub_use-spd":false,
-        "vw-sub_use-timeout":false,
-        "vw-sub_w":0.5,
         "vw-sub_x":0.25,
         "vw-sub_y":0.40000000000000002,
         "vw-sub_align-h":"CENTER",
@@ -18,10 +15,10 @@
         "vw-sub_char-spd":0.12,
         "vw-sub_col":"#242424",
         "vw-sub_dir":{
-          "increase":0.0,
-          "factor":0.40000000000000002,
           "target":280.0,
-          "value":320.0
+          "value":320.0,
+          "increase":0.0,
+          "factor":0.40000000000000002
         },
         "vw-sub_end-delay":3.0,
         "vw-sub_fade-in":0.5,
@@ -32,10 +29,10 @@
         "vw-sub_nl-delay":0.20000000000000001,
         "vw-sub_outline":"#D205A6",
         "vw-sub_spd":{
-          "increase":0.0,
-          "factor":0.002,
           "target":8.0,
-          "value":0.10000000000000001
+          "value":0.10000000000000001,
+          "increase":0.0,
+          "factor":0.002
         },
         "vw-sub_template":"subtitle_alkapivo",
         "vw-sub_timeout":1.0,
@@ -43,9 +40,12 @@
         "vw-sub_use-end-delay":true,
         "vw-sub_use-nl-delay":true,
         "vw-sub_use-outline":true,
+        "vw-sub_use-spd":false,
         "icon":{
           "name":"texture_baron"
-        }
+        },
+        "vw-sub_use-timeout":false,
+        "vw-sub_w":0.5
       },
       "hidden":false,
       "name":"subtitle_alkapivo"
@@ -55,9 +55,6 @@
       "color":"#F998FF",
       "texture":"texture_ve_icon_view",
       "properties":{
-        "vw-sub_use-timeout":false,
-        "vw-sub_w":1.0,
-        "vw-sub_x":0.14999999999999999,
         "vw-sub_y":0.35999999999999999,
         "vw-sub_align-h":"LEFT",
         "vw-sub_align-v":"BOTTOM",
@@ -66,12 +63,12 @@
         "vw-sub_char-spd":0.059999999999999998,
         "vw-sub_col":"#181818",
         "vw-sub_dir":{
-          "duration":1.6666666666666667,
           "target":280.0,
           "ease":"LEGACY",
           "increase":0.0,
           "factor":0.40000000000000002,
-          "value":320.0
+          "value":320.0,
+          "duration":1.6666666666666667
         },
         "vw-sub_end-delay":9.0,
         "vw-sub_fade-in":0.5,
@@ -87,12 +84,12 @@
         "vw-sub_nl-delay":0.5,
         "vw-sub_outline":"#F914FF",
         "vw-sub_spd":{
-          "duration":18.229166666666668,
           "target":0.25,
           "ease":"LEGACY",
           "increase":0.00050000000000000001,
           "factor":0.0016000000000000001,
-          "value":2.0
+          "value":2.0,
+          "duration":18.229166666666668
         },
         "vw-sub_template":"subtitle-artist-name",
         "vw-sub_timeout":1.0,
@@ -101,7 +98,10 @@
         "vw-sub_use-end-delay":true,
         "vw-sub_use-nl-delay":0.0,
         "vw-sub_use-outline":true,
-        "vw-sub_use-spd":false
+        "vw-sub_use-spd":false,
+        "vw-sub_use-timeout":false,
+        "vw-sub_w":1.0,
+        "vw-sub_x":0.14999999999999999
       },
       "hidden":false,
       "name":"subtitle_artist_name"
@@ -111,9 +111,6 @@
       "color":"#F914FF",
       "texture":"texture_ve_icon_view",
       "properties":{
-        "vw-sub_use-timeout":false,
-        "vw-sub_w":1.0,
-        "vw-sub_x":0.040000000000000001,
         "vw-sub_y":0.54000000000000004,
         "vw-sub_align-h":"LEFT",
         "vw-sub_align-v":"TOP",
@@ -122,12 +119,12 @@
         "vw-sub_char-spd":0.188,
         "vw-sub_col":"#F914FF",
         "vw-sub_dir":{
-          "duration":1.6666666666666667,
           "target":280.0,
           "ease":"LEGACY",
           "increase":0.0,
           "factor":0.40000000000000002,
-          "value":320.0
+          "value":320.0,
+          "duration":1.6666666666666667
         },
         "vw-sub_end-delay":7.5,
         "vw-sub_fade-in":0.5,
@@ -143,12 +140,12 @@
         "vw-sub_nl-delay":0.5,
         "vw-sub_outline":"#181818",
         "vw-sub_spd":{
-          "duration":18.229166666666668,
           "target":0.25,
           "ease":"LEGACY",
           "increase":0.00050000000000000001,
           "factor":0.0016000000000000001,
-          "value":2.0
+          "value":2.0,
+          "duration":18.229166666666668
         },
         "vw-sub_template":"subtitle-track-name",
         "vw-sub_timeout":1.0,
@@ -157,11 +154,14 @@
         "vw-sub_use-end-delay":true,
         "vw-sub_use-nl-delay":0.0,
         "vw-sub_use-outline":true,
-        "vw-sub_use-spd":false
+        "vw-sub_use-spd":false,
+        "vw-sub_use-timeout":false,
+        "vw-sub_w":1.0,
+        "vw-sub_x":0.040000000000000001
       },
       "hidden":false,
       "name":"subtitle_track_name"
     }
   ],
-  "version":"1"
+  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>"
 }

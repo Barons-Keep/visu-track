@@ -1,34 +1,18 @@
 {
-  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>",
+  "version":"1",
   "data":[
     {
       "type":"brush_entity_config",
       "color":"#0080FF",
       "texture":"texture_ve_icon_entity_config",
       "properties":{
-        "en-cfg_z-coin":{
-          "duration":0.0,
-          "target":2047.0,
-          "ease":"LINEAR",
-          "increase":0.0,
-          "factor":0.0,
-          "value":2047.0
-        },
-        "en-cfg_z-player":{
-          "duration":0.0,
-          "target":2051.0,
-          "ease":"LINEAR",
-          "increase":0.0,
-          "factor":0.0,
-          "value":2051.0
-        },
         "en-cfg_z-shr":{
-          "duration":0.0,
           "target":2049.0,
           "ease":"LINEAR",
           "increase":0.0,
           "factor":0.0,
-          "value":2049.0
+          "value":2049.0,
+          "duration":0.0
         },
         "en-cfg_change-z-bullet":false,
         "en-cfg_change-z-coin":false,
@@ -58,12 +42,28 @@
         "en-cfg_use-z-player":false,
         "en-cfg_use-z-shr":false,
         "en-cfg_z-bullet":{
-          "duration":0.0,
           "target":2048.0,
           "ease":"LINEAR",
           "increase":0.0,
           "factor":0.0,
-          "value":2048.0
+          "value":2048.0,
+          "duration":0.0
+        },
+        "en-cfg_z-coin":{
+          "target":2047.0,
+          "ease":"LINEAR",
+          "increase":0.0,
+          "factor":0.0,
+          "value":2047.0,
+          "duration":0.0
+        },
+        "en-cfg_z-player":{
+          "target":2051.0,
+          "ease":"LINEAR",
+          "increase":0.0,
+          "factor":0.0,
+          "value":2051.0,
+          "duration":0.0
         }
       },
       "hidden":true,
@@ -74,29 +74,13 @@
       "color":"#00A000",
       "texture":"texture_ve_icon_entity_config",
       "properties":{
-        "en-cfg_z-coin":{
-          "duration":0.0,
-          "target":2047.0,
-          "ease":"LINEAR",
-          "increase":0.0,
-          "factor":0.0,
-          "value":2047.0
-        },
-        "en-cfg_z-player":{
-          "duration":0.0,
-          "target":2051.0,
-          "ease":"LINEAR",
-          "increase":0.0,
-          "factor":0.0,
-          "value":2051.0
-        },
         "en-cfg_z-shr":{
-          "duration":0.0,
           "target":2049.0,
           "ease":"LINEAR",
           "increase":0.0,
           "factor":0.0,
-          "value":2049.0
+          "value":2049.0,
+          "duration":0.0
         },
         "en-cfg_change-z-bullet":true,
         "en-cfg_change-z-coin":true,
@@ -126,17 +110,33 @@
         "en-cfg_use-z-player":true,
         "en-cfg_use-z-shr":true,
         "en-cfg_z-bullet":{
-          "duration":0.0,
           "target":2048.0,
           "ease":"LINEAR",
           "increase":0.0,
           "factor":0.0,
-          "value":2048.0
+          "value":2048.0,
+          "duration":0.0
+        },
+        "en-cfg_z-coin":{
+          "target":2047.0,
+          "ease":"LINEAR",
+          "increase":0.0,
+          "factor":0.0,
+          "value":2047.0,
+          "duration":0.0
+        },
+        "en-cfg_z-player":{
+          "target":2051.0,
+          "ease":"LINEAR",
+          "increase":0.0,
+          "factor":0.0,
+          "value":2051.0,
+          "duration":0.0
         }
       },
       "hidden":true,
       "name":"default"
     }
   ],
-  "version":"1"
+  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>"
 }

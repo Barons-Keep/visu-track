@@ -1,10 +1,15 @@
 {
-  "model":"Collection<io.alkapivo.visu.service.subtitle.SubtitleTemplate>",
+  "version":"1",
   "data":{
-    "subtitle_alkapivo":{
+    "subtitle_kedy_selma_jtcs_poem":{
       "lines":[
-        "Alkapivo",
-        "2025"
+        "If it was easier,",
+        "it wouldn't feel this rewarding,",
+        "when somebody finally notice.",
+        "I struggle this much,",
+        "just to create something.",
+        "",
+        "kedy_selma"
       ]
     },
     "subtitle_kedy_selma_jtcs":{
@@ -19,17 +24,12 @@
         ""
       ]
     },
-    "subtitle_kedy_selma_jtcs_poem":{
+    "subtitle_alkapivo":{
       "lines":[
-        "If it was easier,",
-        "it wouldn't feel this rewarding,",
-        "when somebody finally notice.",
-        "I struggle this much,",
-        "just to create something.",
-        "",
-        "kedy_selma"
+        "Alkapivo",
+        "2025"
       ]
     }
   },
-  "version":"1"
+  "model":"Collection<io.alkapivo.visu.service.subtitle.SubtitleTemplate>"
 }

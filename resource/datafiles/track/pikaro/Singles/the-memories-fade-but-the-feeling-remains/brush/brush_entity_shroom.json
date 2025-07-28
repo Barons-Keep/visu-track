@@ -1,5 +1,5 @@
 {
-  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>",
+  "version":"1",
   "data":[
     {
       "type":"brush_entity_shroom",
@@ -34,12 +34,12 @@
         "en-shr_snap-x":true,
         "en-shr_snap-y":true,
         "en-shr_spawn-map":{
-          "frames":1.0,
-          "originY":0.0,
           "file":"",
           "prefetch":true,
           "name":"texture_shroom_spawn_map",
-          "originX":101.0
+          "frames":1.0,
+          "originX":101.0,
+          "originY":0.0
         },
         "en-shr_spd":15.0,
         "en-shr_spd-grid":false,
@@ -50,11 +50,11 @@
           "animate":false,
           "angle":0.0,
           "scaleX":1.0,
-          "blend":"#FFFFFF",
           "scaleY":1.0,
-          "speed":30.0,
-          "alpha":1.0,
+          "blend":"#FFFFFF",
           "name":"texture_missing",
+          "alpha":1.0,
+          "speed":30.0,
           "frame":0.0
         },
         "en-shr_use-dir-rng":false,
@@ -72,97 +72,97 @@
         "en-shr_dir":270.0,
         "en-shr_dir-rng":0.0,
         "en-shr_em-cfg":{
-          "angleRng":{
-            "duration":0.0,
-            "target":0.0,
+          "arrays":{
+            "target":1.0,
             "ease":"LINEAR",
-            "value":0.0
+            "value":1.0,
+            "duration":0.0
           },
           "angleStep":{
-            "duration":0.0,
             "target":0.0,
             "ease":"LINEAR",
-            "value":0.0
-          },
-          "arrays":{
-            "duration":0.0,
-            "target":1.0,
-            "ease":"LINEAR",
-            "value":1.0
+            "value":0.0,
+            "duration":0.0
           },
           "perArray":{
-            "duration":0.0,
             "target":1.0,
             "ease":"LINEAR",
-            "value":1.0
+            "value":1.0,
+            "duration":0.0
           },
           "speed":{
-            "duration":4.3200000000000003,
             "target":0.0,
             "ease":"LINEAR",
-            "value":0.0
+            "value":0.0,
+            "duration":4.3200000000000003
           },
           "offset":{
-            "duration":0.0,
             "target":0.0,
             "ease":"LINEAR",
-            "value":0.0
+            "value":0.0,
+            "duration":0.0
           },
           "offsetX":{
-            "duration":4.3200000000000003,
             "target":-10.0,
             "ease":"LINEAR",
-            "value":0.0
+            "value":0.0,
+            "duration":4.3200000000000003
           },
           "offsetY":{
-            "duration":4.3200000000000003,
             "target":-20.0,
             "ease":"LINEAR",
-            "value":0.0
+            "value":0.0,
+            "duration":4.3200000000000003
           },
           "duration":4.3200000000000003,
           "speedRng":{
-            "duration":0.0,
             "target":0.0,
             "ease":"LINEAR",
-            "value":0.0
+            "value":0.0,
+            "duration":0.0
           },
           "amount":12.0,
           "angle":{
-            "duration":4.3200000000000003,
             "target":-30.0,
             "ease":"LINEAR",
-            "value":30.0
+            "value":30.0,
+            "duration":4.3200000000000003
           },
           "wiggleAmplitude":{
-            "duration":0.0,
             "target":0.0,
             "ease":"LINEAR",
-            "value":20.0
-          },
-          "anglePerArray":{
-            "duration":4.3200000000000003,
-            "target":0.0,
-            "ease":"LINEAR",
-            "value":0.0
+            "value":20.0,
+            "duration":0.0
           },
           "wiggleFrequency":{
-            "duration":0.0,
             "target":0.0,
             "ease":"LINEAR",
-            "value":1.0
+            "value":1.0,
+            "duration":0.0
+          },
+          "anglePerArray":{
+            "target":0.0,
+            "ease":"LINEAR",
+            "value":0.0,
+            "duration":4.3200000000000003
           },
           "anglePerArrayRng":{
-            "duration":0.0,
             "target":0.0,
             "ease":"LINEAR",
-            "value":0.0
+            "value":0.0,
+            "duration":0.0
           },
           "anglePerArrayStep":{
-            "duration":0.0,
             "target":0.0,
             "ease":"LINEAR",
-            "value":0.0
+            "value":0.0,
+            "duration":0.0
+          },
+          "angleRng":{
+            "target":0.0,
+            "ease":"LINEAR",
+            "value":0.0,
+            "duration":0.0
           }
         }
       },
@@ -202,12 +202,12 @@
         "en-shr_snap-x":true,
         "en-shr_snap-y":true,
         "en-shr_spawn-map":{
-          "frames":1.0,
-          "originY":55.0,
           "file":"",
           "prefetch":true,
           "name":"texture_shroom_spawn_map",
-          "originX":144.0
+          "frames":1.0,
+          "originX":144.0,
+          "originY":55.0
         },
         "en-shr_spd":30.0,
         "en-shr_spd-grid":false,
@@ -218,11 +218,11 @@
           "animate":false,
           "angle":0.0,
           "scaleX":1.0,
-          "blend":"#FFFFFF",
           "scaleY":1.0,
-          "speed":30.0,
-          "alpha":1.0,
+          "blend":"#FFFFFF",
           "name":"texture_missing",
+          "alpha":1.0,
+          "speed":30.0,
           "frame":0.0
         },
         "en-shr_use-dir-rng":false,
@@ -240,97 +240,97 @@
         "en-shr_dir":150.0,
         "en-shr_dir-rng":0.0,
         "en-shr_em-cfg":{
-          "angleRng":{
-            "duration":0.0,
+          "angleStep":{
             "target":0.0,
             "ease":"LINEAR",
-            "value":0.0
+            "value":0.0,
+            "duration":0.0
           },
           "arrays":{
-            "duration":0.0,
             "target":1.0,
             "ease":"LINEAR",
-            "value":1.0
-          },
-          "angleStep":{
-            "duration":0.0,
-            "target":0.0,
-            "ease":"LINEAR",
-            "value":0.0
+            "value":1.0,
+            "duration":0.0
           },
           "perArray":{
-            "duration":0.0,
             "target":1.0,
             "ease":"LINEAR",
-            "value":1.0
+            "value":1.0,
+            "duration":0.0
           },
           "speed":{
-            "duration":4.3200000000000003,
             "target":0.0,
             "ease":"LINEAR",
-            "value":0.0
+            "value":0.0,
+            "duration":4.3200000000000003
           },
           "offset":{
-            "duration":0.0,
             "target":0.0,
             "ease":"LINEAR",
-            "value":0.0
+            "value":0.0,
+            "duration":0.0
           },
           "offsetX":{
-            "duration":4.3200000000000003,
             "target":0.0,
             "ease":"LINEAR",
-            "value":0.0
+            "value":0.0,
+            "duration":4.3200000000000003
           },
           "offsetY":{
-            "duration":4.3200000000000003,
             "target":0.0,
             "ease":"LINEAR",
-            "value":0.0
+            "value":0.0,
+            "duration":4.3200000000000003
           },
           "duration":4.3200000000000003,
           "speedRng":{
-            "duration":0.0,
             "target":0.0,
             "ease":"LINEAR",
-            "value":0.0
+            "value":0.0,
+            "duration":0.0
           },
           "amount":8.0,
           "angle":{
-            "duration":4.3200000000000003,
             "target":15.0,
             "ease":"LINEAR",
-            "value":0.0
+            "value":0.0,
+            "duration":4.3200000000000003
           },
           "wiggleAmplitude":{
-            "duration":0.0,
             "target":0.0,
             "ease":"LINEAR",
-            "value":0.0
-          },
-          "anglePerArray":{
-            "duration":0.0,
-            "target":0.0,
-            "ease":"LINEAR",
-            "value":0.0
+            "value":0.0,
+            "duration":0.0
           },
           "wiggleFrequency":{
-            "duration":0.0,
             "target":0.0,
             "ease":"LINEAR",
-            "value":0.0
+            "value":0.0,
+            "duration":0.0
+          },
+          "anglePerArray":{
+            "target":0.0,
+            "ease":"LINEAR",
+            "value":0.0,
+            "duration":0.0
           },
           "anglePerArrayRng":{
-            "duration":0.0,
             "target":0.0,
             "ease":"LINEAR",
-            "value":0.0
+            "value":0.0,
+            "duration":0.0
           },
           "anglePerArrayStep":{
-            "duration":0.0,
             "target":0.0,
             "ease":"LINEAR",
-            "value":0.0
+            "value":0.0,
+            "duration":0.0
+          },
+          "angleRng":{
+            "target":0.0,
+            "ease":"LINEAR",
+            "value":0.0,
+            "duration":0.0
           }
         }
       },
@@ -386,12 +386,12 @@
         "en-shr_snap-x":false,
         "en-shr_snap-y":false,
         "en-shr_spawn-map":{
-          "frames":1.0,
-          "originY":29.0,
           "file":"",
           "prefetch":true,
           "name":"texture_shroom_spawn_map",
-          "originX":72.0
+          "frames":1.0,
+          "originX":72.0,
+          "originY":29.0
         },
         "en-shr_spd":10.0,
         "en-shr_spd-grid":false,
@@ -402,11 +402,11 @@
           "animate":false,
           "angle":0.0,
           "scaleX":1.0,
-          "blend":"#FFFFFF",
           "scaleY":1.0,
-          "speed":30.0,
-          "alpha":1.0,
+          "blend":"#FFFFFF",
           "name":"texture_missing",
+          "alpha":1.0,
+          "speed":30.0,
           "frame":0.0
         },
         "en-shr_use-dir-rng":false,
@@ -424,88 +424,88 @@
         "en-shr_dir":270.0,
         "en-shr_dir-rng":0.0,
         "en-shr_em-cfg":{
-          "angleRng":0.0,
-          "angleStep":{
-            "duration":0.0,
-            "target":0.0,
-            "ease":"LINEAR",
-            "value":0.0
-          },
           "arrays":{
-            "duration":0.0,
             "target":1.0,
             "ease":"LINEAR",
-            "value":1.0
+            "value":1.0,
+            "duration":0.0
+          },
+          "angleStep":{
+            "target":0.0,
+            "ease":"LINEAR",
+            "value":0.0,
+            "duration":0.0
           },
           "perArray":{
-            "duration":0.0,
             "target":1.0,
             "ease":"LINEAR",
-            "value":1.0
+            "value":1.0,
+            "duration":0.0
           },
           "speed":{
-            "duration":0.0,
             "target":0.0,
             "ease":"LINEAR",
-            "value":0.0
+            "value":0.0,
+            "duration":0.0
           },
           "offset":{
-            "duration":0.0,
             "target":0.0,
             "ease":"LINEAR",
-            "value":0.0
+            "value":0.0,
+            "duration":0.0
           },
           "offsetX":{
-            "duration":0.0,
             "target":0.0,
             "ease":"LINEAR",
-            "value":0.0
+            "value":0.0,
+            "duration":0.0
           },
           "offsetY":{
-            "duration":0.0,
             "target":0.0,
             "ease":"LINEAR",
-            "value":0.0
+            "value":0.0,
+            "duration":0.0
           },
           "duration":2.0,
           "speedRng":0.0,
           "amount":5.0,
           "angle":{
-            "duration":0.0,
             "target":0.0,
             "ease":"LINEAR",
-            "value":0.0
+            "value":0.0,
+            "duration":0.0
           },
           "wiggleAmplitude":{
-            "duration":0.0,
             "target":0.0,
             "ease":"LINEAR",
-            "value":8.0
-          },
-          "anglePerArray":{
-            "duration":0.0,
-            "target":0.0,
-            "ease":"LINEAR",
-            "value":0.0
+            "value":8.0,
+            "duration":0.0
           },
           "wiggleFrequency":{
-            "duration":0.0,
             "target":0.0,
             "ease":"LINEAR",
-            "value":3.0
+            "value":3.0,
+            "duration":0.0
+          },
+          "anglePerArray":{
+            "target":0.0,
+            "ease":"LINEAR",
+            "value":0.0,
+            "duration":0.0
           },
           "anglePerArrayRng":0.0,
           "anglePerArrayStep":{
-            "duration":0.0,
             "target":0.0,
             "ease":"LINEAR",
-            "value":0.0
-          }
+            "value":0.0,
+            "duration":0.0
+          },
+          "angleRng":0.0
         }
       },
       "hidden":false,
       "name":"new brush template 3"
     }
   ],
-  "version":"1"
+  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>"
 }

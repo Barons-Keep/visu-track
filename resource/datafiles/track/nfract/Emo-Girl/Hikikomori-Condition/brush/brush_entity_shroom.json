@@ -1,96 +1,29 @@
 {
-  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>",
+  "version":"1",
   "data":[
     {
-      "hidden":false,
-      "name":"emitter 1",
       "type":"brush_entity_shroom",
-      "texture":"texture_baron",
       "color":"#FFFFFF",
+      "texture":"texture_baron",
       "properties":{
-        "en-shr_dir":270.0,
-        "en-shr_dir-rng":1.0,
-        "en-shr_em-amount":9.0,
-        "en-shr_em-angle":{
-          "duration":7.5,
-          "target":0.0,
-          "ease":"LINEAR",
-          "factor":0.0,
-          "value":-80.0,
-          "increase":0.0
-        },
-        "en-shr_em-angle-rng":1.0,
-        "en-shr_em-angle-step":20.0,
-        "en-shr_em-arrays":9.0,
-        "en-shr_em-change-angle":true,
-        "en-shr_em-change-offset-x":true,
-        "en-shr_em-change-offset-y":true,
-        "en-shr_em-change-per-array-dir":false,
-        "en-shr_em-change-spd":true,
-        "en-shr_em-change-wiggle-amp":false,
-        "en-shr_em-change-wiggle-freq":false,
-        "en-shr_em-duration":7.5,
-        "en-shr_em-offset-x":{
-          "duration":7.5,
-          "target":-100.0,
-          "ease":"IN_EXPO",
-          "factor":0.0,
-          "value":0.0,
-          "increase":0.0
-        },
-        "en-shr_em-offset-y":{
-          "duration":7.5,
-          "target":-25.0,
-          "ease":"LINEAR",
-          "factor":0.0,
-          "value":0.0,
-          "increase":0.0
-        },
-        "en-shr_em-per-array":1.0,
-        "en-shr_em-per-array-dir":{
-          "duration":7.5,
-          "target":360.0,
-          "ease":"LINEAR",
-          "factor":0.0,
-          "value":0.0,
-          "increase":0.0
-        },
-        "en-shr_em-per-array-rng":0.0,
-        "en-shr_em-per-array-step":0.0,
-        "en-shr_em-spd":{
-          "duration":7.5,
-          "target":10.0,
-          "ease":"IN_SINE",
-          "factor":0.0,
-          "value":0.0,
-          "increase":0.0
-        },
-        "en-shr_em-spd-rng":1.0,
-        "en-shr_em-use-angle":true,
-        "en-shr_em-use-angle-rng":true,
-        "en-shr_em-use-offset-x":true,
-        "en-shr_em-use-offset-y":true,
-        "en-shr_em-use-per-array-dir":false,
-        "en-shr_em-use-per-array-rng":false,
-        "en-shr_em-use-spd":true,
         "en-shr_em-use-spd-rng":false,
         "en-shr_em-use-wiggle-amp":false,
         "en-shr_em-use-wiggle-freq":true,
         "en-shr_em-wiggle-amp":{
-          "duration":7.5,
           "target":0.0,
           "ease":"LINEAR",
           "factor":0.0,
+          "increase":0.0,
           "value":15.0,
-          "increase":0.0
+          "duration":7.5
         },
         "en-shr_em-wiggle-freq":{
-          "duration":0.0,
           "target":1.0,
           "ease":"LINEAR",
           "factor":0.0,
+          "increase":0.0,
           "value":1.0,
-          "increase":0.0
+          "duration":0.0
         },
         "en-shr_hide":false,
         "en-shr_hide-em":false,
@@ -120,28 +53,28 @@
         "en-shr_snap-x":true,
         "en-shr_snap-y":true,
         "en-shr_spawn-map":{
-          "frames":1.0,
-          "name":"texture_shroom_spawn_map",
-          "originX":72.0,
           "file":"",
-          "originY":40.0,
-          "prefetch":true
+          "prefetch":true,
+          "name":"texture_shroom_spawn_map",
+          "frames":1.0,
+          "originX":72.0,
+          "originY":40.0
         },
         "en-shr_spd":10.0,
         "en-shr_spd-grid":false,
         "en-shr_spd-rng":1.0,
         "en-shr_template":"baron-1-intro",
         "en-shr_texture":{
-          "frame":0.0,
+          "randomFrame":false,
+          "animate":false,
+          "angle":0.0,
+          "scaleX":1.0,
           "scaleY":1.0,
           "name":"texture_missing",
-          "animate":false,
-          "randomFrame":false,
-          "angle":0.0,
-          "speed":30.0,
           "blend":"#FFFFFF",
           "alpha":1.0,
-          "scaleX":1.0
+          "speed":30.0,
+          "frame":0.0
         },
         "en-shr_use-dir-rng":false,
         "en-shr_use-em":true,
@@ -154,9 +87,76 @@
         "en-shr_use-spd-rng":false,
         "en-shr_use-texture":false,
         "en-shr_x":0.0,
-        "en-shr_y":-11.0
-      }
+        "en-shr_y":-11.0,
+        "en-shr_dir":270.0,
+        "en-shr_dir-rng":1.0,
+        "en-shr_em-amount":9.0,
+        "en-shr_em-angle":{
+          "target":0.0,
+          "ease":"LINEAR",
+          "factor":0.0,
+          "increase":0.0,
+          "value":-80.0,
+          "duration":7.5
+        },
+        "en-shr_em-angle-rng":1.0,
+        "en-shr_em-angle-step":20.0,
+        "en-shr_em-arrays":9.0,
+        "en-shr_em-change-angle":true,
+        "en-shr_em-change-offset-x":true,
+        "en-shr_em-change-offset-y":true,
+        "en-shr_em-change-per-array-dir":false,
+        "en-shr_em-change-spd":true,
+        "en-shr_em-change-wiggle-amp":false,
+        "en-shr_em-change-wiggle-freq":false,
+        "en-shr_em-duration":7.5,
+        "en-shr_em-offset-x":{
+          "target":-100.0,
+          "ease":"IN_EXPO",
+          "factor":0.0,
+          "increase":0.0,
+          "value":0.0,
+          "duration":7.5
+        },
+        "en-shr_em-offset-y":{
+          "target":-25.0,
+          "ease":"LINEAR",
+          "factor":0.0,
+          "increase":0.0,
+          "value":0.0,
+          "duration":7.5
+        },
+        "en-shr_em-per-array":1.0,
+        "en-shr_em-per-array-dir":{
+          "target":360.0,
+          "ease":"LINEAR",
+          "factor":0.0,
+          "increase":0.0,
+          "value":0.0,
+          "duration":7.5
+        },
+        "en-shr_em-per-array-rng":0.0,
+        "en-shr_em-per-array-step":0.0,
+        "en-shr_em-spd":{
+          "target":10.0,
+          "ease":"IN_SINE",
+          "factor":0.0,
+          "increase":0.0,
+          "value":0.0,
+          "duration":7.5
+        },
+        "en-shr_em-spd-rng":1.0,
+        "en-shr_em-use-angle":true,
+        "en-shr_em-use-angle-rng":true,
+        "en-shr_em-use-offset-x":true,
+        "en-shr_em-use-offset-y":true,
+        "en-shr_em-use-per-array-dir":false,
+        "en-shr_em-use-per-array-rng":false,
+        "en-shr_em-use-spd":true
+      },
+      "hidden":false,
+      "name":"emitter 1"
     }
   ],
-  "version":"1"
+  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>"
 }

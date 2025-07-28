@@ -1,62 +1,62 @@
 {
-  "model":"Collection<io.alkapivo.core.service.texture.TextureIntent>",
+  "version":"1",
   "data":{
     "tx_skitzofrenia_simulation_1":{
-      "frames":1.0,
-      "name":"tx_skitzofrenia_simulation_1",
       "file":"texture/tx_skitzofrenia_simulation_1.jpg",
+      "prefetch":true,
+      "name":"tx_skitzofrenia_simulation_1",
+      "frames":1.0,
       "originX":0.0,
-      "originY":0.0,
-      "prefetch":true
+      "originY":0.0
     },
     "tx_purple_hearts_2":{
-      "frames":1.0,
-      "name":"tx_purple_hearts_2",
       "file":"texture/tx_purple_hearts_2.jpg",
+      "prefetch":true,
+      "name":"tx_purple_hearts_2",
+      "frames":1.0,
       "originX":0.0,
-      "originY":0.0,
-      "prefetch":true
+      "originY":0.0
     },
     "tx_sewerslvt_3album_v":{
-      "frames":1.0,
-      "name":"tx_sewerslvt_3album_v",
       "file":"texture/tx_sewerslvt_3album_v.png",
+      "prefetch":true,
+      "name":"tx_sewerslvt_3album_v",
+      "frames":1.0,
       "originX":0.0,
-      "originY":0.0,
-      "prefetch":true
+      "originY":0.0
     },
     "tx_particle_heart_1":{
-      "frames":1.0,
-      "name":"tx_particle_heart_1",
       "file":"texture/tx_particle_heart_1.png",
+      "prefetch":true,
+      "name":"tx_particle_heart_1",
+      "frames":1.0,
       "originX":256.0,
-      "originY":256.0,
-      "prefetch":true
+      "originY":256.0
     },
     "tx_particle_heart_2":{
-      "frames":1.0,
-      "name":"tx_particle_heart_2",
       "file":"texture/tx_particle_heart_2.png",
+      "prefetch":true,
+      "name":"tx_particle_heart_2",
+      "frames":1.0,
       "originX":16.0,
-      "originY":16.0,
-      "prefetch":true
+      "originY":16.0
     },
     "tx_skitzofrenia_simulation_2":{
-      "frames":1.0,
-      "name":"tx_skitzofrenia_simulation_2",
       "file":"texture/tx_skitzofrenia_simulation_2.jpeg",
+      "prefetch":true,
+      "name":"tx_skitzofrenia_simulation_2",
+      "frames":1.0,
       "originX":0.0,
-      "originY":0.0,
-      "prefetch":true
+      "originY":0.0
     },
     "tx_purple_hearts_1":{
-      "frames":1.0,
-      "name":"tx_purple_hearts_1",
       "file":"texture/tx_purple_hearts_1.jpg",
+      "prefetch":true,
+      "name":"tx_purple_hearts_1",
+      "frames":1.0,
       "originX":0.0,
-      "originY":0.0,
-      "prefetch":true
+      "originY":0.0
     }
   },
-  "version":"1"
+  "model":"Collection<io.alkapivo.core.service.texture.TextureIntent>"
 }
