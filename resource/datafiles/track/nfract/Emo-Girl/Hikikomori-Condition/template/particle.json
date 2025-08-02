@@ -1,92 +1,93 @@
 {
   "version":"1",
+  "model":"Collection<io.alkapivo.core.service.particle.ParticleTemplate>",
   "data":{
-    "particle-default":{
+    "particle-times-up":{
       "shape":"CIRCLE",
       "sprite":{
-        "randomValue":0.0,
+        "animate":false,
+        "randomValue":false,
         "name":"texture_particle",
-        "stretch":0.0,
-        "animate":0.0
+        "stretch":false
       },
       "alpha":{
-        "halfway":0.0,
+        "halfway":0.65186599999999995,
         "finish":0.0,
-        "start":1.0
-      },
-      "speed":{
-        "maxValue":5.0,
-        "increase":0.001,
-        "wiggle":0.0,
-        "minValue":0.01
+        "start":0.064792000000000002
       },
       "orientation":{
-        "relative":0.0,
-        "maxValue":360.0,
-        "increase":0.001,
+        "maxValue":0.0,
+        "increase":5.0,
+        "minValue":0.0,
         "wiggle":0.0,
-        "minValue":0.0
+        "relative":0.0
+      },
+      "speed":{
+        "maxValue":1.0,
+        "increase":1.5,
+        "minValue":0.0,
+        "wiggle":0.0
       },
       "gravity":{
-        "amount":0.0,
-        "angle":0.0
+        "angle":90.0,
+        "amount":0.80000000000000004
       },
       "scale":{
-        "x":1.0,
+        "x":0.69999999999999996,
         "y":1.0
       },
       "color":{
-        "halfway":"#ffffff",
-        "finish":"#ffffff",
-        "start":"#ffffff"
+        "halfway":"#FF2CFF",
+        "finish":"#006AFF",
+        "start":"#FF1C00"
       },
       "angle":{
         "maxValue":360.0,
-        "increase":0.01,
-        "wiggle":0.0,
-        "minValue":0.0
+        "increase":0.0,
+        "minValue":0.0,
+        "wiggle":5.0
       },
-      "blend":0.0,
+      "blend":true,
       "life":{
-        "maxValue":120.0,
-        "minValue":80.0
+        "maxValue":70.0,
+        "minValue":50.0
       },
       "size":{
-        "maxValue":32.0,
-        "increase":0.0,
-        "wiggle":0.0,
-        "minValue":1.0
+        "maxValue":12.0,
+        "increase":0.80000000000000004,
+        "minValue":4.0,
+        "wiggle":0.0
       }
     },
     "particle-baron":{
       "shape":"CIRCLE",
       "sprite":{
+        "animate":true,
         "randomValue":true,
         "name":"texture_baron",
-        "stretch":true,
-        "animate":true
+        "stretch":true
       },
       "alpha":{
         "halfway":0.74086399999999997,
         "finish":0.0,
         "start":0.94019900000000001
       },
+      "orientation":{
+        "maxValue":360.0,
+        "increase":-0.5,
+        "minValue":0.0,
+        "wiggle":0.0,
+        "relative":0.0
+      },
       "speed":{
         "maxValue":1.0,
         "increase":0.002,
-        "wiggle":0.0,
-        "minValue":0.0
-      },
-      "orientation":{
-        "relative":0.0,
-        "maxValue":360.0,
-        "increase":-0.5,
-        "wiggle":0.0,
-        "minValue":0.0
+        "minValue":0.0,
+        "wiggle":0.0
       },
       "gravity":{
-        "amount":0.69999999999999996,
-        "angle":137.541528
+        "angle":137.541528,
+        "amount":0.69999999999999996
       },
       "scale":{
         "x":1.0,
@@ -100,8 +101,8 @@
       "angle":{
         "maxValue":360.0,
         "increase":0.5,
-        "wiggle":0.0,
-        "minValue":0.0
+        "minValue":0.0,
+        "wiggle":0.0
       },
       "blend":false,
       "life":{
@@ -111,39 +112,39 @@
       "size":{
         "maxValue":0.33000000000000002,
         "increase":0.040000000000000001,
-        "wiggle":0.02,
-        "minValue":0.0
+        "minValue":0.0,
+        "wiggle":0.02
       }
     },
     "particle-shroom-times-up":{
       "shape":"CIRCLE",
       "sprite":{
+        "animate":false,
         "randomValue":false,
         "name":"texture_particle",
-        "stretch":false,
-        "animate":false
+        "stretch":false
       },
       "alpha":{
         "halfway":0.65186599999999995,
         "finish":0.0,
         "start":0.064792000000000002
       },
+      "orientation":{
+        "maxValue":0.0,
+        "increase":5.0,
+        "minValue":0.0,
+        "wiggle":0.0,
+        "relative":0.0
+      },
       "speed":{
         "maxValue":1.0,
         "increase":1.5,
-        "wiggle":0.0,
-        "minValue":0.0
-      },
-      "orientation":{
-        "relative":0.0,
-        "maxValue":0.0,
-        "increase":5.0,
-        "wiggle":0.0,
-        "minValue":0.0
+        "minValue":0.0,
+        "wiggle":0.0
       },
       "gravity":{
-        "amount":0.80000000000000004,
-        "angle":90.0
+        "angle":90.0,
+        "amount":0.80000000000000004
       },
       "scale":{
         "x":0.69999999999999996,
@@ -157,8 +158,8 @@
       "angle":{
         "maxValue":360.0,
         "increase":0.0,
-        "wiggle":5.0,
-        "minValue":0.0
+        "minValue":0.0,
+        "wiggle":5.0
       },
       "blend":true,
       "life":{
@@ -168,39 +169,39 @@
       "size":{
         "maxValue":12.0,
         "increase":0.80000000000000004,
-        "wiggle":0.0,
-        "minValue":4.0
+        "minValue":4.0,
+        "wiggle":0.0
       }
     },
     "particle-collect":{
       "shape":"CIRCLE",
       "sprite":{
+        "animate":false,
         "randomValue":false,
         "name":"texture_particle",
-        "stretch":false,
-        "animate":false
+        "stretch":false
       },
       "alpha":{
         "halfway":0.83604699999999998,
         "finish":0.0,
         "start":0.52845500000000001
       },
+      "orientation":{
+        "maxValue":360.0,
+        "increase":3.0,
+        "minValue":0.0,
+        "wiggle":1.0,
+        "relative":0.0
+      },
       "speed":{
         "maxValue":60.0,
         "increase":-1.0,
-        "wiggle":0.0,
-        "minValue":20.0
-      },
-      "orientation":{
-        "relative":0.0,
-        "maxValue":360.0,
-        "increase":3.0,
-        "wiggle":1.0,
-        "minValue":0.0
+        "minValue":20.0,
+        "wiggle":0.0
       },
       "gravity":{
-        "amount":2.0,
-        "angle":90.0
+        "angle":90.0,
+        "amount":2.0
       },
       "scale":{
         "x":1.0,
@@ -214,8 +215,8 @@
       "angle":{
         "maxValue":360.0,
         "increase":-3.0,
-        "wiggle":2.0,
-        "minValue":0.0
+        "minValue":0.0,
+        "wiggle":2.0
       },
       "blend":true,
       "life":{
@@ -225,67 +226,66 @@
       "size":{
         "maxValue":16.0,
         "increase":1.0,
-        "wiggle":1.0,
-        "minValue":8.0
+        "minValue":8.0,
+        "wiggle":1.0
       }
     },
-    "particle-times-up":{
+    "particle-default":{
       "shape":"CIRCLE",
       "sprite":{
-        "randomValue":false,
+        "animate":0.0,
+        "randomValue":0.0,
         "name":"texture_particle",
-        "stretch":false,
-        "animate":false
+        "stretch":0.0
       },
       "alpha":{
-        "halfway":0.65186599999999995,
+        "halfway":0.0,
         "finish":0.0,
-        "start":0.064792000000000002
-      },
-      "speed":{
-        "maxValue":1.0,
-        "increase":1.5,
-        "wiggle":0.0,
-        "minValue":0.0
+        "start":1.0
       },
       "orientation":{
-        "relative":0.0,
-        "maxValue":0.0,
-        "increase":5.0,
+        "maxValue":360.0,
+        "increase":0.001,
+        "minValue":0.0,
         "wiggle":0.0,
-        "minValue":0.0
+        "relative":0.0
+      },
+      "speed":{
+        "maxValue":5.0,
+        "increase":0.001,
+        "minValue":0.01,
+        "wiggle":0.0
       },
       "gravity":{
-        "amount":0.80000000000000004,
-        "angle":90.0
+        "angle":0.0,
+        "amount":0.0
       },
       "scale":{
-        "x":0.69999999999999996,
+        "x":1.0,
         "y":1.0
       },
       "color":{
-        "halfway":"#FF2CFF",
-        "finish":"#006AFF",
-        "start":"#FF1C00"
+        "halfway":"#ffffff",
+        "finish":"#ffffff",
+        "start":"#ffffff"
       },
       "angle":{
         "maxValue":360.0,
-        "increase":0.0,
-        "wiggle":5.0,
-        "minValue":0.0
+        "increase":0.01,
+        "minValue":0.0,
+        "wiggle":0.0
       },
-      "blend":true,
+      "blend":0.0,
       "life":{
-        "maxValue":70.0,
-        "minValue":50.0
+        "maxValue":120.0,
+        "minValue":80.0
       },
       "size":{
-        "maxValue":12.0,
-        "increase":0.80000000000000004,
-        "wiggle":0.0,
-        "minValue":4.0
+        "maxValue":32.0,
+        "increase":0.0,
+        "minValue":1.0,
+        "wiggle":0.0
       }
     }
-  },
-  "model":"Collection<io.alkapivo.core.service.particle.ParticleTemplate>"
+  }
 }

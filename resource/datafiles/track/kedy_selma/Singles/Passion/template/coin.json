@@ -1,56 +1,56 @@
 {
   "version":"1",
+  "model":"Collection<io.alkapivo.visu.service.coin.CoinTemplate>",
   "data":{
-    "coin-force-5":{
-      "amount":5.0,
-      "sprite":{
-        "randomFrame":false,
-        "animate":false,
-        "angle":0.0,
-        "scaleX":6.5,
-        "scaleY":6.5,
-        "name":"texture_coin_force",
-        "blend":"#FFFFFF",
-        "alpha":1.0,
-        "speed":30.0,
-        "frame":0.0
-      },
-      "useSpeed":false,
-      "changeSpeed":false,
-      "name":"coin-force-5",
-      "speed":{
-        "target":2.25,
-        "value":-3.5,
-        "factor":0.050000000000000003,
-        "increase":0.0
-      },
-      "category":"force"
-    },
     "coin-point-5":{
-      "amount":5.0,
       "sprite":{
-        "randomFrame":false,
-        "animate":false,
         "angle":0.0,
         "scaleX":6.5,
         "scaleY":6.5,
-        "name":"texture_coin_point",
         "blend":"#FFFFFF",
+        "name":"texture_coin_point",
         "alpha":1.0,
+        "frame":0.0,
         "speed":30.0,
-        "frame":0.0
+        "randomFrame":false,
+        "animate":false
       },
-      "useSpeed":false,
       "changeSpeed":false,
       "name":"coin-point-5",
+      "useSpeed":false,
+      "category":"point",
       "speed":{
-        "target":2.2000000000000002,
-        "value":-2.7999999999999998,
         "factor":0.059999999999999998,
-        "increase":0.0
+        "increase":0.0,
+        "value":-2.7999999999999998,
+        "target":2.2000000000000002
       },
-      "category":"point"
+      "amount":5.0
+    },
+    "coin-force-5":{
+      "sprite":{
+        "angle":0.0,
+        "scaleX":6.5,
+        "scaleY":6.5,
+        "blend":"#FFFFFF",
+        "name":"texture_coin_force",
+        "alpha":1.0,
+        "frame":0.0,
+        "speed":30.0,
+        "randomFrame":false,
+        "animate":false
+      },
+      "changeSpeed":false,
+      "name":"coin-force-5",
+      "useSpeed":false,
+      "category":"force",
+      "speed":{
+        "factor":0.050000000000000003,
+        "increase":0.0,
+        "value":-3.5,
+        "target":2.25
+      },
+      "amount":5.0
     }
-  },
-  "model":"Collection<io.alkapivo.visu.service.coin.CoinTemplate>"
+  }
 }

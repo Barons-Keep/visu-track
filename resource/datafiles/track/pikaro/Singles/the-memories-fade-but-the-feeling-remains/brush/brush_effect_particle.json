@@ -1,5 +1,6 @@
 {
   "version":"1",
+  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>",
   "data":[
     {
       "type":"brush_effect_particle",
@@ -9,6 +10,5 @@
       "hidden":false,
       "name":"new brush template"
     }
-  ],
-  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>"
+  ]
 }

@@ -1,5 +1,6 @@
 {
   "version":"1",
+  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>",
   "data":[
     {
       "type":"brush_view_camera",
@@ -9,22 +10,22 @@
         "vw-cam_lock-x":false,
         "vw-cam_lock-y":false,
         "vw-cam_move-angle":{
-          "target":1.0,
-          "value":90.0,
           "factor":0.01,
-          "increase":0.0
+          "increase":0.0,
+          "value":90.0,
+          "target":1.0
         },
         "vw-cam_move-speed":{
-          "target":1.0,
-          "value":0.0,
           "factor":0.01,
-          "increase":0.0
+          "increase":0.0,
+          "value":0.0,
+          "target":1.0
         },
         "vw-cam_pitch":{
-          "target":0.0,
-          "value":-60.0,
           "factor":0.0,
-          "increase":0.0
+          "increase":0.0,
+          "value":-60.0,
+          "target":0.0
         },
         "vw-cam_reset-follow":true,
         "vw-cam_use-dir":true,
@@ -40,22 +41,22 @@
         "vw-cam_use-y":true,
         "vw-cam_use-z":true,
         "vw-cam_x":{
-          "target":0.0,
-          "value":4096.0,
           "factor":0.0,
-          "increase":0.0
+          "increase":0.0,
+          "value":4096.0,
+          "target":0.0
         },
         "vw-cam_y":{
-          "target":0.0,
-          "value":6000.0,
           "factor":0.0,
-          "increase":0.0
+          "increase":0.0,
+          "value":6000.0,
+          "target":0.0
         },
         "vw-cam_z":{
-          "target":0.0,
-          "value":6000.0,
           "factor":9999.0,
-          "increase":0.0
+          "increase":0.0,
+          "value":6000.0,
+          "target":0.0
         },
         "vw-cam_change-dir":false,
         "vw-cam_change-move-angle":true,
@@ -65,10 +66,10 @@
         "vw-cam_change-y":false,
         "vw-cam_change-z":false,
         "vw-cam_dir":{
-          "target":0.0,
-          "value":270.0,
           "factor":0.0,
-          "increase":0.0
+          "increase":0.0,
+          "value":270.0,
+          "target":0.0
         },
         "vw-cam_follow":true,
         "vw-cam_follow-smooth":32.0,
@@ -78,6 +79,5 @@
       "hidden":false,
       "name":"default"
     }
-  ],
-  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>"
+  ]
 }

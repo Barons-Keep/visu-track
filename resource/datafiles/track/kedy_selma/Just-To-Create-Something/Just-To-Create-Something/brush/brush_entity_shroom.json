@@ -1,14 +1,12 @@
 {
   "version":"1",
+  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>",
   "data":[
     {
       "type":"brush_entity_shroom",
       "color":"#FF00FF",
       "texture":"texture_baron",
       "properties":{
-        "en-shr_use-dir-rng":false,
-        "en-shr_dir":270.0,
-        "en-shr_dir-rng":0.0,
         "en-shr_use-rng-x":false,
         "en-shr_use-rng-y":false,
         "en-shr_use-spd-rng":false,
@@ -24,7 +22,10 @@
           "name":"texture_baron"
         },
         "en-shr_spd-rng":0.0,
-        "en-shr_template":"baron-1-boom-r30"
+        "en-shr_template":"baron-1-boom-r30",
+        "en-shr_use-dir-rng":false,
+        "en-shr_dir":270.0,
+        "en-shr_dir-rng":0.0
       },
       "hidden":false,
       "name":"baron-1-boom-r30"
@@ -34,9 +35,6 @@
       "color":"#0000FF",
       "texture":"texture_baron",
       "properties":{
-        "en-shr_use-dir-rng":false,
-        "en-shr_dir":270.0,
-        "en-shr_dir-rng":0.0,
         "en-shr_use-rng-x":false,
         "en-shr_use-rng-y":false,
         "en-shr_use-spd-rng":false,
@@ -52,7 +50,10 @@
           "name":"texture_baron"
         },
         "en-shr_spd-rng":0.0,
-        "en-shr_template":"baron-1-turns-r-s2x6"
+        "en-shr_template":"baron-1-turns-r-s2x6",
+        "en-shr_use-dir-rng":false,
+        "en-shr_dir":270.0,
+        "en-shr_dir-rng":0.0
       },
       "hidden":false,
       "name":"baron-1-turns-r-s2x6"
@@ -62,9 +63,6 @@
       "color":"#FF0000",
       "texture":"texture_baron",
       "properties":{
-        "en-shr_use-dir-rng":false,
-        "en-shr_dir":270.0,
-        "en-shr_dir-rng":0.0,
         "en-shr_use-rng-x":false,
         "en-shr_use-rng-y":false,
         "en-shr_use-spd-rng":false,
@@ -80,7 +78,10 @@
           "name":"texture_baron"
         },
         "en-shr_spd-rng":0.0,
-        "en-shr_template":"baron-1-turns-l-s2x6"
+        "en-shr_template":"baron-1-turns-l-s2x6",
+        "en-shr_use-dir-rng":false,
+        "en-shr_dir":270.0,
+        "en-shr_dir-rng":0.0
       },
       "hidden":false,
       "name":"baron-1-turns-l-s2x6"
@@ -90,9 +91,6 @@
       "color":"#00FF00",
       "texture":"texture_baron",
       "properties":{
-        "en-shr_use-dir-rng":false,
-        "en-shr_dir":270.0,
-        "en-shr_dir-rng":0.0,
         "en-shr_use-rng-x":false,
         "en-shr_use-rng-y":false,
         "en-shr_use-spd-rng":false,
@@ -108,7 +106,10 @@
           "name":"texture_baron"
         },
         "en-shr_spd-rng":0.0,
-        "en-shr_template":"baron-1-p5"
+        "en-shr_template":"baron-1-p5",
+        "en-shr_use-dir-rng":false,
+        "en-shr_dir":270.0,
+        "en-shr_dir-rng":0.0
       },
       "hidden":false,
       "name":"baron-1-p5"
@@ -118,9 +119,6 @@
       "color":"#FF00FF",
       "texture":"texture_baron",
       "properties":{
-        "en-shr_use-dir-rng":false,
-        "en-shr_dir":298.78542510121457,
-        "en-shr_dir-rng":0.0,
         "en-shr_use-rng-x":false,
         "en-shr_use-rng-y":false,
         "en-shr_use-spd-rng":false,
@@ -136,7 +134,10 @@
           "name":"texture_baron"
         },
         "en-shr_spd-rng":0.0,
-        "en-shr_template":"baron-1-swing"
+        "en-shr_template":"baron-1-swing",
+        "en-shr_use-dir-rng":false,
+        "en-shr_dir":298.78542510121457,
+        "en-shr_dir-rng":0.0
       },
       "hidden":false,
       "name":"baron-1-swing"
@@ -146,9 +147,6 @@
       "color":"#FFFF00",
       "texture":"texture_baron",
       "properties":{
-        "en-shr_use-dir-rng":false,
-        "en-shr_dir":270.0,
-        "en-shr_dir-rng":0.0,
         "en-shr_use-rng-x":false,
         "en-shr_use-rng-y":false,
         "en-shr_use-spd-rng":false,
@@ -164,7 +162,10 @@
           "name":"texture_baron"
         },
         "en-shr_spd-rng":0.0,
-        "en-shr_template":"baron-1-r8"
+        "en-shr_template":"baron-1-r8",
+        "en-shr_use-dir-rng":false,
+        "en-shr_dir":270.0,
+        "en-shr_dir-rng":0.0
       },
       "hidden":false,
       "name":"baron-1-r8"
@@ -174,9 +175,6 @@
       "color":"#FFFFFF",
       "texture":"texture_bazyl",
       "properties":{
-        "en-shr_use-dir-rng":false,
-        "en-shr_dir":270.0,
-        "en-shr_dir-rng":0.0,
         "en-shr_use-rng-x":false,
         "en-shr_use-rng-y":false,
         "en-shr_use-spd-rng":false,
@@ -192,7 +190,10 @@
           "name":"texture_baron"
         },
         "en-shr_spd-rng":0.0,
-        "en-shr_template":"bazyl-1-intro"
+        "en-shr_template":"bazyl-1-intro",
+        "en-shr_use-dir-rng":false,
+        "en-shr_dir":270.0,
+        "en-shr_dir-rng":0.0
       },
       "hidden":false,
       "name":"bazyl-1-intro"
@@ -202,9 +203,6 @@
       "color":"#C9F526",
       "texture":"texture_bazyl",
       "properties":{
-        "en-shr_use-dir-rng":false,
-        "en-shr_dir":270.0,
-        "en-shr_dir-rng":0.0,
         "en-shr_use-rng-x":false,
         "en-shr_use-rng-y":false,
         "en-shr_use-spd-rng":false,
@@ -220,7 +218,10 @@
           "name":"texture_baron"
         },
         "en-shr_spd-rng":0.0,
-        "en-shr_template":"bazyl-1-boomerang-l"
+        "en-shr_template":"bazyl-1-boomerang-l",
+        "en-shr_use-dir-rng":false,
+        "en-shr_dir":270.0,
+        "en-shr_dir-rng":0.0
       },
       "hidden":false,
       "name":"bazyl-1-boomerang-l"
@@ -230,9 +231,6 @@
       "color":"#6AFF58",
       "texture":"texture_bazyl",
       "properties":{
-        "en-shr_use-dir-rng":false,
-        "en-shr_dir":90.0,
-        "en-shr_dir-rng":0.0,
         "en-shr_use-rng-x":false,
         "en-shr_use-rng-y":false,
         "en-shr_use-spd-rng":false,
@@ -248,7 +246,10 @@
           "name":"texture_baron"
         },
         "en-shr_spd-rng":0.0,
-        "en-shr_template":"bazyl-1-boomerang-r"
+        "en-shr_template":"bazyl-1-boomerang-r",
+        "en-shr_use-dir-rng":false,
+        "en-shr_dir":90.0,
+        "en-shr_dir-rng":0.0
       },
       "hidden":false,
       "name":"bazyl-1-boomerang-r"
@@ -258,9 +259,6 @@
       "color":"#FF0000",
       "texture":"texture_bazyl",
       "properties":{
-        "en-shr_use-dir-rng":false,
-        "en-shr_dir":270.0,
-        "en-shr_dir-rng":0.0,
         "en-shr_use-rng-x":false,
         "en-shr_use-rng-y":false,
         "en-shr_use-spd-rng":false,
@@ -276,7 +274,10 @@
           "name":"texture_baron"
         },
         "en-shr_spd-rng":0.0,
-        "en-shr_template":"bazyl-1-p5"
+        "en-shr_template":"bazyl-1-p5",
+        "en-shr_use-dir-rng":false,
+        "en-shr_dir":270.0,
+        "en-shr_dir-rng":0.0
       },
       "hidden":false,
       "name":"bazyl-1-p5"
@@ -286,9 +287,6 @@
       "color":"#FF4D58",
       "texture":"texture_bazyl",
       "properties":{
-        "en-shr_use-dir-rng":false,
-        "en-shr_dir":270.0,
-        "en-shr_dir-rng":0.0,
         "en-shr_use-rng-x":false,
         "en-shr_use-rng-y":false,
         "en-shr_use-spd-rng":false,
@@ -304,7 +302,10 @@
           "name":"texture_baron"
         },
         "en-shr_spd-rng":0.0,
-        "en-shr_template":"bazyl-1-turns-r"
+        "en-shr_template":"bazyl-1-turns-r",
+        "en-shr_use-dir-rng":false,
+        "en-shr_dir":270.0,
+        "en-shr_dir-rng":0.0
       },
       "hidden":false,
       "name":"bazyl-1-turns-r"
@@ -314,9 +315,6 @@
       "color":"#6AB7FF",
       "texture":"texture_bazyl",
       "properties":{
-        "en-shr_use-dir-rng":false,
-        "en-shr_dir":270.0,
-        "en-shr_dir-rng":0.0,
         "en-shr_use-rng-x":false,
         "en-shr_use-rng-y":false,
         "en-shr_use-spd-rng":false,
@@ -332,7 +330,10 @@
           "name":"texture_baron"
         },
         "en-shr_spd-rng":0.0,
-        "en-shr_template":"bazyl-1-turns-l"
+        "en-shr_template":"bazyl-1-turns-l",
+        "en-shr_use-dir-rng":false,
+        "en-shr_dir":270.0,
+        "en-shr_dir-rng":0.0
       },
       "hidden":false,
       "name":"bazyl-1-turns-l"
@@ -342,9 +343,6 @@
       "color":"#FF00FF",
       "texture":"texture_bazyl",
       "properties":{
-        "en-shr_use-dir-rng":false,
-        "en-shr_dir":270.0,
-        "en-shr_dir-rng":0.0,
         "en-shr_use-rng-x":false,
         "en-shr_use-rng-y":false,
         "en-shr_use-spd-rng":false,
@@ -360,7 +358,10 @@
           "name":"texture_baron"
         },
         "en-shr_spd-rng":0.0,
-        "en-shr_template":"bazyl-1-sniper-p5"
+        "en-shr_template":"bazyl-1-sniper-p5",
+        "en-shr_use-dir-rng":false,
+        "en-shr_dir":270.0,
+        "en-shr_dir-rng":0.0
       },
       "hidden":false,
       "name":"bazyl-1-sniper-p5"
@@ -370,9 +371,6 @@
       "color":"#0064FF",
       "texture":"texture_bazyl",
       "properties":{
-        "en-shr_use-dir-rng":false,
-        "en-shr_dir":270.0,
-        "en-shr_dir-rng":0.0,
         "en-shr_use-rng-x":false,
         "en-shr_use-rng-y":false,
         "en-shr_use-spd-rng":false,
@@ -388,7 +386,10 @@
           "name":"texture_baron"
         },
         "en-shr_spd-rng":0.0,
-        "en-shr_template":"bazyl-1-star-s3x8"
+        "en-shr_template":"bazyl-1-star-s3x8",
+        "en-shr_use-dir-rng":false,
+        "en-shr_dir":270.0,
+        "en-shr_dir-rng":0.0
       },
       "hidden":false,
       "name":"bazyl-1-star-s3x8"
@@ -398,9 +399,6 @@
       "color":"#684DFF",
       "texture":"texture_bazyl",
       "properties":{
-        "en-shr_use-dir-rng":false,
-        "en-shr_dir":270.0,
-        "en-shr_dir-rng":0.0,
         "en-shr_use-rng-x":false,
         "en-shr_use-rng-y":false,
         "en-shr_use-spd-rng":false,
@@ -416,7 +414,10 @@
           "name":"texture_baron"
         },
         "en-shr_spd-rng":0.0,
-        "en-shr_template":"bazyl-1-intro-p2x8"
+        "en-shr_template":"bazyl-1-intro-p2x8",
+        "en-shr_use-dir-rng":false,
+        "en-shr_dir":270.0,
+        "en-shr_dir-rng":0.0
       },
       "hidden":false,
       "name":"bazyl-1-intro-p2x8"
@@ -426,9 +427,6 @@
       "color":"#49FF47",
       "texture":"texture_bazyl",
       "properties":{
-        "en-shr_use-dir-rng":false,
-        "en-shr_dir":270.0,
-        "en-shr_dir-rng":0.0,
         "en-shr_use-rng-x":false,
         "en-shr_use-rng-y":false,
         "en-shr_use-spd-rng":false,
@@ -444,7 +442,10 @@
           "name":"texture_baron"
         },
         "en-shr_spd-rng":0.0,
-        "en-shr_template":"bazyl-1-intro-p6x2"
+        "en-shr_template":"bazyl-1-intro-p6x2",
+        "en-shr_use-dir-rng":false,
+        "en-shr_dir":270.0,
+        "en-shr_dir-rng":0.0
       },
       "hidden":false,
       "name":"bazyl-1-intro-p6x2"
@@ -454,9 +455,6 @@
       "color":"#FF396C",
       "texture":"texture_bazyl",
       "properties":{
-        "en-shr_use-dir-rng":false,
-        "en-shr_dir":270.0,
-        "en-shr_dir-rng":0.0,
         "en-shr_use-rng-x":false,
         "en-shr_use-rng-y":false,
         "en-shr_use-spd-rng":false,
@@ -472,7 +470,10 @@
           "name":"texture_baron"
         },
         "en-shr_spd-rng":0.0,
-        "en-shr_template":"bazyl-1-intro-r6x3"
+        "en-shr_template":"bazyl-1-intro-r6x3",
+        "en-shr_use-dir-rng":false,
+        "en-shr_dir":270.0,
+        "en-shr_dir-rng":0.0
       },
       "hidden":false,
       "name":"bazyl-1-intro-r6x3"
@@ -482,9 +483,6 @@
       "color":"#96B5FF",
       "texture":"texture_bazyl",
       "properties":{
-        "en-shr_use-dir-rng":false,
-        "en-shr_dir":270.0,
-        "en-shr_dir-rng":0.0,
         "en-shr_use-rng-x":false,
         "en-shr_use-rng-y":false,
         "en-shr_use-spd-rng":false,
@@ -500,7 +498,10 @@
           "name":"texture_baron"
         },
         "en-shr_spd-rng":0.0,
-        "en-shr_template":"bazyl-1-boom-s2"
+        "en-shr_template":"bazyl-1-boom-s2",
+        "en-shr_use-dir-rng":false,
+        "en-shr_dir":270.0,
+        "en-shr_dir-rng":0.0
       },
       "hidden":false,
       "name":"bazyl-1-boom-s2"
@@ -510,9 +511,6 @@
       "color":"#00FF00",
       "texture":"texture_baron",
       "properties":{
-        "en-shr_use-dir-rng":false,
-        "en-shr_dir":180.0,
-        "en-shr_dir-rng":0.0,
         "en-shr_use-rng-x":false,
         "en-shr_use-rng-y":false,
         "en-shr_use-spd-rng":false,
@@ -528,7 +526,10 @@
           "name":"texture_baron"
         },
         "en-shr_spd-rng":0.0,
-        "en-shr_template":"baron-1-thunder-r"
+        "en-shr_template":"baron-1-thunder-r",
+        "en-shr_use-dir-rng":false,
+        "en-shr_dir":180.0,
+        "en-shr_dir-rng":0.0
       },
       "hidden":false,
       "name":"baron-1-thunder-r"
@@ -538,9 +539,6 @@
       "color":"#00FF00",
       "texture":"texture_baron",
       "properties":{
-        "en-shr_use-dir-rng":false,
-        "en-shr_dir":180.0,
-        "en-shr_dir-rng":0.0,
         "en-shr_use-rng-x":false,
         "en-shr_use-rng-y":false,
         "en-shr_use-spd-rng":false,
@@ -556,7 +554,10 @@
           "name":"texture_baron"
         },
         "en-shr_spd-rng":0.0,
-        "en-shr_template":"baron-1-thunder-r-p3x2"
+        "en-shr_template":"baron-1-thunder-r-p3x2",
+        "en-shr_use-dir-rng":false,
+        "en-shr_dir":180.0,
+        "en-shr_dir-rng":0.0
       },
       "hidden":false,
       "name":"baron-1-thunder-r-p3x2"
@@ -566,9 +567,6 @@
       "color":"#FFFF00",
       "texture":"texture_baron",
       "properties":{
-        "en-shr_use-dir-rng":false,
-        "en-shr_dir":0.0,
-        "en-shr_dir-rng":0.0,
         "en-shr_use-rng-x":false,
         "en-shr_use-rng-y":false,
         "en-shr_use-spd-rng":false,
@@ -584,7 +582,10 @@
           "name":"texture_baron"
         },
         "en-shr_spd-rng":0.0,
-        "en-shr_template":"baron-1-thunder-l"
+        "en-shr_template":"baron-1-thunder-l",
+        "en-shr_use-dir-rng":false,
+        "en-shr_dir":0.0,
+        "en-shr_dir-rng":0.0
       },
       "hidden":false,
       "name":"baron-1-thunder-l"
@@ -594,9 +595,6 @@
       "color":"#FFFF00",
       "texture":"texture_baron",
       "properties":{
-        "en-shr_use-dir-rng":false,
-        "en-shr_dir":0.0,
-        "en-shr_dir-rng":0.0,
         "en-shr_use-rng-x":false,
         "en-shr_use-rng-y":false,
         "en-shr_use-spd-rng":false,
@@ -612,7 +610,10 @@
           "name":"texture_baron"
         },
         "en-shr_spd-rng":0.0,
-        "en-shr_template":"baron-1-thunder-l-p3x2"
+        "en-shr_template":"baron-1-thunder-l-p3x2",
+        "en-shr_use-dir-rng":false,
+        "en-shr_dir":0.0,
+        "en-shr_dir-rng":0.0
       },
       "hidden":false,
       "name":"baron-1-thunder-l-p3x2"
@@ -622,9 +623,6 @@
       "color":"#FF0000",
       "texture":"texture_baron",
       "properties":{
-        "en-shr_use-dir-rng":false,
-        "en-shr_dir":180.0,
-        "en-shr_dir-rng":0.0,
         "en-shr_use-rng-x":false,
         "en-shr_use-rng-y":false,
         "en-shr_use-spd-rng":false,
@@ -640,7 +638,10 @@
           "name":"texture_baron"
         },
         "en-shr_spd-rng":0.0,
-        "en-shr_template":"baron-1-zig-r"
+        "en-shr_template":"baron-1-zig-r",
+        "en-shr_use-dir-rng":false,
+        "en-shr_dir":180.0,
+        "en-shr_dir-rng":0.0
       },
       "hidden":false,
       "name":"baron-1-zig-r"
@@ -650,9 +651,6 @@
       "color":"#FF0000",
       "texture":"texture_baron",
       "properties":{
-        "en-shr_use-dir-rng":false,
-        "en-shr_dir":180.0,
-        "en-shr_dir-rng":0.0,
         "en-shr_use-rng-x":false,
         "en-shr_use-rng-y":false,
         "en-shr_use-spd-rng":false,
@@ -668,7 +666,10 @@
           "name":"texture_baron"
         },
         "en-shr_spd-rng":0.0,
-        "en-shr_template":"baron-1-zig-r-p2x3"
+        "en-shr_template":"baron-1-zig-r-p2x3",
+        "en-shr_use-dir-rng":false,
+        "en-shr_dir":180.0,
+        "en-shr_dir-rng":0.0
       },
       "hidden":false,
       "name":"baron-1-zig-r-p2x3"
@@ -678,9 +679,6 @@
       "color":"#0000FF",
       "texture":"texture_baron",
       "properties":{
-        "en-shr_use-dir-rng":false,
-        "en-shr_dir":0.0,
-        "en-shr_dir-rng":0.0,
         "en-shr_use-rng-x":false,
         "en-shr_use-rng-y":false,
         "en-shr_use-spd-rng":false,
@@ -696,7 +694,10 @@
           "name":"texture_baron"
         },
         "en-shr_spd-rng":0.0,
-        "en-shr_template":"baron-1-zig-l"
+        "en-shr_template":"baron-1-zig-l",
+        "en-shr_use-dir-rng":false,
+        "en-shr_dir":0.0,
+        "en-shr_dir-rng":0.0
       },
       "hidden":false,
       "name":"baron-1-zig-l"
@@ -706,9 +707,6 @@
       "color":"#0000FF",
       "texture":"texture_baron",
       "properties":{
-        "en-shr_use-dir-rng":false,
-        "en-shr_dir":0.0,
-        "en-shr_dir-rng":0.0,
         "en-shr_use-rng-x":false,
         "en-shr_use-rng-y":false,
         "en-shr_use-spd-rng":false,
@@ -724,11 +722,13 @@
           "name":"texture_baron"
         },
         "en-shr_spd-rng":0.0,
-        "en-shr_template":"baron-1-zig-l-p2x3"
+        "en-shr_template":"baron-1-zig-l-p2x3",
+        "en-shr_use-dir-rng":false,
+        "en-shr_dir":0.0,
+        "en-shr_dir-rng":0.0
       },
       "hidden":false,
       "name":"baron-1-zig-l-p2x3"
     }
-  ],
-  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>"
+  ]
 }

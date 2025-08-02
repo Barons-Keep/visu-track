@@ -1,14 +1,12 @@
 {
   "version":"1",
+  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>",
   "data":[
     {
       "type":"brush_effect_config",
       "color":"#00FF00",
       "texture":"texture_ve_icon_effect_config",
       "properties":{
-        "ef-cfg_cls-frame-col":"#FFFFFF",
-        "ef-cfg_cls-frame-col-spd":0.0,
-        "ef-cfg_cls-glt":true,
         "ef-cfg_cls-part":true,
         "ef-cfg_cls-shd-all":true,
         "ef-cfg_cls-shd-bkg":true,
@@ -29,15 +27,17 @@
         "ef-cfg_change-cls-frame-alpha":false,
         "ef-cfg_cls-frame":true,
         "ef-cfg_cls-frame-alpha":{
-          "target":0.0,
-          "value":0.0,
           "factor":0.0,
-          "increase":0.0
-        }
+          "increase":0.0,
+          "value":0.0,
+          "target":0.0
+        },
+        "ef-cfg_cls-frame-col":"#FFFFFF",
+        "ef-cfg_cls-frame-col-spd":0.0,
+        "ef-cfg_cls-glt":true
       },
       "hidden":false,
       "name":"default"
     }
-  ],
-  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>"
+  ]
 }
