@@ -1,56 +1,58 @@
 {
   "version":"1",
+  "model":"Collection<io.alkapivo.visu.service.coin.CoinTemplate>",
   "data":{
     "coin-point-5":{
-      "amount":5.0,
-      "sprite":{
-        "randomFrame":false,
-        "animate":false,
-        "angle":0.0,
-        "scaleX":6.5,
-        "scaleY":6.5,
-        "name":"texture_coin_point",
-        "blend":"#FFFFFF",
-        "alpha":1.0,
-        "speed":30.0,
-        "frame":0.0
-      },
+      "mask":null,
+      "category":"point",
       "useSpeed":false,
       "changeSpeed":false,
-      "name":"coin-point-5",
       "speed":{
-        "target":2.2000000000000002,
         "value":-2.7999999999999998,
         "factor":0.059999999999999998,
+        "target":2.2000000000000002,
         "increase":0.0
       },
-      "category":"point"
-    },
-    "coin-force-5":{
       "amount":5.0,
+      "name":"coin-point-5",
       "sprite":{
         "randomFrame":false,
-        "animate":false,
-        "angle":0.0,
+        "frame":0.0,
+        "blend":"#FFFFFF",
         "scaleX":6.5,
         "scaleY":6.5,
-        "name":"texture_coin_force",
-        "blend":"#FFFFFF",
-        "alpha":1.0,
+        "angle":0.0,
         "speed":30.0,
-        "frame":0.0
-      },
+        "alpha":1.0,
+        "name":"texture_coin_point",
+        "animate":false
+      }
+    },
+    "coin-force-5":{
+      "mask":null,
+      "category":"force",
       "useSpeed":false,
       "changeSpeed":false,
-      "name":"coin-force-5",
       "speed":{
-        "target":2.25,
         "value":-3.5,
         "factor":0.050000000000000003,
+        "target":2.25,
         "increase":0.0
       },
-      "category":"force"
+      "amount":5.0,
+      "name":"coin-force-5",
+      "sprite":{
+        "randomFrame":false,
+        "frame":0.0,
+        "blend":"#FFFFFF",
+        "scaleX":6.5,
+        "scaleY":6.5,
+        "angle":0.0,
+        "speed":30.0,
+        "alpha":1.0,
+        "name":"texture_coin_force",
+        "animate":false
+      }
     }
-  },
-  "model":"Collection<io.alkapivo.visu.service.coin.CoinTemplate>"
+  }
 }

@@ -2,53 +2,53 @@
   "version":"1",
   "model":"Collection<io.alkapivo.core.service.texture.TextureIntent>",
   "data":{
-    "texture_schnoopy_blue":{
-      "prefetch":true,
-      "name":"texture_schnoopy_blue",
+    "texture_schnoopy_green":{
       "frames":2.0,
+      "prefetch":true,
+      "file":"texture/texture_schnoopy_green.png",
+      "name":"texture_schnoopy_green",
       "originX":128.0,
-      "originY":128.0,
-      "file":"texture/texture_schnoopy_blue.png"
+      "originY":128.0
+    },
+    "texture_schnoopy_blue":{
+      "frames":2.0,
+      "prefetch":true,
+      "file":"texture/texture_schnoopy_blue.png",
+      "name":"texture_schnoopy_blue",
+      "originX":128.0,
+      "originY":128.0
     },
     "texture_schnoopy_white":{
-      "prefetch":true,
-      "name":"texture_schnoopy_white",
       "frames":2.0,
+      "prefetch":true,
+      "file":"texture/texture_schnoopy_white.png",
+      "name":"texture_schnoopy_white",
       "originX":128.0,
-      "originY":128.0,
-      "file":"texture/texture_schnoopy_white.png"
+      "originY":128.0
     },
     "texture_schnoopy_yellow":{
-      "prefetch":true,
-      "name":"texture_schnoopy_yellow",
       "frames":2.0,
+      "prefetch":true,
+      "file":"texture/texture_schnoopy_yellow.png",
+      "name":"texture_schnoopy_yellow",
       "originX":128.0,
-      "originY":128.0,
-      "file":"texture/texture_schnoopy_yellow.png"
+      "originY":128.0
     },
     "texture_schnoopy_red":{
-      "prefetch":true,
-      "name":"texture_schnoopy_red",
       "frames":2.0,
+      "prefetch":true,
+      "file":"texture/texture_schnoopy_red.png",
+      "name":"texture_schnoopy_red",
       "originX":128.0,
-      "originY":128.0,
-      "file":"texture/texture_schnoopy_red.png"
+      "originY":128.0
     },
     "texture_schnoopy_magenta":{
+      "frames":2.0,
       "prefetch":true,
+      "file":"texture/texture_schnoopy_magenta.png",
       "name":"texture_schnoopy_magenta",
-      "frames":2.0,
       "originX":128.0,
-      "originY":128.0,
-      "file":"texture/texture_schnoopy_magenta.png"
-    },
-    "texture_schnoopy_green":{
-      "prefetch":true,
-      "name":"texture_schnoopy_green",
-      "frames":2.0,
-      "originX":128.0,
-      "originY":128.0,
-      "file":"texture/texture_schnoopy_green.png"
+      "originY":128.0
     }
   }
 }

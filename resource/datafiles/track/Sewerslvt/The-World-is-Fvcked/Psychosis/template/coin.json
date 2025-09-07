@@ -1,158 +1,160 @@
 {
   "version":"1",
+  "model":"Collection<io.alkapivo.visu.service.coin.CoinTemplate>",
   "data":{
-    "coin-force-5":{
-      "amount":5.0,
-      "sprite":{
-        "randomFrame":false,
-        "animate":false,
-        "angle":0.0,
-        "scaleX":6.5,
-        "scaleY":6.5,
-        "name":"texture_coin_force",
-        "blend":"#FFFFFF",
-        "alpha":1.0,
-        "speed":30.0,
-        "frame":0.0
-      },
-      "mask":{
-        "x":-24.0,
-        "y":-24.0,
-        "width":96.0,
-        "height":96.0
-      },
-      "useSpeed":false,
-      "changeSpeed":false,
-      "name":"coin-force-5",
-      "speed":{
-        "target":2.25,
-        "ease":"LEGACY",
-        "factor":0.050000000000000003,
-        "increase":0.0,
-        "value":-3.5,
-        "duration":1.9166666666666667
-      },
-      "category":"force"
-    },
     "coin-point-5":{
-      "amount":5.0,
-      "sprite":{
-        "randomFrame":false,
-        "animate":false,
-        "angle":0.0,
-        "scaleX":6.5,
-        "scaleY":6.5,
-        "name":"texture_coin_point",
-        "blend":"#FFFFFF",
-        "alpha":1.0,
-        "speed":30.0,
-        "frame":0.0
-      },
       "mask":{
-        "x":-24.0,
-        "y":-24.0,
         "width":96.0,
-        "height":96.0
+        "x":-24.0,
+        "height":96.0,
+        "y":-24.0
       },
+      "category":"point",
       "useSpeed":false,
       "changeSpeed":false,
-      "name":"coin-point-5",
       "speed":{
-        "target":2.2000000000000002,
         "value":-2.7999999999999998,
         "factor":0.059999999999999998,
+        "target":2.2000000000000002,
         "increase":0.0
       },
-      "category":"point"
-    },
-    "coin-bomb-down":{
+      "amount":5.0,
+      "name":"coin-point-5",
       "sprite":{
         "randomFrame":false,
-        "animate":false,
-        "angle":0.0,
-        "scaleX":15.0,
-        "scaleY":15.0,
-        "name":"texture_coin_bomb",
+        "frame":0.0,
         "blend":"#FFFFFF",
-        "alpha":1.0,
-        "speed":30.0,
-        "frame":0.0
-      },
-      "useSpeed":true,
-      "changeSpeed":true,
-      "name":"coin-bomb-down",
-      "speed":{
-        "target":1.5,
-        "ease":"LINEAR",
-        "factor":0.029999999999999999,
-        "increase":0.0,
-        "value":-2.0,
-        "duration":2.0
-      },
-      "category":"bomb"
-    },
-    "coin-force":{
-      "amount":1.0,
-      "sprite":{
-        "randomFrame":false,
-        "animate":false,
+        "scaleX":6.5,
+        "scaleY":6.5,
         "angle":0.0,
-        "scaleX":5.0,
-        "scaleY":5.0,
-        "name":"texture_coin_force",
-        "blend":"#FFFFFF",
-        "alpha":1.0,
         "speed":30.0,
-        "frame":0.0
-      },
-      "mask":{
-        "x":-24.0,
-        "y":-24.0,
-        "width":96.0,
-        "height":96.0
-      },
-      "useSpeed":false,
-      "changeSpeed":false,
-      "name":"coin-force",
-      "speed":{
-        "target":1.5,
-        "value":-2.5,
-        "factor":0.050000000000000003,
-        "increase":0.0
-      },
-      "category":"force"
+        "alpha":1.0,
+        "name":"texture_coin_point",
+        "animate":false
+      }
     },
     "coin-point":{
-      "amount":1.0,
-      "sprite":{
-        "randomFrame":false,
-        "animate":false,
-        "angle":0.0,
-        "scaleX":4.0,
-        "scaleY":4.0,
-        "name":"texture_coin_point",
-        "blend":"#FFFFFF",
-        "alpha":1.0,
-        "speed":30.0,
-        "frame":0.0
-      },
       "mask":{
-        "x":-24.0,
-        "y":-24.0,
         "width":96.0,
-        "height":96.0
+        "x":-24.0,
+        "height":96.0,
+        "y":-24.0
       },
+      "category":"point",
       "useSpeed":false,
       "changeSpeed":false,
-      "name":"coin-point",
       "speed":{
-        "target":1.5,
         "value":-2.0,
         "factor":0.040000000000000001,
+        "target":1.5,
         "increase":0.0
       },
-      "category":"point"
+      "amount":1.0,
+      "name":"coin-point",
+      "sprite":{
+        "randomFrame":false,
+        "frame":0.0,
+        "blend":"#FFFFFF",
+        "scaleX":4.0,
+        "scaleY":4.0,
+        "angle":0.0,
+        "speed":30.0,
+        "alpha":1.0,
+        "name":"texture_coin_point",
+        "animate":false
+      }
+    },
+    "coin-bomb-down":{
+      "mask":null,
+      "category":"bomb",
+      "useSpeed":true,
+      "changeSpeed":true,
+      "speed":{
+        "value":-2.0,
+        "duration":2.0,
+        "ease":"LINEAR",
+        "factor":0.029999999999999999,
+        "target":1.5,
+        "increase":0.0
+      },
+      "amount":null,
+      "name":"coin-bomb-down",
+      "sprite":{
+        "randomFrame":false,
+        "frame":0.0,
+        "blend":"#FFFFFF",
+        "scaleX":15.0,
+        "scaleY":15.0,
+        "angle":0.0,
+        "speed":30.0,
+        "alpha":1.0,
+        "name":"texture_coin_bomb",
+        "animate":false
+      }
+    },
+    "coin-force":{
+      "mask":{
+        "width":96.0,
+        "x":-24.0,
+        "height":96.0,
+        "y":-24.0
+      },
+      "category":"force",
+      "useSpeed":false,
+      "changeSpeed":false,
+      "speed":{
+        "value":-2.5,
+        "factor":0.050000000000000003,
+        "target":1.5,
+        "increase":0.0
+      },
+      "amount":1.0,
+      "name":"coin-force",
+      "sprite":{
+        "randomFrame":false,
+        "frame":0.0,
+        "blend":"#FFFFFF",
+        "scaleX":5.0,
+        "scaleY":5.0,
+        "angle":0.0,
+        "speed":30.0,
+        "alpha":1.0,
+        "name":"texture_coin_force",
+        "animate":false
+      }
+    },
+    "coin-force-5":{
+      "mask":{
+        "width":96.0,
+        "x":-24.0,
+        "height":96.0,
+        "y":-24.0
+      },
+      "category":"force",
+      "useSpeed":false,
+      "changeSpeed":false,
+      "speed":{
+        "value":-3.5,
+        "duration":1.9166666666666667,
+        "ease":"LEGACY",
+        "factor":0.050000000000000003,
+        "target":2.25,
+        "increase":0.0
+      },
+      "amount":5.0,
+      "name":"coin-force-5",
+      "sprite":{
+        "randomFrame":false,
+        "frame":0.0,
+        "blend":"#FFFFFF",
+        "scaleX":6.5,
+        "scaleY":6.5,
+        "angle":0.0,
+        "speed":30.0,
+        "alpha":1.0,
+        "name":"texture_coin_force",
+        "animate":false
+      }
     }
-  },
-  "model":"Collection<io.alkapivo.visu.service.coin.CoinTemplate>"
+  }
 }
