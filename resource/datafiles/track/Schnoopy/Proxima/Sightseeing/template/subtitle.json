@@ -1,0 +1,22 @@
+{
+  "model":"Collection<io.alkapivo.visu.service.subtitle.SubtitleTemplate>",
+  "data":{
+    "subtitle-track-name":{
+      "lines":[
+        "Sightseeing"
+      ]
+    },
+    "subtitle-alkapivo":{
+      "lines":[
+        "Alkapivo",
+        "2025"
+      ]
+    },
+    "subtitle-artist-name":{
+      "lines":[
+        "Schnoopy"
+      ]
+    }
+  },
+  "version":"1"
+}
