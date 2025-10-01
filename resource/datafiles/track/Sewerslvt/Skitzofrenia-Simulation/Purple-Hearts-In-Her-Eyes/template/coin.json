@@ -2,55 +2,55 @@
   "version":"1",
   "model":"Collection<io.alkapivo.visu.service.coin.CoinTemplate>",
   "data":{
-    "coin-point-5":{
-      "mask":null,
-      "category":"point",
-      "useSpeed":false,
-      "changeSpeed":false,
-      "speed":{
-        "factor":0.059999999999999998,
-        "value":-2.7999999999999998,
-        "target":2.2000000000000002,
-        "increase":0.0
-      },
-      "amount":5.0,
-      "name":"coin-point-5",
-      "sprite":{
-        "randomFrame":false,
-        "frame":0.0,
-        "blend":"#FFFFFF",
-        "scaleX":6.5,
-        "scaleY":6.5,
-        "angle":0.0,
-        "speed":30.0,
-        "alpha":1.0,
-        "name":"texture_coin_point",
-        "animate":false
-      }
-    },
     "coin-force-5":{
+      "amount":5.0,
+      "changeSpeed":false,
       "mask":null,
       "category":"force",
-      "useSpeed":false,
-      "changeSpeed":false,
       "speed":{
         "factor":0.050000000000000003,
         "value":-3.5,
-        "target":2.25,
-        "increase":0.0
+        "increase":0.0,
+        "target":2.25
       },
-      "amount":5.0,
+      "useSpeed":false,
       "name":"coin-force-5",
       "sprite":{
-        "randomFrame":false,
-        "frame":0.0,
-        "blend":"#FFFFFF",
-        "scaleX":6.5,
-        "scaleY":6.5,
         "angle":0.0,
-        "speed":30.0,
+        "randomFrame":false,
         "alpha":1.0,
+        "blend":"#FFFFFF",
+        "speed":30.0,
+        "scaleX":6.5,
         "name":"texture_coin_force",
+        "scaleY":6.5,
+        "frame":0.0,
+        "animate":false
+      }
+    },
+    "coin-point-5":{
+      "amount":5.0,
+      "changeSpeed":false,
+      "mask":null,
+      "category":"point",
+      "speed":{
+        "factor":0.059999999999999998,
+        "value":-2.7999999999999998,
+        "increase":0.0,
+        "target":2.2000000000000002
+      },
+      "useSpeed":false,
+      "name":"coin-point-5",
+      "sprite":{
+        "angle":0.0,
+        "randomFrame":false,
+        "alpha":1.0,
+        "blend":"#FFFFFF",
+        "speed":30.0,
+        "scaleX":6.5,
+        "name":"texture_coin_point",
+        "scaleY":6.5,
+        "frame":0.0,
         "animate":false
       }
     }
