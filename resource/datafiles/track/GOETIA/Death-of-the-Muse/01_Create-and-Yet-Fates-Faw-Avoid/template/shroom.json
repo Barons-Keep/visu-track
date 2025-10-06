@@ -1,50 +1,45 @@
 {
-  "model":"Collection<io.alkapivo.visu.service.shroom.ShroomTemplate>",
+  "version":"1",
   "data":{
     "shroom_sigil_aamon":{
-      "use_shroom_mask":true,
-      "use_shroom_on_damage":true,
-      "use_shroom_on_death":true,
-      "use_shroom_queue":true,
+      "shroom_hide_on_damage":false,
+      "shroom_hide_on_death":false,
+      "shroom_hide_queue":true,
+      "shroom_hide_features":false,
       "lifespanMax":15.0,
-      "healthPoints":1.0,
-      "features":[
+      "onDeath":[
       ],
-      "mask":{
-        "x":50.0,
-        "y":50.0,
-        "height":250.0,
-        "width":250.0
-      },
+      "name":"shroom_sigil_aamon",
+      "healthPoints":1.0,
       "queue":[
         {
           "data":{
             "scaleX":{
               "transform":{
                 "value":1.0,
+                "duration":3.0,
                 "ease":"OUT_SINE",
-                "target":4.0,
-                "duration":3.0
+                "target":4.0
               }
             },
             "scaleY":{
               "transform":{
                 "value":1.0,
+                "duration":3.0,
                 "ease":"OUT_SINE",
-                "target":4.0,
-                "duration":3.0
+                "target":4.0
               }
             },
             "angle":{
               "add":{
                 "value":0.0,
-                "ease":"OUT_SINE",
-                "target":10.0,
                 "duration":[
                   3.0,
                   2.8999999999999999,
                   2.7999999999999998
-                ]
+                ],
+                "ease":"OUT_SINE",
+                "target":10.0
               }
             }
           },
@@ -55,9 +50,9 @@
           "data":{
             "value":{
               "value":0.0,
+              "duration":0.25,
               "ease":"LINEAR",
-              "target":0.20000000000000001,
-              "duration":0.25
+              "target":0.20000000000000001
             }
           },
           "timer":0.25,
@@ -68,29 +63,29 @@
             "scaleX":{
               "transform":{
                 "value":4.0,
+                "duration":6.0,
                 "ease":"OUT_SINE",
-                "target":1.0,
-                "duration":6.0
+                "target":1.0
               }
             },
             "scaleY":{
               "transform":{
                 "value":4.0,
+                "duration":6.0,
                 "ease":"OUT_SINE",
-                "target":1.0,
-                "duration":6.0
+                "target":1.0
               }
             },
             "angle":{
               "add":{
                 "value":-10.0,
-                "ease":"IN_SINE",
-                "target":0.0,
                 "duration":[
                   3.0,
                   2.8999999999999999,
                   2.7999999999999998
-                ]
+                ],
+                "ease":"IN_SINE",
+                "target":0.0
               }
             }
           },
@@ -99,38 +94,43 @@
         }
       ],
       "hostile":true,
+      "onDamage":[
+      ],
+      "features":[
+      ],
+      "use_shroom_mask":true,
+      "use_shroom_lifespan":false,
+      "use_shroom_healthPoints":false,
+      "use_shroom_inherit":true,
+      "use_shroom_on_damage":true,
+      "sprite":{
+        "randomFrame":false,
+        "animate":false,
+        "alpha":1.0,
+        "angle":0.0,
+        "name":"tx_sigil_aamon",
+        "speed":30.0,
+        "blend":"#FFFFFF",
+        "scaleX":1.0,
+        "frame":0.0,
+        "scaleY":1.0
+      },
+      "use_shroom_on_death":true,
+      "use_shroom_queue":true,
+      "use_shroom_features":true,
       "inherit":[
       ],
       "shroom_hide":false,
-      "shroom_hide_features":false,
-      "onDamage":[
-      ],
-      "shroom_hide_inherit":false,
-      "shroom_hide_mask":true,
-      "onDeath":[
-      ],
-      "shroom_hide_on_damage":false,
-      "shroom_hide_on_death":false,
-      "shroom_hide_queue":true,
       "shroom_hide_texture":true,
-      "name":"shroom_sigil_aamon",
-      "sprite":{
-        "angle":0.0,
-        "randomFrame":false,
-        "alpha":1.0,
-        "blend":"#FFFFFF",
-        "name":"tx_sigil_aamon",
-        "speed":30.0,
-        "scaleX":1.0,
-        "scaleY":1.0,
-        "frame":0.0,
-        "animate":false
-      },
-      "use_shroom_features":true,
-      "use_shroom_healthPoints":false,
-      "use_shroom_inherit":true,
-      "use_shroom_lifespan":false
+      "shroom_hide_mask":true,
+      "shroom_hide_inherit":false,
+      "mask":{
+        "x":50.0,
+        "y":50.0,
+        "width":250.0,
+        "height":250.0
+      }
     }
   },
-  "version":"1"
+  "model":"Collection<io.alkapivo.visu.service.shroom.ShroomTemplate>"
 }
