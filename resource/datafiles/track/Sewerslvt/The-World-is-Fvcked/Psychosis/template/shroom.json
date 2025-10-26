@@ -63,7 +63,7 @@
               }
             }
           },
-          "type":"SpriteFeature"
+          "type":"DeprecatedSpriteFeature"
         },
         {
           "conditions":[
@@ -96,7 +96,7 @@
               }
             }
           },
-          "type":"SpriteFeature"
+          "type":"DeprecatedSpriteFeature"
         }
       ],
       "name":"baron-2-intro",
@@ -205,7 +205,7 @@
               }
             }
           },
-          "type":"SpriteFeature"
+          "type":"DeprecatedSpriteFeature"
         },
         {
           "conditions":[
@@ -234,7 +234,7 @@
               }
             }
           },
-          "type":"SpriteFeature"
+          "type":"DeprecatedSpriteFeature"
         },
         {
           "conditions":[
@@ -258,7 +258,7 @@
               "target":-0.20000000000000009
             }
           },
-          "type":"SpeedFeature"
+          "type":"DeprecatedSpeedFeature"
         },
         {
           "conditions":[
@@ -289,7 +289,7 @@
               ]
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         },
         {
           "conditions":[
@@ -320,7 +320,7 @@
               ]
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         },
         {
           "conditions":[
@@ -354,7 +354,7 @@
               ]
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         },
         {
           "conditions":[
@@ -382,7 +382,7 @@
               ]
             }
           },
-          "type":"SpeedFeature"
+          "type":"DeprecatedSpeedFeature"
         }
       ],
       "name":"baron-1-intro",
@@ -479,7 +479,7 @@
               }
             }
           },
-          "type":"SpriteFeature"
+          "type":"DeprecatedSpriteFeature"
         },
         {
           "conditions":[
@@ -512,7 +512,7 @@
               }
             }
           },
-          "type":"SpriteFeature"
+          "type":"DeprecatedSpriteFeature"
         }
       ],
       "name":"baron-3-intro",
@@ -613,7 +613,7 @@
               }
             }
           },
-          "type":"SpriteFeature"
+          "type":"DeprecatedSpriteFeature"
         },
         {
           "conditions":[
@@ -638,7 +638,7 @@
               "target":-90.0
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         },
         {
           "conditions":[
@@ -698,7 +698,7 @@
               }
             }
           },
-          "type":"SpriteFeature"
+          "type":"DeprecatedSpriteFeature"
         },
         {
           "conditions":[
@@ -723,7 +723,7 @@
               "target":-90.0
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         },
         {
           "conditions":[
@@ -783,7 +783,7 @@
               }
             }
           },
-          "type":"SpriteFeature"
+          "type":"DeprecatedSpriteFeature"
         },
         {
           "conditions":[
@@ -808,7 +808,7 @@
               "target":-90.0
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         },
         {
           "conditions":[
@@ -868,7 +868,7 @@
               }
             }
           },
-          "type":"SpriteFeature"
+          "type":"DeprecatedSpriteFeature"
         },
         {
           "conditions":[
@@ -893,7 +893,7 @@
               "target":-90.0
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         },
         {
           "conditions":[
@@ -948,7 +948,7 @@
               }
             }
           },
-          "type":"SpriteFeature"
+          "type":"DeprecatedSpriteFeature"
         },
         {
           "conditions":[
@@ -981,7 +981,7 @@
               ]
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         }
       ],
       "name":"baron-1-square-ccw-p4x10",
@@ -1082,7 +1082,7 @@
               }
             }
           },
-          "type":"SpriteFeature"
+          "type":"DeprecatedSpriteFeature"
         },
         {
           "conditions":[
@@ -1107,7 +1107,7 @@
               "target":90.0
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         },
         {
           "conditions":[
@@ -1138,7 +1138,7 @@
               }
             }
           },
-          "type":"SpriteFeature"
+          "type":"DeprecatedSpriteFeature"
         },
         {
           "conditions":[
@@ -1163,7 +1163,7 @@
               "target":90.0
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         },
         {
           "conditions":[
@@ -1194,7 +1194,7 @@
               }
             }
           },
-          "type":"SpriteFeature"
+          "type":"DeprecatedSpriteFeature"
         },
         {
           "conditions":[
@@ -1219,7 +1219,7 @@
               "target":90.0
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         },
         {
           "conditions":[
@@ -1250,7 +1250,7 @@
               }
             }
           },
-          "type":"SpriteFeature"
+          "type":"DeprecatedSpriteFeature"
         },
         {
           "conditions":[
@@ -1275,7 +1275,7 @@
               "target":90.0
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         },
         {
           "conditions":[
@@ -1301,7 +1301,7 @@
               }
             }
           },
-          "type":"SpriteFeature"
+          "type":"DeprecatedSpriteFeature"
         },
         {
           "conditions":[
@@ -1334,7 +1334,7 @@
               ]
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         }
       ],
       "name":"baron-1-square-cw",
@@ -1435,7 +1435,7 @@
               }
             }
           },
-          "type":"SpriteFeature"
+          "type":"DeprecatedSpriteFeature"
         },
         {
           "conditions":[
@@ -1460,7 +1460,7 @@
               "target":-90.0
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         },
         {
           "conditions":[
@@ -1491,7 +1491,7 @@
               }
             }
           },
-          "type":"SpriteFeature"
+          "type":"DeprecatedSpriteFeature"
         },
         {
           "conditions":[
@@ -1516,7 +1516,7 @@
               "target":-90.0
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         },
         {
           "conditions":[
@@ -1547,7 +1547,7 @@
               }
             }
           },
-          "type":"SpriteFeature"
+          "type":"DeprecatedSpriteFeature"
         },
         {
           "conditions":[
@@ -1572,7 +1572,7 @@
               "target":-90.0
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         },
         {
           "conditions":[
@@ -1603,7 +1603,7 @@
               }
             }
           },
-          "type":"SpriteFeature"
+          "type":"DeprecatedSpriteFeature"
         },
         {
           "conditions":[
@@ -1628,7 +1628,7 @@
               "target":-90.0
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         },
         {
           "conditions":[
@@ -1654,7 +1654,7 @@
               }
             }
           },
-          "type":"SpriteFeature"
+          "type":"DeprecatedSpriteFeature"
         },
         {
           "conditions":[
@@ -1687,7 +1687,7 @@
               ]
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         }
       ],
       "name":"baron-1-square-ccw",
@@ -1788,7 +1788,7 @@
               }
             }
           },
-          "type":"SpriteFeature"
+          "type":"DeprecatedSpriteFeature"
         },
         {
           "conditions":[
@@ -1813,7 +1813,7 @@
               "target":90.0
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         },
         {
           "conditions":[
@@ -1873,7 +1873,7 @@
               }
             }
           },
-          "type":"SpriteFeature"
+          "type":"DeprecatedSpriteFeature"
         },
         {
           "conditions":[
@@ -1898,7 +1898,7 @@
               "target":90.0
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         },
         {
           "conditions":[
@@ -1958,7 +1958,7 @@
               }
             }
           },
-          "type":"SpriteFeature"
+          "type":"DeprecatedSpriteFeature"
         },
         {
           "conditions":[
@@ -1983,7 +1983,7 @@
               "target":90.0
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         },
         {
           "conditions":[
@@ -2043,7 +2043,7 @@
               }
             }
           },
-          "type":"SpriteFeature"
+          "type":"DeprecatedSpriteFeature"
         },
         {
           "conditions":[
@@ -2068,7 +2068,7 @@
               "target":90.0
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         },
         {
           "conditions":[
@@ -2123,7 +2123,7 @@
               }
             }
           },
-          "type":"SpriteFeature"
+          "type":"DeprecatedSpriteFeature"
         },
         {
           "conditions":[
@@ -2156,7 +2156,7 @@
               ]
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         }
       ],
       "name":"baron-1-square-cw-p4x10",
@@ -2297,7 +2297,7 @@
               "increase":0.002
             }
           },
-          "type":"SpeedFeature"
+          "type":"DeprecatedSpeedFeature"
         },
         {
           "conditions":[
@@ -2355,7 +2355,7 @@
               ]
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         },
         {
           "conditions":[
@@ -2374,7 +2374,7 @@
               "target":15.0
             }
           },
-          "type":"SpeedFeature"
+          "type":"DeprecatedSpeedFeature"
         },
         {
           "conditions":[
@@ -2407,7 +2407,7 @@
               ]
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         },
         {
           "conditions":[
@@ -2440,7 +2440,7 @@
               ]
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         }
       ],
       "name":"bazyl-1-intro-p2x8",
@@ -2558,7 +2558,7 @@
               }
             }
           },
-          "type":"SpriteFeature"
+          "type":"DeprecatedSpriteFeature"
         },
         {
           "conditions":[
@@ -2577,7 +2577,7 @@
               "increase":0.0
             }
           },
-          "type":"SpeedFeature"
+          "type":"DeprecatedSpeedFeature"
         },
         {
           "conditions":[
@@ -2636,7 +2636,7 @@
               "increase":0.0001
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         },
         {
           "conditions":[
@@ -2662,7 +2662,7 @@
               "increase":0.0001
             }
           },
-          "type":"SpeedFeature"
+          "type":"DeprecatedSpeedFeature"
         }
       ],
       "name":"baron-1-boom-r30",
@@ -2757,7 +2757,7 @@
               "increase":0.0
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         },
         {
           "conditions":[
@@ -2783,7 +2783,7 @@
               "increase":0.0
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         },
         {
           "conditions":[
@@ -2809,7 +2809,7 @@
               "increase":0.0
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         },
         {
           "conditions":[
@@ -2835,7 +2835,7 @@
               "increase":0.0
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         },
         {
           "conditions":[
@@ -2861,7 +2861,7 @@
               "increase":0.0
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         },
         {
           "conditions":[
@@ -2880,7 +2880,7 @@
               "increase":0.0
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         }
       ],
       "name":"baron-1-zig-l",
@@ -2981,7 +2981,7 @@
               "target":0.0
             }
           },
-          "type":"SpeedFeature"
+          "type":"DeprecatedSpeedFeature"
         },
         {
           "conditions":[
@@ -3032,7 +3032,7 @@
               ]
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         },
         {
           "conditions":[
@@ -3051,7 +3051,7 @@
               "target":15.0
             }
           },
-          "type":"SpeedFeature"
+          "type":"DeprecatedSpeedFeature"
         },
         {
           "conditions":[
@@ -3084,7 +3084,7 @@
               ]
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         },
         {
           "conditions":[
@@ -3117,7 +3117,7 @@
               ]
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         }
       ],
       "name":"bazyl-1-intro-r6x3",
@@ -3211,7 +3211,7 @@
               }
             }
           },
-          "type":"SpriteFeature"
+          "type":"DeprecatedSpriteFeature"
         },
         {
           "conditions":[
@@ -3230,7 +3230,7 @@
               "increase":0.0
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         },
         {
           "conditions":[
@@ -3256,7 +3256,7 @@
               "increase":0.0
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         },
         {
           "conditions":[
@@ -3317,7 +3317,7 @@
               "increase":0.0
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         },
         {
           "conditions":[
@@ -3343,7 +3343,7 @@
               "increase":0.0
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         },
         {
           "conditions":[
@@ -3404,7 +3404,7 @@
               "increase":0.0
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         },
         {
           "conditions":[
@@ -3423,7 +3423,7 @@
               "increase":0.0
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         }
       ],
       "name":"baron-1-zig-l-p2x3",
@@ -3518,7 +3518,7 @@
               }
             }
           },
-          "type":"SpriteFeature"
+          "type":"DeprecatedSpriteFeature"
         },
         {
           "conditions":[
@@ -3537,7 +3537,7 @@
               "increase":0.0
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         },
         {
           "conditions":[
@@ -3563,7 +3563,7 @@
               "increase":0.0
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         },
         {
           "conditions":[
@@ -3624,7 +3624,7 @@
               "increase":0.0
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         },
         {
           "conditions":[
@@ -3650,7 +3650,7 @@
               "increase":0.0
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         },
         {
           "conditions":[
@@ -3711,7 +3711,7 @@
               "increase":0.0
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         },
         {
           "conditions":[
@@ -3730,7 +3730,7 @@
               "increase":0.0
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         }
       ],
       "name":"baron-1-zig-r-p2x3",
@@ -3825,7 +3825,7 @@
               }
             }
           },
-          "type":"SpriteFeature"
+          "type":"DeprecatedSpriteFeature"
         },
         {
           "conditions":[
@@ -3851,7 +3851,7 @@
               "increase":0.0
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         },
         {
           "conditions":[
@@ -3910,7 +3910,7 @@
               "increase":0.0
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         },
         {
           "conditions":[
@@ -3936,7 +3936,7 @@
               "increase":0.0
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         },
         {
           "conditions":[
@@ -3962,7 +3962,7 @@
               "increase":0.0
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         }
       ],
       "name":"baron-1-thunder-r-p3x2",
@@ -4057,7 +4057,7 @@
               }
             }
           },
-          "type":"SpriteFeature"
+          "type":"DeprecatedSpriteFeature"
         },
         {
           "conditions":[
@@ -4083,7 +4083,7 @@
               "increase":0.0
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         },
         {
           "conditions":[
@@ -4142,7 +4142,7 @@
               "increase":0.0
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         },
         {
           "conditions":[
@@ -4168,7 +4168,7 @@
               "increase":0.0
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         },
         {
           "conditions":[
@@ -4194,7 +4194,7 @@
               "increase":0.0
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         }
       ],
       "name":"baron-1-thunder-l-p3x2",
@@ -4295,7 +4295,7 @@
               "increase":0.0
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         },
         {
           "conditions":[
@@ -4321,7 +4321,7 @@
               "increase":0.0
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         },
         {
           "conditions":[
@@ -4347,7 +4347,7 @@
               "increase":0.0
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         },
         {
           "conditions":[
@@ -4373,7 +4373,7 @@
               "increase":0.0
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         }
       ],
       "name":"baron-1-thunder-r",
@@ -4483,7 +4483,7 @@
               }
             }
           },
-          "type":"SpriteFeature"
+          "type":"DeprecatedSpriteFeature"
         },
         {
           "conditions":[
@@ -4516,7 +4516,7 @@
               }
             }
           },
-          "type":"SpriteFeature"
+          "type":"DeprecatedSpriteFeature"
         },
         {
           "conditions":[
@@ -4540,7 +4540,7 @@
               "target":-0.10000000000000001
             }
           },
-          "type":"SpeedFeature"
+          "type":"DeprecatedSpeedFeature"
         },
         {
           "conditions":[
@@ -4630,7 +4630,7 @@
               ]
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         },
         {
           "conditions":[
@@ -4648,7 +4648,7 @@
               "target":10.0
             }
           },
-          "type":"SpeedFeature"
+          "type":"DeprecatedSpeedFeature"
         }
       ],
       "name":"bazyl-1-p5",
@@ -4749,7 +4749,7 @@
               "target":-0.17000000000000001
             }
           },
-          "type":"SpeedFeature"
+          "type":"DeprecatedSpeedFeature"
         },
         {
           "conditions":[
@@ -4767,7 +4767,7 @@
               "target":-35.0
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         },
         {
           "conditions":[
@@ -4786,7 +4786,7 @@
               "target":8.0
             }
           },
-          "type":"SpeedFeature"
+          "type":"DeprecatedSpeedFeature"
         }
       ],
       "name":"bazyl-1-turns-l",
@@ -4878,7 +4878,7 @@
               "target":-0.17000000000000001
             }
           },
-          "type":"SpeedFeature"
+          "type":"DeprecatedSpeedFeature"
         },
         {
           "conditions":[
@@ -4896,7 +4896,7 @@
               "target":35.0
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         },
         {
           "conditions":[
@@ -4915,7 +4915,7 @@
               "target":8.0
             }
           },
-          "type":"SpeedFeature"
+          "type":"DeprecatedSpeedFeature"
         }
       ],
       "name":"bazyl-1-turns-r",
@@ -5017,7 +5017,7 @@
               }
             }
           },
-          "type":"SpriteFeature"
+          "type":"DeprecatedSpriteFeature"
         },
         {
           "conditions":[
@@ -5029,7 +5029,7 @@
               }
             }
           },
-          "type":"SpriteFeature"
+          "type":"DeprecatedSpriteFeature"
         },
         {
           "conditions":[
@@ -5047,7 +5047,7 @@
               "target":180.0
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         }
       ],
       "name":"bazyl-1-boomerang-l",
@@ -5149,7 +5149,7 @@
               }
             }
           },
-          "type":"SpriteFeature"
+          "type":"DeprecatedSpriteFeature"
         },
         {
           "conditions":[
@@ -5161,7 +5161,7 @@
               }
             }
           },
-          "type":"SpriteFeature"
+          "type":"DeprecatedSpriteFeature"
         },
         {
           "conditions":[
@@ -5179,7 +5179,7 @@
               "target":-180.0
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         }
       ],
       "name":"bazyl-1-boomerang-r",
@@ -5281,7 +5281,7 @@
               }
             }
           },
-          "type":"SpriteFeature"
+          "type":"DeprecatedSpriteFeature"
         },
         {
           "conditions":[
@@ -5310,7 +5310,7 @@
               }
             }
           },
-          "type":"SpriteFeature"
+          "type":"DeprecatedSpriteFeature"
         },
         {
           "conditions":[
@@ -5334,7 +5334,7 @@
               "target":-0.10000000000000001
             }
           },
-          "type":"SpeedFeature"
+          "type":"DeprecatedSpeedFeature"
         },
         {
           "conditions":[
@@ -5365,7 +5365,7 @@
               ]
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         },
         {
           "conditions":[
@@ -5396,7 +5396,7 @@
               ]
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         },
         {
           "conditions":[
@@ -5430,7 +5430,7 @@
               ]
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         },
         {
           "conditions":[
@@ -5458,7 +5458,7 @@
               ]
             }
           },
-          "type":"SpeedFeature"
+          "type":"DeprecatedSpeedFeature"
         }
       ],
       "name":"bazyl-1-intro",
@@ -5555,7 +5555,7 @@
               }
             }
           },
-          "type":"SpriteFeature"
+          "type":"DeprecatedSpriteFeature"
         },
         {
           "conditions":[
@@ -5588,7 +5588,7 @@
               }
             }
           },
-          "type":"SpriteFeature"
+          "type":"DeprecatedSpriteFeature"
         },
         {
           "conditions":[
@@ -5725,7 +5725,7 @@
               }
             }
           },
-          "type":"SpriteFeature"
+          "type":"DeprecatedSpriteFeature"
         },
         {
           "conditions":[
@@ -5758,7 +5758,7 @@
               }
             }
           },
-          "type":"SpriteFeature"
+          "type":"DeprecatedSpriteFeature"
         },
         {
           "conditions":[
@@ -5889,7 +5889,7 @@
               "increase":0.0
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         },
         {
           "conditions":[
@@ -5942,7 +5942,7 @@
               "increase":0.0
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         },
         {
           "conditions":[
@@ -5995,7 +5995,7 @@
               "increase":0.0
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         }
       ],
       "name":"baron-1-turns-r-s2x6",
@@ -6096,7 +6096,7 @@
               "increase":0.0
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         },
         {
           "conditions":[
@@ -6149,7 +6149,7 @@
               "increase":0.0
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         },
         {
           "conditions":[
@@ -6202,7 +6202,7 @@
               "increase":0.0
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         }
       ],
       "name":"baron-1-turns-l-s2x6",
@@ -6299,7 +6299,7 @@
               }
             }
           },
-          "type":"SpriteFeature"
+          "type":"DeprecatedSpriteFeature"
         },
         {
           "conditions":[
@@ -6325,7 +6325,7 @@
               }
             }
           },
-          "type":"SpriteFeature"
+          "type":"DeprecatedSpriteFeature"
         },
         {
           "conditions":[
@@ -6344,7 +6344,7 @@
               }
             }
           },
-          "type":"SpriteFeature"
+          "type":"DeprecatedSpriteFeature"
         },
         {
           "conditions":[
@@ -6463,7 +6463,7 @@
               }
             }
           },
-          "type":"SpriteFeature"
+          "type":"DeprecatedSpriteFeature"
         },
         {
           "conditions":[
@@ -6496,7 +6496,7 @@
               }
             }
           },
-          "type":"SpriteFeature"
+          "type":"DeprecatedSpriteFeature"
         },
         {
           "conditions":[
@@ -6520,7 +6520,7 @@
               "target":-0.10000000000000001
             }
           },
-          "type":"SpeedFeature"
+          "type":"DeprecatedSpeedFeature"
         },
         {
           "conditions":[
@@ -6570,7 +6570,7 @@
               ]
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         },
         {
           "conditions":[
@@ -6601,7 +6601,7 @@
               ]
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         },
         {
           "conditions":[
@@ -6629,7 +6629,7 @@
               ]
             }
           },
-          "type":"SpeedFeature"
+          "type":"DeprecatedSpeedFeature"
         }
       ],
       "name":"bazyl-1-sniper-p5",
@@ -6730,7 +6730,7 @@
               "target":-0.10000000000000001
             }
           },
-          "type":"SpeedFeature"
+          "type":"DeprecatedSpeedFeature"
         },
         {
           "conditions":[
@@ -6900,7 +6900,7 @@
               "target":90.0
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         },
         {
           "conditions":[
@@ -6918,7 +6918,7 @@
               "target":13.0
             }
           },
-          "type":"SpeedFeature"
+          "type":"DeprecatedSpeedFeature"
         }
       ],
       "name":"bazyl-1-star-s3x8",
@@ -7013,7 +7013,7 @@
               "increase":0.0
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         },
         {
           "conditions":[
@@ -7039,7 +7039,7 @@
               "increase":0.0
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         },
         {
           "conditions":[
@@ -7065,7 +7065,7 @@
               "increase":0.0
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         },
         {
           "conditions":[
@@ -7091,7 +7091,7 @@
               "increase":0.0
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         },
         {
           "conditions":[
@@ -7117,7 +7117,7 @@
               "increase":0.0
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         },
         {
           "conditions":[
@@ -7136,7 +7136,7 @@
               "increase":0.0
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         }
       ],
       "name":"baron-1-zig-r",
@@ -7237,7 +7237,7 @@
               "increase":0.0
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         },
         {
           "conditions":[
@@ -7263,7 +7263,7 @@
               "increase":0.0
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         },
         {
           "conditions":[
@@ -7289,7 +7289,7 @@
               "increase":0.0
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         },
         {
           "conditions":[
@@ -7315,7 +7315,7 @@
               "increase":0.0
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         }
       ],
       "name":"baron-1-thunder-l",
@@ -7410,7 +7410,7 @@
               "increase":0.001
             }
           },
-          "type":"SpeedFeature"
+          "type":"DeprecatedSpeedFeature"
         },
         {
           "conditions":[
@@ -7461,7 +7461,7 @@
               ]
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         },
         {
           "conditions":[
@@ -7480,7 +7480,7 @@
               "target":15.0
             }
           },
-          "type":"SpeedFeature"
+          "type":"DeprecatedSpeedFeature"
         },
         {
           "conditions":[
@@ -7513,7 +7513,7 @@
               ]
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         },
         {
           "conditions":[
@@ -7546,7 +7546,7 @@
               ]
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         }
       ],
       "name":"bazyl-1-intro-p6x2",
@@ -7657,7 +7657,7 @@
               }
             }
           },
-          "type":"SpriteFeature"
+          "type":"DeprecatedSpriteFeature"
         },
         {
           "conditions":[
@@ -7690,7 +7690,7 @@
               }
             }
           },
-          "type":"SpriteFeature"
+          "type":"DeprecatedSpriteFeature"
         },
         {
           "conditions":[
@@ -7718,7 +7718,7 @@
               ]
             }
           },
-          "type":"SpeedFeature"
+          "type":"DeprecatedSpeedFeature"
         },
         {
           "conditions":[
@@ -7767,7 +7767,7 @@
               "increase":0.10000000000000001
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         },
         {
           "conditions":[
@@ -7785,7 +7785,7 @@
               "target":15.0
             }
           },
-          "type":"SpeedFeature"
+          "type":"DeprecatedSpeedFeature"
         }
       ],
       "name":"bazyl-1-boom-s2",

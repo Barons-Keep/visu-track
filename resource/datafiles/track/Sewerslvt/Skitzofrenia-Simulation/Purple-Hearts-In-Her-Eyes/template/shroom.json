@@ -56,7 +56,7 @@
       "healthPoints":1.0,
       "features":[
         {
-          "type":"SpriteFeature",
+          "type":"DeprecatedSpriteFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -89,7 +89,7 @@
           }
         },
         {
-          "type":"SpriteFeature",
+          "type":"DeprecatedSpriteFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -186,7 +186,7 @@
       "healthPoints":2.0,
       "features":[
         {
-          "type":"SpriteFeature",
+          "type":"DeprecatedSpriteFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -217,7 +217,7 @@
           }
         },
         {
-          "type":"SpriteFeature",
+          "type":"DeprecatedSpriteFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -246,7 +246,7 @@
           }
         },
         {
-          "type":"SpeedFeature",
+          "type":"DeprecatedSpeedFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -270,7 +270,7 @@
           }
         },
         {
-          "type":"AngleFeature",
+          "type":"DeprecatedAngleFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -301,7 +301,7 @@
           }
         },
         {
-          "type":"AngleFeature",
+          "type":"DeprecatedAngleFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -332,7 +332,7 @@
           }
         },
         {
-          "type":"AngleFeature",
+          "type":"DeprecatedAngleFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -366,7 +366,7 @@
           }
         },
         {
-          "type":"SpeedFeature",
+          "type":"DeprecatedSpeedFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -463,7 +463,7 @@
       "healthPoints":2.0,
       "features":[
         {
-          "type":"SpriteFeature",
+          "type":"DeprecatedSpriteFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -496,7 +496,7 @@
           }
         },
         {
-          "type":"SpriteFeature",
+          "type":"DeprecatedSpriteFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -648,7 +648,7 @@
       "healthPoints":3.0,
       "features":[
         {
-          "type":"SpeedFeature",
+          "type":"DeprecatedSpeedFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -696,7 +696,7 @@
           }
         },
         {
-          "type":"AngleFeature",
+          "type":"DeprecatedAngleFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -725,7 +725,7 @@
           }
         },
         {
-          "type":"SpeedFeature",
+          "type":"DeprecatedSpeedFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -744,7 +744,7 @@
           }
         },
         {
-          "type":"AngleFeature",
+          "type":"DeprecatedAngleFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -777,7 +777,7 @@
           }
         },
         {
-          "type":"AngleFeature",
+          "type":"DeprecatedAngleFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -886,7 +886,7 @@
       "healthPoints":10.0,
       "features":[
         {
-          "type":"SpriteFeature",
+          "type":"DeprecatedSpriteFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -915,7 +915,7 @@
           }
         },
         {
-          "type":"SpeedFeature",
+          "type":"DeprecatedSpeedFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -964,7 +964,7 @@
           }
         },
         {
-          "type":"AngleFeature",
+          "type":"DeprecatedAngleFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -993,7 +993,7 @@
           }
         },
         {
-          "type":"SpeedFeature",
+          "type":"DeprecatedSpeedFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -1108,7 +1108,7 @@
       "healthPoints":3.0,
       "features":[
         {
-          "type":"AngleFeature",
+          "type":"DeprecatedAngleFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -1127,7 +1127,7 @@
           }
         },
         {
-          "type":"AngleFeature",
+          "type":"DeprecatedAngleFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -1153,7 +1153,7 @@
           }
         },
         {
-          "type":"AngleFeature",
+          "type":"DeprecatedAngleFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -1179,7 +1179,7 @@
           }
         },
         {
-          "type":"AngleFeature",
+          "type":"DeprecatedAngleFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -1205,7 +1205,7 @@
           }
         },
         {
-          "type":"AngleFeature",
+          "type":"DeprecatedAngleFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -1231,7 +1231,7 @@
           }
         },
         {
-          "type":"AngleFeature",
+          "type":"DeprecatedAngleFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -1326,7 +1326,7 @@
       "healthPoints":6.0,
       "features":[
         {
-          "type":"SpeedFeature",
+          "type":"DeprecatedSpeedFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -1373,7 +1373,7 @@
           }
         },
         {
-          "type":"AngleFeature",
+          "type":"DeprecatedAngleFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -1402,7 +1402,7 @@
           }
         },
         {
-          "type":"SpeedFeature",
+          "type":"DeprecatedSpeedFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -1421,7 +1421,7 @@
           }
         },
         {
-          "type":"AngleFeature",
+          "type":"DeprecatedAngleFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -1454,7 +1454,7 @@
           }
         },
         {
-          "type":"AngleFeature",
+          "type":"DeprecatedAngleFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -1563,7 +1563,7 @@
       "healthPoints":3.0,
       "features":[
         {
-          "type":"SpriteFeature",
+          "type":"DeprecatedSpriteFeature",
           "conditions":[
           ],
           "data":{
@@ -1582,7 +1582,7 @@
           }
         },
         {
-          "type":"AngleFeature",
+          "type":"DeprecatedAngleFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -1601,7 +1601,7 @@
           }
         },
         {
-          "type":"AngleFeature",
+          "type":"DeprecatedAngleFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -1662,7 +1662,7 @@
           }
         },
         {
-          "type":"AngleFeature",
+          "type":"DeprecatedAngleFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -1688,7 +1688,7 @@
           }
         },
         {
-          "type":"AngleFeature",
+          "type":"DeprecatedAngleFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -1749,7 +1749,7 @@
           }
         },
         {
-          "type":"AngleFeature",
+          "type":"DeprecatedAngleFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -1775,7 +1775,7 @@
           }
         },
         {
-          "type":"AngleFeature",
+          "type":"DeprecatedAngleFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -1869,7 +1869,7 @@
       "healthPoints":3.0,
       "features":[
         {
-          "type":"SpriteFeature",
+          "type":"DeprecatedSpriteFeature",
           "conditions":[
           ],
           "data":{
@@ -1888,7 +1888,7 @@
           }
         },
         {
-          "type":"AngleFeature",
+          "type":"DeprecatedAngleFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -1907,7 +1907,7 @@
           }
         },
         {
-          "type":"AngleFeature",
+          "type":"DeprecatedAngleFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -1968,7 +1968,7 @@
           }
         },
         {
-          "type":"AngleFeature",
+          "type":"DeprecatedAngleFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -1994,7 +1994,7 @@
           }
         },
         {
-          "type":"AngleFeature",
+          "type":"DeprecatedAngleFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -2055,7 +2055,7 @@
           }
         },
         {
-          "type":"AngleFeature",
+          "type":"DeprecatedAngleFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -2081,7 +2081,7 @@
           }
         },
         {
-          "type":"AngleFeature",
+          "type":"DeprecatedAngleFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -2176,7 +2176,7 @@
       "healthPoints":4.0,
       "features":[
         {
-          "type":"SpriteFeature",
+          "type":"DeprecatedSpriteFeature",
           "conditions":[
           ],
           "data":{
@@ -2195,7 +2195,7 @@
           }
         },
         {
-          "type":"AngleFeature",
+          "type":"DeprecatedAngleFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -2254,7 +2254,7 @@
           }
         },
         {
-          "type":"AngleFeature",
+          "type":"DeprecatedAngleFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -2280,7 +2280,7 @@
           }
         },
         {
-          "type":"AngleFeature",
+          "type":"DeprecatedAngleFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -2306,7 +2306,7 @@
           }
         },
         {
-          "type":"AngleFeature",
+          "type":"DeprecatedAngleFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -2408,7 +2408,7 @@
       "healthPoints":4.0,
       "features":[
         {
-          "type":"SpriteFeature",
+          "type":"DeprecatedSpriteFeature",
           "conditions":[
           ],
           "data":{
@@ -2427,7 +2427,7 @@
           }
         },
         {
-          "type":"AngleFeature",
+          "type":"DeprecatedAngleFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -2486,7 +2486,7 @@
           }
         },
         {
-          "type":"AngleFeature",
+          "type":"DeprecatedAngleFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -2512,7 +2512,7 @@
           }
         },
         {
-          "type":"AngleFeature",
+          "type":"DeprecatedAngleFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -2538,7 +2538,7 @@
           }
         },
         {
-          "type":"AngleFeature",
+          "type":"DeprecatedAngleFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -2640,7 +2640,7 @@
       "healthPoints":4.0,
       "features":[
         {
-          "type":"AngleFeature",
+          "type":"DeprecatedAngleFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -2666,7 +2666,7 @@
           }
         },
         {
-          "type":"AngleFeature",
+          "type":"DeprecatedAngleFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -2692,7 +2692,7 @@
           }
         },
         {
-          "type":"AngleFeature",
+          "type":"DeprecatedAngleFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -2718,7 +2718,7 @@
           }
         },
         {
-          "type":"AngleFeature",
+          "type":"DeprecatedAngleFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -2819,7 +2819,7 @@
       "healthPoints":3.0,
       "features":[
         {
-          "type":"SpriteFeature",
+          "type":"DeprecatedSpriteFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -2852,7 +2852,7 @@
           }
         },
         {
-          "type":"SpriteFeature",
+          "type":"DeprecatedSpriteFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -2885,7 +2885,7 @@
           }
         },
         {
-          "type":"SpeedFeature",
+          "type":"DeprecatedSpeedFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -2969,7 +2969,7 @@
           }
         },
         {
-          "type":"AngleFeature",
+          "type":"DeprecatedAngleFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -2999,7 +2999,7 @@
           }
         },
         {
-          "type":"SpeedFeature",
+          "type":"DeprecatedSpeedFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -3094,7 +3094,7 @@
       "healthPoints":1.0,
       "features":[
         {
-          "type":"SpeedFeature",
+          "type":"DeprecatedSpeedFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -3118,7 +3118,7 @@
           }
         },
         {
-          "type":"AngleFeature",
+          "type":"DeprecatedAngleFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -3136,7 +3136,7 @@
           }
         },
         {
-          "type":"SpeedFeature",
+          "type":"DeprecatedSpeedFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -3223,7 +3223,7 @@
       "healthPoints":1.0,
       "features":[
         {
-          "type":"SpeedFeature",
+          "type":"DeprecatedSpeedFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -3247,7 +3247,7 @@
           }
         },
         {
-          "type":"AngleFeature",
+          "type":"DeprecatedAngleFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -3265,7 +3265,7 @@
           }
         },
         {
-          "type":"SpeedFeature",
+          "type":"DeprecatedSpeedFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -3352,7 +3352,7 @@
       "healthPoints":3.0,
       "features":[
         {
-          "type":"SpriteFeature",
+          "type":"DeprecatedSpriteFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -3385,7 +3385,7 @@
           }
         },
         {
-          "type":"SpriteFeature",
+          "type":"DeprecatedSpriteFeature",
           "conditions":[
           ],
           "data":{
@@ -3397,7 +3397,7 @@
           }
         },
         {
-          "type":"AngleFeature",
+          "type":"DeprecatedAngleFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -3484,7 +3484,7 @@
       "healthPoints":3.0,
       "features":[
         {
-          "type":"SpriteFeature",
+          "type":"DeprecatedSpriteFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -3508,7 +3508,7 @@
           }
         },
         {
-          "type":"AngleFeature",
+          "type":"DeprecatedAngleFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -3562,7 +3562,7 @@
           }
         },
         {
-          "type":"SpriteFeature",
+          "type":"DeprecatedSpriteFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -3593,7 +3593,7 @@
           }
         },
         {
-          "type":"AngleFeature",
+          "type":"DeprecatedAngleFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -3647,7 +3647,7 @@
           }
         },
         {
-          "type":"SpriteFeature",
+          "type":"DeprecatedSpriteFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -3678,7 +3678,7 @@
           }
         },
         {
-          "type":"AngleFeature",
+          "type":"DeprecatedAngleFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -3732,7 +3732,7 @@
           }
         },
         {
-          "type":"SpriteFeature",
+          "type":"DeprecatedSpriteFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -3763,7 +3763,7 @@
           }
         },
         {
-          "type":"AngleFeature",
+          "type":"DeprecatedAngleFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -3817,7 +3817,7 @@
           }
         },
         {
-          "type":"SpriteFeature",
+          "type":"DeprecatedSpriteFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -3843,7 +3843,7 @@
           }
         },
         {
-          "type":"AngleFeature",
+          "type":"DeprecatedAngleFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -3953,7 +3953,7 @@
       "healthPoints":3.0,
       "features":[
         {
-          "type":"SpriteFeature",
+          "type":"DeprecatedSpriteFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -3986,7 +3986,7 @@
           }
         },
         {
-          "type":"SpriteFeature",
+          "type":"DeprecatedSpriteFeature",
           "conditions":[
           ],
           "data":{
@@ -3998,7 +3998,7 @@
           }
         },
         {
-          "type":"AngleFeature",
+          "type":"DeprecatedAngleFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -4085,7 +4085,7 @@
       "healthPoints":3.0,
       "features":[
         {
-          "type":"SpriteFeature",
+          "type":"DeprecatedSpriteFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -4109,7 +4109,7 @@
           }
         },
         {
-          "type":"AngleFeature",
+          "type":"DeprecatedAngleFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -4134,7 +4134,7 @@
           }
         },
         {
-          "type":"SpriteFeature",
+          "type":"DeprecatedSpriteFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -4165,7 +4165,7 @@
           }
         },
         {
-          "type":"AngleFeature",
+          "type":"DeprecatedAngleFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -4190,7 +4190,7 @@
           }
         },
         {
-          "type":"SpriteFeature",
+          "type":"DeprecatedSpriteFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -4221,7 +4221,7 @@
           }
         },
         {
-          "type":"AngleFeature",
+          "type":"DeprecatedAngleFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -4246,7 +4246,7 @@
           }
         },
         {
-          "type":"SpriteFeature",
+          "type":"DeprecatedSpriteFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -4277,7 +4277,7 @@
           }
         },
         {
-          "type":"AngleFeature",
+          "type":"DeprecatedAngleFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -4302,7 +4302,7 @@
           }
         },
         {
-          "type":"SpriteFeature",
+          "type":"DeprecatedSpriteFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -4328,7 +4328,7 @@
           }
         },
         {
-          "type":"AngleFeature",
+          "type":"DeprecatedAngleFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -4438,7 +4438,7 @@
       "healthPoints":2.0,
       "features":[
         {
-          "type":"SpriteFeature",
+          "type":"DeprecatedSpriteFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -4471,7 +4471,7 @@
           }
         },
         {
-          "type":"SpriteFeature",
+          "type":"DeprecatedSpriteFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -4500,7 +4500,7 @@
           }
         },
         {
-          "type":"SpeedFeature",
+          "type":"DeprecatedSpeedFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -4524,7 +4524,7 @@
           }
         },
         {
-          "type":"AngleFeature",
+          "type":"DeprecatedAngleFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -4555,7 +4555,7 @@
           }
         },
         {
-          "type":"AngleFeature",
+          "type":"DeprecatedAngleFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -4586,7 +4586,7 @@
           }
         },
         {
-          "type":"AngleFeature",
+          "type":"DeprecatedAngleFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -4620,7 +4620,7 @@
           }
         },
         {
-          "type":"SpeedFeature",
+          "type":"DeprecatedSpeedFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -4717,7 +4717,7 @@
       "healthPoints":3.0,
       "features":[
         {
-          "type":"SpriteFeature",
+          "type":"DeprecatedSpriteFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -4741,7 +4741,7 @@
           }
         },
         {
-          "type":"AngleFeature",
+          "type":"DeprecatedAngleFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -4766,7 +4766,7 @@
           }
         },
         {
-          "type":"SpriteFeature",
+          "type":"DeprecatedSpriteFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -4797,7 +4797,7 @@
           }
         },
         {
-          "type":"AngleFeature",
+          "type":"DeprecatedAngleFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -4822,7 +4822,7 @@
           }
         },
         {
-          "type":"SpriteFeature",
+          "type":"DeprecatedSpriteFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -4853,7 +4853,7 @@
           }
         },
         {
-          "type":"AngleFeature",
+          "type":"DeprecatedAngleFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -4878,7 +4878,7 @@
           }
         },
         {
-          "type":"SpriteFeature",
+          "type":"DeprecatedSpriteFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -4909,7 +4909,7 @@
           }
         },
         {
-          "type":"AngleFeature",
+          "type":"DeprecatedAngleFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -4934,7 +4934,7 @@
           }
         },
         {
-          "type":"SpriteFeature",
+          "type":"DeprecatedSpriteFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -4960,7 +4960,7 @@
           }
         },
         {
-          "type":"AngleFeature",
+          "type":"DeprecatedAngleFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -5070,7 +5070,7 @@
       "healthPoints":2.0,
       "features":[
         {
-          "type":"SpriteFeature",
+          "type":"DeprecatedSpriteFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -5103,7 +5103,7 @@
           }
         },
         {
-          "type":"SpriteFeature",
+          "type":"DeprecatedSpriteFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -5235,7 +5235,7 @@
       "healthPoints":3.0,
       "features":[
         {
-          "type":"SpriteFeature",
+          "type":"DeprecatedSpriteFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -5259,7 +5259,7 @@
           }
         },
         {
-          "type":"AngleFeature",
+          "type":"DeprecatedAngleFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -5313,7 +5313,7 @@
           }
         },
         {
-          "type":"SpriteFeature",
+          "type":"DeprecatedSpriteFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -5344,7 +5344,7 @@
           }
         },
         {
-          "type":"AngleFeature",
+          "type":"DeprecatedAngleFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -5398,7 +5398,7 @@
           }
         },
         {
-          "type":"SpriteFeature",
+          "type":"DeprecatedSpriteFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -5429,7 +5429,7 @@
           }
         },
         {
-          "type":"AngleFeature",
+          "type":"DeprecatedAngleFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -5483,7 +5483,7 @@
           }
         },
         {
-          "type":"SpriteFeature",
+          "type":"DeprecatedSpriteFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -5514,7 +5514,7 @@
           }
         },
         {
-          "type":"AngleFeature",
+          "type":"DeprecatedAngleFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -5568,7 +5568,7 @@
           }
         },
         {
-          "type":"SpriteFeature",
+          "type":"DeprecatedSpriteFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -5594,7 +5594,7 @@
           }
         },
         {
-          "type":"AngleFeature",
+          "type":"DeprecatedAngleFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -5704,7 +5704,7 @@
       "healthPoints":1.0,
       "features":[
         {
-          "type":"SpriteFeature",
+          "type":"DeprecatedSpriteFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -5737,7 +5737,7 @@
           }
         },
         {
-          "type":"SpriteFeature",
+          "type":"DeprecatedSpriteFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -5876,7 +5876,7 @@
       "healthPoints":1.0,
       "features":[
         {
-          "type":"AngleFeature",
+          "type":"DeprecatedAngleFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -5929,7 +5929,7 @@
           }
         },
         {
-          "type":"AngleFeature",
+          "type":"DeprecatedAngleFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -5982,7 +5982,7 @@
           }
         },
         {
-          "type":"AngleFeature",
+          "type":"DeprecatedAngleFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -6085,7 +6085,7 @@
       "healthPoints":1.0,
       "features":[
         {
-          "type":"AngleFeature",
+          "type":"DeprecatedAngleFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -6138,7 +6138,7 @@
           }
         },
         {
-          "type":"AngleFeature",
+          "type":"DeprecatedAngleFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -6191,7 +6191,7 @@
           }
         },
         {
-          "type":"AngleFeature",
+          "type":"DeprecatedAngleFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -6292,7 +6292,7 @@
       "healthPoints":5.0,
       "features":[
         {
-          "type":"SpriteFeature",
+          "type":"DeprecatedSpriteFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -6316,7 +6316,7 @@
           }
         },
         {
-          "type":"SpriteFeature",
+          "type":"DeprecatedSpriteFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -6342,7 +6342,7 @@
           }
         },
         {
-          "type":"SpriteFeature",
+          "type":"DeprecatedSpriteFeature",
           "conditions":[
           ],
           "data":{
@@ -6443,7 +6443,7 @@
       "healthPoints":2.0,
       "features":[
         {
-          "type":"SpriteFeature",
+          "type":"DeprecatedSpriteFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -6476,7 +6476,7 @@
           }
         },
         {
-          "type":"SpriteFeature",
+          "type":"DeprecatedSpriteFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -6509,7 +6509,7 @@
           }
         },
         {
-          "type":"SpeedFeature",
+          "type":"DeprecatedSpeedFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -6552,7 +6552,7 @@
           }
         },
         {
-          "type":"AngleFeature",
+          "type":"DeprecatedAngleFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -6583,7 +6583,7 @@
           }
         },
         {
-          "type":"AngleFeature",
+          "type":"DeprecatedAngleFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -6614,7 +6614,7 @@
           }
         },
         {
-          "type":"SpeedFeature",
+          "type":"DeprecatedSpeedFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -6719,7 +6719,7 @@
       "healthPoints":5.0,
       "features":[
         {
-          "type":"SpeedFeature",
+          "type":"DeprecatedSpeedFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -6895,7 +6895,7 @@
           }
         },
         {
-          "type":"AngleFeature",
+          "type":"DeprecatedAngleFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -6913,7 +6913,7 @@
           }
         },
         {
-          "type":"SpeedFeature",
+          "type":"DeprecatedSpeedFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -7008,7 +7008,7 @@
       "healthPoints":1.0,
       "features":[
         {
-          "type":"AngleFeature",
+          "type":"DeprecatedAngleFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -7027,7 +7027,7 @@
           }
         },
         {
-          "type":"AngleFeature",
+          "type":"DeprecatedAngleFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -7053,7 +7053,7 @@
           }
         },
         {
-          "type":"AngleFeature",
+          "type":"DeprecatedAngleFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -7079,7 +7079,7 @@
           }
         },
         {
-          "type":"AngleFeature",
+          "type":"DeprecatedAngleFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -7105,7 +7105,7 @@
           }
         },
         {
-          "type":"AngleFeature",
+          "type":"DeprecatedAngleFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -7131,7 +7131,7 @@
           }
         },
         {
-          "type":"AngleFeature",
+          "type":"DeprecatedAngleFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -7226,7 +7226,7 @@
       "healthPoints":4.0,
       "features":[
         {
-          "type":"AngleFeature",
+          "type":"DeprecatedAngleFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -7252,7 +7252,7 @@
           }
         },
         {
-          "type":"AngleFeature",
+          "type":"DeprecatedAngleFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -7278,7 +7278,7 @@
           }
         },
         {
-          "type":"AngleFeature",
+          "type":"DeprecatedAngleFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -7304,7 +7304,7 @@
           }
         },
         {
-          "type":"AngleFeature",
+          "type":"DeprecatedAngleFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -7405,7 +7405,7 @@
       "healthPoints":5.0,
       "features":[
         {
-          "type":"SpeedFeature",
+          "type":"DeprecatedSpeedFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -7446,7 +7446,7 @@
           }
         },
         {
-          "type":"AngleFeature",
+          "type":"DeprecatedAngleFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -7475,7 +7475,7 @@
           }
         },
         {
-          "type":"SpeedFeature",
+          "type":"DeprecatedSpeedFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -7494,7 +7494,7 @@
           }
         },
         {
-          "type":"AngleFeature",
+          "type":"DeprecatedAngleFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -7527,7 +7527,7 @@
           }
         },
         {
-          "type":"AngleFeature",
+          "type":"DeprecatedAngleFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -7636,7 +7636,7 @@
       "healthPoints":8.0,
       "features":[
         {
-          "type":"SpriteFeature",
+          "type":"DeprecatedSpriteFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -7669,7 +7669,7 @@
           }
         },
         {
-          "type":"SpriteFeature",
+          "type":"DeprecatedSpriteFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -7702,7 +7702,7 @@
           }
         },
         {
-          "type":"SpeedFeature",
+          "type":"DeprecatedSpeedFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -7760,7 +7760,7 @@
           }
         },
         {
-          "type":"AngleFeature",
+          "type":"DeprecatedAngleFeature",
           "conditions":[
             {
               "type":"lifespan",
@@ -7779,7 +7779,7 @@
           }
         },
         {
-          "type":"SpeedFeature",
+          "type":"DeprecatedSpeedFeature",
           "conditions":[
             {
               "type":"lifespan",

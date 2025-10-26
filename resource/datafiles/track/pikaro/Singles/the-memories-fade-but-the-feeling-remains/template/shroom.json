@@ -280,7 +280,7 @@
               "target":-15.0
             }
           },
-          "type":"SpeedFeature"
+          "type":"DeprecatedSpeedFeature"
         },
         {
           "conditions":[
@@ -300,7 +300,7 @@
               "target":-0.20000000000000001
             }
           },
-          "type":"SpeedFeature"
+          "type":"DeprecatedSpeedFeature"
         },
         {
           "conditions":[
@@ -320,7 +320,7 @@
               "target":180.0
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         },
         {
           "conditions":[
@@ -500,7 +500,7 @@
               }
             }
           },
-          "type":"SpriteFeature"
+          "type":"DeprecatedSpriteFeature"
         },
         {
           "conditions":[
@@ -520,7 +520,7 @@
               "target":60.0
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         },
         {
           "conditions":[
@@ -540,7 +540,7 @@
               "target":-60.0
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         }
       ],
       "name":"pikaro-1-r",
@@ -607,7 +607,7 @@
               }
             }
           },
-          "type":"SpriteFeature"
+          "type":"DeprecatedSpriteFeature"
         },
         {
           "conditions":[
@@ -627,7 +627,7 @@
               "target":-60.0
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         },
         {
           "conditions":[
@@ -647,7 +647,7 @@
               "target":60.0
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         }
       ],
       "name":"pikaro-1-l",
@@ -714,7 +714,7 @@
               }
             }
           },
-          "type":"SpriteFeature"
+          "type":"DeprecatedSpriteFeature"
         },
         {
           "conditions":[
@@ -734,7 +734,7 @@
               "target":-60.0
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         },
         {
           "conditions":[
@@ -754,7 +754,7 @@
               "target":60.0
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         },
         {
           "conditions":[
@@ -943,7 +943,7 @@
               }
             }
           },
-          "type":"SpriteFeature"
+          "type":"DeprecatedSpriteFeature"
         },
         {
           "conditions":[
@@ -968,7 +968,7 @@
               }
             }
           },
-          "type":"SpriteFeature"
+          "type":"DeprecatedSpriteFeature"
         },
         {
           "conditions":[
@@ -988,7 +988,7 @@
               "target":90.0
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         },
         {
           "conditions":[
@@ -1008,7 +1008,7 @@
               "target":-10.0
             }
           },
-          "type":"SpeedFeature"
+          "type":"DeprecatedSpeedFeature"
         },
         {
           "conditions":[
@@ -1028,7 +1028,7 @@
               "target":30.0
             }
           },
-          "type":"SpeedFeature"
+          "type":"DeprecatedSpeedFeature"
         }
       ],
       "name":"pikaro-intro-1-l",
@@ -1092,7 +1092,7 @@
               }
             }
           },
-          "type":"SpriteFeature"
+          "type":"DeprecatedSpriteFeature"
         },
         {
           "conditions":[
@@ -1112,7 +1112,7 @@
               "target":-179.0
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         },
         {
           "conditions":[
@@ -1132,7 +1132,7 @@
               "target":0.0
             }
           },
-          "type":"SpeedFeature"
+          "type":"DeprecatedSpeedFeature"
         }
       ],
       "name":"pikaro-3-l",
@@ -1310,7 +1310,7 @@
               }
             }
           },
-          "type":"SpriteFeature"
+          "type":"DeprecatedSpriteFeature"
         },
         {
           "conditions":[
@@ -1330,7 +1330,7 @@
               "target":180.0
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         },
         {
           "conditions":[
@@ -1350,7 +1350,7 @@
               "target":0.0
             }
           },
-          "type":"SpeedFeature"
+          "type":"DeprecatedSpeedFeature"
         }
       ],
       "name":"pikaro-3-r",
@@ -1417,7 +1417,7 @@
               }
             }
           },
-          "type":"SpriteFeature"
+          "type":"DeprecatedSpriteFeature"
         },
         {
           "conditions":[
@@ -1437,7 +1437,7 @@
               "target":15.0
             }
           },
-          "type":"SpeedFeature"
+          "type":"DeprecatedSpeedFeature"
         }
       ],
       "name":"pikaro-4-l",
@@ -1510,7 +1510,7 @@
               }
             }
           },
-          "type":"SpriteFeature"
+          "type":"DeprecatedSpriteFeature"
         },
         {
           "conditions":[
@@ -1542,7 +1542,7 @@
               }
             }
           },
-          "type":"SpriteFeature"
+          "type":"DeprecatedSpriteFeature"
         },
         {
           "conditions":[
@@ -1567,7 +1567,7 @@
               }
             }
           },
-          "type":"SpriteFeature"
+          "type":"DeprecatedSpriteFeature"
         },
         {
           "conditions":[
@@ -1603,7 +1603,7 @@
               "target":-20.0
             }
           },
-          "type":"SpeedFeature"
+          "type":"DeprecatedSpeedFeature"
         },
         {
           "conditions":[
@@ -1623,7 +1623,7 @@
               "target":20.0
             }
           },
-          "type":"SpeedFeature"
+          "type":"DeprecatedSpeedFeature"
         },
         {
           "conditions":[
@@ -1784,7 +1784,7 @@
               }
             }
           },
-          "type":"SpriteFeature"
+          "type":"DeprecatedSpriteFeature"
         },
         {
           "conditions":[
@@ -1804,7 +1804,7 @@
               "target":60.0
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         },
         {
           "conditions":[
@@ -1824,7 +1824,7 @@
               "target":-60.0
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         },
         {
           "conditions":[
@@ -2013,7 +2013,7 @@
               }
             }
           },
-          "type":"SpriteFeature"
+          "type":"DeprecatedSpriteFeature"
         },
         {
           "conditions":[
@@ -2038,7 +2038,7 @@
               }
             }
           },
-          "type":"SpriteFeature"
+          "type":"DeprecatedSpriteFeature"
         },
         {
           "conditions":[
@@ -2058,7 +2058,7 @@
               "target":-90.0
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         },
         {
           "conditions":[
@@ -2078,7 +2078,7 @@
               "target":-10.0
             }
           },
-          "type":"SpeedFeature"
+          "type":"DeprecatedSpeedFeature"
         },
         {
           "conditions":[
@@ -2098,7 +2098,7 @@
               "target":30.0
             }
           },
-          "type":"SpeedFeature"
+          "type":"DeprecatedSpeedFeature"
         }
       ],
       "name":"pikaro-intro-1-r",
@@ -2222,7 +2222,7 @@
               }
             }
           },
-          "type":"SpriteFeature"
+          "type":"DeprecatedSpriteFeature"
         },
         {
           "conditions":[
@@ -2242,7 +2242,7 @@
               "target":15.0
             }
           },
-          "type":"SpeedFeature"
+          "type":"DeprecatedSpeedFeature"
         }
       ],
       "name":"pikaro-4-r",

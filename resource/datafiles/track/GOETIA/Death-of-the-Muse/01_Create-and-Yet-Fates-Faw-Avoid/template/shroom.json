@@ -44,7 +44,7 @@
             }
           },
           "timer":3.0,
-          "type":"SpriteFeature"
+          "type":"DeprecatedSpriteFeature"
         },
         {
           "data":{
@@ -90,7 +90,7 @@
             }
           },
           "timer":12.0,
-          "type":"SpriteFeature"
+          "type":"DeprecatedSpriteFeature"
         }
       ],
       "hostile":true,

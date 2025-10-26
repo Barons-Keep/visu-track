@@ -144,7 +144,7 @@
               }
             }
           },
-          "type":"SpriteFeature"
+          "type":"DeprecatedSpriteFeature"
         },
         {
           "conditions":[
@@ -164,7 +164,7 @@
               "duration":4.3200000000000003
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         },
         {
           "conditions":[
@@ -184,7 +184,7 @@
               "duration":1.0800000000000001
             }
           },
-          "type":"SpeedFeature"
+          "type":"DeprecatedSpeedFeature"
         }
       ],
       "mask":{
@@ -255,7 +255,7 @@
               }
             }
           },
-          "type":"SpriteFeature"
+          "type":"DeprecatedSpriteFeature"
         },
         {
           "conditions":[
@@ -275,7 +275,7 @@
               "duration":2.1600000000000001
             }
           },
-          "type":"SpeedFeature"
+          "type":"DeprecatedSpeedFeature"
         }
       ],
       "mask":{
@@ -352,7 +352,7 @@
               }
             }
           },
-          "type":"SpriteFeature"
+          "type":"DeprecatedSpriteFeature"
         },
         {
           "conditions":[
@@ -384,7 +384,7 @@
               }
             }
           },
-          "type":"SpriteFeature"
+          "type":"DeprecatedSpriteFeature"
         },
         {
           "conditions":[
@@ -409,7 +409,7 @@
               }
             }
           },
-          "type":"SpriteFeature"
+          "type":"DeprecatedSpriteFeature"
         },
         {
           "conditions":[
@@ -445,7 +445,7 @@
               "duration":1.0800000000000001
             }
           },
-          "type":"SpeedFeature"
+          "type":"DeprecatedSpeedFeature"
         },
         {
           "conditions":[
@@ -465,7 +465,7 @@
               "duration":4.3200000000000003
             }
           },
-          "type":"SpeedFeature"
+          "type":"DeprecatedSpeedFeature"
         },
         {
           "conditions":[
@@ -630,7 +630,7 @@
               }
             }
           },
-          "type":"SpriteFeature"
+          "type":"DeprecatedSpriteFeature"
         },
         {
           "conditions":[
@@ -650,7 +650,7 @@
               "duration":2.1600000000000001
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         },
         {
           "conditions":[
@@ -670,7 +670,7 @@
               "duration":2.1600000000000001
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         },
         {
           "conditions":[
@@ -863,7 +863,7 @@
               }
             }
           },
-          "type":"SpriteFeature"
+          "type":"DeprecatedSpriteFeature"
         },
         {
           "conditions":[
@@ -888,7 +888,7 @@
               }
             }
           },
-          "type":"SpriteFeature"
+          "type":"DeprecatedSpriteFeature"
         },
         {
           "conditions":[
@@ -908,7 +908,7 @@
               "duration":0.5
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         },
         {
           "conditions":[
@@ -928,7 +928,7 @@
               "duration":2.0
             }
           },
-          "type":"SpeedFeature"
+          "type":"DeprecatedSpeedFeature"
         },
         {
           "conditions":[
@@ -948,7 +948,7 @@
               "duration":2.0
             }
           },
-          "type":"SpeedFeature"
+          "type":"DeprecatedSpeedFeature"
         }
       ],
       "mask":{
@@ -1080,7 +1080,7 @@
               }
             }
           },
-          "type":"SpriteFeature"
+          "type":"DeprecatedSpriteFeature"
         },
         {
           "conditions":[
@@ -1100,7 +1100,7 @@
               "duration":2.1600000000000001
             }
           },
-          "type":"SpeedFeature"
+          "type":"DeprecatedSpeedFeature"
         }
       ],
       "mask":{
@@ -1545,7 +1545,7 @@
               "duration":3.1600000000000001
             }
           },
-          "type":"SpeedFeature"
+          "type":"DeprecatedSpeedFeature"
         },
         {
           "conditions":[
@@ -1565,7 +1565,7 @@
               "duration":2.1600000000000001
             }
           },
-          "type":"SpeedFeature"
+          "type":"DeprecatedSpeedFeature"
         },
         {
           "conditions":[
@@ -1585,7 +1585,7 @@
               "duration":1.0
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         },
         {
           "conditions":[
@@ -1780,7 +1780,7 @@
               }
             }
           },
-          "type":"SpriteFeature"
+          "type":"DeprecatedSpriteFeature"
         },
         {
           "conditions":[
@@ -1800,7 +1800,7 @@
               "duration":2.1600000000000001
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         },
         {
           "conditions":[
@@ -1820,7 +1820,7 @@
               "duration":2.1600000000000001
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         }
       ],
       "mask":{
@@ -1891,7 +1891,7 @@
               }
             }
           },
-          "type":"SpriteFeature"
+          "type":"DeprecatedSpriteFeature"
         },
         {
           "conditions":[
@@ -1911,7 +1911,7 @@
               "duration":2.1600000000000001
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         },
         {
           "conditions":[
@@ -1931,7 +1931,7 @@
               "duration":2.1600000000000001
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         }
       ],
       "mask":{
@@ -2002,7 +2002,7 @@
               }
             }
           },
-          "type":"SpriteFeature"
+          "type":"DeprecatedSpriteFeature"
         },
         {
           "conditions":[
@@ -2022,7 +2022,7 @@
               "duration":2.1600000000000001
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         },
         {
           "conditions":[
@@ -2042,7 +2042,7 @@
               "duration":2.1600000000000001
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         },
         {
           "conditions":[
@@ -2235,7 +2235,7 @@
               }
             }
           },
-          "type":"SpriteFeature"
+          "type":"DeprecatedSpriteFeature"
         },
         {
           "conditions":[
@@ -2260,7 +2260,7 @@
               }
             }
           },
-          "type":"SpriteFeature"
+          "type":"DeprecatedSpriteFeature"
         },
         {
           "conditions":[
@@ -2280,7 +2280,7 @@
               "duration":0.5
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         },
         {
           "conditions":[
@@ -2300,7 +2300,7 @@
               "duration":2.0
             }
           },
-          "type":"SpeedFeature"
+          "type":"DeprecatedSpeedFeature"
         },
         {
           "conditions":[
@@ -2320,7 +2320,7 @@
               "duration":2.0
             }
           },
-          "type":"SpeedFeature"
+          "type":"DeprecatedSpeedFeature"
         }
       ],
       "mask":{
@@ -2388,7 +2388,7 @@
               }
             }
           },
-          "type":"SpriteFeature"
+          "type":"DeprecatedSpriteFeature"
         },
         {
           "conditions":[
@@ -2408,7 +2408,7 @@
               "duration":4.3200000000000003
             }
           },
-          "type":"AngleFeature"
+          "type":"DeprecatedAngleFeature"
         },
         {
           "conditions":[
@@ -2428,7 +2428,7 @@
               "duration":1.0800000000000001
             }
           },
-          "type":"SpeedFeature"
+          "type":"DeprecatedSpeedFeature"
         }
       ],
       "mask":{
