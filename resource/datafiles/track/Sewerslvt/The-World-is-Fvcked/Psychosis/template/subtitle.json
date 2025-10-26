@@ -1,13 +1,6 @@
 {
-  "version":"1",
   "model":"Collection<io.alkapivo.visu.service.subtitle.SubtitleTemplate>",
   "data":{
-    "subtitle_sewerslvt":{
-      "lines":[
-        "Sewerslvt",
-        ""
-      ]
-    },
     "subtitle_schnoopy":{
       "lines":[
         "Schnoopy",
@@ -31,6 +24,13 @@
         "",
         "Destination Unknown"
       ]
+    },
+    "subtitle_sewerslvt":{
+      "lines":[
+        "Sewerslvt",
+        ""
+      ]
     }
-  }
+  },
+  "version":"1"
 }

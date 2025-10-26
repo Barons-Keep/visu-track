@@ -1,58 +1,58 @@
 {
-  "version":"1",
   "model":"Collection<io.alkapivo.visu.service.coin.CoinTemplate>",
   "data":{
     "coin-point-5":{
-      "mask":null,
-      "category":"point",
+      "name":"coin-point-5",
       "useSpeed":false,
       "changeSpeed":false,
+      "sprite":{
+        "name":"texture_coin_point",
+        "angle":0.0,
+        "scaleX":6.5,
+        "scaleY":6.5,
+        "alpha":1.0,
+        "speed":30.0,
+        "blend":"#FFFFFF",
+        "randomFrame":false,
+        "frame":0.0,
+        "animate":false
+      },
       "speed":{
-        "value":-2.7999999999999998,
         "factor":0.059999999999999998,
+        "value":-2.7999999999999998,
         "target":2.2000000000000002,
         "increase":0.0
       },
-      "amount":5.0,
-      "name":"coin-point-5",
-      "sprite":{
-        "randomFrame":false,
-        "frame":0.0,
-        "blend":"#FFFFFF",
-        "scaleX":6.5,
-        "scaleY":6.5,
-        "angle":0.0,
-        "speed":30.0,
-        "alpha":1.0,
-        "name":"texture_coin_point",
-        "animate":false
-      }
+      "category":"point",
+      "mask":null,
+      "amount":5.0
     },
     "coin-force-5":{
-      "mask":null,
-      "category":"force",
+      "name":"coin-force-5",
       "useSpeed":false,
       "changeSpeed":false,
+      "sprite":{
+        "name":"texture_coin_force",
+        "angle":0.0,
+        "scaleX":6.5,
+        "scaleY":6.5,
+        "alpha":1.0,
+        "speed":30.0,
+        "blend":"#FFFFFF",
+        "randomFrame":false,
+        "frame":0.0,
+        "animate":false
+      },
       "speed":{
-        "value":-3.5,
         "factor":0.050000000000000003,
+        "value":-3.5,
         "target":2.25,
         "increase":0.0
       },
-      "amount":5.0,
-      "name":"coin-force-5",
-      "sprite":{
-        "randomFrame":false,
-        "frame":0.0,
-        "blend":"#FFFFFF",
-        "scaleX":6.5,
-        "scaleY":6.5,
-        "angle":0.0,
-        "speed":30.0,
-        "alpha":1.0,
-        "name":"texture_coin_force",
-        "animate":false
-      }
+      "category":"force",
+      "mask":null,
+      "amount":5.0
     }
-  }
+  },
+  "version":"1"
 }

@@ -1,81 +1,12 @@
 {
-  "version":"1",
   "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>",
   "data":[
     {
-      "type":"brush_entity_shroom",
-      "color":"#0000FF",
-      "texture":"texture_baron",
-      "hidden":false,
       "name":"emitter-L-",
+      "type":"brush_entity_shroom",
+      "texture":"texture_baron",
+      "color":"#0000FF",
       "properties":{
-        "en-shr_dir":337.0,
-        "en-shr_dir-rng":0.0,
-        "en-shr_em-amount":24.0,
-        "en-shr_em-angle":{
-          "value":0.0,
-          "increase":0.0,
-          "duration":7.0,
-          "factor":0.0,
-          "ease":"LINEAR",
-          "target":-90.0
-        },
-        "en-shr_em-angle-rng":0.0,
-        "en-shr_em-angle-step":0.0,
-        "en-shr_em-arrays":1.0,
-        "en-shr_em-change-angle":true,
-        "en-shr_em-change-offset-x":true,
-        "en-shr_em-change-offset-y":true,
-        "en-shr_em-change-per-array-dir":false,
-        "en-shr_em-change-spd":true,
-        "en-shr_em-duration":8.0,
-        "en-shr_em-offset-x":{
-          "value":50.0,
-          "increase":0.0,
-          "duration":7.0,
-          "factor":0.0,
-          "ease":"LINEAR",
-          "target":0.0
-        },
-        "en-shr_em-offset-y":{
-          "value":-50.0,
-          "increase":0.0,
-          "duration":7.0,
-          "factor":0.0,
-          "ease":"LINEAR",
-          "target":0.0
-        },
-        "en-shr_em-per-array":1.0,
-        "en-shr_em-per-array-dir":{
-          "value":0.0,
-          "increase":0.0,
-          "duration":0.0,
-          "factor":0.0,
-          "ease":"LEGACY",
-          "target":0.0
-        },
-        "en-shr_em-per-array-rng":0.0,
-        "en-shr_em-per-array-step":0.0,
-        "en-shr_em-spd":{
-          "value":0.0,
-          "increase":0.0,
-          "duration":7.0,
-          "factor":0.0,
-          "ease":"LINEAR",
-          "target":20.0
-        },
-        "en-shr_em-spd-rng":0.0,
-        "en-shr_em-use-angle":true,
-        "en-shr_em-use-angle-rng":false,
-        "en-shr_em-use-offset-x":true,
-        "en-shr_em-use-offset-y":true,
-        "en-shr_em-use-per-array-dir":false,
-        "en-shr_em-use-per-array-rng":false,
-        "en-shr_em-use-spd":true,
-        "en-shr_em-use-spd-rng":false,
-        "en-shr_hide":false,
-        "en-shr_hide-em":false,
-        "en-shr_hide-em-angle":false,
         "en-shr_hide-em-cfg":false,
         "en-shr_hide-em-offset-x":false,
         "en-shr_hide-em-offset-y":false,
@@ -88,10 +19,10 @@
         ],
         "en-shr_lifespan":15.0,
         "en-shr_mask":{
+          "width":0.0,
           "x":0.0,
           "y":0.0,
-          "height":0.0,
-          "width":0.0
+          "height":0.0
         },
         "en-shr_preview":true,
         "en-shr_rng-x":0.0,
@@ -99,26 +30,26 @@
         "en-shr_snap-x":true,
         "en-shr_snap-y":true,
         "en-shr_spawn-map":{
-          "file":"",
           "originX":12.0,
           "originY":26.0,
           "name":"texture_shroom_spawn_map",
-          "frames":1.0,
-          "prefetch":true
+          "file":"",
+          "prefetch":true,
+          "frames":1.0
         },
         "en-shr_spd":20.0,
         "en-shr_spd-grid":false,
         "en-shr_spd-rng":0.0,
         "en-shr_template":"baron-1-em",
         "en-shr_texture":{
-          "angle":0.0,
-          "randomFrame":false,
-          "alpha":1.0,
-          "blend":"#FFFFFF",
-          "speed":30.0,
-          "scaleX":1.0,
           "name":"texture_missing",
+          "angle":0.0,
+          "scaleX":1.0,
+          "alpha":1.0,
           "scaleY":1.0,
+          "speed":30.0,
+          "blend":"#FFFFFF",
+          "randomFrame":false,
           "frame":0.0,
           "animate":false
         },
@@ -133,22 +64,87 @@
         "en-shr_use-spd-rng":false,
         "en-shr_use-texture":false,
         "en-shr_x":-21.0,
-        "en-shr_y":-16.0
-      }
+        "en-shr_y":-16.0,
+        "en-shr_dir":337.0,
+        "en-shr_dir-rng":0.0,
+        "en-shr_em-amount":24.0,
+        "en-shr_em-angle":{
+          "duration":7.0,
+          "ease":"LINEAR",
+          "increase":0.0,
+          "factor":0.0,
+          "value":0.0,
+          "target":-90.0
+        },
+        "en-shr_em-angle-rng":0.0,
+        "en-shr_em-angle-step":0.0,
+        "en-shr_em-arrays":1.0,
+        "en-shr_em-change-angle":true,
+        "en-shr_em-change-offset-x":true,
+        "en-shr_em-change-offset-y":true,
+        "en-shr_em-change-per-array-dir":false,
+        "en-shr_em-change-spd":true,
+        "en-shr_em-duration":8.0,
+        "en-shr_em-offset-x":{
+          "duration":7.0,
+          "ease":"LINEAR",
+          "increase":0.0,
+          "factor":0.0,
+          "value":50.0,
+          "target":0.0
+        },
+        "en-shr_em-offset-y":{
+          "duration":7.0,
+          "ease":"LINEAR",
+          "increase":0.0,
+          "factor":0.0,
+          "value":-50.0,
+          "target":0.0
+        },
+        "en-shr_em-per-array":1.0,
+        "en-shr_em-per-array-dir":{
+          "duration":0.0,
+          "ease":"LEGACY",
+          "increase":0.0,
+          "factor":0.0,
+          "value":0.0,
+          "target":0.0
+        },
+        "en-shr_em-per-array-rng":0.0,
+        "en-shr_em-per-array-step":0.0,
+        "en-shr_em-spd":{
+          "duration":7.0,
+          "ease":"LINEAR",
+          "increase":0.0,
+          "factor":0.0,
+          "value":0.0,
+          "target":20.0
+        },
+        "en-shr_em-spd-rng":0.0,
+        "en-shr_em-use-angle":true,
+        "en-shr_em-use-angle-rng":false,
+        "en-shr_em-use-offset-x":true,
+        "en-shr_em-use-offset-y":true,
+        "en-shr_em-use-per-array-dir":false,
+        "en-shr_em-use-per-array-rng":false,
+        "en-shr_em-use-spd":true,
+        "en-shr_em-use-spd-rng":false,
+        "en-shr_hide":false,
+        "en-shr_hide-em":false,
+        "en-shr_hide-em-angle":false
+      },
+      "hidden":false
     },
     {
-      "type":"brush_entity_shroom",
-      "color":"#0000FF",
-      "texture":"texture_baron",
-      "hidden":false,
       "name":"baron-1-square-cw",
+      "type":"brush_entity_shroom",
+      "texture":"texture_baron",
+      "color":"#0000FF",
       "properties":{
+        "en-shr_use-rng-y":false,
         "en-shr_use-spd-rng":false,
         "en-shr_x":6.5,
         "en-shr_y":-8.5,
-        "icon":{
-          "name":"texture_baron"
-        },
         "en-shr_preview":true,
         "en-shr_rng-x":0.0,
         "en-shr_rng-y":0.0,
@@ -160,23 +156,23 @@
         "en-shr_use-dir-rng":false,
         "en-shr_dir":270.0,
         "en-shr_dir-rng":0.0,
-        "en-shr_use-rng-x":false,
-        "en-shr_use-rng-y":false
-      }
-    },
-    {
-      "type":"brush_entity_shroom",
-      "color":"#FF0000",
-      "texture":"texture_baron",
-      "hidden":false,
-      "name":"baron-1-square-ccw",
-      "properties":{
-        "en-shr_use-spd-rng":false,
-        "en-shr_x":-4.5,
-        "en-shr_y":-19.5,
         "icon":{
           "name":"texture_baron"
         },
+        "en-shr_use-rng-x":false
+      },
+      "hidden":false
+    },
+    {
+      "name":"baron-1-square-ccw",
+      "type":"brush_entity_shroom",
+      "texture":"texture_baron",
+      "color":"#FF0000",
+      "properties":{
+        "en-shr_use-rng-y":false,
+        "en-shr_use-spd-rng":false,
+        "en-shr_x":-4.5,
+        "en-shr_y":-19.5,
         "en-shr_preview":true,
         "en-shr_rng-x":0.0,
         "en-shr_rng-y":0.0,
@@ -188,23 +184,23 @@
         "en-shr_use-dir-rng":false,
         "en-shr_dir":270.0,
         "en-shr_dir-rng":0.0,
-        "en-shr_use-rng-x":false,
-        "en-shr_use-rng-y":false
-      }
-    },
-    {
-      "type":"brush_entity_shroom",
-      "color":"#FF0000",
-      "texture":"texture_baron",
-      "hidden":false,
-      "name":"baron-1-square-ccw-p4x10",
-      "properties":{
-        "en-shr_use-spd-rng":false,
-        "en-shr_x":-5.5,
-        "en-shr_y":-8.5,
         "icon":{
           "name":"texture_baron"
         },
+        "en-shr_use-rng-x":false
+      },
+      "hidden":false
+    },
+    {
+      "name":"baron-1-square-ccw-p4x10",
+      "type":"brush_entity_shroom",
+      "texture":"texture_baron",
+      "color":"#FF0000",
+      "properties":{
+        "en-shr_use-rng-y":false,
+        "en-shr_use-spd-rng":false,
+        "en-shr_x":-5.5,
+        "en-shr_y":-8.5,
         "en-shr_preview":true,
         "en-shr_rng-x":0.0,
         "en-shr_rng-y":0.0,
@@ -216,23 +212,23 @@
         "en-shr_use-dir-rng":false,
         "en-shr_dir":270.0,
         "en-shr_dir-rng":0.0,
-        "en-shr_use-rng-x":false,
-        "en-shr_use-rng-y":false
-      }
-    },
-    {
-      "type":"brush_entity_shroom",
-      "color":"#0000FF",
-      "texture":"texture_baron",
-      "hidden":false,
-      "name":"baron-1-square-cw-p4x10",
-      "properties":{
-        "en-shr_use-spd-rng":false,
-        "en-shr_x":7.5,
-        "en-shr_y":-10.5,
         "icon":{
           "name":"texture_baron"
         },
+        "en-shr_use-rng-x":false
+      },
+      "hidden":false
+    },
+    {
+      "name":"baron-1-square-cw-p4x10",
+      "type":"brush_entity_shroom",
+      "texture":"texture_baron",
+      "color":"#0000FF",
+      "properties":{
+        "en-shr_use-rng-y":false,
+        "en-shr_use-spd-rng":false,
+        "en-shr_x":7.5,
+        "en-shr_y":-10.5,
         "en-shr_preview":true,
         "en-shr_rng-x":0.0,
         "en-shr_rng-y":0.0,
@@ -244,23 +240,23 @@
         "en-shr_use-dir-rng":false,
         "en-shr_dir":270.0,
         "en-shr_dir-rng":0.0,
-        "en-shr_use-rng-x":false,
-        "en-shr_use-rng-y":false
-      }
-    },
-    {
-      "type":"brush_entity_shroom",
-      "color":"#FF00FF",
-      "texture":"texture_baron",
-      "hidden":false,
-      "name":"baron-1-boom-r30",
-      "properties":{
-        "en-shr_use-spd-rng":false,
-        "en-shr_x":-21.428568749999997,
-        "en-shr_y":-12.25,
         "icon":{
           "name":"texture_baron"
         },
+        "en-shr_use-rng-x":false
+      },
+      "hidden":false
+    },
+    {
+      "name":"baron-1-boom-r30",
+      "type":"brush_entity_shroom",
+      "texture":"texture_baron",
+      "color":"#FF00FF",
+      "properties":{
+        "en-shr_use-rng-y":false,
+        "en-shr_use-spd-rng":false,
+        "en-shr_x":-21.428568749999997,
+        "en-shr_y":-12.25,
         "en-shr_preview":true,
         "en-shr_rng-x":0.0,
         "en-shr_rng-y":0.0,
@@ -272,23 +268,23 @@
         "en-shr_use-dir-rng":false,
         "en-shr_dir":270.0,
         "en-shr_dir-rng":0.0,
-        "en-shr_use-rng-x":false,
-        "en-shr_use-rng-y":false
-      }
-    },
-    {
-      "type":"brush_entity_shroom",
-      "color":"#0000FF",
-      "texture":"texture_baron",
-      "hidden":false,
-      "name":"baron-1-turns-r-s2x6",
-      "properties":{
-        "en-shr_use-spd-rng":false,
-        "en-shr_x":9.5,
-        "en-shr_y":-7.8125,
         "icon":{
           "name":"texture_baron"
         },
+        "en-shr_use-rng-x":false
+      },
+      "hidden":false
+    },
+    {
+      "name":"baron-1-turns-r-s2x6",
+      "type":"brush_entity_shroom",
+      "texture":"texture_baron",
+      "color":"#0000FF",
+      "properties":{
+        "en-shr_use-rng-y":false,
+        "en-shr_use-spd-rng":false,
+        "en-shr_x":9.5,
+        "en-shr_y":-7.8125,
         "en-shr_preview":true,
         "en-shr_rng-x":0.0,
         "en-shr_rng-y":0.0,
@@ -300,23 +296,23 @@
         "en-shr_use-dir-rng":false,
         "en-shr_dir":270.0,
         "en-shr_dir-rng":0.0,
-        "en-shr_use-rng-x":false,
-        "en-shr_use-rng-y":false
-      }
-    },
-    {
-      "type":"brush_entity_shroom",
-      "color":"#FF0000",
-      "texture":"texture_baron",
-      "hidden":false,
-      "name":"baron-1-turns-l-s2x6",
-      "properties":{
-        "en-shr_use-spd-rng":false,
-        "en-shr_x":-7.1428562500000004,
-        "en-shr_y":-7.8125,
         "icon":{
           "name":"texture_baron"
         },
+        "en-shr_use-rng-x":false
+      },
+      "hidden":false
+    },
+    {
+      "name":"baron-1-turns-l-s2x6",
+      "type":"brush_entity_shroom",
+      "texture":"texture_baron",
+      "color":"#FF0000",
+      "properties":{
+        "en-shr_use-rng-y":false,
+        "en-shr_use-spd-rng":false,
+        "en-shr_x":-7.1428562500000004,
+        "en-shr_y":-7.8125,
         "en-shr_preview":true,
         "en-shr_rng-x":0.0,
         "en-shr_rng-y":0.0,
@@ -328,23 +324,23 @@
         "en-shr_use-dir-rng":false,
         "en-shr_dir":270.0,
         "en-shr_dir-rng":0.0,
-        "en-shr_use-rng-x":false,
-        "en-shr_use-rng-y":false
-      }
-    },
-    {
-      "type":"brush_entity_shroom",
-      "color":"#00FF00",
-      "texture":"texture_baron",
-      "hidden":false,
-      "name":"baron-1-p5",
-      "properties":{
-        "en-shr_use-spd-rng":false,
-        "en-shr_x":-7.1428562500000004,
-        "en-shr_y":-7.8125,
         "icon":{
           "name":"texture_baron"
         },
+        "en-shr_use-rng-x":false
+      },
+      "hidden":false
+    },
+    {
+      "name":"baron-1-p5",
+      "type":"brush_entity_shroom",
+      "texture":"texture_baron",
+      "color":"#00FF00",
+      "properties":{
+        "en-shr_use-rng-y":false,
+        "en-shr_use-spd-rng":false,
+        "en-shr_x":-7.1428562500000004,
+        "en-shr_y":-7.8125,
         "en-shr_preview":true,
         "en-shr_rng-x":0.0,
         "en-shr_rng-y":0.0,
@@ -356,23 +352,23 @@
         "en-shr_use-dir-rng":false,
         "en-shr_dir":270.0,
         "en-shr_dir-rng":0.0,
-        "en-shr_use-rng-x":false,
-        "en-shr_use-rng-y":false
-      }
-    },
-    {
-      "type":"brush_entity_shroom",
-      "color":"#FF00FF",
-      "texture":"texture_baron",
-      "hidden":false,
-      "name":"baron-1-swing",
-      "properties":{
-        "en-shr_use-spd-rng":false,
-        "en-shr_x":-4.5,
-        "en-shr_y":-7.8125,
         "icon":{
           "name":"texture_baron"
         },
+        "en-shr_use-rng-x":false
+      },
+      "hidden":false
+    },
+    {
+      "name":"baron-1-swing",
+      "type":"brush_entity_shroom",
+      "texture":"texture_baron",
+      "color":"#FF00FF",
+      "properties":{
+        "en-shr_use-rng-y":false,
+        "en-shr_use-spd-rng":false,
+        "en-shr_x":-4.5,
+        "en-shr_y":-7.8125,
         "en-shr_preview":true,
         "en-shr_rng-x":0.0,
         "en-shr_rng-y":0.0,
@@ -384,23 +380,23 @@
         "en-shr_use-dir-rng":false,
         "en-shr_dir":270.0,
         "en-shr_dir-rng":0.0,
-        "en-shr_use-rng-x":false,
-        "en-shr_use-rng-y":false
-      }
-    },
-    {
-      "type":"brush_entity_shroom",
-      "color":"#FFFF00",
-      "texture":"texture_baron",
-      "hidden":false,
-      "name":"baron-1-r8",
-      "properties":{
-        "en-shr_use-spd-rng":false,
-        "en-shr_x":0.0,
-        "en-shr_y":-18.75,
         "icon":{
           "name":"texture_baron"
         },
+        "en-shr_use-rng-x":false
+      },
+      "hidden":false
+    },
+    {
+      "name":"baron-1-r8",
+      "type":"brush_entity_shroom",
+      "texture":"texture_baron",
+      "color":"#FFFF00",
+      "properties":{
+        "en-shr_use-rng-y":false,
+        "en-shr_use-spd-rng":false,
+        "en-shr_x":0.0,
+        "en-shr_y":-18.75,
         "en-shr_preview":true,
         "en-shr_rng-x":0.0,
         "en-shr_rng-y":0.0,
@@ -412,23 +408,23 @@
         "en-shr_use-dir-rng":false,
         "en-shr_dir":270.0,
         "en-shr_dir-rng":0.0,
-        "en-shr_use-rng-x":false,
-        "en-shr_use-rng-y":false
-      }
-    },
-    {
-      "type":"brush_entity_shroom",
-      "color":"#FFFFFF",
-      "texture":"texture_bazyl",
-      "hidden":false,
-      "name":"bazyl-1-intro",
-      "properties":{
-        "en-shr_use-spd-rng":false,
-        "en-shr_x":-12.5,
-        "en-shr_y":-12.5,
         "icon":{
           "name":"texture_baron"
         },
+        "en-shr_use-rng-x":false
+      },
+      "hidden":false
+    },
+    {
+      "name":"bazyl-1-intro",
+      "type":"brush_entity_shroom",
+      "texture":"texture_bazyl",
+      "color":"#FFFFFF",
+      "properties":{
+        "en-shr_use-rng-y":false,
+        "en-shr_use-spd-rng":false,
+        "en-shr_x":-12.5,
+        "en-shr_y":-12.5,
         "en-shr_preview":true,
         "en-shr_rng-x":0.0,
         "en-shr_rng-y":0.0,
@@ -440,23 +436,23 @@
         "en-shr_use-dir-rng":false,
         "en-shr_dir":270.0,
         "en-shr_dir-rng":0.0,
-        "en-shr_use-rng-x":false,
-        "en-shr_use-rng-y":false
-      }
-    },
-    {
-      "type":"brush_entity_shroom",
-      "color":"#C9F526",
-      "texture":"texture_bazyl",
-      "hidden":false,
-      "name":"bazyl-1-boomerang-l",
-      "properties":{
-        "en-shr_use-spd-rng":false,
-        "en-shr_x":-8.1666687499999995,
-        "en-shr_y":0.75,
         "icon":{
           "name":"texture_baron"
         },
+        "en-shr_use-rng-x":false
+      },
+      "hidden":false
+    },
+    {
+      "name":"bazyl-1-boomerang-l",
+      "type":"brush_entity_shroom",
+      "texture":"texture_bazyl",
+      "color":"#C9F526",
+      "properties":{
+        "en-shr_use-rng-y":false,
+        "en-shr_use-spd-rng":false,
+        "en-shr_x":-8.1666687499999995,
+        "en-shr_y":0.75,
         "en-shr_preview":true,
         "en-shr_rng-x":0.0,
         "en-shr_rng-y":0.0,
@@ -468,23 +464,23 @@
         "en-shr_use-dir-rng":false,
         "en-shr_dir":0.0,
         "en-shr_dir-rng":0.0,
-        "en-shr_use-rng-x":false,
-        "en-shr_use-rng-y":false
-      }
-    },
-    {
-      "type":"brush_entity_shroom",
-      "color":"#6AFF58",
-      "texture":"texture_bazyl",
-      "hidden":false,
-      "name":"bazyl-1-boomerang-r",
-      "properties":{
-        "en-shr_use-spd-rng":false,
-        "en-shr_x":9.1666687499999995,
-        "en-shr_y":0.75,
         "icon":{
           "name":"texture_baron"
         },
+        "en-shr_use-rng-x":false
+      },
+      "hidden":false
+    },
+    {
+      "name":"bazyl-1-boomerang-r",
+      "type":"brush_entity_shroom",
+      "texture":"texture_bazyl",
+      "color":"#6AFF58",
+      "properties":{
+        "en-shr_use-rng-y":false,
+        "en-shr_use-spd-rng":false,
+        "en-shr_x":9.1666687499999995,
+        "en-shr_y":0.75,
         "en-shr_preview":true,
         "en-shr_rng-x":0.0,
         "en-shr_rng-y":0.0,
@@ -496,23 +492,23 @@
         "en-shr_use-dir-rng":false,
         "en-shr_dir":180.0,
         "en-shr_dir-rng":0.0,
-        "en-shr_use-rng-x":false,
-        "en-shr_use-rng-y":false
-      }
-    },
-    {
-      "type":"brush_entity_shroom",
-      "color":"#FF0000",
-      "texture":"texture_bazyl",
-      "hidden":false,
-      "name":"bazyl-1-p5",
-      "properties":{
-        "en-shr_use-spd-rng":false,
-        "en-shr_x":4.1666687499999995,
-        "en-shr_y":-5.4166687500000004,
         "icon":{
           "name":"texture_baron"
         },
+        "en-shr_use-rng-x":false
+      },
+      "hidden":false
+    },
+    {
+      "name":"bazyl-1-p5",
+      "type":"brush_entity_shroom",
+      "texture":"texture_bazyl",
+      "color":"#FF0000",
+      "properties":{
+        "en-shr_use-rng-y":false,
+        "en-shr_use-spd-rng":false,
+        "en-shr_x":4.1666687499999995,
+        "en-shr_y":-5.4166687500000004,
         "en-shr_preview":true,
         "en-shr_rng-x":0.0,
         "en-shr_rng-y":0.0,
@@ -524,23 +520,23 @@
         "en-shr_use-dir-rng":false,
         "en-shr_dir":270.0,
         "en-shr_dir-rng":0.0,
-        "en-shr_use-rng-x":false,
-        "en-shr_use-rng-y":false
-      }
-    },
-    {
-      "type":"brush_entity_shroom",
-      "color":"#FF4D58",
-      "texture":"texture_bazyl",
-      "hidden":false,
-      "name":"bazyl-1-turns-r",
-      "properties":{
-        "en-shr_use-spd-rng":false,
-        "en-shr_x":4.1666687499999995,
-        "en-shr_y":-5.4166687500000004,
         "icon":{
           "name":"texture_baron"
         },
+        "en-shr_use-rng-x":false
+      },
+      "hidden":false
+    },
+    {
+      "name":"bazyl-1-turns-r",
+      "type":"brush_entity_shroom",
+      "texture":"texture_bazyl",
+      "color":"#FF4D58",
+      "properties":{
+        "en-shr_use-rng-y":false,
+        "en-shr_use-spd-rng":false,
+        "en-shr_x":4.1666687499999995,
+        "en-shr_y":-5.4166687500000004,
         "en-shr_preview":true,
         "en-shr_rng-x":0.0,
         "en-shr_rng-y":0.0,
@@ -552,23 +548,23 @@
         "en-shr_use-dir-rng":false,
         "en-shr_dir":270.0,
         "en-shr_dir-rng":0.0,
-        "en-shr_use-rng-x":false,
-        "en-shr_use-rng-y":false
-      }
-    },
-    {
-      "type":"brush_entity_shroom",
-      "color":"#6AB7FF",
-      "texture":"texture_bazyl",
-      "hidden":false,
-      "name":"bazyl-1-turns-l",
-      "properties":{
-        "en-shr_use-spd-rng":false,
-        "en-shr_x":-5.8333333333333348,
-        "en-shr_y":-5.4166687500000004,
         "icon":{
           "name":"texture_baron"
         },
+        "en-shr_use-rng-x":false
+      },
+      "hidden":false
+    },
+    {
+      "name":"bazyl-1-turns-l",
+      "type":"brush_entity_shroom",
+      "texture":"texture_bazyl",
+      "color":"#6AB7FF",
+      "properties":{
+        "en-shr_use-rng-y":false,
+        "en-shr_use-spd-rng":false,
+        "en-shr_x":-5.8333333333333348,
+        "en-shr_y":-5.4166687500000004,
         "en-shr_preview":true,
         "en-shr_rng-x":0.0,
         "en-shr_rng-y":0.0,
@@ -580,23 +576,23 @@
         "en-shr_use-dir-rng":false,
         "en-shr_dir":270.0,
         "en-shr_dir-rng":0.0,
-        "en-shr_use-rng-x":false,
-        "en-shr_use-rng-y":false
-      }
-    },
-    {
-      "type":"brush_entity_shroom",
-      "color":"#FF00FF",
-      "texture":"texture_bazyl",
-      "hidden":false,
-      "name":"bazyl-1-sniper-p5",
-      "properties":{
-        "en-shr_use-spd-rng":false,
-        "en-shr_x":4.1666687499999995,
-        "en-shr_y":-5.4166687500000004,
         "icon":{
           "name":"texture_baron"
         },
+        "en-shr_use-rng-x":false
+      },
+      "hidden":false
+    },
+    {
+      "name":"bazyl-1-sniper-p5",
+      "type":"brush_entity_shroom",
+      "texture":"texture_bazyl",
+      "color":"#FF00FF",
+      "properties":{
+        "en-shr_use-rng-y":false,
+        "en-shr_use-spd-rng":false,
+        "en-shr_x":4.1666687499999995,
+        "en-shr_y":-5.4166687500000004,
         "en-shr_preview":true,
         "en-shr_rng-x":0.0,
         "en-shr_rng-y":0.0,
@@ -608,23 +604,23 @@
         "en-shr_use-dir-rng":false,
         "en-shr_dir":270.0,
         "en-shr_dir-rng":0.0,
-        "en-shr_use-rng-x":false,
-        "en-shr_use-rng-y":false
-      }
-    },
-    {
-      "type":"brush_entity_shroom",
-      "color":"#0064FF",
-      "texture":"texture_bazyl",
-      "hidden":false,
-      "name":"bazyl-1-star-s3x8",
-      "properties":{
-        "en-shr_use-spd-rng":false,
-        "en-shr_x":1.1666687500000001,
-        "en-shr_y":-14.416668749999999,
         "icon":{
           "name":"texture_baron"
         },
+        "en-shr_use-rng-x":false
+      },
+      "hidden":false
+    },
+    {
+      "name":"bazyl-1-star-s3x8",
+      "type":"brush_entity_shroom",
+      "texture":"texture_bazyl",
+      "color":"#0064FF",
+      "properties":{
+        "en-shr_use-rng-y":false,
+        "en-shr_use-spd-rng":false,
+        "en-shr_x":1.1666687500000001,
+        "en-shr_y":-14.416668749999999,
         "en-shr_preview":true,
         "en-shr_rng-x":0.0,
         "en-shr_rng-y":0.0,
@@ -636,23 +632,23 @@
         "en-shr_use-dir-rng":false,
         "en-shr_dir":270.0,
         "en-shr_dir-rng":0.0,
-        "en-shr_use-rng-x":false,
-        "en-shr_use-rng-y":false
-      }
-    },
-    {
-      "type":"brush_entity_shroom",
-      "color":"#684DFF",
-      "texture":"texture_bazyl",
-      "hidden":false,
-      "name":"bazyl-1-intro-p2x8",
-      "properties":{
-        "en-shr_use-spd-rng":false,
-        "en-shr_x":0.0,
-        "en-shr_y":-9.375,
         "icon":{
           "name":"texture_baron"
         },
+        "en-shr_use-rng-x":false
+      },
+      "hidden":false
+    },
+    {
+      "name":"bazyl-1-intro-p2x8",
+      "type":"brush_entity_shroom",
+      "texture":"texture_bazyl",
+      "color":"#684DFF",
+      "properties":{
+        "en-shr_use-rng-y":false,
+        "en-shr_use-spd-rng":false,
+        "en-shr_x":0.0,
+        "en-shr_y":-9.375,
         "en-shr_preview":true,
         "en-shr_rng-x":0.0,
         "en-shr_rng-y":0.0,
@@ -664,23 +660,23 @@
         "en-shr_use-dir-rng":false,
         "en-shr_dir":270.0,
         "en-shr_dir-rng":0.0,
-        "en-shr_use-rng-x":false,
-        "en-shr_use-rng-y":false
-      }
-    },
-    {
-      "type":"brush_entity_shroom",
-      "color":"#49FF47",
-      "texture":"texture_bazyl",
-      "hidden":false,
-      "name":"bazyl-1-intro-p6x2",
-      "properties":{
-        "en-shr_use-spd-rng":false,
-        "en-shr_x":0.0,
-        "en-shr_y":-9.375,
         "icon":{
           "name":"texture_baron"
         },
+        "en-shr_use-rng-x":false
+      },
+      "hidden":false
+    },
+    {
+      "name":"bazyl-1-intro-p6x2",
+      "type":"brush_entity_shroom",
+      "texture":"texture_bazyl",
+      "color":"#49FF47",
+      "properties":{
+        "en-shr_use-rng-y":false,
+        "en-shr_use-spd-rng":false,
+        "en-shr_x":0.0,
+        "en-shr_y":-9.375,
         "en-shr_preview":true,
         "en-shr_rng-x":0.0,
         "en-shr_rng-y":0.0,
@@ -692,23 +688,23 @@
         "en-shr_use-dir-rng":false,
         "en-shr_dir":270.0,
         "en-shr_dir-rng":0.0,
-        "en-shr_use-rng-x":false,
-        "en-shr_use-rng-y":false
-      }
-    },
-    {
-      "type":"brush_entity_shroom",
-      "color":"#FF396C",
-      "texture":"texture_bazyl",
-      "hidden":false,
-      "name":"bazyl-1-intro-r6x3",
-      "properties":{
-        "en-shr_use-spd-rng":false,
-        "en-shr_x":0.0,
-        "en-shr_y":-9.375,
         "icon":{
           "name":"texture_baron"
         },
+        "en-shr_use-rng-x":false
+      },
+      "hidden":false
+    },
+    {
+      "name":"bazyl-1-intro-r6x3",
+      "type":"brush_entity_shroom",
+      "texture":"texture_bazyl",
+      "color":"#FF396C",
+      "properties":{
+        "en-shr_use-rng-y":false,
+        "en-shr_use-spd-rng":false,
+        "en-shr_x":0.0,
+        "en-shr_y":-9.375,
         "en-shr_preview":true,
         "en-shr_rng-x":0.0,
         "en-shr_rng-y":0.0,
@@ -720,23 +716,23 @@
         "en-shr_use-dir-rng":false,
         "en-shr_dir":270.0,
         "en-shr_dir-rng":0.0,
-        "en-shr_use-rng-x":false,
-        "en-shr_use-rng-y":false
-      }
-    },
-    {
-      "type":"brush_entity_shroom",
-      "color":"#96B5FF",
-      "texture":"texture_bazyl",
-      "hidden":false,
-      "name":"bazyl-1-boom-s2",
-      "properties":{
-        "en-shr_use-spd-rng":false,
-        "en-shr_x":0.0,
-        "en-shr_y":-9.375,
         "icon":{
           "name":"texture_baron"
         },
+        "en-shr_use-rng-x":false
+      },
+      "hidden":false
+    },
+    {
+      "name":"bazyl-1-boom-s2",
+      "type":"brush_entity_shroom",
+      "texture":"texture_bazyl",
+      "color":"#96B5FF",
+      "properties":{
+        "en-shr_use-rng-y":false,
+        "en-shr_use-spd-rng":false,
+        "en-shr_x":0.0,
+        "en-shr_y":-9.375,
         "en-shr_preview":true,
         "en-shr_rng-x":0.0,
         "en-shr_rng-y":0.0,
@@ -748,23 +744,23 @@
         "en-shr_use-dir-rng":false,
         "en-shr_dir":270.0,
         "en-shr_dir-rng":0.0,
-        "en-shr_use-rng-x":false,
-        "en-shr_use-rng-y":false
-      }
-    },
-    {
-      "type":"brush_entity_shroom",
-      "color":"#00FF00",
-      "texture":"texture_baron",
-      "hidden":false,
-      "name":"baron-1-thunder-r",
-      "properties":{
-        "en-shr_use-spd-rng":false,
-        "en-shr_x":4.5,
-        "en-shr_y":-4.5833312499999996,
         "icon":{
           "name":"texture_baron"
         },
+        "en-shr_use-rng-x":false
+      },
+      "hidden":false
+    },
+    {
+      "name":"baron-1-thunder-r",
+      "type":"brush_entity_shroom",
+      "texture":"texture_baron",
+      "color":"#00FF00",
+      "properties":{
+        "en-shr_use-rng-y":false,
+        "en-shr_use-spd-rng":false,
+        "en-shr_x":4.5,
+        "en-shr_y":-4.5833312499999996,
         "en-shr_preview":true,
         "en-shr_rng-x":0.0,
         "en-shr_rng-y":0.0,
@@ -776,23 +772,23 @@
         "en-shr_use-dir-rng":false,
         "en-shr_dir":180.0,
         "en-shr_dir-rng":0.0,
-        "en-shr_use-rng-x":false,
-        "en-shr_use-rng-y":false
-      }
-    },
-    {
-      "type":"brush_entity_shroom",
-      "color":"#00FF00",
-      "texture":"texture_baron",
-      "hidden":false,
-      "name":"baron-1-thunder-r-p3x2",
-      "properties":{
-        "en-shr_use-spd-rng":false,
-        "en-shr_x":9.1666687499999995,
-        "en-shr_y":-4.5833312499999996,
         "icon":{
           "name":"texture_baron"
         },
+        "en-shr_use-rng-x":false
+      },
+      "hidden":false
+    },
+    {
+      "name":"baron-1-thunder-r-p3x2",
+      "type":"brush_entity_shroom",
+      "texture":"texture_baron",
+      "color":"#00FF00",
+      "properties":{
+        "en-shr_use-rng-y":false,
+        "en-shr_use-spd-rng":false,
+        "en-shr_x":9.1666687499999995,
+        "en-shr_y":-4.5833312499999996,
         "en-shr_preview":true,
         "en-shr_rng-x":0.0,
         "en-shr_rng-y":0.0,
@@ -804,23 +800,23 @@
         "en-shr_use-dir-rng":false,
         "en-shr_dir":180.0,
         "en-shr_dir-rng":0.0,
-        "en-shr_use-rng-x":false,
-        "en-shr_use-rng-y":false
-      }
-    },
-    {
-      "type":"brush_entity_shroom",
-      "color":"#FFFF00",
-      "texture":"texture_baron",
-      "hidden":false,
-      "name":"baron-1-thunder-l",
-      "properties":{
-        "en-shr_use-spd-rng":false,
-        "en-shr_x":-7.5,
-        "en-shr_y":-4.5833312499999996,
         "icon":{
           "name":"texture_baron"
         },
+        "en-shr_use-rng-x":false
+      },
+      "hidden":false
+    },
+    {
+      "name":"baron-1-thunder-l",
+      "type":"brush_entity_shroom",
+      "texture":"texture_baron",
+      "color":"#FFFF00",
+      "properties":{
+        "en-shr_use-rng-y":false,
+        "en-shr_use-spd-rng":false,
+        "en-shr_x":-7.5,
+        "en-shr_y":-4.5833312499999996,
         "en-shr_preview":true,
         "en-shr_rng-x":0.0,
         "en-shr_rng-y":0.0,
@@ -832,23 +828,23 @@
         "en-shr_use-dir-rng":false,
         "en-shr_dir":30.0,
         "en-shr_dir-rng":0.0,
-        "en-shr_use-rng-x":false,
-        "en-shr_use-rng-y":false
-      }
-    },
-    {
-      "type":"brush_entity_shroom",
-      "color":"#FFFF00",
-      "texture":"texture_baron",
-      "hidden":false,
-      "name":"baron-1-thunder-l-p3x2",
-      "properties":{
-        "en-shr_use-spd-rng":false,
-        "en-shr_x":-7.5,
-        "en-shr_y":-4.5833312499999996,
         "icon":{
           "name":"texture_baron"
         },
+        "en-shr_use-rng-x":false
+      },
+      "hidden":false
+    },
+    {
+      "name":"baron-1-thunder-l-p3x2",
+      "type":"brush_entity_shroom",
+      "texture":"texture_baron",
+      "color":"#FFFF00",
+      "properties":{
+        "en-shr_use-rng-y":false,
+        "en-shr_use-spd-rng":false,
+        "en-shr_x":-7.5,
+        "en-shr_y":-4.5833312499999996,
         "en-shr_preview":true,
         "en-shr_rng-x":0.0,
         "en-shr_rng-y":0.0,
@@ -860,23 +856,23 @@
         "en-shr_use-dir-rng":false,
         "en-shr_dir":0.0,
         "en-shr_dir-rng":0.0,
-        "en-shr_use-rng-x":false,
-        "en-shr_use-rng-y":false
-      }
-    },
-    {
-      "type":"brush_entity_shroom",
-      "color":"#FF0000",
-      "texture":"texture_baron",
-      "hidden":false,
-      "name":"baron-1-zig-r",
-      "properties":{
-        "en-shr_use-spd-rng":false,
-        "en-shr_x":16.0,
-        "en-shr_y":1.5625,
         "icon":{
           "name":"texture_baron"
         },
+        "en-shr_use-rng-x":false
+      },
+      "hidden":false
+    },
+    {
+      "name":"baron-1-zig-r",
+      "type":"brush_entity_shroom",
+      "texture":"texture_baron",
+      "color":"#FF0000",
+      "properties":{
+        "en-shr_use-rng-y":false,
+        "en-shr_use-spd-rng":false,
+        "en-shr_x":16.0,
+        "en-shr_y":1.5625,
         "en-shr_preview":true,
         "en-shr_rng-x":0.0,
         "en-shr_rng-y":0.0,
@@ -888,23 +884,23 @@
         "en-shr_use-dir-rng":false,
         "en-shr_dir":180.0,
         "en-shr_dir-rng":0.0,
-        "en-shr_use-rng-x":false,
-        "en-shr_use-rng-y":false
-      }
-    },
-    {
-      "type":"brush_entity_shroom",
-      "color":"#FF0000",
-      "texture":"texture_baron",
-      "hidden":false,
-      "name":"baron-1-zig-r-p2x3",
-      "properties":{
-        "en-shr_use-spd-rng":false,
-        "en-shr_x":9.1666687499999995,
-        "en-shr_y":-1.2499999999999998,
         "icon":{
           "name":"texture_baron"
         },
+        "en-shr_use-rng-x":false
+      },
+      "hidden":false
+    },
+    {
+      "name":"baron-1-zig-r-p2x3",
+      "type":"brush_entity_shroom",
+      "texture":"texture_baron",
+      "color":"#FF0000",
+      "properties":{
+        "en-shr_use-rng-y":false,
+        "en-shr_use-spd-rng":false,
+        "en-shr_x":9.1666687499999995,
+        "en-shr_y":-1.2499999999999998,
         "en-shr_preview":true,
         "en-shr_rng-x":0.0,
         "en-shr_rng-y":0.0,
@@ -916,23 +912,23 @@
         "en-shr_use-dir-rng":false,
         "en-shr_dir":180.0,
         "en-shr_dir-rng":0.0,
-        "en-shr_use-rng-x":false,
-        "en-shr_use-rng-y":false
-      }
-    },
-    {
-      "type":"brush_entity_shroom",
-      "color":"#0000FF",
-      "texture":"texture_baron",
-      "hidden":false,
-      "name":"baron-1-zig-l",
-      "properties":{
-        "en-shr_use-spd-rng":false,
-        "en-shr_x":-8.1666875000000001,
-        "en-shr_y":-5.9166687499999995,
         "icon":{
           "name":"texture_baron"
         },
+        "en-shr_use-rng-x":false
+      },
+      "hidden":false
+    },
+    {
+      "name":"baron-1-zig-l",
+      "type":"brush_entity_shroom",
+      "texture":"texture_baron",
+      "color":"#0000FF",
+      "properties":{
+        "en-shr_use-rng-y":false,
+        "en-shr_use-spd-rng":false,
+        "en-shr_x":-8.1666875000000001,
+        "en-shr_y":-5.9166687499999995,
         "en-shr_preview":true,
         "en-shr_rng-x":0.0,
         "en-shr_rng-y":0.0,
@@ -944,23 +940,23 @@
         "en-shr_use-dir-rng":false,
         "en-shr_dir":0.0,
         "en-shr_dir-rng":0.0,
-        "en-shr_use-rng-x":false,
-        "en-shr_use-rng-y":false
-      }
-    },
-    {
-      "type":"brush_entity_shroom",
-      "color":"#0000FF",
-      "texture":"texture_baron",
-      "hidden":false,
-      "name":"baron-1-zig-l-p2x3",
-      "properties":{
-        "en-shr_use-spd-rng":false,
-        "en-shr_x":-9.1666687500000013,
-        "en-shr_y":-1.2499999999999998,
         "icon":{
           "name":"texture_baron"
         },
+        "en-shr_use-rng-x":false
+      },
+      "hidden":false
+    },
+    {
+      "name":"baron-1-zig-l-p2x3",
+      "type":"brush_entity_shroom",
+      "texture":"texture_baron",
+      "color":"#0000FF",
+      "properties":{
+        "en-shr_use-rng-y":false,
+        "en-shr_use-spd-rng":false,
+        "en-shr_x":-9.1666687500000013,
+        "en-shr_y":-1.2499999999999998,
         "en-shr_preview":true,
         "en-shr_rng-x":0.0,
         "en-shr_rng-y":0.0,
@@ -972,26 +968,28 @@
         "en-shr_use-dir-rng":false,
         "en-shr_dir":0.0,
         "en-shr_dir-rng":0.0,
-        "en-shr_use-rng-x":false,
-        "en-shr_use-rng-y":false
-      }
+        "icon":{
+          "name":"texture_baron"
+        },
+        "en-shr_use-rng-x":false
+      },
+      "hidden":false
     },
     {
-      "type":"brush_entity_shroom",
-      "color":"#FFFFFF",
-      "texture":"texture_baron",
-      "hidden":false,
       "name":"baron-1-intro",
+      "type":"brush_entity_shroom",
+      "texture":"texture_baron",
+      "color":"#FFFFFF",
       "properties":{
         "en-shr_use-spd-rng":true,
         "en-shr_use-texture":false,
         "en-shr_x":-9.0,
         "en-shr_y":-10.0,
         "en-shr_mask":{
+          "width":0.0,
           "x":0.0,
           "y":0.0,
-          "height":0.0,
-          "width":0.0
+          "height":0.0
         },
         "en-shr_preview":true,
         "en-shr_rng-x":1.0,
@@ -1002,14 +1000,14 @@
         "en-shr_spd-rng":1.0,
         "en-shr_template":"baron-1-intro",
         "en-shr_texture":{
-          "angle":0.0,
-          "randomFrame":false,
-          "alpha":1.0,
-          "blend":"#FFFFFF",
-          "speed":30.0,
-          "scaleX":1.0,
           "name":"texture_missing",
+          "angle":0.0,
+          "scaleX":1.0,
+          "alpha":1.0,
           "scaleY":1.0,
+          "speed":30.0,
+          "blend":"#FFFFFF",
+          "randomFrame":false,
           "frame":0.0,
           "animate":false
         },
@@ -1019,21 +1017,19 @@
         "en-shr_use-mask":false,
         "en-shr_use-rng-x":true,
         "en-shr_use-rng-y":true
-      }
+      },
+      "hidden":false
     },
     {
-      "type":"brush_entity_shroom",
-      "color":"#00FF00",
-      "texture":"texture_baron",
-      "hidden":false,
       "name":"baron-2-intro",
+      "type":"brush_entity_shroom",
+      "texture":"texture_baron",
+      "color":"#00FF00",
       "properties":{
+        "en-shr_use-rng-y":false,
         "en-shr_use-spd-rng":false,
         "en-shr_x":7.1428562500000004,
         "en-shr_y":-15.812499999999998,
-        "icon":{
-          "name":"texture_baron"
-        },
         "en-shr_preview":true,
         "en-shr_rng-x":0.0,
         "en-shr_rng-y":0.0,
@@ -1045,23 +1041,23 @@
         "en-shr_use-dir-rng":false,
         "en-shr_dir":270.0,
         "en-shr_dir-rng":0.0,
-        "en-shr_use-rng-x":false,
-        "en-shr_use-rng-y":false
-      }
-    },
-    {
-      "type":"brush_entity_shroom",
-      "color":"#FFFF00",
-      "texture":"texture_baron",
-      "hidden":false,
-      "name":"baron-3-intro",
-      "properties":{
-        "en-shr_use-spd-rng":false,
-        "en-shr_x":-6.5,
-        "en-shr_y":-15.812499999999998,
         "icon":{
           "name":"texture_baron"
         },
+        "en-shr_use-rng-x":false
+      },
+      "hidden":false
+    },
+    {
+      "name":"baron-3-intro",
+      "type":"brush_entity_shroom",
+      "texture":"texture_baron",
+      "color":"#FFFF00",
+      "properties":{
+        "en-shr_use-rng-y":false,
+        "en-shr_use-spd-rng":false,
+        "en-shr_x":-6.5,
+        "en-shr_y":-15.812499999999998,
         "en-shr_preview":true,
         "en-shr_rng-x":0.0,
         "en-shr_rng-y":0.0,
@@ -1073,9 +1069,13 @@
         "en-shr_use-dir-rng":false,
         "en-shr_dir":270.0,
         "en-shr_dir-rng":0.0,
-        "en-shr_use-rng-x":false,
-        "en-shr_use-rng-y":false
-      }
+        "icon":{
+          "name":"texture_baron"
+        },
+        "en-shr_use-rng-x":false
+      },
+      "hidden":false
     }
-  ]
+  ],
+  "version":"1"
 }

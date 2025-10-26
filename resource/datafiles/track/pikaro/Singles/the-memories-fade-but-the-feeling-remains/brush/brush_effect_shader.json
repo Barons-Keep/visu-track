@@ -1,126 +1,126 @@
 {
-  "version":"1",
   "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>",
   "data":[
     {
-      "properties":{
-        "ef-shd_pipeline":"BACKGROUND",
-        "ef-shd_use-merge-cfg":false,
-        "ef-shd_hide":false,
-        "ef-shd_hide-merge-cfg":true,
-        "ef-shd_template":"wavy spectrum 1",
-        "ef-shd_merge-cfg":{
-        },
-        "ef-shd_duration":10.0,
-        "ef-shd_fade-in":1.0,
-        "ef-shd_fade-out":1.0,
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader",
-      "texture":"texture_ve_icon_effect_shader",
       "name":"wavy spectrum 1",
+      "type":"brush_effect_shader",
+      "texture":"texture_ve_icon_effect_shader",
       "color":"#7800C8",
+      "properties":{
+        "ef-shd_fade-out":1.0,
+        "ef-shd_hide":false,
+        "ef-shd_hide-merge-cfg":true,
+        "ef-shd_merge-cfg":{
+        },
+        "ef-shd_pipeline":"BACKGROUND",
+        "ef-shd_template":"wavy spectrum 1",
+        "ef-shd_use-merge-cfg":false,
+        "ef-shd_alpha":1.0,
+        "ef-shd_duration":10.0,
+        "ef-shd_fade-in":1.0
+      },
       "hidden":false
     },
     {
-      "properties":{
-        "ef-shd_pipeline":"BACKGROUND",
-        "ef-shd_use-merge-cfg":false,
-        "ef-shd_hide":false,
-        "ef-shd_hide-merge-cfg":true,
-        "ef-shd_template":"wavy spectrum 2",
-        "ef-shd_merge-cfg":{
-        },
-        "ef-shd_duration":10.0,
-        "ef-shd_fade-in":1.0,
-        "ef-shd_fade-out":1.0,
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader",
-      "texture":"texture_ve_icon_effect_shader",
       "name":"wavy spectrum 2",
+      "type":"brush_effect_shader",
+      "texture":"texture_ve_icon_effect_shader",
       "color":"#7800C8",
+      "properties":{
+        "ef-shd_fade-out":1.0,
+        "ef-shd_hide":false,
+        "ef-shd_hide-merge-cfg":true,
+        "ef-shd_merge-cfg":{
+        },
+        "ef-shd_pipeline":"BACKGROUND",
+        "ef-shd_template":"wavy spectrum 2",
+        "ef-shd_use-merge-cfg":false,
+        "ef-shd_alpha":1.0,
+        "ef-shd_duration":10.0,
+        "ef-shd_fade-in":1.0
+      },
       "hidden":false
     },
     {
-      "properties":{
-        "ef-shd_pipeline":"COMBINED",
-        "ef-shd_use-merge-cfg":false,
-        "ef-shd_hide":false,
-        "ef-shd_hide-merge-cfg":true,
-        "ef-shd_template":"arc runner 1",
-        "ef-shd_merge-cfg":{
-        },
-        "ef-shd_duration":15.0,
-        "ef-shd_fade-in":1.0,
-        "ef-shd_fade-out":1.0,
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader",
-      "texture":"texture_ve_icon_effect_shader",
       "name":"arc runner 1",
+      "type":"brush_effect_shader",
+      "texture":"texture_ve_icon_effect_shader",
       "color":"#0D6CFF",
-      "hidden":false
-    },
-    {
       "properties":{
-        "ef-shd_pipeline":"BACKGROUND",
-        "ef-shd_use-merge-cfg":false,
+        "ef-shd_fade-out":1.0,
         "ef-shd_hide":false,
         "ef-shd_hide-merge-cfg":true,
-        "ef-shd_template":"funk flux 1",
         "ef-shd_merge-cfg":{
         },
-        "ef-shd_duration":10.0,
-        "ef-shd_fade-in":1.0,
-        "ef-shd_fade-out":1.0,
-        "ef-shd_alpha":1.0
-      },
-      "type":"brush_effect_shader",
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"funk flux 1",
-      "color":"#6CBD0F",
-      "hidden":false
-    },
-    {
-      "properties":{
         "ef-shd_pipeline":"COMBINED",
+        "ef-shd_template":"arc runner 1",
         "ef-shd_use-merge-cfg":false,
-        "ef-shd_hide":false,
-        "ef-shd_hide-merge-cfg":true,
-        "ef-shd_template":"CRT 1",
-        "ef-shd_merge-cfg":{
-        },
-        "ef-shd_duration":10.0,
-        "ef-shd_fade-in":1.0,
-        "ef-shd_fade-out":1.0,
-        "ef-shd_alpha":1.0
+        "ef-shd_alpha":1.0,
+        "ef-shd_duration":15.0,
+        "ef-shd_fade-in":1.0
       },
-      "type":"brush_effect_shader",
-      "texture":"texture_ve_icon_effect_shader",
-      "name":"CRT 1",
-      "color":"#6CCE9E",
       "hidden":false
     },
     {
-      "properties":{
-        "ef-shd_pipeline":"BACKGROUND",
-        "ef-shd_use-merge-cfg":false,
-        "ef-shd_hide":false,
-        "ef-shd_hide-merge-cfg":true,
-        "ef-shd_template":"wavy mesh 1",
-        "ef-shd_merge-cfg":{
-        },
-        "ef-shd_duration":10.0,
-        "ef-shd_fade-in":1.0,
-        "ef-shd_fade-out":1.0,
-        "ef-shd_alpha":1.0
-      },
+      "name":"funk flux 1",
       "type":"brush_effect_shader",
       "texture":"texture_ve_icon_effect_shader",
+      "color":"#6CBD0F",
+      "properties":{
+        "ef-shd_fade-out":1.0,
+        "ef-shd_hide":false,
+        "ef-shd_hide-merge-cfg":true,
+        "ef-shd_merge-cfg":{
+        },
+        "ef-shd_pipeline":"BACKGROUND",
+        "ef-shd_template":"funk flux 1",
+        "ef-shd_use-merge-cfg":false,
+        "ef-shd_alpha":1.0,
+        "ef-shd_duration":10.0,
+        "ef-shd_fade-in":1.0
+      },
+      "hidden":false
+    },
+    {
+      "name":"CRT 1",
+      "type":"brush_effect_shader",
+      "texture":"texture_ve_icon_effect_shader",
+      "color":"#6CCE9E",
+      "properties":{
+        "ef-shd_fade-out":1.0,
+        "ef-shd_hide":false,
+        "ef-shd_hide-merge-cfg":true,
+        "ef-shd_merge-cfg":{
+        },
+        "ef-shd_pipeline":"COMBINED",
+        "ef-shd_template":"CRT 1",
+        "ef-shd_use-merge-cfg":false,
+        "ef-shd_alpha":1.0,
+        "ef-shd_duration":10.0,
+        "ef-shd_fade-in":1.0
+      },
+      "hidden":false
+    },
+    {
       "name":"wavy mesh 1",
+      "type":"brush_effect_shader",
+      "texture":"texture_ve_icon_effect_shader",
       "color":"#FF00FF",
+      "properties":{
+        "ef-shd_fade-out":1.0,
+        "ef-shd_hide":false,
+        "ef-shd_hide-merge-cfg":true,
+        "ef-shd_merge-cfg":{
+        },
+        "ef-shd_pipeline":"BACKGROUND",
+        "ef-shd_template":"wavy mesh 1",
+        "ef-shd_use-merge-cfg":false,
+        "ef-shd_alpha":1.0,
+        "ef-shd_duration":10.0,
+        "ef-shd_fade-in":1.0
+      },
       "hidden":false
     }
-  ]
+  ],
+  "version":"1"
 }
