@@ -1,0 +1,30 @@
+{
+  "data":{
+    "tx_sigil_agares":{
+      "frames":1.0,
+      "prefetch":true,
+      "originX":175.0,
+      "originY":175.0,
+      "name":"tx_sigil_agares",
+      "file":"texture/tx_sigil_agares.png"
+    },
+    "tx_sigil_aim":{
+      "frames":1.0,
+      "prefetch":true,
+      "originX":175.0,
+      "originY":175.0,
+      "name":"tx_sigil_aim",
+      "file":"texture/tx_sigil_aim.png"
+    },
+    "tx_sigil_aamon":{
+      "frames":1.0,
+      "prefetch":true,
+      "originX":175.0,
+      "originY":175.0,
+      "name":"tx_sigil_aamon",
+      "file":"texture/tx_sigil_aamon.png"
+    }
+  },
+  "version":"1",
+  "model":"Collection<io.alkapivo.core.service.texture.TextureIntent>"
+}

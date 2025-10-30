@@ -1,58 +1,58 @@
 {
-  "model":"Collection<io.alkapivo.visu.service.coin.CoinTemplate>",
   "data":{
     "coin-point-5":{
+      "changeSpeed":false,
+      "mask":null,
       "name":"coin-point-5",
       "useSpeed":false,
-      "changeSpeed":false,
-      "sprite":{
-        "name":"texture_coin_point",
-        "angle":0.0,
-        "scaleX":6.5,
-        "scaleY":6.5,
-        "alpha":1.0,
-        "speed":30.0,
-        "blend":"#FFFFFF",
-        "randomFrame":false,
-        "frame":0.0,
-        "animate":false
-      },
-      "speed":{
-        "factor":0.059999999999999998,
-        "value":-2.7999999999999998,
-        "target":2.2000000000000002,
-        "increase":0.0
-      },
       "category":"point",
-      "mask":null,
+      "speed":{
+        "value":-2.7999999999999998,
+        "increase":0.0,
+        "factor":0.059999999999999998,
+        "target":2.2000000000000002
+      },
+      "sprite":{
+        "angle":0.0,
+        "frame":0.0,
+        "alpha":1.0,
+        "name":"texture_coin_point",
+        "scaleX":6.5,
+        "blend":"#FFFFFF",
+        "scaleY":6.5,
+        "speed":30.0,
+        "animate":false,
+        "randomFrame":false
+      },
       "amount":5.0
     },
     "coin-force-5":{
+      "changeSpeed":false,
+      "mask":null,
       "name":"coin-force-5",
       "useSpeed":false,
-      "changeSpeed":false,
-      "sprite":{
-        "name":"texture_coin_force",
-        "angle":0.0,
-        "scaleX":6.5,
-        "scaleY":6.5,
-        "alpha":1.0,
-        "speed":30.0,
-        "blend":"#FFFFFF",
-        "randomFrame":false,
-        "frame":0.0,
-        "animate":false
-      },
-      "speed":{
-        "factor":0.050000000000000003,
-        "value":-3.5,
-        "target":2.25,
-        "increase":0.0
-      },
       "category":"force",
-      "mask":null,
+      "speed":{
+        "value":-3.5,
+        "increase":0.0,
+        "factor":0.050000000000000003,
+        "target":2.25
+      },
+      "sprite":{
+        "angle":0.0,
+        "frame":0.0,
+        "alpha":1.0,
+        "name":"texture_coin_force",
+        "scaleX":6.5,
+        "blend":"#FFFFFF",
+        "scaleY":6.5,
+        "speed":30.0,
+        "animate":false,
+        "randomFrame":false
+      },
       "amount":5.0
     }
   },
-  "version":"1"
+  "version":"1",
+  "model":"Collection<io.alkapivo.visu.service.coin.CoinTemplate>"
 }
