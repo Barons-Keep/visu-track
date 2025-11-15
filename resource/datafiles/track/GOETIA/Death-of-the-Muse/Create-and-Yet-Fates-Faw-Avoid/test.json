@@ -2,31 +2,31 @@
   "version": "1",
   "model": "io.alkapivo.core.test.TestSuite",
   "data":{
-    "name": "Test pikaro - the memories fade but the feeling remains",
+    "name": "Test GOETIA - Create and Yet Fate's Faw Avoid",
     "stopAfterFailure": true,
     "tests": [
       {
         "handler": "TestEvent_VisuController_load",
-        "description": "Load pikaro - the memories fade but the feeling remains",
+        "description": "Load GOETIA - Create and Yet Fate's Faw Avoid",
         "data": {
-          "trackName": "pikaro - the memories fade but the feeling remains",
+          "trackName": "GOETIA - Create and Yet Fate's Faw Avoid",
           "timeout": 10.0,
           "cooldown": 1.5,
-          "path": "track/pikaro/Singles/the-memories-fade-but-the-feeling-remain/manifest.visu"
+          "path": "track/GOETIA/Death-of-the-Muse/Create-and-Yet-Fates-Faw-Avoid/manifest.visu"
         }
       },
       {
         "handler": "TestEvent_VisuController_playback",
-        "description": "Play finished part of pikaro - the memories fade but the feeling remains (4:08)",
+        "description": "Play finished part of GOETIA - Create and Yet Fate's Faw Avoid (4:08)",
         "data": {
-          "timeout": 268.0,
-          "duration": 248.0,
+          "timeout": 277.0,
+          "duration": 257.0,
           "cooldown": 1.5
         }
       },
       {
         "handler": "TestEvent_VisuController_playback",
-        "description": "Play first 3 sec of pikaro - the memories fade but the feeling remains (4:08)",
+        "description": "Play first 3 sec of GOETIA - Create and Yet Fate's Faw Avoid (4:08)",
         "data": {
           "timeout": 10.0,
           "duration": 3.0,
@@ -35,7 +35,7 @@
       },
       {
         "handler": "TestEvent_VisuController_rewind",
-        "description": "Rewind on pikaro - the memories fade but the feeling remains (15 times)",
+        "description": "Rewind on GOETIA - Create and Yet Fate's Faw Avoid (15 times)",
         "data": {
           "timeout": 40.0,
           "amount": 15.0,
@@ -46,7 +46,7 @@
       },
       {
         "handler": "TestEvent_BrushToolbar_save",
-        "description": "Save one brush in every category and type on pikaro - the memories fade but the feeling remains",
+        "description": "Save one brush in every category and type on GOETIA - Create and Yet Fate's Faw Avoid",
         "data": {
           "timeout": 60.0,
           "cooldown": 0.5
