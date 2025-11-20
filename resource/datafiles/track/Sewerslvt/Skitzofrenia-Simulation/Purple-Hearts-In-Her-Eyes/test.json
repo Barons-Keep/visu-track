@@ -3,7 +3,7 @@
   "model": "io.alkapivo.core.test.TestSuite",
   "data":{
     "name": "Test Sewerslvt - Purple Hearts In Her Eyes",
-    "stopAfterFailure": true,
+    "stopAfterFailure": false,
     "tests": [
       {
         "handler": "TestEvent_VisuController_load",
@@ -17,19 +17,19 @@
       },
       {
         "handler": "TestEvent_VisuController_playback",
-        "description": "Play finished part of Sewerslvt - Purple Hearts In Her Eyes (1:30)",
+        "description": "Play finished part of Sewerslvt - Purple Hearts In Her Eyes (6:34)",
         "data": {
-          "timeout": 110.0,
-          "duration": 90.0,
+          "timeout": 414.0,
+          "duration": 394.0,
           "cooldown": 1.5
         }
       },
       {
         "handler": "TestEvent_VisuController_playback",
-        "description": "Play first 3 sec of Sewerslvt - Purple Hearts In Her Eyes (1:30)",
+        "description": "Play first 5 sec of Sewerslvt - Purple Hearts In Her Eyes",
         "data": {
-          "timeout": 10.0,
-          "duration": 3.0,
+          "timeout": 15.0,
+          "duration": 5.0,
           "cooldown": 1.5
         }
       },

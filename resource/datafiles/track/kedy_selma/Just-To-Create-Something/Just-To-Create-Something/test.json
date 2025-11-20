@@ -3,7 +3,7 @@
   "model": "io.alkapivo.core.test.TestSuite",
   "data":{
     "name": "Test kedy_selma - Just To Create Something",
-    "stopAfterFailure": true,
+    "stopAfterFailure": false,
     "tests": [
       {
         "handler": "TestEvent_VisuController_load",
@@ -26,10 +26,10 @@
       },
       {
         "handler": "TestEvent_VisuController_playback",
-        "description": "Play first 3 sec of kedy_selma - Just To Create Something (4:05)",
+        "description": "Play first 5 sec of kedy_selma - Just To Create Something",
         "data": {
-          "timeout": 10.0,
-          "duration": 3.0,
+          "timeout": 15.0,
+          "duration": 5.0,
           "cooldown": 1.5
         }
       },

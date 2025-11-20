@@ -3,7 +3,7 @@
   "model": "io.alkapivo.core.test.TestSuite",
   "data":{
     "name": "Test Zoogies - digitalshadow",
-    "stopAfterFailure": true,
+    "stopAfterFailure": false,
     "tests": [
       {
         "handler": "TestEvent_VisuController_load",
@@ -19,17 +19,17 @@
         "handler": "TestEvent_VisuController_playback",
         "description": "Play whole Zoogies - digitalshadow (1:24)",
         "data": {
-          "timeout": 100.0,
+          "timeout": 104.0,
           "duration": 84.0,
           "cooldown": 1.5
         }
       },
       {
         "handler": "TestEvent_VisuController_playback",
-        "description": "Play first 3 sec of Zoogies - digitalshadow",
+        "description": "Play first 5 sec of Zoogies - digitalshadow",
         "data": {
-          "timeout": 10.0,
-          "duration": 3.0,
+          "timeout": 15.0,
+          "duration": 5.0,
           "cooldown": 1.5
         }
       },

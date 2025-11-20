@@ -2,31 +2,31 @@
   "version": "1",
   "model": "io.alkapivo.core.test.TestSuite",
   "data":{
-    "name": "Test kedy_selma - Passion",
+    "name": "Test Schnoopy - Sightseeing",
     "stopAfterFailure": false,
     "tests": [
       {
         "handler": "TestEvent_VisuController_load",
-        "description": "Load kedy_selma - Passion",
+        "description": "Load Schnoopy - Sightseeing",
         "data": {
-          "trackName": "kedy_selma - Passion",
+          "trackName": "Schnoopy - Sightseeing",
           "timeout": 10.0,
           "cooldown": 1.5,
-          "path": "track/kedy_selma/Singles/Passion/manifest.visu"
+          "path": "track/Schnoopy/Proxima/Sightseeing/manifest.visu"
         }
       },
       {
         "handler": "TestEvent_VisuController_playback",
-        "description": "Play whole kedy_selma - Passion (2:55)",
+        "description": "Play finished part of Schnoopy - Sightseeing (6:00)",
         "data": {
-          "timeout": 195.0,
-          "duration": 175.0,
+          "timeout": 380.0,
+          "duration": 360.0,
           "cooldown": 1.5
         }
       },
       {
         "handler": "TestEvent_VisuController_playback",
-        "description": "Play first 5 sec of kedy_selma - Passion (2:55)",
+        "description": "Play first 5 sec of Schnoopy - Sightseeing",
         "data": {
           "timeout": 15.0,
           "duration": 5.0,
@@ -35,7 +35,7 @@
       },
       {
         "handler": "TestEvent_VisuController_rewind",
-        "description": "Rewind on kedy_selma - Passion (15 times)",
+        "description": "Rewind on Schnoopy - Sightseeing (15 times)",
         "data": {
           "timeout": 40.0,
           "amount": 15.0,
@@ -46,7 +46,7 @@
       },
       {
         "handler": "TestEvent_BrushToolbar_save",
-        "description": "Save one brush in every category and type on kedy_selma - Passion",
+        "description": "Save one brush in every category and type on Schnoopy - Sightseeing",
         "data": {
           "timeout": 60.0,
           "cooldown": 0.5

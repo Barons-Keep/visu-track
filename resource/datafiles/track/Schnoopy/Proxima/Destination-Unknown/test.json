@@ -3,7 +3,7 @@
   "model": "io.alkapivo.core.test.TestSuite",
   "data":{
     "name": "Test Schnoopy - Destination Unknown",
-    "stopAfterFailure": true,
+    "stopAfterFailure": false,
     "tests": [
       {
         "handler": "TestEvent_VisuController_load",
@@ -17,19 +17,19 @@
       },
       {
         "handler": "TestEvent_VisuController_playback",
-        "description": "Play finished part of Schnoopy - Destination Unknown (2:45)",
+        "description": "Play finished part of Schnoopy - Destination Unknown (9:05)",
         "data": {
-          "timeout": 185.0,
-          "duration": 165.0,
+          "timeout": 560.0,
+          "duration": 540.0,
           "cooldown": 1.5
         }
       },
       {
         "handler": "TestEvent_VisuController_playback",
-        "description": "Play first 3 sec of Schnoopy - Destination Unknown (2:45)",
+        "description": "Play first 5 sec of Schnoopy - Destination Unknown",
         "data": {
-          "timeout": 10.0,
-          "duration": 3.0,
+          "timeout": 15.0,
+          "duration": 5.0,
           "cooldown": 1.5
         }
       },

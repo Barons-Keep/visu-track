@@ -3,7 +3,7 @@
   "model": "io.alkapivo.core.test.TestSuite",
   "data":{
     "name": "Test pikaro - the memories fade but the feeling remains",
-    "stopAfterFailure": true,
+    "stopAfterFailure": false,
     "tests": [
       {
         "handler": "TestEvent_VisuController_load",
@@ -12,24 +12,24 @@
           "trackName": "pikaro - the memories fade but the feeling remains",
           "timeout": 10.0,
           "cooldown": 1.5,
-          "path": "track/pikaro/Singles/the-memories-fade-but-the-feeling-remain/manifest.visu"
+          "path": "track/pikaro/Singles/the-memories-fade-but-the-feeling-remains/manifest.visu"
         }
       },
       {
         "handler": "TestEvent_VisuController_playback",
-        "description": "Play finished part of pikaro - the memories fade but the feeling remains (4:08)",
+        "description": "Play finished part of pikaro - the memories fade but the feeling remains (4:09)",
         "data": {
-          "timeout": 268.0,
-          "duration": 248.0,
+          "timeout": 269.0,
+          "duration": 249.0,
           "cooldown": 1.5
         }
       },
       {
         "handler": "TestEvent_VisuController_playback",
-        "description": "Play first 3 sec of pikaro - the memories fade but the feeling remains (4:08)",
+        "description": "Play first 5 sec of pikaro - the memories fade but the feeling remains",
         "data": {
-          "timeout": 10.0,
-          "duration": 3.0,
+          "timeout": 15.0,
+          "duration": 5.0,
           "cooldown": 1.5
         }
       },
