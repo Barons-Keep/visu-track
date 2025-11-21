@@ -10,8 +10,8 @@
         "description": "Load kedy_selma - Just To Create Something",
         "data": {
           "trackName": "kedy_selma - Just To Create Something",
-          "timeout": 15.0,
-          "cooldown": 1.5,
+          "timeout": 20.0,
+          "cooldown": 1.0,
           "path": "track/kedy_selma/Just-To-Create-Something/Just-To-Create-Something/manifest.visu"
         }
       },
@@ -19,29 +19,29 @@
         "handler": "TestEvent_VisuController_playback",
         "description": "Play whole kedy_selma - Just To Create Something (4:05)",
         "data": {
-          "timeout": 265.0,
-          "duration": 245.0,
-          "cooldown": 1.5
+          "timeout": 264.0,
+          "duration": 244.0,
+          "cooldown": 1.0
         }
       },
       {
         "handler": "TestEvent_VisuController_playback",
         "description": "Play first 5 sec of kedy_selma - Just To Create Something",
         "data": {
-          "timeout": 15.0,
+          "timeout": 25.0,
           "duration": 5.0,
-          "cooldown": 1.5
+          "cooldown": 1.0
         }
       },
       {
         "handler": "TestEvent_VisuController_rewind",
-        "description": "Rewind on kedy_selma - Just To Create Something (15 times)",
+        "description": "Rewind on kedy_selma - Just To Create Something (10 times)",
         "data": {
           "timeout": 40.0,
-          "amount": 15.0,
+          "amount": 10.0,
           "cooldown": 1.0,
-          "minDuration": 0.3,
-          "maxDuration": 1.4
+          "minDuration": 0.2,
+          "maxDuration": 2.0
         }
       },
       {

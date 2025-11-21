@@ -10,8 +10,8 @@
         "description": "Load Sewerslvt - Psychosis",
         "data": {
           "trackName": "Sewerslvt - Psychosis",
-          "timeout": 15.0,
-          "cooldown": 1.5,
+          "timeout": 20.0,
+          "cooldown": 1.0,
           "path": "track/Sewerslvt/The-World-is-Fvcked/Psychosis/manifest.visu"
         }
       },
@@ -19,29 +19,29 @@
         "handler": "TestEvent_VisuController_playback",
         "description": "Play finished part of Sewerslvt - Psychosis (3:49)",
         "data": {
-          "timeout": 249.0,
-          "duration": 229.0,
-          "cooldown": 1.5
+          "timeout": 248.0,
+          "duration": 228.0,
+          "cooldown": 1.0
         }
       },
       {
         "handler": "TestEvent_VisuController_playback",
         "description": "Play first 5 sec of Sewerslvt - Psychosis",
         "data": {
-          "timeout": 15.0,
+          "timeout": 25.0,
           "duration": 5.0,
-          "cooldown": 1.5
+          "cooldown": 1.0
         }
       },
       {
         "handler": "TestEvent_VisuController_rewind",
-        "description": "Rewind on Sewerslvt - Psychosis (15 times)",
+        "description": "Rewind on Sewerslvt - Psychosis (10 times)",
         "data": {
           "timeout": 40.0,
-          "amount": 15.0,
+          "amount": 10.0,
           "cooldown": 1.0,
-          "minDuration": 0.3,
-          "maxDuration": 1.4
+          "minDuration": 0.2,
+          "maxDuration": 2.0
         }
       },
       {

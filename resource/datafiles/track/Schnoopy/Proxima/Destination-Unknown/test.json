@@ -10,8 +10,8 @@
         "description": "Load Schnoopy - Destination Unknown",
         "data": {
           "trackName": "Schnoopy - Destination Unknown",
-          "timeout": 15.0,
-          "cooldown": 1.5,
+          "timeout": 20.0,
+          "cooldown": 1.0,
           "path": "track/Schnoopy/Proxima/Destination-Unknown/manifest.visu"
         }
       },
@@ -19,29 +19,29 @@
         "handler": "TestEvent_VisuController_playback",
         "description": "Play finished part of Schnoopy - Destination Unknown (9:05)",
         "data": {
-          "timeout": 560.0,
-          "duration": 540.0,
-          "cooldown": 1.5
+          "timeout": 564.0,
+          "duration": 544.0,
+          "cooldown": 1.0
         }
       },
       {
         "handler": "TestEvent_VisuController_playback",
         "description": "Play first 5 sec of Schnoopy - Destination Unknown",
         "data": {
-          "timeout": 15.0,
+          "timeout": 25.0,
           "duration": 5.0,
-          "cooldown": 1.5
+          "cooldown": 1.0
         }
       },
       {
         "handler": "TestEvent_VisuController_rewind",
-        "description": "Rewind on Schnoopy - Destination Unknown (15 times)",
+        "description": "Rewind on Schnoopy - Destination Unknown (10 times)",
         "data": {
           "timeout": 40.0,
-          "amount": 15.0,
+          "amount": 10.0,
           "cooldown": 1.0,
-          "minDuration": 0.3,
-          "maxDuration": 1.4
+          "minDuration": 0.2,
+          "maxDuration": 2.0
         }
       },
       {
