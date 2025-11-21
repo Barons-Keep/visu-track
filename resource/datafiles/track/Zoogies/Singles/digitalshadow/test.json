@@ -6,7 +6,7 @@
     "stopAfterFailure": false,
     "tests": [
       {
-        "handler": "TestEvent_VisuController_load",
+        "handler": "Test_VisuController_load",
         "description": "Load Zoogies - digitalshadow",
         "data": {
           "trackName": "zoogies - digitalshadow",
@@ -16,7 +16,7 @@
         }
       },
       {
-        "handler": "TestEvent_VisuController_playback",
+        "handler": "Test_VisuController_playback",
         "description": "Play whole Zoogies - digitalshadow (1:24)",
         "data": {
           "timeout": 103.0,
@@ -25,7 +25,7 @@
         }
       },
       {
-        "handler": "TestEvent_VisuController_playback",
+        "handler": "Test_VisuController_playback",
         "description": "Play first 5 sec of Zoogies - digitalshadow",
         "data": {
           "timeout": 25.0,
@@ -34,7 +34,7 @@
         }
       },
       {
-        "handler": "TestEvent_VisuController_rewind",
+        "handler": "Test_VisuController_rewind",
         "description": "Rewind on Zoogies - digitalshadow (10 times)",
         "data": {
           "timeout": 40.0,
@@ -45,7 +45,7 @@
         }
       },
       {
-        "handler": "TestEvent_BrushToolbar_save",
+        "handler": "Test_BrushToolbar_save",
         "description": "Save one brush in every category and type on Zoogies - digitalshadow",
         "data": {
           "timeout": 60.0,

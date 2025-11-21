@@ -6,7 +6,7 @@
     "stopAfterFailure": false,
     "tests": [
       {
-        "handler": "TestEvent_VisuController_load",
+        "handler": "Test_VisuController_load",
         "description": "Load pikaro - the memories fade but the feeling remains",
         "data": {
           "trackName": "pikaro - the memories fade but the feeling remains",
@@ -16,7 +16,7 @@
         }
       },
       {
-        "handler": "TestEvent_VisuController_playback",
+        "handler": "Test_VisuController_playback",
         "description": "Play finished part of pikaro - the memories fade but the feeling remains (4:09)",
         "data": {
           "timeout": 268.0,
@@ -25,7 +25,7 @@
         }
       },
       {
-        "handler": "TestEvent_VisuController_playback",
+        "handler": "Test_VisuController_playback",
         "description": "Play first 5 sec of pikaro - the memories fade but the feeling remains",
         "data": {
           "timeout": 25.0,
@@ -34,7 +34,7 @@
         }
       },
       {
-        "handler": "TestEvent_VisuController_rewind",
+        "handler": "Test_VisuController_rewind",
         "description": "Rewind on pikaro - the memories fade but the feeling remains (10 times)",
         "data": {
           "timeout": 40.0,
@@ -45,7 +45,7 @@
         }
       },
       {
-        "handler": "TestEvent_BrushToolbar_save",
+        "handler": "Test_BrushToolbar_save",
         "description": "Save one brush in every category and type on pikaro - the memories fade but the feeling remains",
         "data": {
           "timeout": 60.0,

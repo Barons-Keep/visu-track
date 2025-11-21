@@ -6,7 +6,7 @@
     "stopAfterFailure": false,
     "tests": [
       {
-        "handler": "TestEvent_VisuController_load",
+        "handler": "Test_VisuController_load",
         "description": "Load Sewerslvt - Purple Hearts In Her Eyes",
         "data": {
           "trackName": "Sewerslvt - Purple Hearts In Her Eyes",
@@ -16,7 +16,7 @@
         }
       },
       {
-        "handler": "TestEvent_VisuController_playback",
+        "handler": "Test_VisuController_playback",
         "description": "Play finished part of Sewerslvt - Purple Hearts In Her Eyes (6:34)",
         "data": {
           "timeout": 413.0,
@@ -25,7 +25,7 @@
         }
       },
       {
-        "handler": "TestEvent_VisuController_playback",
+        "handler": "Test_VisuController_playback",
         "description": "Play first 5 sec of Sewerslvt - Purple Hearts In Her Eyes",
         "data": {
           "timeout": 25.0,
@@ -34,7 +34,7 @@
         }
       },
       {
-        "handler": "TestEvent_VisuController_rewind",
+        "handler": "Test_VisuController_rewind",
         "description": "Rewind on Sewerslvt - Purple Hearts In Her Eyes (10 times)",
         "data": {
           "timeout": 40.0,
@@ -45,7 +45,7 @@
         }
       },
       {
-        "handler": "TestEvent_BrushToolbar_save",
+        "handler": "Test_BrushToolbar_save",
         "description": "Save one brush in every category and type on Sewerslvt - Purple Hearts In Her Eyes",
         "data": {
           "timeout": 60.0,

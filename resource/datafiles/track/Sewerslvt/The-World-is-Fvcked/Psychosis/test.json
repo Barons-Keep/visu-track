@@ -6,7 +6,7 @@
     "stopAfterFailure": false,
     "tests": [
       {
-        "handler": "TestEvent_VisuController_load",
+        "handler": "Test_VisuController_load",
         "description": "Load Sewerslvt - Psychosis",
         "data": {
           "trackName": "Sewerslvt - Psychosis",
@@ -16,7 +16,7 @@
         }
       },
       {
-        "handler": "TestEvent_VisuController_playback",
+        "handler": "Test_VisuController_playback",
         "description": "Play finished part of Sewerslvt - Psychosis (3:49)",
         "data": {
           "timeout": 248.0,
@@ -25,7 +25,7 @@
         }
       },
       {
-        "handler": "TestEvent_VisuController_playback",
+        "handler": "Test_VisuController_playback",
         "description": "Play first 5 sec of Sewerslvt - Psychosis",
         "data": {
           "timeout": 25.0,
@@ -34,7 +34,7 @@
         }
       },
       {
-        "handler": "TestEvent_VisuController_rewind",
+        "handler": "Test_VisuController_rewind",
         "description": "Rewind on Sewerslvt - Psychosis (10 times)",
         "data": {
           "timeout": 40.0,
@@ -45,7 +45,7 @@
         }
       },
       {
-        "handler": "TestEvent_BrushToolbar_save",
+        "handler": "Test_BrushToolbar_save",
         "description": "Save one brush in every category and type on Sewerslvt - Psychosis",
         "data": {
           "timeout": 60.0,
