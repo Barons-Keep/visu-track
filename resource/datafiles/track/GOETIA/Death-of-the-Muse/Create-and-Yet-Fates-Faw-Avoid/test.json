@@ -11,7 +11,7 @@
         "data": {
           "trackName": "GOETIA - Create and Yet Fate's Faw Avoid",
           "timeout": 15.0,
-          "cooldown": 1.5,
+          "cooldown": 1.0,
           "path": "track/GOETIA/Death-of-the-Muse/Create-and-Yet-Fates-Faw-Avoid/manifest.visu"
         }
       },
@@ -21,7 +21,7 @@
         "data": {
           "timeout": 277.0,
           "duration": 257.0,
-          "cooldown": 1.5
+          "cooldown": 1.0
         }
       },
       {
@@ -30,7 +30,7 @@
         "data": {
           "timeout": 15.0,
           "duration": 5.0,
-          "cooldown": 1.5
+          "cooldown": 1.0
         }
       },
       {
@@ -49,7 +49,7 @@
         "description": "Save one brush in every category and type on GOETIA - Create and Yet Fate's Faw Avoid",
         "data": {
           "timeout": 60.0,
-          "cooldown": 0.5
+          "cooldown": 1.0
         }
       }
     ]

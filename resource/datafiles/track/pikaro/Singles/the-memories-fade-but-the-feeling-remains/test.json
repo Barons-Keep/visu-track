@@ -11,7 +11,7 @@
         "data": {
           "trackName": "pikaro - the memories fade but the feeling remains",
           "timeout": 15.0,
-          "cooldown": 1.5,
+          "cooldown": 1.0,
           "path": "track/pikaro/Singles/the-memories-fade-but-the-feeling-remains/manifest.visu"
         }
       },
@@ -21,7 +21,7 @@
         "data": {
           "timeout": 269.0,
           "duration": 249.0,
-          "cooldown": 1.5
+          "cooldown": 1.0
         }
       },
       {
@@ -30,7 +30,7 @@
         "data": {
           "timeout": 15.0,
           "duration": 5.0,
-          "cooldown": 1.5
+          "cooldown": 1.0
         }
       },
       {
@@ -49,7 +49,7 @@
         "description": "Save one brush in every category and type on pikaro - the memories fade but the feeling remains",
         "data": {
           "timeout": 60.0,
-          "cooldown": 0.5
+          "cooldown": 1.0
         }
       }
     ]
