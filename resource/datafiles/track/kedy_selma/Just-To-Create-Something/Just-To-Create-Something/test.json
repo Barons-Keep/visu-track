@@ -10,7 +10,7 @@
         "description": "Load kedy_selma - Just To Create Something",
         "data": {
           "trackName": "kedy_selma - Just To Create Something",
-          "timeout": 10.0,
+          "timeout": 15.0,
           "cooldown": 1.5,
           "path": "track/kedy_selma/Just-To-Create-Something/Just-To-Create-Something/manifest.visu"
         }

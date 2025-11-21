@@ -10,7 +10,7 @@
         "description": "Load GOETIA - Create and Yet Fate's Faw Avoid",
         "data": {
           "trackName": "GOETIA - Create and Yet Fate's Faw Avoid",
-          "timeout": 10.0,
+          "timeout": 15.0,
           "cooldown": 1.5,
           "path": "track/GOETIA/Death-of-the-Muse/Create-and-Yet-Fates-Faw-Avoid/manifest.visu"
         }

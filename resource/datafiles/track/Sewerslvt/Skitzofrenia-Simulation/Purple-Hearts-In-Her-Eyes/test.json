@@ -10,7 +10,7 @@
         "description": "Load Sewerslvt - Purple Hearts In Her Eyes",
         "data": {
           "trackName": "Sewerslvt - Purple Hearts In Her Eyes",
-          "timeout": 10.0,
+          "timeout": 15.0,
           "cooldown": 1.5,
           "path": "track/Sewerslvt/Skitzofrenia-Simulation/Purple-Hearts-In-Her-Eyes/manifest.visu"
         }

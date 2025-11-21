@@ -10,7 +10,7 @@
         "description": "Load Sewerslvt - Psychosis",
         "data": {
           "trackName": "Sewerslvt - Psychosis",
-          "timeout": 10.0,
+          "timeout": 15.0,
           "cooldown": 1.5,
           "path": "track/Sewerslvt/The-World-is-Fvcked/Psychosis/manifest.visu"
         }

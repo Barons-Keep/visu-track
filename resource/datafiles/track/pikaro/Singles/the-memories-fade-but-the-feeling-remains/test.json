@@ -10,7 +10,7 @@
         "description": "Load pikaro - the memories fade but the feeling remains",
         "data": {
           "trackName": "pikaro - the memories fade but the feeling remains",
-          "timeout": 10.0,
+          "timeout": 15.0,
           "cooldown": 1.5,
           "path": "track/pikaro/Singles/the-memories-fade-but-the-feeling-remains/manifest.visu"
         }

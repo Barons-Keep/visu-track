@@ -10,7 +10,7 @@
         "description": "Load Schnoopy - Destination Unknown",
         "data": {
           "trackName": "Schnoopy - Destination Unknown",
-          "timeout": 10.0,
+          "timeout": 15.0,
           "cooldown": 1.5,
           "path": "track/Schnoopy/Proxima/Destination-Unknown/manifest.visu"
         }

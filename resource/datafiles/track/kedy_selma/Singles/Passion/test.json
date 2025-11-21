@@ -10,7 +10,7 @@
         "description": "Load kedy_selma - Passion",
         "data": {
           "trackName": "kedy_selma - Passion",
-          "timeout": 10.0,
+          "timeout": 15.0,
           "cooldown": 1.5,
           "path": "track/kedy_selma/Singles/Passion/manifest.visu"
         }

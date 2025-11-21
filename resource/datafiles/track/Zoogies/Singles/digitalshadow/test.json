@@ -10,7 +10,7 @@
         "description": "Load Zoogies - digitalshadow",
         "data": {
           "trackName": "zoogies - digitalshadow",
-          "timeout": 10.0,
+          "timeout": 15.0,
           "cooldown": 1.5,
           "path": "track/Zoogies/Singles/digitalshadow/manifest.visu"
         }
