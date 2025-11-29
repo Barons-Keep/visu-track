@@ -6,20 +6,6 @@
       "hidden":true,
       "color":"#0080FF",
       "properties":{
-        "ef-cfg_cls-frame-col":"#000000",
-        "ef-cfg_cls-frame-col-spd":1.0,
-        "ef-cfg_cls-frame-alpha":{
-          "increase":0.0,
-          "value":0.0,
-          "duration":0.0,
-          "ease":"LEGACY",
-          "factor":0.0,
-          "target":0.0
-        },
-        "ef-cfg_use-cls-frame-alpha":false,
-        "ef-cfg_change-cls-frame-alpha":false,
-        "ef-cfg_use-cls-frame":false,
-        "ef-cfg_cls-frame":false,
         "ef-cfg_change-particle-z":false,
         "ef-cfg_cls-bkg-glt":false,
         "ef-cfg_cls-glt":false,
@@ -54,10 +40,24 @@
         "ef-cfg_use-render-glt":false,
         "ef-cfg_use-render-gr-glt":false,
         "ef-cfg_use-render-part":false,
+        "ef-cfg_cls-frame":false,
         "ef-cfg_use-render-shd-all":false,
         "ef-cfg_use-render-shd-bkg":false,
+        "ef-cfg_use-cls-frame-col":false,
         "ef-cfg_use-render-shd-gr":false,
-        "ef-cfg_use-cls-frame-col":false
+        "ef-cfg_cls-frame-col":"#000000",
+        "ef-cfg_cls-frame-col-spd":1.0,
+        "ef-cfg_cls-frame-alpha":{
+          "increase":0.0,
+          "value":0.0,
+          "duration":0.0,
+          "ease":"LEGACY",
+          "factor":0.0,
+          "target":0.0
+        },
+        "ef-cfg_use-cls-frame-alpha":false,
+        "ef-cfg_change-cls-frame-alpha":false,
+        "ef-cfg_use-cls-frame":false
       },
       "name":"empty"
     },
@@ -67,20 +67,6 @@
       "hidden":true,
       "color":"#00A000",
       "properties":{
-        "ef-cfg_cls-frame-col":"#000000",
-        "ef-cfg_cls-frame-col-spd":0.0,
-        "ef-cfg_cls-frame-alpha":{
-          "increase":0.0,
-          "value":0.0,
-          "duration":0.0,
-          "ease":"LEGACY",
-          "factor":0.0,
-          "target":0.0
-        },
-        "ef-cfg_use-cls-frame-alpha":true,
-        "ef-cfg_change-cls-frame-alpha":false,
-        "ef-cfg_use-cls-frame":true,
-        "ef-cfg_cls-frame":true,
         "ef-cfg_change-particle-z":false,
         "ef-cfg_cls-bkg-glt":true,
         "ef-cfg_cls-glt":true,
@@ -115,10 +101,24 @@
         "ef-cfg_use-render-glt":true,
         "ef-cfg_use-render-gr-glt":true,
         "ef-cfg_use-render-part":true,
+        "ef-cfg_cls-frame":true,
         "ef-cfg_use-render-shd-all":true,
         "ef-cfg_use-render-shd-bkg":true,
+        "ef-cfg_use-cls-frame-col":true,
         "ef-cfg_use-render-shd-gr":true,
-        "ef-cfg_use-cls-frame-col":true
+        "ef-cfg_cls-frame-col":"#000000",
+        "ef-cfg_cls-frame-col-spd":0.0,
+        "ef-cfg_cls-frame-alpha":{
+          "increase":0.0,
+          "value":0.0,
+          "duration":0.0,
+          "ease":"LEGACY",
+          "factor":0.0,
+          "target":0.0
+        },
+        "ef-cfg_use-cls-frame-alpha":true,
+        "ef-cfg_change-cls-frame-alpha":false,
+        "ef-cfg_use-cls-frame":true
       },
       "name":"default"
     }

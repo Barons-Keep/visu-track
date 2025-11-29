@@ -8,6 +8,7 @@
       "properties":{
         "gr-cfg_hide-grid-spd":true,
         "gr-cfg_hide-grid-z":true,
+        "gr-cfg_hide-focus-grid-blend":true,
         "gr-cfg_render":true,
         "gr-cfg_render-focus-grid":false,
         "gr-cfg_spd":{
@@ -35,6 +36,14 @@
           "factor":0.0,
           "target":2045.0
         },
+        "gr-cfg_focus-grid-blend-dest":"INV_SRC_ALPHA",
+        "gr-cfg_focus-grid-blend-eq":"ADD",
+        "gr-cfg_focus-grid-blend-eq-alpha":"ADD",
+        "gr-cfg_focus-grid-use-blend-col":false,
+        "gr-cfg_focus-grid-blend-col":"#FFFFFF",
+        "gr-cfg_focus-grid-blend-col-spd":0.0,
+        "gr-cfg_focus-grid-use-blend":false,
+        "gr-cfg_focus-grid-blend-src":"SRC_ALPHA",
         "gr-cfg_change-cls-frame-alpha":false,
         "gr-cfg_change-focus-grid-alpha":false,
         "gr-cfg_change-focus-grid-treshold":false,
@@ -51,9 +60,6 @@
         },
         "gr-cfg_cls-frame-col":"#000000",
         "gr-cfg_cls-frame-col-spd":0.0,
-        "gr-cfg_focus-grid-blend-dest":"INV_SRC_ALPHA",
-        "gr-cfg_focus-grid-blend-eq":"ADD",
-        "gr-cfg_focus-grid-blend-eq-alpha":"ADD",
         "gr-cfg_focus-grid-alpha":{
           "increase":0.0,
           "value":1.0,
@@ -62,9 +68,6 @@
           "factor":0.0,
           "target":1.0
         },
-        "gr-cfg_focus-grid-use-blend-col":false,
-        "gr-cfg_focus-grid-blend-col":"#FFFFFF",
-        "gr-cfg_focus-grid-blend-col-spd":0.0,
         "gr-cfg_focus-grid-treshold":{
           "increase":0.0,
           "value":1.0,
@@ -73,9 +76,6 @@
           "factor":0.0,
           "target":1.0
         },
-        "gr-cfg_hide-focus-grid-blend":true,
-        "gr-cfg_focus-grid-use-blend":false,
-        "gr-cfg_focus-grid-blend-src":"SRC_ALPHA",
         "gr-cfg_grid-blend-dest":"INV_SRC_ALPHA",
         "gr-cfg_grid-blend-eq":"ADD",
         "gr-cfg_grid-blend-eq-alpha":"ADD",

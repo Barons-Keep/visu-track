@@ -104,6 +104,58 @@
       },
       "shape":"FLARE"
     },
+    "particle-goetia-3":{
+      "particle":null,
+      "angle":{
+        "increase":-1.0,
+        "minValue":0.0,
+        "wiggle":1.0,
+        "maxValue":360.0
+      },
+      "color":{
+        "finish":"#FF0080",
+        "start":"#FF0000",
+        "halfway":"#007AFF"
+      },
+      "speed":{
+        "increase":0.25,
+        "minValue":25.0,
+        "wiggle":10.0,
+        "maxValue":100.0
+      },
+      "blend":true,
+      "gravity":{
+        "angle":270.0,
+        "amount":5.0
+      },
+      "scale":{
+        "x":1.0,
+        "y":1.0
+      },
+      "size":{
+        "increase":1.5,
+        "minValue":0.0,
+        "wiggle":2.0,
+        "maxValue":10.0
+      },
+      "alpha":{
+        "finish":0.0,
+        "start":0.0,
+        "halfway":1.0
+      },
+      "orientation":{
+        "increase":-5.0,
+        "minValue":0.0,
+        "relative":360.0,
+        "wiggle":1.0,
+        "maxValue":360.0
+      },
+      "life":{
+        "minValue":60.0,
+        "maxValue":90.0
+      },
+      "shape":"FLARE"
+    },
     "particle-shroom-damage":{
       "particle":null,
       "angle":{
@@ -207,58 +259,6 @@
         "maxValue":75.0
       },
       "shape":"EXPLOSION"
-    },
-    "particle-goetia-3":{
-      "particle":null,
-      "angle":{
-        "increase":-1.0,
-        "minValue":0.0,
-        "wiggle":1.0,
-        "maxValue":360.0
-      },
-      "color":{
-        "finish":"#FF0080",
-        "start":"#FF0000",
-        "halfway":"#007AFF"
-      },
-      "speed":{
-        "increase":0.25,
-        "minValue":25.0,
-        "wiggle":10.0,
-        "maxValue":100.0
-      },
-      "blend":true,
-      "gravity":{
-        "angle":270.0,
-        "amount":5.0
-      },
-      "scale":{
-        "x":1.0,
-        "y":1.0
-      },
-      "size":{
-        "increase":1.5,
-        "minValue":0.0,
-        "wiggle":2.0,
-        "maxValue":10.0
-      },
-      "alpha":{
-        "finish":0.0,
-        "start":0.0,
-        "halfway":1.0
-      },
-      "orientation":{
-        "increase":-5.0,
-        "minValue":0.0,
-        "relative":360.0,
-        "wiggle":1.0,
-        "maxValue":360.0
-      },
-      "life":{
-        "minValue":60.0,
-        "maxValue":90.0
-      },
-      "shape":"FLARE"
     }
   },
   "model":"Collection<io.alkapivo.core.service.particle.ParticleTemplate>",

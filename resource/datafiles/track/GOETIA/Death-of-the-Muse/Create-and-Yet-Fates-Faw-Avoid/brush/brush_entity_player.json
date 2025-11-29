@@ -39,21 +39,6 @@
             "maxValue":250.0
           }
         },
-        "en-pl_texture":{
-          "scaleX":1.0,
-          "angle":0.0,
-          "randomFrame":false,
-          "scaleY":1.0,
-          "frame":0.0,
-          "alpha":0.0,
-          "speed":0.0,
-          "blend":"#FFFFFF",
-          "name":"texture_empty",
-          "animate":false
-        },
-        "en-pl_use-bullethell":true,
-        "en-pl_use-mask":true,
-        "en-pl_use-stats":false,
         "en-pl_platformer":{
           "x":{
             "acceleration":1.9199999999999999,
@@ -69,7 +54,22 @@
             "size":4.0
           }
         },
+        "en-pl_texture":{
+          "scaleX":1.0,
+          "angle":0.0,
+          "randomFrame":false,
+          "scaleY":1.0,
+          "frame":0.0,
+          "alpha":0.0,
+          "speed":0.0,
+          "blend":"#FFFFFF",
+          "name":"texture_empty",
+          "animate":false
+        },
         "en-pl_use-racing":1.0,
+        "en-pl_use-bullethell":true,
+        "en-pl_use-mask":true,
+        "en-pl_use-stats":false,
         "en-pl_racing":{
           "wheel":{
             "acceleration":0.29999999999999999,
@@ -147,21 +147,6 @@
             "maxValue":250.0
           }
         },
-        "en-pl_texture":{
-          "scaleX":3.0,
-          "angle":0.0,
-          "randomFrame":false,
-          "scaleY":3.0,
-          "frame":0.0,
-          "alpha":1.0,
-          "speed":13.0,
-          "blend":"#FFFFFF",
-          "name":"texture_player",
-          "animate":1.0
-        },
-        "en-pl_use-bullethell":1.0,
-        "en-pl_use-mask":true,
-        "en-pl_use-stats":true,
         "en-pl_platformer":{
           "x":{
             "acceleration":1.9199999999999999,
@@ -177,7 +162,22 @@
             "size":4.0
           }
         },
+        "en-pl_texture":{
+          "scaleX":3.0,
+          "angle":0.0,
+          "randomFrame":false,
+          "scaleY":3.0,
+          "frame":0.0,
+          "alpha":1.0,
+          "speed":13.0,
+          "blend":"#FFFFFF",
+          "name":"texture_player",
+          "animate":1.0
+        },
         "en-pl_use-racing":1.0,
+        "en-pl_use-bullethell":1.0,
+        "en-pl_use-mask":true,
+        "en-pl_use-stats":true,
         "en-pl_racing":{
           "wheel":{
             "acceleration":0.29999999999999999,
