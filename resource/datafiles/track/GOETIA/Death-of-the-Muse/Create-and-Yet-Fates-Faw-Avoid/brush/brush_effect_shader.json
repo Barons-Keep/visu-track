@@ -1,9 +1,6 @@
 {
-  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>",
-  "version":"1",
   "data":[
     {
-      "name":"wavy spectrum 3",
       "type":"brush_effect_shader",
       "texture":"texture_ve_icon_effect_shader",
       "hidden":false,
@@ -20,10 +17,10 @@
         "ef-shd_pipeline":"BACKGROUND",
         "ef-shd_template":"wavy spectrum 3",
         "ef-shd_use-merge-cfg":false
-      }
+      },
+      "name":"wavy spectrum 3"
     },
     {
-      "name":"deep space 2",
       "type":"brush_effect_shader",
       "texture":"texture_ve_icon_effect_shader",
       "hidden":false,
@@ -42,10 +39,10 @@
         "ef-shd_pipeline":"BACKGROUND",
         "ef-shd_template":"deep space 1",
         "ef-shd_use-merge-cfg":true
-      }
+      },
+      "name":"deep space 2"
     },
     {
-      "name":"warp pulse 2",
       "type":"brush_effect_shader",
       "texture":"texture_ve_icon_effect_shader",
       "hidden":false,
@@ -64,10 +61,10 @@
         "ef-shd_pipeline":"COMBINED",
         "ef-shd_template":"warp pulse 2",
         "ef-shd_use-merge-cfg":true
-      }
+      },
+      "name":"warp pulse 2"
     },
     {
-      "name":"wavy lines 2",
       "type":"brush_effect_shader",
       "texture":"texture_ve_icon_effect_shader",
       "hidden":false,
@@ -86,10 +83,10 @@
         "ef-shd_pipeline":"BACKGROUND",
         "ef-shd_template":"wavy lines 2",
         "ef-shd_use-merge-cfg":true
-      }
+      },
+      "name":"wavy lines 2"
     },
     {
-      "name":"astral flow 1",
       "type":"brush_effect_shader",
       "texture":"texture_ve_icon_effect_shader",
       "hidden":false,
@@ -106,10 +103,10 @@
         "ef-shd_pipeline":"BACKGROUND",
         "ef-shd_template":"astral flow 1",
         "ef-shd_use-merge-cfg":false
-      }
+      },
+      "name":"astral flow 1"
     },
     {
-      "name":"fractal bloom 1",
       "type":"brush_effect_shader",
       "texture":"texture_ve_icon_effect_shader",
       "hidden":false,
@@ -127,10 +124,10 @@
         "ef-shd_pipeline":"COMBINED",
         "ef-shd_template":"fractal bloom 1",
         "ef-shd_use-merge-cfg":true
-      }
+      },
+      "name":"fractal bloom 1"
     },
     {
-      "name":"deep space 1",
       "type":"brush_effect_shader",
       "texture":"texture_ve_icon_effect_shader",
       "hidden":false,
@@ -149,10 +146,10 @@
         "ef-shd_pipeline":"BACKGROUND",
         "ef-shd_template":"deep space 1",
         "ef-shd_use-merge-cfg":true
-      }
+      },
+      "name":"deep space 1"
     },
     {
-      "name":"cloudy sky 1",
       "type":"brush_effect_shader",
       "texture":"texture_ve_icon_effect_shader",
       "hidden":false,
@@ -170,10 +167,10 @@
         "ef-shd_pipeline":"BACKGROUND",
         "ef-shd_template":"cloudy sky 1",
         "ef-shd_use-merge-cfg":false
-      }
+      },
+      "name":"cloudy sky 1"
     },
     {
-      "name":"cloudy sky 2",
       "type":"brush_effect_shader",
       "texture":"texture_ve_icon_effect_shader",
       "hidden":false,
@@ -194,10 +191,10 @@
         "ef-shd_pipeline":"COMBINED",
         "ef-shd_template":"cloudy sky 2",
         "ef-shd_use-merge-cfg":true
-      }
+      },
+      "name":"cloudy sky 2"
     },
     {
-      "name":"wormhole vortex 1",
       "type":"brush_effect_shader",
       "texture":"texture_ve_icon_effect_shader",
       "hidden":false,
@@ -215,10 +212,10 @@
         "ef-shd_pipeline":"COMBINED",
         "ef-shd_template":"wormhole vortex 1",
         "ef-shd_use-merge-cfg":false
-      }
+      },
+      "name":"wormhole vortex 1"
     },
     {
-      "name":"wavy lines 1",
       "type":"brush_effect_shader",
       "texture":"texture_ve_icon_effect_shader",
       "hidden":false,
@@ -236,10 +233,10 @@
         "ef-shd_pipeline":"COMBINED",
         "ef-shd_template":"wavy lines 1",
         "ef-shd_use-merge-cfg":true
-      }
+      },
+      "name":"wavy lines 1"
     },
     {
-      "name":"warp pulse 1",
       "type":"brush_effect_shader",
       "texture":"texture_ve_icon_effect_shader",
       "hidden":false,
@@ -257,10 +254,10 @@
         "ef-shd_pipeline":"COMBINED",
         "ef-shd_template":"warp pulse 1",
         "ef-shd_use-merge-cfg":true
-      }
+      },
+      "name":"warp pulse 1"
     },
     {
-      "name":"polycular 1",
       "type":"brush_effect_shader",
       "texture":"texture_ve_icon_effect_shader",
       "hidden":false,
@@ -277,10 +274,10 @@
         "ef-shd_pipeline":"BACKGROUND",
         "ef-shd_template":"polycular 1",
         "ef-shd_use-merge-cfg":false
-      }
+      },
+      "name":"polycular 1"
     },
     {
-      "name":"wavy spectrum 1",
       "type":"brush_effect_shader",
       "texture":"texture_ve_icon_effect_shader",
       "hidden":false,
@@ -297,10 +294,10 @@
         "ef-shd_pipeline":"BACKGROUND",
         "ef-shd_template":"wavy spectrum 1",
         "ef-shd_use-merge-cfg":false
-      }
+      },
+      "name":"wavy spectrum 1"
     },
     {
-      "name":"wavy spectrum 2",
       "type":"brush_effect_shader",
       "texture":"texture_ve_icon_effect_shader",
       "hidden":false,
@@ -317,10 +314,10 @@
         "ef-shd_pipeline":"BACKGROUND",
         "ef-shd_template":"wavy spectrum 2",
         "ef-shd_use-merge-cfg":false
-      }
+      },
+      "name":"wavy spectrum 2"
     },
     {
-      "name":"arc runner 1",
       "type":"brush_effect_shader",
       "texture":"texture_ve_icon_effect_shader",
       "hidden":false,
@@ -337,10 +334,10 @@
         "ef-shd_pipeline":"COMBINED",
         "ef-shd_template":"arc runner 1",
         "ef-shd_use-merge-cfg":false
-      }
+      },
+      "name":"arc runner 1"
     },
     {
-      "name":"funk flux 1",
       "type":"brush_effect_shader",
       "texture":"texture_ve_icon_effect_shader",
       "hidden":false,
@@ -358,10 +355,10 @@
         "ef-shd_pipeline":"BACKGROUND",
         "ef-shd_template":"funk flux 1",
         "ef-shd_use-merge-cfg":true
-      }
+      },
+      "name":"funk flux 1"
     },
     {
-      "name":"funk flux 2",
       "type":"brush_effect_shader",
       "texture":"texture_ve_icon_effect_shader",
       "hidden":false,
@@ -379,10 +376,10 @@
         "ef-shd_pipeline":"BACKGROUND",
         "ef-shd_template":"funk flux 2",
         "ef-shd_use-merge-cfg":false
-      }
+      },
+      "name":"funk flux 2"
     },
     {
-      "name":"funk flux 3",
       "type":"brush_effect_shader",
       "texture":"texture_ve_icon_effect_shader",
       "hidden":false,
@@ -399,19 +396,19 @@
             "duration":10.0
           },
           "u_angle":{
+            "value":60.0,
             "duration":5.0,
-            "target":0.0,
-            "value":60.0
+            "target":0.0
           },
           "u_seed":2137.0
         },
         "ef-shd_pipeline":"GRID",
         "ef-shd_template":"funk flux 3",
         "ef-shd_use-merge-cfg":true
-      }
+      },
+      "name":"funk flux 3"
     },
     {
-      "name":"CRT 1",
       "type":"brush_effect_shader",
       "texture":"texture_ve_icon_effect_shader",
       "hidden":false,
@@ -428,10 +425,10 @@
         "ef-shd_pipeline":"COMBINED",
         "ef-shd_template":"CRT 1",
         "ef-shd_use-merge-cfg":false
-      }
+      },
+      "name":"CRT 1"
     },
     {
-      "name":"wavy mesh 1",
       "type":"brush_effect_shader",
       "texture":"texture_ve_icon_effect_shader",
       "hidden":false,
@@ -448,7 +445,10 @@
         "ef-shd_pipeline":"BACKGROUND",
         "ef-shd_template":"wavy mesh 1",
         "ef-shd_use-merge-cfg":false
-      }
+      },
+      "name":"wavy mesh 1"
     }
-  ]
+  ],
+  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>",
+  "version":"1"
 }
