@@ -40,8 +40,8 @@
           "timeout": 40.0,
           "amount": 10.0,
           "cooldown": 1.0,
-          "minDuration": 2.0,
-          "maxDuration": 5.0
+          "minDuration": 1.0,
+          "maxDuration": 2.0
         }
       },
       {
