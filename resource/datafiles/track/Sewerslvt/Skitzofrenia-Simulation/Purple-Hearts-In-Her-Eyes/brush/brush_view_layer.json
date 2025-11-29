@@ -1,12 +1,16 @@
 {
   "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>",
+  "version":"1",
   "data":[
     {
       "name":"default bkg",
       "type":"brush_view_layer",
       "texture":"texture_ve_icon_view_layer",
+      "hidden":false,
       "color":"#00FF00",
       "properties":{
+        "vw-layer_blend-dest":"INV_SRC_ALPHA",
+        "vw-layer_blend-eq":"ADD",
         "vw-layer_blend-eq-alpha":"ADD",
         "vw-layer_blend-src":"SRC_ALPHA",
         "vw-layer_change-dir":false,
@@ -18,41 +22,41 @@
         "vw-layer_col":"#0A1119",
         "vw-layer_dir":{
           "factor":0.0,
-          "value":0.0,
           "target":0.0,
-          "increase":0.0
+          "increase":0.0,
+          "value":0.0
         },
         "vw-layer_fade-in":0.0,
         "vw-layer_fade-out":1.0,
         "vw-layer_scale-x":{
           "factor":0.0,
-          "value":1.0,
           "target":0.0,
-          "increase":0.0
+          "increase":0.0,
+          "value":1.0
         },
         "vw-layer_scale-y":{
           "factor":0.0,
-          "value":1.0,
           "target":0.0,
-          "increase":0.0
+          "increase":0.0,
+          "value":1.0
         },
         "vw-layer_spd":{
           "factor":0.0,
-          "value":0.0,
           "target":0.0,
-          "increase":0.0
+          "increase":0.0,
+          "value":0.0
         },
         "vw-layer_texture":{
           "name":"texture_missing",
-          "angle":0.0,
-          "scaleX":1.0,
-          "alpha":1.0,
-          "scaleY":1.0,
-          "speed":30.0,
           "blend":"#FFFFFF",
+          "animate":false,
+          "scaleX":1.0,
+          "scaleY":1.0,
           "randomFrame":false,
+          "angle":0.0,
           "frame":0.0,
-          "animate":false
+          "speed":30.0,
+          "alpha":1.0
         },
         "vw-layer_texture-blend":"#000000",
         "vw-layer_texture-lifespan":0.0,
@@ -68,12 +72,8 @@
         "vw-layer_use-texture":false,
         "vw-layer_use-texture-blend":false,
         "vw-layer_use-texture-replace":true,
-        "vw-layer_use-texture-tiled":true,
-        "vw-layer_blend-dest":"INV_SRC_ALPHA",
-        "vw-layer_blend-eq":"ADD"
-      },
-      "hidden":false
+        "vw-layer_use-texture-tiled":true
+      }
     }
-  ],
-  "version":"1"
+  ]
 }

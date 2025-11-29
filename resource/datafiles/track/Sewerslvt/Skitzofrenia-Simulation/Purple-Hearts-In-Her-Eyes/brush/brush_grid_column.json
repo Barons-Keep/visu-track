@@ -1,17 +1,19 @@
 {
   "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>",
+  "version":"1",
   "data":[
     {
       "name":"default (alpha: 0)",
       "type":"brush_grid_column",
       "texture":"texture_ve_icon_grid_column",
+      "hidden":false,
       "color":"#00FF00",
       "properties":{
         "gr-c_amount":{
           "factor":1.0,
-          "value":2.0,
           "target":1.0,
-          "increase":0.0
+          "increase":0.0,
+          "value":2.0
         },
         "gr-c_change-amount":false,
         "gr-c_change-main-alpha":false,
@@ -20,32 +22,32 @@
         "gr-c_change-side-size":false,
         "gr-c_main-alpha":{
           "factor":1.0,
-          "value":0.0,
           "target":1.0,
-          "increase":0.0
+          "increase":0.0,
+          "value":0.0
         },
         "gr-c_main-col":"#0071FF",
         "gr-c_main-col-spd":0.0,
         "gr-c_main-size":{
           "factor":1.0,
-          "value":5.0,
           "target":1.0,
-          "increase":0.0
+          "increase":0.0,
+          "value":5.0
         },
         "gr-c_mode":"DUAL",
         "gr-c_side-alpha":{
           "factor":1.0,
-          "value":0.0,
           "target":1.0,
-          "increase":0.0
+          "increase":0.0,
+          "value":0.0
         },
         "gr-c_side-col":"#FF5BC3",
         "gr-c_side-col-spd":0.0,
         "gr-c_side-size":{
           "factor":1.0,
-          "value":5.0,
           "target":1.0,
-          "increase":0.0
+          "increase":0.0,
+          "value":5.0
         },
         "gr-c_use-amount":true,
         "gr-c_use-main-alpha":true,
@@ -55,9 +57,15 @@
         "gr-c_use-side-alpha":true,
         "gr-c_use-side-col":1.0,
         "gr-c_use-side-size":true
-      },
-      "hidden":false
+      }
+    },
+    {
+      "name":"new brush template 1",
+      "type":"brush_grid_column",
+      "texture":"texture_baron",
+      "hidden":false,
+      "color":"#FFFFFF",
+      "properties":null
     }
-  ],
-  "version":"1"
+  ]
 }

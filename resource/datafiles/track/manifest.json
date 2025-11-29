@@ -2,187 +2,97 @@
   "version": "1",
   "model": "Collection<io.alkapivo.visu.ui.VisuMenuNode>",
   "data": {
-    "root.artists": {
+    "root.tracks": {
       "title": "Choose Artist",
       "back": "root",
       "entries": [
         {
-          "name": "GOETIA",
-          "event": {
-            "type": "open-node",
-            "data": {
-              "node": "root.artists.goetia"
-            }
-          }
-        },
-        {
-          "name": "kedy_selma",
-          "event": {
-            "type": "open-node",
-            "data": {
-              "node": "root.artists.kedy_selma"
-            }
-          }
-        },
-        {
-          "name": "pikaro & PAXNKOXD",
-          "event": {
-            "type": "open-node",
-            "data": {
-              "node": "root.artists.pikaro"
-            }
-          }
-        },
-        {
-          "name": "Schnoopy",
-          "event": {
-            "type": "open-node",
-            "data": {
-              "node": "root.artists.schnoopy"
-            }
-          }
-        },
-        {
-          "name": "Sewerslvt",
-          "event": {
-            "type": "open-node",
-            "data": {
-              "node": "root.artists.sewerslvt"
-            }
-          }
-        },
-        {
-          "name": "Zoogies",
-          "event": {
-            "type": "open-node",
-            "data": {
-              "node": "root.artists.zoogies"
-            }
-          }
-        }
-      ]
-    },
-    "root.artists.goetia": {
-      "title": "Pick a Track",
-      "back": "root.artists",
-      "entries": [
-        {
-          "name": "Create and Yet Fate's Faw Avoid *\n(level under construction)",
-          "event": {
-            "type": "open-track-setup",
-            "data": {
-              "path": "track/GOETIA/Death-of-the-Muse/Create-and-Yet-Fates-Faw-Avoid/manifest.visu",
-              "node": "root.artists.goetia"
-            }
-          }
-        }
-      ]
-    },
-    "root.artists.kedy_selma": {
-      "title": "Pick a Track",
-      "back": "root.artists",
-      "entries": [
-        {
-          "name": "Just To Create Something",
+          "name": "kedy_selma\nJust To Create Something",
           "event": {
             "type": "open-track-setup",
             "data": {
               "path": "track/kedy_selma/Just-To-Create-Something/Just-To-Create-Something/manifest.visu",
-              "node": "root.artists.kedy_selma"
+              "node": "root.tracks"
             }
           }
         },
         {
-          "name": "Passion",
+          "name": "kedy_selma\nPassion",
           "event": {
             "type": "open-track-setup",
             "data": {
               "path": "track/kedy_selma/Singles/Passion/manifest.visu",
-              "node": "root.artists.kedy_selma"
+              "node": "root.tracks"
             }
           }
-        }
-      ]
-    },
-    "root.artists.pikaro": {
-      "title": "Pick a Track",
-      "back": "root.artists",
-      "entries": [
+        },
         {
-          "name": "the memories fade but the feeling remains",
+          "name": "GOETIA (level under construction)\nCreate and Yet Fate's Faw Avoid *",
+          "event": {
+            "type": "open-track-setup",
+            "data": {
+              "path": "track/GOETIA/Death-of-the-Muse/Create-and-Yet-Fates-Faw-Avoid/manifest.visu",
+              "node": "root.tracks"
+            }
+          }
+        },
+        {
+          "name": "pikaro & PAXNKOXD\nthe memories fade but the feeling remains",
           "event": {
             "type": "open-track-setup",
             "data": {
               "path": "track/pikaro/Singles/the-memories-fade-but-the-feeling-remains/manifest.visu",
-              "node": "root.artists.pikaro"
+              "node": "root.tracks"
             }
           }
-        }
-      ]
-    },
-    "root.artists.schnoopy": {
-      "title": "Pick a Track",
-      "back": "root.artists",
-      "entries": [
+        },
         {
-          "name": "Destination Unknown\n(level under construction)",
+          "name": "Schnoopy (level under construction)\nDestination Unknown",
           "event": {
             "type": "open-track-setup",
             "data": {
               "path": "track/Schnoopy/Proxima/Destination-Unknown/manifest.visu",
-              "node": "root.artists.schnoopy"
+              "node": "rooty"
             }
           }
         },
         {
-          "name": "Sightseeing\n(level under construction)",
+          "name": "Schnoopy (level under construction)\nSightseeing",
           "event": {
             "type": "open-track-setup",
             "data": {
               "path": "track/Schnoopy/Proxima/Sightseeing/manifest.visu",
-              "node": "root.artists.schnoopy"
-            }
-          }
-        }
-      ]
-    },
-    "root.artists.sewerslvt": {
-      "title": "Pick a Track",
-      "back": "root.artists",
-      "entries": [
-        {
-          "name": "Psychosis",
-          "event": {
-            "type": "open-track-setup",
-            "data": {
-              "path": "track/Sewerslvt/The-World-is-Fvcked/Psychosis/manifest.visu",
-              "node": "root.artists.sewerslvt"
+              "node": "root.tracks"
             }
           }
         },
         {
-          "name": "Purple Hearts In Her Eyes\n(level under construction)",
+          "name": "Sewerslvt\nPsychosis",
+          "event": {
+            "type": "open-track-setup",
+            "data": {
+              "path": "track/Sewerslvt/The-World-is-Fvcked/Psychosis/manifest.visu",
+              "node": "root.tracks"
+            }
+          }
+        },
+        {
+          "name": "Sewerslvt (level under construction)\nPurple Hearts In Her Eyes",
           "event": {
             "type": "open-track-setup",
             "data": {
               "path": "track/Sewerslvt/Skitzofrenia-Simulation/Purple-Hearts-In-Her-Eyes/manifest.visu",
-              "node": "root.artists.sewerslvt"
+              "node": "root.tracks"
             }
           }
-        }
-      ]
-    },
-    "root.artists.zoogies": {
-      "title": "Pick a Track",
-      "back": "root.artists",
-      "entries": [
+        },
         {
-          "name": "digitalshadow",
+          "name": "Zoogies\ndigitalshadow",
           "event": {
             "type": "open-track-setup",
             "data": {
               "path": "track/Zoogies/Singles/digitalshadow/manifest.visu",
-              "node": "root.artists.zoogies"
+              "node": "root.tracks"
             }
           }
         }
