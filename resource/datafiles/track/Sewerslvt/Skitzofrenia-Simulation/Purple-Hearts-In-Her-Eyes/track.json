@@ -89,20 +89,13 @@
               "ef-shd_hide":false,
               "ef-shd_hide-merge-cfg":false,
               "ef-shd_merge-cfg":{
-                "iResolution":{
-                  "y":{
-                    "duration":16.0,
-                    "factor":0.25,
-                    "value":2.5
-                  }
-                }
               },
               "icon":{
                 "name":"texture_ve_icon_entity",
                 "blend":"#A64000"
               },
               "ef-shd_pipeline":"BACKGROUND",
-              "ef-shd_template":"monster 04",
+              "ef-shd_template":"wormhole vortex 2",
               "ef-shd_use-merge-cfg":true
             }
           },
@@ -2009,16 +2002,9 @@
                 "blend":"#A64000"
               },
               "ef-shd_merge-cfg":{
-                "iResolution":{
-                  "y":{
-                    "duration":16.0,
-                    "factor":0.25,
-                    "value":2.5
-                  }
-                }
               },
               "ef-shd_pipeline":"COMBINED",
-              "ef-shd_template":"monster 04",
+              "ef-shd_template":"wormhole vortex 2",
               "ef-shd_use-merge-cfg":true
             }
           },

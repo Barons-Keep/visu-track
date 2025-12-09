@@ -334,7 +334,7 @@
               "ef-shd_merge-cfg":{
               },
               "ef-shd_pipeline":"BACKGROUND",
-              "ef-shd_template":"monster 05",
+              "ef-shd_template":"wormhole vortex 2",
               "ef-shd_use-merge-cfg":false,
               "hidden":false
             }
@@ -375,7 +375,7 @@
               "ef-shd_merge-cfg":{
               },
               "ef-shd_pipeline":"BACKGROUND",
-              "ef-shd_template":"monster 02",
+              "ef-shd_template":"wormhole vortex 1",
               "ef-shd_use-merge-cfg":false,
               "hidden":false
             }
