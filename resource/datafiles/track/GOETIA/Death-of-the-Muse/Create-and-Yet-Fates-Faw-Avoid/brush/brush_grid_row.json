@@ -1,17 +1,16 @@
 {
+  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>",
+  "version":"1",
   "data":[
     {
-      "type":"brush_grid_row",
-      "texture":"texture_ve_icon_grid_row",
-      "hidden":true,
-      "color":"#0080FF",
+      "name":"empty",
       "properties":{
         "gr-r_amount":{
-          "increase":0.0,
+          "factor":0.0,
           "value":2.0,
+          "increase":0.0,
           "duration":0.0,
           "ease":"LINEAR",
-          "factor":0.0,
           "target":2.0
         },
         "gr-r_change-amount":false,
@@ -32,40 +31,40 @@
         "gr-r_hide-side-col":true,
         "gr-r_hide-side-size":true,
         "gr-r_main-alpha":{
-          "increase":0.0,
+          "factor":0.0,
           "value":1.0,
+          "increase":0.0,
           "duration":0.0,
           "ease":"LINEAR",
-          "factor":0.0,
           "target":1.0
         },
         "gr-r_main-col":"#FF00FF",
         "gr-r_main-col-spd":0.0,
         "gr-r_main-size":{
-          "increase":0.0,
+          "factor":0.0,
           "value":5.0,
+          "increase":0.0,
           "duration":0.0,
           "ease":"LINEAR",
-          "factor":0.0,
           "target":5.0
         },
         "gr-r_mode":"SINGLE",
         "gr-r_side-alpha":{
-          "increase":0.0,
+          "factor":0.0,
           "value":1.0,
+          "increase":0.0,
           "duration":0.0,
           "ease":"LINEAR",
-          "factor":0.0,
           "target":1.0
         },
         "gr-r_side-col":"#FF00FF",
         "gr-r_side-col-spd":0.0,
         "gr-r_side-size":{
-          "increase":0.0,
+          "factor":0.0,
           "value":5.0,
+          "increase":0.0,
           "duration":0.0,
           "ease":"LINEAR",
-          "factor":0.0,
           "target":5.0
         },
         "gr-r_use-amount":false,
@@ -77,20 +76,20 @@
         "gr-r_use-side-col":false,
         "gr-r_use-side-size":false
       },
-      "name":"empty"
-    },
-    {
       "type":"brush_grid_row",
       "texture":"texture_ve_icon_grid_row",
       "hidden":true,
-      "color":"#00A000",
+      "color":"#0080FF"
+    },
+    {
+      "name":"default",
       "properties":{
         "gr-r_amount":{
-          "increase":0.0,
+          "factor":0.0,
           "value":2.0,
+          "increase":0.0,
           "duration":0.0,
           "ease":"LINEAR",
-          "factor":0.0,
           "target":2.0
         },
         "gr-r_change-amount":true,
@@ -111,40 +110,40 @@
         "gr-r_hide-side-col":true,
         "gr-r_hide-side-size":true,
         "gr-r_main-alpha":{
-          "increase":0.0,
+          "factor":0.0,
           "value":1.0,
+          "increase":0.0,
           "duration":0.0,
           "ease":"LINEAR",
-          "factor":0.0,
           "target":1.0
         },
         "gr-r_main-col":"#FF00FF",
         "gr-r_main-col-spd":0.0,
         "gr-r_main-size":{
-          "increase":0.0,
+          "factor":0.0,
           "value":5.0,
+          "increase":0.0,
           "duration":0.0,
           "ease":"LINEAR",
-          "factor":0.0,
           "target":5.0
         },
         "gr-r_mode":"SINGLE",
         "gr-r_side-alpha":{
-          "increase":0.0,
+          "factor":0.0,
           "value":1.0,
+          "increase":0.0,
           "duration":0.0,
           "ease":"LINEAR",
-          "factor":0.0,
           "target":1.0
         },
         "gr-r_side-col":"#FF00FF",
         "gr-r_side-col-spd":0.0,
         "gr-r_side-size":{
-          "increase":0.0,
+          "factor":0.0,
           "value":5.0,
+          "increase":0.0,
           "duration":0.0,
           "ease":"LINEAR",
-          "factor":0.0,
           "target":5.0
         },
         "gr-r_use-amount":true,
@@ -156,9 +155,10 @@
         "gr-r_use-side-col":true,
         "gr-r_use-side-size":true
       },
-      "name":"default"
+      "type":"brush_grid_row",
+      "texture":"texture_ve_icon_grid_row",
+      "hidden":true,
+      "color":"#00A000"
     }
-  ],
-  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>",
-  "version":"1"
+  ]
 }

@@ -1,7 +1,11 @@
 {
+  "model":"io.alkapivo.visu.controller.VisuTrack",
+  "version":"1",
   "data":{
-    "particle":"template/particle.json",
+    "track":"track.json",
+    "sound":"sound.json",
     "texture":"texture/texture.json",
+    "particle":"template/particle.json",
     "subtitle":"template/subtitle.json",
     "coin":"template/coin.json",
     "shroom":"template/shroom.json",
@@ -25,15 +29,11 @@
       "brush/brush_view_layer.json",
       "brush/brush_view_subtitle.json"
     ],
-    "bpm":155.0,
     "video":null,
+    "bpm":155.0,
     "bpm-count":8.0,
     "bpm-shift":0.0,
     "bpm-sub":3.0,
-    "shader":"template/shader.json",
-    "sound":"sound.json",
-    "track":"track.json"
-  },
-  "model":"io.alkapivo.visu.controller.VisuTrack",
-  "version":"1"
+    "shader":"template/shader.json"
+  }
 }

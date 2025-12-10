@@ -1,11 +1,14 @@
 {
+  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>",
+  "version":"1",
   "data":[
     {
-      "type":"brush_entity_config",
-      "texture":"texture_ve_icon_entity_config",
-      "hidden":true,
-      "color":"#0080FF",
+      "name":"empty",
       "properties":{
+        "en-cfg_hide-coin":true,
+        "en-cfg_hide-player":true,
+        "en-cfg_hide-render":true,
+        "en-cfg_hide-shroom":true,
         "en-cfg_render-bullet":true,
         "en-cfg_render-coin":true,
         "en-cfg_render-player":true,
@@ -19,35 +22,35 @@
         "en-cfg_use-z-player":false,
         "en-cfg_use-z-shr":false,
         "en-cfg_z-bullet":{
-          "increase":0.0,
+          "factor":0.0,
           "value":2048.0,
+          "increase":0.0,
           "duration":0.0,
           "ease":"LINEAR",
-          "factor":0.0,
           "target":2048.0
         },
         "en-cfg_z-coin":{
-          "increase":0.0,
+          "factor":0.0,
           "value":2047.0,
+          "increase":0.0,
           "duration":0.0,
           "ease":"LINEAR",
-          "factor":0.0,
           "target":2047.0
         },
         "en-cfg_z-player":{
-          "increase":0.0,
+          "factor":0.0,
           "value":2051.0,
+          "increase":0.0,
           "duration":0.0,
           "ease":"LINEAR",
-          "factor":0.0,
           "target":2051.0
         },
         "en-cfg_z-shr":{
-          "increase":0.0,
+          "factor":0.0,
           "value":2049.0,
+          "increase":0.0,
           "duration":0.0,
           "ease":"LINEAR",
-          "factor":0.0,
           "target":2049.0
         },
         "en-cfg_change-z-bullet":false,
@@ -60,20 +63,20 @@
         "en-cfg_cls-shr":false,
         "en-cfg_hide-bullet":true,
         "en-cfg_hide-cfg":true,
-        "en-cfg_hide-cls":true,
-        "en-cfg_hide-coin":true,
-        "en-cfg_hide-player":true,
-        "en-cfg_hide-render":true,
-        "en-cfg_hide-shroom":true
+        "en-cfg_hide-cls":true
       },
-      "name":"empty"
-    },
-    {
       "type":"brush_entity_config",
       "texture":"texture_ve_icon_entity_config",
       "hidden":true,
-      "color":"#00A000",
+      "color":"#0080FF"
+    },
+    {
+      "name":"default",
       "properties":{
+        "en-cfg_hide-coin":true,
+        "en-cfg_hide-player":true,
+        "en-cfg_hide-render":true,
+        "en-cfg_hide-shroom":true,
         "en-cfg_render-bullet":true,
         "en-cfg_render-coin":true,
         "en-cfg_render-player":true,
@@ -87,35 +90,35 @@
         "en-cfg_use-z-player":true,
         "en-cfg_use-z-shr":true,
         "en-cfg_z-bullet":{
-          "increase":0.0,
+          "factor":0.0,
           "value":2048.0,
+          "increase":0.0,
           "duration":0.0,
           "ease":"LINEAR",
-          "factor":0.0,
           "target":2048.0
         },
         "en-cfg_z-coin":{
-          "increase":0.0,
+          "factor":0.0,
           "value":2047.0,
+          "increase":0.0,
           "duration":0.0,
           "ease":"LINEAR",
-          "factor":0.0,
           "target":2047.0
         },
         "en-cfg_z-player":{
-          "increase":0.0,
+          "factor":0.0,
           "value":2051.0,
+          "increase":0.0,
           "duration":0.0,
           "ease":"LINEAR",
-          "factor":0.0,
           "target":2051.0
         },
         "en-cfg_z-shr":{
-          "increase":0.0,
+          "factor":0.0,
           "value":2049.0,
+          "increase":0.0,
           "duration":0.0,
           "ease":"LINEAR",
-          "factor":0.0,
           "target":2049.0
         },
         "en-cfg_change-z-bullet":false,
@@ -128,15 +131,12 @@
         "en-cfg_cls-shr":true,
         "en-cfg_hide-bullet":true,
         "en-cfg_hide-cfg":true,
-        "en-cfg_hide-cls":true,
-        "en-cfg_hide-coin":true,
-        "en-cfg_hide-player":true,
-        "en-cfg_hide-render":true,
-        "en-cfg_hide-shroom":true
+        "en-cfg_hide-cls":true
       },
-      "name":"default"
+      "type":"brush_entity_config",
+      "texture":"texture_ve_icon_entity_config",
+      "hidden":true,
+      "color":"#00A000"
     }
-  ],
-  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>",
-  "version":"1"
+  ]
 }

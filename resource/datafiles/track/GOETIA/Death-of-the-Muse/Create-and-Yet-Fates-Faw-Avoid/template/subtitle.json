@@ -1,4 +1,6 @@
 {
+  "model":"Collection<io.alkapivo.visu.service.subtitle.SubtitleTemplate>",
+  "version":"1",
   "data":{
     "subtitle-alkapivo":{
       "lines":[
@@ -16,7 +18,5 @@
         "Create and Yet Fate's Faw Avoid"
       ]
     }
-  },
-  "model":"Collection<io.alkapivo.visu.service.subtitle.SubtitleTemplate>",
-  "version":"1"
+  }
 }

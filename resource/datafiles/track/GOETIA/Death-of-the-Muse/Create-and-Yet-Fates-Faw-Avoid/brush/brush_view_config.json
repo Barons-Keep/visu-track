@@ -1,10 +1,9 @@
 {
+  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>",
+  "version":"1",
   "data":[
     {
-      "type":"brush_view_config",
-      "texture":"texture_ve_icon_view_config",
-      "hidden":true,
-      "color":"#0080FF",
+      "name":"empty",
       "properties":{
         "vw-cfg_change-video-alpha":false,
         "vw-cfg_cls-bkg-col":false,
@@ -28,11 +27,11 @@
         "vw-cfg_use-render-video-after":false,
         "vw-cfg_use-video-alpha":false,
         "vw-cfg_video-alpha":{
-          "increase":0.0,
+          "factor":0.0,
           "value":0.0,
+          "increase":0.0,
           "duration":0.0,
           "ease":"LINEAR",
-          "factor":0.0,
           "target":0.0
         },
         "vw-cfg_video-blend-col":"#FFFFFF",
@@ -44,13 +43,13 @@
         "vw-cfg_video-use-blend":false,
         "vw-cfg_video-use-blend-col":false
       },
-      "name":"empty"
-    },
-    {
       "type":"brush_view_config",
       "texture":"texture_ve_icon_view_config",
       "hidden":true,
-      "color":"#00A000",
+      "color":"#0080FF"
+    },
+    {
+      "name":"default",
       "properties":{
         "vw-cfg_change-video-alpha":true,
         "vw-cfg_cls-bkg-col":true,
@@ -74,11 +73,11 @@
         "vw-cfg_use-render-video-after":true,
         "vw-cfg_use-video-alpha":true,
         "vw-cfg_video-alpha":{
-          "increase":0.0,
+          "factor":0.0,
           "value":0.0,
+          "increase":0.0,
           "duration":0.0,
           "ease":"LINEAR",
-          "factor":0.0,
           "target":0.0
         },
         "vw-cfg_video-blend-col":"#FFFFFF",
@@ -90,17 +89,18 @@
         "vw-cfg_video-use-blend":true,
         "vw-cfg_video-use-blend-col":true
       },
-      "name":"default"
+      "type":"brush_view_config",
+      "texture":"texture_ve_icon_view_config",
+      "hidden":true,
+      "color":"#00A000"
     },
     {
+      "name":"new brush template 1",
+      "properties":null,
       "type":"brush_view_config",
       "texture":"texture_baron",
       "hidden":false,
-      "color":"#FFFFFF",
-      "properties":null,
-      "name":"new brush template 1"
+      "color":"#FFFFFF"
     }
-  ],
-  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>",
-  "version":"1"
+  ]
 }

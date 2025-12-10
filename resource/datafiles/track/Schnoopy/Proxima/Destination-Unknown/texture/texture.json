@@ -4,51 +4,51 @@
   "data":{
     "texture_schnoopy_green":{
       "originX":128.0,
-      "name":"texture_schnoopy_green",
       "originY":128.0,
+      "name":"texture_schnoopy_green",
+      "prefetch":true,
       "frames":2.0,
-      "file":"texture/texture_schnoopy_green.png",
-      "prefetch":true
+      "file":"texture/texture_schnoopy_green.png"
     },
     "texture_schnoopy_blue":{
       "originX":128.0,
-      "name":"texture_schnoopy_blue",
       "originY":128.0,
+      "name":"texture_schnoopy_blue",
+      "prefetch":true,
       "frames":2.0,
-      "file":"texture/texture_schnoopy_blue.png",
-      "prefetch":true
+      "file":"texture/texture_schnoopy_blue.png"
     },
     "texture_schnoopy_white":{
       "originX":128.0,
-      "name":"texture_schnoopy_white",
       "originY":128.0,
+      "name":"texture_schnoopy_white",
+      "prefetch":true,
       "frames":2.0,
-      "file":"texture/texture_schnoopy_white.png",
-      "prefetch":true
+      "file":"texture/texture_schnoopy_white.png"
     },
     "texture_schnoopy_yellow":{
       "originX":128.0,
-      "name":"texture_schnoopy_yellow",
       "originY":128.0,
+      "name":"texture_schnoopy_yellow",
+      "prefetch":true,
       "frames":2.0,
-      "file":"texture/texture_schnoopy_yellow.png",
-      "prefetch":true
+      "file":"texture/texture_schnoopy_yellow.png"
     },
     "texture_schnoopy_red":{
       "originX":128.0,
-      "name":"texture_schnoopy_red",
       "originY":128.0,
+      "name":"texture_schnoopy_red",
+      "prefetch":true,
       "frames":2.0,
-      "file":"texture/texture_schnoopy_red.png",
-      "prefetch":true
+      "file":"texture/texture_schnoopy_red.png"
     },
     "texture_schnoopy_magenta":{
       "originX":128.0,
-      "name":"texture_schnoopy_magenta",
       "originY":128.0,
+      "name":"texture_schnoopy_magenta",
+      "prefetch":true,
       "frames":2.0,
-      "file":"texture/texture_schnoopy_magenta.png",
-      "prefetch":true
+      "file":"texture/texture_schnoopy_magenta.png"
     }
   }
 }
