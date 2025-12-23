@@ -3,60 +3,60 @@
   "version":"1",
   "data":{
     "tx_skitzofrenia_simulation_2":{
-      "originX":0.0,
-      "originY":0.0,
-      "name":"tx_skitzofrenia_simulation_2",
-      "prefetch":true,
       "frames":1.0,
-      "file":"texture/tx_skitzofrenia_simulation_2.jpeg"
+      "file":"texture/tx_skitzofrenia_simulation_2.jpeg",
+      "originX":0.0,
+      "name":"tx_skitzofrenia_simulation_2",
+      "originY":0.0,
+      "prefetch":true
     },
     "tx_purple_hearts_1":{
-      "originX":0.0,
-      "originY":0.0,
-      "name":"tx_purple_hearts_1",
-      "prefetch":true,
       "frames":1.0,
-      "file":"texture/tx_purple_hearts_1.jpg"
+      "file":"texture/tx_purple_hearts_1.jpg",
+      "originX":0.0,
+      "name":"tx_purple_hearts_1",
+      "originY":0.0,
+      "prefetch":true
     },
     "tx_skitzofrenia_simulation_1":{
-      "originX":0.0,
-      "originY":0.0,
-      "name":"tx_skitzofrenia_simulation_1",
-      "prefetch":true,
       "frames":1.0,
-      "file":"texture/tx_skitzofrenia_simulation_1.jpg"
+      "file":"texture/tx_skitzofrenia_simulation_1.jpg",
+      "originX":0.0,
+      "name":"tx_skitzofrenia_simulation_1",
+      "originY":0.0,
+      "prefetch":true
     },
     "tx_purple_hearts_2":{
-      "originX":0.0,
-      "originY":0.0,
-      "name":"tx_purple_hearts_2",
-      "prefetch":true,
       "frames":1.0,
-      "file":"texture/tx_purple_hearts_2.jpg"
+      "file":"texture/tx_purple_hearts_2.jpg",
+      "originX":0.0,
+      "name":"tx_purple_hearts_2",
+      "originY":0.0,
+      "prefetch":true
     },
     "tx_sewerslvt_3album_v":{
-      "originX":0.0,
-      "originY":0.0,
-      "name":"tx_sewerslvt_3album_v",
-      "prefetch":true,
       "frames":1.0,
-      "file":"texture/tx_sewerslvt_3album_v.png"
+      "file":"texture/tx_sewerslvt_3album_v.png",
+      "originX":0.0,
+      "name":"tx_sewerslvt_3album_v",
+      "originY":0.0,
+      "prefetch":true
     },
     "tx_particle_heart_1":{
-      "originX":256.0,
-      "originY":256.0,
-      "name":"tx_particle_heart_1",
-      "prefetch":true,
       "frames":1.0,
-      "file":"texture/tx_particle_heart_1.png"
+      "file":"texture/tx_particle_heart_1.png",
+      "originX":256.0,
+      "name":"tx_particle_heart_1",
+      "originY":256.0,
+      "prefetch":true
     },
     "tx_particle_heart_2":{
-      "originX":16.0,
-      "originY":16.0,
-      "name":"tx_particle_heart_2",
-      "prefetch":true,
       "frames":1.0,
-      "file":"texture/tx_particle_heart_2.png"
+      "file":"texture/tx_particle_heart_2.png",
+      "originX":16.0,
+      "name":"tx_particle_heart_2",
+      "originY":16.0,
+      "prefetch":true
     }
   }
 }

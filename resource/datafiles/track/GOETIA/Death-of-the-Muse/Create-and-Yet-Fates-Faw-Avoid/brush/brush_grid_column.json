@@ -3,60 +3,16 @@
   "version":"1",
   "data":[
     {
+      "texture":"texture_ve_icon_grid_column",
+      "type":"brush_grid_column",
       "name":"empty",
+      "color":"#0080FF",
+      "hidden":true,
       "properties":{
-        "gr-c_hide-side-alpha":true,
-        "gr-c_hide-side-amount":false,
-        "gr-c_hide-side-col":true,
-        "gr-c_hide-side-size":true,
-        "gr-c_main-alpha":{
-          "factor":0.0,
-          "value":1.0,
-          "increase":0.0,
-          "duration":0.0,
-          "ease":"LINEAR",
-          "target":1.0
-        },
-        "gr-c_main-col":"#0000FF",
-        "gr-c_main-col-spd":0.0,
-        "gr-c_main-size":{
-          "factor":0.0,
-          "value":5.0,
-          "increase":0.0,
-          "duration":0.0,
-          "ease":"LINEAR",
-          "target":5.0
-        },
-        "gr-c_mode":"SINGLE",
-        "gr-c_side-alpha":{
-          "factor":0.0,
-          "value":1.0,
-          "increase":0.0,
-          "duration":0.0,
-          "ease":"LINEAR",
-          "target":1.0
-        },
-        "gr-c_side-col":"#0000FF",
-        "gr-c_side-col-spd":0.0,
-        "gr-c_side-size":{
-          "factor":0.0,
-          "value":5.0,
-          "increase":0.0,
-          "duration":0.0,
-          "ease":"LINEAR",
-          "target":5.0
-        },
-        "gr-c_use-amount":false,
-        "gr-c_use-main-alpha":false,
-        "gr-c_use-main-col":false,
-        "gr-c_use-main-size":false,
-        "gr-c_use-mode":false,
-        "gr-c_use-side-alpha":false,
-        "gr-c_use-side-col":false,
         "gr-c_use-side-size":false,
         "gr-c_amount":{
-          "factor":0.0,
           "value":2.0,
+          "factor":0.0,
           "increase":0.0,
           "duration":0.0,
           "ease":"LINEAR",
@@ -73,23 +29,14 @@
         "gr-c_hide-main-amount":false,
         "gr-c_hide-main-col":true,
         "gr-c_hide-main-size":true,
-        "gr-c_hide-side":true
-      },
-      "type":"brush_grid_column",
-      "texture":"texture_ve_icon_grid_column",
-      "hidden":true,
-      "color":"#0080FF"
-    },
-    {
-      "name":"default",
-      "properties":{
+        "gr-c_hide-side":true,
         "gr-c_hide-side-alpha":true,
         "gr-c_hide-side-amount":false,
         "gr-c_hide-side-col":true,
         "gr-c_hide-side-size":true,
         "gr-c_main-alpha":{
-          "factor":0.0,
           "value":1.0,
+          "factor":0.0,
           "increase":0.0,
           "duration":0.0,
           "ease":"LINEAR",
@@ -98,8 +45,8 @@
         "gr-c_main-col":"#0000FF",
         "gr-c_main-col-spd":0.0,
         "gr-c_main-size":{
-          "factor":0.0,
           "value":5.0,
+          "factor":0.0,
           "increase":0.0,
           "duration":0.0,
           "ease":"LINEAR",
@@ -107,8 +54,8 @@
         },
         "gr-c_mode":"SINGLE",
         "gr-c_side-alpha":{
-          "factor":0.0,
           "value":1.0,
+          "factor":0.0,
           "increase":0.0,
           "duration":0.0,
           "ease":"LINEAR",
@@ -117,24 +64,33 @@
         "gr-c_side-col":"#0000FF",
         "gr-c_side-col-spd":0.0,
         "gr-c_side-size":{
-          "factor":0.0,
           "value":5.0,
+          "factor":0.0,
           "increase":0.0,
           "duration":0.0,
           "ease":"LINEAR",
           "target":5.0
         },
-        "gr-c_use-amount":true,
-        "gr-c_use-main-alpha":true,
-        "gr-c_use-main-col":true,
-        "gr-c_use-main-size":true,
-        "gr-c_use-mode":true,
-        "gr-c_use-side-alpha":true,
-        "gr-c_use-side-col":true,
+        "gr-c_use-amount":false,
+        "gr-c_use-main-alpha":false,
+        "gr-c_use-main-col":false,
+        "gr-c_use-main-size":false,
+        "gr-c_use-mode":false,
+        "gr-c_use-side-alpha":false,
+        "gr-c_use-side-col":false
+      }
+    },
+    {
+      "texture":"texture_ve_icon_grid_column",
+      "type":"brush_grid_column",
+      "name":"default",
+      "color":"#00A000",
+      "hidden":true,
+      "properties":{
         "gr-c_use-side-size":true,
         "gr-c_amount":{
-          "factor":0.0,
           "value":2.0,
+          "factor":0.0,
           "increase":0.0,
           "duration":0.0,
           "ease":"LINEAR",
@@ -151,20 +107,64 @@
         "gr-c_hide-main-amount":false,
         "gr-c_hide-main-col":true,
         "gr-c_hide-main-size":true,
-        "gr-c_hide-side":true
-      },
-      "type":"brush_grid_column",
-      "texture":"texture_ve_icon_grid_column",
-      "hidden":true,
-      "color":"#00A000"
+        "gr-c_hide-side":true,
+        "gr-c_hide-side-alpha":true,
+        "gr-c_hide-side-amount":false,
+        "gr-c_hide-side-col":true,
+        "gr-c_hide-side-size":true,
+        "gr-c_main-alpha":{
+          "value":1.0,
+          "factor":0.0,
+          "increase":0.0,
+          "duration":0.0,
+          "ease":"LINEAR",
+          "target":1.0
+        },
+        "gr-c_main-col":"#0000FF",
+        "gr-c_main-col-spd":0.0,
+        "gr-c_main-size":{
+          "value":5.0,
+          "factor":0.0,
+          "increase":0.0,
+          "duration":0.0,
+          "ease":"LINEAR",
+          "target":5.0
+        },
+        "gr-c_mode":"SINGLE",
+        "gr-c_side-alpha":{
+          "value":1.0,
+          "factor":0.0,
+          "increase":0.0,
+          "duration":0.0,
+          "ease":"LINEAR",
+          "target":1.0
+        },
+        "gr-c_side-col":"#0000FF",
+        "gr-c_side-col-spd":0.0,
+        "gr-c_side-size":{
+          "value":5.0,
+          "factor":0.0,
+          "increase":0.0,
+          "duration":0.0,
+          "ease":"LINEAR",
+          "target":5.0
+        },
+        "gr-c_use-amount":true,
+        "gr-c_use-main-alpha":true,
+        "gr-c_use-main-col":true,
+        "gr-c_use-main-size":true,
+        "gr-c_use-mode":true,
+        "gr-c_use-side-alpha":true,
+        "gr-c_use-side-col":true
+      }
     },
     {
-      "name":"new brush template 1",
-      "properties":null,
-      "type":"brush_grid_column",
       "texture":"texture_baron",
+      "type":"brush_grid_column",
+      "name":"new brush template 1",
+      "color":"#FFFFFF",
       "hidden":false,
-      "color":"#FFFFFF"
+      "properties":null
     }
   ]
 }
