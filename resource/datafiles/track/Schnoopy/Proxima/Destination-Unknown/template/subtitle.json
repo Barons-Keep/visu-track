@@ -1,7 +1,11 @@
 {
-  "model":"Collection<io.alkapivo.visu.service.subtitle.SubtitleTemplate>",
-  "version":"1",
   "data":{
+    "subtitle_schnoopy_destination_unknown":{
+      "lines":[
+        "",
+        "Destination Unknown"
+      ]
+    },
     "subtitle_alkapivo":{
       "lines":[
         "Alkapivo",
@@ -13,12 +17,8 @@
         "Schnoopy",
         ""
       ]
-    },
-    "subtitle_schnoopy_destination_unknown":{
-      "lines":[
-        "",
-        "Destination Unknown"
-      ]
     }
-  }
+  },
+  "version":"1",
+  "model":"Collection<io.alkapivo.visu.service.subtitle.SubtitleTemplate>"
 }
