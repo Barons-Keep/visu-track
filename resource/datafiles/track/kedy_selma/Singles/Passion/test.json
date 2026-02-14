@@ -37,11 +37,11 @@
         "handler": "Test_VisuController_rewind",
         "description": "Rewind on kedy_selma - Passion (10 times)",
         "data": {
-          "timeout": 40.0,
+          "timeout": 50.0,
           "amount": 10.0,
           "cooldown": 1.0,
-          "minDuration": 1.0,
-          "maxDuration": 2.0
+          "minDuration": 3.0,
+          "maxDuration": 3.0
         }
       },
       {

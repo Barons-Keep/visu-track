@@ -7,7 +7,19 @@
       "back": "root",
       "entries": [
         {
-          "name": "kedy_selma\nJust To Create Something",
+          "name": "digitalshadow",
+          "title": "Zoogies",
+          "event": {
+            "type": "open-track-setup",
+            "data": {
+              "path": "track/Zoogies/Singles/digitalshadow/manifest.visu",
+              "node": "root.tracks"
+            }
+          }
+        },
+        {
+          "name": "Just To Create Something",
+          "title": "kedy_selma",
           "event": {
             "type": "open-track-setup",
             "data": {
@@ -17,7 +29,8 @@
           }
         },
         {
-          "name": "kedy_selma\nPassion",
+          "name": "Passion",
+          "title": "kedy_selma",
           "event": {
             "type": "open-track-setup",
             "data": {
@@ -27,17 +40,8 @@
           }
         },
         {
-          "name": "GOETIA (level under construction)\nCreate and Yet Fate's Faw Avoid *",
-          "event": {
-            "type": "open-track-setup",
-            "data": {
-              "path": "track/GOETIA/Death-of-the-Muse/Create-and-Yet-Fates-Faw-Avoid/manifest.visu",
-              "node": "root.tracks"
-            }
-          }
-        },
-        {
-          "name": "pikaro & PAXNKOXD\nthe memories fade but the feeling remains",
+          "name": "the memories fade but the feeling remains",
+          "title": "pikaro & PAXNKOXD",
           "event": {
             "type": "open-track-setup",
             "data": {
@@ -47,17 +51,8 @@
           }
         },
         {
-          "name": "Schnoopy (level under construction)\nDestination Unknown",
-          "event": {
-            "type": "open-track-setup",
-            "data": {
-              "path": "track/Schnoopy/Proxima/Destination-Unknown/manifest.visu",
-              "node": "rooty"
-            }
-          }
-        },
-        {
-          "name": "Sewerslvt\nPsychosis",
+          "name": "Psychosis",
+          "title": "Sewerslvt",
           "event": {
             "type": "open-track-setup",
             "data": {
@@ -67,7 +62,8 @@
           }
         },
         {
-          "name": "Sewerslvt (level under construction)\nPurple Hearts In Her Eyes",
+          "name": "Purple Hearts In Her Eyes",
+          "title": "Sewerslvt [ level under construction ]",
           "event": {
             "type": "open-track-setup",
             "data": {
@@ -77,11 +73,23 @@
           }
         },
         {
-          "name": "Zoogies\ndigitalshadow",
+          "name": "Destination Unknown",
+          "title": "Schnoopy [ level under construction ]",
           "event": {
             "type": "open-track-setup",
             "data": {
-              "path": "track/Zoogies/Singles/digitalshadow/manifest.visu",
+              "path": "track/Schnoopy/Proxima/Destination-Unknown/manifest.visu",
+              "node": "rooty"
+            }
+          }
+        },
+        {
+          "name": "Create and Yet Fate's Faw Avoid *",
+          "title": "GOETIA [ level under construction ]",
+          "event": {
+            "type": "open-track-setup",
+            "data": {
+              "path": "track/GOETIA/Death-of-the-Muse/Create-and-Yet-Fates-Faw-Avoid/manifest.visu",
               "node": "root.tracks"
             }
           }

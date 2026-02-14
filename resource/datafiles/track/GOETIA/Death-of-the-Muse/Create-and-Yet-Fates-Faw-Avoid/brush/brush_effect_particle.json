@@ -1,78 +1,78 @@
 {
+  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>",
+  "version":"1",
   "data":[
     {
-      "type":"brush_effect_particle",
-      "texture":"texture_ve_icon_effect_particle",
-      "hidden":false,
-      "color":"#FFDA00",
+      "name":"particle-goetia-3",
       "properties":{
+        "ef-part_interval":0.32000000000000001,
+        "ef-part_preview":true,
+        "ef-part_shape":"RECTANGLE",
+        "ef-part_template":"particle-goetia-3",
         "ef-part_amount":16.0,
         "ef-part_area":{
           "x":-10.0,
+          "height":0.25,
           "y":-8.0,
-          "width":20.0,
-          "height":0.25
+          "width":20.0
         },
         "ef-part_distribution":"GAUSSIAN",
         "ef-part_duration":1.5600000000000001,
         "ef-part_hide":false,
-        "ef-part_hide-area":false,
-        "ef-part_interval":0.32000000000000001,
-        "ef-part_preview":true,
-        "ef-part_shape":"RECTANGLE",
-        "ef-part_template":"particle-goetia-3"
+        "ef-part_hide-area":false
       },
-      "name":"particle-goetia-3"
-    },
-    {
       "type":"brush_effect_particle",
       "texture":"texture_ve_icon_effect_particle",
       "hidden":false,
-      "color":"#FFDA00",
+      "color":"#FFDA00"
+    },
+    {
+      "name":"particle-goetia-1",
       "properties":{
+        "ef-part_interval":0.16,
+        "ef-part_preview":true,
+        "ef-part_shape":"RECTANGLE",
+        "ef-part_template":"particle-goetia-1",
         "ef-part_amount":16.0,
         "ef-part_area":{
           "x":-5.0,
+          "height":0.25,
           "y":-5.0,
-          "width":10.0,
-          "height":0.25
+          "width":10.0
         },
         "ef-part_distribution":"GAUSSIAN",
         "ef-part_duration":6.0,
         "ef-part_hide":false,
-        "ef-part_hide-area":false,
-        "ef-part_interval":0.16,
-        "ef-part_preview":true,
-        "ef-part_shape":"RECTANGLE",
-        "ef-part_template":"particle-goetia-1"
+        "ef-part_hide-area":false
       },
-      "name":"particle-goetia-1"
-    },
-    {
       "type":"brush_effect_particle",
       "texture":"texture_ve_icon_effect_particle",
       "hidden":false,
-      "color":"#0076FF",
+      "color":"#FFDA00"
+    },
+    {
+      "name":"particle-goetia-2",
       "properties":{
+        "ef-part_interval":0.16,
+        "ef-part_preview":true,
+        "ef-part_shape":"RECTANGLE",
+        "ef-part_template":"particle-goetia-2",
         "ef-part_amount":16.0,
         "ef-part_area":{
           "x":-5.0,
+          "height":0.25,
           "y":1.25,
-          "width":10.0,
-          "height":0.25
+          "width":10.0
         },
         "ef-part_distribution":"GAUSSIAN",
         "ef-part_duration":6.0,
         "ef-part_hide":false,
-        "ef-part_hide-area":false,
-        "ef-part_interval":0.16,
-        "ef-part_preview":true,
-        "ef-part_shape":"RECTANGLE",
-        "ef-part_template":"particle-goetia-2"
+        "ef-part_hide-area":false
       },
-      "name":"particle-goetia-2"
+      "type":"brush_effect_particle",
+      "texture":"texture_ve_icon_effect_particle",
+      "hidden":false,
+      "color":"#0076FF"
     }
-  ],
-  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>",
-  "version":"1"
+  ]
 }

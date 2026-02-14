@@ -3,8 +3,8 @@
   "version":"1",
   "data":{
     "sound_external":{
-      "file":"Schnoopy-Destination-Unknown.ogg",
-      "waveform":null
+      "waveform":null,
+      "file":"Schnoopy-Destination-Unknown.ogg"
     }
   }
 }

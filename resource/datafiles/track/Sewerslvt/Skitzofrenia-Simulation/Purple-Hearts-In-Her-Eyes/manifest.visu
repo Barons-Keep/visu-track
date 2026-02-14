@@ -2,12 +2,14 @@
   "model":"io.alkapivo.visu.controller.VisuTrack",
   "version":"1",
   "data":{
+    "track":"track.json",
+    "sound":"sound.json",
     "texture":"texture/texture.json",
-    "subtitle":"template/subtitle.json",
     "particle":"template/particle.json",
-    "shroom":"template/shroom.json",
+    "subtitle":"template/subtitle.json",
     "coin":"template/coin.json",
-    "video":null,
+    "shroom":"template/shroom.json",
+    "bullet":"template/bullet.json",
     "editor":[
       "brush/brush_effect_config.json",
       "brush/brush_effect_glitch.json",
@@ -27,13 +29,11 @@
       "brush/brush_view_layer.json",
       "brush/brush_view_subtitle.json"
     ],
-    "bullet":"template/bullet.json",
+    "video":null,
     "bpm":144.0,
     "bpm-count":16.0,
     "bpm-shift":0.0,
-    "sound":"sound.json",
-    "shader":"template/shader.json",
     "bpm-sub":3.0,
-    "track":"track.json"
+    "shader":"template/shader.json"
   }
 }

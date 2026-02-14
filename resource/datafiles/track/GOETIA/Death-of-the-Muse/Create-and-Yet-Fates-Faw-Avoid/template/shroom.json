@@ -1,133 +1,26 @@
 {
+  "model":"Collection<io.alkapivo.visu.service.shroom.ShroomTemplate>",
+  "version":"1",
   "data":{
-    "shroom-sigil-agares-4":{
-      "mask":{
-        "x":60.0,
-        "y":60.0,
-        "width":230.0,
-        "height":230.0
-      },
-      "hostile":true,
-      "inherit":[
-        "_particle",
-        "_coin-low-force"
-      ],
-      "onDamage":[
-      ],
-      "onDeath":[
-      ],
-      "queue":[
-        {
-          "type":"GridItemFeature",
-          "timer":0.59999999999999998
-        },
-        {
-          "data":{
-            "transform":{
-              "value":0.0,
-              "duration":2.3999999999999999,
-              "target":360.0,
-              "ease":"IN_OUT_SINE"
-            },
-            "onTarget":"MERGE",
-            "onValue":"MERGE"
-          },
-          "type":"AngleFeature",
-          "timer":2.3999999999999999
-        },
-        {
-          "data":{
-            "value":{
-              "value":-0.050000000000000003,
-              "duration":0.5,
-              "target":0.050000000000000003,
-              "ease":"IN_OUT_SINE"
-            }
-          },
-          "type":"FollowPlayerFeature",
-          "timer":1.2
-        }
-      ],
-      "use_shroom_features":true,
-      "use_shroom_healthPoints":true,
-      "name":"shroom-sigil-agares-4",
-      "use_shroom_inherit":true,
-      "use_shroom_lifespan":false,
-      "use_shroom_mask":true,
-      "use_shroom_on_damage":false,
-      "use_shroom_on_death":false,
-      "use_shroom_queue":true,
-      "features":[
-        {
-          "data":{
-            "angle":{
-              "add":{
-                "value":0.0,
-                "duration":0.5,
-                "target":[
-                  3.0,
-                  -3.0
-                ],
-                "ease":"LINEAR"
-              }
-            }
-          },
-          "conditions":[
-          ],
-          "type":"DeprecatedSpriteFeature"
-        },
-        {
-          "data":{
-            "transform":{
-              "value":0.0,
-              "duration":2.3999999999999999,
-              "target":24.0,
-              "ease":"IN_OUT_SINE"
-            },
-            "onTarget":"MERGE",
-            "onValue":"MERGE"
-          },
-          "conditions":[
-            {
-              "data":{
-                "value":0.59999999999999998,
-                "operator":"greaterOrEqual"
-              },
-              "type":"lifespan"
-            }
-          ],
-          "type":"SpeedFeature"
-        }
-      ],
-      "shroom_hide":false,
-      "shroom_hide_features":false,
-      "shroom_hide_inherit":true,
-      "shroom_hide_mask":false,
-      "shroom_hide_on_damage":true,
-      "shroom_hide_on_death":true,
-      "shroom_hide_queue":false,
-      "shroom_hide_texture":false,
-      "sprite":{
-        "scaleX":2.5,
-        "angle":0.0,
-        "scaleY":2.5,
-        "frame":1.0,
-        "randomFrame":true,
-        "alpha":1.0,
-        "speed":1.8,
-        "blend":"#FFFFFF",
-        "name":"tx_sigil_agares",
-        "animate":false
-      },
-      "healthPoints":6.0,
-      "lifespanMax":15.0
-    },
     "_coin-low-force":{
+      "sprite":{
+        "name":"texture_baron",
+        "animate":false,
+        "scaleX":1.0,
+        "angle":0.0,
+        "scaleY":1.0,
+        "frame":0.0,
+        "randomFrame":false,
+        "alpha":1.0,
+        "speed":30.0,
+        "blend":"#FFFFFF"
+      },
+      "lifespanMax":15.0,
       "mask":{
         "x":0.0,
+        "height":0.0,
         "y":0.0,
-        "width":0.0,
-        "height":0.0
+        "width":0.0
       },
       "hostile":true,
       "inherit":[
@@ -137,24 +30,24 @@
       "onDeath":[
         {
           "data":{
-            "offsetY":-256.0,
             "luck":0.20000000000000001,
             "amount":5.0,
-            "coin":"coin-force"
+            "coin":"coin-force",
+            "offsetY":-256.0
           },
+          "type":"CoinFeature",
           "conditions":[
-          ],
-          "type":"CoinFeature"
+          ]
         }
-      ],
-      "queue":[
       ],
       "use_shroom_features":false,
       "use_shroom_healthPoints":false,
-      "name":"_coin-low-force",
       "use_shroom_inherit":false,
       "use_shroom_lifespan":false,
+      "name":"_coin-low-force",
       "use_shroom_mask":false,
+      "queue":[
+      ],
       "use_shroom_on_damage":false,
       "use_shroom_on_death":true,
       "use_shroom_queue":false,
@@ -168,27 +61,27 @@
       "shroom_hide_on_death":false,
       "shroom_hide_queue":true,
       "shroom_hide_texture":true,
-      "sprite":{
-        "scaleX":1.0,
-        "angle":0.0,
-        "randomFrame":false,
-        "scaleY":1.0,
-        "frame":0.0,
-        "alpha":1.0,
-        "speed":30.0,
-        "blend":"#FFFFFF",
-        "name":"texture_baron",
-        "animate":false
-      },
-      "healthPoints":1.0,
-      "lifespanMax":15.0
+      "healthPoints":1.0
     },
     "shroom-sigil-agares-2":{
+      "sprite":{
+        "name":"tx_sigil_agares",
+        "animate":false,
+        "scaleX":2.5,
+        "angle":0.0,
+        "scaleY":2.5,
+        "frame":1.0,
+        "randomFrame":true,
+        "alpha":1.0,
+        "speed":1.8,
+        "blend":"#FFFFFF"
+      },
+      "lifespanMax":15.0,
       "mask":{
         "x":60.0,
+        "height":230.0,
         "y":60.0,
-        "width":230.0,
-        "height":230.0
+        "width":230.0
       },
       "hostile":true,
       "inherit":[
@@ -199,44 +92,44 @@
       ],
       "onDeath":[
       ],
-      "queue":[
-        {
-          "type":"GridItemFeature",
-          "timer":0.59999999999999998
-        },
-        {
-          "data":{
-            "transform":{
-              "value":0.0,
-              "duration":2.3999999999999999,
-              "target":360.0,
-              "ease":"IN_OUT_SINE"
-            },
-            "onTarget":"MERGE",
-            "onValue":"MERGE"
-          },
-          "type":"AngleFeature",
-          "timer":2.3999999999999999
-        },
-        {
-          "data":{
-            "value":{
-              "value":-0.050000000000000003,
-              "duration":0.5,
-              "target":0.050000000000000003,
-              "ease":"IN_OUT_SINE"
-            }
-          },
-          "type":"FollowPlayerFeature",
-          "timer":1.2
-        }
-      ],
       "use_shroom_features":true,
       "use_shroom_healthPoints":true,
-      "name":"shroom-sigil-agares-2",
       "use_shroom_inherit":true,
       "use_shroom_lifespan":false,
+      "name":"shroom-sigil-agares-2",
       "use_shroom_mask":true,
+      "queue":[
+        {
+          "timer":0.59999999999999998,
+          "type":"GridItemFeature"
+        },
+        {
+          "timer":2.3999999999999999,
+          "data":{
+            "onValue":"MERGE",
+            "transform":{
+              "duration":2.3999999999999999,
+              "value":0.0,
+              "ease":"IN_OUT_SINE",
+              "target":360.0
+            },
+            "onTarget":"MERGE"
+          },
+          "type":"AngleFeature"
+        },
+        {
+          "timer":1.2,
+          "data":{
+            "value":{
+              "duration":0.5,
+              "value":-0.050000000000000003,
+              "ease":"IN_OUT_SINE",
+              "target":0.050000000000000003
+            }
+          },
+          "type":"FollowPlayerFeature"
+        }
+      ],
       "use_shroom_on_damage":false,
       "use_shroom_on_death":false,
       "use_shroom_queue":true,
@@ -245,41 +138,41 @@
           "data":{
             "angle":{
               "add":{
-                "value":0.0,
                 "duration":0.5,
+                "value":0.0,
+                "ease":"LINEAR",
                 "target":[
                   3.0,
                   -3.0
-                ],
-                "ease":"LINEAR"
+                ]
               }
             }
           },
+          "type":"DeprecatedSpriteFeature",
           "conditions":[
-          ],
-          "type":"DeprecatedSpriteFeature"
+          ]
         },
         {
           "data":{
+            "onValue":"MERGE",
             "transform":{
-              "value":0.0,
               "duration":2.3999999999999999,
-              "target":16.0,
-              "ease":"IN_OUT_SINE"
+              "value":0.0,
+              "ease":"IN_OUT_SINE",
+              "target":16.0
             },
-            "onTarget":"MERGE",
-            "onValue":"MERGE"
+            "onTarget":"MERGE"
           },
+          "type":"SpeedFeature",
           "conditions":[
             {
               "data":{
-                "value":0.59999999999999998,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":0.59999999999999998
               },
               "type":"lifespan"
             }
-          ],
-          "type":"SpeedFeature"
+          ]
         }
       ],
       "shroom_hide":false,
@@ -290,27 +183,27 @@
       "shroom_hide_on_death":true,
       "shroom_hide_queue":false,
       "shroom_hide_texture":false,
-      "sprite":{
-        "scaleX":2.5,
-        "angle":0.0,
-        "scaleY":2.5,
-        "frame":1.0,
-        "randomFrame":true,
-        "alpha":1.0,
-        "speed":1.8,
-        "blend":"#FFFFFF",
-        "name":"tx_sigil_agares",
-        "animate":false
-      },
-      "healthPoints":6.0,
-      "lifespanMax":15.0
+      "healthPoints":6.0
     },
     "_particle":{
+      "sprite":{
+        "name":"texture_baron",
+        "animate":false,
+        "scaleX":1.0,
+        "angle":0.0,
+        "scaleY":1.0,
+        "frame":0.0,
+        "randomFrame":false,
+        "alpha":1.0,
+        "speed":30.0,
+        "blend":"#FFFFFF"
+      },
+      "lifespanMax":15.0,
       "mask":{
         "x":0.0,
+        "height":0.0,
         "y":0.0,
-        "width":0.0,
-        "height":0.0
+        "width":0.0
       },
       "hostile":true,
       "inherit":[
@@ -318,33 +211,33 @@
       "onDamage":[
         {
           "data":{
-            "particle":"particle-shroom-damage",
-            "amount":2.0
+            "amount":2.0,
+            "particle":"particle-shroom-damage"
           },
+          "type":"ParticleFeature",
           "conditions":[
-          ],
-          "type":"ParticleFeature"
+          ]
         }
       ],
       "onDeath":[
         {
           "data":{
-            "particle":"particle-shroom-death",
-            "amount":3.0
+            "amount":3.0,
+            "particle":"particle-shroom-death"
           },
+          "type":"ParticleFeature",
           "conditions":[
-          ],
-          "type":"ParticleFeature"
+          ]
         }
-      ],
-      "queue":[
       ],
       "use_shroom_features":false,
       "use_shroom_healthPoints":false,
-      "name":"_particle",
       "use_shroom_inherit":false,
       "use_shroom_lifespan":false,
+      "name":"_particle",
       "use_shroom_mask":false,
+      "queue":[
+      ],
       "use_shroom_on_damage":true,
       "use_shroom_on_death":true,
       "use_shroom_queue":false,
@@ -358,27 +251,27 @@
       "shroom_hide_on_death":false,
       "shroom_hide_queue":true,
       "shroom_hide_texture":true,
-      "sprite":{
-        "scaleX":1.0,
-        "angle":0.0,
-        "randomFrame":false,
-        "scaleY":1.0,
-        "frame":0.0,
-        "alpha":1.0,
-        "speed":30.0,
-        "blend":"#FFFFFF",
-        "name":"texture_baron",
-        "animate":false
-      },
-      "healthPoints":1.0,
-      "lifespanMax":15.0
+      "healthPoints":1.0
     },
     "_coin-low-point":{
+      "sprite":{
+        "name":"texture_baron",
+        "animate":false,
+        "scaleX":1.0,
+        "angle":0.0,
+        "scaleY":1.0,
+        "frame":0.0,
+        "randomFrame":false,
+        "alpha":1.0,
+        "speed":30.0,
+        "blend":"#FFFFFF"
+      },
+      "lifespanMax":15.0,
       "mask":{
         "x":0.0,
+        "height":0.0,
         "y":0.0,
-        "width":0.0,
-        "height":0.0
+        "width":0.0
       },
       "hostile":true,
       "inherit":[
@@ -388,24 +281,24 @@
       "onDeath":[
         {
           "data":{
-            "offsetY":-256.0,
             "luck":0.20000000000000001,
             "amount":5.0,
-            "coin":"coin-point"
+            "coin":"coin-point",
+            "offsetY":-256.0
           },
+          "type":"CoinFeature",
           "conditions":[
-          ],
-          "type":"CoinFeature"
+          ]
         }
-      ],
-      "queue":[
       ],
       "use_shroom_features":false,
       "use_shroom_healthPoints":false,
-      "name":"_coin-low-point",
       "use_shroom_inherit":false,
       "use_shroom_lifespan":false,
+      "name":"_coin-low-point",
       "use_shroom_mask":false,
+      "queue":[
+      ],
       "use_shroom_on_damage":false,
       "use_shroom_on_death":true,
       "use_shroom_queue":false,
@@ -419,27 +312,27 @@
       "shroom_hide_on_death":false,
       "shroom_hide_queue":true,
       "shroom_hide_texture":true,
-      "sprite":{
-        "scaleX":1.0,
-        "angle":0.0,
-        "randomFrame":false,
-        "scaleY":1.0,
-        "frame":0.0,
-        "alpha":1.0,
-        "speed":30.0,
-        "blend":"#FFFFFF",
-        "name":"texture_baron",
-        "animate":false
-      },
-      "healthPoints":1.0,
-      "lifespanMax":15.0
+      "healthPoints":1.0
     },
     "_coin-high-point":{
+      "sprite":{
+        "name":"texture_baron",
+        "animate":false,
+        "scaleX":1.0,
+        "angle":0.0,
+        "scaleY":1.0,
+        "frame":0.0,
+        "randomFrame":false,
+        "alpha":1.0,
+        "speed":30.0,
+        "blend":"#FFFFFF"
+      },
+      "lifespanMax":15.0,
       "mask":{
         "x":0.0,
+        "height":0.0,
         "y":0.0,
-        "width":0.0,
-        "height":0.0
+        "width":0.0
       },
       "hostile":true,
       "inherit":[
@@ -449,24 +342,24 @@
       "onDeath":[
         {
           "data":{
-            "offsetY":-276.0,
             "luck":0.33000000000000002,
             "amount":8.0,
-            "coin":"coin-point-5"
+            "coin":"coin-point-5",
+            "offsetY":-276.0
           },
+          "type":"CoinFeature",
           "conditions":[
-          ],
-          "type":"CoinFeature"
+          ]
         }
-      ],
-      "queue":[
       ],
       "use_shroom_features":false,
       "use_shroom_healthPoints":false,
-      "name":"_coin-high-point",
       "use_shroom_inherit":false,
       "use_shroom_lifespan":false,
+      "name":"_coin-high-point",
       "use_shroom_mask":false,
+      "queue":[
+      ],
       "use_shroom_on_damage":false,
       "use_shroom_on_death":true,
       "use_shroom_queue":false,
@@ -480,27 +373,27 @@
       "shroom_hide_on_death":false,
       "shroom_hide_queue":true,
       "shroom_hide_texture":true,
-      "sprite":{
-        "scaleX":1.0,
-        "angle":0.0,
-        "randomFrame":false,
-        "scaleY":1.0,
-        "frame":0.0,
-        "alpha":1.0,
-        "speed":30.0,
-        "blend":"#FFFFFF",
-        "name":"texture_baron",
-        "animate":false
-      },
-      "healthPoints":1.0,
-      "lifespanMax":15.0
+      "healthPoints":1.0
     },
     "_coin-high-force":{
+      "sprite":{
+        "name":"texture_baron",
+        "animate":false,
+        "scaleX":1.0,
+        "angle":0.0,
+        "scaleY":1.0,
+        "frame":0.0,
+        "randomFrame":false,
+        "alpha":1.0,
+        "speed":30.0,
+        "blend":"#FFFFFF"
+      },
+      "lifespanMax":15.0,
       "mask":{
         "x":0.0,
+        "height":0.0,
         "y":0.0,
-        "width":0.0,
-        "height":0.0
+        "width":0.0
       },
       "hostile":true,
       "inherit":[
@@ -510,24 +403,24 @@
       "onDeath":[
         {
           "data":{
-            "offsetY":-266.0,
             "luck":0.33000000000000002,
             "amount":8.0,
-            "coin":"coin-force-5"
+            "coin":"coin-force-5",
+            "offsetY":-266.0
           },
+          "type":"CoinFeature",
           "conditions":[
-          ],
-          "type":"CoinFeature"
+          ]
         }
-      ],
-      "queue":[
       ],
       "use_shroom_features":false,
       "use_shroom_healthPoints":false,
-      "name":"_coin-high-force",
       "use_shroom_inherit":false,
       "use_shroom_lifespan":false,
+      "name":"_coin-high-force",
       "use_shroom_mask":false,
+      "queue":[
+      ],
       "use_shroom_on_damage":false,
       "use_shroom_on_death":true,
       "use_shroom_queue":false,
@@ -541,27 +434,27 @@
       "shroom_hide_on_death":false,
       "shroom_hide_queue":true,
       "shroom_hide_texture":true,
-      "sprite":{
-        "scaleX":1.0,
-        "angle":0.0,
-        "randomFrame":false,
-        "scaleY":1.0,
-        "frame":0.0,
-        "alpha":1.0,
-        "speed":30.0,
-        "blend":"#FFFFFF",
-        "name":"texture_baron",
-        "animate":false
-      },
-      "healthPoints":1.0,
-      "lifespanMax":15.0
+      "healthPoints":1.0
     },
     "shroom-sigil-aim-3":{
+      "sprite":{
+        "name":"tx_sigil_aim",
+        "animate":false,
+        "scaleX":7.0,
+        "angle":0.0,
+        "scaleY":7.0,
+        "frame":1.0,
+        "randomFrame":true,
+        "alpha":1.0,
+        "speed":2.23,
+        "blend":"#FFFFFF"
+      },
+      "lifespanMax":20.0,
       "mask":{
         "x":60.0,
+        "height":230.0,
         "y":60.0,
-        "width":230.0,
-        "height":230.0
+        "width":230.0
       },
       "hostile":true,
       "inherit":[
@@ -577,24 +470,24 @@
       "onDeath":[
         {
           "data":{
-            "offsetY":-256.0,
             "luck":0.69999999999999996,
             "amount":10.0,
-            "coin":"coin-force"
+            "coin":"coin-force",
+            "offsetY":-256.0
           },
+          "type":"CoinFeature",
           "conditions":[
-          ],
-          "type":"CoinFeature"
+          ]
         }
-      ],
-      "queue":[
       ],
       "use_shroom_features":true,
       "use_shroom_healthPoints":true,
-      "name":"shroom-sigil-aim-3",
       "use_shroom_inherit":true,
       "use_shroom_lifespan":true,
+      "name":"shroom-sigil-aim-3",
       "use_shroom_mask":true,
+      "queue":[
+      ],
       "use_shroom_on_damage":false,
       "use_shroom_on_death":true,
       "use_shroom_queue":false,
@@ -602,172 +495,172 @@
         {
           "data":{
             "transform":{
-              "value":0.0,
               "duration":3.1600000000000001,
-              "target":-15.0,
-              "ease":"LINEAR"
+              "value":0.0,
+              "ease":"LINEAR",
+              "target":-15.0
             }
           },
+          "type":"DeprecatedSpeedFeature",
           "conditions":[
             {
               "data":{
-                "value":3.1600000000000001,
-                "operator":"less"
+                "operator":"less",
+                "value":3.1600000000000001
               },
               "type":"lifespan"
             }
-          ],
-          "type":"DeprecatedSpeedFeature"
+          ]
         },
         {
           "data":{
             "transform":{
-              "value":0.0,
               "duration":2.1600000000000001,
-              "target":-0.20000000000000001,
-              "ease":"LINEAR"
+              "value":0.0,
+              "ease":"LINEAR",
+              "target":-0.20000000000000001
             }
           },
+          "type":"DeprecatedSpeedFeature",
           "conditions":[
             {
               "data":{
-                "value":4.3200000000000003,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":4.3200000000000003
               },
               "type":"lifespan"
             }
-          ],
-          "type":"DeprecatedSpeedFeature"
+          ]
         },
         {
           "data":{
             "transform":{
-              "value":0.0,
               "duration":1.0,
-              "target":180.0,
-              "ease":"LINEAR"
+              "value":0.0,
+              "ease":"LINEAR",
+              "target":180.0
             }
           },
+          "type":"DeprecatedAngleFeature",
           "conditions":[
             {
               "data":{
-                "value":4.3200000000000003,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":4.3200000000000003
               },
               "type":"lifespan"
             }
-          ],
-          "type":"DeprecatedAngleFeature"
+          ]
         },
         {
           "data":{
             "size":80.0,
             "amount":2.0
           },
+          "type":"SwingFeature",
           "conditions":[
             {
               "data":{
-                "value":4.3200000000000003,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":4.3200000000000003
               },
               "type":"lifespan"
             }
-          ],
-          "type":"SwingFeature"
+          ]
         },
         {
           "data":{
-            "bullet":"bullet-pikaro-3",
             "emitter":{
+              "amount":12.0,
               "angle":{
-                "value":0.0,
                 "duration":2.1600000000000001,
-                "target":30.0,
-                "ease":"LINEAR"
+                "value":0.0,
+                "ease":"LINEAR",
+                "target":30.0
               },
               "duration":2.1600000000000001,
               "perArray":{
-                "value":1.0,
                 "duration":0.0,
-                "target":1.0,
-                "ease":"LINEAR"
+                "value":1.0,
+                "ease":"LINEAR",
+                "target":1.0
+              },
+              "speed":{
+                "duration":2.1600000000000001,
+                "value":15.0,
+                "ease":"LINEAR",
+                "target":10.0
               },
               "anglePerArray":{
-                "value":-90.0,
                 "duration":2.1600000000000001,
-                "target":0.0,
-                "ease":"LINEAR"
+                "value":-90.0,
+                "ease":"LINEAR",
+                "target":0.0
               },
               "anglePerArrayRng":0.0,
               "anglePerArrayStep":{
+                "duration":2.1600000000000001,
                 "value":0.0,
-                "duration":2.1600000000000001,
-                "target":30.0,
-                "ease":"LINEAR"
+                "ease":"LINEAR",
+                "target":30.0
               },
-              "speed":{
-                "value":15.0,
-                "duration":2.1600000000000001,
-                "target":10.0,
-                "ease":"LINEAR"
-              },
-              "speedRng":0.0,
               "angleRng":0.0,
               "angleStep":{
-                "value":30.0,
                 "duration":2.1600000000000001,
-                "target":30.0,
-                "ease":"LINEAR"
+                "value":30.0,
+                "ease":"LINEAR",
+                "target":30.0
               },
+              "speedRng":0.0,
               "arrays":{
-                "value":12.0,
                 "duration":0.0,
-                "target":12.0,
-                "ease":"LINEAR"
+                "value":12.0,
+                "ease":"LINEAR",
+                "target":12.0
               },
               "offset":{
-                "value":0.0,
                 "duration":2.1600000000000001,
-                "target":8.0,
-                "ease":"LINEAR"
+                "value":0.0,
+                "ease":"LINEAR",
+                "target":8.0
               },
               "offsetX":{
-                "value":0.0,
                 "duration":0.0,
-                "target":0.0,
-                "ease":"LINEAR"
+                "value":0.0,
+                "ease":"LINEAR",
+                "target":0.0
               },
               "offsetY":{
-                "value":0.0,
                 "duration":0.0,
-                "target":0.0,
-                "ease":"LINEAR"
+                "value":0.0,
+                "ease":"LINEAR",
+                "target":0.0
               },
               "wiggleAmplitude":{
-                "value":0.0,
                 "duration":0.0,
-                "target":0.0,
-                "ease":"LINEAR"
+                "value":0.0,
+                "ease":"LINEAR",
+                "target":0.0
               },
               "wiggleFrequency":{
-                "value":0.0,
                 "duration":0.0,
-                "target":0.0,
-                "ease":"LINEAR"
-              },
-              "amount":12.0
-            }
+                "value":0.0,
+                "ease":"LINEAR",
+                "target":0.0
+              }
+            },
+            "bullet":"bullet-pikaro-3"
           },
+          "type":"BulletFeature",
           "conditions":[
             {
               "data":{
-                "value":2.1600000000000001,
-                "operator":"greater"
+                "operator":"greater",
+                "value":2.1600000000000001
               },
               "type":"lifespan"
             }
-          ],
-          "type":"BulletFeature"
+          ]
         }
       ],
       "shroom_hide":false,
@@ -778,27 +671,27 @@
       "shroom_hide_on_death":false,
       "shroom_hide_queue":false,
       "shroom_hide_texture":false,
-      "sprite":{
-        "scaleX":7.0,
-        "angle":0.0,
-        "scaleY":7.0,
-        "frame":1.0,
-        "randomFrame":true,
-        "alpha":1.0,
-        "speed":2.23,
-        "blend":"#FFFFFF",
-        "name":"tx_sigil_aim",
-        "animate":false
-      },
-      "healthPoints":16.0,
-      "lifespanMax":20.0
+      "healthPoints":16.0
     },
     "_coin-force":{
+      "sprite":{
+        "name":"texture_baron",
+        "animate":false,
+        "scaleX":1.0,
+        "angle":0.0,
+        "scaleY":1.0,
+        "frame":0.0,
+        "randomFrame":false,
+        "alpha":1.0,
+        "speed":30.0,
+        "blend":"#FFFFFF"
+      },
+      "lifespanMax":15.0,
       "mask":{
         "x":0.0,
+        "height":0.0,
         "y":0.0,
-        "width":0.0,
-        "height":0.0
+        "width":0.0
       },
       "hostile":true,
       "inherit":[
@@ -808,24 +701,24 @@
       "onDeath":[
         {
           "data":{
-            "offsetY":-256.0,
             "luck":0.25,
             "amount":5.0,
-            "coin":"coin-force"
+            "coin":"coin-force",
+            "offsetY":-256.0
           },
+          "type":"CoinFeature",
           "conditions":[
-          ],
-          "type":"CoinFeature"
+          ]
         }
-      ],
-      "queue":[
       ],
       "use_shroom_features":false,
       "use_shroom_healthPoints":false,
-      "name":"_coin-force",
       "use_shroom_inherit":false,
       "use_shroom_lifespan":false,
+      "name":"_coin-force",
       "use_shroom_mask":false,
+      "queue":[
+      ],
       "use_shroom_on_damage":false,
       "use_shroom_on_death":true,
       "use_shroom_queue":false,
@@ -839,27 +732,27 @@
       "shroom_hide_on_death":true,
       "shroom_hide_queue":true,
       "shroom_hide_texture":true,
-      "sprite":{
-        "scaleX":1.0,
-        "angle":0.0,
-        "randomFrame":false,
-        "scaleY":1.0,
-        "frame":0.0,
-        "alpha":1.0,
-        "speed":30.0,
-        "blend":"#FFFFFF",
-        "name":"texture_baron",
-        "animate":false
-      },
-      "healthPoints":1.0,
-      "lifespanMax":15.0
+      "healthPoints":1.0
     },
     "_coin-point":{
+      "sprite":{
+        "name":"texture_baron",
+        "animate":false,
+        "scaleX":1.0,
+        "angle":0.0,
+        "scaleY":1.0,
+        "frame":0.0,
+        "randomFrame":false,
+        "alpha":1.0,
+        "speed":30.0,
+        "blend":"#FFFFFF"
+      },
+      "lifespanMax":15.0,
       "mask":{
         "x":0.0,
+        "height":0.0,
         "y":0.0,
-        "width":0.0,
-        "height":0.0
+        "width":0.0
       },
       "hostile":true,
       "inherit":[
@@ -869,24 +762,24 @@
       "onDeath":[
         {
           "data":{
-            "offsetY":-256.0,
             "luck":0.5,
             "amount":2.0,
-            "coin":"coin-point"
+            "coin":"coin-point",
+            "offsetY":-256.0
           },
+          "type":"CoinFeature",
           "conditions":[
-          ],
-          "type":"CoinFeature"
+          ]
         }
-      ],
-      "queue":[
       ],
       "use_shroom_features":true,
       "use_shroom_healthPoints":false,
-      "name":"_coin-point",
       "use_shroom_inherit":true,
       "use_shroom_lifespan":false,
+      "name":"_coin-point",
       "use_shroom_mask":false,
+      "queue":[
+      ],
       "use_shroom_on_damage":true,
       "use_shroom_on_death":true,
       "use_shroom_queue":true,
@@ -900,27 +793,27 @@
       "shroom_hide_on_death":true,
       "shroom_hide_queue":true,
       "shroom_hide_texture":true,
-      "sprite":{
-        "scaleX":1.0,
-        "angle":0.0,
-        "randomFrame":false,
-        "scaleY":1.0,
-        "frame":0.0,
-        "alpha":1.0,
-        "speed":30.0,
-        "blend":"#FFFFFF",
-        "name":"texture_baron",
-        "animate":false
-      },
-      "healthPoints":1.0,
-      "lifespanMax":15.0
+      "healthPoints":1.0
     },
     "_coin-extra-force":{
+      "sprite":{
+        "name":"texture_baron",
+        "animate":false,
+        "scaleX":1.0,
+        "angle":0.0,
+        "scaleY":1.0,
+        "frame":0.0,
+        "randomFrame":false,
+        "alpha":1.0,
+        "speed":30.0,
+        "blend":"#FFFFFF"
+      },
+      "lifespanMax":15.0,
       "mask":{
         "x":0.0,
+        "height":0.0,
         "y":0.0,
-        "width":0.0,
-        "height":0.0
+        "width":0.0
       },
       "hostile":true,
       "inherit":[
@@ -930,85 +823,24 @@
       "onDeath":[
         {
           "data":{
-            "offsetY":-296.0,
             "luck":0.5,
             "amount":10.0,
-            "coin":"coin-force-2"
+            "coin":"coin-force-2",
+            "offsetY":-296.0
           },
+          "type":"CoinFeature",
           "conditions":[
-          ],
-          "type":"CoinFeature"
+          ]
         }
-      ],
-      "queue":[
       ],
       "use_shroom_features":false,
       "use_shroom_healthPoints":false,
+      "use_shroom_inherit":false,
+      "use_shroom_lifespan":false,
       "name":"_coin-extra-force",
-      "use_shroom_inherit":false,
-      "use_shroom_lifespan":false,
       "use_shroom_mask":false,
-      "use_shroom_on_damage":false,
-      "use_shroom_on_death":true,
-      "use_shroom_queue":false,
-      "features":[
-      ],
-      "shroom_hide":true,
-      "shroom_hide_features":true,
-      "shroom_hide_inherit":true,
-      "shroom_hide_mask":true,
-      "shroom_hide_on_damage":true,
-      "shroom_hide_on_death":false,
-      "shroom_hide_queue":true,
-      "shroom_hide_texture":true,
-      "sprite":{
-        "scaleX":1.0,
-        "angle":0.0,
-        "randomFrame":false,
-        "scaleY":1.0,
-        "frame":0.0,
-        "alpha":1.0,
-        "speed":30.0,
-        "blend":"#FFFFFF",
-        "name":"texture_baron",
-        "animate":false
-      },
-      "healthPoints":1.0,
-      "lifespanMax":15.0
-    },
-    "_coin-extra-point":{
-      "mask":{
-        "x":0.0,
-        "y":0.0,
-        "width":0.0,
-        "height":0.0
-      },
-      "hostile":true,
-      "inherit":[
-      ],
-      "onDamage":[
-      ],
-      "onDeath":[
-        {
-          "data":{
-            "offsetY":-256.0,
-            "luck":0.5,
-            "amount":10.0,
-            "coin":"coin-point-2"
-          },
-          "conditions":[
-          ],
-          "type":"CoinFeature"
-        }
-      ],
       "queue":[
       ],
-      "use_shroom_features":false,
-      "use_shroom_healthPoints":false,
-      "name":"_coin-extra-point",
-      "use_shroom_inherit":false,
-      "use_shroom_lifespan":false,
-      "use_shroom_mask":false,
       "use_shroom_on_damage":false,
       "use_shroom_on_death":true,
       "use_shroom_queue":false,
@@ -1022,27 +854,210 @@
       "shroom_hide_on_death":false,
       "shroom_hide_queue":true,
       "shroom_hide_texture":true,
-      "sprite":{
-        "scaleX":1.0,
-        "angle":0.0,
-        "randomFrame":false,
-        "scaleY":1.0,
-        "frame":0.0,
-        "alpha":1.0,
-        "speed":30.0,
-        "blend":"#FFFFFF",
-        "name":"texture_baron",
-        "animate":false
-      },
-      "healthPoints":1.0,
-      "lifespanMax":15.0
+      "healthPoints":1.0
     },
-    "shroom-sigil-aamon-1":{
+    "shroom-sigil-agares-4":{
+      "sprite":{
+        "name":"tx_sigil_agares",
+        "animate":false,
+        "scaleX":2.5,
+        "angle":0.0,
+        "scaleY":2.5,
+        "frame":1.0,
+        "randomFrame":true,
+        "alpha":1.0,
+        "speed":1.8,
+        "blend":"#FFFFFF"
+      },
+      "lifespanMax":15.0,
       "mask":{
         "x":60.0,
+        "height":230.0,
         "y":60.0,
-        "width":230.0,
-        "height":230.0
+        "width":230.0
+      },
+      "hostile":true,
+      "inherit":[
+        "_particle",
+        "_coin-low-force"
+      ],
+      "onDamage":[
+      ],
+      "onDeath":[
+      ],
+      "use_shroom_features":true,
+      "use_shroom_healthPoints":true,
+      "use_shroom_inherit":true,
+      "use_shroom_lifespan":false,
+      "name":"shroom-sigil-agares-4",
+      "use_shroom_mask":true,
+      "queue":[
+        {
+          "timer":0.59999999999999998,
+          "type":"GridItemFeature"
+        },
+        {
+          "timer":2.3999999999999999,
+          "data":{
+            "onValue":"MERGE",
+            "transform":{
+              "duration":2.3999999999999999,
+              "value":0.0,
+              "ease":"IN_OUT_SINE",
+              "target":360.0
+            },
+            "onTarget":"MERGE"
+          },
+          "type":"AngleFeature"
+        },
+        {
+          "timer":1.2,
+          "data":{
+            "value":{
+              "duration":0.5,
+              "value":-0.050000000000000003,
+              "ease":"IN_OUT_SINE",
+              "target":0.050000000000000003
+            }
+          },
+          "type":"FollowPlayerFeature"
+        }
+      ],
+      "use_shroom_on_damage":false,
+      "use_shroom_on_death":false,
+      "use_shroom_queue":true,
+      "features":[
+        {
+          "data":{
+            "angle":{
+              "add":{
+                "duration":0.5,
+                "value":0.0,
+                "ease":"LINEAR",
+                "target":[
+                  3.0,
+                  -3.0
+                ]
+              }
+            }
+          },
+          "type":"DeprecatedSpriteFeature",
+          "conditions":[
+          ]
+        },
+        {
+          "data":{
+            "onValue":"MERGE",
+            "transform":{
+              "duration":2.3999999999999999,
+              "value":0.0,
+              "ease":"IN_OUT_SINE",
+              "target":24.0
+            },
+            "onTarget":"MERGE"
+          },
+          "type":"SpeedFeature",
+          "conditions":[
+            {
+              "data":{
+                "operator":"greaterOrEqual",
+                "value":0.59999999999999998
+              },
+              "type":"lifespan"
+            }
+          ]
+        }
+      ],
+      "shroom_hide":false,
+      "shroom_hide_features":false,
+      "shroom_hide_inherit":true,
+      "shroom_hide_mask":false,
+      "shroom_hide_on_damage":true,
+      "shroom_hide_on_death":true,
+      "shroom_hide_queue":false,
+      "shroom_hide_texture":false,
+      "healthPoints":6.0
+    },
+    "_coin-extra-point":{
+      "sprite":{
+        "name":"texture_baron",
+        "animate":false,
+        "scaleX":1.0,
+        "angle":0.0,
+        "scaleY":1.0,
+        "frame":0.0,
+        "randomFrame":false,
+        "alpha":1.0,
+        "speed":30.0,
+        "blend":"#FFFFFF"
+      },
+      "lifespanMax":15.0,
+      "mask":{
+        "x":0.0,
+        "height":0.0,
+        "y":0.0,
+        "width":0.0
+      },
+      "hostile":true,
+      "inherit":[
+      ],
+      "onDamage":[
+      ],
+      "onDeath":[
+        {
+          "data":{
+            "luck":0.5,
+            "amount":10.0,
+            "coin":"coin-point-2",
+            "offsetY":-256.0
+          },
+          "type":"CoinFeature",
+          "conditions":[
+          ]
+        }
+      ],
+      "use_shroom_features":false,
+      "use_shroom_healthPoints":false,
+      "use_shroom_inherit":false,
+      "use_shroom_lifespan":false,
+      "name":"_coin-extra-point",
+      "use_shroom_mask":false,
+      "queue":[
+      ],
+      "use_shroom_on_damage":false,
+      "use_shroom_on_death":true,
+      "use_shroom_queue":false,
+      "features":[
+      ],
+      "shroom_hide":true,
+      "shroom_hide_features":true,
+      "shroom_hide_inherit":true,
+      "shroom_hide_mask":true,
+      "shroom_hide_on_damage":true,
+      "shroom_hide_on_death":false,
+      "shroom_hide_queue":true,
+      "shroom_hide_texture":true,
+      "healthPoints":1.0
+    },
+    "shroom-sigil-aamon-1":{
+      "sprite":{
+        "name":"tx_sigil_aamon",
+        "animate":false,
+        "scaleX":1.5,
+        "angle":0.0,
+        "scaleY":1.5,
+        "frame":0.0,
+        "randomFrame":false,
+        "alpha":1.0,
+        "speed":30.0,
+        "blend":"#FFFFFF"
+      },
+      "lifespanMax":15.0,
+      "mask":{
+        "x":60.0,
+        "height":230.0,
+        "y":60.0,
+        "width":230.0
       },
       "hostile":true,
       "inherit":[
@@ -1054,179 +1069,179 @@
       ],
       "onDeath":[
       ],
-      "queue":[
-        {
-          "data":{
-            "angle":{
-              "add":{
-                "value":0.0,
-                "duration":[
-                  3.0,
-                  2.8999999999999999,
-                  2.7999999999999998
-                ],
-                "target":10.0,
-                "ease":"OUT_SINE"
-              }
-            },
-            "scaleX":{
-              "transform":{
-                "value":1.0,
-                "duration":3.0,
-                "target":4.0,
-                "ease":"OUT_SINE"
-              }
-            },
-            "scaleY":{
-              "transform":{
-                "value":1.0,
-                "duration":3.0,
-                "target":4.0,
-                "ease":"OUT_SINE"
-              }
-            }
-          },
-          "type":"DeprecatedSpriteFeature",
-          "timer":3.0
-        },
-        {
-          "data":{
-            "angle":{
-              "add":{
-                "value":-10.0,
-                "duration":[
-                  3.0,
-                  2.8999999999999999,
-                  2.7999999999999998
-                ],
-                "target":0.0,
-                "ease":"IN_SINE"
-              }
-            },
-            "scaleX":{
-              "transform":{
-                "value":4.0,
-                "duration":6.0,
-                "target":1.0,
-                "ease":"OUT_SINE"
-              }
-            },
-            "scaleY":{
-              "transform":{
-                "value":4.0,
-                "duration":6.0,
-                "target":1.0,
-                "ease":"OUT_SINE"
-              }
-            }
-          },
-          "type":"DeprecatedSpriteFeature",
-          "timer":12.0
-        }
-      ],
       "use_shroom_features":true,
       "use_shroom_healthPoints":true,
-      "name":"shroom-sigil-aamon-1",
       "use_shroom_inherit":true,
       "use_shroom_lifespan":false,
+      "name":"shroom-sigil-aamon-1",
       "use_shroom_mask":true,
+      "queue":[
+        {
+          "timer":3.0,
+          "data":{
+            "scaleY":{
+              "transform":{
+                "duration":3.0,
+                "value":1.0,
+                "ease":"OUT_SINE",
+                "target":4.0
+              }
+            },
+            "angle":{
+              "add":{
+                "duration":[
+                  3.0,
+                  2.8999999999999999,
+                  2.7999999999999998
+                ],
+                "value":0.0,
+                "ease":"OUT_SINE",
+                "target":10.0
+              }
+            },
+            "scaleX":{
+              "transform":{
+                "duration":3.0,
+                "value":1.0,
+                "ease":"OUT_SINE",
+                "target":4.0
+              }
+            }
+          },
+          "type":"DeprecatedSpriteFeature"
+        },
+        {
+          "timer":12.0,
+          "data":{
+            "scaleY":{
+              "transform":{
+                "duration":6.0,
+                "value":4.0,
+                "ease":"OUT_SINE",
+                "target":1.0
+              }
+            },
+            "angle":{
+              "add":{
+                "duration":[
+                  3.0,
+                  2.8999999999999999,
+                  2.7999999999999998
+                ],
+                "value":-10.0,
+                "ease":"IN_SINE",
+                "target":0.0
+              }
+            },
+            "scaleX":{
+              "transform":{
+                "duration":6.0,
+                "value":4.0,
+                "ease":"OUT_SINE",
+                "target":1.0
+              }
+            }
+          },
+          "type":"DeprecatedSpriteFeature"
+        }
+      ],
       "use_shroom_on_damage":false,
       "use_shroom_on_death":false,
       "use_shroom_queue":true,
       "features":[
         {
           "data":{
-            "bullet":"bullet-sigil-aamon-1",
             "emitter":{
+              "amount":6.9676999999999998,
               "angle":{
-                "value":0.0,
                 "duration":2.3224999999999998,
-                "target":30.0,
-                "ease":"LINEAR"
+                "value":0.0,
+                "ease":"LINEAR",
+                "target":30.0
               },
               "duration":2.3224999999999998,
               "perArray":{
-                "value":1.0,
                 "duration":0.0,
-                "target":1.0,
-                "ease":"LINEAR"
+                "value":1.0,
+                "ease":"LINEAR",
+                "target":1.0
+              },
+              "speed":{
+                "duration":2.3224999999999998,
+                "value":10.0,
+                "ease":"LINEAR",
+                "target":15.0
               },
               "anglePerArray":{
-                "value":-90.0,
                 "duration":2.3224999999999998,
-                "target":0.0,
-                "ease":"LINEAR"
+                "value":-90.0,
+                "ease":"LINEAR",
+                "target":0.0
               },
               "anglePerArrayRng":0.0,
               "anglePerArrayStep":{
+                "duration":2.3224999999999998,
                 "value":0.0,
-                "duration":2.3224999999999998,
-                "target":30.0,
-                "ease":"LINEAR"
+                "ease":"LINEAR",
+                "target":30.0
               },
-              "speed":{
-                "value":10.0,
-                "duration":2.3224999999999998,
-                "target":15.0,
-                "ease":"LINEAR"
-              },
-              "speedRng":0.0,
               "angleRng":0.0,
               "angleStep":{
-                "value":60.0,
                 "duration":2.3224999999999998,
-                "target":60.0,
-                "ease":"LINEAR"
+                "value":60.0,
+                "ease":"LINEAR",
+                "target":60.0
               },
+              "speedRng":0.0,
               "arrays":{
-                "value":6.0,
                 "duration":0.0,
-                "target":6.0,
-                "ease":"LINEAR"
+                "value":6.0,
+                "ease":"LINEAR",
+                "target":6.0
               },
               "offset":{
-                "value":0.0,
                 "duration":2.3224999999999998,
-                "target":2.0,
-                "ease":"LINEAR"
+                "value":0.0,
+                "ease":"LINEAR",
+                "target":2.0
               },
               "offsetX":{
-                "value":0.0,
                 "duration":0.0,
-                "target":0.0,
-                "ease":"LINEAR"
+                "value":0.0,
+                "ease":"LINEAR",
+                "target":0.0
               },
               "offsetY":{
-                "value":0.0,
                 "duration":0.0,
-                "target":0.0,
-                "ease":"LINEAR"
+                "value":0.0,
+                "ease":"LINEAR",
+                "target":0.0
               },
               "wiggleAmplitude":{
-                "value":0.0,
                 "duration":0.0,
-                "target":0.0,
-                "ease":"LINEAR"
+                "value":0.0,
+                "ease":"LINEAR",
+                "target":0.0
               },
               "wiggleFrequency":{
-                "value":0.0,
                 "duration":0.0,
-                "target":0.0,
-                "ease":"LINEAR"
-              },
-              "amount":6.9676999999999998
-            }
+                "value":0.0,
+                "ease":"LINEAR",
+                "target":0.0
+              }
+            },
+            "bullet":"bullet-sigil-aamon-1"
           },
+          "type":"BulletFeature",
           "conditions":[
             {
               "data":{
-                "value":0.77410000000000001,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":0.77410000000000001
               },
               "type":"lifespan"
             }
-          ],
-          "type":"BulletFeature"
+          ]
         }
       ],
       "shroom_hide":true,
@@ -1237,27 +1252,27 @@
       "shroom_hide_on_death":true,
       "shroom_hide_queue":true,
       "shroom_hide_texture":false,
+      "healthPoints":8.0
+    },
+    "shroom-sigil-aim-1":{
       "sprite":{
-        "scaleX":1.5,
+        "name":"tx_sigil_aim",
+        "animate":false,
+        "scaleX":2.0,
         "angle":0.0,
-        "scaleY":1.5,
+        "scaleY":2.0,
         "frame":0.0,
         "randomFrame":false,
         "alpha":1.0,
         "speed":30.0,
-        "blend":"#FFFFFF",
-        "name":"tx_sigil_aamon",
-        "animate":false
+        "blend":"#FFFFFF"
       },
-      "healthPoints":8.0,
-      "lifespanMax":15.0
-    },
-    "shroom-sigil-aim-1":{
+      "lifespanMax":15.0,
       "mask":{
         "x":60.0,
+        "height":230.0,
         "y":60.0,
-        "width":230.0,
-        "height":230.0
+        "width":230.0
       },
       "hostile":true,
       "inherit":[
@@ -1269,94 +1284,94 @@
       ],
       "onDeath":[
       ],
-      "queue":[
-        {
-          "data":{
-            "angle":{
-              "add":{
-                "value":0.0,
-                "duration":[
-                  3.0,
-                  2.8999999999999999,
-                  2.7999999999999998
-                ],
-                "target":10.0,
-                "ease":"OUT_SINE"
-              }
-            },
-            "scaleX":{
-              "transform":{
-                "value":1.0,
-                "duration":3.0,
-                "target":4.0,
-                "ease":"OUT_SINE"
-              }
-            },
-            "scaleY":{
-              "transform":{
-                "value":1.0,
-                "duration":3.0,
-                "target":4.0,
-                "ease":"OUT_SINE"
-              }
-            }
-          },
-          "type":"DeprecatedSpriteFeature",
-          "timer":3.0
-        },
-        {
-          "data":{
-            "value":{
-              "value":0.0,
-              "duration":0.25,
-              "target":0.20000000000000001,
-              "ease":"LINEAR"
-            }
-          },
-          "type":"FollowPlayerFeature",
-          "timer":0.25
-        },
-        {
-          "data":{
-            "angle":{
-              "add":{
-                "value":-10.0,
-                "duration":[
-                  3.0,
-                  2.8999999999999999,
-                  2.7999999999999998
-                ],
-                "target":0.0,
-                "ease":"IN_SINE"
-              }
-            },
-            "scaleX":{
-              "transform":{
-                "value":4.0,
-                "duration":6.0,
-                "target":1.0,
-                "ease":"OUT_SINE"
-              }
-            },
-            "scaleY":{
-              "transform":{
-                "value":4.0,
-                "duration":6.0,
-                "target":1.0,
-                "ease":"OUT_SINE"
-              }
-            }
-          },
-          "type":"DeprecatedSpriteFeature",
-          "timer":12.0
-        }
-      ],
       "use_shroom_features":false,
       "use_shroom_healthPoints":true,
-      "name":"shroom-sigil-aim-1",
       "use_shroom_inherit":true,
       "use_shroom_lifespan":false,
+      "name":"shroom-sigil-aim-1",
       "use_shroom_mask":true,
+      "queue":[
+        {
+          "timer":3.0,
+          "data":{
+            "scaleY":{
+              "transform":{
+                "duration":3.0,
+                "value":1.0,
+                "ease":"OUT_SINE",
+                "target":4.0
+              }
+            },
+            "angle":{
+              "add":{
+                "duration":[
+                  3.0,
+                  2.8999999999999999,
+                  2.7999999999999998
+                ],
+                "value":0.0,
+                "ease":"OUT_SINE",
+                "target":10.0
+              }
+            },
+            "scaleX":{
+              "transform":{
+                "duration":3.0,
+                "value":1.0,
+                "ease":"OUT_SINE",
+                "target":4.0
+              }
+            }
+          },
+          "type":"DeprecatedSpriteFeature"
+        },
+        {
+          "timer":0.25,
+          "data":{
+            "value":{
+              "duration":0.25,
+              "value":0.0,
+              "ease":"LINEAR",
+              "target":0.20000000000000001
+            }
+          },
+          "type":"FollowPlayerFeature"
+        },
+        {
+          "timer":12.0,
+          "data":{
+            "scaleY":{
+              "transform":{
+                "duration":6.0,
+                "value":4.0,
+                "ease":"OUT_SINE",
+                "target":1.0
+              }
+            },
+            "angle":{
+              "add":{
+                "duration":[
+                  3.0,
+                  2.8999999999999999,
+                  2.7999999999999998
+                ],
+                "value":-10.0,
+                "ease":"IN_SINE",
+                "target":0.0
+              }
+            },
+            "scaleX":{
+              "transform":{
+                "duration":6.0,
+                "value":4.0,
+                "ease":"OUT_SINE",
+                "target":1.0
+              }
+            }
+          },
+          "type":"DeprecatedSpriteFeature"
+        }
+      ],
       "use_shroom_on_damage":false,
       "use_shroom_on_death":false,
       "use_shroom_queue":true,
@@ -1370,27 +1385,27 @@
       "shroom_hide_on_death":true,
       "shroom_hide_queue":true,
       "shroom_hide_texture":false,
-      "sprite":{
-        "scaleX":2.0,
-        "angle":0.0,
-        "scaleY":2.0,
-        "frame":0.0,
-        "randomFrame":false,
-        "alpha":1.0,
-        "speed":30.0,
-        "blend":"#FFFFFF",
-        "name":"tx_sigil_aim",
-        "animate":false
-      },
-      "healthPoints":6.0,
-      "lifespanMax":15.0
+      "healthPoints":6.0
     },
     "shroom-sigil-agares-1":{
+      "sprite":{
+        "name":"tx_sigil_agares",
+        "animate":false,
+        "scaleX":3.0,
+        "angle":0.0,
+        "scaleY":3.0,
+        "frame":1.0,
+        "randomFrame":true,
+        "alpha":1.0,
+        "speed":0.0,
+        "blend":"#FFFFFF"
+      },
+      "lifespanMax":15.0,
       "mask":{
         "x":60.0,
+        "height":230.0,
         "y":60.0,
-        "width":230.0,
-        "height":230.0
+        "width":230.0
       },
       "hostile":true,
       "inherit":[
@@ -1402,14 +1417,14 @@
       ],
       "onDeath":[
       ],
-      "queue":[
-      ],
       "use_shroom_features":true,
       "use_shroom_healthPoints":true,
-      "name":"shroom-sigil-agares-1",
       "use_shroom_inherit":true,
       "use_shroom_lifespan":false,
+      "name":"shroom-sigil-agares-1",
       "use_shroom_mask":true,
+      "queue":[
+      ],
       "use_shroom_on_damage":false,
       "use_shroom_on_death":false,
       "use_shroom_queue":false,
@@ -1418,65 +1433,65 @@
           "data":{
             "angle":{
               "add":{
-                "value":0.0,
                 "duration":1.0,
+                "value":0.0,
+                "ease":"LINEAR",
                 "target":[
                   1.0,
                   -1.0
-                ],
-                "ease":"LINEAR"
+                ]
               }
             }
           },
+          "type":"DeprecatedSpriteFeature",
           "conditions":[
-          ],
-          "type":"DeprecatedSpriteFeature"
+          ]
         },
         {
           "data":{
             "transform":{
-              "value":0.0,
               "duration":2.1600000000000001,
+              "value":0.0,
+              "ease":"IN_OUT_SINE",
               "target":[
                 -30.0,
                 30.0
-              ],
-              "ease":"IN_OUT_SINE"
+              ]
             }
           },
+          "type":"DeprecatedAngleFeature",
           "conditions":[
             {
               "data":{
-                "value":2.1600000000000001,
-                "operator":"less"
+                "operator":"less",
+                "value":2.1600000000000001
               },
               "type":"lifespan"
             }
-          ],
-          "type":"DeprecatedAngleFeature"
+          ]
         },
         {
           "data":{
             "transform":{
-              "value":0.0,
               "duration":2.1600000000000001,
+              "value":0.0,
+              "ease":"IN_OUT_SINE",
               "target":[
                 -120.0,
                 120.0
-              ],
-              "ease":"IN_OUT_SINE"
+              ]
             }
           },
+          "type":"DeprecatedAngleFeature",
           "conditions":[
             {
               "data":{
-                "value":2.1600000000000001,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":2.1600000000000001
               },
               "type":"lifespan"
             }
-          ],
-          "type":"DeprecatedAngleFeature"
+          ]
         }
       ],
       "shroom_hide":true,
@@ -1487,27 +1502,27 @@
       "shroom_hide_on_death":true,
       "shroom_hide_queue":true,
       "shroom_hide_texture":false,
-      "sprite":{
-        "scaleX":3.0,
-        "angle":0.0,
-        "scaleY":3.0,
-        "frame":1.0,
-        "randomFrame":true,
-        "alpha":1.0,
-        "speed":0.0,
-        "blend":"#FFFFFF",
-        "name":"tx_sigil_agares",
-        "animate":false
-      },
-      "healthPoints":3.0,
-      "lifespanMax":15.0
+      "healthPoints":3.0
     },
     "shroom-sigil-agares-3":{
+      "sprite":{
+        "name":"tx_sigil_agares",
+        "animate":false,
+        "scaleX":2.5,
+        "angle":0.0,
+        "scaleY":2.5,
+        "frame":0.0,
+        "randomFrame":true,
+        "alpha":1.0,
+        "speed":1.5,
+        "blend":"#FFFFFF"
+      },
+      "lifespanMax":15.0,
       "mask":{
         "x":60.0,
+        "height":230.0,
         "y":60.0,
-        "width":230.0,
-        "height":230.0
+        "width":230.0
       },
       "hostile":true,
       "inherit":[
@@ -1518,44 +1533,44 @@
       ],
       "onDeath":[
       ],
-      "queue":[
-        {
-          "type":"GridItemFeature",
-          "timer":0.59999999999999998
-        },
-        {
-          "data":{
-            "transform":{
-              "value":0.0,
-              "duration":1.6000000000000001,
-              "target":-360.0,
-              "ease":"IN_OUT_SINE"
-            },
-            "onTarget":"MERGE",
-            "onValue":"MERGE"
-          },
-          "type":"AngleFeature",
-          "timer":1.6000000000000001
-        },
-        {
-          "data":{
-            "value":{
-              "value":0.0,
-              "duration":0.80000000000000004,
-              "target":0.050000000000000003,
-              "ease":"IN_OUT_SINE"
-            }
-          },
-          "type":"FollowPlayerFeature",
-          "timer":0.80000000000000004
-        }
-      ],
       "use_shroom_features":true,
       "use_shroom_healthPoints":true,
-      "name":"shroom-sigil-agares-3",
       "use_shroom_inherit":true,
       "use_shroom_lifespan":false,
+      "name":"shroom-sigil-agares-3",
       "use_shroom_mask":true,
+      "queue":[
+        {
+          "timer":0.59999999999999998,
+          "type":"GridItemFeature"
+        },
+        {
+          "timer":1.6000000000000001,
+          "data":{
+            "onValue":"MERGE",
+            "transform":{
+              "duration":1.6000000000000001,
+              "value":0.0,
+              "ease":"IN_OUT_SINE",
+              "target":-360.0
+            },
+            "onTarget":"MERGE"
+          },
+          "type":"AngleFeature"
+        },
+        {
+          "timer":0.80000000000000004,
+          "data":{
+            "value":{
+              "duration":0.80000000000000004,
+              "value":0.0,
+              "ease":"IN_OUT_SINE",
+              "target":0.050000000000000003
+            }
+          },
+          "type":"FollowPlayerFeature"
+        }
+      ],
       "use_shroom_on_damage":false,
       "use_shroom_on_death":false,
       "use_shroom_queue":true,
@@ -1564,41 +1579,41 @@
           "data":{
             "angle":{
               "add":{
-                "value":0.0,
                 "duration":0.5,
+                "value":0.0,
+                "ease":"LINEAR",
                 "target":[
                   6.0,
                   -6.0
-                ],
-                "ease":"LINEAR"
+                ]
               }
             }
           },
+          "type":"DeprecatedSpriteFeature",
           "conditions":[
-          ],
-          "type":"DeprecatedSpriteFeature"
+          ]
         },
         {
           "data":{
+            "onValue":"MERGE",
             "transform":{
-              "value":0.0,
               "duration":0.80000000000000004,
-              "target":16.0,
-              "ease":"IN_OUT_SINE"
+              "value":0.0,
+              "ease":"IN_OUT_SINE",
+              "target":16.0
             },
-            "onTarget":"MERGE",
-            "onValue":"MERGE"
+            "onTarget":"MERGE"
           },
+          "type":"SpeedFeature",
           "conditions":[
             {
               "data":{
-                "value":0.80000000000000004,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":0.80000000000000004
               },
               "type":"lifespan"
             }
-          ],
-          "type":"SpeedFeature"
+          ]
         }
       ],
       "shroom_hide":false,
@@ -1609,27 +1624,27 @@
       "shroom_hide_on_death":true,
       "shroom_hide_queue":false,
       "shroom_hide_texture":false,
+      "healthPoints":6.0
+    },
+    "shroom-sigil-aamon-3":{
       "sprite":{
-        "scaleX":2.5,
+        "name":"tx_sigil_aamon",
+        "animate":false,
+        "scaleX":5.0,
         "angle":0.0,
-        "scaleY":2.5,
+        "scaleY":5.0,
         "frame":0.0,
         "randomFrame":true,
         "alpha":1.0,
-        "speed":1.5,
-        "blend":"#FFFFFF",
-        "name":"tx_sigil_agares",
-        "animate":false
+        "speed":1.2,
+        "blend":"#FFFFFF"
       },
-      "healthPoints":6.0,
-      "lifespanMax":15.0
-    },
-    "shroom-sigil-aamon-3":{
+      "lifespanMax":15.0,
       "mask":{
         "x":60.0,
+        "height":230.0,
         "y":60.0,
-        "width":230.0,
-        "height":230.0
+        "width":230.0
       },
       "hostile":true,
       "inherit":[
@@ -1640,26 +1655,26 @@
       ],
       "onDeath":[
       ],
-      "queue":[
-        {
-          "data":{
-            "value":{
-              "value":0.0,
-              "duration":0.25,
-              "target":0.25,
-              "ease":"LINEAR"
-            }
-          },
-          "type":"FollowPlayerFeature",
-          "timer":0.25
-        }
-      ],
       "use_shroom_features":true,
       "use_shroom_healthPoints":true,
-      "name":"shroom-sigil-aamon-3",
       "use_shroom_inherit":true,
       "use_shroom_lifespan":false,
+      "name":"shroom-sigil-aamon-3",
       "use_shroom_mask":true,
+      "queue":[
+        {
+          "timer":0.25,
+          "data":{
+            "value":{
+              "duration":0.25,
+              "value":0.0,
+              "ease":"LINEAR",
+              "target":0.25
+            }
+          },
+          "type":"FollowPlayerFeature"
+        }
+      ],
       "use_shroom_on_damage":false,
       "use_shroom_on_death":false,
       "use_shroom_queue":true,
@@ -1668,175 +1683,175 @@
           "data":{
             "angle":{
               "add":{
-                "value":0.0,
                 "duration":1.0,
+                "value":0.0,
+                "ease":"LINEAR",
                 "target":[
                   1.0,
                   -1.0
-                ],
-                "ease":"LINEAR"
+                ]
               }
             }
           },
+          "type":"DeprecatedSpriteFeature",
           "conditions":[
-          ],
-          "type":"DeprecatedSpriteFeature"
+          ]
         },
         {
           "data":{
             "transform":{
-              "value":0.0,
               "duration":2.1600000000000001,
-              "target":60.0,
-              "ease":"IN_OUT_SINE"
+              "value":0.0,
+              "ease":"IN_OUT_SINE",
+              "target":60.0
             }
           },
+          "type":"DeprecatedAngleFeature",
           "conditions":[
             {
               "data":{
-                "value":2.1600000000000001,
-                "operator":"less"
+                "operator":"less",
+                "value":2.1600000000000001
               },
               "type":"lifespan"
             }
-          ],
-          "type":"DeprecatedAngleFeature"
+          ]
         },
         {
           "data":{
             "transform":{
-              "value":0.0,
               "duration":2.1600000000000001,
-              "target":-60.0,
-              "ease":"IN_OUT_SINE"
+              "value":0.0,
+              "ease":"IN_OUT_SINE",
+              "target":-60.0
             }
           },
+          "type":"DeprecatedAngleFeature",
           "conditions":[
             {
               "data":{
-                "value":2.1600000000000001,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":2.1600000000000001
               },
               "type":"lifespan"
             }
-          ],
-          "type":"DeprecatedAngleFeature"
+          ]
         },
         {
           "data":{
-            "bullet":"bullet-pikaro-2-r",
             "emitter":{
+              "amount":12.0,
               "angle":{
-                "value":90.0,
                 "duration":1.1599999999999999,
-                "target":45.0,
-                "ease":"LINEAR"
+                "value":90.0,
+                "ease":"LINEAR",
+                "target":45.0
               },
               "duration":1.1599999999999999,
               "perArray":{
+                "duration":0.0,
                 "value":1.0,
-                "duration":0.0,
-                "target":1.0,
-                "ease":"LINEAR"
-              },
-              "anglePerArray":{
-                "value":60.0,
-                "duration":1.0,
-                "target":20.0,
-                "ease":"OUT_EXPO"
-              },
-              "anglePerArrayRng":{
-                "value":0.0,
-                "duration":0.0,
-                "target":0.0,
-                "ease":"LINEAR"
-              },
-              "anglePerArrayStep":{
-                "value":0.0,
-                "duration":1.0,
-                "target":0.0,
-                "ease":"LINEAR"
+                "ease":"LINEAR",
+                "target":1.0
               },
               "speed":{
-                "value":10.0,
                 "duration":1.1599999999999999,
-                "target":30.0,
-                "ease":"LINEAR"
+                "value":10.0,
+                "ease":"LINEAR",
+                "target":30.0
               },
-              "speedRng":{
-                "value":0.0,
+              "anglePerArray":{
+                "duration":1.0,
+                "value":60.0,
+                "ease":"OUT_EXPO",
+                "target":20.0
+              },
+              "anglePerArrayRng":{
                 "duration":0.0,
-                "target":0.0,
-                "ease":"LINEAR"
+                "value":0.0,
+                "ease":"LINEAR",
+                "target":0.0
+              },
+              "anglePerArrayStep":{
+                "duration":1.0,
+                "value":0.0,
+                "ease":"LINEAR",
+                "target":0.0
               },
               "angleRng":{
-                "value":0.0,
                 "duration":0.0,
-                "target":0.0,
-                "ease":"LINEAR"
+                "value":0.0,
+                "ease":"LINEAR",
+                "target":0.0
               },
               "angleStep":{
-                "value":60.0,
                 "duration":1.1599999999999999,
-                "target":60.0,
-                "ease":"LINEAR"
+                "value":60.0,
+                "ease":"LINEAR",
+                "target":60.0
+              },
+              "speedRng":{
+                "duration":0.0,
+                "value":0.0,
+                "ease":"LINEAR",
+                "target":0.0
               },
               "arrays":{
-                "value":7.0,
                 "duration":1.0,
-                "target":7.0,
-                "ease":"LINEAR"
+                "value":7.0,
+                "ease":"LINEAR",
+                "target":7.0
               },
               "offset":{
-                "value":0.0,
                 "duration":1.0,
-                "target":0.0,
-                "ease":"LINEAR"
+                "value":0.0,
+                "ease":"LINEAR",
+                "target":0.0
               },
               "offsetX":{
-                "value":0.0,
                 "duration":1.0,
-                "target":0.0,
-                "ease":"LINEAR"
+                "value":0.0,
+                "ease":"LINEAR",
+                "target":0.0
               },
               "offsetY":{
-                "value":0.0,
                 "duration":1.1599999999999999,
-                "target":0.0,
-                "ease":"LINEAR"
+                "value":0.0,
+                "ease":"LINEAR",
+                "target":0.0
               },
               "wiggleAmplitude":{
-                "value":0.0,
                 "duration":0.0,
-                "target":0.0,
-                "ease":"LINEAR"
+                "value":0.0,
+                "ease":"LINEAR",
+                "target":0.0
               },
               "wiggleFrequency":{
-                "value":0.0,
                 "duration":0.0,
-                "target":0.0,
-                "ease":"LINEAR"
-              },
-              "amount":12.0
-            }
+                "value":0.0,
+                "ease":"LINEAR",
+                "target":0.0
+              }
+            },
+            "bullet":"bullet-pikaro-2-r"
           },
+          "type":"BulletFeature",
           "conditions":[
             {
               "data":{
-                "value":1.000000000000004,
-                "operator":"greater"
+                "operator":"greater",
+                "value":1.000000000000004
               },
               "type":"lifespan"
             },
             {
               "data":{
-                "value":2.1600039999999998,
-                "operator":"lessOrEqual"
+                "operator":"lessOrEqual",
+                "value":2.1600039999999998
               },
               "type":"lifespan"
             }
-          ],
-          "type":"BulletFeature"
+          ]
         }
       ],
       "shroom_hide":false,
@@ -1847,27 +1862,27 @@
       "shroom_hide_on_death":true,
       "shroom_hide_queue":false,
       "shroom_hide_texture":false,
+      "healthPoints":14.0
+    },
+    "shroom-sigil-aamon-2":{
       "sprite":{
-        "scaleX":5.0,
+        "name":"tx_sigil_aamon",
+        "animate":false,
+        "scaleX":4.0,
         "angle":0.0,
-        "scaleY":5.0,
+        "scaleY":4.0,
         "frame":0.0,
         "randomFrame":true,
         "alpha":1.0,
-        "speed":1.2,
-        "blend":"#FFFFFF",
-        "name":"tx_sigil_aamon",
-        "animate":false
+        "speed":0.0,
+        "blend":"#FFFFFF"
       },
-      "healthPoints":14.0,
-      "lifespanMax":15.0
-    },
-    "shroom-sigil-aamon-2":{
+      "lifespanMax":15.0,
       "mask":{
         "x":60.0,
+        "height":230.0,
         "y":60.0,
-        "width":230.0,
-        "height":230.0
+        "width":230.0
       },
       "hostile":true,
       "inherit":[
@@ -1878,14 +1893,14 @@
       ],
       "onDeath":[
       ],
-      "queue":[
-      ],
       "use_shroom_features":true,
       "use_shroom_healthPoints":true,
-      "name":"shroom-sigil-aamon-2",
       "use_shroom_inherit":true,
       "use_shroom_lifespan":false,
+      "name":"shroom-sigil-aamon-2",
       "use_shroom_mask":true,
+      "queue":[
+      ],
       "use_shroom_on_damage":false,
       "use_shroom_on_death":false,
       "use_shroom_queue":false,
@@ -1894,175 +1909,175 @@
           "data":{
             "angle":{
               "add":{
-                "value":0.0,
                 "duration":1.0,
+                "value":0.0,
+                "ease":"LINEAR",
                 "target":[
                   1.0,
                   -1.0
-                ],
-                "ease":"LINEAR"
+                ]
               }
             }
           },
+          "type":"DeprecatedSpriteFeature",
           "conditions":[
-          ],
-          "type":"DeprecatedSpriteFeature"
+          ]
         },
         {
           "data":{
             "transform":{
-              "value":0.0,
               "duration":2.1600000000000001,
-              "target":-60.0,
-              "ease":"IN_OUT_SINE"
+              "value":0.0,
+              "ease":"IN_OUT_SINE",
+              "target":-60.0
             }
           },
+          "type":"DeprecatedAngleFeature",
           "conditions":[
             {
               "data":{
-                "value":2.1600000000000001,
-                "operator":"less"
+                "operator":"less",
+                "value":2.1600000000000001
               },
               "type":"lifespan"
             }
-          ],
-          "type":"DeprecatedAngleFeature"
+          ]
         },
         {
           "data":{
             "transform":{
-              "value":0.0,
               "duration":2.1600000000000001,
-              "target":60.0,
-              "ease":"IN_OUT_SINE"
+              "value":0.0,
+              "ease":"IN_OUT_SINE",
+              "target":60.0
             }
           },
+          "type":"DeprecatedAngleFeature",
           "conditions":[
             {
               "data":{
-                "value":2.1600000000000001,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":2.1600000000000001
               },
               "type":"lifespan"
             }
-          ],
-          "type":"DeprecatedAngleFeature"
+          ]
         },
         {
           "data":{
-            "bullet":"bullet-pikaro-2-l",
             "emitter":{
+              "amount":12.0,
               "angle":{
-                "value":90.0,
                 "duration":1.1599999999999999,
-                "target":45.0,
-                "ease":"LINEAR"
+                "value":90.0,
+                "ease":"LINEAR",
+                "target":45.0
               },
               "duration":1.1599999999999999,
               "perArray":{
-                "value":1.0,
                 "duration":0.0,
-                "target":1.0,
-                "ease":"LINEAR"
-              },
-              "anglePerArray":{
-                "value":60.0,
-                "duration":1.1599999999999999,
-                "target":0.0,
-                "ease":"OUT_EXPO"
-              },
-              "anglePerArrayRng":{
-                "value":0.0,
-                "duration":1.0,
-                "target":0.0,
-                "ease":"LINEAR"
-              },
-              "anglePerArrayStep":{
-                "value":0.0,
-                "duration":1.0,
-                "target":0.0,
-                "ease":"LINEAR"
+                "value":1.0,
+                "ease":"LINEAR",
+                "target":1.0
               },
               "speed":{
-                "value":10.0,
                 "duration":1.1599999999999999,
-                "target":25.0,
-                "ease":"LINEAR"
+                "value":10.0,
+                "ease":"LINEAR",
+                "target":25.0
               },
-              "speedRng":{
+              "anglePerArray":{
+                "duration":1.1599999999999999,
+                "value":60.0,
+                "ease":"OUT_EXPO",
+                "target":0.0
+              },
+              "anglePerArrayRng":{
+                "duration":1.0,
                 "value":0.0,
-                "duration":0.0,
-                "target":0.0,
-                "ease":"LINEAR"
+                "ease":"LINEAR",
+                "target":0.0
+              },
+              "anglePerArrayStep":{
+                "duration":1.0,
+                "value":0.0,
+                "ease":"LINEAR",
+                "target":0.0
               },
               "angleRng":{
-                "value":0.0,
                 "duration":0.0,
-                "target":0.0,
-                "ease":"LINEAR"
+                "value":0.0,
+                "ease":"LINEAR",
+                "target":0.0
               },
               "angleStep":{
-                "value":60.0,
                 "duration":1.1599999999999999,
-                "target":30.0,
-                "ease":"LINEAR"
+                "value":60.0,
+                "ease":"LINEAR",
+                "target":30.0
+              },
+              "speedRng":{
+                "duration":0.0,
+                "value":0.0,
+                "ease":"LINEAR",
+                "target":0.0
               },
               "arrays":{
-                "value":6.0,
                 "duration":1.0,
-                "target":6.0,
-                "ease":"LINEAR"
+                "value":6.0,
+                "ease":"LINEAR",
+                "target":6.0
               },
               "offset":{
-                "value":0.0,
                 "duration":1.1599999999999999,
-                "target":-1.0,
-                "ease":"LINEAR"
+                "value":0.0,
+                "ease":"LINEAR",
+                "target":-1.0
               },
               "offsetX":{
-                "value":0.0,
                 "duration":1.0,
-                "target":0.0,
-                "ease":"LINEAR"
+                "value":0.0,
+                "ease":"LINEAR",
+                "target":0.0
               },
               "offsetY":{
-                "value":0.0,
                 "duration":1.0,
-                "target":0.0,
-                "ease":"LINEAR"
+                "value":0.0,
+                "ease":"LINEAR",
+                "target":0.0
               },
               "wiggleAmplitude":{
-                "value":0.0,
                 "duration":0.0,
-                "target":0.0,
-                "ease":"LINEAR"
+                "value":0.0,
+                "ease":"LINEAR",
+                "target":0.0
               },
               "wiggleFrequency":{
-                "value":0.0,
                 "duration":0.0,
-                "target":0.0,
-                "ease":"LINEAR"
-              },
-              "amount":12.0
-            }
+                "value":0.0,
+                "ease":"LINEAR",
+                "target":0.0
+              }
+            },
+            "bullet":"bullet-pikaro-2-l"
           },
+          "type":"BulletFeature",
           "conditions":[
             {
               "data":{
-                "value":1.000000000000004,
-                "operator":"greater"
+                "operator":"greater",
+                "value":1.000000000000004
               },
               "type":"lifespan"
             },
             {
               "data":{
-                "value":2.1600000000000001,
-                "operator":"lessOrEqual"
+                "operator":"lessOrEqual",
+                "value":2.1600000000000001
               },
               "type":"lifespan"
             }
-          ],
-          "type":"BulletFeature"
+          ]
         }
       ],
       "shroom_hide":false,
@@ -2073,27 +2088,27 @@
       "shroom_hide_on_death":true,
       "shroom_hide_queue":true,
       "shroom_hide_texture":false,
-      "sprite":{
-        "scaleX":4.0,
-        "angle":0.0,
-        "scaleY":4.0,
-        "frame":0.0,
-        "randomFrame":true,
-        "alpha":1.0,
-        "speed":0.0,
-        "blend":"#FFFFFF",
-        "name":"tx_sigil_aamon",
-        "animate":false
-      },
-      "healthPoints":10.0,
-      "lifespanMax":15.0
+      "healthPoints":10.0
     },
     "shroom-sigil-aim-2":{
+      "sprite":{
+        "name":"tx_sigil_aim",
+        "animate":false,
+        "scaleX":6.0,
+        "angle":0.0,
+        "scaleY":6.0,
+        "frame":1.0,
+        "randomFrame":true,
+        "alpha":1.0,
+        "speed":30.0,
+        "blend":"#FFFFFF"
+      },
+      "lifespanMax":15.0,
       "mask":{
         "x":60.0,
+        "height":230.0,
         "y":60.0,
-        "width":230.0,
-        "height":230.0
+        "width":230.0
       },
       "hostile":true,
       "inherit":[
@@ -2105,14 +2120,14 @@
       ],
       "onDeath":[
       ],
-      "queue":[
-      ],
       "use_shroom_features":true,
       "use_shroom_healthPoints":true,
-      "name":"shroom-sigil-aim-2",
       "use_shroom_inherit":true,
       "use_shroom_lifespan":false,
+      "name":"shroom-sigil-aim-2",
       "use_shroom_mask":true,
+      "queue":[
+      ],
       "use_shroom_on_damage":true,
       "use_shroom_on_death":true,
       "use_shroom_queue":true,
@@ -2121,233 +2136,233 @@
           "data":{
             "angle":{
               "add":{
-                "value":0.0,
                 "duration":1.0,
+                "value":0.0,
+                "ease":"LINEAR",
                 "target":[
                   1.0,
                   -1.0
-                ],
-                "ease":"LINEAR"
+                ]
               }
             }
           },
+          "type":"DeprecatedSpriteFeature",
           "conditions":[
             {
               "data":{
-                "value":1.0800000000000001,
-                "operator":"less"
+                "operator":"less",
+                "value":1.0800000000000001
               },
               "type":"lifespan"
             }
-          ],
-          "type":"DeprecatedSpriteFeature"
+          ]
         },
         {
           "data":{
             "angle":{
               "add":{
-                "value":0.0,
                 "duration":1.0,
+                "value":0.0,
+                "ease":"LINEAR",
                 "target":[
                   5.0,
                   -5.0
-                ],
-                "ease":"LINEAR"
+                ]
               }
             }
           },
+          "type":"DeprecatedSpriteFeature",
           "conditions":[
             {
               "data":{
-                "value":1.0800000000000001,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":1.0800000000000001
               },
               "type":"lifespan"
             },
             {
               "data":{
-                "value":4.3200000000000003,
-                "operator":"less"
+                "operator":"less",
+                "value":4.3200000000000003
               },
               "type":"lifespan"
             }
-          ],
-          "type":"DeprecatedSpriteFeature"
+          ]
         },
         {
           "data":{
             "angle":{
               "add":{
-                "value":0.0,
                 "duration":1.0,
+                "value":0.0,
+                "ease":"LINEAR",
                 "target":[
                   0.5,
                   -0.5
-                ],
-                "ease":"LINEAR"
+                ]
               }
             }
           },
+          "type":"DeprecatedSpriteFeature",
           "conditions":[
             {
               "data":{
-                "value":4.3200000000000003,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":4.3200000000000003
               },
               "type":"lifespan"
             }
-          ],
-          "type":"DeprecatedSpriteFeature"
+          ]
         },
         {
           "data":{
             "size":5.0,
             "amount":8.0
           },
+          "type":"SwingFeature",
           "conditions":[
-          ],
-          "type":"SwingFeature"
+          ]
         },
         {
           "data":{
             "transform":{
-              "value":0.0,
               "duration":1.0800000000000001,
-              "target":-20.0,
-              "ease":"LINEAR"
+              "value":0.0,
+              "ease":"LINEAR",
+              "target":-20.0
             }
           },
+          "type":"DeprecatedSpeedFeature",
           "conditions":[
             {
               "data":{
-                "value":1.0800000000000001,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":1.0800000000000001
               },
               "type":"lifespan"
             },
             {
               "data":{
-                "value":2.1600000000000001,
-                "operator":"less"
+                "operator":"less",
+                "value":2.1600000000000001
               },
               "type":"lifespan"
             }
-          ],
-          "type":"DeprecatedSpeedFeature"
+          ]
         },
         {
           "data":{
             "transform":{
-              "value":0.0,
               "duration":4.3200000000000003,
-              "target":20.0,
-              "ease":"LINEAR"
+              "value":0.0,
+              "ease":"LINEAR",
+              "target":20.0
             }
           },
+          "type":"DeprecatedSpeedFeature",
           "conditions":[
             {
               "data":{
-                "value":3.2400000000000002,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":3.2400000000000002
               },
               "type":"lifespan"
             }
-          ],
-          "type":"DeprecatedSpeedFeature"
+          ]
         },
         {
           "data":{
-            "bullet":"bullet-pikaro-2-l",
             "emitter":{
+              "amount":8.0,
               "angle":{
-                "value":0.0,
                 "duration":2.1600000000000001,
-                "target":30.0,
-                "ease":"LINEAR"
+                "value":0.0,
+                "ease":"LINEAR",
+                "target":30.0
               },
               "duration":2.1600000000000001,
               "perArray":{
-                "value":1.0,
                 "duration":0.0,
-                "target":1.0,
-                "ease":"LINEAR"
+                "value":1.0,
+                "ease":"LINEAR",
+                "target":1.0
+              },
+              "speed":{
+                "duration":2.1600000000000001,
+                "value":10.0,
+                "ease":"LINEAR",
+                "target":14.0
               },
               "anglePerArray":{
-                "value":0.0,
                 "duration":2.1600000000000001,
-                "target":0.0,
-                "ease":"LINEAR"
+                "value":0.0,
+                "ease":"LINEAR",
+                "target":0.0
               },
               "anglePerArrayRng":0.0,
               "anglePerArrayStep":{
-                "value":0.0,
                 "duration":0.0,
-                "target":0.0,
-                "ease":"LINEAR"
+                "value":0.0,
+                "ease":"LINEAR",
+                "target":0.0
               },
-              "speed":{
-                "value":10.0,
-                "duration":2.1600000000000001,
-                "target":14.0,
-                "ease":"LINEAR"
-              },
-              "speedRng":0.0,
               "angleRng":0.0,
               "angleStep":{
-                "value":30.0,
                 "duration":2.1600000000000001,
-                "target":30.0,
-                "ease":"LINEAR"
+                "value":30.0,
+                "ease":"LINEAR",
+                "target":30.0
               },
+              "speedRng":0.0,
               "arrays":{
-                "value":12.0,
                 "duration":0.0,
-                "target":12.0,
-                "ease":"LINEAR"
+                "value":12.0,
+                "ease":"LINEAR",
+                "target":12.0
               },
               "offset":{
-                "value":0.0,
                 "duration":2.1600000000000001,
-                "target":0.0,
-                "ease":"LINEAR"
+                "value":0.0,
+                "ease":"LINEAR",
+                "target":0.0
               },
               "offsetX":{
-                "value":0.0,
                 "duration":0.0,
-                "target":0.0,
-                "ease":"LINEAR"
+                "value":0.0,
+                "ease":"LINEAR",
+                "target":0.0
               },
               "offsetY":{
-                "value":0.0,
                 "duration":2.1600000000000001,
-                "target":0.0,
-                "ease":"LINEAR"
+                "value":0.0,
+                "ease":"LINEAR",
+                "target":0.0
               },
               "wiggleAmplitude":{
-                "value":0.0,
                 "duration":0.0,
-                "target":0.0,
-                "ease":"LINEAR"
+                "value":0.0,
+                "ease":"LINEAR",
+                "target":0.0
               },
               "wiggleFrequency":{
-                "value":0.0,
                 "duration":0.0,
-                "target":0.0,
-                "ease":"LINEAR"
-              },
-              "amount":8.0
-            }
+                "value":0.0,
+                "ease":"LINEAR",
+                "target":0.0
+              }
+            },
+            "bullet":"bullet-pikaro-2-l"
           },
+          "type":"BulletFeature",
           "conditions":[
             {
               "data":{
-                "value":2.1600000000000001,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":2.1600000000000001
               },
               "type":"lifespan"
             }
-          ],
-          "type":"BulletFeature"
+          ]
         }
       ],
       "shroom_hide":false,
@@ -2358,22 +2373,7 @@
       "shroom_hide_on_death":true,
       "shroom_hide_queue":true,
       "shroom_hide_texture":false,
-      "sprite":{
-        "scaleX":6.0,
-        "angle":0.0,
-        "scaleY":6.0,
-        "frame":1.0,
-        "randomFrame":true,
-        "alpha":1.0,
-        "speed":30.0,
-        "blend":"#FFFFFF",
-        "name":"tx_sigil_aim",
-        "animate":false
-      },
-      "healthPoints":16.0,
-      "lifespanMax":15.0
+      "healthPoints":16.0
     }
-  },
-  "model":"Collection<io.alkapivo.visu.service.shroom.ShroomTemplate>",
-  "version":"1"
+  }
 }

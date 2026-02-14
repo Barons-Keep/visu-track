@@ -1,46 +1,49 @@
 {
+  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>",
+  "version":"1",
   "data":[
     {
-      "type":"brush_grid_column",
-      "texture":"texture_ve_icon_grid_column",
-      "hidden":true,
-      "color":"#0080FF",
+      "name":"empty",
       "properties":{
+        "gr-c_hide-side-alpha":true,
+        "gr-c_hide-side-amount":false,
+        "gr-c_hide-side-col":true,
+        "gr-c_hide-side-size":true,
         "gr-c_main-alpha":{
-          "increase":0.0,
+          "factor":0.0,
           "value":1.0,
+          "increase":0.0,
           "duration":0.0,
           "ease":"LINEAR",
-          "factor":0.0,
           "target":1.0
         },
         "gr-c_main-col":"#0000FF",
         "gr-c_main-col-spd":0.0,
         "gr-c_main-size":{
-          "increase":0.0,
+          "factor":0.0,
           "value":5.0,
+          "increase":0.0,
           "duration":0.0,
           "ease":"LINEAR",
-          "factor":0.0,
           "target":5.0
         },
         "gr-c_mode":"SINGLE",
         "gr-c_side-alpha":{
-          "increase":0.0,
+          "factor":0.0,
           "value":1.0,
+          "increase":0.0,
           "duration":0.0,
           "ease":"LINEAR",
-          "factor":0.0,
           "target":1.0
         },
         "gr-c_side-col":"#0000FF",
         "gr-c_side-col-spd":0.0,
         "gr-c_side-size":{
-          "increase":0.0,
+          "factor":0.0,
           "value":5.0,
+          "increase":0.0,
           "duration":0.0,
           "ease":"LINEAR",
-          "factor":0.0,
           "target":5.0
         },
         "gr-c_use-amount":false,
@@ -52,11 +55,11 @@
         "gr-c_use-side-col":false,
         "gr-c_use-side-size":false,
         "gr-c_amount":{
-          "increase":0.0,
+          "factor":0.0,
           "value":2.0,
+          "increase":0.0,
           "duration":0.0,
           "ease":"LINEAR",
-          "factor":0.0,
           "target":2.0
         },
         "gr-c_change-amount":false,
@@ -70,55 +73,55 @@
         "gr-c_hide-main-amount":false,
         "gr-c_hide-main-col":true,
         "gr-c_hide-main-size":true,
-        "gr-c_hide-side":true,
-        "gr-c_hide-side-alpha":true,
-        "gr-c_hide-side-amount":false,
-        "gr-c_hide-side-col":true,
-        "gr-c_hide-side-size":true
+        "gr-c_hide-side":true
       },
-      "name":"empty"
-    },
-    {
       "type":"brush_grid_column",
       "texture":"texture_ve_icon_grid_column",
       "hidden":true,
-      "color":"#00A000",
+      "color":"#0080FF"
+    },
+    {
+      "name":"default",
       "properties":{
+        "gr-c_hide-side-alpha":true,
+        "gr-c_hide-side-amount":false,
+        "gr-c_hide-side-col":true,
+        "gr-c_hide-side-size":true,
         "gr-c_main-alpha":{
-          "increase":0.0,
+          "factor":0.0,
           "value":1.0,
+          "increase":0.0,
           "duration":0.0,
           "ease":"LINEAR",
-          "factor":0.0,
           "target":1.0
         },
         "gr-c_main-col":"#0000FF",
         "gr-c_main-col-spd":0.0,
         "gr-c_main-size":{
-          "increase":0.0,
+          "factor":0.0,
           "value":5.0,
+          "increase":0.0,
           "duration":0.0,
           "ease":"LINEAR",
-          "factor":0.0,
           "target":5.0
         },
         "gr-c_mode":"SINGLE",
         "gr-c_side-alpha":{
-          "increase":0.0,
+          "factor":0.0,
           "value":1.0,
+          "increase":0.0,
           "duration":0.0,
           "ease":"LINEAR",
-          "factor":0.0,
           "target":1.0
         },
         "gr-c_side-col":"#0000FF",
         "gr-c_side-col-spd":0.0,
         "gr-c_side-size":{
-          "increase":0.0,
+          "factor":0.0,
           "value":5.0,
+          "increase":0.0,
           "duration":0.0,
           "ease":"LINEAR",
-          "factor":0.0,
           "target":5.0
         },
         "gr-c_use-amount":true,
@@ -130,11 +133,11 @@
         "gr-c_use-side-col":true,
         "gr-c_use-side-size":true,
         "gr-c_amount":{
-          "increase":0.0,
+          "factor":0.0,
           "value":2.0,
+          "increase":0.0,
           "duration":0.0,
           "ease":"LINEAR",
-          "factor":0.0,
           "target":2.0
         },
         "gr-c_change-amount":true,
@@ -148,23 +151,20 @@
         "gr-c_hide-main-amount":false,
         "gr-c_hide-main-col":true,
         "gr-c_hide-main-size":true,
-        "gr-c_hide-side":true,
-        "gr-c_hide-side-alpha":true,
-        "gr-c_hide-side-amount":false,
-        "gr-c_hide-side-col":true,
-        "gr-c_hide-side-size":true
+        "gr-c_hide-side":true
       },
-      "name":"default"
+      "type":"brush_grid_column",
+      "texture":"texture_ve_icon_grid_column",
+      "hidden":true,
+      "color":"#00A000"
     },
     {
+      "name":"new brush template 1",
+      "properties":null,
       "type":"brush_grid_column",
       "texture":"texture_baron",
       "hidden":false,
-      "color":"#FFFFFF",
-      "properties":null,
-      "name":"new brush template 1"
+      "color":"#FFFFFF"
     }
-  ],
-  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>",
-  "version":"1"
+  ]
 }

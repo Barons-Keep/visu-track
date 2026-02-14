@@ -1,6 +1,6 @@
 {
-  "data":[
-  ],
+  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>",
   "version":"1",
-  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>"
+  "data":[
+  ]
 }
