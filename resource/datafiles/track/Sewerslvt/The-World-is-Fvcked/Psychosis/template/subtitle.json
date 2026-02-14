@@ -1,21 +1,10 @@
 {
+  "model":"Collection<io.alkapivo.visu.service.subtitle.SubtitleTemplate>",
   "data":{
     "subtitle_alkapivo":{
       "lines":[
         "Alkapivo",
         "2025"
-      ]
-    },
-    "subtitle_sewerslvt":{
-      "lines":[
-        "Sewerslvt",
-        ""
-      ]
-    },
-    "subtitle_schnoopy":{
-      "lines":[
-        "Schnoopy",
-        ""
       ]
     },
     "subtitle_sewerslvt_psychosis":{
@@ -24,13 +13,24 @@
         "Psychosis"
       ]
     },
+    "subtitle_sewerslvt":{
+      "lines":[
+        "Sewerslvt",
+        ""
+      ]
+    },
     "subtitle_schnoopy_destination_unknown":{
       "lines":[
         "",
         "Destination Unknown"
       ]
+    },
+    "subtitle_schnoopy":{
+      "lines":[
+        "Schnoopy",
+        ""
+      ]
     }
   },
-  "version":"1",
-  "model":"Collection<io.alkapivo.visu.service.subtitle.SubtitleTemplate>"
+  "version":"1"
 }

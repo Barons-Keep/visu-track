@@ -1,56 +1,56 @@
 {
-  "version":"1",
   "model":"Collection<io.alkapivo.visu.service.coin.CoinTemplate>",
   "data":{
     "coin-force-5":{
-      "useSpeed":false,
       "name":"coin-force-5",
-      "amount":5.0,
-      "changeSpeed":false,
+      "category":"force",
       "sprite":{
-        "name":"texture_coin_force",
-        "blend":"#FFFFFF",
-        "scaleX":6.5,
-        "angle":0.0,
         "scaleY":6.5,
-        "speed":30.0,
-        "randomFrame":false,
         "frame":0.0,
+        "name":"texture_coin_force",
+        "animate":false,
+        "randomFrame":false,
+        "angle":0.0,
+        "speed":30.0,
+        "blend":"#FFFFFF",
         "alpha":1.0,
-        "animate":false
+        "scaleX":6.5
       },
+      "amount":5.0,
+      "useSpeed":false,
       "speed":{
-        "value":-3.5,
-        "increase":0.0,
         "factor":0.050000000000000003,
-        "target":2.25
+        "target":2.25,
+        "value":-3.5,
+        "increase":0.0
       },
-      "category":"force"
+      "changeSpeed":false
     },
     "coin-point-5":{
-      "useSpeed":false,
       "name":"coin-point-5",
-      "amount":5.0,
-      "changeSpeed":false,
+      "category":"point",
       "sprite":{
-        "name":"texture_coin_point",
-        "blend":"#FFFFFF",
-        "scaleX":6.5,
-        "angle":0.0,
         "scaleY":6.5,
-        "speed":30.0,
-        "randomFrame":false,
         "frame":0.0,
+        "name":"texture_coin_point",
+        "animate":false,
+        "randomFrame":false,
+        "angle":0.0,
+        "speed":30.0,
+        "blend":"#FFFFFF",
         "alpha":1.0,
-        "animate":false
+        "scaleX":6.5
       },
+      "amount":5.0,
+      "useSpeed":false,
       "speed":{
-        "value":-2.7999999999999998,
-        "increase":0.0,
         "factor":0.059999999999999998,
-        "target":2.2000000000000002
+        "target":2.2000000000000002,
+        "value":-2.7999999999999998,
+        "increase":0.0
       },
-      "category":"point"
+      "changeSpeed":false
     }
-  }
+  },
+  "version":"1"
 }

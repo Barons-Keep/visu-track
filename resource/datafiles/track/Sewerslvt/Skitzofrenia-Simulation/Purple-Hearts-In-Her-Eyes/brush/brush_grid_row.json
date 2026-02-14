@@ -1,85 +1,85 @@
 {
   "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>",
-  "version":"1",
   "data":[
     {
+      "hidden":false,
+      "name":"default (alpha: 0)",
+      "type":"brush_grid_row",
       "texture":"texture_ve_icon_grid_row",
+      "color":"#00FF00",
       "properties":{
-        "gr-r_hide-side-col":false,
-        "gr-r_hide-side-alpha":false,
-        "gr-r_mode":"DUAL",
-        "gr-r_use-amount":false,
-        "gr-r_hide-side-size":false,
         "gr-r_amount":{
-          "value":2.0,
-          "ease":"LEGACY",
           "duration":0.016666670000000001,
-          "factor":1.0,
           "target":1.0,
+          "ease":"LEGACY",
+          "factor":1.0,
+          "value":2.0,
           "increase":0.0
         },
         "gr-r_change-amount":false,
-        "gr-r_hide-amount":false,
-        "gr-r_use-main-col":false,
-        "gr-r_main-col":"#0071FF",
-        "gr-r_main-col-spd":0.0,
-        "gr-r_use-main-alpha":false,
-        "gr-r_main-alpha":{
-          "value":0.0,
-          "ease":"IN_OUT_SINE",
-          "duration":8.0,
-          "factor":1.0,
-          "target":0.0,
-          "increase":0.0
-        },
         "gr-r_change-main-alpha":true,
-        "gr-r_use-main-size":false,
-        "gr-r_main-size":{
-          "value":5.0,
-          "ease":"LEGACY",
-          "duration":0.066666669999999997,
-          "factor":1.0,
-          "target":1.0,
-          "increase":0.0
-        },
         "gr-r_change-main-size":false,
-        "gr-r_use-side-col":false,
-        "gr-r_side-col":"#FF5BC3",
-        "gr-r_side-col-spd":0.0,
-        "gr-r_use-side-alpha":false,
-        "gr-r_side-alpha":{
-          "value":0.0,
-          "ease":"IN_OUT_SINE",
-          "duration":8.0,
-          "factor":1.0,
-          "target":0.0,
-          "increase":0.0
-        },
         "gr-r_change-side-alpha":true,
-        "gr-r_use-side-size":false,
-        "gr-r_side-size":{
-          "value":5.0,
-          "ease":"LEGACY",
-          "duration":0.066666669999999997,
-          "factor":1.0,
-          "target":1.0,
-          "increase":0.0
-        },
         "gr-r_change-side-size":false,
         "gr-r_hide":false,
+        "gr-r_hide-amount":false,
         "gr-r_hide-main":false,
+        "gr-r_hide-main-alpha":false,
         "gr-r_hide-main-amount":false,
         "gr-r_hide-main-col":false,
-        "gr-r_hide-main-alpha":false,
         "gr-r_hide-main-size":false,
         "gr-r_hide-side":false,
+        "gr-r_hide-side-alpha":false,
         "gr-r_hide-side-amount":false,
-        "gr-r_use-mode":false
-      },
-      "type":"brush_grid_row",
-      "color":"#00FF00",
-      "name":"default (alpha: 0)",
-      "hidden":false
+        "gr-r_hide-side-col":false,
+        "gr-r_hide-side-size":false,
+        "gr-r_main-alpha":{
+          "duration":8.0,
+          "target":0.0,
+          "ease":"IN_OUT_SINE",
+          "factor":1.0,
+          "value":0.0,
+          "increase":0.0
+        },
+        "gr-r_main-col":"#0071FF",
+        "gr-r_main-col-spd":0.0,
+        "gr-r_main-size":{
+          "duration":0.066666669999999997,
+          "target":1.0,
+          "ease":"LEGACY",
+          "factor":1.0,
+          "value":5.0,
+          "increase":0.0
+        },
+        "gr-r_mode":"DUAL",
+        "gr-r_side-alpha":{
+          "duration":8.0,
+          "target":0.0,
+          "ease":"IN_OUT_SINE",
+          "factor":1.0,
+          "value":0.0,
+          "increase":0.0
+        },
+        "gr-r_side-col":"#FF5BC3",
+        "gr-r_side-col-spd":0.0,
+        "gr-r_side-size":{
+          "duration":0.066666669999999997,
+          "target":1.0,
+          "ease":"LEGACY",
+          "factor":1.0,
+          "value":5.0,
+          "increase":0.0
+        },
+        "gr-r_use-amount":false,
+        "gr-r_use-main-alpha":false,
+        "gr-r_use-main-col":false,
+        "gr-r_use-main-size":false,
+        "gr-r_use-mode":false,
+        "gr-r_use-side-alpha":false,
+        "gr-r_use-side-col":false,
+        "gr-r_use-side-size":false
+      }
     }
-  ]
+  ],
+  "version":"1"
 }

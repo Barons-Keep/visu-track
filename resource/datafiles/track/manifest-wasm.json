@@ -25,6 +25,15 @@
           }
         },
         {
+          "name": "pikaro & PAXNKOXD",
+          "event": {
+            "type": "open-node",
+            "data": {
+              "node": "root.artists.pikaro"
+            }
+          }
+        },
+        {
           "name": "Schnoopy",
           "event": {
             "type": "open-node",
@@ -60,18 +69,20 @@
         {
           "name": "Just To Create Something",
           "event": {
-            "type": "load-track",
+            "type": "open-track-setup",
             "data": {
-              "path": "track/kedy_selma/Just-To-Create-Something/Just-To-Create-Something/manifest.visu"
+              "path": "track/kedy_selma/Just-To-Create-Something/Just-To-Create-Something/manifest.visu",
+              "node": "root.artists.kedy_selma"
             }
           }
         },
         {
           "name": "Passion",
           "event": {
-            "type": "load-track",
+            "type": "open-track-setup",
             "data": {
-              "path": "track/kedy_selma/Singles/Passion/manifest.visu"
+              "path": "track/kedy_selma/Singles/Passion/manifest.visu",
+              "node": "root.artists.kedy_selma"
             }
           }
         }
@@ -84,9 +95,26 @@
         {
           "name": "Hikikomori Condition\n(level under construction)",
           "event": {
-            "type": "load-track",
+            "type": "open-track-setup",
             "data": {
-              "path": "track/nfract/Emo-Girl/Hikikomori-Condition/manifest.visu"
+              "path": "track/nfract/Emo-Girl/Hikikomori-Condition/manifest.visu",
+              "node": "root.artists.kedy_selma"
+            }
+          }
+        }
+      ]
+    },
+    "root.artists.pikaro": {
+      "title": "Pick a Track",
+      "back": "root.artists",
+      "entries": [
+        {
+          "name": "the memories fade but the feeling remains",
+          "event": {
+            "type": "open-track-setup",
+            "data": {
+              "path": "track/pikaro/Singles/the-memories-fade-but-the-feeling-remains/manifest.visu",
+              "node": "root.artists.pikaro"
             }
           }
         }
@@ -99,9 +127,10 @@
         {
           "name": "Destination Unknown\n(level under construction)",
           "event": {
-            "type": "load-track",
+            "type": "open-track-setup",
             "data": {
-              "path": "track/Schnoopy/Proxima/Destination-Unknown/manifest.visu"
+              "path": "track/Schnoopy/Proxima/Destination-Unknown/manifest.visu",
+              "node": "root.artists.schnoopy"
             }
           }
         }
@@ -114,18 +143,20 @@
         {
           "name": "Psychosis",
           "event": {
-            "type": "load-track",
+            "type": "open-track-setup",
             "data": {
-              "path": "track/Sewerslvt/The-World-is-Fvcked/Psychosis/manifest.visu"
+              "path": "track/Sewerslvt/The-World-is-Fvcked/Psychosis/manifest.visu",
+              "node": "root.artists.sewerslvt"
             }
           }
         },
         {
           "name": "Purple Hearts In Her Eyes\n(level under construction)",
           "event": {
-            "type": "load-track",
+            "type": "open-track-setup",
             "data": {
-              "path": "track/Sewerslvt/Skitzofrenia-Simulation/Purple-Hearts-In-Her-Eyes/manifest.visu"
+              "path": "track/Sewerslvt/Skitzofrenia-Simulation/Purple-Hearts-In-Her-Eyes/manifest.visu",
+              "node": "root.artists.sewerslvt"
             }
           }
         }
@@ -138,9 +169,10 @@
         {
           "name": "digitalshadow",
           "event": {
-            "type": "load-track",
+            "type": "open-track-setup",
             "data": {
-              "path": "track/Zoogies/Singles/digitalshadow/manifest.visu"
+              "path": "track/Zoogies/Singles/digitalshadow/manifest.visu",
+              "node": "root.artists.zoogies"
             }
           }
         }

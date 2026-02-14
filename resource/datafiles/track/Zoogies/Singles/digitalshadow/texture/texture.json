@@ -2,60 +2,60 @@
   "model":"Collection<io.alkapivo.core.service.texture.TextureIntent>",
   "data":{
     "texture_neon_city_highway":{
-      "file":"texture/texture_neon_city_highway.jpg",
       "frames":1.0,
-      "prefetch":true,
+      "name":"texture_neon_city_highway",
+      "file":"texture/texture_neon_city_highway.jpg",
       "originX":0.0,
       "originY":0.0,
-      "name":"texture_neon_city_highway"
+      "prefetch":true
     },
     "texture_abstract_blue_2":{
-      "file":"texture/texture_abstract_blue_2.png",
       "frames":1.0,
-      "prefetch":true,
+      "name":"texture_abstract_blue_2",
+      "file":"texture/texture_abstract_blue_2.png",
       "originX":0.0,
       "originY":0.0,
-      "name":"texture_abstract_blue_2"
+      "prefetch":true
     },
     "texture_fingerprint_scan_strip16":{
-      "file":"texture/texture_fingerprint_scan_strip16.png",
       "frames":16.0,
-      "prefetch":true,
+      "name":"texture_fingerprint_scan_strip16",
+      "file":"texture/texture_fingerprint_scan_strip16.png",
       "originX":0.0,
       "originY":0.0,
-      "name":"texture_fingerprint_scan_strip16"
+      "prefetch":true
     },
     "texture_hex_file_strip8":{
-      "file":"texture/texture_hex_file_strip8.png",
       "frames":8.0,
-      "prefetch":true,
+      "name":"texture_hex_file_strip8",
+      "file":"texture/texture_hex_file_strip8.png",
       "originX":0.0,
       "originY":0.0,
-      "name":"texture_hex_file_strip8"
+      "prefetch":true
     },
     "texture_double_console_out_strip8":{
-      "file":"texture/texture_double_console_out_strip8.png",
       "frames":8.0,
-      "prefetch":true,
+      "name":"texture_double_console_out_strip8",
+      "file":"texture/texture_double_console_out_strip8.png",
       "originX":0.0,
       "originY":0.0,
-      "name":"texture_double_console_out_strip8"
+      "prefetch":true
     },
     "texture_abstract_blue_1":{
-      "file":"texture/texture_abstract_blue_1.png",
       "frames":1.0,
-      "prefetch":true,
+      "name":"texture_abstract_blue_1",
+      "file":"texture/texture_abstract_blue_1.png",
       "originX":0.0,
       "originY":0.0,
-      "name":"texture_abstract_blue_1"
+      "prefetch":true
     },
     "texture_neon_city_fantasy":{
-      "file":"texture/texture_neon_city_fantasy.jpg",
       "frames":1.0,
-      "prefetch":true,
+      "name":"texture_neon_city_fantasy",
+      "file":"texture/texture_neon_city_fantasy.jpg",
       "originX":0.0,
       "originY":0.0,
-      "name":"texture_neon_city_fantasy"
+      "prefetch":true
     }
   },
   "version":"1"

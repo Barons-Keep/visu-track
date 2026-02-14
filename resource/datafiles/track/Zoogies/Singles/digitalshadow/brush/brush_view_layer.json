@@ -2,38 +2,42 @@
   "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>",
   "data":[
     {
+      "hidden":false,
+      "name":"default bkg",
+      "type":"brush_view_layer",
+      "texture":"texture_ve_icon_view_layer",
+      "color":"#FFFF00",
       "properties":{
-        "vw-layer_fade-in":0.0,
         "vw-layer_fade-out":0.0,
         "vw-layer_scale-x":{
-          "increase":0.0,
           "factor":1.0,
           "target":0.0,
-          "value":1.0
+          "value":1.0,
+          "increase":0.0
         },
         "vw-layer_scale-y":{
-          "increase":0.0,
           "factor":1.0,
           "target":0.0,
-          "value":1.0
+          "value":1.0,
+          "increase":0.0
         },
         "vw-layer_spd":{
-          "increase":0.0,
           "factor":1.0,
           "target":0.0,
-          "value":0.0
+          "value":0.0,
+          "increase":0.0
         },
         "vw-layer_texture":{
-          "angle":0.0,
-          "alpha":1.0,
           "frame":0.0,
-          "animate":false,
-          "blend":"#FFFFFF",
-          "scaleX":1.0,
-          "speed":30.0,
           "scaleY":1.0,
           "name":"texture_missing",
-          "randomFrame":false
+          "animate":false,
+          "randomFrame":false,
+          "angle":0.0,
+          "speed":30.0,
+          "blend":"#FFFFFF",
+          "alpha":1.0,
+          "scaleX":1.0
         },
         "vw-layer_texture-blend":"#BC2EFC",
         "vw-layer_texture-lifespan":0.0,
@@ -62,16 +66,13 @@
         "vw-layer_cls-texture":true,
         "vw-layer_col":"#005B00",
         "vw-layer_dir":{
-          "increase":0.0,
           "factor":1.0,
           "target":0.0,
-          "value":0.0
-        }
-      },
-      "type":"brush_view_layer",
-      "name":"default bkg",
-      "color":"#FFFF00",
-      "texture":"texture_ve_icon_view_layer"
+          "value":0.0,
+          "increase":0.0
+        },
+        "vw-layer_fade-in":0.0
+      }
     }
   ],
   "version":"1"

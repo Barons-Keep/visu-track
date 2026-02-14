@@ -1,8 +1,11 @@
 {
-  "version":"1",
   "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>",
   "data":[
     {
+      "hidden":false,
+      "name":"default",
+      "type":"brush_entity_config",
+      "texture":"texture_ve_icon_entity_config",
       "color":"#00FF00",
       "properties":{
         "en-cfg_render-bullet":true,
@@ -18,28 +21,28 @@
         "en-cfg_use-z-player":true,
         "en-cfg_use-z-shr":true,
         "en-cfg_z-bullet":{
-          "value":2048.0,
-          "increase":0.0,
           "factor":0.0,
-          "target":0.0
+          "target":0.0,
+          "value":2048.0,
+          "increase":0.0
         },
         "en-cfg_z-coin":{
-          "value":2047.0,
-          "increase":0.0,
           "factor":0.0,
-          "target":0.0
+          "target":0.0,
+          "value":2047.0,
+          "increase":0.0
         },
         "en-cfg_z-player":{
-          "value":2051.0,
-          "increase":0.0,
           "factor":0.0,
-          "target":0.0
+          "target":0.0,
+          "value":2051.0,
+          "increase":0.0
         },
         "en-cfg_z-shr":{
-          "value":2049.0,
-          "increase":0.0,
           "factor":0.0,
-          "target":0.0
+          "target":0.0,
+          "value":2049.0,
+          "increase":0.0
         },
         "en-cfg_change-z-bullet":true,
         "en-cfg_change-z-coin":false,
@@ -49,11 +52,8 @@
         "en-cfg_cls-coin":true,
         "en-cfg_cls-player":true,
         "en-cfg_cls-shr":true
-      },
-      "type":"brush_entity_config",
-      "name":"default",
-      "hidden":false,
-      "texture":"texture_ve_icon_entity_config"
+      }
     }
-  ]
+  ],
+  "version":"1"
 }

@@ -1,6 +1,24 @@
 {
   "model":"Collection<io.alkapivo.visu.service.subtitle.SubtitleTemplate>",
   "data":{
+    "subtitle_zoogies_digitalshadow":{
+      "lines":[
+        "",
+        "digitalshadow"
+      ]
+    },
+    "subtitle_alkapivo":{
+      "lines":[
+        "Alkapivo",
+        "2025"
+      ]
+    },
+    "subtitle_zoogies":{
+      "lines":[
+        "Zoogies",
+        ""
+      ]
+    },
     "subtitle-gm-boot-log":{
       "lines":[
         "Collision Event time(microsecs)=3",
@@ -30,24 +48,6 @@
         "           ",
         "         ",
         "        "
-      ]
-    },
-    "subtitle_zoogies_digitalshadow":{
-      "lines":[
-        "",
-        "digitalshadow"
-      ]
-    },
-    "subtitle_alkapivo":{
-      "lines":[
-        "Alkapivo",
-        "2025"
-      ]
-    },
-    "subtitle_zoogies":{
-      "lines":[
-        "Zoogies",
-        ""
       ]
     }
   },
