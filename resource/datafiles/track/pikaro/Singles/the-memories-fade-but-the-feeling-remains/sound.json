@@ -1,10 +1,10 @@
 {
+  "version":"1",
   "model":"Collection<io.alkapivo.core.service.sound.SoundIntent>",
   "data":{
     "sound_external":{
-      "file":"the-memories-fade-but-the-feeling-remains.ogg",
-      "waveform":null
+      "waveform":null,
+      "file":"the-memories-fade-but-the-feeling-remains.ogg"
     }
-  },
-  "version":"1"
+  }
 }

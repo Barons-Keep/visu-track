@@ -104,6 +104,17 @@
               "node": "root.tracks"
             }
           }
+        },
+        {
+          "name": "pulsar",
+          "title": "kattybratt (Work in progress)",
+          "event": {
+            "type": "open-track-setup",
+            "data": {
+              "path": "track/kattybratt/Singles/pulsar/manifest.visu",
+              "node": "root.tracks"
+            }
+          }
         }
       ]
     }

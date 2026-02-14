@@ -1,6 +1,6 @@
 {
-  "model":"Collection<io.alkapivo.core.service.sound.SoundIntent>",
   "version":"1",
+  "model":"Collection<io.alkapivo.core.service.sound.SoundIntent>",
   "data":{
     "sound_external":{
       "waveform":null,

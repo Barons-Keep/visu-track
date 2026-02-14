@@ -1,10 +1,10 @@
 {
+  "version":"1",
   "model":"Collection<io.alkapivo.core.service.sound.SoundIntent>",
   "data":{
     "sound_external":{
-      "file":"Just-To-Create-Something.ogg",
-      "waveform":null
+      "waveform":null,
+      "file":"Just-To-Create-Something.ogg"
     }
-  },
-  "version":"1"
+  }
 }

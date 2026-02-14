@@ -1,58 +1,58 @@
 {
-  "model":"Collection<io.alkapivo.visu.service.coin.CoinTemplate>",
   "version":"1",
+  "model":"Collection<io.alkapivo.visu.service.coin.CoinTemplate>",
   "data":{
     "coin-force-5":{
-      "amount":5.0,
-      "mask":null,
-      "changeSpeed":false,
-      "name":"coin-force-5",
-      "speed":{
-        "increase":0.0,
-        "value":-3.0,
-        "factor":0.10000000000000001,
-        "target":1.0
-      },
-      "category":"force",
       "sprite":{
-        "animate":false,
-        "frame":0.0,
-        "scaleX":6.5,
-        "angle":0.0,
-        "scaleY":6.5,
-        "randomFrame":false,
         "alpha":1.0,
+        "frame":0.0,
+        "blend":"#FFFFFF",
+        "animate":false,
         "name":"texture_coin_force",
         "speed":30.0,
-        "blend":"#FFFFFF"
+        "randomFrame":false,
+        "scaleX":6.5,
+        "scaleY":6.5,
+        "angle":0.0
       },
-      "useSpeed":false
-    },
-    "coin-point-5":{
-      "amount":5.0,
-      "mask":null,
       "changeSpeed":false,
-      "name":"coin-point-5",
+      "name":"coin-force-5",
+      "amount":5.0,
+      "category":"force",
+      "useSpeed":false,
       "speed":{
         "increase":0.0,
-        "value":-3.0,
         "factor":0.10000000000000001,
+        "value":-3.0,
         "target":1.0
       },
-      "category":"point",
+      "mask":null
+    },
+    "coin-point-5":{
       "sprite":{
-        "animate":false,
-        "frame":0.0,
-        "scaleX":6.5,
-        "angle":0.0,
-        "scaleY":6.5,
-        "randomFrame":false,
         "alpha":1.0,
+        "frame":0.0,
+        "blend":"#FFFFFF",
+        "animate":false,
         "name":"texture_coin_point",
         "speed":30.0,
-        "blend":"#FFFFFF"
+        "randomFrame":false,
+        "scaleX":6.5,
+        "scaleY":6.5,
+        "angle":0.0
       },
-      "useSpeed":false
+      "changeSpeed":false,
+      "name":"coin-point-5",
+      "amount":5.0,
+      "category":"point",
+      "useSpeed":false,
+      "speed":{
+        "increase":0.0,
+        "factor":0.10000000000000001,
+        "value":-3.0,
+        "target":1.0
+      },
+      "mask":null
     }
   }
 }

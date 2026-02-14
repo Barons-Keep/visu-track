@@ -1,13 +1,11 @@
 {
-  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>",
   "version":"1",
+  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>",
   "data":[
     {
-      "name":"clear (factor: 1.0)",
+      "hidden":false,
+      "color":"#FF0000",
       "properties":{
-        "ef-glt_line-spd":0.0,
-        "ef-glt_line-v-shift":0.0,
-        "ef-glt_shd-ch-shift":0.0,
         "ef-glt_shd-dispersion":0.0,
         "ef-glt_shd-intensity":0.0,
         "ef-glt_shd-noise":0.0,
@@ -22,19 +20,19 @@
         "ef-glt_jumb-spd":0.0,
         "ef-glt_line-drift":0.0,
         "ef-glt_line-res":0.0,
-        "ef-glt_line-shift":0.0
+        "ef-glt_line-shift":0.0,
+        "ef-glt_line-spd":0.0,
+        "ef-glt_line-v-shift":0.0,
+        "ef-glt_shd-ch-shift":0.0
       },
-      "type":"brush_effect_glitch",
+      "name":"clear (factor: 1.0)",
       "texture":"texture_ve_icon_effect_particle",
-      "hidden":false,
-      "color":"#FF0000"
+      "type":"brush_effect_glitch"
     },
     {
-      "name":"subtle wave noise (factor: 0.1)",
+      "hidden":false,
+      "color":"#FF8377",
       "properties":{
-        "ef-glt_line-spd":0.17499999999999999,
-        "ef-glt_line-v-shift":0.40081,
-        "ef-glt_shd-ch-shift":0.0134,
         "ef-glt_shd-dispersion":0.0025000000000000001,
         "ef-glt_shd-intensity":0.44,
         "ef-glt_shd-noise":0.44,
@@ -49,19 +47,19 @@
         "ef-glt_jumb-spd":8.25,
         "ef-glt_line-drift":0.24696399999999999,
         "ef-glt_line-res":2.3599999999999999,
-        "ef-glt_line-shift":0.041498
+        "ef-glt_line-shift":0.041498,
+        "ef-glt_line-spd":0.17499999999999999,
+        "ef-glt_line-v-shift":0.40081,
+        "ef-glt_shd-ch-shift":0.0134
       },
-      "type":"brush_effect_glitch",
+      "name":"subtle wave noise (factor: 0.1)",
       "texture":"texture_ve_icon_effect_particle",
-      "hidden":false,
-      "color":"#FF8377"
+      "type":"brush_effect_glitch"
     },
     {
-      "name":"moderate wave noise (factor: 0.1)",
+      "hidden":false,
+      "color":"#FF8377",
       "properties":{
-        "ef-glt_line-spd":0.0,
-        "ef-glt_line-v-shift":0.40081,
-        "ef-glt_shd-ch-shift":0.0042509999999999996,
         "ef-glt_shd-dispersion":0.0025000000000000001,
         "ef-glt_shd-intensity":1.477733,
         "ef-glt_shd-noise":0.5,
@@ -76,19 +74,19 @@
         "ef-glt_jumb-spd":1.3157890000000001,
         "ef-glt_line-drift":0.24696399999999999,
         "ef-glt_line-res":1.8825909999999999,
-        "ef-glt_line-shift":0.041498
+        "ef-glt_line-shift":0.041498,
+        "ef-glt_line-spd":0.0,
+        "ef-glt_line-v-shift":0.40081,
+        "ef-glt_shd-ch-shift":0.0042509999999999996
       },
-      "type":"brush_effect_glitch",
+      "name":"moderate wave noise (factor: 0.1)",
       "texture":"texture_ve_icon_effect_particle",
-      "hidden":false,
-      "color":"#FF8377"
+      "type":"brush_effect_glitch"
     },
     {
-      "name":"subtle pixelation (factor: 0.06)",
+      "hidden":false,
+      "color":"#24D9FF",
       "properties":{
-        "ef-glt_line-spd":0.01,
-        "ef-glt_line-v-shift":0.0,
-        "ef-glt_shd-ch-shift":0.0070000000000000001,
         "ef-glt_shd-dispersion":0.0025000000000000001,
         "ef-glt_shd-intensity":1.0,
         "ef-glt_shd-noise":0.5,
@@ -103,19 +101,19 @@
         "ef-glt_jumb-spd":1.0,
         "ef-glt_line-drift":0.10000000000000001,
         "ef-glt_line-res":1.0,
-        "ef-glt_line-shift":0.0040000000000000001
+        "ef-glt_line-shift":0.0040000000000000001,
+        "ef-glt_line-spd":0.01,
+        "ef-glt_line-v-shift":0.0,
+        "ef-glt_shd-ch-shift":0.0070000000000000001
       },
-      "type":"brush_effect_glitch",
+      "name":"subtle pixelation (factor: 0.06)",
       "texture":"texture_ve_icon_effect_particle",
-      "hidden":false,
-      "color":"#24D9FF"
+      "type":"brush_effect_glitch"
     },
     {
-      "name":"modearate pixelation (factor: 0.1)",
+      "hidden":false,
+      "color":"#24D9FF",
       "properties":{
-        "ef-glt_line-spd":0.018218999999999999,
-        "ef-glt_line-v-shift":0.13178300000000001,
-        "ef-glt_shd-ch-shift":0.0042509999999999996,
         "ef-glt_shd-dispersion":0.0025000000000000001,
         "ef-glt_shd-intensity":1.2015499999999999,
         "ef-glt_shd-noise":0.34883700000000001,
@@ -130,19 +128,19 @@
         "ef-glt_jumb-spd":1.3157890000000001,
         "ef-glt_line-drift":0.038760000000000003,
         "ef-glt_line-res":0.953488,
-        "ef-glt_line-shift":0.032946000000000003
+        "ef-glt_line-shift":0.032946000000000003,
+        "ef-glt_line-spd":0.018218999999999999,
+        "ef-glt_line-v-shift":0.13178300000000001,
+        "ef-glt_shd-ch-shift":0.0042509999999999996
       },
-      "type":"brush_effect_glitch",
+      "name":"modearate pixelation (factor: 0.1)",
       "texture":"texture_ve_icon_effect_particle",
-      "hidden":false,
-      "color":"#24D9FF"
+      "type":"brush_effect_glitch"
     },
     {
-      "name":"subtle rgb channel shift (factor: 0.12)",
+      "hidden":false,
+      "color":"#5DFF00",
       "properties":{
-        "ef-glt_line-spd":0.018218999999999999,
-        "ef-glt_line-v-shift":0.19028300000000001,
-        "ef-glt_shd-ch-shift":0.035424999999999998,
         "ef-glt_shd-dispersion":0.087044999999999997,
         "ef-glt_shd-intensity":0.87044500000000002,
         "ef-glt_shd-noise":0.295547,
@@ -157,19 +155,19 @@
         "ef-glt_jumb-spd":0.0,
         "ef-glt_line-drift":0.085019999999999998,
         "ef-glt_line-res":1.275304,
-        "ef-glt_line-shift":0.011943
+        "ef-glt_line-shift":0.011943,
+        "ef-glt_line-spd":0.018218999999999999,
+        "ef-glt_line-v-shift":0.19028300000000001,
+        "ef-glt_shd-ch-shift":0.035424999999999998
       },
-      "type":"brush_effect_glitch",
+      "name":"subtle rgb channel shift (factor: 0.12)",
       "texture":"texture_ve_icon_effect_particle",
-      "hidden":false,
-      "color":"#5DFF00"
+      "type":"brush_effect_glitch"
     },
     {
-      "name":"moderate rgb channel shift (factor: 0.65)",
+      "hidden":false,
+      "color":"#5DFF00",
       "properties":{
-        "ef-glt_line-spd":0.104141,
-        "ef-glt_line-v-shift":0.13178300000000001,
-        "ef-glt_shd-ch-shift":0.024421000000000002,
         "ef-glt_shd-dispersion":0.14000000000000001,
         "ef-glt_shd-intensity":1.2015499999999999,
         "ef-glt_shd-noise":0.34883700000000001,
@@ -184,12 +182,14 @@
         "ef-glt_jumb-spd":5.8160780000000001,
         "ef-glt_line-drift":0.038760000000000003,
         "ef-glt_line-res":0.953488,
-        "ef-glt_line-shift":0.025999999999999999
+        "ef-glt_line-shift":0.025999999999999999,
+        "ef-glt_line-spd":0.104141,
+        "ef-glt_line-v-shift":0.13178300000000001,
+        "ef-glt_shd-ch-shift":0.024421000000000002
       },
-      "type":"brush_effect_glitch",
+      "name":"moderate rgb channel shift (factor: 0.65)",
       "texture":"texture_ve_icon_effect_particle",
-      "hidden":false,
-      "color":"#5DFF00"
+      "type":"brush_effect_glitch"
     }
   ]
 }

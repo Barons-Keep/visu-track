@@ -1,9 +1,10 @@
 {
-  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>",
   "version":"1",
+  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>",
   "data":[
     {
-      "name":"default (alpha: 0)",
+      "hidden":false,
+      "color":"#00FF00",
       "properties":{
         "gr-area_change-h":false,
         "gr-area_change-h-alpha":false,
@@ -12,23 +13,23 @@
         "gr-area_change-v-alpha":false,
         "gr-area_change-v-size":false,
         "gr-area_h":{
+          "increase":0.0,
           "factor":1.0,
           "value":1.0,
-          "increase":0.0,
           "target":1.0
         },
         "gr-area_h-alpha":{
+          "increase":0.0,
           "factor":1.0,
           "value":0.0,
-          "increase":0.0,
           "target":1.0
         },
         "gr-area_h-col":"#FF0000",
         "gr-area_h-col-spd":0.0,
         "gr-area_h-size":{
+          "increase":0.0,
           "factor":1.0,
           "value":10.0,
-          "increase":0.0,
           "target":1.0
         },
         "gr-area_use-h":true,
@@ -40,46 +41,45 @@
         "gr-area_use-v-col":true,
         "gr-area_use-v-size":true,
         "gr-area_v":{
+          "increase":0.0,
           "factor":1.0,
           "value":1.0,
-          "increase":0.0,
           "target":1.0
         },
         "gr-area_v-alpha":{
+          "increase":0.0,
           "factor":1.0,
           "value":0.0,
-          "increase":0.0,
           "target":1.0
         },
         "gr-area_v-col":"#FF00FF",
         "gr-area_v-col-spd":0.0,
         "gr-area_v-size":{
+          "increase":0.0,
           "factor":1.0,
           "value":10.0,
-          "increase":0.0,
           "target":1.0
         }
       },
-      "type":"brush_grid_area",
+      "name":"default (alpha: 0)",
       "texture":"texture_ve_icon_grid_area",
-      "hidden":false,
-      "color":"#00FF00"
+      "type":"brush_grid_area"
     },
     {
+      "hidden":false,
+      "color":"#FFFFFF",
+      "properties":null,
       "name":"new brush template 1",
-      "properties":null,
-      "type":"brush_grid_area",
       "texture":"texture_baron",
-      "hidden":false,
-      "color":"#FFFFFF"
+      "type":"brush_grid_area"
     },
     {
-      "name":"new brush template 2",
-      "properties":null,
-      "type":"brush_grid_area",
-      "texture":"texture_baron",
       "hidden":false,
-      "color":"#FFFFFF"
+      "color":"#FFFFFF",
+      "properties":null,
+      "name":"new brush template 2",
+      "texture":"texture_baron",
+      "type":"brush_grid_area"
     }
   ]
 }

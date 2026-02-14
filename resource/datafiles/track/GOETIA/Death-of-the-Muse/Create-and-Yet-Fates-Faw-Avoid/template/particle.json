@@ -1,265 +1,265 @@
 {
-  "model":"Collection<io.alkapivo.core.service.particle.ParticleTemplate>",
   "version":"1",
+  "model":"Collection<io.alkapivo.core.service.particle.ParticleTemplate>",
   "data":{
-    "particle-goetia-1":{
-      "scale":{
-        "x":1.0,
-        "y":1.0
-      },
-      "angle":{
-        "wiggle":1.0,
-        "maxValue":360.0,
-        "increase":1.0,
-        "minValue":0.0
-      },
-      "size":{
-        "wiggle":2.0,
-        "maxValue":10.0,
-        "increase":1.5,
-        "minValue":0.0
-      },
-      "life":{
-        "maxValue":90.0,
-        "minValue":60.0
-      },
-      "orientation":{
-        "wiggle":1.0,
-        "maxValue":360.0,
-        "increase":5.0,
-        "minValue":0.0,
-        "relative":360.0
+    "particle-goetia-2":{
+      "alpha":{
+        "start":0.0,
+        "halfway":1.0,
+        "finish":0.0
       },
       "color":{
-        "finish":"#FF00FF",
-        "halfway":"#007AFF",
-        "start":"#FF0000"
+        "start":"#FF00FF",
+        "halfway":"#007EFF",
+        "finish":"#FF0000"
       },
-      "speed":{
-        "wiggle":10.0,
-        "maxValue":100.0,
-        "increase":0.25,
-        "minValue":25.0
-      },
-      "gravity":{
-        "amount":5.0,
-        "angle":270.0
-      },
-      "shape":"FLARE",
-      "blend":true,
-      "particle":null,
-      "alpha":{
-        "finish":0.0,
-        "halfway":1.0,
-        "start":0.0
-      }
-    },
-    "particle-goetia-2":{
       "scale":{
         "x":2.0,
         "y":2.0
       },
-      "angle":{
-        "wiggle":1.0,
-        "maxValue":360.0,
-        "increase":0.10000000000000001,
-        "minValue":0.0
-      },
-      "size":{
-        "wiggle":0.0,
-        "maxValue":10.0,
-        "increase":0.25,
-        "minValue":0.0
-      },
-      "life":{
-        "maxValue":60.0,
-        "minValue":30.0
-      },
-      "orientation":{
-        "wiggle":1.0,
-        "maxValue":360.0,
-        "increase":5.0,
-        "minValue":0.0,
-        "relative":0.0
-      },
-      "color":{
-        "finish":"#FF0000",
-        "halfway":"#007EFF",
-        "start":"#FF00FF"
-      },
       "speed":{
         "wiggle":2.0,
-        "maxValue":25.0,
         "increase":0.25,
+        "maxValue":25.0,
+        "minValue":0.0
+      },
+      "angle":{
+        "wiggle":1.0,
+        "increase":0.10000000000000001,
+        "maxValue":360.0,
         "minValue":0.0
       },
       "gravity":{
         "amount":3.0,
         "angle":90.0
       },
+      "orientation":{
+        "wiggle":1.0,
+        "increase":5.0,
+        "maxValue":360.0,
+        "relative":0.0,
+        "minValue":0.0
+      },
+      "size":{
+        "wiggle":0.0,
+        "increase":0.25,
+        "maxValue":10.0,
+        "minValue":0.0
+      },
       "shape":"FLARE",
       "blend":true,
       "particle":null,
-      "alpha":{
-        "finish":0.0,
-        "halfway":1.0,
-        "start":0.0
+      "life":{
+        "maxValue":60.0,
+        "minValue":30.0
       }
     },
     "particle-goetia-3":{
+      "alpha":{
+        "start":0.0,
+        "halfway":1.0,
+        "finish":0.0
+      },
+      "color":{
+        "start":"#FF0000",
+        "halfway":"#007AFF",
+        "finish":"#FF0080"
+      },
       "scale":{
         "x":1.0,
         "y":1.0
       },
-      "angle":{
-        "wiggle":1.0,
-        "maxValue":360.0,
-        "increase":-1.0,
-        "minValue":0.0
-      },
-      "size":{
-        "wiggle":2.0,
-        "maxValue":10.0,
-        "increase":1.5,
-        "minValue":0.0
-      },
-      "life":{
-        "maxValue":90.0,
-        "minValue":60.0
-      },
-      "orientation":{
-        "wiggle":1.0,
-        "maxValue":360.0,
-        "increase":-5.0,
-        "minValue":0.0,
-        "relative":360.0
-      },
-      "color":{
-        "finish":"#FF0080",
-        "halfway":"#007AFF",
-        "start":"#FF0000"
-      },
       "speed":{
         "wiggle":10.0,
-        "maxValue":100.0,
         "increase":0.25,
+        "maxValue":100.0,
         "minValue":25.0
+      },
+      "angle":{
+        "wiggle":1.0,
+        "increase":-1.0,
+        "maxValue":360.0,
+        "minValue":0.0
       },
       "gravity":{
         "amount":5.0,
         "angle":270.0
       },
+      "orientation":{
+        "wiggle":1.0,
+        "increase":-5.0,
+        "maxValue":360.0,
+        "relative":360.0,
+        "minValue":0.0
+      },
+      "size":{
+        "wiggle":2.0,
+        "increase":1.5,
+        "maxValue":10.0,
+        "minValue":0.0
+      },
       "shape":"FLARE",
       "blend":true,
       "particle":null,
+      "life":{
+        "maxValue":90.0,
+        "minValue":60.0
+      }
+    },
+    "particle-goetia-1":{
       "alpha":{
-        "finish":0.0,
+        "start":0.0,
         "halfway":1.0,
-        "start":0.0
+        "finish":0.0
+      },
+      "color":{
+        "start":"#FF0000",
+        "halfway":"#007AFF",
+        "finish":"#FF00FF"
+      },
+      "scale":{
+        "x":1.0,
+        "y":1.0
+      },
+      "speed":{
+        "wiggle":10.0,
+        "increase":0.25,
+        "maxValue":100.0,
+        "minValue":25.0
+      },
+      "angle":{
+        "wiggle":1.0,
+        "increase":1.0,
+        "maxValue":360.0,
+        "minValue":0.0
+      },
+      "gravity":{
+        "amount":5.0,
+        "angle":270.0
+      },
+      "orientation":{
+        "wiggle":1.0,
+        "increase":5.0,
+        "maxValue":360.0,
+        "relative":360.0,
+        "minValue":0.0
+      },
+      "size":{
+        "wiggle":2.0,
+        "increase":1.5,
+        "maxValue":10.0,
+        "minValue":0.0
+      },
+      "shape":"FLARE",
+      "blend":true,
+      "particle":null,
+      "life":{
+        "maxValue":90.0,
+        "minValue":60.0
       }
     },
     "particle-shroom-damage":{
+      "alpha":{
+        "start":1.0,
+        "halfway":1.0,
+        "finish":0.0
+      },
+      "color":{
+        "start":"#FF6A00",
+        "halfway":"#E7FF6C",
+        "finish":"#720000"
+      },
       "scale":{
         "x":1.75,
         "y":1.75
       },
+      "speed":{
+        "wiggle":20.0,
+        "increase":0.5,
+        "maxValue":100.0,
+        "minValue":25.0
+      },
       "angle":{
         "wiggle":5.0,
-        "maxValue":360.0,
         "increase":0.5,
+        "maxValue":360.0,
+        "minValue":0.0
+      },
+      "gravity":{
+        "amount":0.0,
+        "angle":0.0
+      },
+      "orientation":{
+        "wiggle":1.0,
+        "increase":5.0,
+        "maxValue":360.0,
+        "relative":0.0,
         "minValue":0.0
       },
       "size":{
         "wiggle":0.0,
-        "maxValue":2.0,
         "increase":1.0,
+        "maxValue":2.0,
         "minValue":0.0
-      },
-      "life":{
-        "maxValue":26.0,
-        "minValue":22.0
-      },
-      "orientation":{
-        "wiggle":1.0,
-        "maxValue":360.0,
-        "increase":5.0,
-        "minValue":0.0,
-        "relative":0.0
-      },
-      "color":{
-        "finish":"#720000",
-        "halfway":"#E7FF6C",
-        "start":"#FF6A00"
-      },
-      "speed":{
-        "wiggle":20.0,
-        "maxValue":100.0,
-        "increase":0.5,
-        "minValue":25.0
-      },
-      "gravity":{
-        "amount":0.0,
-        "angle":0.0
       },
       "shape":"STAR",
       "blend":true,
       "particle":null,
-      "alpha":{
-        "finish":0.0,
-        "halfway":1.0,
-        "start":1.0
+      "life":{
+        "maxValue":26.0,
+        "minValue":22.0
       }
     },
     "particle-shroom-death":{
+      "alpha":{
+        "start":1.0,
+        "halfway":1.0,
+        "finish":0.0
+      },
+      "color":{
+        "start":"#FF0000",
+        "halfway":"#622DDD",
+        "finish":"#FF0000"
+      },
       "scale":{
         "x":3.0,
         "y":3.0
       },
-      "angle":{
-        "wiggle":1.0,
-        "maxValue":360.0,
-        "increase":-1.5,
-        "minValue":0.0
-      },
-      "size":{
-        "wiggle":1.0,
-        "maxValue":0.0,
-        "increase":0.41999999999999998,
-        "minValue":0.0
-      },
-      "life":{
-        "maxValue":75.0,
-        "minValue":50.0
-      },
-      "orientation":{
-        "wiggle":1.0,
-        "maxValue":360.0,
-        "increase":0.5,
-        "minValue":0.0,
-        "relative":0.0
-      },
-      "color":{
-        "finish":"#FF0000",
-        "halfway":"#622DDD",
-        "start":"#FF0000"
-      },
       "speed":{
         "wiggle":3.0,
-        "maxValue":5.0,
         "increase":1.0,
+        "maxValue":5.0,
+        "minValue":0.0
+      },
+      "angle":{
+        "wiggle":1.0,
+        "increase":-1.5,
+        "maxValue":360.0,
         "minValue":0.0
       },
       "gravity":{
         "amount":0.0,
         "angle":0.0
       },
+      "orientation":{
+        "wiggle":1.0,
+        "increase":0.5,
+        "maxValue":360.0,
+        "relative":0.0,
+        "minValue":0.0
+      },
+      "size":{
+        "wiggle":1.0,
+        "increase":0.41999999999999998,
+        "maxValue":0.0,
+        "minValue":0.0
+      },
       "shape":"EXPLOSION",
       "blend":true,
       "particle":null,
-      "alpha":{
-        "finish":0.0,
-        "halfway":1.0,
-        "start":1.0
+      "life":{
+        "maxValue":75.0,
+        "minValue":50.0
       }
     }
   }

@@ -1,58 +1,58 @@
 {
+  "version":"1",
   "model":"Collection<io.alkapivo.visu.service.coin.CoinTemplate>",
   "data":{
-    "coin-point-5":{
-      "name":"coin-point-5",
-      "useSpeed":false,
-      "changeSpeed":false,
-      "sprite":{
-        "name":"texture_coin_point",
-        "angle":0.0,
-        "scaleX":6.5,
-        "scaleY":6.5,
-        "alpha":1.0,
-        "speed":30.0,
-        "blend":"#FFFFFF",
-        "randomFrame":false,
-        "frame":0.0,
-        "animate":false
-      },
-      "speed":{
-        "factor":0.059999999999999998,
-        "value":-2.7999999999999998,
-        "target":2.2000000000000002,
-        "increase":0.0
-      },
-      "category":"point",
-      "mask":null,
-      "amount":5.0
-    },
     "coin-force-5":{
-      "name":"coin-force-5",
-      "useSpeed":false,
-      "changeSpeed":false,
       "sprite":{
-        "name":"texture_coin_force",
-        "angle":0.0,
-        "scaleX":6.5,
-        "scaleY":6.5,
         "alpha":1.0,
-        "speed":30.0,
         "blend":"#FFFFFF",
-        "randomFrame":false,
         "frame":0.0,
-        "animate":false
+        "animate":false,
+        "name":"texture_coin_force",
+        "speed":30.0,
+        "randomFrame":false,
+        "scaleX":6.5,
+        "angle":0.0,
+        "scaleY":6.5
       },
+      "changeSpeed":false,
+      "name":"coin-force-5",
+      "amount":5.0,
+      "category":"force",
+      "useSpeed":false,
       "speed":{
+        "increase":0.0,
         "factor":0.050000000000000003,
         "value":-3.5,
-        "target":2.25,
-        "increase":0.0
+        "target":2.25
       },
-      "category":"force",
-      "mask":null,
-      "amount":5.0
+      "mask":null
+    },
+    "coin-point-5":{
+      "sprite":{
+        "alpha":1.0,
+        "blend":"#FFFFFF",
+        "frame":0.0,
+        "animate":false,
+        "name":"texture_coin_point",
+        "speed":30.0,
+        "randomFrame":false,
+        "scaleX":6.5,
+        "angle":0.0,
+        "scaleY":6.5
+      },
+      "changeSpeed":false,
+      "name":"coin-point-5",
+      "amount":5.0,
+      "category":"point",
+      "useSpeed":false,
+      "speed":{
+        "increase":0.0,
+        "factor":0.059999999999999998,
+        "value":-2.7999999999999998,
+        "target":2.2000000000000002
+      },
+      "mask":null
     }
-  },
-  "version":"1"
+  }
 }

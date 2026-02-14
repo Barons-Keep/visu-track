@@ -1,16 +1,13 @@
 {
+  "version":"1",
+  "model":"io.alkapivo.visu.controller.VisuTrack",
   "data":{
-    "bpm":120.0,
-    "bpm-count":8.0,
-    "bpm-shift":300.25,
-    "bpm-sub":4.0,
+    "shroom":"template/shroom.json",
+    "video":null,
+    "track":"track.json",
+    "subtitle":"template/subtitle.json",
+    "texture":"texture/texture.json",
     "editor":[
-      "brush/brush_entity_config.json",
-      "brush/brush_entity_player.json",
-      "brush/brush_entity_shroom.json",
-      "brush/brush_grid_area.json",
-      "brush/brush_grid_column.json",
-      "brush/brush_grid_config.json",
       "brush/brush_grid_row.json",
       "brush/brush_view_camera.json",
       "brush/brush_view_config.json",
@@ -21,19 +18,22 @@
       "brush/brush_effect_particle.json",
       "brush/brush_effect_shader.json",
       "brush/brush_entity_bullet.json",
-      "brush/brush_entity_coin.json"
+      "brush/brush_entity_coin.json",
+      "brush/brush_entity_config.json",
+      "brush/brush_entity_player.json",
+      "brush/brush_entity_shroom.json",
+      "brush/brush_grid_area.json",
+      "brush/brush_grid_column.json",
+      "brush/brush_grid_config.json"
     ],
-    "video":null,
     "shader":"template/shader.json",
-    "sound":"sound.json",
-    "track":"track.json",
-    "particle":"template/particle.json",
-    "texture":"texture/texture.json",
     "coin":"template/coin.json",
-    "subtitle":"template/subtitle.json",
-    "shroom":"template/shroom.json",
-    "bullet":"template/bullet.json"
-  },
-  "version":"1",
-  "model":"io.alkapivo.visu.controller.VisuTrack"
+    "sound":"sound.json",
+    "particle":"template/particle.json",
+    "bullet":"template/bullet.json",
+    "bpm":109.0,
+    "bpm-count":8.0,
+    "bpm-shift":200.44999999999999,
+    "bpm-sub":4.0
+  }
 }

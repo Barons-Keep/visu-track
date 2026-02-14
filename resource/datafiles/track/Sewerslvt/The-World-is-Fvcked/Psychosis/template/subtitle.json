@@ -1,11 +1,11 @@
 {
-  "model":"Collection<io.alkapivo.visu.service.subtitle.SubtitleTemplate>",
   "version":"1",
+  "model":"Collection<io.alkapivo.visu.service.subtitle.SubtitleTemplate>",
   "data":{
-    "subtitle_sewerslvt_psychosis":{
+    "subtitle_sewerslvt":{
       "lines":[
-        "",
-        "Psychosis"
+        "Sewerslvt",
+        ""
       ]
     },
     "subtitle_alkapivo":{
@@ -14,15 +14,15 @@
         "2025"
       ]
     },
+    "subtitle_sewerslvt_psychosis":{
+      "lines":[
+        "",
+        "Psychosis"
+      ]
+    },
     "subtitle_schnoopy":{
       "lines":[
         "Schnoopy",
-        ""
-      ]
-    },
-    "subtitle_sewerslvt":{
-      "lines":[
-        "Sewerslvt",
         ""
       ]
     },
