@@ -3,21 +3,12 @@
   "version":"1",
   "data":[
     {
+      "texture":"texture_bazyl",
+      "type":"brush_entity_shroom",
       "name":"shroom-sigil-aamon-1",
+      "color":"#DD195B",
+      "hidden":false,
       "properties":{
-        "en-shr_dir":270.0,
-        "en-shr_dir-rng":45.0,
-        "en-shr_em-cfg":{
-        },
-        "en-shr_hide":false,
-        "en-shr_hide-em":false,
-        "en-shr_hide-em-angle":false,
-        "en-shr_hide-em-cfg":false,
-        "en-shr_hide-em-offset-x":false,
-        "en-shr_hide-em-offset-y":false,
-        "en-shr_hide-em-per-array":false,
-        "en-shr_hide-em-spd":false,
-        "en-shr_hide-em-wiggle-amp":false,
         "en-shr_hide-em-wiggle-freq":false,
         "en-shr_hide-inherit":false,
         "en-shr_hide-spawn":false,
@@ -26,10 +17,10 @@
         ],
         "en-shr_lifespan":15.0,
         "en-shr_mask":{
-          "x":0.0,
+          "width":0.0,
           "height":0.0,
-          "y":0.0,
-          "width":0.0
+          "x":0.0,
+          "y":0.0
         },
         "en-shr_preview":true,
         "en-shr_rng-x":30.0,
@@ -37,27 +28,27 @@
         "en-shr_snap-x":true,
         "en-shr_snap-y":true,
         "en-shr_spawn-map":{
+          "frames":1.0,
           "file":"",
+          "originX":72.0,
           "name":"texture_shroom_spawn_map",
           "originY":0.0,
-          "prefetch":true,
-          "frames":1.0,
-          "originX":72.0
+          "prefetch":true
         },
         "en-shr_spd":20.0,
         "en-shr_spd-grid":false,
         "en-shr_spd-rng":5.0,
         "en-shr_template":"shroom-sigil-aamon-1",
         "en-shr_texture":{
-          "name":"texture_missing",
+          "frame":0.0,
           "animate":false,
           "scaleX":1.0,
           "angle":0.0,
           "scaleY":1.0,
-          "frame":0.0,
           "randomFrame":false,
           "alpha":1.0,
           "speed":30.0,
+          "name":"texture_missing",
           "blend":"#FFFFFF"
         },
         "en-shr_use-dir-rng":true,
@@ -71,16 +62,7 @@
         "en-shr_use-spd-rng":true,
         "en-shr_use-texture":false,
         "en-shr_x":0.0,
-        "en-shr_y":-30.0
-      },
-      "type":"brush_entity_shroom",
-      "texture":"texture_bazyl",
-      "hidden":false,
-      "color":"#DD195B"
-    },
-    {
-      "name":"shroom-sigil-aamon-2",
-      "properties":{
+        "en-shr_y":-30.0,
         "en-shr_dir":270.0,
         "en-shr_dir-rng":45.0,
         "en-shr_em-cfg":{
@@ -93,7 +75,16 @@
         "en-shr_hide-em-offset-y":false,
         "en-shr_hide-em-per-array":false,
         "en-shr_hide-em-spd":false,
-        "en-shr_hide-em-wiggle-amp":false,
+        "en-shr_hide-em-wiggle-amp":false
+      }
+    },
+    {
+      "texture":"texture_bazyl",
+      "type":"brush_entity_shroom",
+      "name":"shroom-sigil-aamon-2",
+      "color":"#DD195B",
+      "hidden":false,
+      "properties":{
         "en-shr_hide-em-wiggle-freq":false,
         "en-shr_hide-inherit":false,
         "en-shr_hide-spawn":false,
@@ -102,10 +93,10 @@
         ],
         "en-shr_lifespan":15.0,
         "en-shr_mask":{
-          "x":0.0,
+          "width":0.0,
           "height":0.0,
-          "y":0.0,
-          "width":0.0
+          "x":0.0,
+          "y":0.0
         },
         "en-shr_preview":true,
         "en-shr_rng-x":30.0,
@@ -113,27 +104,27 @@
         "en-shr_snap-x":true,
         "en-shr_snap-y":true,
         "en-shr_spawn-map":{
+          "frames":1.0,
           "file":"",
+          "originX":72.0,
           "originY":0.0,
           "name":"texture_shroom_spawn_map",
-          "prefetch":true,
-          "frames":1.0,
-          "originX":72.0
+          "prefetch":true
         },
         "en-shr_spd":20.0,
         "en-shr_spd-grid":false,
         "en-shr_spd-rng":5.0,
         "en-shr_template":"shroom-sigil-aamon-2",
         "en-shr_texture":{
-          "name":"texture_missing",
+          "frame":0.0,
           "animate":false,
           "scaleX":1.0,
           "angle":0.0,
           "scaleY":1.0,
-          "frame":0.0,
           "randomFrame":false,
           "alpha":1.0,
           "speed":30.0,
+          "name":"texture_missing",
           "blend":"#FFFFFF"
         },
         "en-shr_use-dir-rng":true,
@@ -147,16 +138,7 @@
         "en-shr_use-spd-rng":true,
         "en-shr_use-texture":false,
         "en-shr_x":0.0,
-        "en-shr_y":-30.0
-      },
-      "type":"brush_entity_shroom",
-      "texture":"texture_bazyl",
-      "hidden":false,
-      "color":"#DD195B"
-    },
-    {
-      "name":"shroom-sigil-aamon-3",
-      "properties":{
+        "en-shr_y":-30.0,
         "en-shr_dir":270.0,
         "en-shr_dir-rng":45.0,
         "en-shr_em-cfg":{
@@ -169,7 +151,16 @@
         "en-shr_hide-em-offset-y":false,
         "en-shr_hide-em-per-array":false,
         "en-shr_hide-em-spd":false,
-        "en-shr_hide-em-wiggle-amp":false,
+        "en-shr_hide-em-wiggle-amp":false
+      }
+    },
+    {
+      "texture":"texture_bazyl",
+      "type":"brush_entity_shroom",
+      "name":"shroom-sigil-aamon-3",
+      "color":"#DD195B",
+      "hidden":false,
+      "properties":{
         "en-shr_hide-em-wiggle-freq":false,
         "en-shr_hide-inherit":false,
         "en-shr_hide-spawn":false,
@@ -178,10 +169,10 @@
         ],
         "en-shr_lifespan":15.0,
         "en-shr_mask":{
-          "x":0.0,
+          "width":0.0,
           "height":0.0,
-          "y":0.0,
-          "width":0.0
+          "x":0.0,
+          "y":0.0
         },
         "en-shr_preview":true,
         "en-shr_rng-x":30.0,
@@ -189,27 +180,27 @@
         "en-shr_snap-x":true,
         "en-shr_snap-y":true,
         "en-shr_spawn-map":{
+          "frames":1.0,
           "file":"",
+          "originX":72.0,
           "originY":0.0,
           "name":"texture_shroom_spawn_map",
-          "prefetch":true,
-          "frames":1.0,
-          "originX":72.0
+          "prefetch":true
         },
         "en-shr_spd":20.0,
         "en-shr_spd-grid":false,
         "en-shr_spd-rng":5.0,
         "en-shr_template":"shroom-sigil-aamon-3",
         "en-shr_texture":{
-          "name":"texture_missing",
+          "frame":0.0,
           "animate":false,
           "scaleX":1.0,
           "angle":0.0,
           "scaleY":1.0,
-          "frame":0.0,
           "randomFrame":false,
           "alpha":1.0,
           "speed":30.0,
+          "name":"texture_missing",
           "blend":"#FFFFFF"
         },
         "en-shr_use-dir-rng":true,
@@ -223,18 +214,9 @@
         "en-shr_use-spd-rng":true,
         "en-shr_use-texture":false,
         "en-shr_x":0.0,
-        "en-shr_y":-30.0
-      },
-      "type":"brush_entity_shroom",
-      "texture":"texture_bazyl",
-      "hidden":false,
-      "color":"#DD195B"
-    },
-    {
-      "name":"shroom-sigil-agares-1",
-      "properties":{
+        "en-shr_y":-30.0,
         "en-shr_dir":270.0,
-        "en-shr_dir-rng":12.5,
+        "en-shr_dir-rng":45.0,
         "en-shr_em-cfg":{
         },
         "en-shr_hide":false,
@@ -245,7 +227,16 @@
         "en-shr_hide-em-offset-y":false,
         "en-shr_hide-em-per-array":false,
         "en-shr_hide-em-spd":false,
-        "en-shr_hide-em-wiggle-amp":false,
+        "en-shr_hide-em-wiggle-amp":false
+      }
+    },
+    {
+      "texture":"texture_bazyl",
+      "type":"brush_entity_shroom",
+      "name":"shroom-sigil-agares-1",
+      "color":"#F0FF1D",
+      "hidden":false,
+      "properties":{
         "en-shr_hide-em-wiggle-freq":false,
         "en-shr_hide-inherit":false,
         "en-shr_hide-spawn":false,
@@ -254,10 +245,10 @@
         ],
         "en-shr_lifespan":15.0,
         "en-shr_mask":{
-          "x":0.0,
+          "width":0.0,
           "height":0.0,
-          "y":0.0,
-          "width":0.0
+          "x":0.0,
+          "y":0.0
         },
         "en-shr_preview":true,
         "en-shr_rng-x":30.0,
@@ -265,27 +256,27 @@
         "en-shr_snap-x":true,
         "en-shr_snap-y":true,
         "en-shr_spawn-map":{
+          "frames":1.0,
           "file":"",
+          "originX":72.0,
           "name":"texture_shroom_spawn_map",
           "originY":0.0,
-          "prefetch":true,
-          "frames":1.0,
-          "originX":72.0
+          "prefetch":true
         },
         "en-shr_spd":30.0,
         "en-shr_spd-grid":false,
         "en-shr_spd-rng":5.0,
         "en-shr_template":"shroom-sigil-agares-1",
         "en-shr_texture":{
-          "name":"texture_missing",
+          "frame":0.0,
           "animate":false,
           "scaleX":1.0,
           "angle":0.0,
           "scaleY":1.0,
-          "frame":0.0,
           "randomFrame":false,
           "alpha":1.0,
           "speed":30.0,
+          "name":"texture_missing",
           "blend":"#FFFFFF"
         },
         "en-shr_use-dir-rng":true,
@@ -299,16 +290,7 @@
         "en-shr_use-spd-rng":true,
         "en-shr_use-texture":false,
         "en-shr_x":0.0,
-        "en-shr_y":-30.0
-      },
-      "type":"brush_entity_shroom",
-      "texture":"texture_bazyl",
-      "hidden":false,
-      "color":"#F0FF1D"
-    },
-    {
-      "name":"shroom-sigil-agares-2",
-      "properties":{
+        "en-shr_y":-30.0,
         "en-shr_dir":270.0,
         "en-shr_dir-rng":12.5,
         "en-shr_em-cfg":{
@@ -321,7 +303,16 @@
         "en-shr_hide-em-offset-y":false,
         "en-shr_hide-em-per-array":false,
         "en-shr_hide-em-spd":false,
-        "en-shr_hide-em-wiggle-amp":false,
+        "en-shr_hide-em-wiggle-amp":false
+      }
+    },
+    {
+      "texture":"texture_bazyl",
+      "type":"brush_entity_shroom",
+      "name":"shroom-sigil-agares-2",
+      "color":"#F0FF1D",
+      "hidden":false,
+      "properties":{
         "en-shr_hide-em-wiggle-freq":false,
         "en-shr_hide-inherit":false,
         "en-shr_hide-spawn":false,
@@ -330,10 +321,10 @@
         ],
         "en-shr_lifespan":15.0,
         "en-shr_mask":{
-          "x":0.0,
+          "width":0.0,
           "height":0.0,
-          "y":0.0,
-          "width":0.0
+          "x":0.0,
+          "y":0.0
         },
         "en-shr_preview":true,
         "en-shr_rng-x":30.0,
@@ -341,27 +332,27 @@
         "en-shr_snap-x":true,
         "en-shr_snap-y":true,
         "en-shr_spawn-map":{
+          "frames":1.0,
           "file":"",
+          "originX":72.0,
           "originY":0.0,
           "name":"texture_shroom_spawn_map",
-          "prefetch":true,
-          "frames":1.0,
-          "originX":72.0
+          "prefetch":true
         },
         "en-shr_spd":30.0,
         "en-shr_spd-grid":false,
         "en-shr_spd-rng":5.0,
         "en-shr_template":"shroom-sigil-agares-2",
         "en-shr_texture":{
-          "name":"texture_missing",
+          "frame":0.0,
           "animate":false,
           "scaleX":1.0,
           "angle":0.0,
           "scaleY":1.0,
-          "frame":0.0,
           "randomFrame":false,
           "alpha":1.0,
           "speed":30.0,
+          "name":"texture_missing",
           "blend":"#FFFFFF"
         },
         "en-shr_use-dir-rng":true,
@@ -375,16 +366,7 @@
         "en-shr_use-spd-rng":true,
         "en-shr_use-texture":false,
         "en-shr_x":0.0,
-        "en-shr_y":-30.0
-      },
-      "type":"brush_entity_shroom",
-      "texture":"texture_bazyl",
-      "hidden":false,
-      "color":"#F0FF1D"
-    },
-    {
-      "name":"shroom-sigil-agares-3",
-      "properties":{
+        "en-shr_y":-30.0,
         "en-shr_dir":270.0,
         "en-shr_dir-rng":12.5,
         "en-shr_em-cfg":{
@@ -397,7 +379,16 @@
         "en-shr_hide-em-offset-y":false,
         "en-shr_hide-em-per-array":false,
         "en-shr_hide-em-spd":false,
-        "en-shr_hide-em-wiggle-amp":false,
+        "en-shr_hide-em-wiggle-amp":false
+      }
+    },
+    {
+      "texture":"texture_bazyl",
+      "type":"brush_entity_shroom",
+      "name":"shroom-sigil-agares-3",
+      "color":"#F0FF1D",
+      "hidden":false,
+      "properties":{
         "en-shr_hide-em-wiggle-freq":false,
         "en-shr_hide-inherit":false,
         "en-shr_hide-spawn":false,
@@ -406,10 +397,10 @@
         ],
         "en-shr_lifespan":15.0,
         "en-shr_mask":{
-          "x":0.0,
+          "width":0.0,
           "height":0.0,
-          "y":0.0,
-          "width":0.0
+          "x":0.0,
+          "y":0.0
         },
         "en-shr_preview":true,
         "en-shr_rng-x":30.0,
@@ -417,27 +408,27 @@
         "en-shr_snap-x":true,
         "en-shr_snap-y":true,
         "en-shr_spawn-map":{
+          "frames":1.0,
           "file":"",
+          "originX":72.0,
           "originY":0.0,
           "name":"texture_shroom_spawn_map",
-          "prefetch":true,
-          "frames":1.0,
-          "originX":72.0
+          "prefetch":true
         },
         "en-shr_spd":50.0,
         "en-shr_spd-grid":false,
         "en-shr_spd-rng":5.0,
         "en-shr_template":"shroom-sigil-agares-3",
         "en-shr_texture":{
-          "name":"texture_missing",
+          "frame":0.0,
           "animate":false,
           "scaleX":1.0,
           "angle":0.0,
           "scaleY":1.0,
-          "frame":0.0,
           "randomFrame":false,
           "alpha":1.0,
           "speed":30.0,
+          "name":"texture_missing",
           "blend":"#FFFFFF"
         },
         "en-shr_use-dir-rng":true,
@@ -451,18 +442,9 @@
         "en-shr_use-spd-rng":true,
         "en-shr_use-texture":false,
         "en-shr_x":0.0,
-        "en-shr_y":-30.0
-      },
-      "type":"brush_entity_shroom",
-      "texture":"texture_bazyl",
-      "hidden":false,
-      "color":"#F0FF1D"
-    },
-    {
-      "name":"shroom-sigil-aim-1",
-      "properties":{
+        "en-shr_y":-30.0,
         "en-shr_dir":270.0,
-        "en-shr_dir-rng":45.0,
+        "en-shr_dir-rng":12.5,
         "en-shr_em-cfg":{
         },
         "en-shr_hide":false,
@@ -473,7 +455,16 @@
         "en-shr_hide-em-offset-y":false,
         "en-shr_hide-em-per-array":false,
         "en-shr_hide-em-spd":false,
-        "en-shr_hide-em-wiggle-amp":false,
+        "en-shr_hide-em-wiggle-amp":false
+      }
+    },
+    {
+      "texture":"texture_bazyl",
+      "type":"brush_entity_shroom",
+      "name":"shroom-sigil-aim-1",
+      "color":"#231BFD",
+      "hidden":false,
+      "properties":{
         "en-shr_hide-em-wiggle-freq":false,
         "en-shr_hide-inherit":false,
         "en-shr_hide-spawn":false,
@@ -482,10 +473,10 @@
         ],
         "en-shr_lifespan":15.0,
         "en-shr_mask":{
-          "x":0.0,
+          "width":0.0,
           "height":0.0,
-          "y":0.0,
-          "width":0.0
+          "x":0.0,
+          "y":0.0
         },
         "en-shr_preview":true,
         "en-shr_rng-x":30.0,
@@ -493,27 +484,27 @@
         "en-shr_snap-x":true,
         "en-shr_snap-y":true,
         "en-shr_spawn-map":{
+          "frames":1.0,
           "file":"",
+          "originX":72.0,
           "name":"texture_shroom_spawn_map",
           "originY":0.0,
-          "prefetch":true,
-          "frames":1.0,
-          "originX":72.0
+          "prefetch":true
         },
         "en-shr_spd":20.0,
         "en-shr_spd-grid":false,
         "en-shr_spd-rng":5.0,
         "en-shr_template":"shroom-sigil-aim-1",
         "en-shr_texture":{
-          "name":"texture_missing",
+          "frame":0.0,
           "animate":false,
           "scaleX":1.0,
           "angle":0.0,
           "scaleY":1.0,
-          "frame":0.0,
           "randomFrame":false,
           "alpha":1.0,
           "speed":30.0,
+          "name":"texture_missing",
           "blend":"#FFFFFF"
         },
         "en-shr_use-dir-rng":true,
@@ -527,16 +518,7 @@
         "en-shr_use-spd-rng":true,
         "en-shr_use-texture":false,
         "en-shr_x":0.0,
-        "en-shr_y":-30.0
-      },
-      "type":"brush_entity_shroom",
-      "texture":"texture_bazyl",
-      "hidden":false,
-      "color":"#231BFD"
-    },
-    {
-      "name":"shroom-sigil-aim-2",
-      "properties":{
+        "en-shr_y":-30.0,
         "en-shr_dir":270.0,
         "en-shr_dir-rng":45.0,
         "en-shr_em-cfg":{
@@ -549,7 +531,16 @@
         "en-shr_hide-em-offset-y":false,
         "en-shr_hide-em-per-array":false,
         "en-shr_hide-em-spd":false,
-        "en-shr_hide-em-wiggle-amp":false,
+        "en-shr_hide-em-wiggle-amp":false
+      }
+    },
+    {
+      "texture":"texture_bazyl",
+      "type":"brush_entity_shroom",
+      "name":"shroom-sigil-aim-2",
+      "color":"#231BFD",
+      "hidden":false,
+      "properties":{
         "en-shr_hide-em-wiggle-freq":false,
         "en-shr_hide-inherit":false,
         "en-shr_hide-spawn":false,
@@ -558,10 +549,10 @@
         ],
         "en-shr_lifespan":15.0,
         "en-shr_mask":{
-          "x":0.0,
+          "width":0.0,
           "height":0.0,
-          "y":0.0,
-          "width":0.0
+          "x":0.0,
+          "y":0.0
         },
         "en-shr_preview":true,
         "en-shr_rng-x":30.0,
@@ -569,27 +560,27 @@
         "en-shr_snap-x":true,
         "en-shr_snap-y":true,
         "en-shr_spawn-map":{
+          "frames":1.0,
           "file":"",
+          "originX":72.0,
           "originY":0.0,
           "name":"texture_shroom_spawn_map",
-          "prefetch":true,
-          "frames":1.0,
-          "originX":72.0
+          "prefetch":true
         },
         "en-shr_spd":20.0,
         "en-shr_spd-grid":false,
         "en-shr_spd-rng":5.0,
         "en-shr_template":"shroom-sigil-aim-2",
         "en-shr_texture":{
-          "name":"texture_missing",
+          "frame":0.0,
           "animate":false,
           "scaleX":1.0,
           "angle":0.0,
           "scaleY":1.0,
-          "frame":0.0,
           "randomFrame":false,
           "alpha":1.0,
           "speed":30.0,
+          "name":"texture_missing",
           "blend":"#FFFFFF"
         },
         "en-shr_use-dir-rng":true,
@@ -603,16 +594,7 @@
         "en-shr_use-spd-rng":true,
         "en-shr_use-texture":false,
         "en-shr_x":0.0,
-        "en-shr_y":-30.0
-      },
-      "type":"brush_entity_shroom",
-      "texture":"texture_bazyl",
-      "hidden":false,
-      "color":"#231BFD"
-    },
-    {
-      "name":"shroom-sigil-aim-3",
-      "properties":{
+        "en-shr_y":-30.0,
         "en-shr_dir":270.0,
         "en-shr_dir-rng":45.0,
         "en-shr_em-cfg":{
@@ -625,7 +607,16 @@
         "en-shr_hide-em-offset-y":false,
         "en-shr_hide-em-per-array":false,
         "en-shr_hide-em-spd":false,
-        "en-shr_hide-em-wiggle-amp":false,
+        "en-shr_hide-em-wiggle-amp":false
+      }
+    },
+    {
+      "texture":"texture_bazyl",
+      "type":"brush_entity_shroom",
+      "name":"shroom-sigil-aim-3",
+      "color":"#231BFD",
+      "hidden":false,
+      "properties":{
         "en-shr_hide-em-wiggle-freq":false,
         "en-shr_hide-inherit":false,
         "en-shr_hide-spawn":false,
@@ -634,10 +625,10 @@
         ],
         "en-shr_lifespan":15.0,
         "en-shr_mask":{
-          "x":0.0,
+          "width":0.0,
           "height":0.0,
-          "y":0.0,
-          "width":0.0
+          "x":0.0,
+          "y":0.0
         },
         "en-shr_preview":true,
         "en-shr_rng-x":30.0,
@@ -645,27 +636,27 @@
         "en-shr_snap-x":true,
         "en-shr_snap-y":true,
         "en-shr_spawn-map":{
+          "frames":1.0,
           "file":"",
+          "originX":72.0,
           "originY":0.0,
           "name":"texture_shroom_spawn_map",
-          "prefetch":true,
-          "frames":1.0,
-          "originX":72.0
+          "prefetch":true
         },
         "en-shr_spd":20.0,
         "en-shr_spd-grid":false,
         "en-shr_spd-rng":5.0,
         "en-shr_template":"shroom-sigil-aim-3",
         "en-shr_texture":{
-          "name":"texture_missing",
+          "frame":0.0,
           "animate":false,
           "scaleX":1.0,
           "angle":0.0,
           "scaleY":1.0,
-          "frame":0.0,
           "randomFrame":false,
           "alpha":1.0,
           "speed":30.0,
+          "name":"texture_missing",
           "blend":"#FFFFFF"
         },
         "en-shr_use-dir-rng":true,
@@ -679,12 +670,21 @@
         "en-shr_use-spd-rng":true,
         "en-shr_use-texture":false,
         "en-shr_x":0.0,
-        "en-shr_y":-30.0
-      },
-      "type":"brush_entity_shroom",
-      "texture":"texture_bazyl",
-      "hidden":false,
-      "color":"#231BFD"
+        "en-shr_y":-30.0,
+        "en-shr_dir":270.0,
+        "en-shr_dir-rng":45.0,
+        "en-shr_em-cfg":{
+        },
+        "en-shr_hide":false,
+        "en-shr_hide-em":false,
+        "en-shr_hide-em-angle":false,
+        "en-shr_hide-em-cfg":false,
+        "en-shr_hide-em-offset-x":false,
+        "en-shr_hide-em-offset-y":false,
+        "en-shr_hide-em-per-array":false,
+        "en-shr_hide-em-spd":false,
+        "en-shr_hide-em-wiggle-amp":false
+      }
     }
   ]
 }

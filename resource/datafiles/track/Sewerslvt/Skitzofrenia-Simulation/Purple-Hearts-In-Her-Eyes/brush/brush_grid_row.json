@@ -3,11 +3,15 @@
   "version":"1",
   "data":[
     {
+      "texture":"texture_ve_icon_grid_row",
+      "type":"brush_grid_row",
       "name":"default (alpha: 0)",
+      "color":"#00FF00",
+      "hidden":false,
       "properties":{
         "gr-r_amount":{
-          "factor":1.0,
           "value":2.0,
+          "factor":1.0,
           "increase":0.0,
           "duration":0.016666670000000001,
           "ease":"LEGACY",
@@ -31,8 +35,8 @@
         "gr-r_hide-side-col":false,
         "gr-r_hide-side-size":false,
         "gr-r_main-alpha":{
-          "factor":1.0,
           "value":0.0,
+          "factor":1.0,
           "increase":0.0,
           "duration":8.0,
           "ease":"IN_OUT_SINE",
@@ -41,8 +45,8 @@
         "gr-r_main-col":"#0071FF",
         "gr-r_main-col-spd":0.0,
         "gr-r_main-size":{
-          "factor":1.0,
           "value":5.0,
+          "factor":1.0,
           "increase":0.0,
           "duration":0.066666669999999997,
           "ease":"LEGACY",
@@ -50,8 +54,8 @@
         },
         "gr-r_mode":"DUAL",
         "gr-r_side-alpha":{
-          "factor":1.0,
           "value":0.0,
+          "factor":1.0,
           "increase":0.0,
           "duration":8.0,
           "ease":"IN_OUT_SINE",
@@ -60,8 +64,8 @@
         "gr-r_side-col":"#FF5BC3",
         "gr-r_side-col-spd":0.0,
         "gr-r_side-size":{
-          "factor":1.0,
           "value":5.0,
+          "factor":1.0,
           "increase":0.0,
           "duration":0.066666669999999997,
           "ease":"LEGACY",
@@ -75,19 +79,15 @@
         "gr-r_use-side-alpha":false,
         "gr-r_use-side-col":false,
         "gr-r_use-side-size":false
-      },
-      "type":"brush_grid_row",
-      "texture":"texture_ve_icon_grid_row",
-      "hidden":false,
-      "color":"#00FF00"
+      }
     },
     {
-      "name":"new brush template 1",
-      "properties":null,
-      "type":"brush_grid_row",
       "texture":"texture_baron",
+      "type":"brush_grid_row",
+      "name":"new brush template 1",
+      "color":"#FFFFFF",
       "hidden":false,
-      "color":"#FFFFFF"
+      "properties":null
     }
   ]
 }

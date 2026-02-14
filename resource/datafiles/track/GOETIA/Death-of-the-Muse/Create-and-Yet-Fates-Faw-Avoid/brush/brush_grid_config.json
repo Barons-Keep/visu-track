@@ -3,43 +3,49 @@
   "version":"1",
   "data":[
     {
+      "texture":"texture_ve_icon_grid_config",
+      "type":"brush_grid_config",
       "name":"empty",
+      "color":"#0080FF",
+      "hidden":true,
       "properties":{
-        "gr-cfg_focus-grid-blend-dest":"INV_SRC_ALPHA",
-        "gr-cfg_focus-grid-blend-eq":"ADD",
-        "gr-cfg_focus-grid-blend-eq-alpha":"ADD",
-        "gr-cfg_focus-grid-use-blend-col":false,
-        "gr-cfg_focus-grid-blend-col":"#FFFFFF",
-        "gr-cfg_focus-grid-blend-col-spd":0.0,
-        "gr-cfg_focus-grid-use-blend":false,
-        "gr-cfg_focus-grid-blend-src":"SRC_ALPHA",
         "gr-cfg_change-cls-frame-alpha":false,
         "gr-cfg_change-focus-grid-alpha":false,
         "gr-cfg_change-focus-grid-treshold":false,
         "gr-cfg_change-spd":false,
+        "gr-cfg_hide-focus-grid-col":true,
         "gr-cfg_change-z":false,
+        "gr-cfg_focus-grid-blend-dest":"INV_SRC_ALPHA",
         "gr-cfg_cls-frame":false,
+        "gr-cfg_focus-grid-blend-eq":"ADD",
         "gr-cfg_cls-frame-alpha":{
-          "factor":0.0,
           "value":0.0,
+          "factor":0.0,
           "increase":0.0,
           "duration":0.0,
           "ease":"LINEAR",
           "target":0.0
         },
+        "gr-cfg_focus-grid-blend-eq-alpha":"ADD",
         "gr-cfg_cls-frame-col":"#000000",
+        "gr-cfg_focus-grid-use-blend-col":false,
         "gr-cfg_cls-frame-col-spd":0.0,
+        "gr-cfg_focus-grid-blend-col":"#FFFFFF",
+        "gr-cfg_focus-grid-blend-col-spd":0.0,
+        "gr-cfg_hide-focus-grid-blend":true,
+        "gr-cfg_focus-grid-use-blend":false,
+        "gr-cfg_focus-grid-blend-src":"SRC_ALPHA",
         "gr-cfg_focus-grid-alpha":{
-          "factor":0.0,
           "value":1.0,
+          "factor":0.0,
           "increase":0.0,
           "duration":0.0,
           "ease":"LINEAR",
           "target":1.0
         },
         "gr-cfg_focus-grid-treshold":{
-          "factor":0.0,
           "value":1.0,
+          "factor":0.0,
           "increase":0.0,
           "duration":0.0,
           "ease":"LINEAR",
@@ -63,8 +69,8 @@
         "gr-cfg_render":true,
         "gr-cfg_render-focus-grid":false,
         "gr-cfg_spd":{
-          "factor":0.0,
           "value":4.0,
+          "factor":0.0,
           "increase":0.0,
           "duration":0.0,
           "ease":"LINEAR",
@@ -80,24 +86,31 @@
         "gr-cfg_use-spd":false,
         "gr-cfg_use-z":false,
         "gr-cfg_z":{
-          "factor":0.0,
           "value":2045.0,
+          "factor":0.0,
+          "increase":0.0,
+          "duration":0.0,
+          "ease":"LINEAR",
+          "target":2045.0
+        }
+      }
+    },
+    {
+      "texture":"texture_ve_icon_grid_config",
+      "type":"brush_grid_config",
+      "name":"default",
+      "color":"#00A000",
+      "hidden":true,
+      "properties":{
+        "gr-cfg_use-z":true,
+        "gr-cfg_z":{
+          "value":2045.0,
+          "factor":0.0,
           "increase":0.0,
           "duration":0.0,
           "ease":"LINEAR",
           "target":2045.0
         },
-        "gr-cfg_hide-focus-grid-blend":true,
-        "gr-cfg_hide-focus-grid-col":true
-      },
-      "type":"brush_grid_config",
-      "texture":"texture_ve_icon_grid_config",
-      "hidden":true,
-      "color":"#0080FF"
-    },
-    {
-      "name":"default",
-      "properties":{
         "gr-cfg_bpm":77.0,
         "gr-cfg_bpm-count":4.0,
         "gr-cfg_bpm-shift":0.0,
@@ -107,12 +120,14 @@
         "gr-cfg_change-focus-color-alpha":false,
         "gr-cfg_change-focus-grid-alpha":false,
         "gr-cfg_change-focus-grid-treshold":false,
+        "gr-cfg_hide-focus-alpha":true,
         "gr-cfg_change-spd":true,
+        "gr-cfg_hide-focus-grid-col":true,
         "gr-cfg_change-z":false,
         "gr-cfg_cls-frame":true,
         "gr-cfg_cls-frame-alpha":{
-          "factor":0.0,
           "value":0.0,
+          "factor":0.0,
           "increase":0.0,
           "duration":0.0,
           "ease":"LINEAR",
@@ -121,8 +136,8 @@
         "gr-cfg_cls-frame-col":"#000000",
         "gr-cfg_cls-frame-col-spd":0.0,
         "gr-cfg_focus-alpha":{
-          "factor":0.0,
           "value":1.0,
+          "factor":0.0,
           "increase":0.0,
           "duration":0.0,
           "ease":"LEGACY",
@@ -131,16 +146,16 @@
         "gr-cfg_focus-col":"#FFFFFF",
         "gr-cfg_focus-col-spd":0.0,
         "gr-cfg_focus-color-alpha":{
-          "factor":0.0,
           "value":1.0,
+          "factor":0.0,
           "increase":0.0,
           "duration":0.0,
           "ease":"LEGACY",
           "target":0.0
         },
         "gr-cfg_focus-grid-alpha":{
-          "factor":0.0,
           "value":1.0,
+          "factor":0.0,
           "increase":0.0,
           "duration":0.0,
           "ease":"LINEAR",
@@ -149,8 +164,8 @@
         "gr-cfg_focus-grid-col":"#FFFFFF",
         "gr-cfg_focus-grid-col-spd":0.0,
         "gr-cfg_focus-grid-treshold":{
-          "factor":0.0,
           "value":1.0,
+          "factor":0.0,
           "increase":0.0,
           "duration":0.0,
           "ease":"LINEAR",
@@ -179,8 +194,8 @@
         "gr-cfg_render":true,
         "gr-cfg_render-focus-grid":false,
         "gr-cfg_spd":{
-          "factor":0.0,
           "value":4.0,
+          "factor":0.0,
           "increase":0.0,
           "duration":0.0,
           "ease":"LINEAR",
@@ -199,27 +214,25 @@
         "gr-cfg_use-focus-grid-treshold":true,
         "gr-cfg_use-render":true,
         "gr-cfg_use-render-focus-grid":true,
-        "gr-cfg_use-spd":true,
-        "gr-cfg_use-z":true,
-        "gr-cfg_z":{
-          "factor":0.0,
-          "value":2045.0,
-          "increase":0.0,
-          "duration":0.0,
-          "ease":"LINEAR",
-          "target":2045.0
-        },
-        "gr-cfg_hide-focus-grid-col":true,
-        "gr-cfg_hide-focus-alpha":true
-      },
-      "type":"brush_grid_config",
-      "texture":"texture_ve_icon_grid_config",
-      "hidden":true,
-      "color":"#00A000"
+        "gr-cfg_use-spd":true
+      }
     },
     {
+      "texture":"texture_baron",
+      "type":"brush_grid_config",
       "name":"new brush template 1",
+      "color":"#FFFFFF",
+      "hidden":true,
       "properties":{
+        "gr-cfg_use-z":false,
+        "gr-cfg_z":{
+          "value":0.0,
+          "factor":0.0,
+          "increase":0.0,
+          "duration":0.0,
+          "ease":"LEGACY",
+          "target":0.0
+        },
         "gr-cfg_bpm":0.0,
         "gr-cfg_bpm-count":0.0,
         "gr-cfg_bpm-shift":0.0,
@@ -229,12 +242,14 @@
         "gr-cfg_change-focus-color-alpha":false,
         "gr-cfg_change-focus-grid-alpha":false,
         "gr-cfg_change-focus-grid-treshold":false,
+        "gr-cfg_hide-focus-alpha":false,
         "gr-cfg_change-spd":false,
+        "gr-cfg_hide-focus-grid-col":false,
         "gr-cfg_change-z":false,
         "gr-cfg_cls-frame":false,
         "gr-cfg_cls-frame-alpha":{
-          "factor":0.0,
           "value":0.0,
+          "factor":0.0,
           "increase":0.0,
           "duration":0.0,
           "ease":"LEGACY",
@@ -243,8 +258,8 @@
         "gr-cfg_cls-frame-col":"#000000",
         "gr-cfg_cls-frame-col-spd":0.0,
         "gr-cfg_focus-alpha":{
-          "factor":0.0,
           "value":0.20000000000000001,
+          "factor":0.0,
           "increase":0.0,
           "duration":0.0,
           "ease":"LEGACY",
@@ -253,16 +268,16 @@
         "gr-cfg_focus-col":"#FFFFFF",
         "gr-cfg_focus-col-spd":0.0,
         "gr-cfg_focus-color-alpha":{
-          "factor":0.0,
           "value":0.0,
+          "factor":0.0,
           "increase":0.0,
           "duration":0.0,
           "ease":"LEGACY",
           "target":0.0
         },
         "gr-cfg_focus-grid-alpha":{
-          "factor":0.0,
           "value":0.80000000000000004,
+          "factor":0.0,
           "increase":0.0,
           "duration":0.0,
           "ease":"LEGACY",
@@ -271,8 +286,8 @@
         "gr-cfg_focus-grid-col":"#FF6200",
         "gr-cfg_focus-grid-col-spd":0.0,
         "gr-cfg_focus-grid-treshold":{
-          "factor":0.0,
           "value":32.0,
+          "factor":0.0,
           "increase":0.0,
           "duration":0.0,
           "ease":"LEGACY",
@@ -301,8 +316,8 @@
         "gr-cfg_render":false,
         "gr-cfg_render-focus-grid":true,
         "gr-cfg_spd":{
-          "factor":0.0,
           "value":0.0,
+          "factor":0.0,
           "increase":0.0,
           "duration":0.0,
           "ease":"LEGACY",
@@ -321,31 +336,16 @@
         "gr-cfg_use-focus-grid-treshold":true,
         "gr-cfg_use-render":false,
         "gr-cfg_use-render-focus-grid":true,
-        "gr-cfg_use-spd":false,
-        "gr-cfg_use-z":false,
-        "gr-cfg_z":{
-          "factor":0.0,
-          "value":0.0,
-          "increase":0.0,
-          "duration":0.0,
-          "ease":"LEGACY",
-          "target":0.0
-        },
-        "gr-cfg_hide-focus-grid-col":false,
-        "gr-cfg_hide-focus-alpha":false
-      },
-      "type":"brush_grid_config",
-      "texture":"texture_baron",
-      "hidden":true,
-      "color":"#FFFFFF"
+        "gr-cfg_use-spd":false
+      }
     },
     {
-      "name":"new brush template 2",
-      "properties":null,
-      "type":"brush_grid_config",
       "texture":"texture_baron",
+      "type":"brush_grid_config",
+      "name":"new brush template 2",
+      "color":"#FFFFFF",
       "hidden":false,
-      "color":"#FFFFFF"
+      "properties":null
     }
   ]
 }

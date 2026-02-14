@@ -3,7 +3,7 @@
   "model": "Collection<io.alkapivo.visu.ui.VisuMenuNode>",
   "data": {
     "root.tracks": {
-      "title": "Choose Artist",
+      "title": "Select track",
       "back": "root",
       "entries": [
         {
@@ -41,7 +41,7 @@
         },
         {
           "name": "the memories fade but the feeling remains",
-          "title": "pikaro & PAXNKOXD",
+          "title": "pikaro &\nPAXNKOXD",
           "event": {
             "type": "open-track-setup",
             "data": {
@@ -62,8 +62,19 @@
           }
         },
         {
+          "name": "Create and Yet Fate's Faw Avoid *",
+          "title": "GOETIA",
+          "event": {
+            "type": "open-track-setup",
+            "data": {
+              "path": "track/GOETIA/Death-of-the-Muse/Create-and-Yet-Fates-Faw-Avoid/manifest.visu",
+              "node": "root.tracks"
+            }
+          }
+        },
+        {
           "name": "Purple Hearts In Her Eyes",
-          "title": "Sewerslvt [ level under construction ]",
+          "title": "Sewerslvt\n\nWork in progress",
           "event": {
             "type": "open-track-setup",
             "data": {
@@ -74,23 +85,12 @@
         },
         {
           "name": "Destination Unknown",
-          "title": "Schnoopy [ level under construction ]",
+          "title": "Schnoopy\n\nWork in progress",
           "event": {
             "type": "open-track-setup",
             "data": {
               "path": "track/Schnoopy/Proxima/Destination-Unknown/manifest.visu",
               "node": "rooty"
-            }
-          }
-        },
-        {
-          "name": "Create and Yet Fate's Faw Avoid *",
-          "title": "GOETIA [ level under construction ]",
-          "event": {
-            "type": "open-track-setup",
-            "data": {
-              "path": "track/GOETIA/Death-of-the-Muse/Create-and-Yet-Fates-Faw-Avoid/manifest.visu",
-              "node": "root.tracks"
             }
           }
         }

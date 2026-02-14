@@ -3,48 +3,48 @@
   "version":"1",
   "data":[
     {
+      "texture":"texture_ve_icon_event_13",
+      "type":"brush_effect_particle",
       "name":"fullscreen hearts 1",
+      "color":"#E75FD0",
+      "hidden":false,
       "properties":{
+        "ef-part_distribution":"INVERTEDGAUSSIAN",
+        "ef-part_duration":0.5,
         "ef-part_interval":0.080000000000000002,
         "ef-part_preview":false,
         "ef-part_shape":"ELLIPSE",
         "ef-part_template":"particle-heart-1",
         "ef-part_amount":1.0,
         "ef-part_area":{
+          "width":5.0,
           "x":-2.5,
           "height":5.0,
-          "y":-3.0,
-          "width":5.0
-        },
-        "ef-part_distribution":"INVERTEDGAUSSIAN",
-        "ef-part_duration":0.5
-      },
-      "type":"brush_effect_particle",
-      "texture":"texture_ve_icon_event_13",
-      "hidden":false,
-      "color":"#E75FD0"
+          "y":-3.0
+        }
+      }
     },
     {
+      "texture":"texture_ve_icon_entity",
+      "type":"brush_effect_particle",
       "name":"default (width: 3.0, height: 2.4)",
+      "color":"#146CFF",
+      "hidden":false,
       "properties":{
+        "ef-part_distribution":"INVERTEDGAUSSIAN",
+        "ef-part_duration":1.5,
         "ef-part_interval":0.16,
         "ef-part_preview":true,
         "ef-part_shape":"ELLIPSE",
         "ef-part_template":"particle-default",
         "ef-part_amount":30.0,
         "ef-part_area":{
+          "width":3.0,
           "x":-1.5,
           "height":2.3999999999999999,
-          "y":-1.5,
-          "width":3.0
-        },
-        "ef-part_distribution":"INVERTEDGAUSSIAN",
-        "ef-part_duration":1.5
-      },
-      "type":"brush_effect_particle",
-      "texture":"texture_ve_icon_entity",
-      "hidden":false,
-      "color":"#146CFF"
+          "y":-1.5
+        }
+      }
     }
   ]
 }
