@@ -1,0 +1,31 @@
+{
+  "model":"Collection<io.alkapivo.visu.service.subtitle.SubtitleTemplate>",
+  "data":{
+    "subtitle_kedy_selma":{
+      "lines":[
+        "kedy_selma",
+        ""
+      ]
+    },
+    "subtitle_kedy_selma_passion_poem":{
+      "lines":[
+        "Lorem ipsum",
+        "",
+        "kedy_selma"
+      ]
+    },
+    "subtitle_kedy_selma_passion":{
+      "lines":[
+        "",
+        "Passion"
+      ]
+    },
+    "subtitle_alkapivo":{
+      "lines":[
+        "Alkapivo",
+        "2025"
+      ]
+    }
+  },
+  "version":"1"
+}

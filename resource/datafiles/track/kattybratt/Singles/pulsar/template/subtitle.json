@@ -1,0 +1,22 @@
+{
+  "version":"1",
+  "model":"Collection<io.alkapivo.visu.service.subtitle.SubtitleTemplate>",
+  "data":{
+    "subtitle-artist-name":{
+      "lines":[
+        "kattybratt"
+      ]
+    },
+    "subtitle-track-name":{
+      "lines":[
+        "pulsar"
+      ]
+    },
+    "subtitle-alkapivo":{
+      "lines":[
+        "Alkapivo",
+        "2026"
+      ]
+    }
+  }
+}

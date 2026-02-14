@@ -1,0 +1,57 @@
+{
+  "version": "1",
+  "model": "io.alkapivo.core.test.TestSuite",
+  "data":{
+    "name": "Test kedy_selma - Passion",
+    "stopAfterFailure": true,
+    "tests": [
+      {
+        "handler": "TestEvent_VisuController_load",
+        "description": "Load kedy_selma - Passion",
+        "data": {
+          "trackName": "kedy_selma - Passion",
+          "timeout": 10.0,
+          "cooldown": 1.5,
+          "path": "track/kedy_selma/Singles/Passion/manifest.visu"
+        }
+      },
+      {
+        "handler": "TestEvent_VisuController_playback",
+        "description": "Play whole kedy_selma - Passion (2:55)",
+        "data": {
+          "timeout": 195.0,
+          "duration": 175.0,
+          "cooldown": 1.5
+        }
+      },
+      {
+        "handler": "TestEvent_VisuController_playback",
+        "description": "Play first 3 sec of kedy_selma - Passion (2:55)",
+        "data": {
+          "timeout": 10.0,
+          "duration": 3.0,
+          "cooldown": 1.5
+        }
+      },
+      {
+        "handler": "TestEvent_VisuController_rewind",
+        "description": "Rewind on kedy_selma - Passion (15 times)",
+        "data": {
+          "timeout": 40.0,
+          "amount": 15.0,
+          "cooldown": 1.0,
+          "minDuration": 0.3,
+          "maxDuration": 1.4
+        }
+      },
+      {
+        "handler": "TestEvent_BrushToolbar_save",
+        "description": "Save one brush in every category and type on kedy_selma - Passion",
+        "data": {
+          "timeout": 60.0,
+          "cooldown": 0.5
+        }
+      }
+    ]
+  }
+}

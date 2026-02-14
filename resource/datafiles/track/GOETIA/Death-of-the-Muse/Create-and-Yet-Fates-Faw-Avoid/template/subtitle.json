@@ -1,0 +1,22 @@
+{
+  "version":"1",
+  "model":"Collection<io.alkapivo.visu.service.subtitle.SubtitleTemplate>",
+  "data":{
+    "subtitle-artist-name":{
+      "lines":[
+        "GOETIA"
+      ]
+    },
+    "subtitle-track-name":{
+      "lines":[
+        "Create and Yet Fate's Faw Avoid"
+      ]
+    },
+    "subtitle-alkapivo":{
+      "lines":[
+        "Alkapivo",
+        "2026"
+      ]
+    }
+  }
+}

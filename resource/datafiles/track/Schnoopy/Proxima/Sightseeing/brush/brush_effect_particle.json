@@ -1,0 +1,14 @@
+{
+  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>",
+  "data":[
+    {
+      "name":"new brush template",
+      "type":"brush_effect_particle",
+      "texture":"texture_baron",
+      "color":"#FFFFFF",
+      "properties":null,
+      "hidden":false
+    }
+  ],
+  "version":"1"
+}

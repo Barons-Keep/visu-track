@@ -1,0 +1,22 @@
+{
+  "version":"1",
+  "model":"Collection<io.alkapivo.visu.service.subtitle.SubtitleTemplate>",
+  "data":{
+    "subtitle-artist-name":{
+      "lines":[
+        "pikaro & PAXNKOXD"
+      ]
+    },
+    "subtitle-track-name":{
+      "lines":[
+        "the memories fade but the feeling remains"
+      ]
+    },
+    "subtitle-alkapivo":{
+      "lines":[
+        "Alkapivo",
+        "2025"
+      ]
+    }
+  }
+}

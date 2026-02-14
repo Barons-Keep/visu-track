@@ -1,0 +1,57 @@
+{
+  "version": "1",
+  "model": "io.alkapivo.core.test.TestSuite",
+  "data":{
+    "name": "Test pikaro & paxnkoxd - the memories fade but the feeling remains",
+    "stopAfterFailure": false,
+    "tests": [
+      {
+        "handler": "Test_VisuController_load",
+        "description": "Load pikaro & paxnkoxd - the memories fade but the feeling remains",
+        "data": {
+          "trackName": "pikaro & paxnkoxd - the memories fade but the feeling remains",
+          "timeout": 20.0,
+          "cooldown": 1.0,
+          "path": "track/pikaro/Singles/the-memories-fade-but-the-feeling-remains/manifest.visu"
+        }
+      },
+      {
+        "handler": "Test_VisuController_playback",
+        "description": "Play finished part of pikaro & paxnkoxd - the memories fade but the feeling remains (4:09)",
+        "data": {
+          "timeout": 268.0,
+          "duration": 248.0,
+          "cooldown": 1.0
+        }
+      },
+      {
+        "handler": "Test_VisuController_playback",
+        "description": "Play first 5 sec of pikaro & paxnkoxd - the memories fade but the feeling remains",
+        "data": {
+          "timeout": 25.0,
+          "duration": 5.0,
+          "cooldown": 1.0
+        }
+      },
+      {
+        "handler": "Test_VisuController_rewind",
+        "description": "Rewind on pikaro & paxnkoxd - the memories fade but the feeling remains (10 times)",
+        "data": {
+          "timeout": 50.0,
+          "amount": 10.0,
+          "cooldown": 1.0,
+          "minDuration": 3.0,
+          "maxDuration": 3.0
+        }
+      },
+      {
+        "handler": "Test_BrushToolbar_save",
+        "description": "Save one brush in every category and type on pikaro & paxnkoxd - the memories fade but the feeling remains",
+        "data": {
+          "timeout": 60.0,
+          "cooldown": 0.5
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "version": "1",
+  "model": "io.alkapivo.core.test.TestSuite",
+  "data":{
+    "name": "Test GOETIA - Create and Yet Fate's Faw Avoid",
+    "stopAfterFailure": false,
+    "tests": [
+      {
+        "handler": "Test_VisuController_load",
+        "description": "Load GOETIA - Create and Yet Fate's Faw Avoid",
+        "data": {
+          "trackName": "GOETIA - Create and Yet Fate's Faw Avoid",
+          "timeout": 20.0,
+          "cooldown": 1.0,
+          "path": "track/GOETIA/Death-of-the-Muse/Create-and-Yet-Fates-Faw-Avoid/manifest.visu"
+        }
+      },
+      {
+        "handler": "Test_VisuController_playback",
+        "description": "Play finished part of GOETIA - Create and Yet Fate's Faw Avoid (4:17)",
+        "data": {
+          "timeout": 276.0,
+          "duration": 256.0,
+          "cooldown": 1.0
+        }
+      },
+      {
+        "handler": "Test_VisuController_playback",
+        "description": "Play first 5 sec of GOETIA - Create and Yet Fate's Faw Avoid",
+        "data": {
+          "timeout": 25.0,
+          "duration": 5.0,
+          "cooldown": 1.0
+        }
+      },
+      {
+        "handler": "Test_VisuController_rewind",
+        "description": "Rewind on GOETIA - Create and Yet Fate's Faw Avoid (10 times)",
+        "data": {
+          "timeout": 50.0,
+          "amount": 10.0,
+          "cooldown": 1.0,
+          "minDuration": 3.0,
+          "maxDuration": 3.0
+        }
+      },
+      {
+        "handler": "Test_BrushToolbar_save",
+        "description": "Save one brush in every category and type on GOETIA - Create and Yet Fate's Faw Avoid",
+        "data": {
+          "timeout": 60.0,
+          "cooldown": 0.5
+        }
+      }
+    ]
+  }
+}

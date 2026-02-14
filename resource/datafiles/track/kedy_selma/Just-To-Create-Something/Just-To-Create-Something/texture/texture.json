@@ -1,0 +1,30 @@
+{
+  "model":"Collection<io.alkapivo.core.service.texture.TextureIntent>",
+  "data":{
+    "texture_kedy_selma_jtcs_bkg_1":{
+      "file":"texture/texture_kedy_selma_jtcs_bkg_1.jpg",
+      "frames":1.0,
+      "prefetch":true,
+      "originX":0.0,
+      "originY":0.0,
+      "name":"texture_kedy_selma_jtcs_bkg_1"
+    },
+    "texture_kedy_selma_jtcs_bkg_2":{
+      "file":"texture/texture_kedy_selma_jtcs_bkg_2.jpg",
+      "frames":1.0,
+      "prefetch":true,
+      "originX":0.0,
+      "originY":0.0,
+      "name":"texture_kedy_selma_jtcs_bkg_2"
+    },
+    "texture_kedy_selma_jtcs_bkg":{
+      "file":"texture/texture_kedy_selma_jtcs_bkg.jpg",
+      "frames":1.0,
+      "prefetch":true,
+      "originX":0.0,
+      "originY":0.0,
+      "name":"texture_kedy_selma_jtcs_bkg"
+    }
+  },
+  "version":"1"
+}

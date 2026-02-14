@@ -1,0 +1,10 @@
+{
+  "version":"1",
+  "data":{
+    "sound_external":{
+      "file":"01_Create-and-Yet-Fates-Faw-Avoid.ogg",
+      "waveform":null
+    }
+  },
+  "model":"Collection<io.alkapivo.core.service.sound.SoundIntent>"
+}

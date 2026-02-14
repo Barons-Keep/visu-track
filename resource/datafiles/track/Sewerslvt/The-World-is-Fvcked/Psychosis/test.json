@@ -1,0 +1,57 @@
+{
+  "version": "1",
+  "model": "io.alkapivo.core.test.TestSuite",
+  "data":{
+    "name": "Test Sewerslvt - Psychosis",
+    "stopAfterFailure": true,
+    "tests": [
+      {
+        "handler": "TestEvent_VisuController_load",
+        "description": "Load Sewerslvt - Psychosis",
+        "data": {
+          "trackName": "Sewerslvt - Psychosis",
+          "timeout": 10.0,
+          "cooldown": 1.5,
+          "path": "track/Sewerslvt/The-World-is-Fvcked/Psychosis/manifest.visu"
+        }
+      },
+      {
+        "handler": "TestEvent_VisuController_playback",
+        "description": "Play finished part of Sewerslvt - Psychosis (3:49)",
+        "data": {
+          "timeout": 249.0,
+          "duration": 229.0,
+          "cooldown": 1.5
+        }
+      },
+      {
+        "handler": "TestEvent_VisuController_playback",
+        "description": "Play first 3 sec of Sewerslvt - Psychosis (3:49)",
+        "data": {
+          "timeout": 10.0,
+          "duration": 3.0,
+          "cooldown": 1.5
+        }
+      },
+      {
+        "handler": "TestEvent_VisuController_rewind",
+        "description": "Rewind on Sewerslvt - Psychosis (15 times)",
+        "data": {
+          "timeout": 40.0,
+          "amount": 15.0,
+          "cooldown": 1.0,
+          "minDuration": 0.3,
+          "maxDuration": 1.4
+        }
+      },
+      {
+        "handler": "TestEvent_BrushToolbar_save",
+        "description": "Save one brush in every category and type on Sewerslvt - Psychosis",
+        "data": {
+          "timeout": 60.0,
+          "cooldown": 0.5
+        }
+      }
+    ]
+  }
+}

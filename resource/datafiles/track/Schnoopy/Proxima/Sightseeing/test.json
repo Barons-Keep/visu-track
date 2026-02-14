@@ -1,0 +1,57 @@
+{
+  "version": "1",
+  "model": "io.alkapivo.core.test.TestSuite",
+  "data":{
+    "name": "Test Schnoopy - Sightseeing",
+    "stopAfterFailure": false,
+    "tests": [
+      {
+        "handler": "Test_VisuController_load",
+        "description": "Load Schnoopy - Sightseeing",
+        "data": {
+          "trackName": "Schnoopy - Sightseeing",
+          "timeout": 20.0,
+          "cooldown": 1.0,
+          "path": "track/Schnoopy/Proxima/Sightseeing/manifest.visu"
+        }
+      },
+      {
+        "handler": "Test_VisuController_playback",
+        "description": "Play finished part of Schnoopy - Sightseeing (6:00)",
+        "data": {
+          "timeout": 379.0,
+          "duration": 359.0,
+          "cooldown": 1.0
+        }
+      },
+      {
+        "handler": "Test_VisuController_playback",
+        "description": "Play first 5 sec of Schnoopy - Sightseeing",
+        "data": {
+          "timeout": 25.0,
+          "duration": 5.0,
+          "cooldown": 1.0
+        }
+      },
+      {
+        "handler": "Test_VisuController_rewind",
+        "description": "Rewind on Schnoopy - Sightseeing (10 times)",
+        "data": {
+          "timeout": 50.0,
+          "amount": 10.0,
+          "cooldown": 1.0,
+          "minDuration": 3.0,
+          "maxDuration": 3.0
+        }
+      },
+      {
+        "handler": "Test_BrushToolbar_save",
+        "description": "Save one brush in every category and type on Schnoopy - Sightseeing",
+        "data": {
+          "timeout": 60.0,
+          "cooldown": 0.5
+        }
+      }
+    ]
+  }
+}

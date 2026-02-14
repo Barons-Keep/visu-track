@@ -1,0 +1,48 @@
+{
+  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>",
+  "data":[
+    {
+      "properties":{
+        "ef-part_amount":1.0,
+        "ef-part_area":{
+          "x":-2.5,
+          "y":-3.0,
+          "width":5.0,
+          "height":5.0
+        },
+        "ef-part_distribution":"INVERTEDGAUSSIAN",
+        "ef-part_duration":0.5,
+        "ef-part_interval":0.080000000000000002,
+        "ef-part_preview":false,
+        "ef-part_shape":"ELLIPSE",
+        "ef-part_template":"particle-heart-1"
+      },
+      "type":"brush_effect_particle",
+      "name":"fullscreen hearts 1",
+      "color":"#E75FD0",
+      "texture":"texture_ve_icon_event_13"
+    },
+    {
+      "properties":{
+        "ef-part_amount":30.0,
+        "ef-part_area":{
+          "x":-1.5,
+          "y":-1.5,
+          "width":3.0,
+          "height":2.3999999999999999
+        },
+        "ef-part_distribution":"INVERTEDGAUSSIAN",
+        "ef-part_duration":1.5,
+        "ef-part_interval":0.16,
+        "ef-part_preview":true,
+        "ef-part_shape":"ELLIPSE",
+        "ef-part_template":"particle-default"
+      },
+      "type":"brush_effect_particle",
+      "name":"default (width: 3.0, height: 2.4)",
+      "color":"#146CFF",
+      "texture":"texture_ve_icon_entity"
+    }
+  ],
+  "version":"1"
+}
