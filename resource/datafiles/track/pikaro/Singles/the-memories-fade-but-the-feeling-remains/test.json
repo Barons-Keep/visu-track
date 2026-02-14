@@ -3,49 +3,49 @@
   "model": "io.alkapivo.core.test.TestSuite",
   "data":{
     "name": "Test pikaro - the memories fade but the feeling remains",
-    "stopAfterFailure": true,
+    "stopAfterFailure": false,
     "tests": [
       {
-        "handler": "TestEvent_VisuController_load",
+        "handler": "Test_VisuController_load",
         "description": "Load pikaro - the memories fade but the feeling remains",
         "data": {
           "trackName": "pikaro - the memories fade but the feeling remains",
-          "timeout": 10.0,
-          "cooldown": 1.5,
-          "path": "track/pikaro/Singles/the-memories-fade-but-the-feeling-remain/manifest.visu"
+          "timeout": 20.0,
+          "cooldown": 1.0,
+          "path": "track/pikaro/Singles/the-memories-fade-but-the-feeling-remains/manifest.visu"
         }
       },
       {
-        "handler": "TestEvent_VisuController_playback",
-        "description": "Play finished part of pikaro - the memories fade but the feeling remains (4:08)",
+        "handler": "Test_VisuController_playback",
+        "description": "Play finished part of pikaro - the memories fade but the feeling remains (4:09)",
         "data": {
           "timeout": 268.0,
           "duration": 248.0,
-          "cooldown": 1.5
+          "cooldown": 1.0
         }
       },
       {
-        "handler": "TestEvent_VisuController_playback",
-        "description": "Play first 3 sec of pikaro - the memories fade but the feeling remains (4:08)",
+        "handler": "Test_VisuController_playback",
+        "description": "Play first 5 sec of pikaro - the memories fade but the feeling remains",
         "data": {
-          "timeout": 10.0,
-          "duration": 3.0,
-          "cooldown": 1.5
+          "timeout": 25.0,
+          "duration": 5.0,
+          "cooldown": 1.0
         }
       },
       {
-        "handler": "TestEvent_VisuController_rewind",
-        "description": "Rewind on pikaro - the memories fade but the feeling remains (15 times)",
+        "handler": "Test_VisuController_rewind",
+        "description": "Rewind on pikaro - the memories fade but the feeling remains (10 times)",
         "data": {
           "timeout": 40.0,
-          "amount": 15.0,
+          "amount": 10.0,
           "cooldown": 1.0,
-          "minDuration": 0.3,
-          "maxDuration": 1.4
+          "minDuration": 0.2,
+          "maxDuration": 2.0
         }
       },
       {
-        "handler": "TestEvent_BrushToolbar_save",
+        "handler": "Test_BrushToolbar_save",
         "description": "Save one brush in every category and type on pikaro - the memories fade but the feeling remains",
         "data": {
           "timeout": 60.0,

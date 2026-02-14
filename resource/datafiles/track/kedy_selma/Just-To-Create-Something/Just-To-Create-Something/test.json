@@ -3,49 +3,49 @@
   "model": "io.alkapivo.core.test.TestSuite",
   "data":{
     "name": "Test kedy_selma - Just To Create Something",
-    "stopAfterFailure": true,
+    "stopAfterFailure": false,
     "tests": [
       {
-        "handler": "TestEvent_VisuController_load",
+        "handler": "Test_VisuController_load",
         "description": "Load kedy_selma - Just To Create Something",
         "data": {
           "trackName": "kedy_selma - Just To Create Something",
-          "timeout": 10.0,
-          "cooldown": 1.5,
+          "timeout": 20.0,
+          "cooldown": 1.0,
           "path": "track/kedy_selma/Just-To-Create-Something/Just-To-Create-Something/manifest.visu"
         }
       },
       {
-        "handler": "TestEvent_VisuController_playback",
+        "handler": "Test_VisuController_playback",
         "description": "Play whole kedy_selma - Just To Create Something (4:05)",
         "data": {
-          "timeout": 265.0,
-          "duration": 245.0,
-          "cooldown": 1.5
+          "timeout": 264.0,
+          "duration": 244.0,
+          "cooldown": 1.0
         }
       },
       {
-        "handler": "TestEvent_VisuController_playback",
-        "description": "Play first 3 sec of kedy_selma - Just To Create Something (4:05)",
+        "handler": "Test_VisuController_playback",
+        "description": "Play first 5 sec of kedy_selma - Just To Create Something",
         "data": {
-          "timeout": 10.0,
-          "duration": 3.0,
-          "cooldown": 1.5
+          "timeout": 25.0,
+          "duration": 5.0,
+          "cooldown": 1.0
         }
       },
       {
-        "handler": "TestEvent_VisuController_rewind",
-        "description": "Rewind on kedy_selma - Just To Create Something (15 times)",
+        "handler": "Test_VisuController_rewind",
+        "description": "Rewind on kedy_selma - Just To Create Something (10 times)",
         "data": {
           "timeout": 40.0,
-          "amount": 15.0,
+          "amount": 10.0,
           "cooldown": 1.0,
-          "minDuration": 0.3,
-          "maxDuration": 1.4
+          "minDuration": 0.2,
+          "maxDuration": 2.0
         }
       },
       {
-        "handler": "TestEvent_BrushToolbar_save",
+        "handler": "Test_BrushToolbar_save",
         "description": "Save one brush in every category and type on kedy_selma - Just To Create Something",
         "data": {
           "timeout": 60.0,

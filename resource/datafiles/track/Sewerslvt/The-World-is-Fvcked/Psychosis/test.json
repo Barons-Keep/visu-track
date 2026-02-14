@@ -3,49 +3,49 @@
   "model": "io.alkapivo.core.test.TestSuite",
   "data":{
     "name": "Test Sewerslvt - Psychosis",
-    "stopAfterFailure": true,
+    "stopAfterFailure": false,
     "tests": [
       {
-        "handler": "TestEvent_VisuController_load",
+        "handler": "Test_VisuController_load",
         "description": "Load Sewerslvt - Psychosis",
         "data": {
           "trackName": "Sewerslvt - Psychosis",
-          "timeout": 10.0,
-          "cooldown": 1.5,
+          "timeout": 20.0,
+          "cooldown": 1.0,
           "path": "track/Sewerslvt/The-World-is-Fvcked/Psychosis/manifest.visu"
         }
       },
       {
-        "handler": "TestEvent_VisuController_playback",
+        "handler": "Test_VisuController_playback",
         "description": "Play finished part of Sewerslvt - Psychosis (3:49)",
         "data": {
-          "timeout": 249.0,
-          "duration": 229.0,
-          "cooldown": 1.5
+          "timeout": 248.0,
+          "duration": 228.0,
+          "cooldown": 1.0
         }
       },
       {
-        "handler": "TestEvent_VisuController_playback",
-        "description": "Play first 3 sec of Sewerslvt - Psychosis (3:49)",
+        "handler": "Test_VisuController_playback",
+        "description": "Play first 5 sec of Sewerslvt - Psychosis",
         "data": {
-          "timeout": 10.0,
-          "duration": 3.0,
-          "cooldown": 1.5
+          "timeout": 25.0,
+          "duration": 5.0,
+          "cooldown": 1.0
         }
       },
       {
-        "handler": "TestEvent_VisuController_rewind",
-        "description": "Rewind on Sewerslvt - Psychosis (15 times)",
+        "handler": "Test_VisuController_rewind",
+        "description": "Rewind on Sewerslvt - Psychosis (10 times)",
         "data": {
           "timeout": 40.0,
-          "amount": 15.0,
+          "amount": 10.0,
           "cooldown": 1.0,
-          "minDuration": 0.3,
-          "maxDuration": 1.4
+          "minDuration": 0.2,
+          "maxDuration": 2.0
         }
       },
       {
-        "handler": "TestEvent_BrushToolbar_save",
+        "handler": "Test_BrushToolbar_save",
         "description": "Save one brush in every category and type on Sewerslvt - Psychosis",
         "data": {
           "timeout": 60.0,

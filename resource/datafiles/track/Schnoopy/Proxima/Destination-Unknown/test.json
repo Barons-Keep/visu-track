@@ -3,49 +3,49 @@
   "model": "io.alkapivo.core.test.TestSuite",
   "data":{
     "name": "Test Schnoopy - Destination Unknown",
-    "stopAfterFailure": true,
+    "stopAfterFailure": false,
     "tests": [
       {
-        "handler": "TestEvent_VisuController_load",
+        "handler": "Test_VisuController_load",
         "description": "Load Schnoopy - Destination Unknown",
         "data": {
           "trackName": "Schnoopy - Destination Unknown",
-          "timeout": 10.0,
-          "cooldown": 1.5,
+          "timeout": 20.0,
+          "cooldown": 1.0,
           "path": "track/Schnoopy/Proxima/Destination-Unknown/manifest.visu"
         }
       },
       {
-        "handler": "TestEvent_VisuController_playback",
-        "description": "Play finished part of Schnoopy - Destination Unknown (2:45)",
+        "handler": "Test_VisuController_playback",
+        "description": "Play finished part of Schnoopy - Destination Unknown (9:05)",
         "data": {
-          "timeout": 185.0,
-          "duration": 165.0,
-          "cooldown": 1.5
+          "timeout": 564.0,
+          "duration": 544.0,
+          "cooldown": 1.0
         }
       },
       {
-        "handler": "TestEvent_VisuController_playback",
-        "description": "Play first 3 sec of Schnoopy - Destination Unknown (2:45)",
+        "handler": "Test_VisuController_playback",
+        "description": "Play first 5 sec of Schnoopy - Destination Unknown",
         "data": {
-          "timeout": 10.0,
-          "duration": 3.0,
-          "cooldown": 1.5
+          "timeout": 25.0,
+          "duration": 5.0,
+          "cooldown": 1.0
         }
       },
       {
-        "handler": "TestEvent_VisuController_rewind",
-        "description": "Rewind on Schnoopy - Destination Unknown (15 times)",
+        "handler": "Test_VisuController_rewind",
+        "description": "Rewind on Schnoopy - Destination Unknown (10 times)",
         "data": {
           "timeout": 40.0,
-          "amount": 15.0,
+          "amount": 10.0,
           "cooldown": 1.0,
-          "minDuration": 0.3,
-          "maxDuration": 1.4
+          "minDuration": 0.2,
+          "maxDuration": 2.0
         }
       },
       {
-        "handler": "TestEvent_BrushToolbar_save",
+        "handler": "Test_BrushToolbar_save",
         "description": "Save one brush in every category and type on Schnoopy - Destination Unknown",
         "data": {
           "timeout": 60.0,

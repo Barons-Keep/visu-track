@@ -420,41 +420,6 @@
             {
               "data":{
                 "operator":"greaterOrEqual",
-                "value":3.7999999999999998
-              },
-              "type":"lifespan"
-            },
-            {
-              "data":{
-                "operator":"lessOrEqual",
-                "value":4.2999999999999998
-              },
-              "type":"lifespan"
-            }
-          ],
-          "data":{
-            "bullets":1.0,
-            "angle":-15.0,
-            "targetPlayer":true,
-            "randomSpeed":2.5,
-            "speed":[
-              10.0,
-              12.5,
-              15.0,
-              17.5
-            ],
-            "bullet":"bullet-shroom",
-            "angleStep":7.5,
-            "randomRange":4.0,
-            "amount":3.0
-          },
-          "type":"ShootFeature"
-        },
-        {
-          "conditions":[
-            {
-              "data":{
-                "operator":"greaterOrEqual",
                 "value":4.7999999999999998
               },
               "type":"lifespan"
@@ -693,41 +658,6 @@
             {
               "data":{
                 "operator":"greaterOrEqual",
-                "value":1.71
-              },
-              "type":"lifespan"
-            },
-            {
-              "data":{
-                "operator":"lessOrEqual",
-                "value":2.2999999999999998
-              },
-              "type":"lifespan"
-            }
-          ],
-          "data":{
-            "bullets":1.0,
-            "angle":-15.0,
-            "targetPlayer":true,
-            "randomSpeed":2.5,
-            "speed":[
-              10.0,
-              12.5,
-              15.0,
-              17.5
-            ],
-            "bullet":"bullet-shroom",
-            "angleStep":7.5,
-            "randomRange":4.0,
-            "amount":3.0
-          },
-          "type":"ShootFeature"
-        },
-        {
-          "conditions":[
-            {
-              "data":{
-                "operator":"greaterOrEqual",
                 "value":2.3999999999999999
               },
               "type":"lifespan"
@@ -774,41 +704,6 @@
             }
           },
           "type":"DeprecatedAngleFeature"
-        },
-        {
-          "conditions":[
-            {
-              "data":{
-                "operator":"greaterOrEqual",
-                "value":3.7999999999999998
-              },
-              "type":"lifespan"
-            },
-            {
-              "data":{
-                "operator":"lessOrEqual",
-                "value":4.2999999999999998
-              },
-              "type":"lifespan"
-            }
-          ],
-          "data":{
-            "bullets":1.0,
-            "angle":-15.0,
-            "targetPlayer":true,
-            "randomSpeed":2.5,
-            "speed":[
-              10.0,
-              12.5,
-              15.0,
-              17.5
-            ],
-            "bullet":"bullet-shroom",
-            "angleStep":7.5,
-            "randomRange":4.0,
-            "amount":3.0
-          },
-          "type":"ShootFeature"
         },
         {
           "conditions":[
@@ -979,39 +874,6 @@
             }
           },
           "type":"DeprecatedAngleFeature"
-        },
-        {
-          "conditions":[
-            {
-              "data":{
-                "operator":"greaterOrEqual",
-                "value":1.7
-              },
-              "type":"lifespan"
-            },
-            {
-              "data":{
-                "operator":"lessOrEqual",
-                "value":2.7999999999999998
-              },
-              "type":"lifespan"
-            }
-          ],
-          "data":{
-            "interval":0.29999999999999999,
-            "bullets":3.0,
-            "angle":-2.5,
-            "targetPlayer":true,
-            "speed":[
-              25.0,
-              20.0,
-              22.5
-            ],
-            "bullet":"bullet-shroom",
-            "angleStep":5.0,
-            "amount":2.0
-          },
-          "type":"ShootFeature"
         },
         {
           "conditions":[
@@ -1245,7 +1107,7 @@
             "speed":15.0,
             "bullet":"bullet-shroom",
             "angleStep":18.0,
-            "amount":10.0
+            "amount":4.0
           },
           "type":"ShootFeature"
         },
@@ -1330,7 +1192,7 @@
             "speed":15.0,
             "bullet":"bullet-shroom",
             "angleStep":18.0,
-            "amount":10.0
+            "amount":4.0
           },
           "type":"ShootFeature"
         },
@@ -1415,7 +1277,7 @@
             "speed":15.0,
             "bullet":"bullet-shroom",
             "angleStep":18.0,
-            "amount":10.0
+            "amount":2.0
           },
           "type":"ShootFeature"
         },
@@ -1500,7 +1362,7 @@
             "speed":15.0,
             "bullet":"bullet-shroom",
             "angleStep":18.0,
-            "amount":10.0
+            "amount":2.0
           },
           "type":"ShootFeature"
         },
@@ -1688,39 +1550,6 @@
             }
           },
           "type":"DeprecatedAngleFeature"
-        },
-        {
-          "conditions":[
-            {
-              "data":{
-                "operator":"greaterOrEqual",
-                "value":1.7
-              },
-              "type":"lifespan"
-            },
-            {
-              "data":{
-                "operator":"lessOrEqual",
-                "value":2.7999999999999998
-              },
-              "type":"lifespan"
-            }
-          ],
-          "data":{
-            "interval":0.29999999999999999,
-            "bullets":3.0,
-            "angle":-2.5,
-            "targetPlayer":true,
-            "speed":[
-              25.0,
-              20.0,
-              22.5
-            ],
-            "bullet":"bullet-shroom",
-            "angleStep":5.0,
-            "amount":2.0
-          },
-          "type":"ShootFeature"
         },
         {
           "conditions":[
@@ -3117,35 +2946,6 @@
             {
               "data":{
                 "operator":"less",
-                "value":1.1000000000000001
-              },
-              "type":"lifespan"
-            }
-          ],
-          "data":{
-            "bullets":1.0,
-            "angle":-90.0,
-            "targetPlayer":true,
-            "randomSpeed":1.0,
-            "speed":15.0,
-            "bullet":"bullet-shroom",
-            "angleStep":18.0,
-            "amount":10.0
-          },
-          "type":"ShootFeature"
-        },
-        {
-          "conditions":[
-            {
-              "data":{
-                "operator":"greaterOrEqual",
-                "value":1.0
-              },
-              "type":"lifespan"
-            },
-            {
-              "data":{
-                "operator":"less",
                 "value":2.0
               },
               "type":"lifespan"
@@ -3189,35 +2989,6 @@
             }
           },
           "type":"DeprecatedAngleFeature"
-        },
-        {
-          "conditions":[
-            {
-              "data":{
-                "operator":"greaterOrEqual",
-                "value":2.0
-              },
-              "type":"lifespan"
-            },
-            {
-              "data":{
-                "operator":"less",
-                "value":2.1000000000000001
-              },
-              "type":"lifespan"
-            }
-          ],
-          "data":{
-            "bullets":1.0,
-            "angle":-90.0,
-            "targetPlayer":true,
-            "randomSpeed":1.0,
-            "speed":15.0,
-            "bullet":"bullet-shroom",
-            "angleStep":18.0,
-            "amount":10.0
-          },
-          "type":"ShootFeature"
         },
         {
           "conditions":[
@@ -3287,35 +3058,6 @@
             {
               "data":{
                 "operator":"less",
-                "value":3.1000000000000001
-              },
-              "type":"lifespan"
-            }
-          ],
-          "data":{
-            "bullets":1.0,
-            "angle":-90.0,
-            "targetPlayer":true,
-            "randomSpeed":1.0,
-            "speed":15.0,
-            "bullet":"bullet-shroom",
-            "angleStep":18.0,
-            "amount":10.0
-          },
-          "type":"ShootFeature"
-        },
-        {
-          "conditions":[
-            {
-              "data":{
-                "operator":"greaterOrEqual",
-                "value":3.0
-              },
-              "type":"lifespan"
-            },
-            {
-              "data":{
-                "operator":"less",
                 "value":4.0
               },
               "type":"lifespan"
@@ -3359,35 +3101,6 @@
             }
           },
           "type":"DeprecatedAngleFeature"
-        },
-        {
-          "conditions":[
-            {
-              "data":{
-                "operator":"greaterOrEqual",
-                "value":4.0
-              },
-              "type":"lifespan"
-            },
-            {
-              "data":{
-                "operator":"less",
-                "value":4.0999999999999996
-              },
-              "type":"lifespan"
-            }
-          ],
-          "data":{
-            "bullets":1.0,
-            "angle":-90.0,
-            "targetPlayer":true,
-            "randomSpeed":1.0,
-            "speed":15.0,
-            "bullet":"bullet-shroom",
-            "angleStep":18.0,
-            "amount":10.0
-          },
-          "type":"ShootFeature"
         },
         {
           "conditions":[
@@ -4436,7 +4149,7 @@
           "data":{
             "interval":0.16,
             "speed":20.0,
-            "bullets":8.0,
+            "bullets":4.0,
             "bullet":"bullet-swing",
             "randomRange":30.0
           },
@@ -4604,10 +4317,10 @@
           ],
           "data":{
             "interval":0.25,
-            "bullets":5.0,
+            "bullets":2.0,
             "targetPlayer":true,
-            "randomSpeed":7.5,
-            "speed":35.0,
+            "randomSpeed":5.5,
+            "speed":25.0,
             "bullet":"bullet-shroom",
             "randomRange":15.0
           },
@@ -4726,33 +4439,6 @@
             {
               "data":{
                 "operator":"greaterOrEqual",
-                "value":1.5
-              },
-              "type":"lifespan"
-            },
-            {
-              "data":{
-                "operator":"lessOrEqual",
-                "value":4.5
-              },
-              "type":"lifespan"
-            }
-          ],
-          "data":{
-            "interval":0.40000000000000002,
-            "bullets":6.0,
-            "angle":90.0,
-            "speed":10.0,
-            "bullet":"bullet-shroom",
-            "randomRange":5.0
-          },
-          "type":"ShootFeature"
-        },
-        {
-          "conditions":[
-            {
-              "data":{
-                "operator":"greaterOrEqual",
                 "value":4.0
               },
               "type":"lifespan"
@@ -4773,33 +4459,6 @@
             }
           },
           "type":"DeprecatedAngleFeature"
-        },
-        {
-          "conditions":[
-            {
-              "data":{
-                "operator":"greaterOrEqual",
-                "value":7.0
-              },
-              "type":"lifespan"
-            },
-            {
-              "data":{
-                "operator":"lessOrEqual",
-                "value":9.0
-              },
-              "type":"lifespan"
-            }
-          ],
-          "data":{
-            "interval":0.5,
-            "bullets":6.0,
-            "angle":315.0,
-            "speed":10.0,
-            "bullet":"bullet-shroom",
-            "randomRange":45.0
-          },
-          "type":"ShootFeature"
         },
         {
           "conditions":[
@@ -4939,33 +4598,6 @@
             {
               "data":{
                 "operator":"greaterOrEqual",
-                "value":1.5
-              },
-              "type":"lifespan"
-            },
-            {
-              "data":{
-                "operator":"lessOrEqual",
-                "value":4.5
-              },
-              "type":"lifespan"
-            }
-          ],
-          "data":{
-            "interval":0.40000000000000002,
-            "bullets":6.0,
-            "angle":270.0,
-            "speed":15.0,
-            "bullet":"bullet-shroom",
-            "randomRange":5.0
-          },
-          "type":"ShootFeature"
-        },
-        {
-          "conditions":[
-            {
-              "data":{
-                "operator":"greaterOrEqual",
                 "value":4.0
               },
               "type":"lifespan"
@@ -4986,33 +4618,6 @@
             }
           },
           "type":"DeprecatedAngleFeature"
-        },
-        {
-          "conditions":[
-            {
-              "data":{
-                "operator":"greaterOrEqual",
-                "value":6.0
-              },
-              "type":"lifespan"
-            },
-            {
-              "data":{
-                "operator":"lessOrEqual",
-                "value":9.0
-              },
-              "type":"lifespan"
-            }
-          ],
-          "data":{
-            "interval":0.5,
-            "bullets":6.0,
-            "angle":-315.0,
-            "speed":10.0,
-            "bullet":"bullet-shroom",
-            "randomRange":45.0
-          },
-          "type":"ShootFeature"
         },
         {
           "conditions":[
@@ -5377,7 +4982,7 @@
           "data":{
             "interval":0.20000000000000001,
             "speed":15.0,
-            "bullets":5.0,
+            "bullets":2.0,
             "bullet":"bullet-shroom",
             "targetPlayer":true
           },
@@ -5593,63 +5198,6 @@
             "speed":16.0,
             "bullets":3.0,
             "bullet":"bullet-shroom",
-            "angle":15.0
-          },
-          "type":"ShootFeature"
-        },
-        {
-          "conditions":[
-            {
-              "data":{
-                "operator":"greaterOrEqual",
-                "value":1.8
-              },
-              "type":"lifespan"
-            }
-          ],
-          "data":{
-            "interval":0.25,
-            "speed":16.0,
-            "bullets":3.0,
-            "bullet":"bullet-shroom",
-            "angle":345.0
-          },
-          "type":"ShootFeature"
-        },
-        {
-          "conditions":[
-            {
-              "data":{
-                "operator":"greaterOrEqual",
-                "value":1.8
-              },
-              "type":"lifespan"
-            }
-          ],
-          "data":{
-            "interval":0.25,
-            "speed":16.0,
-            "bullets":3.0,
-            "bullet":"bullet-shroom",
-            "angle":45.0
-          },
-          "type":"ShootFeature"
-        },
-        {
-          "conditions":[
-            {
-              "data":{
-                "operator":"greaterOrEqual",
-                "value":1.8
-              },
-              "type":"lifespan"
-            }
-          ],
-          "data":{
-            "interval":0.25,
-            "speed":16.0,
-            "bullets":3.0,
-            "bullet":"bullet-shroom",
             "angle":315.0
           },
           "type":"ShootFeature"
@@ -5669,64 +5217,7 @@
             "speed":16.0,
             "bullets":2.0,
             "bullet":"bullet-shroom",
-            "angle":165.0
-          },
-          "type":"ShootFeature"
-        },
-        {
-          "conditions":[
-            {
-              "data":{
-                "operator":"greaterOrEqual",
-                "value":1.8
-              },
-              "type":"lifespan"
-            }
-          ],
-          "data":{
-            "interval":0.25,
-            "speed":16.0,
-            "bullets":2.0,
-            "bullet":"bullet-shroom",
-            "angle":195.0
-          },
-          "type":"ShootFeature"
-        },
-        {
-          "conditions":[
-            {
-              "data":{
-                "operator":"greaterOrEqual",
-                "value":1.8
-              },
-              "type":"lifespan"
-            }
-          ],
-          "data":{
-            "interval":0.25,
-            "speed":16.0,
-            "bullets":2.0,
-            "bullet":"bullet-shroom",
             "angle":135.0
-          },
-          "type":"ShootFeature"
-        },
-        {
-          "conditions":[
-            {
-              "data":{
-                "operator":"greaterOrEqual",
-                "value":1.8
-              },
-              "type":"lifespan"
-            }
-          ],
-          "data":{
-            "interval":0.25,
-            "speed":16.0,
-            "bullets":2.0,
-            "bullet":"bullet-shroom",
-            "angle":225.0
           },
           "type":"ShootFeature"
         },
@@ -6283,7 +5774,7 @@
           ],
           "data":{
             "interval":0.22,
-            "bullets":6.0,
+            "bullets":3.0,
             "angle":-3.0,
             "targetPlayer":true,
             "speed":17.0,
@@ -6600,14 +6091,14 @@
           ],
           "data":{
             "interval":0.59999999999999998,
-            "bullets":4.0,
+            "bullets":2.0,
             "angle":0.0,
-            "randomSpeed":10.0,
-            "speed":25.0,
+            "randomSpeed":5.0,
+            "speed":20.0,
             "bullet":"bullet-bazyl-1-boom",
             "angleStep":15.5,
             "randomRange":120.0,
-            "amount":15.0
+            "amount":7.0
           },
           "type":"ShootFeature"
         },
@@ -7382,7 +6873,7 @@
             "speed":15.0,
             "bullet":"bullet-shroom",
             "angleStep":7.5,
-            "amount":8.0
+            "amount":4.0
           },
           "type":"ShootFeature"
         },
@@ -7647,14 +7138,14 @@
           ],
           "data":{
             "interval":0.20000000000000001,
-            "bullets":50.0,
+            "bullets":20.0,
             "angle":180.0,
-            "randomSpeed":10.0,
-            "speed":26.0,
+            "randomSpeed":5.0,
+            "speed":20.0,
             "bullet":"bullet-baron-1-boom",
             "angleStep":22.5,
             "randomRange":22.0,
-            "amount":5.0
+            "amount":3.0
           },
           "type":"ShootFeature"
         },

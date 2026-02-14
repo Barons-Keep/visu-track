@@ -3,49 +3,49 @@
   "model": "io.alkapivo.core.test.TestSuite",
   "data":{
     "name": "Test Sewerslvt - Purple Hearts In Her Eyes",
-    "stopAfterFailure": true,
+    "stopAfterFailure": false,
     "tests": [
       {
-        "handler": "TestEvent_VisuController_load",
+        "handler": "Test_VisuController_load",
         "description": "Load Sewerslvt - Purple Hearts In Her Eyes",
         "data": {
           "trackName": "Sewerslvt - Purple Hearts In Her Eyes",
-          "timeout": 10.0,
-          "cooldown": 1.5,
+          "timeout": 20.0,
+          "cooldown": 1.0,
           "path": "track/Sewerslvt/Skitzofrenia-Simulation/Purple-Hearts-In-Her-Eyes/manifest.visu"
         }
       },
       {
-        "handler": "TestEvent_VisuController_playback",
-        "description": "Play finished part of Sewerslvt - Purple Hearts In Her Eyes (1:30)",
+        "handler": "Test_VisuController_playback",
+        "description": "Play finished part of Sewerslvt - Purple Hearts In Her Eyes (6:34)",
         "data": {
-          "timeout": 110.0,
-          "duration": 90.0,
-          "cooldown": 1.5
+          "timeout": 413.0,
+          "duration": 393.0,
+          "cooldown": 1.0
         }
       },
       {
-        "handler": "TestEvent_VisuController_playback",
-        "description": "Play first 3 sec of Sewerslvt - Purple Hearts In Her Eyes (1:30)",
+        "handler": "Test_VisuController_playback",
+        "description": "Play first 5 sec of Sewerslvt - Purple Hearts In Her Eyes",
         "data": {
-          "timeout": 10.0,
-          "duration": 3.0,
-          "cooldown": 1.5
+          "timeout": 25.0,
+          "duration": 5.0,
+          "cooldown": 1.0
         }
       },
       {
-        "handler": "TestEvent_VisuController_rewind",
-        "description": "Rewind on Sewerslvt - Purple Hearts In Her Eyes (15 times)",
+        "handler": "Test_VisuController_rewind",
+        "description": "Rewind on Sewerslvt - Purple Hearts In Her Eyes (10 times)",
         "data": {
           "timeout": 40.0,
-          "amount": 15.0,
+          "amount": 10.0,
           "cooldown": 1.0,
-          "minDuration": 0.3,
-          "maxDuration": 1.4
+          "minDuration": 0.2,
+          "maxDuration": 2.0
         }
       },
       {
-        "handler": "TestEvent_BrushToolbar_save",
+        "handler": "Test_BrushToolbar_save",
         "description": "Save one brush in every category and type on Sewerslvt - Purple Hearts In Her Eyes",
         "data": {
           "timeout": 60.0,

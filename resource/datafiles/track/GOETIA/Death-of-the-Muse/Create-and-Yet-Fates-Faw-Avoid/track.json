@@ -13915,7 +13915,7 @@
                 "width":52.0
               },
               "en-pl_reset-pos":true,
-              "en-pl_shadow":false,
+              "en-pl_shadow":true,
               "en-pl_stats":{
                 "bomb":{
                   "value":5.0,
