@@ -1,5 +1,6 @@
 {
   "version":"1",
+  "model":"Collection<io.alkapivo.visu.service.subtitle.SubtitleTemplate>",
   "data":{
     "subtitle-track-name":{
       "lines":[
@@ -17,6 +18,5 @@
         "pikaro & PAXNKOXD"
       ]
     }
-  },
-  "model":"Collection<io.alkapivo.visu.service.subtitle.SubtitleTemplate>"
+  }
 }

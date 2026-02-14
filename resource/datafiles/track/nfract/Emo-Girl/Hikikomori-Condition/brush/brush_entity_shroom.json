@@ -1,29 +1,27 @@
 {
   "version":"1",
+  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>",
   "data":[
     {
       "type":"brush_entity_shroom",
       "color":"#FFFFFF",
       "texture":"texture_baron",
       "properties":{
-        "en-shr_em-use-spd-rng":false,
-        "en-shr_em-use-wiggle-amp":false,
-        "en-shr_em-use-wiggle-freq":true,
         "en-shr_em-wiggle-amp":{
-          "target":0.0,
-          "ease":"LINEAR",
           "factor":0.0,
           "increase":0.0,
+          "duration":7.5,
           "value":15.0,
-          "duration":7.5
+          "target":0.0,
+          "ease":"LINEAR"
         },
         "en-shr_em-wiggle-freq":{
-          "target":1.0,
-          "ease":"LINEAR",
           "factor":0.0,
           "increase":0.0,
+          "duration":0.0,
           "value":1.0,
-          "duration":0.0
+          "target":1.0,
+          "ease":"LINEAR"
         },
         "en-shr_hide":false,
         "en-shr_hide-em":false,
@@ -42,10 +40,10 @@
         ],
         "en-shr_lifespan":15.0,
         "en-shr_mask":{
+          "height":0.0,
           "x":0.0,
           "y":0.0,
-          "width":0.0,
-          "height":0.0
+          "width":0.0
         },
         "en-shr_preview":true,
         "en-shr_rng-x":0.0,
@@ -53,28 +51,28 @@
         "en-shr_snap-x":true,
         "en-shr_snap-y":true,
         "en-shr_spawn-map":{
-          "file":"",
           "prefetch":true,
           "name":"texture_shroom_spawn_map",
           "frames":1.0,
           "originX":72.0,
-          "originY":40.0
+          "originY":40.0,
+          "file":""
         },
         "en-shr_spd":10.0,
         "en-shr_spd-grid":false,
         "en-shr_spd-rng":1.0,
         "en-shr_template":"baron-1-intro",
         "en-shr_texture":{
-          "randomFrame":false,
-          "animate":false,
           "angle":0.0,
           "scaleX":1.0,
           "scaleY":1.0,
-          "name":"texture_missing",
           "blend":"#FFFFFF",
+          "name":"texture_missing",
           "alpha":1.0,
+          "frame":0.0,
           "speed":30.0,
-          "frame":0.0
+          "randomFrame":false,
+          "animate":false
         },
         "en-shr_use-dir-rng":false,
         "en-shr_use-em":true,
@@ -92,12 +90,12 @@
         "en-shr_dir-rng":1.0,
         "en-shr_em-amount":9.0,
         "en-shr_em-angle":{
-          "target":0.0,
-          "ease":"LINEAR",
           "factor":0.0,
           "increase":0.0,
+          "duration":7.5,
           "value":-80.0,
-          "duration":7.5
+          "target":0.0,
+          "ease":"LINEAR"
         },
         "en-shr_em-angle-rng":1.0,
         "en-shr_em-angle-step":20.0,
@@ -111,39 +109,39 @@
         "en-shr_em-change-wiggle-freq":false,
         "en-shr_em-duration":7.5,
         "en-shr_em-offset-x":{
-          "target":-100.0,
-          "ease":"IN_EXPO",
           "factor":0.0,
           "increase":0.0,
+          "duration":7.5,
           "value":0.0,
-          "duration":7.5
+          "target":-100.0,
+          "ease":"IN_EXPO"
         },
         "en-shr_em-offset-y":{
-          "target":-25.0,
-          "ease":"LINEAR",
           "factor":0.0,
           "increase":0.0,
+          "duration":7.5,
           "value":0.0,
-          "duration":7.5
+          "target":-25.0,
+          "ease":"LINEAR"
         },
         "en-shr_em-per-array":1.0,
         "en-shr_em-per-array-dir":{
-          "target":360.0,
-          "ease":"LINEAR",
           "factor":0.0,
           "increase":0.0,
+          "duration":7.5,
           "value":0.0,
-          "duration":7.5
+          "target":360.0,
+          "ease":"LINEAR"
         },
         "en-shr_em-per-array-rng":0.0,
         "en-shr_em-per-array-step":0.0,
         "en-shr_em-spd":{
-          "target":10.0,
-          "ease":"IN_SINE",
           "factor":0.0,
           "increase":0.0,
+          "duration":7.5,
           "value":0.0,
-          "duration":7.5
+          "target":10.0,
+          "ease":"IN_SINE"
         },
         "en-shr_em-spd-rng":1.0,
         "en-shr_em-use-angle":true,
@@ -152,11 +150,13 @@
         "en-shr_em-use-offset-y":true,
         "en-shr_em-use-per-array-dir":false,
         "en-shr_em-use-per-array-rng":false,
-        "en-shr_em-use-spd":true
+        "en-shr_em-use-spd":true,
+        "en-shr_em-use-spd-rng":false,
+        "en-shr_em-use-wiggle-amp":false,
+        "en-shr_em-use-wiggle-freq":true
       },
       "hidden":false,
       "name":"emitter 1"
     }
-  ],
-  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>"
+  ]
 }

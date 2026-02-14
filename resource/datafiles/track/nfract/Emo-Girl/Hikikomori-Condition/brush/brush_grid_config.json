@@ -1,5 +1,6 @@
 {
   "version":"1",
+  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>",
   "data":[
     {
       "type":"brush_grid_config",
@@ -13,18 +14,18 @@
         "gr-cfg_change-z":false,
         "gr-cfg_cls-frame":true,
         "gr-cfg_cls-frame-alpha":{
-          "target":0.0,
-          "value":0.0,
           "factor":0.0,
-          "increase":0.0
+          "increase":0.0,
+          "value":0.0,
+          "target":0.0
         },
         "gr-cfg_cls-frame-col":"#000000",
         "gr-cfg_cls-frame-col-spd":0.0,
         "gr-cfg_focus-grid-alpha":{
-          "target":0.0,
-          "value":1.0,
           "factor":0.0,
-          "increase":0.0
+          "increase":0.0,
+          "value":1.0,
+          "target":0.0
         },
         "gr-cfg_focus-grid-blend-col":"#FFFFFF",
         "gr-cfg_focus-grid-blend-col-spd":0.0,
@@ -33,10 +34,10 @@
         "gr-cfg_focus-grid-blend-eq-alpha":"ADD",
         "gr-cfg_focus-grid-blend-src":"SRC_ALPHA",
         "gr-cfg_focus-grid-treshold":{
-          "target":0.0,
-          "value":2.0,
           "factor":0.0,
-          "increase":0.0
+          "increase":0.0,
+          "value":2.0,
+          "target":0.0
         },
         "gr-cfg_focus-grid-use-blend":true,
         "gr-cfg_focus-grid-use-blend-col":true,
@@ -48,10 +49,10 @@
         "gr-cfg_render":true,
         "gr-cfg_render-focus-grid":false,
         "gr-cfg_spd":{
-          "target":2.0,
-          "value":0.0,
           "factor":0.050000000000000003,
-          "increase":0.0
+          "increase":0.0,
+          "value":0.0,
+          "target":2.0
         },
         "gr-cfg_use-cls-frame":true,
         "gr-cfg_use-cls-frame-alpha":true,
@@ -63,10 +64,10 @@
         "gr-cfg_use-spd":true,
         "gr-cfg_use-z":true,
         "gr-cfg_z":{
-          "target":0.0,
-          "value":1.0,
           "factor":0.0,
-          "increase":0.0
+          "increase":0.0,
+          "value":1.0,
+          "target":0.0
         }
       },
       "hidden":false,
@@ -84,18 +85,18 @@
         "gr-cfg_change-z":false,
         "gr-cfg_cls-frame":true,
         "gr-cfg_cls-frame-alpha":{
-          "target":0.0,
-          "value":0.0,
           "factor":0.0,
-          "increase":0.0
+          "increase":0.0,
+          "value":0.0,
+          "target":0.0
         },
         "gr-cfg_cls-frame-col":"#000000",
         "gr-cfg_cls-frame-col-spd":0.0,
         "gr-cfg_focus-grid-alpha":{
-          "target":0.0,
-          "value":1.0,
           "factor":0.0,
-          "increase":0.0
+          "increase":0.0,
+          "value":1.0,
+          "target":0.0
         },
         "gr-cfg_focus-grid-blend-col":"#FFFFFF",
         "gr-cfg_focus-grid-blend-col-spd":0.0,
@@ -104,10 +105,10 @@
         "gr-cfg_focus-grid-blend-eq-alpha":"ADD",
         "gr-cfg_focus-grid-blend-src":"SRC_ALPHA",
         "gr-cfg_focus-grid-treshold":{
-          "target":0.0,
-          "value":2.0,
           "factor":0.0,
-          "increase":0.0
+          "increase":0.0,
+          "value":2.0,
+          "target":0.0
         },
         "gr-cfg_focus-grid-use-blend":false,
         "gr-cfg_focus-grid-use-blend-col":false,
@@ -119,10 +120,10 @@
         "gr-cfg_render":true,
         "gr-cfg_render-focus-grid":false,
         "gr-cfg_spd":{
-          "target":2.0,
-          "value":0.0,
           "factor":0.050000000000000003,
-          "increase":0.0
+          "increase":0.0,
+          "value":0.0,
+          "target":2.0
         },
         "gr-cfg_use-cls-frame":true,
         "gr-cfg_use-cls-frame-alpha":true,
@@ -134,10 +135,10 @@
         "gr-cfg_use-spd":false,
         "gr-cfg_use-z":false,
         "gr-cfg_z":{
-          "target":0.0,
-          "value":1.0,
           "factor":0.0,
-          "increase":0.0
+          "increase":0.0,
+          "value":1.0,
+          "target":0.0
         }
       },
       "hidden":false,
@@ -155,18 +156,18 @@
         "gr-cfg_change-z":false,
         "gr-cfg_cls-frame":false,
         "gr-cfg_cls-frame-alpha":{
-          "target":0.0,
-          "value":0.10000000000000001,
           "factor":0.0,
-          "increase":0.0
+          "increase":0.0,
+          "value":0.10000000000000001,
+          "target":0.0
         },
         "gr-cfg_cls-frame-col":"#000000",
         "gr-cfg_cls-frame-col-spd":0.0,
         "gr-cfg_focus-grid-alpha":{
-          "target":0.0,
-          "value":1.0,
           "factor":0.0,
-          "increase":0.0
+          "increase":0.0,
+          "value":1.0,
+          "target":0.0
         },
         "gr-cfg_focus-grid-blend-col":"#FFFFFF",
         "gr-cfg_focus-grid-blend-col-spd":0.0,
@@ -175,10 +176,10 @@
         "gr-cfg_focus-grid-blend-eq-alpha":"ADD",
         "gr-cfg_focus-grid-blend-src":"SRC_ALPHA",
         "gr-cfg_focus-grid-treshold":{
-          "target":0.0,
-          "value":2.0,
           "factor":0.0,
-          "increase":0.0
+          "increase":0.0,
+          "value":2.0,
+          "target":0.0
         },
         "gr-cfg_focus-grid-use-blend":false,
         "gr-cfg_focus-grid-use-blend-col":false,
@@ -190,10 +191,10 @@
         "gr-cfg_render":true,
         "gr-cfg_render-focus-grid":false,
         "gr-cfg_spd":{
-          "target":2.0,
-          "value":0.0,
           "factor":0.050000000000000003,
-          "increase":0.0
+          "increase":0.0,
+          "value":0.0,
+          "target":2.0
         },
         "gr-cfg_use-cls-frame":true,
         "gr-cfg_use-cls-frame-alpha":true,
@@ -205,10 +206,10 @@
         "gr-cfg_use-spd":false,
         "gr-cfg_use-z":false,
         "gr-cfg_z":{
-          "target":0.0,
-          "value":1.0,
           "factor":0.0,
-          "increase":0.0
+          "increase":0.0,
+          "value":1.0,
+          "target":0.0
         }
       },
       "hidden":false,
@@ -226,18 +227,18 @@
         "gr-cfg_change-z":false,
         "gr-cfg_cls-frame":true,
         "gr-cfg_cls-frame-alpha":{
-          "target":0.0,
-          "value":0.0,
           "factor":0.0,
-          "increase":0.0
+          "increase":0.0,
+          "value":0.0,
+          "target":0.0
         },
         "gr-cfg_cls-frame-col":"#FFFFFF",
         "gr-cfg_cls-frame-col-spd":0.0,
         "gr-cfg_focus-grid-alpha":{
-          "target":0.0,
-          "value":1.0,
           "factor":0.0,
-          "increase":0.0
+          "increase":0.0,
+          "value":1.0,
+          "target":0.0
         },
         "gr-cfg_focus-grid-blend-col":"#FFFFFF",
         "gr-cfg_focus-grid-blend-col-spd":0.0,
@@ -246,10 +247,10 @@
         "gr-cfg_focus-grid-blend-eq-alpha":"ADD",
         "gr-cfg_focus-grid-blend-src":"SRC_ALPHA",
         "gr-cfg_focus-grid-treshold":{
-          "target":0.0,
-          "value":2.0,
           "factor":0.0,
-          "increase":0.0
+          "increase":0.0,
+          "value":2.0,
+          "target":0.0
         },
         "gr-cfg_focus-grid-use-blend":false,
         "gr-cfg_focus-grid-use-blend-col":false,
@@ -261,10 +262,10 @@
         "gr-cfg_render":true,
         "gr-cfg_render-focus-grid":false,
         "gr-cfg_spd":{
-          "target":2.0,
-          "value":0.0,
           "factor":0.050000000000000003,
-          "increase":0.0
+          "increase":0.0,
+          "value":0.0,
+          "target":2.0
         },
         "gr-cfg_use-cls-frame":false,
         "gr-cfg_use-cls-frame-alpha":false,
@@ -276,15 +277,14 @@
         "gr-cfg_use-spd":true,
         "gr-cfg_use-z":false,
         "gr-cfg_z":{
-          "target":0.0,
-          "value":1.0,
           "factor":0.0,
-          "increase":0.0
+          "increase":0.0,
+          "value":1.0,
+          "target":0.0
         }
       },
       "hidden":false,
       "name":"speed: 0 >(0.5)> 2"
     }
-  ],
-  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>"
+  ]
 }
