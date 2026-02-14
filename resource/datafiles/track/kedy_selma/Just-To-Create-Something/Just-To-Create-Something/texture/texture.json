@@ -2,29 +2,29 @@
   "version":"1",
   "model":"Collection<io.alkapivo.core.service.texture.TextureIntent>",
   "data":{
-    "texture_kedy_selma_jtcs_bkg_2":{
-      "prefetch":true,
-      "name":"texture_kedy_selma_jtcs_bkg_2",
-      "frames":1.0,
-      "originX":0.0,
-      "originY":0.0,
-      "file":"texture/texture_kedy_selma_jtcs_bkg_2.jpg"
-    },
     "texture_kedy_selma_jtcs_bkg":{
-      "prefetch":true,
-      "name":"texture_kedy_selma_jtcs_bkg",
       "frames":1.0,
+      "prefetch":true,
+      "file":"texture/texture_kedy_selma_jtcs_bkg.jpg",
+      "name":"texture_kedy_selma_jtcs_bkg",
       "originX":0.0,
-      "originY":0.0,
-      "file":"texture/texture_kedy_selma_jtcs_bkg.jpg"
+      "originY":0.0
     },
     "texture_kedy_selma_jtcs_bkg_1":{
-      "prefetch":true,
-      "name":"texture_kedy_selma_jtcs_bkg_1",
       "frames":1.0,
+      "prefetch":true,
+      "file":"texture/texture_kedy_selma_jtcs_bkg_1.jpg",
+      "name":"texture_kedy_selma_jtcs_bkg_1",
       "originX":0.0,
-      "originY":0.0,
-      "file":"texture/texture_kedy_selma_jtcs_bkg_1.jpg"
+      "originY":0.0
+    },
+    "texture_kedy_selma_jtcs_bkg_2":{
+      "frames":1.0,
+      "prefetch":true,
+      "file":"texture/texture_kedy_selma_jtcs_bkg_2.jpg",
+      "name":"texture_kedy_selma_jtcs_bkg_2",
+      "originX":0.0,
+      "originY":0.0
     }
   }
 }

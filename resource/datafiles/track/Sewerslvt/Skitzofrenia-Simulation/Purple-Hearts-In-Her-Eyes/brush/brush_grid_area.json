@@ -1,50 +1,14 @@
 {
   "version":"1",
+  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>",
   "data":[
     {
       "type":"brush_grid_area",
       "color":"#00FF00",
       "texture":"texture_ve_icon_grid_area",
+      "hidden":false,
+      "name":"default (alpha: 0)",
       "properties":{
-        "gr-area_change-h-alpha":true,
-        "gr-area_change-h-size":false,
-        "gr-area_change-v":false,
-        "gr-area_change-v-alpha":true,
-        "gr-area_change-v-size":false,
-        "gr-area_h":{
-          "target":1.0,
-          "ease":"LEGACY",
-          "factor":1.0,
-          "increase":0.0,
-          "value":1.0,
-          "duration":0.0
-        },
-        "gr-area_h-alpha":{
-          "target":0.0,
-          "ease":"OUT_QUART",
-          "factor":1.0,
-          "increase":0.0,
-          "value":0.0,
-          "duration":8.0
-        },
-        "gr-area_h-col":"#FF0000",
-        "gr-area_h-col-spd":0.0,
-        "gr-area_h-size":{
-          "target":1.0,
-          "ease":"LEGACY",
-          "factor":1.0,
-          "increase":0.0,
-          "value":10.0,
-          "duration":0.14999999999999999
-        },
-        "gr-area_hide-h":false,
-        "gr-area_hide-h-alpha":false,
-        "gr-area_hide-h-col":false,
-        "gr-area_hide-h-length":false,
-        "gr-area_hide-h-size":false,
-        "gr-area_hide-v":false,
-        "gr-area_hide-v-alpha":false,
-        "gr-area_hide-v-col":false,
         "gr-area_hide-v-length":false,
         "gr-area_hide-v-size":false,
         "gr-area_use-h":false,
@@ -56,36 +20,72 @@
         "gr-area_use-v-col":false,
         "gr-area_use-v-size":false,
         "gr-area_v":{
-          "target":1.0,
-          "ease":"LEGACY",
-          "factor":1.0,
-          "increase":0.0,
           "value":1.0,
-          "duration":0.0
+          "increase":0.0,
+          "duration":0.0,
+          "factor":1.0,
+          "ease":"LEGACY",
+          "target":1.0
         },
         "gr-area_v-alpha":{
-          "target":0.0,
-          "ease":"OUT_QUART",
-          "factor":1.0,
-          "increase":0.0,
           "value":0.0,
-          "duration":8.0
+          "increase":0.0,
+          "duration":8.0,
+          "factor":1.0,
+          "ease":"OUT_QUART",
+          "target":0.0
         },
         "gr-area_v-col":"#FF00FF",
         "gr-area_v-col-spd":0.0,
         "gr-area_v-size":{
-          "target":1.0,
-          "ease":"LEGACY",
-          "factor":1.0,
-          "increase":0.0,
           "value":10.0,
-          "duration":0.14999999999999999
+          "increase":0.0,
+          "duration":0.14999999999999999,
+          "factor":1.0,
+          "ease":"LEGACY",
+          "target":1.0
         },
-        "gr-area_change-h":false
-      },
-      "hidden":false,
-      "name":"default (alpha: 0)"
+        "gr-area_change-h":false,
+        "gr-area_change-h-alpha":true,
+        "gr-area_change-h-size":false,
+        "gr-area_change-v":false,
+        "gr-area_change-v-alpha":true,
+        "gr-area_change-v-size":false,
+        "gr-area_h":{
+          "value":1.0,
+          "increase":0.0,
+          "duration":0.0,
+          "factor":1.0,
+          "ease":"LEGACY",
+          "target":1.0
+        },
+        "gr-area_h-alpha":{
+          "value":0.0,
+          "increase":0.0,
+          "duration":8.0,
+          "factor":1.0,
+          "ease":"OUT_QUART",
+          "target":0.0
+        },
+        "gr-area_h-col":"#FF0000",
+        "gr-area_h-col-spd":0.0,
+        "gr-area_h-size":{
+          "value":10.0,
+          "increase":0.0,
+          "duration":0.14999999999999999,
+          "factor":1.0,
+          "ease":"LEGACY",
+          "target":1.0
+        },
+        "gr-area_hide-h":false,
+        "gr-area_hide-h-alpha":false,
+        "gr-area_hide-h-col":false,
+        "gr-area_hide-h-length":false,
+        "gr-area_hide-h-size":false,
+        "gr-area_hide-v":false,
+        "gr-area_hide-v-alpha":false,
+        "gr-area_hide-v-col":false
+      }
     }
-  ],
-  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>"
+  ]
 }

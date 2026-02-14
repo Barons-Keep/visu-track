@@ -7,6 +7,15 @@
       "back": "root",
       "entries": [
         {
+          "name": "GOETIA",
+          "event": {
+            "type": "open-node",
+            "data": {
+              "node": "root.artists.goetia"
+            }
+          }
+        },
+        {
           "name": "kedy_selma",
           "event": {
             "type": "open-node",
@@ -57,6 +66,22 @@
             "type": "open-node",
             "data": {
               "node": "root.artists.zoogies"
+            }
+          }
+        }
+      ]
+    },
+    "root.artists.goetia": {
+      "title": "Pick a Track",
+      "back": "root.artists",
+      "entries": [
+        {
+          "name": "01. Create and Yet Fate's Faw Avoid *",
+          "event": {
+            "type": "open-track-setup",
+            "data": {
+              "path": "track/GOETIA/Death-of-the-Muse/01_Create-and-Yet-Fates-Faw-Avoid/manifest.visu",
+              "node": "root.artists.goetia"
             }
           }
         }
@@ -130,6 +155,16 @@
             "type": "open-track-setup",
             "data": {
               "path": "track/Schnoopy/Proxima/Destination-Unknown/manifest.visu",
+              "node": "root.artists.schnoopy"
+            }
+          }
+        },
+        {
+          "name": "Sightseeing\n(level under construction)",
+          "event": {
+            "type": "open-track-setup",
+            "data": {
+              "path": "track/Schnoopy/Proxima/Sightseeing/manifest.visu",
               "node": "root.artists.schnoopy"
             }
           }

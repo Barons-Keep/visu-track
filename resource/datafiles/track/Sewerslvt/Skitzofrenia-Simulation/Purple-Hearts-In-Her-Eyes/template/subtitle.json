@@ -1,5 +1,6 @@
 {
   "version":"1",
+  "model":"Collection<io.alkapivo.visu.service.subtitle.SubtitleTemplate>",
   "data":{
     "subtitle_sewerslvt":{
       "lines":[
@@ -17,6 +18,5 @@
         "2025"
       ]
     }
-  },
-  "model":"Collection<io.alkapivo.visu.service.subtitle.SubtitleTemplate>"
+  }
 }

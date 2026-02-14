@@ -1,10 +1,9 @@
 {
-  "version":"1",
+  "model":"Collection<io.alkapivo.core.service.sound.SoundIntent>",
   "data":{
     "sound_external":{
-      "file":"01_Create-and-Yet-Fates-Faw-Avoid.ogg",
-      "waveform":null
+      "file":"GOETIΛ - Death of the Muse - 01 Create and Yet Fate's Faw Avoid.ogg"
     }
   },
-  "model":"Collection<io.alkapivo.core.service.sound.SoundIntent>"
+  "version":"1"
 }

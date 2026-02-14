@@ -8,16 +8,16 @@
         ""
       ]
     },
-    "subtitle_schnoopy_destination_unknown":{
-      "lines":[
-        "",
-        "Destination Unknown"
-      ]
-    },
     "subtitle_alkapivo":{
       "lines":[
         "Alkapivo",
         "2025"
+      ]
+    },
+    "subtitle_schnoopy_destination_unknown":{
+      "lines":[
+        "",
+        "Destination Unknown"
       ]
     }
   }

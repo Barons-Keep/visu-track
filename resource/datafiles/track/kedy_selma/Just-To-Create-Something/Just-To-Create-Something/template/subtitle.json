@@ -2,6 +2,24 @@
   "version":"1",
   "model":"Collection<io.alkapivo.visu.service.subtitle.SubtitleTemplate>",
   "data":{
+    "subtitle_kedy_selma_jtcs":{
+      "lines":[
+        "",
+        "Just To Create Something"
+      ]
+    },
+    "subtitle_kedy_selma":{
+      "lines":[
+        "kedy_selma",
+        ""
+      ]
+    },
+    "subtitle_alkapivo":{
+      "lines":[
+        "Alkapivo",
+        "2025"
+      ]
+    },
     "subtitle_kedy_selma_jtcs_poem":{
       "lines":[
         "If it was easier,",
@@ -11,24 +29,6 @@
         "just to create something.",
         "",
         "kedy_selma"
-      ]
-    },
-    "subtitle_kedy_selma_jtcs":{
-      "lines":[
-        "",
-        "Just To Create Something"
-      ]
-    },
-    "subtitle_alkapivo":{
-      "lines":[
-        "Alkapivo",
-        "2025"
-      ]
-    },
-    "subtitle_kedy_selma":{
-      "lines":[
-        "kedy_selma",
-        ""
       ]
     }
   }

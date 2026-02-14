@@ -2,10 +2,10 @@
   "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>",
   "data":[
     {
-      "name":"empty",
       "type":"brush_entity_config",
       "texture":"texture_ve_icon_entity_config",
-      "color":"#0080FF",
+      "hidden":true,
+      "name":"empty",
       "properties":{
         "en-cfg_change-z-bullet":false,
         "en-cfg_change-z-coin":false,
@@ -35,45 +35,45 @@
         "en-cfg_use-z-player":false,
         "en-cfg_use-z-shr":false,
         "en-cfg_z-bullet":{
-          "duration":0.0,
-          "ease":"LINEAR",
+          "value":2048.0,
           "increase":0.0,
           "factor":0.0,
-          "value":2048.0,
+          "duration":0.0,
+          "ease":"LINEAR",
           "target":2048.0
         },
         "en-cfg_z-coin":{
-          "duration":0.0,
-          "ease":"LINEAR",
+          "value":2047.0,
           "increase":0.0,
           "factor":0.0,
-          "value":2047.0,
+          "duration":0.0,
+          "ease":"LINEAR",
           "target":2047.0
         },
         "en-cfg_z-player":{
-          "duration":0.0,
-          "ease":"LINEAR",
+          "value":2051.0,
           "increase":0.0,
           "factor":0.0,
-          "value":2051.0,
+          "duration":0.0,
+          "ease":"LINEAR",
           "target":2051.0
         },
         "en-cfg_z-shr":{
-          "duration":0.0,
-          "ease":"LINEAR",
+          "value":2049.0,
           "increase":0.0,
           "factor":0.0,
-          "value":2049.0,
+          "duration":0.0,
+          "ease":"LINEAR",
           "target":2049.0
         }
       },
-      "hidden":true
+      "color":"#0080FF"
     },
     {
-      "name":"default",
       "type":"brush_entity_config",
       "texture":"texture_ve_icon_entity_config",
-      "color":"#00A000",
+      "hidden":true,
+      "name":"default",
       "properties":{
         "en-cfg_change-z-bullet":true,
         "en-cfg_change-z-coin":true,
@@ -103,39 +103,39 @@
         "en-cfg_use-z-player":true,
         "en-cfg_use-z-shr":true,
         "en-cfg_z-bullet":{
-          "duration":0.0,
-          "ease":"LINEAR",
+          "value":2048.0,
           "increase":0.0,
           "factor":0.0,
-          "value":2048.0,
+          "duration":0.0,
+          "ease":"LINEAR",
           "target":2048.0
         },
         "en-cfg_z-coin":{
-          "duration":0.0,
-          "ease":"LINEAR",
+          "value":2047.0,
           "increase":0.0,
           "factor":0.0,
-          "value":2047.0,
+          "duration":0.0,
+          "ease":"LINEAR",
           "target":2047.0
         },
         "en-cfg_z-player":{
-          "duration":0.0,
-          "ease":"LINEAR",
+          "value":2051.0,
           "increase":0.0,
           "factor":0.0,
-          "value":2051.0,
+          "duration":0.0,
+          "ease":"LINEAR",
           "target":2051.0
         },
         "en-cfg_z-shr":{
-          "duration":0.0,
-          "ease":"LINEAR",
+          "value":2049.0,
           "increase":0.0,
           "factor":0.0,
-          "value":2049.0,
+          "duration":0.0,
+          "ease":"LINEAR",
           "target":2049.0
         }
       },
-      "hidden":true
+      "color":"#00A000"
     }
   ],
   "version":"1"

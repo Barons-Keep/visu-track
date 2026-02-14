@@ -3,57 +3,57 @@
   "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>",
   "data":[
     {
-      "type":"brush_entity_config",
-      "color":"#00FF00",
-      "texture":"texture_ve_icon_entity_config",
       "properties":{
-        "en-cfg_change-z-bullet":true,
-        "en-cfg_change-z-coin":false,
-        "en-cfg_change-z-player":false,
-        "en-cfg_change-z-shr":false,
         "en-cfg_cls-bullet":true,
-        "en-cfg_cls-coin":true,
-        "en-cfg_cls-player":true,
-        "en-cfg_cls-shr":true,
-        "en-cfg_render-bullet":true,
-        "en-cfg_render-coin":true,
-        "en-cfg_render-player":true,
-        "en-cfg_render-shr":true,
-        "en-cfg_use-render-bullet":true,
-        "en-cfg_use-render-coin":true,
-        "en-cfg_use-render-player":true,
-        "en-cfg_use-render-shr":true,
-        "en-cfg_use-z-bullet":true,
-        "en-cfg_use-z-coin":true,
-        "en-cfg_use-z-player":true,
         "en-cfg_use-z-shr":true,
-        "en-cfg_z-bullet":{
-          "factor":0.0,
-          "increase":0.0,
-          "value":2048.0,
-          "target":0.0
-        },
-        "en-cfg_z-coin":{
-          "factor":0.0,
-          "increase":0.0,
-          "value":2047.0,
-          "target":0.0
-        },
-        "en-cfg_z-player":{
-          "factor":0.0,
-          "increase":0.0,
-          "value":2051.0,
-          "target":0.0
-        },
         "en-cfg_z-shr":{
           "factor":0.0,
-          "increase":0.0,
           "value":2049.0,
-          "target":0.0
-        }
+          "target":0.0,
+          "increase":0.0
+        },
+        "en-cfg_change-z-shr":false,
+        "en-cfg_use-z-player":true,
+        "en-cfg_z-player":{
+          "factor":0.0,
+          "value":2051.0,
+          "target":0.0,
+          "increase":0.0
+        },
+        "en-cfg_change-z-player":false,
+        "en-cfg_use-z-coin":true,
+        "en-cfg_z-coin":{
+          "factor":0.0,
+          "value":2047.0,
+          "target":0.0,
+          "increase":0.0
+        },
+        "en-cfg_change-z-coin":false,
+        "en-cfg_use-z-bullet":true,
+        "en-cfg_z-bullet":{
+          "factor":0.0,
+          "value":2048.0,
+          "target":0.0,
+          "increase":0.0
+        },
+        "en-cfg_change-z-bullet":true,
+        "en-cfg_use-render-shr":true,
+        "en-cfg_render-shr":true,
+        "en-cfg_use-render-player":true,
+        "en-cfg_render-player":true,
+        "en-cfg_use-render-coin":true,
+        "en-cfg_render-coin":true,
+        "en-cfg_use-render-bullet":true,
+        "en-cfg_render-bullet":true,
+        "en-cfg_cls-shr":true,
+        "en-cfg_cls-player":true,
+        "en-cfg_cls-coin":true
       },
-      "hidden":false,
-      "name":"default"
+      "type":"brush_entity_config",
+      "texture":"texture_ve_icon_entity_config",
+      "name":"default",
+      "color":"#00FF00",
+      "hidden":false
     }
   ]
 }

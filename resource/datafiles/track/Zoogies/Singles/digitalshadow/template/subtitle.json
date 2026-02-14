@@ -1,10 +1,23 @@
 {
   "version":"1",
+  "model":"Collection<io.alkapivo.visu.service.subtitle.SubtitleTemplate>",
   "data":{
+    "subtitle_zoogies_digitalshadow":{
+      "lines":[
+        "",
+        "digitalshadow"
+      ]
+    },
     "subtitle_zoogies":{
       "lines":[
         "Zoogies",
         ""
+      ]
+    },
+    "subtitle_alkapivo":{
+      "lines":[
+        "Alkapivo",
+        "2025"
       ]
     },
     "subtitle-gm-boot-log":{
@@ -37,19 +50,6 @@
         "         ",
         "        "
       ]
-    },
-    "subtitle_zoogies_digitalshadow":{
-      "lines":[
-        "",
-        "digitalshadow"
-      ]
-    },
-    "subtitle_alkapivo":{
-      "lines":[
-        "Alkapivo",
-        "2025"
-      ]
     }
-  },
-  "model":"Collection<io.alkapivo.visu.service.subtitle.SubtitleTemplate>"
+  }
 }

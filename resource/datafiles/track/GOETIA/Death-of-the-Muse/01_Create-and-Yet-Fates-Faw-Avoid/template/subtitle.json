@@ -1,14 +1,9 @@
 {
-  "version":"1",
+  "model":"Collection<io.alkapivo.visu.service.subtitle.SubtitleTemplate>",
   "data":{
-    "subtitle-artist-name":{
-      "lines":[
-        "GOETIA"
-      ]
-    },
     "subtitle-track-name":{
       "lines":[
-        "Create and Yet Fate's Faw Avoid"
+        "Sightseeing"
       ]
     },
     "subtitle-alkapivo":{
@@ -16,7 +11,12 @@
         "Alkapivo",
         "2025"
       ]
+    },
+    "subtitle-artist-name":{
+      "lines":[
+        "Schnoopy"
+      ]
     }
   },
-  "model":"Collection<io.alkapivo.visu.service.subtitle.SubtitleTemplate>"
+  "version":"1"
 }

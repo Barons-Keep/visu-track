@@ -3,124 +3,124 @@
   "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>",
   "data":[
     {
-      "type":"brush_effect_shader",
-      "color":"#7800C8",
-      "texture":"texture_ve_icon_effect_shader",
       "properties":{
-        "ef-shd_alpha":1.0,
-        "ef-shd_duration":10.0,
-        "ef-shd_fade-in":1.0,
-        "ef-shd_fade-out":1.0,
+        "ef-shd_pipeline":"BACKGROUND",
+        "ef-shd_use-merge-cfg":false,
         "ef-shd_hide":false,
         "ef-shd_hide-merge-cfg":true,
-        "ef-shd_merge-cfg":{
-        },
-        "ef-shd_pipeline":"BACKGROUND",
         "ef-shd_template":"wavy spectrum 1",
-        "ef-shd_use-merge-cfg":false
-      },
-      "hidden":false,
-      "name":"wavy spectrum 1"
-    },
-    {
-      "type":"brush_effect_shader",
-      "color":"#7800C8",
-      "texture":"texture_ve_icon_effect_shader",
-      "properties":{
-        "ef-shd_alpha":1.0,
+        "ef-shd_merge-cfg":{
+        },
         "ef-shd_duration":10.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
-        "ef-shd_hide":false,
-        "ef-shd_hide-merge-cfg":true,
-        "ef-shd_merge-cfg":{
-        },
-        "ef-shd_pipeline":"BACKGROUND",
-        "ef-shd_template":"wavy spectrum 2",
-        "ef-shd_use-merge-cfg":false
+        "ef-shd_alpha":1.0
       },
-      "hidden":false,
-      "name":"wavy spectrum 2"
+      "type":"brush_effect_shader",
+      "texture":"texture_ve_icon_effect_shader",
+      "name":"wavy spectrum 1",
+      "color":"#7800C8",
+      "hidden":false
     },
     {
-      "type":"brush_effect_shader",
-      "color":"#0D6CFF",
-      "texture":"texture_ve_icon_effect_shader",
       "properties":{
-        "ef-shd_alpha":1.0,
+        "ef-shd_pipeline":"BACKGROUND",
+        "ef-shd_use-merge-cfg":false,
+        "ef-shd_hide":false,
+        "ef-shd_hide-merge-cfg":true,
+        "ef-shd_template":"wavy spectrum 2",
+        "ef-shd_merge-cfg":{
+        },
+        "ef-shd_duration":10.0,
+        "ef-shd_fade-in":1.0,
+        "ef-shd_fade-out":1.0,
+        "ef-shd_alpha":1.0
+      },
+      "type":"brush_effect_shader",
+      "texture":"texture_ve_icon_effect_shader",
+      "name":"wavy spectrum 2",
+      "color":"#7800C8",
+      "hidden":false
+    },
+    {
+      "properties":{
+        "ef-shd_pipeline":"COMBINED",
+        "ef-shd_use-merge-cfg":false,
+        "ef-shd_hide":false,
+        "ef-shd_hide-merge-cfg":true,
+        "ef-shd_template":"arc runner 1",
+        "ef-shd_merge-cfg":{
+        },
         "ef-shd_duration":15.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
-        "ef-shd_hide":false,
-        "ef-shd_hide-merge-cfg":true,
-        "ef-shd_merge-cfg":{
-        },
-        "ef-shd_pipeline":"COMBINED",
-        "ef-shd_template":"arc runner 1",
-        "ef-shd_use-merge-cfg":false
+        "ef-shd_alpha":1.0
       },
-      "hidden":false,
-      "name":"arc runner 1"
+      "type":"brush_effect_shader",
+      "texture":"texture_ve_icon_effect_shader",
+      "name":"arc runner 1",
+      "color":"#0D6CFF",
+      "hidden":false
     },
     {
-      "type":"brush_effect_shader",
-      "color":"#6CBD0F",
-      "texture":"texture_ve_icon_effect_shader",
       "properties":{
-        "ef-shd_alpha":1.0,
-        "ef-shd_duration":10.0,
-        "ef-shd_fade-in":1.0,
-        "ef-shd_fade-out":1.0,
+        "ef-shd_pipeline":"BACKGROUND",
+        "ef-shd_use-merge-cfg":false,
         "ef-shd_hide":false,
         "ef-shd_hide-merge-cfg":true,
-        "ef-shd_merge-cfg":{
-        },
-        "ef-shd_pipeline":"BACKGROUND",
         "ef-shd_template":"funk flux 1",
-        "ef-shd_use-merge-cfg":false
-      },
-      "hidden":false,
-      "name":"funk flux 1"
-    },
-    {
-      "type":"brush_effect_shader",
-      "color":"#6CCE9E",
-      "texture":"texture_ve_icon_effect_shader",
-      "properties":{
-        "ef-shd_alpha":1.0,
+        "ef-shd_merge-cfg":{
+        },
         "ef-shd_duration":10.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
-        "ef-shd_hide":false,
-        "ef-shd_hide-merge-cfg":true,
-        "ef-shd_merge-cfg":{
-        },
+        "ef-shd_alpha":1.0
+      },
+      "type":"brush_effect_shader",
+      "texture":"texture_ve_icon_effect_shader",
+      "name":"funk flux 1",
+      "color":"#6CBD0F",
+      "hidden":false
+    },
+    {
+      "properties":{
         "ef-shd_pipeline":"COMBINED",
+        "ef-shd_use-merge-cfg":false,
+        "ef-shd_hide":false,
+        "ef-shd_hide-merge-cfg":true,
         "ef-shd_template":"CRT 1",
-        "ef-shd_use-merge-cfg":false
-      },
-      "hidden":false,
-      "name":"CRT 1"
-    },
-    {
-      "type":"brush_effect_shader",
-      "color":"#FF00FF",
-      "texture":"texture_ve_icon_effect_shader",
-      "properties":{
-        "ef-shd_alpha":1.0,
+        "ef-shd_merge-cfg":{
+        },
         "ef-shd_duration":10.0,
         "ef-shd_fade-in":1.0,
         "ef-shd_fade-out":1.0,
+        "ef-shd_alpha":1.0
+      },
+      "type":"brush_effect_shader",
+      "texture":"texture_ve_icon_effect_shader",
+      "name":"CRT 1",
+      "color":"#6CCE9E",
+      "hidden":false
+    },
+    {
+      "properties":{
+        "ef-shd_pipeline":"BACKGROUND",
+        "ef-shd_use-merge-cfg":false,
         "ef-shd_hide":false,
         "ef-shd_hide-merge-cfg":true,
+        "ef-shd_template":"wavy mesh 1",
         "ef-shd_merge-cfg":{
         },
-        "ef-shd_pipeline":"BACKGROUND",
-        "ef-shd_template":"wavy mesh 1",
-        "ef-shd_use-merge-cfg":false
+        "ef-shd_duration":10.0,
+        "ef-shd_fade-in":1.0,
+        "ef-shd_fade-out":1.0,
+        "ef-shd_alpha":1.0
       },
-      "hidden":false,
-      "name":"wavy mesh 1"
+      "type":"brush_effect_shader",
+      "texture":"texture_ve_icon_effect_shader",
+      "name":"wavy mesh 1",
+      "color":"#FF00FF",
+      "hidden":false
     }
   ]
 }

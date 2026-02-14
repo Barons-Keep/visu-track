@@ -2,77 +2,77 @@
   "version":"1",
   "model":"Collection<io.alkapivo.core.service.texture.TextureIntent>",
   "data":{
-    "texture_schnoopy_blue":{
-      "prefetch":true,
-      "name":"texture_schnoopy_blue",
-      "frames":2.0,
-      "originX":128.0,
-      "originY":128.0,
-      "file":"texture/texture_schnoopy_blue.png"
-    },
-    "texture_schnoopy_white":{
-      "prefetch":true,
-      "name":"texture_schnoopy_white",
-      "frames":2.0,
-      "originX":128.0,
-      "originY":128.0,
-      "file":"texture/texture_schnoopy_white.png"
-    },
-    "texture_schnoopy_yellow":{
-      "prefetch":true,
-      "name":"texture_schnoopy_yellow",
-      "frames":2.0,
-      "originX":128.0,
-      "originY":128.0,
-      "file":"texture/texture_schnoopy_yellow.png"
-    },
-    "texture_schnoopy_red":{
-      "prefetch":true,
-      "name":"texture_schnoopy_red",
-      "frames":2.0,
-      "originX":128.0,
-      "originY":128.0,
-      "file":"texture/texture_schnoopy_red.png"
-    },
-    "texture_schnoopy_magenta":{
-      "prefetch":true,
-      "name":"texture_schnoopy_magenta",
-      "frames":2.0,
-      "originX":128.0,
-      "originY":128.0,
-      "file":"texture/texture_schnoopy_magenta.png"
-    },
     "texture_schnoopy_green":{
-      "prefetch":true,
-      "name":"texture_schnoopy_green",
       "frames":2.0,
+      "prefetch":true,
+      "file":"texture/texture_schnoopy_green.png",
+      "name":"texture_schnoopy_green",
       "originX":128.0,
-      "originY":128.0,
-      "file":"texture/texture_schnoopy_green.png"
+      "originY":128.0
     },
     "texture_shroom_baron_2_white":{
-      "prefetch":true,
-      "name":"texture_shroom_baron_2_white",
       "frames":2.0,
+      "prefetch":true,
+      "file":"texture/texture_shroom_baron_2_white.png",
+      "name":"texture_shroom_baron_2_white",
       "originX":0.0,
-      "originY":0.0,
-      "file":"texture/texture_shroom_baron_2_white.png"
+      "originY":0.0
     },
     "tx_nfract_emo_girl_1":{
-      "prefetch":true,
-      "name":"tx_nfract_emo_girl_1",
       "frames":1.0,
+      "prefetch":true,
+      "file":"texture/tx_nfract_emo_girl_1.jpg",
+      "name":"tx_nfract_emo_girl_1",
       "originX":0.0,
-      "originY":0.0,
-      "file":"texture/tx_nfract_emo_girl_1.jpg"
+      "originY":0.0
     },
     "tx_nfract_1":{
-      "prefetch":true,
-      "name":"tx_nfract_1",
       "frames":1.0,
+      "prefetch":true,
+      "file":"texture/tx_nfract_1.jpg",
+      "name":"tx_nfract_1",
       "originX":2400.0,
-      "originY":0.0,
-      "file":"texture/tx_nfract_1.jpg"
+      "originY":0.0
+    },
+    "texture_schnoopy_blue":{
+      "frames":2.0,
+      "prefetch":true,
+      "file":"texture/texture_schnoopy_blue.png",
+      "name":"texture_schnoopy_blue",
+      "originX":128.0,
+      "originY":128.0
+    },
+    "texture_schnoopy_white":{
+      "frames":2.0,
+      "prefetch":true,
+      "file":"texture/texture_schnoopy_white.png",
+      "name":"texture_schnoopy_white",
+      "originX":128.0,
+      "originY":128.0
+    },
+    "texture_schnoopy_yellow":{
+      "frames":2.0,
+      "prefetch":true,
+      "file":"texture/texture_schnoopy_yellow.png",
+      "name":"texture_schnoopy_yellow",
+      "originX":128.0,
+      "originY":128.0
+    },
+    "texture_schnoopy_red":{
+      "frames":2.0,
+      "prefetch":true,
+      "file":"texture/texture_schnoopy_red.png",
+      "name":"texture_schnoopy_red",
+      "originX":128.0,
+      "originY":128.0
+    },
+    "texture_schnoopy_magenta":{
+      "frames":2.0,
+      "prefetch":true,
+      "file":"texture/texture_schnoopy_magenta.png",
+      "name":"texture_schnoopy_magenta",
+      "originX":128.0,
+      "originY":128.0
     }
   }
 }

@@ -1,11 +1,73 @@
 {
-  "version":"1",
+  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>",
   "data":[
     {
-      "color":"#FF00FF",
       "type":"brush_entity_shroom",
       "texture":"texture_white",
+      "hidden":false,
+      "name":"shroom_sigil_aamon",
       "properties":{
+        "en-shr_dir":270.0,
+        "en-shr_dir-rng":0.0,
+        "en-shr_em-cfg":{
+          "offsetX":{
+            "value":0.0,
+            "ease":"LINEAR",
+            "target":0.0,
+            "duration":0.0
+          },
+          "offsetY":{
+            "value":0.0,
+            "ease":"LINEAR",
+            "target":0.0,
+            "duration":0.0
+          },
+          "perArray":1.0,
+          "duration":0.0,
+          "speed":{
+            "value":0.0,
+            "ease":"LINEAR",
+            "target":0.0,
+            "duration":0.0
+          },
+          "amount":1.0,
+          "wiggleAmplitude":{
+            "value":0.0,
+            "ease":"LINEAR",
+            "target":0.0,
+            "duration":0.0
+          },
+          "angle":{
+            "value":0.0,
+            "ease":"LINEAR",
+            "target":0.0,
+            "duration":0.0
+          },
+          "wiggleFrequency":0.0,
+          "anglePerArray":0.0,
+          "anglePerArrayRng":0.0,
+          "anglePerArrayStep":0.0,
+          "angleRng":0.0,
+          "arrays":{
+            "value":1.0,
+            "ease":"LINEAR",
+            "target":1.0,
+            "duration":0.0
+          },
+          "angleStep":{
+            "value":0.0,
+            "ease":"LINEAR",
+            "target":0.0,
+            "duration":0.0
+          },
+          "offset":{
+            "value":0.0,
+            "ease":"LINEAR",
+            "target":0.0,
+            "duration":0.0
+          },
+          "speedRng":0.0
+        },
         "en-shr_hide":false,
         "en-shr_hide-em":false,
         "en-shr_hide-em-angle":false,
@@ -24,9 +86,9 @@
         "en-shr_lifespan":15.0,
         "en-shr_mask":{
           "x":0.0,
-          "width":0.0,
           "y":0.0,
-          "height":0.0
+          "height":0.0,
+          "width":0.0
         },
         "en-shr_preview":true,
         "en-shr_rng-x":0.0,
@@ -34,12 +96,12 @@
         "en-shr_snap-x":false,
         "en-shr_snap-y":false,
         "en-shr_spawn-map":{
-          "name":"texture_shroom_spawn_map",
           "file":"",
-          "prefetch":true,
-          "frames":1.0,
           "originX":89.0,
-          "originY":31.0
+          "originY":31.0,
+          "name":"texture_shroom_spawn_map",
+          "frames":1.0,
+          "prefetch":true
         },
         "en-shr_spd":4.0,
         "en-shr_spd-grid":false,
@@ -47,15 +109,15 @@
         "en-shr_template":"shroom_sigil_aamon",
         "en-shr_texture":{
           "angle":0.0,
+          "randomFrame":false,
           "alpha":1.0,
           "blend":"#FFFFFF",
+          "name":"texture_missing",
+          "speed":30.0,
           "scaleX":1.0,
           "scaleY":1.0,
           "frame":0.0,
-          "animate":false,
-          "speed":30.0,
-          "randomFrame":false,
-          "name":"texture_missing"
+          "animate":false
         },
         "en-shr_use-dir-rng":false,
         "en-shr_use-em":false,
@@ -68,80 +130,18 @@
         "en-shr_use-spd-rng":false,
         "en-shr_use-texture":false,
         "en-shr_x":7.0,
-        "en-shr_y":-17.0,
-        "en-shr_dir":270.0,
-        "en-shr_dir-rng":0.0,
-        "en-shr_em-cfg":{
-          "offset":{
-            "target":0.0,
-            "duration":0.0,
-            "value":0.0,
-            "ease":"LINEAR"
-          },
-          "anglePerArray":0.0,
-          "offsetX":{
-            "target":0.0,
-            "duration":0.0,
-            "value":0.0,
-            "ease":"LINEAR"
-          },
-          "anglePerArrayRng":0.0,
-          "offsetY":{
-            "target":0.0,
-            "duration":0.0,
-            "value":0.0,
-            "ease":"LINEAR"
-          },
-          "anglePerArrayStep":0.0,
-          "angleRng":0.0,
-          "arrays":{
-            "target":1.0,
-            "duration":0.0,
-            "value":1.0,
-            "ease":"LINEAR"
-          },
-          "angleStep":{
-            "target":0.0,
-            "duration":0.0,
-            "value":0.0,
-            "ease":"LINEAR"
-          },
-          "speed":{
-            "target":0.0,
-            "duration":0.0,
-            "value":0.0,
-            "ease":"LINEAR"
-          },
-          "perArray":1.0,
-          "speedRng":0.0,
-          "wiggleAmplitude":{
-            "target":0.0,
-            "duration":0.0,
-            "value":0.0,
-            "ease":"LINEAR"
-          },
-          "wiggleFrequency":0.0,
-          "amount":1.0,
-          "duration":0.0,
-          "angle":{
-            "target":0.0,
-            "duration":0.0,
-            "value":0.0,
-            "ease":"LINEAR"
-          }
-        }
+        "en-shr_y":-17.0
       },
-      "hidden":false,
-      "name":"shroom_sigil_aamon"
+      "color":"#FF00FF"
     },
     {
-      "color":"#FFFFFF",
       "type":"brush_entity_shroom",
       "texture":"texture_baron",
-      "properties":null,
       "hidden":false,
-      "name":"new brush template"
+      "name":"new brush template",
+      "properties":null,
+      "color":"#FFFFFF"
     }
   ],
-  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>"
+  "version":"1"
 }

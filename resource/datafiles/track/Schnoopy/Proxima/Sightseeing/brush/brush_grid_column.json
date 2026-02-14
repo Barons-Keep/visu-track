@@ -2,17 +2,17 @@
   "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>",
   "data":[
     {
-      "name":"empty",
       "type":"brush_grid_column",
       "texture":"texture_ve_icon_grid_column",
-      "color":"#0080FF",
+      "hidden":true,
+      "name":"empty",
       "properties":{
         "gr-c_amount":{
-          "duration":0.0,
-          "ease":"LINEAR",
+          "value":2.0,
           "increase":0.0,
           "factor":0.0,
-          "value":2.0,
+          "duration":0.0,
+          "ease":"LINEAR",
           "target":2.0
         },
         "gr-c_change-amount":false,
@@ -32,40 +32,40 @@
         "gr-c_hide-side-col":true,
         "gr-c_hide-side-size":true,
         "gr-c_main-alpha":{
-          "duration":0.0,
-          "ease":"LINEAR",
+          "value":1.0,
           "increase":0.0,
           "factor":0.0,
-          "value":1.0,
+          "duration":0.0,
+          "ease":"LINEAR",
           "target":1.0
         },
         "gr-c_main-col":"#0000FF",
         "gr-c_main-col-spd":0.0,
         "gr-c_main-size":{
-          "duration":0.0,
-          "ease":"LINEAR",
+          "value":5.0,
           "increase":0.0,
           "factor":0.0,
-          "value":5.0,
+          "duration":0.0,
+          "ease":"LINEAR",
           "target":5.0
         },
         "gr-c_mode":"SINGLE",
         "gr-c_side-alpha":{
-          "duration":0.0,
-          "ease":"LINEAR",
+          "value":1.0,
           "increase":0.0,
           "factor":0.0,
-          "value":1.0,
+          "duration":0.0,
+          "ease":"LINEAR",
           "target":1.0
         },
         "gr-c_side-col":"#0000FF",
         "gr-c_side-col-spd":0.0,
         "gr-c_side-size":{
-          "duration":0.0,
-          "ease":"LINEAR",
+          "value":5.0,
           "increase":0.0,
           "factor":0.0,
-          "value":5.0,
+          "duration":0.0,
+          "ease":"LINEAR",
           "target":5.0
         },
         "gr-c_use-amount":false,
@@ -77,20 +77,20 @@
         "gr-c_use-side-col":false,
         "gr-c_use-side-size":false
       },
-      "hidden":true
+      "color":"#0080FF"
     },
     {
-      "name":"default",
       "type":"brush_grid_column",
       "texture":"texture_ve_icon_grid_column",
-      "color":"#00A000",
+      "hidden":true,
+      "name":"default",
       "properties":{
         "gr-c_amount":{
-          "duration":0.0,
-          "ease":"LINEAR",
+          "value":2.0,
           "increase":0.0,
           "factor":0.0,
-          "value":2.0,
+          "duration":0.0,
+          "ease":"LINEAR",
           "target":2.0
         },
         "gr-c_change-amount":true,
@@ -110,40 +110,40 @@
         "gr-c_hide-side-col":true,
         "gr-c_hide-side-size":true,
         "gr-c_main-alpha":{
-          "duration":0.0,
-          "ease":"LINEAR",
+          "value":1.0,
           "increase":0.0,
           "factor":0.0,
-          "value":1.0,
+          "duration":0.0,
+          "ease":"LINEAR",
           "target":1.0
         },
         "gr-c_main-col":"#0000FF",
         "gr-c_main-col-spd":0.0,
         "gr-c_main-size":{
-          "duration":0.0,
-          "ease":"LINEAR",
+          "value":5.0,
           "increase":0.0,
           "factor":0.0,
-          "value":5.0,
+          "duration":0.0,
+          "ease":"LINEAR",
           "target":5.0
         },
         "gr-c_mode":"SINGLE",
         "gr-c_side-alpha":{
-          "duration":0.0,
-          "ease":"LINEAR",
+          "value":1.0,
           "increase":0.0,
           "factor":0.0,
-          "value":1.0,
+          "duration":0.0,
+          "ease":"LINEAR",
           "target":1.0
         },
         "gr-c_side-col":"#0000FF",
         "gr-c_side-col-spd":0.0,
         "gr-c_side-size":{
-          "duration":0.0,
-          "ease":"LINEAR",
+          "value":5.0,
           "increase":0.0,
           "factor":0.0,
-          "value":5.0,
+          "duration":0.0,
+          "ease":"LINEAR",
           "target":5.0
         },
         "gr-c_use-amount":true,
@@ -155,7 +155,7 @@
         "gr-c_use-side-col":true,
         "gr-c_use-side-size":true
       },
-      "hidden":true
+      "color":"#00A000"
     }
   ],
   "version":"1"
