@@ -1,9 +1,11 @@
 {
-  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>",
-  "version":"1",
   "data":[
     {
       "name":"default (alpha: 0)",
+      "texture":"texture_ve_icon_grid_area",
+      "hidden":false,
+      "type":"brush_grid_area",
+      "color":"#00FF00",
       "properties":{
         "gr-area_change-h":false,
         "gr-area_change-h-alpha":false,
@@ -12,24 +14,24 @@
         "gr-area_change-v-alpha":false,
         "gr-area_change-v-size":false,
         "gr-area_h":{
+          "target":1.0,
           "factor":1.0,
           "value":1.0,
-          "increase":0.0,
-          "target":1.0
+          "increase":0.0
         },
         "gr-area_h-alpha":{
+          "target":1.0,
           "factor":1.0,
           "value":0.0,
-          "increase":0.0,
-          "target":1.0
+          "increase":0.0
         },
         "gr-area_h-col":"#FF0000",
         "gr-area_h-col-spd":0.0,
         "gr-area_h-size":{
+          "target":1.0,
           "factor":1.0,
           "value":10.0,
-          "increase":0.0,
-          "target":1.0
+          "increase":0.0
         },
         "gr-area_use-h":true,
         "gr-area_use-h-alpha":true,
@@ -40,30 +42,28 @@
         "gr-area_use-v-col":true,
         "gr-area_use-v-size":true,
         "gr-area_v":{
+          "target":1.0,
           "factor":1.0,
           "value":1.0,
-          "increase":0.0,
-          "target":1.0
+          "increase":0.0
         },
         "gr-area_v-alpha":{
+          "target":1.0,
           "factor":1.0,
           "value":0.0,
-          "increase":0.0,
-          "target":1.0
+          "increase":0.0
         },
         "gr-area_v-col":"#FF00FF",
         "gr-area_v-col-spd":0.0,
         "gr-area_v-size":{
+          "target":1.0,
           "factor":1.0,
           "value":10.0,
-          "increase":0.0,
-          "target":1.0
+          "increase":0.0
         }
-      },
-      "type":"brush_grid_area",
-      "texture":"texture_ve_icon_grid_area",
-      "hidden":false,
-      "color":"#00FF00"
+      }
     }
-  ]
+  ],
+  "version":"1",
+  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>"
 }

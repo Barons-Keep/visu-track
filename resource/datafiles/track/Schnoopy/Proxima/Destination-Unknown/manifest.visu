@@ -1,22 +1,10 @@
 {
-  "model":"io.alkapivo.visu.controller.VisuTrack",
-  "version":"1",
   "data":{
-    "track":"track.json",
-    "sound":"sound.json",
-    "texture":"texture/texture.json",
-    "particle":"template/particle.json",
-    "subtitle":"template/subtitle.json",
-    "coin":"template/coin.json",
-    "shroom":"template/shroom.json",
-    "bullet":"template/bullet.json",
+    "bpm":120.0,
+    "bpm-count":8.0,
+    "bpm-shift":300.25,
+    "bpm-sub":4.0,
     "editor":[
-      "brush/brush_effect_config.json",
-      "brush/brush_effect_glitch.json",
-      "brush/brush_effect_particle.json",
-      "brush/brush_effect_shader.json",
-      "brush/brush_entity_bullet.json",
-      "brush/brush_entity_coin.json",
       "brush/brush_entity_config.json",
       "brush/brush_entity_player.json",
       "brush/brush_entity_shroom.json",
@@ -27,13 +15,25 @@
       "brush/brush_view_camera.json",
       "brush/brush_view_config.json",
       "brush/brush_view_layer.json",
-      "brush/brush_view_subtitle.json"
+      "brush/brush_view_subtitle.json",
+      "brush/brush_effect_config.json",
+      "brush/brush_effect_glitch.json",
+      "brush/brush_effect_particle.json",
+      "brush/brush_effect_shader.json",
+      "brush/brush_entity_bullet.json",
+      "brush/brush_entity_coin.json"
     ],
     "video":null,
-    "bpm":96.0,
-    "bpm-count":8.0,
-    "bpm-shift":84.5,
-    "bpm-sub":4.0,
-    "shader":"template/shader.json"
-  }
+    "shader":"template/shader.json",
+    "sound":"sound.json",
+    "track":"track.json",
+    "particle":"template/particle.json",
+    "texture":"texture/texture.json",
+    "coin":"template/coin.json",
+    "subtitle":"template/subtitle.json",
+    "shroom":"template/shroom.json",
+    "bullet":"template/bullet.json"
+  },
+  "version":"1",
+  "model":"io.alkapivo.visu.controller.VisuTrack"
 }

@@ -1,58 +1,58 @@
 {
-  "model":"Collection<io.alkapivo.visu.service.coin.CoinTemplate>",
-  "version":"1",
   "data":{
     "coin-force-5":{
-      "name":"coin-force-5",
       "amount":5.0,
-      "changeSpeed":false,
-      "mask":null,
-      "speed":{
-        "factor":0.050000000000000003,
-        "value":-3.5,
-        "increase":0.0,
-        "target":2.25
-      },
+      "name":"coin-force-5",
       "useSpeed":false,
+      "changeSpeed":false,
+      "speed":{
+        "target":1.0,
+        "factor":0.10000000000000001,
+        "value":-3.0,
+        "increase":0.0
+      },
       "category":"force",
+      "mask":null,
       "sprite":{
-        "name":"texture_coin_force",
-        "animate":false,
-        "scaleX":6.5,
         "angle":0.0,
-        "scaleY":6.5,
         "frame":0.0,
+        "scaleX":6.5,
+        "name":"texture_coin_force",
         "randomFrame":false,
-        "speed":30.0,
+        "scaleY":6.5,
         "alpha":1.0,
-        "blend":"#FFFFFF"
+        "speed":30.0,
+        "blend":"#FFFFFF",
+        "animate":false
       }
     },
     "coin-point-5":{
-      "name":"coin-point-5",
       "amount":5.0,
+      "name":"coin-point-5",
+      "useSpeed":false,
       "changeSpeed":false,
-      "mask":null,
       "speed":{
+        "target":2.2000000000000002,
         "factor":0.059999999999999998,
         "value":-2.7999999999999998,
-        "increase":0.0,
-        "target":2.2000000000000002
+        "increase":0.0
       },
-      "useSpeed":false,
       "category":"point",
+      "mask":null,
       "sprite":{
-        "name":"texture_coin_point",
-        "animate":false,
-        "scaleX":6.5,
         "angle":0.0,
-        "scaleY":6.5,
         "frame":0.0,
+        "scaleX":6.5,
+        "name":"texture_coin_point",
         "randomFrame":false,
-        "speed":30.0,
+        "scaleY":6.5,
         "alpha":1.0,
-        "blend":"#FFFFFF"
+        "speed":30.0,
+        "blend":"#FFFFFF",
+        "animate":false
       }
     }
-  }
+  },
+  "version":"1",
+  "model":"Collection<io.alkapivo.visu.service.coin.CoinTemplate>"
 }
