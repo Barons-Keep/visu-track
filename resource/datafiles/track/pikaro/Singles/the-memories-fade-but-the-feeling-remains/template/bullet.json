@@ -1,9 +1,7 @@
 {
-  "model":"Collection<io.alkapivo.visu.service.bullet.BulletTemplate>",
+  "version":"1",
   "data":{
     "bullet-pikaro-2-l":{
-      "onDeathRngStep":0.0,
-      "onDeathSpeed":0.0,
       "onDeathSpeedMerge":true,
       "sprite":{
         "randomFrame":false,
@@ -12,9 +10,9 @@
         "scaleX":4.0,
         "scaleY":4.0,
         "blend":"#FFFFFF",
-        "speed":10.0,
-        "alpha":1.0,
         "name":"texture_bullet_circle",
+        "alpha":1.0,
+        "speed":10.0,
         "frame":1.0
       },
       "damage":1.0,
@@ -34,12 +32,12 @@
         "width":24.0
       },
       "speedOffset":{
-        "duration":1.0,
         "target":-5.0,
         "ease":"LINEAR",
         "increase":0.0,
         "factor":0.0,
-        "value":0.0
+        "value":0.0,
+        "duration":1.0
       },
       "useAngleOffset":true,
       "onDeath":"bullet-pikaro-2",
@@ -48,23 +46,23 @@
       "changeAngleOffset":true,
       "onDeathAngleIncrease":1.0,
       "onDeathAngleRng":false,
+      "useSpeedOffset":false,
+      "onDeathAngleStep":0.0,
       "angleOffset":{
-        "duration":2.1600000000000001,
         "target":0.29999999999999999,
         "ease":"IN_OUT_CIRC",
         "increase":0.0,
         "factor":1.0,
-        "value":-4.0
+        "value":-4.0,
+        "duration":2.1600000000000001
       },
-      "onDeathAngleStep":0.0,
-      "useSpeedOffset":false,
       "changeSpeedOffset":false,
+      "onDeathRngSpeed":0.0,
+      "onDeathRngStep":0.0,
       "angleOffsetRng":false,
-      "onDeathRngSpeed":0.0
+      "onDeathSpeed":0.0
     },
     "bullet-pikaro-3":{
-      "onDeathRngStep":0.0,
-      "onDeathSpeed":0.0,
       "onDeathSpeedMerge":true,
       "sprite":{
         "randomFrame":false,
@@ -73,9 +71,9 @@
         "scaleX":4.0,
         "scaleY":4.0,
         "blend":"#FFFFFF",
-        "speed":10.0,
-        "alpha":1.0,
         "name":"texture_bullet_circle",
+        "alpha":1.0,
+        "speed":10.0,
         "frame":1.0
       },
       "damage":1.0,
@@ -95,12 +93,12 @@
         "width":24.0
       },
       "speedOffset":{
-        "duration":5.0,
         "target":-5.0,
         "ease":"IN_OUT_BACK",
         "increase":0.0,
         "factor":0.0,
-        "value":5.0
+        "value":5.0,
+        "duration":5.0
       },
       "useAngleOffset":true,
       "onDeath":"bullet-pikaro-2",
@@ -109,23 +107,23 @@
       "changeAngleOffset":true,
       "onDeathAngleIncrease":1.0,
       "onDeathAngleRng":false,
+      "useSpeedOffset":true,
+      "onDeathAngleStep":0.0,
       "angleOffset":{
-        "duration":2.1600000000000001,
         "target":-0.25,
         "ease":"IN_OUT_CUBIC",
         "increase":0.0,
         "factor":1.0,
-        "value":4.0
+        "value":4.0,
+        "duration":2.1600000000000001
       },
-      "onDeathAngleStep":0.0,
-      "useSpeedOffset":true,
       "changeSpeedOffset":true,
+      "onDeathRngSpeed":0.0,
+      "onDeathRngStep":0.0,
       "angleOffsetRng":false,
-      "onDeathRngSpeed":0.0
+      "onDeathSpeed":0.0
     },
     "bullet-pikaro-2":{
-      "onDeathRngStep":null,
-      "onDeathSpeed":null,
       "onDeathSpeedMerge":null,
       "sprite":{
         "randomFrame":false,
@@ -134,9 +132,9 @@
         "scaleX":4.0,
         "scaleY":4.0,
         "blend":"#FFFFFF",
-        "speed":10.0,
-        "alpha":1.0,
         "name":"texture_bullet_circle",
+        "alpha":1.0,
+        "speed":10.0,
         "frame":1.0
       },
       "damage":1.0,
@@ -156,12 +154,12 @@
         "width":24.0
       },
       "speedOffset":{
-        "duration":6.4800000000000004,
         "target":8.0,
         "ease":"IN_OUT_BACK",
         "factor":0.0,
         "increase":0.0,
-        "value":0.0
+        "value":0.0,
+        "duration":6.4800000000000004
       },
       "useAngleOffset":true,
       "onDeath":null,
@@ -170,23 +168,23 @@
       "changeAngleOffset":true,
       "onDeathAngleIncrease":null,
       "onDeathAngleRng":null,
+      "useSpeedOffset":true,
+      "onDeathAngleStep":null,
       "angleOffset":{
-        "duration":1.72,
         "target":0.0,
         "ease":"IN_OUT_BACK",
         "factor":1.0,
         "increase":0.0,
-        "value":-0.29999999999999999
+        "value":-0.29999999999999999,
+        "duration":1.72
       },
-      "onDeathAngleStep":null,
-      "useSpeedOffset":true,
       "changeSpeedOffset":true,
+      "onDeathRngSpeed":null,
+      "onDeathRngStep":null,
       "angleOffsetRng":true,
-      "onDeathRngSpeed":null
+      "onDeathSpeed":null
     },
     "bullet-pikaro-2-r":{
-      "onDeathRngStep":0.0,
-      "onDeathSpeed":0.0,
       "onDeathSpeedMerge":true,
       "sprite":{
         "randomFrame":false,
@@ -195,9 +193,9 @@
         "scaleX":4.0,
         "scaleY":4.0,
         "blend":"#FFFFFF",
-        "speed":10.0,
-        "alpha":1.0,
         "name":"texture_bullet_circle",
+        "alpha":1.0,
+        "speed":10.0,
         "frame":1.0
       },
       "damage":1.0,
@@ -217,12 +215,12 @@
         "width":24.0
       },
       "speedOffset":{
-        "duration":15.0,
         "target":-5.0,
         "ease":"LINEAR",
         "increase":0.0,
         "factor":0.0,
-        "value":0.0
+        "value":0.0,
+        "duration":15.0
       },
       "useAngleOffset":true,
       "onDeath":"bullet-pikaro-2",
@@ -231,34 +229,34 @@
       "changeAngleOffset":true,
       "onDeathAngleIncrease":1.0,
       "onDeathAngleRng":false,
+      "useSpeedOffset":true,
+      "onDeathAngleStep":0.0,
       "angleOffset":{
-        "duration":2.1600000000000001,
         "target":-0.25,
         "ease":"IN_OUT_CIRC",
         "increase":0.0,
         "factor":1.0,
-        "value":4.0
+        "value":4.0,
+        "duration":2.1600000000000001
       },
-      "onDeathAngleStep":0.0,
-      "useSpeedOffset":true,
       "changeSpeedOffset":true,
+      "onDeathRngSpeed":0.0,
+      "onDeathRngStep":0.0,
       "angleOffsetRng":false,
-      "onDeathRngSpeed":0.0
+      "onDeathSpeed":0.0
     },
     "bullet-player":{
-      "onDeathRngStep":null,
-      "onDeathSpeed":null,
       "onDeathSpeedMerge":null,
       "sprite":{
         "randomFrame":true,
         "animate":false,
         "angle":0.0,
         "scaleX":3.0,
-        "blend":"#FFFFFF",
         "scaleY":3.0,
-        "speed":6.0,
-        "alpha":1.0,
+        "blend":"#FFFFFF",
         "name":"texture_bullet_blue",
+        "alpha":1.0,
+        "speed":6.0,
         "frame":7.0
       },
       "damage":1.0,
@@ -278,12 +276,12 @@
         "width":48.0
       },
       "speedOffset":{
-        "duration":0.0,
         "target":4.0,
         "ease":"LEGACY",
         "increase":0.0,
         "factor":0.10000000000000001,
-        "value":4.0
+        "value":4.0,
+        "duration":0.0
       },
       "useAngleOffset":false,
       "onDeath":null,
@@ -292,34 +290,34 @@
       "changeAngleOffset":false,
       "onDeathAngleIncrease":null,
       "onDeathAngleRng":null,
+      "useSpeedOffset":false,
+      "onDeathAngleStep":null,
       "angleOffset":{
-        "duration":0.25,
         "target":1.5,
         "ease":"LEGACY",
         "increase":0.0,
         "factor":0.10000000000000001,
-        "value":0.0
+        "value":0.0,
+        "duration":0.25
       },
-      "onDeathAngleStep":null,
-      "useSpeedOffset":false,
       "changeSpeedOffset":false,
+      "onDeathRngSpeed":null,
+      "onDeathRngStep":null,
       "angleOffsetRng":false,
-      "onDeathRngSpeed":null
+      "onDeathSpeed":null
     },
     "bullet-player-l":{
-      "onDeathRngStep":null,
-      "onDeathSpeed":null,
       "onDeathSpeedMerge":null,
       "sprite":{
         "randomFrame":true,
         "animate":false,
         "angle":0.0,
         "scaleX":3.0,
-        "blend":"#FFFFFF",
         "scaleY":3.0,
-        "speed":6.0,
-        "alpha":1.0,
+        "blend":"#FFFFFF",
         "name":"texture_bullet_blue",
+        "alpha":1.0,
+        "speed":6.0,
         "frame":6.0
       },
       "damage":1.0,
@@ -339,12 +337,12 @@
         "width":48.0
       },
       "speedOffset":{
-        "duration":0.0,
         "target":4.0,
         "ease":"LEGACY",
         "increase":0.0,
         "factor":0.10000000000000001,
-        "value":4.0
+        "value":4.0,
+        "duration":0.0
       },
       "useAngleOffset":true,
       "onDeath":null,
@@ -353,23 +351,23 @@
       "changeAngleOffset":true,
       "onDeathAngleIncrease":null,
       "onDeathAngleRng":null,
+      "useSpeedOffset":false,
+      "onDeathAngleStep":null,
       "angleOffset":{
-        "duration":1.6666666699999999,
         "target":15.0,
         "ease":"LINEAR",
         "increase":0.0,
         "factor":0.14999999999999999,
-        "value":0.0
+        "value":0.0,
+        "duration":1.6666666699999999
       },
-      "onDeathAngleStep":null,
-      "useSpeedOffset":false,
       "changeSpeedOffset":false,
+      "onDeathRngSpeed":null,
+      "onDeathRngStep":null,
       "angleOffsetRng":false,
-      "onDeathRngSpeed":null
+      "onDeathSpeed":null
     },
     "bullet-shroom":{
-      "onDeathRngStep":null,
-      "onDeathSpeed":null,
       "onDeathSpeedMerge":null,
       "sprite":{
         "randomFrame":true,
@@ -378,9 +376,9 @@
         "scaleX":4.0,
         "scaleY":4.0,
         "blend":"#FFFFFF",
-        "speed":10.0,
-        "alpha":1.0,
         "name":"texture_bullet",
+        "alpha":1.0,
+        "speed":10.0,
         "frame":3.0
       },
       "damage":1.0,
@@ -400,12 +398,12 @@
         "width":26.0
       },
       "speedOffset":{
-        "duration":1.0,
         "target":0.0,
         "ease":"LEGACY",
         "increase":0.0,
         "factor":0.0,
-        "value":0.0
+        "value":0.0,
+        "duration":1.0
       },
       "useAngleOffset":false,
       "onDeath":null,
@@ -414,34 +412,34 @@
       "changeAngleOffset":false,
       "onDeathAngleIncrease":null,
       "onDeathAngleRng":null,
+      "useSpeedOffset":false,
+      "onDeathAngleStep":null,
       "angleOffset":{
-        "duration":0.0,
         "target":0.0,
         "ease":"LEGACY",
         "increase":0.0,
         "factor":1.0,
-        "value":0.0
+        "value":0.0,
+        "duration":0.0
       },
-      "onDeathAngleStep":null,
-      "useSpeedOffset":false,
       "changeSpeedOffset":false,
+      "onDeathRngSpeed":null,
+      "onDeathRngStep":null,
       "angleOffsetRng":false,
-      "onDeathRngSpeed":null
+      "onDeathSpeed":null
     },
     "bullet-player-r":{
-      "onDeathRngStep":null,
-      "onDeathSpeed":null,
       "onDeathSpeedMerge":null,
       "sprite":{
         "randomFrame":true,
         "animate":false,
         "angle":0.0,
         "scaleX":3.0,
-        "blend":"#FFFFFF",
         "scaleY":3.0,
-        "speed":6.0,
-        "alpha":1.0,
+        "blend":"#FFFFFF",
         "name":"texture_bullet_blue",
+        "alpha":1.0,
+        "speed":6.0,
         "frame":2.0
       },
       "damage":1.0,
@@ -461,12 +459,12 @@
         "width":48.0
       },
       "speedOffset":{
-        "duration":0.0,
         "target":4.0,
         "ease":"LEGACY",
         "increase":0.0,
         "factor":0.10000000000000001,
-        "value":4.0
+        "value":4.0,
+        "duration":0.0
       },
       "useAngleOffset":true,
       "onDeath":null,
@@ -475,23 +473,23 @@
       "changeAngleOffset":true,
       "onDeathAngleIncrease":null,
       "onDeathAngleRng":null,
+      "useSpeedOffset":false,
+      "onDeathAngleStep":null,
       "angleOffset":{
-        "duration":1.6666666699999999,
         "target":-15.0,
         "ease":"LINEAR",
         "increase":0.0,
         "factor":0.14999999999999999,
-        "value":0.0
+        "value":0.0,
+        "duration":1.6666666699999999
       },
-      "onDeathAngleStep":null,
-      "useSpeedOffset":false,
       "changeSpeedOffset":false,
+      "onDeathRngSpeed":null,
+      "onDeathRngStep":null,
       "angleOffsetRng":false,
-      "onDeathRngSpeed":null
+      "onDeathSpeed":null
     },
     "bullet-swing":{
-      "onDeathRngStep":null,
-      "onDeathSpeed":null,
       "onDeathSpeedMerge":null,
       "sprite":{
         "randomFrame":true,
@@ -500,9 +498,9 @@
         "scaleX":4.0,
         "scaleY":4.0,
         "blend":"#FFFFFF",
-        "speed":10.0,
-        "alpha":1.0,
         "name":"texture_bullet_circle",
+        "alpha":1.0,
+        "speed":10.0,
         "frame":3.0
       },
       "damage":1.0,
@@ -522,12 +520,12 @@
         "width":24.0
       },
       "speedOffset":{
-        "duration":1.0,
         "target":0.0,
         "ease":"LEGACY",
         "increase":0.0,
         "factor":0.0,
-        "value":0.0
+        "value":0.0,
+        "duration":1.0
       },
       "useAngleOffset":false,
       "onDeath":null,
@@ -536,20 +534,22 @@
       "changeAngleOffset":false,
       "onDeathAngleIncrease":null,
       "onDeathAngleRng":null,
+      "useSpeedOffset":false,
+      "onDeathAngleStep":null,
       "angleOffset":{
-        "duration":1.25,
         "target":15.0,
         "ease":"LEGACY",
         "increase":0.0,
         "factor":0.20000000000000001,
-        "value":0.0
+        "value":0.0,
+        "duration":1.25
       },
-      "onDeathAngleStep":null,
-      "useSpeedOffset":false,
       "changeSpeedOffset":false,
+      "onDeathRngSpeed":null,
+      "onDeathRngStep":null,
       "angleOffsetRng":true,
-      "onDeathRngSpeed":null
+      "onDeathSpeed":null
     }
   },
-  "version":"1"
+  "model":"Collection<io.alkapivo.visu.service.bullet.BulletTemplate>"
 }

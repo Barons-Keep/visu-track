@@ -1,37 +1,34 @@
 {
-  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>",
+  "version":"1",
   "data":[
     {
-      "hidden":false,
-      "name":"default (alpha: 0)",
       "type":"brush_grid_area",
-      "texture":"texture_ve_icon_grid_area",
       "color":"#00FF00",
+      "texture":"texture_ve_icon_grid_area",
       "properties":{
-        "gr-area_change-h":false,
         "gr-area_change-h-alpha":false,
         "gr-area_change-h-size":false,
         "gr-area_change-v":true,
         "gr-area_change-v-alpha":false,
         "gr-area_change-v-size":false,
         "gr-area_h":{
-          "factor":1.0,
           "target":1.0,
           "value":1.0,
+          "factor":1.0,
           "increase":0.0
         },
         "gr-area_h-alpha":{
-          "factor":1.0,
           "target":1.0,
           "value":0.0,
+          "factor":1.0,
           "increase":0.0
         },
         "gr-area_h-col":"#FF0000",
         "gr-area_h-col-spd":0.0,
         "gr-area_h-size":{
-          "factor":1.0,
           "target":1.0,
           "value":10.0,
+          "factor":1.0,
           "increase":0.0
         },
         "gr-area_use-h":true,
@@ -43,27 +40,38 @@
         "gr-area_use-v-col":true,
         "gr-area_use-v-size":true,
         "gr-area_v":{
-          "factor":1.0,
           "target":1.0,
           "value":1.0,
+          "factor":1.0,
           "increase":0.0
         },
         "gr-area_v-alpha":{
-          "factor":1.0,
           "target":1.0,
           "value":0.0,
+          "factor":1.0,
           "increase":0.0
         },
         "gr-area_v-col":"#FF00FF",
         "gr-area_v-col-spd":0.0,
         "gr-area_v-size":{
-          "factor":1.0,
           "target":1.0,
           "value":10.0,
+          "factor":1.0,
           "increase":0.0
-        }
-      }
+        },
+        "gr-area_change-h":false
+      },
+      "hidden":false,
+      "name":"default (alpha: 0)"
+    },
+    {
+      "type":"brush_grid_area",
+      "color":"#FFFFFF",
+      "texture":"texture_baron",
+      "properties":null,
+      "hidden":false,
+      "name":"new brush template 1"
     }
   ],
-  "version":"1"
+  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>"
 }

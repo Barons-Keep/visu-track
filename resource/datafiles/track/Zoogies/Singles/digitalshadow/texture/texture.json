@@ -1,62 +1,62 @@
 {
-  "model":"Collection<io.alkapivo.core.service.texture.TextureIntent>",
+  "version":"1",
   "data":{
-    "texture_neon_city_highway":{
-      "frames":1.0,
-      "name":"texture_neon_city_highway",
-      "file":"texture/texture_neon_city_highway.jpg",
-      "originX":0.0,
-      "originY":0.0,
-      "prefetch":true
-    },
-    "texture_abstract_blue_2":{
-      "frames":1.0,
-      "name":"texture_abstract_blue_2",
-      "file":"texture/texture_abstract_blue_2.png",
-      "originX":0.0,
-      "originY":0.0,
-      "prefetch":true
-    },
-    "texture_fingerprint_scan_strip16":{
-      "frames":16.0,
-      "name":"texture_fingerprint_scan_strip16",
-      "file":"texture/texture_fingerprint_scan_strip16.png",
-      "originX":0.0,
-      "originY":0.0,
-      "prefetch":true
-    },
-    "texture_hex_file_strip8":{
-      "frames":8.0,
-      "name":"texture_hex_file_strip8",
-      "file":"texture/texture_hex_file_strip8.png",
-      "originX":0.0,
-      "originY":0.0,
-      "prefetch":true
-    },
     "texture_double_console_out_strip8":{
-      "frames":8.0,
-      "name":"texture_double_console_out_strip8",
       "file":"texture/texture_double_console_out_strip8.png",
+      "prefetch":true,
+      "name":"texture_double_console_out_strip8",
+      "frames":8.0,
       "originX":0.0,
-      "originY":0.0,
-      "prefetch":true
+      "originY":0.0
     },
     "texture_abstract_blue_1":{
-      "frames":1.0,
-      "name":"texture_abstract_blue_1",
       "file":"texture/texture_abstract_blue_1.png",
+      "prefetch":true,
+      "name":"texture_abstract_blue_1",
+      "frames":1.0,
       "originX":0.0,
-      "originY":0.0,
-      "prefetch":true
+      "originY":0.0
     },
     "texture_neon_city_fantasy":{
-      "frames":1.0,
-      "name":"texture_neon_city_fantasy",
       "file":"texture/texture_neon_city_fantasy.jpg",
+      "prefetch":true,
+      "name":"texture_neon_city_fantasy",
+      "frames":1.0,
       "originX":0.0,
-      "originY":0.0,
-      "prefetch":true
+      "originY":0.0
+    },
+    "texture_neon_city_highway":{
+      "file":"texture/texture_neon_city_highway.jpg",
+      "prefetch":true,
+      "name":"texture_neon_city_highway",
+      "frames":1.0,
+      "originX":0.0,
+      "originY":0.0
+    },
+    "texture_abstract_blue_2":{
+      "file":"texture/texture_abstract_blue_2.png",
+      "prefetch":true,
+      "name":"texture_abstract_blue_2",
+      "frames":1.0,
+      "originX":0.0,
+      "originY":0.0
+    },
+    "texture_fingerprint_scan_strip16":{
+      "file":"texture/texture_fingerprint_scan_strip16.png",
+      "prefetch":true,
+      "name":"texture_fingerprint_scan_strip16",
+      "frames":16.0,
+      "originX":0.0,
+      "originY":0.0
+    },
+    "texture_hex_file_strip8":{
+      "file":"texture/texture_hex_file_strip8.png",
+      "prefetch":true,
+      "name":"texture_hex_file_strip8",
+      "frames":8.0,
+      "originX":0.0,
+      "originY":0.0
     }
   },
-  "version":"1"
+  "model":"Collection<io.alkapivo.core.service.texture.TextureIntent>"
 }

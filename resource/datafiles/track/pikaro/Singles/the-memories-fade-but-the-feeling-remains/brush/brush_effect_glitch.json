@@ -1,5 +1,5 @@
 {
-  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>",
+  "version":"1",
   "data":[
     {
       "type":"brush_effect_glitch",
@@ -191,5 +191,5 @@
       "name":"moderate rgb channel shift (factor: 0.65)"
     }
   ],
-  "version":"1"
+  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>"
 }

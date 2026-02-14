@@ -1,22 +1,16 @@
 {
-  "model":"Collection<io.alkapivo.visu.service.subtitle.SubtitleTemplate>",
+  "version":"1",
   "data":{
-    "subtitle_alkapivo":{
-      "lines":[
-        "Alkapivo",
-        "2025"
-      ]
-    },
-    "subtitle_kedy_selma_jtcs":{
-      "lines":[
-        "",
-        "Just To Create Something"
-      ]
-    },
     "subtitle_kedy_selma":{
       "lines":[
         "kedy_selma",
         ""
+      ]
+    },
+    "subtitle_alkapivo":{
+      "lines":[
+        "Alkapivo",
+        "2025"
       ]
     },
     "subtitle_kedy_selma_jtcs_poem":{
@@ -29,7 +23,13 @@
         "",
         "kedy_selma"
       ]
+    },
+    "subtitle_kedy_selma_jtcs":{
+      "lines":[
+        "",
+        "Just To Create Something"
+      ]
     }
   },
-  "version":"1"
+  "model":"Collection<io.alkapivo.visu.service.subtitle.SubtitleTemplate>"
 }

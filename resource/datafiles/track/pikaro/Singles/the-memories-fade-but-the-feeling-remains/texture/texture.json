@@ -1,38 +1,38 @@
 {
-  "model":"Collection<io.alkapivo.core.service.texture.TextureIntent>",
+  "version":"1",
   "data":{
     "texture_pikaro_city_3":{
-      "originX":0.0,
-      "originY":30.0,
       "file":"texture/texture_pikaro_city_3.jpg",
       "prefetch":true,
       "name":"texture_pikaro_city_3",
-      "frames":1.0
+      "frames":1.0,
+      "originX":0.0,
+      "originY":30.0
     },
     "texture_pikaro_city_2":{
-      "originX":0.0,
-      "originY":0.0,
       "file":"texture/texture_pikaro_city_2.jpg",
       "prefetch":true,
       "name":"texture_pikaro_city_2",
-      "frames":1.0
+      "frames":1.0,
+      "originX":0.0,
+      "originY":0.0
     },
     "texture_pikaro_city_4":{
-      "originX":0.0,
-      "originY":0.0,
       "file":"texture/texture_pikaro_city_4.jpg",
       "prefetch":true,
       "name":"texture_pikaro_city_4",
-      "frames":1.0
+      "frames":1.0,
+      "originX":0.0,
+      "originY":0.0
     },
     "texture_pikaro_city_1":{
-      "originX":0.0,
-      "originY":0.0,
       "file":"texture/texture_pikaro_city_1.jpg",
       "prefetch":true,
       "name":"texture_pikaro_city_1",
-      "frames":1.0
+      "frames":1.0,
+      "originX":0.0,
+      "originY":0.0
     }
   },
-  "version":"1"
+  "model":"Collection<io.alkapivo.core.service.texture.TextureIntent>"
 }

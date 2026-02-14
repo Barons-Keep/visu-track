@@ -1,30 +1,30 @@
 {
-  "model":"Collection<io.alkapivo.core.service.texture.TextureIntent>",
+  "version":"1",
   "data":{
     "texture_kedy_selma_jtcs_bkg_2":{
-      "frames":1.0,
-      "name":"texture_kedy_selma_jtcs_bkg_2",
       "file":"texture/texture_kedy_selma_jtcs_bkg_2.jpg",
+      "prefetch":true,
+      "name":"texture_kedy_selma_jtcs_bkg_2",
+      "frames":1.0,
       "originX":0.0,
-      "originY":0.0,
-      "prefetch":true
+      "originY":0.0
     },
     "texture_kedy_selma_jtcs_bkg":{
-      "frames":1.0,
-      "name":"texture_kedy_selma_jtcs_bkg",
       "file":"texture/texture_kedy_selma_jtcs_bkg.jpg",
+      "prefetch":true,
+      "name":"texture_kedy_selma_jtcs_bkg",
+      "frames":1.0,
       "originX":0.0,
-      "originY":0.0,
-      "prefetch":true
+      "originY":0.0
     },
     "texture_kedy_selma_jtcs_bkg_1":{
-      "frames":1.0,
-      "name":"texture_kedy_selma_jtcs_bkg_1",
       "file":"texture/texture_kedy_selma_jtcs_bkg_1.jpg",
+      "prefetch":true,
+      "name":"texture_kedy_selma_jtcs_bkg_1",
+      "frames":1.0,
       "originX":0.0,
-      "originY":0.0,
-      "prefetch":true
+      "originY":0.0
     }
   },
-  "version":"1"
+  "model":"Collection<io.alkapivo.core.service.texture.TextureIntent>"
 }
