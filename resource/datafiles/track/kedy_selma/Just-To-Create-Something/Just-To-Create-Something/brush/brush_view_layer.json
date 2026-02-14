@@ -1,152 +1,152 @@
 {
-  "version":"1",
   "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>",
   "data":[
     {
+      "type":"brush_view_layer",
+      "texture":"texture_ve_icon_view_layer",
+      "hidden":false,
+      "name":"default frg",
       "properties":{
-        "vw-layer_change-dir":false,
-        "vw-layer_use-scale-x":true,
-        "vw-layer_scale-x":{
-          "factor":1.0,
-          "value":1.0,
-          "target":0.0,
-          "increase":0.0
-        },
-        "vw-layer_change-scale-x":false,
-        "vw-layer_use-scale-y":true,
-        "vw-layer_scale-y":{
-          "factor":1.0,
-          "value":1.0,
-          "target":0.0,
-          "increase":0.0
-        },
-        "vw-layer_change-scale-y":false,
-        "vw-layer_use-texture-tiled":true,
-        "vw-layer_use-texture-replace":true,
-        "vw-layer_texture-reset-pos":true,
-        "vw-layer_texture-use-lifespan":false,
-        "vw-layer_texture-lifespan":0.0,
-        "vw-layer_type":"FOREGROUND",
-        "vw-layer_fade-in":0.0,
-        "vw-layer_fade-out":0.0,
-        "vw-layer_use-texture":false,
-        "vw-layer_texture":{
-          "randomFrame":false,
-          "frame":0.0,
-          "blend":"#FFFFFF",
-          "scaleX":0.23225806451612904,
-          "scaleY":0.23225806451612904,
-          "angle":0.0,
-          "speed":30.0,
-          "alpha":0.5,
-          "name":"texture_kedy_selma_jtcs_bkg_1",
-          "animate":false
-        },
-        "vw-layer_use-texture-blend":false,
-        "vw-layer_texture-blend":"#FFFFFF",
-        "vw-layer_use-col":false,
-        "vw-layer_col":"#FFFFFF00",
-        "vw-layer_cls-texture":true,
-        "vw-layer_cls-col":true,
-        "vw-layer_use-blend":true,
-        "vw-layer_blend-src":"SRC_ALPHA",
         "vw-layer_blend-dest":"ONE",
         "vw-layer_blend-eq":"ADD",
         "vw-layer_blend-eq-alpha":"ADD",
-        "vw-layer_use-spd":true,
-        "vw-layer_spd":{
-          "factor":1.0,
-          "value":0.0,
-          "target":0.0,
-          "increase":0.0
-        },
-        "vw-layer_change-spd":false,
-        "vw-layer_use-dir":true,
-        "vw-layer_dir":{
-          "factor":1.0,
-          "value":0.0,
-          "target":0.0,
-          "increase":0.0
-        }
-      },
-      "type":"brush_view_layer",
-      "texture":"texture_ve_icon_view_layer",
-      "name":"default frg",
-      "color":"#00FF00",
-      "hidden":false
-    },
-    {
-      "properties":{
-        "vw-layer_change-dir":true,
-        "vw-layer_use-scale-x":true,
-        "vw-layer_scale-x":{
-          "factor":0.00020000000000000001,
-          "value":1.25,
-          "target":1.0,
-          "increase":0.0
-        },
+        "vw-layer_blend-src":"SRC_ALPHA",
+        "vw-layer_change-dir":false,
         "vw-layer_change-scale-x":false,
-        "vw-layer_use-scale-y":true,
-        "vw-layer_scale-y":{
-          "factor":0.00020000000000000001,
-          "value":1.25,
-          "target":1.0,
-          "increase":0.0
-        },
         "vw-layer_change-scale-y":false,
-        "vw-layer_use-texture-tiled":true,
-        "vw-layer_use-texture-replace":true,
-        "vw-layer_texture-reset-pos":true,
-        "vw-layer_texture-use-lifespan":false,
-        "vw-layer_texture-lifespan":0.0,
-        "vw-layer_type":"BACKGROUND",
-        "vw-layer_fade-in":1.5,
-        "vw-layer_fade-out":1.5,
-        "vw-layer_use-texture":true,
+        "vw-layer_change-spd":false,
+        "vw-layer_cls-col":true,
+        "vw-layer_cls-texture":true,
+        "vw-layer_col":"#FFFFFF00",
+        "vw-layer_dir":{
+          "value":0.0,
+          "increase":0.0,
+          "target":0.0,
+          "factor":1.0
+        },
+        "vw-layer_fade-in":0.0,
+        "vw-layer_fade-out":0.0,
+        "vw-layer_scale-x":{
+          "value":1.0,
+          "increase":0.0,
+          "target":0.0,
+          "factor":1.0
+        },
+        "vw-layer_scale-y":{
+          "value":1.0,
+          "increase":0.0,
+          "target":0.0,
+          "factor":1.0
+        },
+        "vw-layer_spd":{
+          "value":0.0,
+          "increase":0.0,
+          "target":0.0,
+          "factor":1.0
+        },
         "vw-layer_texture":{
-          "randomFrame":false,
-          "frame":0.0,
-          "blend":"#D20052",
-          "scaleX":0.28125,
-          "scaleY":0.28125,
           "angle":0.0,
-          "speed":1.0,
-          "alpha":1.0,
+          "randomFrame":false,
+          "alpha":0.5,
+          "blend":"#FFFFFF",
+          "scaleX":0.23225806451612904,
+          "speed":30.0,
           "name":"texture_kedy_selma_jtcs_bkg_1",
+          "scaleY":0.23225806451612904,
+          "frame":0.0,
           "animate":false
         },
-        "vw-layer_use-texture-blend":true,
-        "vw-layer_texture-blend":"#D20052",
-        "vw-layer_use-col":true,
-        "vw-layer_col":"#081830",
-        "vw-layer_cls-texture":true,
-        "vw-layer_cls-col":true,
+        "vw-layer_texture-blend":"#FFFFFF",
+        "vw-layer_texture-lifespan":0.0,
+        "vw-layer_texture-reset-pos":true,
+        "vw-layer_texture-use-lifespan":false,
+        "vw-layer_type":"FOREGROUND",
         "vw-layer_use-blend":true,
-        "vw-layer_blend-src":"SRC_ALPHA",
+        "vw-layer_use-col":false,
+        "vw-layer_use-dir":true,
+        "vw-layer_use-scale-x":true,
+        "vw-layer_use-scale-y":true,
+        "vw-layer_use-spd":true,
+        "vw-layer_use-texture":false,
+        "vw-layer_use-texture-blend":false,
+        "vw-layer_use-texture-replace":true,
+        "vw-layer_use-texture-tiled":true
+      },
+      "color":"#00FF00"
+    },
+    {
+      "type":"brush_view_layer",
+      "texture":"texture_ve_icon_view_layer",
+      "hidden":false,
+      "name":"default bkg",
+      "properties":{
         "vw-layer_blend-dest":"INV_SRC_ALPHA",
         "vw-layer_blend-eq":"ADD",
         "vw-layer_blend-eq-alpha":"ADD",
-        "vw-layer_use-spd":true,
-        "vw-layer_spd":{
-          "factor":0.0060000000000000001,
-          "value":0.33000000000000002,
-          "target":1.3300000000000001,
-          "increase":0.0
-        },
+        "vw-layer_blend-src":"SRC_ALPHA",
+        "vw-layer_change-dir":true,
+        "vw-layer_change-scale-x":false,
+        "vw-layer_change-scale-y":false,
         "vw-layer_change-spd":true,
-        "vw-layer_use-dir":true,
+        "vw-layer_cls-col":true,
+        "vw-layer_cls-texture":true,
+        "vw-layer_col":"#081830",
         "vw-layer_dir":{
-          "factor":1.0,
           "value":0.0,
+          "increase":0.0,
           "target":0.0,
-          "increase":0.0
-        }
+          "factor":1.0
+        },
+        "vw-layer_fade-in":1.5,
+        "vw-layer_fade-out":1.5,
+        "vw-layer_scale-x":{
+          "value":1.25,
+          "increase":0.0,
+          "target":1.0,
+          "factor":0.00020000000000000001
+        },
+        "vw-layer_scale-y":{
+          "value":1.25,
+          "increase":0.0,
+          "target":1.0,
+          "factor":0.00020000000000000001
+        },
+        "vw-layer_spd":{
+          "value":0.33000000000000002,
+          "increase":0.0,
+          "target":1.3300000000000001,
+          "factor":0.0060000000000000001
+        },
+        "vw-layer_texture":{
+          "angle":0.0,
+          "randomFrame":false,
+          "alpha":1.0,
+          "blend":"#D20052",
+          "scaleX":0.28125,
+          "speed":1.0,
+          "name":"texture_kedy_selma_jtcs_bkg_1",
+          "scaleY":0.28125,
+          "frame":0.0,
+          "animate":false
+        },
+        "vw-layer_texture-blend":"#D20052",
+        "vw-layer_texture-lifespan":0.0,
+        "vw-layer_texture-reset-pos":true,
+        "vw-layer_texture-use-lifespan":false,
+        "vw-layer_type":"BACKGROUND",
+        "vw-layer_use-blend":true,
+        "vw-layer_use-col":true,
+        "vw-layer_use-dir":true,
+        "vw-layer_use-scale-x":true,
+        "vw-layer_use-scale-y":true,
+        "vw-layer_use-spd":true,
+        "vw-layer_use-texture":true,
+        "vw-layer_use-texture-blend":true,
+        "vw-layer_use-texture-replace":true,
+        "vw-layer_use-texture-tiled":true
       },
-      "type":"brush_view_layer",
-      "texture":"texture_ve_icon_view_layer",
-      "name":"default bkg",
-      "color":"#00FF00",
-      "hidden":false
+      "color":"#00FF00"
     }
-  ]
+  ],
+  "version":"1"
 }

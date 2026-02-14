@@ -25,15 +25,6 @@
           }
         },
         {
-          "name": "nfract",
-          "event": {
-            "type": "open-node",
-            "data": {
-              "node": "root.artists.nfract"
-            }
-          }
-        },
-        {
           "name": "pikaro & PAXNKOXD",
           "event": {
             "type": "open-node",
@@ -76,7 +67,7 @@
       "back": "root.artists",
       "entries": [
         {
-          "name": "01. Create and Yet Fate's Faw Avoid *",
+          "name": "01. Create and Yet Fate's Faw Avoid *\n(level under construction)",
           "event": {
             "type": "open-track-setup",
             "data": {
@@ -107,22 +98,6 @@
             "type": "open-track-setup",
             "data": {
               "path": "track/kedy_selma/Singles/Passion/manifest.visu",
-              "node": "root.artists.kedy_selma"
-            }
-          }
-        }
-      ]
-    },
-    "root.artists.nfract": {
-      "title": "Pick a Track",
-      "back": "root.artists",
-      "entries": [
-        {
-          "name": "Hikikomori Condition\n(level under construction)",
-          "event": {
-            "type": "open-track-setup",
-            "data": {
-              "path": "track/nfract/Emo-Girl/Hikikomori-Condition/manifest.visu",
               "node": "root.artists.kedy_selma"
             }
           }
