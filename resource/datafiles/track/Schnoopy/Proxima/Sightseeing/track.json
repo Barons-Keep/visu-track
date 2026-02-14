@@ -9,30 +9,23 @@
         "events":[
           {
             "timestamp":0.0,
-            "callable":"brush_effect_config",
             "data":{
-              "hidden":false,
-              "icon":{
-                "blend":"#00A000",
-                "name":"texture_ve_icon_effect_config"
-              },
-              "ef-cfg_change-cls-frame-alpha":false,
-              "ef-cfg_change-particle-z":false,
-              "ef-cfg_cls-bkg-glt":true,
-              "ef-cfg_cls-frame":true,
-              "ef-cfg_cls-frame-alpha":{
-                "value":0.0,
-                "increase":0.0,
-                "factor":0.0,
-                "duration":0.0,
-                "ease":"LEGACY",
-                "target":0.0
-              },
               "ef-cfg_cls-frame-col":"#FFFFFF",
+              "ef-cfg_cls-bkg-glt":true,
               "ef-cfg_cls-frame-col-spd":0.0,
               "ef-cfg_cls-glt":true,
               "ef-cfg_cls-gr-glt":true,
+              "ef-cfg_cls-frame-alpha":{
+                "duration":0.0,
+                "ease":"LEGACY",
+                "increase":0.0,
+                "factor":0.0,
+                "value":0.0,
+                "target":0.0
+              },
+              "ef-cfg_use-cls-frame-alpha":true,
               "ef-cfg_cls-part":true,
+              "ef-cfg_change-cls-frame-alpha":false,
               "ef-cfg_cls-shd-all":true,
               "ef-cfg_cls-shd-bkg":true,
               "ef-cfg_cls-shd-gr":true,
@@ -43,11 +36,11 @@
               "ef-cfg_hide-shd-cls-alpha":true,
               "ef-cfg_hide-shd-cls-col":false,
               "ef-cfg_particle-z":{
-                "value":2045.0,
-                "increase":0.0,
-                "factor":0.0,
                 "duration":0.0,
                 "ease":"LEGACY",
+                "increase":0.0,
+                "factor":0.0,
+                "value":2045.0,
                 "target":0.0
               },
               "ef-cfg_render-bkg-glt":true,
@@ -57,9 +50,6 @@
               "ef-cfg_render-shd-all":true,
               "ef-cfg_render-shd-bkg":true,
               "ef-cfg_render-shd-gr":true,
-              "ef-cfg_use-cls-frame":true,
-              "ef-cfg_use-cls-frame-alpha":true,
-              "ef-cfg_use-cls-frame-col":true,
               "ef-cfg_use-particle-z":true,
               "ef-cfg_use-render-bkg-glt":true,
               "ef-cfg_use-render-glt":true,
@@ -67,8 +57,18 @@
               "ef-cfg_use-render-part":true,
               "ef-cfg_use-render-shd-all":true,
               "ef-cfg_use-render-shd-bkg":true,
-              "ef-cfg_use-render-shd-gr":true
-            }
+              "ef-cfg_use-render-shd-gr":true,
+              "hidden":false,
+              "ef-cfg_use-cls-frame":true,
+              "ef-cfg_cls-frame":true,
+              "ef-cfg_change-particle-z":false,
+              "ef-cfg_use-cls-frame-col":true,
+              "icon":{
+                "name":"texture_ve_icon_effect_config",
+                "blend":"#00A000"
+              }
+            },
+            "callable":"brush_effect_config"
           }
         ],
         "settings":{
@@ -85,8 +85,9 @@
         "events":[
           {
             "timestamp":0.20000000000000001,
-            "callable":"brush_effect_shader",
             "data":{
+              "ef-shd_fade-in":3.0,
+              "ef-shd_fade-out":1.0,
               "ef-shd_hide":false,
               "ef-shd_hide-merge-cfg":false,
               "ef-shd_merge-cfg":{
@@ -95,87 +96,87 @@
               "ef-shd_pipeline":"BACKGROUND",
               "ef-shd_template":"funk flux 2",
               "ef-shd_use-merge-cfg":true,
-              "icon":{
-                "blend":"#6CBD0F",
-                "name":"texture_ve_icon_effect_shader"
-              },
               "hidden":false,
               "ef-shd_alpha":1.0,
-              "ef-shd_duration":20.0,
-              "ef-shd_fade-in":3.0,
-              "ef-shd_fade-out":1.0
-            }
+              "icon":{
+                "name":"texture_ve_icon_effect_shader",
+                "blend":"#6CBD0F"
+              },
+              "ef-shd_duration":20.0
+            },
+            "callable":"brush_effect_shader"
           },
           {
             "timestamp":0.59999999999999998,
-            "callable":"brush_effect_shader",
             "data":{
+              "ef-shd_fade-in":4.0,
+              "ef-shd_fade-out":2.0,
               "ef-shd_hide":false,
               "ef-shd_hide-merge-cfg":false,
               "ef-shd_merge-cfg":{
+                "u_bpm":25.0,
+                "u_angle":-90.0,
                 "u_seed":444.0,
                 "u_offset":{
                   "x":{
-                    "value":0.0,
+                    "duration":6.0,
                     "ease":"IN_OUT_SINE",
-                    "target":0.40000000000000002,
-                    "duration":6.0
+                    "value":0.0,
+                    "target":0.40000000000000002
                   }
-                },
-                "u_bpm":25.0,
-                "u_angle":-90.0
+                }
               },
               "ef-shd_pipeline":"COMBINED",
               "ef-shd_template":"wavy lines 2",
               "ef-shd_use-merge-cfg":true,
-              "icon":{
-                "blend":"#2EFF29",
-                "name":"texture_ve_icon_effect_shader"
-              },
               "hidden":false,
               "ef-shd_alpha":0.84999999999999998,
-              "ef-shd_duration":15.0,
-              "ef-shd_fade-in":4.0,
-              "ef-shd_fade-out":2.0
-            }
+              "icon":{
+                "name":"texture_ve_icon_effect_shader",
+                "blend":"#2EFF29"
+              },
+              "ef-shd_duration":15.0
+            },
+            "callable":"brush_effect_shader"
           },
           {
             "timestamp":0.80000000000000004,
-            "callable":"brush_effect_shader",
             "data":{
+              "ef-shd_fade-in":6.0,
+              "ef-shd_fade-out":2.0,
               "ef-shd_hide":false,
               "ef-shd_hide-merge-cfg":false,
               "ef-shd_merge-cfg":{
+                "u_bpm":25.0,
+                "u_angle":90.0,
                 "u_seed":444.0,
                 "u_offset":{
                   "x":{
-                    "value":0.0,
+                    "duration":6.0,
                     "ease":"IN_OUT_SINE",
-                    "target":0.20000000000000001,
-                    "duration":6.0
+                    "value":0.0,
+                    "target":0.20000000000000001
                   }
-                },
-                "u_bpm":25.0,
-                "u_angle":90.0
+                }
               },
               "ef-shd_pipeline":"COMBINED",
               "ef-shd_template":"wavy lines 2",
               "ef-shd_use-merge-cfg":true,
-              "icon":{
-                "blend":"#2EFF29",
-                "name":"texture_ve_icon_effect_shader"
-              },
               "hidden":false,
               "ef-shd_alpha":0.84999999999999998,
-              "ef-shd_duration":15.199999999999999,
-              "ef-shd_fade-in":6.0,
-              "ef-shd_fade-out":2.0
-            }
+              "icon":{
+                "name":"texture_ve_icon_effect_shader",
+                "blend":"#2EFF29"
+              },
+              "ef-shd_duration":15.199999999999999
+            },
+            "callable":"brush_effect_shader"
           },
           {
             "timestamp":4.7999999999999998,
-            "callable":"brush_effect_shader",
             "data":{
+              "ef-shd_fade-in":3.0,
+              "ef-shd_fade-out":2.0,
               "ef-shd_hide":false,
               "ef-shd_hide-merge-cfg":false,
               "ef-shd_merge-cfg":{
@@ -185,55 +186,55 @@
               "ef-shd_pipeline":"BACKGROUND",
               "ef-shd_template":"deep space 1",
               "ef-shd_use-merge-cfg":true,
-              "icon":{
-                "blend":"#07006E",
-                "name":"texture_ve_icon_effect_shader"
-              },
               "hidden":false,
               "ef-shd_alpha":1.0,
-              "ef-shd_duration":20.0,
-              "ef-shd_fade-in":3.0,
-              "ef-shd_fade-out":2.0
-            }
+              "icon":{
+                "name":"texture_ve_icon_effect_shader",
+                "blend":"#07006E"
+              },
+              "ef-shd_duration":20.0
+            },
+            "callable":"brush_effect_shader"
           },
           {
             "timestamp":14.4,
-            "callable":"brush_effect_shader",
             "data":{
+              "ef-shd_fade-in":0.5,
+              "ef-shd_fade-out":2.0,
               "ef-shd_hide":false,
               "ef-shd_hide-merge-cfg":false,
               "ef-shd_merge-cfg":{
                 "u_angle":{
-                  "value":-45.0,
+                  "duration":20.0,
                   "ease":"OUT_QUART",
-                  "target":45.0,
-                  "duration":20.0
+                  "value":-45.0,
+                  "target":45.0
                 },
                 "u_speed":{
-                  "value":16.0,
+                  "duration":8.0,
                   "ease":"OUT_QUART",
-                  "target":64.0,
-                  "duration":8.0
+                  "value":16.0,
+                  "target":64.0
                 }
               },
               "ef-shd_pipeline":"BACKGROUND",
               "ef-shd_template":"astral flow 1",
               "ef-shd_use-merge-cfg":true,
-              "icon":{
-                "blend":"#4621E2",
-                "name":"texture_ve_icon_effect_shader"
-              },
               "hidden":false,
               "ef-shd_alpha":1.0,
-              "ef-shd_duration":16.0,
-              "ef-shd_fade-in":0.5,
-              "ef-shd_fade-out":2.0
-            }
+              "icon":{
+                "name":"texture_ve_icon_effect_shader",
+                "blend":"#4621E2"
+              },
+              "ef-shd_duration":16.0
+            },
+            "callable":"brush_effect_shader"
           },
           {
             "timestamp":19.200000000000003,
-            "callable":"brush_effect_shader",
             "data":{
+              "ef-shd_fade-in":2.0,
+              "ef-shd_fade-out":2.0,
               "ef-shd_hide":false,
               "ef-shd_hide-merge-cfg":false,
               "ef-shd_merge-cfg":{
@@ -242,21 +243,21 @@
               "ef-shd_pipeline":"BACKGROUND",
               "ef-shd_template":"warp pulse 1",
               "ef-shd_use-merge-cfg":true,
-              "icon":{
-                "blend":"#5B8F53",
-                "name":"texture_ve_icon_effect_shader"
-              },
               "hidden":false,
               "ef-shd_alpha":0.84999999999999998,
-              "ef-shd_duration":10.0,
-              "ef-shd_fade-in":2.0,
-              "ef-shd_fade-out":2.0
-            }
+              "icon":{
+                "name":"texture_ve_icon_effect_shader",
+                "blend":"#5B8F53"
+              },
+              "ef-shd_duration":10.0
+            },
+            "callable":"brush_effect_shader"
           },
           {
             "timestamp":24.0,
-            "callable":"brush_effect_shader",
             "data":{
+              "ef-shd_fade-in":8.0,
+              "ef-shd_fade-out":4.0,
               "ef-shd_hide":false,
               "ef-shd_hide-merge-cfg":false,
               "ef-shd_merge-cfg":{
@@ -265,21 +266,21 @@
               "ef-shd_pipeline":"BACKGROUND",
               "ef-shd_template":"funk flux 2",
               "ef-shd_use-merge-cfg":true,
-              "icon":{
-                "blend":"#6CBD0F",
-                "name":"texture_ve_icon_effect_shader"
-              },
               "hidden":false,
               "ef-shd_alpha":0.80000000000000004,
-              "ef-shd_duration":32.0,
-              "ef-shd_fade-in":8.0,
-              "ef-shd_fade-out":4.0
-            }
+              "icon":{
+                "name":"texture_ve_icon_effect_shader",
+                "blend":"#6CBD0F"
+              },
+              "ef-shd_duration":32.0
+            },
+            "callable":"brush_effect_shader"
           },
           {
             "timestamp":28.800000000000001,
-            "callable":"brush_effect_shader",
             "data":{
+              "ef-shd_fade-in":4.0,
+              "ef-shd_fade-out":4.0,
               "ef-shd_hide":false,
               "ef-shd_hide-merge-cfg":false,
               "ef-shd_merge-cfg":{
@@ -290,21 +291,21 @@
               "ef-shd_pipeline":"BACKGROUND",
               "ef-shd_template":"deep space 1",
               "ef-shd_use-merge-cfg":true,
-              "icon":{
-                "blend":"#07006E",
-                "name":"texture_ve_icon_effect_shader"
-              },
               "hidden":false,
               "ef-shd_alpha":0.84999999999999998,
-              "ef-shd_duration":16.0,
-              "ef-shd_fade-in":4.0,
-              "ef-shd_fade-out":4.0
-            }
+              "icon":{
+                "name":"texture_ve_icon_effect_shader",
+                "blend":"#07006E"
+              },
+              "ef-shd_duration":16.0
+            },
+            "callable":"brush_effect_shader"
           },
           {
             "timestamp":38.399999999999999,
-            "callable":"brush_effect_shader",
             "data":{
+              "ef-shd_fade-in":8.0,
+              "ef-shd_fade-out":8.0,
               "ef-shd_hide":false,
               "ef-shd_hide-merge-cfg":false,
               "ef-shd_merge-cfg":{
@@ -313,208 +314,207 @@
               "ef-shd_pipeline":"BACKGROUND",
               "ef-shd_template":"cloudy sky 1",
               "ef-shd_use-merge-cfg":true,
-              "icon":{
-                "blend":"#009EFF",
-                "name":"texture_ve_icon_effect_shader"
-              },
               "hidden":false,
               "ef-shd_alpha":1.0,
-              "ef-shd_duration":30.0,
-              "ef-shd_fade-in":8.0,
-              "ef-shd_fade-out":8.0
-            }
+              "icon":{
+                "name":"texture_ve_icon_effect_shader",
+                "blend":"#009EFF"
+              },
+              "ef-shd_duration":30.0
+            },
+            "callable":"brush_effect_shader"
           },
           {
             "timestamp":43.200000000000003,
-            "callable":"brush_effect_shader",
             "data":{
+              "ef-shd_fade-in":2.0,
+              "ef-shd_fade-out":2.0,
               "ef-shd_hide":false,
               "ef-shd_hide-merge-cfg":false,
               "ef-shd_merge-cfg":{
-                "u_seed":754.39999999999998,
-                "u_bpm":25.0
+                "u_bpm":25.0,
+                "u_seed":754.39999999999998
               },
               "ef-shd_pipeline":"BACKGROUND",
               "ef-shd_template":"wavy lines 2",
               "ef-shd_use-merge-cfg":true,
-              "icon":{
-                "blend":"#2EFF29",
-                "name":"texture_ve_icon_effect_shader"
-              },
               "hidden":false,
               "ef-shd_alpha":1.0,
-              "ef-shd_duration":6.0,
-              "ef-shd_fade-in":2.0,
-              "ef-shd_fade-out":2.0
-            }
+              "icon":{
+                "name":"texture_ve_icon_effect_shader",
+                "blend":"#2EFF29"
+              },
+              "ef-shd_duration":6.0
+            },
+            "callable":"brush_effect_shader"
           },
           {
             "timestamp":48.0,
-            "callable":"brush_effect_shader",
             "data":{
+              "ef-shd_fade-in":2.0,
+              "ef-shd_fade-out":2.0,
               "ef-shd_hide":false,
               "ef-shd_hide-merge-cfg":false,
               "ef-shd_merge-cfg":{
-                "u_seed":1754.4000000000001,
-                "u_bpm":25.0
+                "u_bpm":25.0,
+                "u_seed":1754.4000000000001
               },
               "ef-shd_pipeline":"BACKGROUND",
               "ef-shd_template":"wavy lines 2",
               "ef-shd_use-merge-cfg":true,
-              "icon":{
-                "blend":"#2EFF29",
-                "name":"texture_ve_icon_effect_shader"
-              },
               "hidden":false,
               "ef-shd_alpha":1.0,
-              "ef-shd_duration":6.0,
-              "ef-shd_fade-in":2.0,
-              "ef-shd_fade-out":2.0
-            }
+              "icon":{
+                "name":"texture_ve_icon_effect_shader",
+                "blend":"#2EFF29"
+              },
+              "ef-shd_duration":6.0
+            },
+            "callable":"brush_effect_shader"
           },
           {
             "timestamp":52.799999999999997,
-            "callable":"brush_effect_shader",
             "data":{
+              "ef-shd_fade-in":2.0,
+              "ef-shd_fade-out":2.0,
               "ef-shd_hide":false,
               "ef-shd_hide-merge-cfg":false,
               "ef-shd_merge-cfg":{
-                "u_seed":1234.4000000000001,
-                "u_bpm":25.0
+                "u_bpm":25.0,
+                "u_seed":1234.4000000000001
               },
               "ef-shd_pipeline":"BACKGROUND",
               "ef-shd_template":"wavy lines 2",
               "ef-shd_use-merge-cfg":true,
-              "icon":{
-                "blend":"#2EFF29",
-                "name":"texture_ve_icon_effect_shader"
-              },
               "hidden":false,
               "ef-shd_alpha":1.0,
-              "ef-shd_duration":6.0,
-              "ef-shd_fade-in":2.0,
-              "ef-shd_fade-out":2.0
-            }
+              "icon":{
+                "name":"texture_ve_icon_effect_shader",
+                "blend":"#2EFF29"
+              },
+              "ef-shd_duration":6.0
+            },
+            "callable":"brush_effect_shader"
           },
           {
             "timestamp":57.600000000000001,
-            "callable":"brush_effect_shader",
             "data":{
+              "ef-shd_fade-in":2.0,
+              "ef-shd_fade-out":2.0,
               "ef-shd_hide":false,
               "ef-shd_hide-merge-cfg":false,
               "ef-shd_merge-cfg":{
-                "u_seed":6834.4000000000005,
-                "u_bpm":25.0
+                "u_bpm":25.0,
+                "u_seed":6834.4000000000005
               },
               "ef-shd_pipeline":"BACKGROUND",
               "ef-shd_template":"wavy lines 2",
               "ef-shd_use-merge-cfg":true,
-              "icon":{
-                "blend":"#2EFF29",
-                "name":"texture_ve_icon_effect_shader"
-              },
               "hidden":false,
               "ef-shd_alpha":1.0,
-              "ef-shd_duration":6.0,
-              "ef-shd_fade-in":2.0,
-              "ef-shd_fade-out":2.0
-            }
+              "icon":{
+                "name":"texture_ve_icon_effect_shader",
+                "blend":"#2EFF29"
+              },
+              "ef-shd_duration":6.0
+            },
+            "callable":"brush_effect_shader"
           },
           {
             "timestamp":62.400000000000006,
-            "callable":"brush_effect_shader",
             "data":{
+              "ef-shd_fade-in":2.0,
+              "ef-shd_fade-out":2.0,
               "ef-shd_hide":false,
               "ef-shd_hide-merge-cfg":false,
               "ef-shd_merge-cfg":{
-                "u_seed":754.39999999999998,
-                "u_bpm":25.0
+                "u_bpm":25.0,
+                "u_seed":754.39999999999998
               },
               "ef-shd_pipeline":"BACKGROUND",
               "ef-shd_template":"wavy lines 2",
               "ef-shd_use-merge-cfg":true,
-              "icon":{
-                "blend":"#2EFF29",
-                "name":"texture_ve_icon_effect_shader"
-              },
               "hidden":false,
               "ef-shd_alpha":1.0,
-              "ef-shd_duration":6.0,
-              "ef-shd_fade-in":2.0,
-              "ef-shd_fade-out":2.0
-            }
+              "icon":{
+                "name":"texture_ve_icon_effect_shader",
+                "blend":"#2EFF29"
+              },
+              "ef-shd_duration":6.0
+            },
+            "callable":"brush_effect_shader"
           },
           {
             "timestamp":67.200000000000003,
-            "callable":"brush_effect_shader",
             "data":{
+              "ef-shd_fade-in":2.0,
+              "ef-shd_fade-out":2.0,
               "ef-shd_hide":false,
               "ef-shd_hide-merge-cfg":false,
               "ef-shd_merge-cfg":{
-                "u_seed":1754.4000000000001,
-                "u_bpm":25.0
+                "u_bpm":25.0,
+                "u_seed":1754.4000000000001
               },
               "ef-shd_pipeline":"BACKGROUND",
               "ef-shd_template":"wavy lines 2",
               "ef-shd_use-merge-cfg":true,
-              "icon":{
-                "blend":"#2EFF29",
-                "name":"texture_ve_icon_effect_shader"
-              },
               "hidden":false,
               "ef-shd_alpha":1.0,
-              "ef-shd_duration":6.0,
-              "ef-shd_fade-in":2.0,
-              "ef-shd_fade-out":2.0
-            }
+              "icon":{
+                "name":"texture_ve_icon_effect_shader",
+                "blend":"#2EFF29"
+              },
+              "ef-shd_duration":6.0
+            },
+            "callable":"brush_effect_shader"
           },
           {
             "timestamp":72.0,
-            "callable":"brush_effect_shader",
             "data":{
+              "ef-shd_fade-in":2.0,
+              "ef-shd_fade-out":2.0,
               "ef-shd_hide":false,
               "ef-shd_hide-merge-cfg":false,
               "ef-shd_merge-cfg":{
-                "u_seed":1234.4000000000001,
-                "u_bpm":25.0
+                "u_bpm":25.0,
+                "u_seed":1234.4000000000001
               },
               "ef-shd_pipeline":"BACKGROUND",
               "ef-shd_template":"wavy lines 2",
               "ef-shd_use-merge-cfg":true,
-              "icon":{
-                "blend":"#2EFF29",
-                "name":"texture_ve_icon_effect_shader"
-              },
               "hidden":false,
               "ef-shd_alpha":1.0,
-              "ef-shd_duration":6.0,
-              "ef-shd_fade-in":2.0,
-              "ef-shd_fade-out":2.0
-            }
+              "icon":{
+                "name":"texture_ve_icon_effect_shader",
+                "blend":"#2EFF29"
+              },
+              "ef-shd_duration":6.0
+            },
+            "callable":"brush_effect_shader"
           },
           {
             "timestamp":76.800000000000011,
-            "callable":"brush_effect_shader",
             "data":{
+              "ef-shd_fade-in":2.0,
+              "ef-shd_fade-out":2.0,
               "ef-shd_hide":false,
               "ef-shd_hide-merge-cfg":false,
               "ef-shd_merge-cfg":{
-                "u_seed":6834.4000000000005,
-                "u_bpm":25.0
+                "u_bpm":25.0,
+                "u_seed":6834.4000000000005
               },
               "ef-shd_pipeline":"BACKGROUND",
               "ef-shd_template":"wavy lines 2",
               "ef-shd_use-merge-cfg":true,
-              "icon":{
-                "blend":"#2EFF29",
-                "name":"texture_ve_icon_effect_shader"
-              },
               "hidden":false,
               "ef-shd_alpha":1.0,
-              "ef-shd_duration":6.0,
-              "ef-shd_fade-in":2.0,
-              "ef-shd_fade-out":2.0
-            }
+              "icon":{
+                "name":"texture_ve_icon_effect_shader",
+                "blend":"#2EFF29"
+              },
+              "ef-shd_duration":6.0
+            },
+            "callable":"brush_effect_shader"
           }
         ],
         "settings":{
@@ -531,93 +531,93 @@
         "events":[
           {
             "timestamp":0.59999999999999998,
-            "callable":"brush_effect_shader",
             "data":{
+              "ef-shd_fade-in":4.0,
+              "ef-shd_fade-out":2.0,
               "ef-shd_hide":false,
               "ef-shd_hide-merge-cfg":false,
               "ef-shd_merge-cfg":{
+                "u_bpm":25.0,
+                "u_angle":90.0,
                 "u_seed":444.0,
                 "u_offset":{
                   "x":{
-                    "value":1.0,
+                    "duration":6.0,
                     "ease":"IN_OUT_SINE",
-                    "target":0.59999999999999998,
-                    "duration":6.0
+                    "value":1.0,
+                    "target":0.59999999999999998
                   }
-                },
-                "u_bpm":25.0,
-                "u_angle":90.0
+                }
               },
               "ef-shd_pipeline":"COMBINED",
               "ef-shd_template":"wavy lines 2",
               "ef-shd_use-merge-cfg":true,
-              "icon":{
-                "blend":"#2EFF29",
-                "name":"texture_ve_icon_effect_shader"
-              },
               "hidden":false,
               "ef-shd_alpha":0.84999999999999998,
-              "ef-shd_duration":15.0,
-              "ef-shd_fade-in":4.0,
-              "ef-shd_fade-out":2.0
-            }
+              "icon":{
+                "name":"texture_ve_icon_effect_shader",
+                "blend":"#2EFF29"
+              },
+              "ef-shd_duration":15.0
+            },
+            "callable":"brush_effect_shader"
           },
           {
             "timestamp":0.80000000000000004,
-            "callable":"brush_effect_shader",
             "data":{
+              "ef-shd_fade-in":6.0,
+              "ef-shd_fade-out":2.0,
               "ef-shd_hide":false,
               "ef-shd_hide-merge-cfg":false,
               "ef-shd_merge-cfg":{
+                "u_bpm":25.0,
+                "u_angle":-90.0,
                 "u_seed":444.0,
                 "u_offset":{
                   "x":{
-                    "value":1.0,
+                    "duration":6.0,
                     "ease":"IN_OUT_SINE",
-                    "target":0.80000000000000004,
-                    "duration":6.0
+                    "value":1.0,
+                    "target":0.80000000000000004
                   }
-                },
-                "u_bpm":25.0,
-                "u_angle":-90.0
+                }
               },
               "ef-shd_pipeline":"COMBINED",
               "ef-shd_template":"wavy lines 2",
               "ef-shd_use-merge-cfg":true,
-              "icon":{
-                "blend":"#2EFF29",
-                "name":"texture_ve_icon_effect_shader"
-              },
               "hidden":false,
               "ef-shd_alpha":0.84999999999999998,
-              "ef-shd_duration":15.199999999999999,
-              "ef-shd_fade-in":6.0,
-              "ef-shd_fade-out":2.0
-            }
+              "icon":{
+                "name":"texture_ve_icon_effect_shader",
+                "blend":"#2EFF29"
+              },
+              "ef-shd_duration":15.199999999999999
+            },
+            "callable":"brush_effect_shader"
           },
           {
             "timestamp":38.399999999999999,
-            "callable":"brush_effect_shader",
             "data":{
+              "ef-shd_fade-in":3.0,
+              "ef-shd_fade-out":2.0,
               "ef-shd_hide":false,
               "ef-shd_hide-merge-cfg":false,
               "ef-shd_merge-cfg":{
-                "u_seed":9734.3999999999996,
-                "u_bpm":25.0
+                "u_bpm":25.0,
+                "u_seed":9734.3999999999996
               },
               "ef-shd_pipeline":"BACKGROUND",
               "ef-shd_template":"wavy lines 2",
               "ef-shd_use-merge-cfg":true,
-              "icon":{
-                "blend":"#2EFF29",
-                "name":"texture_ve_icon_effect_shader"
-              },
               "hidden":false,
               "ef-shd_alpha":1.0,
-              "ef-shd_duration":6.0,
-              "ef-shd_fade-in":3.0,
-              "ef-shd_fade-out":2.0
-            }
+              "icon":{
+                "name":"texture_ve_icon_effect_shader",
+                "blend":"#2EFF29"
+              },
+              "ef-shd_duration":6.0
+            },
+            "callable":"brush_effect_shader"
           }
         ],
         "settings":{
@@ -647,8 +647,9 @@
         "events":[
           {
             "timestamp":0.20000000000000001,
-            "callable":"brush_effect_shader",
             "data":{
+              "ef-shd_fade-in":0.5,
+              "ef-shd_fade-out":2.0,
               "ef-shd_hide":false,
               "ef-shd_hide-merge-cfg":true,
               "ef-shd_merge-cfg":{
@@ -656,21 +657,21 @@
               "ef-shd_pipeline":"COMBINED",
               "ef-shd_template":"CRT 1",
               "ef-shd_use-merge-cfg":false,
-              "icon":{
-                "blend":"#6CCE9E",
-                "name":"texture_ve_icon_effect_shader"
-              },
               "hidden":false,
               "ef-shd_alpha":0.84999999999999998,
-              "ef-shd_duration":8.0,
-              "ef-shd_fade-in":0.5,
-              "ef-shd_fade-out":2.0
-            }
+              "icon":{
+                "name":"texture_ve_icon_effect_shader",
+                "blend":"#6CCE9E"
+              },
+              "ef-shd_duration":8.0
+            },
+            "callable":"brush_effect_shader"
           },
           {
             "timestamp":57.600000000000001,
-            "callable":"brush_effect_shader",
             "data":{
+              "ef-shd_fade-in":2.0,
+              "ef-shd_fade-out":2.0,
               "ef-shd_hide":false,
               "ef-shd_hide-merge-cfg":false,
               "ef-shd_merge-cfg":{
@@ -679,42 +680,41 @@
               "ef-shd_pipeline":"COMBINED",
               "ef-shd_template":"polycular 2",
               "ef-shd_use-merge-cfg":true,
-              "icon":{
-                "blend":"#8D1666",
-                "name":"texture_ve_icon_effect_shader"
-              },
               "hidden":false,
               "ef-shd_alpha":0.75,
-              "ef-shd_duration":18.0,
-              "ef-shd_fade-in":2.0,
-              "ef-shd_fade-out":2.0
-            }
+              "icon":{
+                "name":"texture_ve_icon_effect_shader",
+                "blend":"#8D1666"
+              },
+              "ef-shd_duration":18.0
+            },
+            "callable":"brush_effect_shader"
           },
           {
             "timestamp":76.799999999999997,
-            "callable":"brush_effect_shader",
             "data":{
+              "ef-shd_fade-in":2.0,
+              "ef-shd_fade-out":2.0,
               "ef-shd_hide":false,
               "ef-shd_hide-merge-cfg":false,
               "ef-shd_merge-cfg":{
+                "u_bpm":50.0,
                 "u_time":{
                   "target":-1000.0
-                },
-                "u_bpm":50.0
+                }
               },
               "ef-shd_pipeline":"COMBINED",
               "ef-shd_template":"polycular 2",
               "ef-shd_use-merge-cfg":true,
-              "icon":{
-                "blend":"#8D1666",
-                "name":"texture_ve_icon_effect_shader"
-              },
               "hidden":false,
               "ef-shd_alpha":0.75,
-              "ef-shd_duration":18.0,
-              "ef-shd_fade-in":2.0,
-              "ef-shd_fade-out":2.0
-            }
+              "icon":{
+                "name":"texture_ve_icon_effect_shader",
+                "blend":"#8D1666"
+              },
+              "ef-shd_duration":18.0
+            },
+            "callable":"brush_effect_shader"
           }
         ],
         "settings":{
@@ -783,9 +783,7 @@
         "events":[
           {
             "timestamp":0.0,
-            "callable":"brush_entity_config",
             "data":{
-              "hidden":false,
               "en-cfg_change-z-bullet":true,
               "en-cfg_change-z-coin":false,
               "en-cfg_change-z-player":false,
@@ -799,10 +797,7 @@
               "en-cfg_hide-cls":false,
               "en-cfg_hide-coin":false,
               "en-cfg_hide-player":false,
-              "icon":{
-                "blend":"#00A000",
-                "name":"texture_ve_icon_entity_config"
-              },
+              "hidden":false,
               "en-cfg_hide-render":false,
               "en-cfg_hide-shroom":false,
               "en-cfg_render-bullet":true,
@@ -818,38 +813,43 @@
               "en-cfg_use-z-player":true,
               "en-cfg_use-z-shr":true,
               "en-cfg_z-bullet":{
-                "value":2048.0,
-                "increase":0.0,
                 "duration":0.0,
-                "factor":0.0,
                 "ease":"LINEAR",
+                "increase":0.0,
+                "factor":0.0,
+                "value":2048.0,
                 "target":2048.0
               },
               "en-cfg_z-coin":{
-                "value":2047.0,
-                "increase":0.0,
                 "duration":0.0,
-                "factor":0.0,
                 "ease":"LINEAR",
+                "increase":0.0,
+                "factor":0.0,
+                "value":2047.0,
                 "target":2047.0
               },
               "en-cfg_z-player":{
-                "value":2051.0,
-                "increase":0.0,
                 "duration":0.0,
-                "factor":0.0,
                 "ease":"LINEAR",
+                "increase":0.0,
+                "factor":0.0,
+                "value":2051.0,
                 "target":2051.0
               },
               "en-cfg_z-shr":{
-                "value":2049.0,
-                "increase":0.0,
                 "duration":0.0,
-                "factor":0.0,
                 "ease":"LINEAR",
+                "increase":0.0,
+                "factor":0.0,
+                "value":2049.0,
                 "target":2049.0
+              },
+              "icon":{
+                "name":"texture_ve_icon_entity_config",
+                "blend":"#00A000"
               }
-            }
+            },
+            "callable":"brush_entity_config"
           }
         ],
         "settings":{
@@ -905,155 +905,155 @@
         "events":[
           {
             "timestamp":9.5999999999999996,
-            "callable":"brush_entity_player",
             "data":{
               "en-pl_bullethell":{
                 "x":{
-                  "acceleration":2.0,
                   "speedMax":1.6000000000000001,
+                  "acceleration":2.0,
                   "friction":20.0
                 },
                 "y":{
-                  "acceleration":2.0,
                   "speedMax":1.6000000000000001,
+                  "acceleration":2.0,
                   "friction":20.0
                 },
-                "focusCooldown":0.016,
                 "guns":[
                   {
-                    "offsetY":300.0,
                     "focus":false,
-                    "cooldown":13.6,
                     "angle":93.0,
-                    "bullet":"bullet-player-l",
-                    "speed":50.0,
-                    "offsetX":-240.0
-                  },
-                  {
-                    "offsetY":300.0,
-                    "focus":true,
-                    "cooldown":10.6,
-                    "angle":90.0,
-                    "bullet":"bullet-player",
-                    "speed":75.0,
-                    "offsetX":160.0
-                  },
-                  {
-                    "offsetY":300.0,
-                    "focus":true,
-                    "cooldown":10.6,
-                    "angle":90.0,
-                    "bullet":"bullet-player",
-                    "speed":75.0,
-                    "offsetX":-160.0
-                  },
-                  {
-                    "offsetY":300.0,
-                    "focus":false,
                     "cooldown":13.6,
+                    "offsetX":-240.0,
+                    "offsetY":300.0,
+                    "speed":50.0,
+                    "bullet":"bullet-player-l"
+                  },
+                  {
+                    "focus":true,
+                    "angle":90.0,
+                    "cooldown":10.6,
+                    "offsetX":160.0,
+                    "offsetY":300.0,
+                    "speed":75.0,
+                    "bullet":"bullet-player"
+                  },
+                  {
+                    "focus":true,
+                    "angle":90.0,
+                    "cooldown":10.6,
+                    "offsetX":-160.0,
+                    "offsetY":300.0,
+                    "speed":75.0,
+                    "bullet":"bullet-player"
+                  },
+                  {
+                    "focus":false,
                     "angle":87.0,
-                    "bullet":"bullet-player-r",
+                    "cooldown":13.6,
+                    "offsetX":240.0,
+                    "offsetY":300.0,
                     "speed":50.0,
-                    "offsetX":240.0
+                    "bullet":"bullet-player-r"
                   },
                   {
-                    "offsetY":300.0,
                     "focus":false,
-                    "cooldown":13.6,
                     "angle":120.0,
-                    "minForce":1.0,
-                    "bullet":"bullet-player-l",
-                    "speed":60.0,
-                    "offsetX":-180.0
-                  },
-                  {
-                    "offsetY":300.0,
-                    "focus":false,
                     "cooldown":13.6,
-                    "angle":60.0,
-                    "minForce":1.0,
-                    "bullet":"bullet-player-r",
+                    "offsetX":-180.0,
+                    "offsetY":300.0,
                     "speed":60.0,
-                    "offsetX":200.0
+                    "minForce":1.0,
+                    "bullet":"bullet-player-l"
                   },
                   {
+                    "focus":false,
+                    "angle":60.0,
+                    "cooldown":13.6,
+                    "offsetX":200.0,
                     "offsetY":300.0,
+                    "speed":60.0,
+                    "minForce":1.0,
+                    "bullet":"bullet-player-r"
+                  },
+                  {
                     "focus":true,
-                    "cooldown":10.6,
                     "angle":80.0,
-                    "minForce":1.0,
-                    "bullet":"bullet-player",
+                    "cooldown":10.6,
+                    "offsetX":160.0,
+                    "offsetY":300.0,
                     "speed":75.0,
-                    "offsetX":160.0
+                    "minForce":1.0,
+                    "bullet":"bullet-player"
                   },
                   {
-                    "offsetY":300.0,
                     "focus":true,
-                    "cooldown":10.6,
                     "angle":100.0,
-                    "minForce":1.0,
-                    "bullet":"bullet-player",
+                    "cooldown":10.6,
+                    "offsetX":-160.0,
+                    "offsetY":300.0,
                     "speed":75.0,
-                    "offsetX":-160.0
+                    "minForce":1.0,
+                    "bullet":"bullet-player"
                   }
-                ]
+                ],
+                "focusCooldown":0.016
               },
+              "hidden":false,
               "en-pl_hide":false,
-              "icon":{
-                "blend":"#00A000",
-                "name":"texture_ve_icon_entity_player"
-              },
               "en-pl_hide-cfg":true,
               "en-pl_hide-mask":true,
               "en-pl_hide-stats":true,
               "en-pl_hide-texture":true,
               "en-pl_mask":{
+                "width":52.0,
                 "x":60.0,
                 "y":64.0,
-                "height":52.0,
-                "width":52.0
+                "height":52.0
               },
               "en-pl_reset-pos":true,
               "en-pl_shadow":true,
               "en-pl_stats":{
-                "point":{
+                "force":{
                   "value":0.0,
-                  "minValue":0.0,
-                  "maxValue":9999999.0
+                  "maxValue":250.0,
+                  "minValue":0.0
                 },
                 "life":{
                   "value":4.0,
-                  "minValue":0.0,
-                  "maxValue":10.0
-                },
-                "force":{
-                  "value":0.0,
-                  "minValue":0.0,
-                  "maxValue":250.0
+                  "maxValue":10.0,
+                  "minValue":0.0
                 },
                 "bomb":{
                   "value":5.0,
-                  "minValue":0.0,
-                  "maxValue":10.0
+                  "maxValue":10.0,
+                  "minValue":0.0
+                },
+                "point":{
+                  "value":0.0,
+                  "maxValue":9999999.0,
+                  "minValue":0.0
                 }
               },
               "en-pl_texture":{
-                "angle":0.0,
-                "randomFrame":false,
-                "alpha":1.0,
-                "blend":"#FFFFFF",
                 "name":"texture_player",
-                "speed":13.0,
+                "angle":0.0,
                 "scaleX":3.0,
+                "alpha":1.0,
                 "scaleY":3.0,
+                "speed":13.0,
+                "blend":"#FFFFFF",
+                "randomFrame":false,
                 "frame":0.0,
                 "animate":1.0
               },
               "en-pl_use-bullethell":1.0,
               "en-pl_use-mask":true,
-              "hidden":false,
-              "en-pl_use-stats":true
-            }
+              "en-pl_use-stats":true,
+              "icon":{
+                "name":"texture_ve_icon_entity_player",
+                "blend":"#00A000"
+              }
+            },
+            "callable":"brush_entity_player"
           }
         ],
         "settings":{
@@ -1070,34 +1070,63 @@
         "events":[
           {
             "timestamp":0.0,
-            "callable":"brush_grid_config",
             "data":{
+              "gr-cfg_bpm":100.0,
+              "gr-cfg_bpm-count":8.0,
+              "gr-cfg_bpm-shift":0.0,
+              "gr-cfg_bpm-sub":3.0,
+              "gr-cfg_change-cls-frame-alpha":false,
+              "gr-cfg_change-focus-alpha":false,
+              "gr-cfg_change-focus-color-alpha":false,
+              "gr-cfg_change-focus-grid-alpha":true,
+              "gr-cfg_change-focus-grid-treshold":true,
+              "gr-cfg_change-spd":false,
+              "gr-cfg_change-z":false,
+              "gr-cfg_cls-frame":true,
+              "gr-cfg_cls-frame-alpha":{
+                "duration":0.0,
+                "ease":"LINEAR",
+                "increase":0.0,
+                "factor":0.0,
+                "value":0.0,
+                "target":0.0
+              },
+              "gr-cfg_cls-frame-col":"#FFFFFF",
+              "gr-cfg_cls-frame-col-spd":0.0,
+              "gr-cfg_focus-alpha":{
+                "duration":0.0,
+                "ease":"LEGACY",
+                "increase":0.0,
+                "factor":0.0,
+                "value":0.0,
+                "target":0.0
+              },
               "gr-cfg_focus-col":"#FFFFFF",
               "gr-cfg_focus-col-spd":0.0,
               "gr-cfg_focus-color-alpha":{
-                "value":0.0,
-                "increase":0.0,
                 "duration":0.0,
-                "factor":0.0,
                 "ease":"LEGACY",
+                "increase":0.0,
+                "factor":0.0,
+                "value":0.0,
                 "target":0.0
               },
               "gr-cfg_focus-grid-alpha":{
-                "value":1.0,
-                "increase":0.0,
                 "duration":0.0,
-                "factor":0.0,
                 "ease":"LINEAR",
+                "increase":0.0,
+                "factor":0.0,
+                "value":1.0,
                 "target":1.0
               },
               "gr-cfg_focus-grid-col":"#FFFFFF",
               "gr-cfg_focus-grid-col-spd":0.0,
               "gr-cfg_focus-grid-treshold":{
-                "value":1.0,
-                "increase":0.0,
                 "duration":0.0,
-                "factor":0.0,
                 "ease":"LINEAR",
+                "increase":0.0,
+                "factor":0.0,
+                "value":1.0,
                 "target":1.0
               },
               "gr-cfg_focus-use-col":false,
@@ -1115,7 +1144,6 @@
               "gr-cfg_hide-focus-col":true,
               "gr-cfg_hide-focus-color-alpha":true,
               "gr-cfg_hide-focus-grid":true,
-              "hidden":false,
               "gr-cfg_hide-focus-grid-alpha":true,
               "gr-cfg_hide-focus-grid-col":true,
               "gr-cfg_hide-focus-grid-treshold":true,
@@ -1124,13 +1152,14 @@
               "gr-cfg_hide-grid-spd":false,
               "gr-cfg_hide-grid-z":true,
               "gr-cfg_render":false,
+              "hidden":false,
               "gr-cfg_render-focus-grid":false,
               "gr-cfg_spd":{
-                "value":6.0,
-                "increase":0.0,
                 "duration":0.0,
-                "factor":0.0,
                 "ease":"LINEAR",
+                "increase":0.0,
+                "factor":0.0,
+                "value":6.0,
                 "target":4.0
               },
               "gr-cfg_use-bpm":true,
@@ -1143,54 +1172,25 @@
               "gr-cfg_use-focus-alpha":false,
               "gr-cfg_use-focus-color-alpha":false,
               "gr-cfg_use-focus-grid-alpha":true,
-              "icon":{
-                "blend":"#00A000",
-                "name":"texture_ve_icon_grid_config"
-              },
               "gr-cfg_use-focus-grid-treshold":true,
               "gr-cfg_use-render":true,
               "gr-cfg_use-render-focus-grid":true,
               "gr-cfg_use-spd":true,
               "gr-cfg_use-z":true,
               "gr-cfg_z":{
-                "value":1024.0,
-                "increase":0.0,
                 "duration":0.0,
-                "factor":0.0,
                 "ease":"LINEAR",
+                "increase":0.0,
+                "factor":0.0,
+                "value":1024.0,
                 "target":2045.0
               },
-              "gr-cfg_bpm":100.0,
-              "gr-cfg_bpm-count":8.0,
-              "gr-cfg_bpm-shift":0.0,
-              "gr-cfg_bpm-sub":3.0,
-              "gr-cfg_change-cls-frame-alpha":false,
-              "gr-cfg_change-focus-alpha":false,
-              "gr-cfg_change-focus-color-alpha":false,
-              "gr-cfg_change-focus-grid-alpha":true,
-              "gr-cfg_change-focus-grid-treshold":true,
-              "gr-cfg_change-spd":false,
-              "gr-cfg_change-z":false,
-              "gr-cfg_cls-frame":true,
-              "gr-cfg_cls-frame-alpha":{
-                "value":0.0,
-                "increase":0.0,
-                "duration":0.0,
-                "factor":0.0,
-                "ease":"LINEAR",
-                "target":0.0
-              },
-              "gr-cfg_cls-frame-col":"#FFFFFF",
-              "gr-cfg_cls-frame-col-spd":0.0,
-              "gr-cfg_focus-alpha":{
-                "value":0.0,
-                "increase":0.0,
-                "duration":0.0,
-                "factor":0.0,
-                "ease":"LEGACY",
-                "target":0.0
+              "icon":{
+                "name":"texture_ve_icon_grid_config",
+                "blend":"#00A000"
               }
-            }
+            },
+            "callable":"brush_grid_config"
           }
         ],
         "settings":{
@@ -1207,8 +1207,14 @@
         "events":[
           {
             "timestamp":0.0,
-            "callable":"brush_grid_area",
             "data":{
+              "gr-area_hide-h-col":true,
+              "gr-area_hide-h-length":false,
+              "gr-area_hide-h-size":false,
+              "gr-area_hide-v":true,
+              "gr-area_hide-v-alpha":false,
+              "gr-area_hide-v-col":false,
+              "gr-area_hide-v-length":false,
               "gr-area_hide-v-size":false,
               "gr-area_use-h":true,
               "gr-area_use-h-alpha":true,
@@ -1219,36 +1225,32 @@
               "gr-area_use-v-col":true,
               "gr-area_use-v-size":true,
               "gr-area_v":{
-                "value":10.0,
-                "increase":0.0,
-                "factor":0.0,
                 "duration":0.0,
                 "ease":"LINEAR",
+                "increase":0.0,
+                "factor":0.0,
+                "value":10.0,
                 "target":2.0
               },
               "gr-area_v-alpha":{
-                "value":0.0,
-                "increase":0.0,
-                "factor":0.0,
                 "duration":0.0,
                 "ease":"LINEAR",
+                "increase":0.0,
+                "factor":0.0,
+                "value":0.0,
                 "target":1.0
               },
               "gr-area_v-col":"#FF0000",
               "gr-area_v-col-spd":0.0,
               "gr-area_v-size":{
-                "value":0.0,
-                "increase":0.0,
-                "factor":0.0,
                 "duration":0.0,
                 "ease":"LINEAR",
+                "increase":0.0,
+                "factor":0.0,
+                "value":0.0,
                 "target":5.0
               },
               "hidden":false,
-              "icon":{
-                "blend":"#00A000",
-                "name":"texture_ve_icon_grid_area"
-              },
               "gr-area_change-h":false,
               "gr-area_change-h-alpha":false,
               "gr-area_change-h-size":false,
@@ -1256,46 +1258,50 @@
               "gr-area_change-v-alpha":false,
               "gr-area_change-v-size":false,
               "gr-area_h":{
-                "value":10.0,
-                "increase":0.0,
-                "factor":0.0,
                 "duration":0.0,
                 "ease":"LINEAR",
+                "increase":0.0,
+                "factor":0.0,
+                "value":10.0,
                 "target":2.0
               },
               "gr-area_h-alpha":{
-                "value":0.0,
-                "increase":0.0,
-                "factor":0.0,
                 "duration":0.0,
                 "ease":"LINEAR",
+                "increase":0.0,
+                "factor":0.0,
+                "value":0.0,
                 "target":1.0
               },
               "gr-area_h-col":"#FF0000",
               "gr-area_h-col-spd":0.0,
               "gr-area_h-size":{
-                "value":0.0,
-                "increase":0.0,
-                "factor":0.0,
                 "duration":0.0,
                 "ease":"LINEAR",
+                "increase":0.0,
+                "factor":0.0,
+                "value":0.0,
                 "target":5.0
               },
               "gr-area_hide-h":false,
-              "gr-area_hide-h-alpha":true,
-              "gr-area_hide-h-col":true,
-              "gr-area_hide-h-length":false,
-              "gr-area_hide-h-size":false,
-              "gr-area_hide-v":true,
-              "gr-area_hide-v-alpha":false,
-              "gr-area_hide-v-col":false,
-              "gr-area_hide-v-length":false
-            }
+              "icon":{
+                "name":"texture_ve_icon_grid_area",
+                "blend":"#00A000"
+              },
+              "gr-area_hide-h-alpha":true
+            },
+            "callable":"brush_grid_area"
           },
           {
             "timestamp":28.800000000000001,
-            "callable":"brush_grid_area",
             "data":{
+              "gr-area_hide-h-col":true,
+              "gr-area_hide-h-length":false,
+              "gr-area_hide-h-size":false,
+              "gr-area_hide-v":false,
+              "gr-area_hide-v-alpha":false,
+              "gr-area_hide-v-col":true,
+              "gr-area_hide-v-length":false,
               "gr-area_hide-v-size":false,
               "gr-area_use-h":false,
               "gr-area_use-h-alpha":true,
@@ -1306,36 +1312,32 @@
               "gr-area_use-v-col":false,
               "gr-area_use-v-size":true,
               "gr-area_v":{
-                "value":10.0,
-                "increase":0.0,
-                "factor":0.0,
                 "duration":0.0,
                 "ease":"LINEAR",
+                "increase":0.0,
+                "factor":0.0,
+                "value":10.0,
                 "target":2.0
               },
               "gr-area_v-alpha":{
-                "value":0.0,
-                "increase":0.0,
-                "factor":0.0,
                 "duration":2.0,
                 "ease":"IN_OUT_SINE",
+                "increase":0.0,
+                "factor":0.0,
+                "value":0.0,
                 "target":1.0
               },
               "gr-area_v-col":"#FF0000",
               "gr-area_v-col-spd":0.0,
               "gr-area_v-size":{
-                "value":0.0,
-                "increase":0.0,
-                "factor":0.0,
                 "duration":2.0,
                 "ease":"IN_OUT_SINE",
+                "increase":0.0,
+                "factor":0.0,
+                "value":0.0,
                 "target":32.0
               },
               "hidden":false,
-              "icon":{
-                "blend":"#00A000",
-                "name":"texture_ve_icon_grid_area"
-              },
               "gr-area_change-h":false,
               "gr-area_change-h-alpha":true,
               "gr-area_change-h-size":true,
@@ -1343,41 +1345,39 @@
               "gr-area_change-v-alpha":true,
               "gr-area_change-v-size":true,
               "gr-area_h":{
-                "value":10.0,
-                "increase":0.0,
-                "factor":0.0,
                 "duration":0.0,
                 "ease":"LINEAR",
+                "increase":0.0,
+                "factor":0.0,
+                "value":10.0,
                 "target":2.0
               },
               "gr-area_h-alpha":{
-                "value":0.0,
-                "increase":0.0,
-                "factor":0.0,
                 "duration":2.0,
                 "ease":"IN_OUT_SINE",
+                "increase":0.0,
+                "factor":0.0,
+                "value":0.0,
                 "target":1.0
               },
               "gr-area_h-col":"#FF0000",
               "gr-area_h-col-spd":0.0,
               "gr-area_h-size":{
-                "value":0.0,
-                "increase":0.0,
-                "factor":0.0,
                 "duration":2.0,
                 "ease":"IN_OUT_SINE",
+                "increase":0.0,
+                "factor":0.0,
+                "value":0.0,
                 "target":32.0
               },
               "gr-area_hide-h":true,
-              "gr-area_hide-h-alpha":false,
-              "gr-area_hide-h-col":true,
-              "gr-area_hide-h-length":false,
-              "gr-area_hide-h-size":false,
-              "gr-area_hide-v":false,
-              "gr-area_hide-v-alpha":false,
-              "gr-area_hide-v-col":true,
-              "gr-area_hide-v-length":false
-            }
+              "icon":{
+                "name":"texture_ve_icon_grid_area",
+                "blend":"#00A000"
+              },
+              "gr-area_hide-h-alpha":false
+            },
+            "callable":"brush_grid_area"
           }
         ],
         "settings":{
@@ -1394,14 +1394,13 @@
         "events":[
           {
             "timestamp":0.0,
-            "callable":"brush_grid_column",
             "data":{
               "gr-c_amount":{
-                "value":0.0,
-                "increase":0.0,
-                "factor":0.0,
                 "duration":0.0,
                 "ease":"LINEAR",
+                "increase":0.0,
+                "factor":0.0,
+                "value":0.0,
                 "target":2.0
               },
               "gr-c_change-amount":false,
@@ -1412,76 +1411,82 @@
               "gr-c_hide":false,
               "gr-c_hide-main":false,
               "gr-c_hide-main-alpha":true,
-              "hidden":false,
               "gr-c_hide-main-amount":false,
               "gr-c_hide-main-col":true,
               "gr-c_hide-main-size":true,
-              "gr-c_hide-side":true,
+              "gr-c_hide-main-tx":false,
+              "gr-c_hide-side":false,
               "gr-c_hide-side-alpha":true,
               "gr-c_hide-side-amount":false,
               "gr-c_hide-side-col":true,
               "gr-c_hide-side-size":false,
+              "gr-c_hide-side-tx":false,
               "gr-c_main-alpha":{
-                "value":0.0,
-                "increase":0.0,
-                "factor":0.0,
                 "duration":0.0,
                 "ease":"LINEAR",
+                "increase":0.0,
+                "factor":0.0,
+                "value":0.0,
                 "target":1.0
               },
               "gr-c_main-col":"#0000FF",
               "gr-c_main-col-spd":0.0,
               "gr-c_main-size":{
-                "value":0.0,
-                "increase":0.0,
-                "factor":0.0,
                 "duration":0.0,
                 "ease":"LINEAR",
+                "increase":0.0,
+                "factor":0.0,
+                "value":0.0,
                 "target":5.0
               },
+              "gr-c_main-tx":"SIMPLE",
               "gr-c_mode":"SINGLE",
               "gr-c_side-alpha":{
-                "value":1.0,
-                "increase":0.0,
-                "factor":0.0,
                 "duration":0.0,
                 "ease":"LINEAR",
+                "increase":0.0,
+                "factor":0.0,
+                "value":1.0,
                 "target":1.0
               },
               "gr-c_side-col":"#0000FF",
               "gr-c_side-col-spd":0.0,
               "gr-c_side-size":{
-                "value":5.0,
-                "increase":0.0,
-                "factor":0.0,
                 "duration":0.0,
                 "ease":"LINEAR",
+                "increase":0.0,
+                "factor":0.0,
+                "value":5.0,
                 "target":5.0
               },
+              "gr-c_side-tx":"SIMPLE",
               "gr-c_use-amount":true,
               "gr-c_use-main-alpha":true,
               "gr-c_use-main-col":true,
-              "icon":{
-                "blend":"#00A000",
-                "name":"texture_ve_icon_grid_column"
-              },
               "gr-c_use-main-size":true,
+              "gr-c_use-main-tx":true,
               "gr-c_use-mode":true,
               "gr-c_use-side-alpha":true,
               "gr-c_use-side-col":true,
-              "gr-c_use-side-size":true
-            }
+              "gr-c_use-side-size":true,
+              "gr-c_use-side-tx":true,
+              "hidden":false,
+              "icon":{
+                "name":"texture_ve_icon_grid_column",
+                "blend":"#00A000"
+              }
+            },
+            "callable":"brush_grid_column"
           },
           {
             "timestamp":28.800000000000001,
-            "callable":"brush_grid_column",
             "data":{
               "gr-c_amount":{
-                "value":3.0,
-                "increase":0.0,
-                "factor":0.0,
                 "duration":0.0,
                 "ease":"LINEAR",
+                "increase":0.0,
+                "factor":0.0,
+                "value":3.0,
                 "target":2.0
               },
               "gr-c_change-amount":false,
@@ -1492,7 +1497,6 @@
               "gr-c_hide":false,
               "gr-c_hide-main":false,
               "gr-c_hide-main-alpha":false,
-              "hidden":false,
               "gr-c_hide-main-amount":false,
               "gr-c_hide-main-col":false,
               "gr-c_hide-main-size":false,
@@ -1502,55 +1506,57 @@
               "gr-c_hide-side-col":false,
               "gr-c_hide-side-size":false,
               "gr-c_main-alpha":{
-                "value":0.0,
-                "increase":0.0,
-                "factor":0.0,
                 "duration":2.0,
                 "ease":"IN_OUT_SINE",
+                "increase":0.0,
+                "factor":0.0,
+                "value":0.0,
                 "target":1.0
               },
               "gr-c_main-col":"#1754C1",
               "gr-c_main-col-spd":0.0,
+              "hidden":false,
               "gr-c_main-size":{
-                "value":0.0,
-                "increase":0.0,
-                "factor":0.0,
                 "duration":2.0,
                 "ease":"IN_OUT_SINE",
+                "increase":0.0,
+                "factor":0.0,
+                "value":0.0,
                 "target":6.0
               },
               "gr-c_mode":"SINGLE",
               "gr-c_side-alpha":{
-                "value":0.0,
-                "increase":0.0,
-                "factor":0.0,
                 "duration":2.0,
                 "ease":"IN_OUT_SINE",
+                "increase":0.0,
+                "factor":0.0,
+                "value":0.0,
                 "target":1.0
               },
               "gr-c_side-col":"#1754C1",
               "gr-c_side-col-spd":0.0,
               "gr-c_side-size":{
-                "value":0.0,
-                "increase":0.0,
-                "factor":0.0,
                 "duration":2.0,
                 "ease":"IN_OUT_SINE",
+                "increase":0.0,
+                "factor":0.0,
+                "value":0.0,
                 "target":6.0
               },
               "gr-c_use-amount":true,
               "gr-c_use-main-alpha":true,
               "gr-c_use-main-col":true,
-              "icon":{
-                "blend":"#00A000",
-                "name":"texture_ve_icon_grid_column"
-              },
               "gr-c_use-main-size":true,
               "gr-c_use-mode":false,
               "gr-c_use-side-alpha":true,
               "gr-c_use-side-col":true,
-              "gr-c_use-side-size":true
-            }
+              "gr-c_use-side-size":true,
+              "icon":{
+                "name":"texture_ve_icon_grid_column",
+                "blend":"#00A000"
+              }
+            },
+            "callable":"brush_grid_column"
           }
         ],
         "settings":{
@@ -1567,70 +1573,7 @@
         "events":[
           {
             "timestamp":0.0,
-            "callable":"brush_grid_row",
             "data":{
-              "gr-r_hide-side-col":true,
-              "gr-r_hide-side-size":false,
-              "gr-r_main-alpha":{
-                "value":0.0,
-                "increase":0.0,
-                "factor":0.0,
-                "duration":0.0,
-                "ease":"LINEAR",
-                "target":1.0
-              },
-              "gr-r_main-col":"#FF00FF",
-              "gr-r_main-col-spd":0.0,
-              "gr-r_main-size":{
-                "value":0.0,
-                "increase":0.0,
-                "factor":0.0,
-                "duration":0.0,
-                "ease":"LINEAR",
-                "target":5.0
-              },
-              "gr-r_mode":"SINGLE",
-              "gr-r_side-alpha":{
-                "value":0.0,
-                "increase":0.0,
-                "factor":0.0,
-                "duration":0.0,
-                "ease":"LINEAR",
-                "target":1.0
-              },
-              "gr-r_side-col":"#FF00FF",
-              "gr-r_side-col-spd":0.0,
-              "gr-r_side-size":{
-                "value":0.0,
-                "increase":0.0,
-                "factor":0.0,
-                "duration":0.0,
-                "ease":"LINEAR",
-                "target":5.0
-              },
-              "gr-r_use-amount":true,
-              "gr-r_use-main-alpha":true,
-              "gr-r_use-main-col":true,
-              "gr-r_use-main-size":true,
-              "gr-r_use-mode":true,
-              "gr-r_use-side-alpha":true,
-              "gr-r_use-side-col":true,
-              "gr-r_use-side-size":true,
-              "hidden":false,
-              "icon":{
-                "blend":"#00A000",
-                "name":"texture_ve_icon_grid_row"
-              },
-              "gr-r_amount":{
-                "value":0.0,
-                "increase":0.0,
-                "factor":0.0,
-                "duration":0.0,
-                "ease":"LINEAR",
-                "target":2.0
-              },
-              "gr-r_change-amount":false,
-              "gr-r_change-main-alpha":false,
               "gr-r_change-main-size":false,
               "gr-r_change-side-alpha":false,
               "gr-r_change-side-size":false,
@@ -1641,77 +1584,83 @@
               "gr-r_hide-main-amount":false,
               "gr-r_hide-main-col":false,
               "gr-r_hide-main-size":false,
+              "gr-r_hide-main-tx":false,
               "gr-r_hide-side":true,
               "gr-r_hide-side-alpha":false,
-              "gr-r_hide-side-amount":false
-            }
-          },
-          {
-            "timestamp":28.800000000000001,
-            "callable":"brush_grid_row",
-            "data":{
-              "gr-r_hide-side-col":false,
+              "gr-r_hide-side-amount":false,
+              "gr-r_hide-side-col":true,
               "gr-r_hide-side-size":false,
+              "gr-r_hide-side-tx":false,
               "gr-r_main-alpha":{
-                "value":0.0,
+                "duration":0.0,
+                "ease":"LINEAR",
                 "increase":0.0,
                 "factor":0.0,
-                "duration":2.0,
-                "ease":"IN_OUT_SINE",
-                "target":0.75
+                "value":0.0,
+                "target":1.0
               },
-              "gr-r_main-col":"#1754C1",
+              "gr-r_main-col":"#FF00FF",
               "gr-r_main-col-spd":0.0,
               "gr-r_main-size":{
-                "value":0.0,
+                "duration":0.0,
+                "ease":"LINEAR",
                 "increase":0.0,
                 "factor":0.0,
-                "duration":2.0,
-                "ease":"IN_OUT_SINE",
-                "target":6.0
+                "value":0.0,
+                "target":5.0
               },
-              "gr-r_mode":"DUAL",
+              "gr-r_main-tx":"SIMPLE",
+              "gr-r_mode":"SINGLE",
               "gr-r_side-alpha":{
-                "value":0.0,
+                "duration":0.0,
+                "ease":"LINEAR",
                 "increase":0.0,
                 "factor":0.0,
-                "duration":2.0,
-                "ease":"IN_OUT_SINE",
-                "target":0.75
+                "value":0.0,
+                "target":1.0
               },
-              "gr-r_side-col":"#1754C1",
+              "gr-r_side-col":"#FF00FF",
               "gr-r_side-col-spd":0.0,
               "gr-r_side-size":{
-                "value":0.0,
+                "duration":0.0,
+                "ease":"LINEAR",
                 "increase":0.0,
                 "factor":0.0,
-                "duration":2.0,
-                "ease":"IN_OUT_SINE",
-                "target":6.0
+                "value":0.0,
+                "target":5.0
               },
+              "gr-r_side-tx":"SIMPLE",
               "gr-r_use-amount":true,
               "gr-r_use-main-alpha":true,
               "gr-r_use-main-col":true,
               "gr-r_use-main-size":true,
-              "gr-r_use-mode":false,
+              "gr-r_use-main-tx":true,
+              "gr-r_use-mode":true,
               "gr-r_use-side-alpha":true,
               "gr-r_use-side-col":true,
               "gr-r_use-side-size":true,
+              "gr-r_use-side-tx":true,
               "hidden":false,
-              "icon":{
-                "blend":"#00A000",
-                "name":"texture_ve_icon_grid_row"
-              },
               "gr-r_amount":{
-                "value":1.5,
-                "increase":0.0,
-                "factor":0.0,
                 "duration":0.0,
                 "ease":"LINEAR",
+                "increase":0.0,
+                "factor":0.0,
+                "value":0.0,
                 "target":2.0
               },
               "gr-r_change-amount":false,
-              "gr-r_change-main-alpha":true,
+              "icon":{
+                "name":"texture_ve_icon_grid_row",
+                "blend":"#00A000"
+              },
+              "gr-r_change-main-alpha":false
+            },
+            "callable":"brush_grid_row"
+          },
+          {
+            "timestamp":28.800000000000001,
+            "data":{
               "gr-r_change-main-size":true,
               "gr-r_change-side-alpha":true,
               "gr-r_change-side-size":true,
@@ -1724,8 +1673,71 @@
               "gr-r_hide-main-size":false,
               "gr-r_hide-side":false,
               "gr-r_hide-side-alpha":false,
-              "gr-r_hide-side-amount":false
-            }
+              "gr-r_hide-side-amount":false,
+              "gr-r_hide-side-col":false,
+              "gr-r_hide-side-size":false,
+              "gr-r_main-alpha":{
+                "duration":2.0,
+                "ease":"IN_OUT_SINE",
+                "increase":0.0,
+                "factor":0.0,
+                "value":0.0,
+                "target":0.75
+              },
+              "gr-r_main-col":"#1754C1",
+              "gr-r_main-col-spd":0.0,
+              "gr-r_main-size":{
+                "duration":2.0,
+                "ease":"IN_OUT_SINE",
+                "increase":0.0,
+                "factor":0.0,
+                "value":0.0,
+                "target":6.0
+              },
+              "gr-r_mode":"DUAL",
+              "gr-r_side-alpha":{
+                "duration":2.0,
+                "ease":"IN_OUT_SINE",
+                "increase":0.0,
+                "factor":0.0,
+                "value":0.0,
+                "target":0.75
+              },
+              "gr-r_side-col":"#1754C1",
+              "gr-r_side-col-spd":0.0,
+              "gr-r_side-size":{
+                "duration":2.0,
+                "ease":"IN_OUT_SINE",
+                "increase":0.0,
+                "factor":0.0,
+                "value":0.0,
+                "target":6.0
+              },
+              "gr-r_use-amount":true,
+              "gr-r_use-main-alpha":true,
+              "gr-r_use-main-col":true,
+              "gr-r_use-main-size":true,
+              "gr-r_use-mode":false,
+              "gr-r_use-side-alpha":true,
+              "gr-r_use-side-col":true,
+              "gr-r_use-side-size":true,
+              "hidden":false,
+              "gr-r_amount":{
+                "duration":0.0,
+                "ease":"LINEAR",
+                "increase":0.0,
+                "factor":0.0,
+                "value":1.5,
+                "target":2.0
+              },
+              "gr-r_change-amount":false,
+              "icon":{
+                "name":"texture_ve_icon_grid_row",
+                "blend":"#00A000"
+              },
+              "gr-r_change-main-alpha":true
+            },
+            "callable":"brush_grid_row"
           }
         ],
         "settings":{
@@ -1742,36 +1754,7 @@
         "events":[
           {
             "timestamp":0.0,
-            "callable":"brush_view_config",
             "data":{
-              "vw-cfg_render-video":true,
-              "vw-cfg_render-video-after":true,
-              "vw-cfg_use-render-hud":true,
-              "vw-cfg_use-render-subtitle":true,
-              "vw-cfg_use-render-video":true,
-              "vw-cfg_use-render-video-after":true,
-              "vw-cfg_use-video-alpha":true,
-              "vw-cfg_video-alpha":{
-                "value":0.0,
-                "increase":0.0,
-                "factor":0.0,
-                "duration":0.0,
-                "ease":"LINEAR",
-                "target":0.0
-              },
-              "vw-cfg_video-blend-col":"#FFFFFF",
-              "vw-cfg_video-blend-col-spd":0.0,
-              "vw-cfg_video-blend-dest":"INV_SRC_ALPHA",
-              "vw-cfg_video-blend-eq":"ADD",
-              "vw-cfg_video-blend-eq-alpha":"ADD",
-              "vw-cfg_video-blend-src":"SRC_ALPHA",
-              "vw-cfg_video-use-blend":true,
-              "vw-cfg_video-use-blend-col":true,
-              "hidden":false,
-              "icon":{
-                "blend":"#00A000",
-                "name":"texture_ve_icon_view_config"
-              },
               "vw-cfg_change-video-alpha":true,
               "vw-cfg_cls-bkg-col":true,
               "vw-cfg_cls-bkg-texture":true,
@@ -1782,11 +1765,40 @@
               "vw-cfg_hide-render":true,
               "vw-cfg_hide-video":true,
               "vw-cfg_hide-video-alpha":false,
+              "hidden":false,
               "vw-cfg_hide-video-blend":false,
               "vw-cfg_hide-video-col":false,
               "vw-cfg_render-hud":false,
-              "vw-cfg_render-subtitle":true
-            }
+              "vw-cfg_render-subtitle":true,
+              "vw-cfg_render-video":true,
+              "vw-cfg_render-video-after":true,
+              "vw-cfg_use-render-hud":true,
+              "vw-cfg_use-render-subtitle":true,
+              "vw-cfg_use-render-video":true,
+              "vw-cfg_use-render-video-after":true,
+              "vw-cfg_use-video-alpha":true,
+              "vw-cfg_video-alpha":{
+                "duration":0.0,
+                "ease":"LINEAR",
+                "increase":0.0,
+                "factor":0.0,
+                "value":0.0,
+                "target":0.0
+              },
+              "vw-cfg_video-blend-col":"#FFFFFF",
+              "vw-cfg_video-blend-col-spd":0.0,
+              "vw-cfg_video-blend-dest":"INV_SRC_ALPHA",
+              "vw-cfg_video-blend-eq":"ADD",
+              "vw-cfg_video-blend-eq-alpha":"ADD",
+              "vw-cfg_video-blend-src":"SRC_ALPHA",
+              "vw-cfg_video-use-blend":true,
+              "vw-cfg_video-use-blend-col":true,
+              "icon":{
+                "name":"texture_ve_icon_view_config",
+                "blend":"#00A000"
+              }
+            },
+            "callable":"brush_view_config"
           }
         ],
         "settings":{
@@ -1803,13 +1815,7 @@
         "events":[
           {
             "timestamp":0.0,
-            "callable":"brush_view_camera",
             "data":{
-              "hidden":false,
-              "icon":{
-                "blend":"#00A000",
-                "name":"texture_ve_icon_view_camera"
-              },
               "vw-cam_change-dir":false,
               "vw-cam_change-move-angle":false,
               "vw-cam_change-move-speed":false,
@@ -1818,11 +1824,11 @@
               "vw-cam_change-y":false,
               "vw-cam_change-z":false,
               "vw-cam_dir":{
-                "value":270.0,
-                "increase":0.0,
-                "factor":0.0,
                 "duration":0.0,
                 "ease":"LINEAR",
+                "increase":0.0,
+                "factor":0.0,
+                "value":270.0,
                 "target":270.0
               },
               "vw-cam_follow":false,
@@ -1839,27 +1845,27 @@
               "vw-cam_lock-x":false,
               "vw-cam_lock-y":false,
               "vw-cam_move-angle":{
-                "value":0.0,
-                "increase":0.0,
-                "factor":0.0,
                 "duration":0.0,
                 "ease":"LEGACY",
+                "increase":0.0,
+                "factor":0.0,
+                "value":0.0,
                 "target":0.0
               },
               "vw-cam_move-speed":{
-                "value":0.0,
-                "increase":0.0,
-                "factor":0.0,
                 "duration":0.0,
                 "ease":"LEGACY",
+                "increase":0.0,
+                "factor":0.0,
+                "value":0.0,
                 "target":0.0
               },
               "vw-cam_pitch":{
-                "value":-45.0,
-                "increase":0.0,
-                "factor":0.0,
                 "duration":0.0,
                 "ease":"LINEAR",
+                "increase":0.0,
+                "factor":0.0,
+                "value":-45.0,
                 "target":-35.0
               },
               "vw-cam_reset-follow":true,
@@ -1876,40 +1882,40 @@
               "vw-cam_use-y":true,
               "vw-cam_use-z":true,
               "vw-cam_x":{
-                "value":4096.0,
-                "increase":0.0,
-                "factor":0.0,
                 "duration":0.0,
                 "ease":"LINEAR",
+                "increase":0.0,
+                "factor":0.0,
+                "value":4096.0,
                 "target":4096.0
               },
               "vw-cam_y":{
-                "value":8500.0,
-                "increase":0.0,
-                "factor":0.0,
                 "duration":0.0,
                 "ease":"LINEAR",
+                "increase":0.0,
+                "factor":0.0,
+                "value":8500.0,
                 "target":5356.0
               },
               "vw-cam_z":{
-                "value":8500.0,
-                "increase":0.0,
-                "factor":0.0,
                 "duration":0.0,
                 "ease":"LINEAR",
+                "increase":0.0,
+                "factor":0.0,
+                "value":8500.0,
                 "target":5000.0
+              },
+              "hidden":false,
+              "icon":{
+                "name":"texture_ve_icon_view_camera",
+                "blend":"#00A000"
               }
-            }
+            },
+            "callable":"brush_view_camera"
           },
           {
             "timestamp":28.800000000000001,
-            "callable":"brush_view_camera",
             "data":{
-              "hidden":false,
-              "icon":{
-                "blend":"#00A000",
-                "name":"texture_ve_icon_view_camera"
-              },
               "vw-cam_change-dir":false,
               "vw-cam_change-move-angle":false,
               "vw-cam_change-move-speed":false,
@@ -1918,11 +1924,11 @@
               "vw-cam_change-y":false,
               "vw-cam_change-z":false,
               "vw-cam_dir":{
-                "value":270.0,
-                "increase":0.0,
-                "factor":0.0,
                 "duration":0.0,
                 "ease":"LINEAR",
+                "increase":0.0,
+                "factor":0.0,
+                "value":270.0,
                 "target":270.0
               },
               "vw-cam_follow":false,
@@ -1939,27 +1945,27 @@
               "vw-cam_lock-x":true,
               "vw-cam_lock-y":false,
               "vw-cam_move-angle":{
-                "value":0.0,
-                "increase":0.0,
-                "factor":0.0,
                 "duration":0.0,
                 "ease":"LEGACY",
+                "increase":0.0,
+                "factor":0.0,
+                "value":0.0,
                 "target":0.0
               },
               "vw-cam_move-speed":{
-                "value":0.0,
-                "increase":0.0,
-                "factor":0.0,
                 "duration":0.0,
                 "ease":"LEGACY",
+                "increase":0.0,
+                "factor":0.0,
+                "value":0.0,
                 "target":0.0
               },
               "vw-cam_pitch":{
-                "value":-45.0,
-                "increase":0.0,
-                "factor":0.0,
                 "duration":0.0,
                 "ease":"LINEAR",
+                "increase":0.0,
+                "factor":0.0,
+                "value":-45.0,
                 "target":-35.0
               },
               "vw-cam_reset-follow":false,
@@ -1976,30 +1982,36 @@
               "vw-cam_use-y":false,
               "vw-cam_use-z":false,
               "vw-cam_x":{
-                "value":4096.0,
-                "increase":0.0,
-                "factor":0.0,
                 "duration":0.0,
                 "ease":"LINEAR",
+                "increase":0.0,
+                "factor":0.0,
+                "value":4096.0,
                 "target":4096.0
               },
               "vw-cam_y":{
-                "value":9000.0,
-                "increase":0.0,
-                "factor":0.0,
                 "duration":0.0,
                 "ease":"LINEAR",
+                "increase":0.0,
+                "factor":0.0,
+                "value":9000.0,
                 "target":5356.0
               },
               "vw-cam_z":{
-                "value":9000.0,
-                "increase":0.0,
-                "factor":0.0,
                 "duration":0.0,
                 "ease":"LINEAR",
+                "increase":0.0,
+                "factor":0.0,
+                "value":9000.0,
                 "target":5000.0
+              },
+              "hidden":false,
+              "icon":{
+                "name":"texture_ve_icon_view_camera",
+                "blend":"#00A000"
               }
-            }
+            },
+            "callable":"brush_view_camera"
           }
         ],
         "settings":{
@@ -2016,26 +2028,23 @@
         "events":[
           {
             "timestamp":0.0,
-            "callable":"brush_view_layer",
             "data":{
-              "vw-layer_blend-dest":"INV_SRC_ALPHA",
               "vw-layer_blend-eq":"ADD",
               "vw-layer_blend-eq-alpha":"ADD",
               "vw-layer_blend-src":"SRC_ALPHA",
               "vw-layer_change-dir":true,
               "vw-layer_change-scale-x":true,
               "vw-layer_change-scale-y":true,
-              "hidden":false,
               "vw-layer_change-spd":true,
               "vw-layer_cls-col":true,
               "vw-layer_cls-texture":true,
               "vw-layer_col":"#000000",
               "vw-layer_dir":{
-                "value":0.0,
-                "increase":0.0,
-                "factor":0.0,
                 "duration":0.0,
                 "ease":"LINEAR",
+                "increase":0.0,
+                "factor":0.0,
+                "value":0.0,
                 "target":0.0
               },
               "vw-layer_fade-in":0.0,
@@ -2052,42 +2061,38 @@
               "vw-layer_hide-tx-scale-y":true,
               "vw-layer_hide-tx-spd":true,
               "vw-layer_scale-x":{
-                "value":1.0,
-                "increase":0.0,
-                "factor":0.0,
                 "duration":0.0,
                 "ease":"LINEAR",
+                "increase":0.0,
+                "factor":0.0,
+                "value":1.0,
                 "target":1.0
               },
-              "icon":{
-                "blend":"#FF0060",
-                "name":"texture_ve_icon_view_layer"
-              },
               "vw-layer_scale-y":{
-                "value":1.0,
-                "increase":0.0,
-                "factor":0.0,
                 "duration":0.0,
                 "ease":"LINEAR",
+                "increase":0.0,
+                "factor":0.0,
+                "value":1.0,
                 "target":1.0
               },
               "vw-layer_spd":{
-                "value":0.0,
-                "increase":0.0,
-                "factor":0.0,
                 "duration":0.0,
                 "ease":"LINEAR",
+                "increase":0.0,
+                "factor":0.0,
+                "value":0.0,
                 "target":0.0
               },
               "vw-layer_texture":{
-                "angle":0.0,
-                "randomFrame":false,
-                "alpha":1.0,
-                "blend":"#FFFFFF",
                 "name":"texture_missing",
-                "speed":30.0,
+                "angle":0.0,
                 "scaleX":1.0,
+                "alpha":1.0,
                 "scaleY":1.0,
+                "speed":30.0,
+                "blend":"#FFFFFF",
+                "randomFrame":false,
                 "frame":0.0,
                 "animate":false
               },
@@ -2105,8 +2110,15 @@
               "vw-layer_use-texture":false,
               "vw-layer_use-texture-blend":true,
               "vw-layer_use-texture-replace":true,
-              "vw-layer_use-texture-tiled":true
-            }
+              "vw-layer_use-texture-tiled":true,
+              "hidden":false,
+              "vw-layer_blend-dest":"INV_SRC_ALPHA",
+              "icon":{
+                "name":"texture_ve_icon_view_layer",
+                "blend":"#FF0060"
+              }
+            },
+            "callable":"brush_view_layer"
           }
         ],
         "settings":{
@@ -2136,37 +2148,16 @@
         "events":[
           {
             "timestamp":4.8000000000000007,
-            "callable":"brush_view_subtitle",
             "data":{
-              "vw-sub_char-spd":0.059999999999999998,
-              "vw-sub_col":"#181818",
-              "vw-sub_dir":{
-                "value":320.0,
-                "increase":0.0,
-                "factor":0.40000000000000002,
-                "duration":1.6666666666666667,
-                "ease":"LEGACY",
-                "target":280.0
-              },
-              "vw-sub_end-delay":9.0,
-              "vw-sub_fade-in":0.5,
-              "vw-sub_fade-out":0.5,
-              "vw-sub_fh":72.0,
-              "vw-sub_font":"font_kodeo_mono_48_bold",
-              "vw-sub_h":0.20000000000000001,
-              "vw-sub_hide":false,
-              "vw-sub_hide-area":false,
-              "vw-sub_hide-dir":false,
-              "vw-sub_hide-font":false,
               "vw-sub_hide-spd":false,
               "vw-sub_nl-delay":0.5,
               "vw-sub_outline":"#F914FF",
               "vw-sub_spd":{
-                "value":2.0,
-                "increase":0.00050000000000000001,
-                "factor":0.0016000000000000001,
                 "duration":18.229166666666668,
                 "ease":"LEGACY",
+                "increase":0.00050000000000000001,
+                "factor":0.0016000000000000001,
+                "value":2.0,
                 "target":0.25
               },
               "vw-sub_template":"subtitle-artist-name",
@@ -2181,49 +2172,49 @@
               "vw-sub_w":1.0,
               "vw-sub_x":0.14999999999999999,
               "vw-sub_y":0.35999999999999999,
-              "icon":{
-                "blend":"#F998FF",
-                "name":"texture_ve_icon_view"
-              },
               "vw-sub_align-h":"LEFT",
               "vw-sub_align-v":"BOTTOM",
               "vw-sub_change-dir":false,
-              "vw-sub_change-spd":true
-            }
-          },
-          {
-            "timestamp":4.8000000000000007,
-            "callable":"brush_view_subtitle",
-            "data":{
-              "vw-sub_char-spd":0.087999999999999995,
-              "vw-sub_col":"#F914FF",
+              "vw-sub_change-spd":true,
+              "vw-sub_char-spd":0.059999999999999998,
+              "vw-sub_col":"#181818",
               "vw-sub_dir":{
-                "value":320.0,
-                "increase":0.0,
-                "factor":0.40000000000000002,
                 "duration":1.6666666666666667,
                 "ease":"LEGACY",
+                "increase":0.0,
+                "factor":0.40000000000000002,
+                "value":320.0,
                 "target":280.0
               },
-              "vw-sub_end-delay":8.75,
+              "vw-sub_end-delay":9.0,
               "vw-sub_fade-in":0.5,
               "vw-sub_fade-out":0.5,
               "vw-sub_fh":72.0,
-              "vw-sub_font":"font_kodeo_mono_28_bold",
-              "vw-sub_h":0.40000000000000002,
+              "vw-sub_font":"font_kodeo_mono_48_bold",
+              "vw-sub_h":0.20000000000000001,
               "vw-sub_hide":false,
               "vw-sub_hide-area":false,
               "vw-sub_hide-dir":false,
               "vw-sub_hide-font":false,
+              "icon":{
+                "name":"texture_ve_icon_view",
+                "blend":"#F998FF"
+              }
+            },
+            "callable":"brush_view_subtitle"
+          },
+          {
+            "timestamp":4.8000000000000007,
+            "data":{
               "vw-sub_hide-spd":false,
               "vw-sub_nl-delay":0.5,
               "vw-sub_outline":"#181818",
               "vw-sub_spd":{
-                "value":2.0,
-                "increase":0.00050000000000000001,
-                "factor":0.0016000000000000001,
                 "duration":18.229166666666668,
                 "ease":"LEGACY",
+                "increase":0.00050000000000000001,
+                "factor":0.0016000000000000001,
+                "value":2.0,
                 "target":0.25
               },
               "vw-sub_template":"subtitle-track-name",
@@ -2238,15 +2229,36 @@
               "vw-sub_w":1.0,
               "vw-sub_x":0.14999999999999999,
               "vw-sub_y":0.56000000000000005,
-              "icon":{
-                "blend":"#F914FF",
-                "name":"texture_ve_icon_view"
-              },
               "vw-sub_align-h":"LEFT",
               "vw-sub_align-v":"TOP",
               "vw-sub_change-dir":false,
-              "vw-sub_change-spd":true
-            }
+              "vw-sub_change-spd":true,
+              "vw-sub_char-spd":0.087999999999999995,
+              "vw-sub_col":"#F914FF",
+              "vw-sub_dir":{
+                "duration":1.6666666666666667,
+                "ease":"LEGACY",
+                "increase":0.0,
+                "factor":0.40000000000000002,
+                "value":320.0,
+                "target":280.0
+              },
+              "vw-sub_end-delay":8.75,
+              "vw-sub_fade-in":0.5,
+              "vw-sub_fade-out":0.5,
+              "vw-sub_fh":72.0,
+              "vw-sub_font":"font_kodeo_mono_28_bold",
+              "vw-sub_h":0.40000000000000002,
+              "vw-sub_hide":false,
+              "vw-sub_hide-area":false,
+              "vw-sub_hide-dir":false,
+              "vw-sub_hide-font":false,
+              "icon":{
+                "name":"texture_ve_icon_view",
+                "blend":"#F914FF"
+              }
+            },
+            "callable":"brush_view_subtitle"
           }
         ],
         "settings":{

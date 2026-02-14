@@ -2,7 +2,8 @@
   "model":"Collection<io.alkapivo.core.service.sound.SoundIntent>",
   "data":{
     "sound_external":{
-      "file":"Schnoopy - Sightseeing.ogg"
+      "file":"Schnoopy - Sightseeing.ogg",
+      "waveform":null
     }
   },
   "version":"1"

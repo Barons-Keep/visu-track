@@ -1,38 +1,38 @@
 {
-  "version":"1",
-  "model":"Collection<io.alkapivo.core.service.texture.TextureIntent>",
   "data":{
     "texture_241026_a2":{
-      "frames":1.0,
-      "prefetch":true,
       "file":"texture/texture_241026_a2.png",
-      "name":"texture_241026_a2",
+      "prefetch":true,
+      "frames":1.0,
       "originX":0.0,
+      "name":"texture_241026_a2",
       "originY":0.0
     },
     "texture_241026_a3":{
-      "frames":1.0,
-      "prefetch":true,
       "file":"texture/texture_241026_a3.png",
-      "name":"texture_241026_a3",
+      "prefetch":true,
+      "frames":1.0,
       "originX":0.0,
+      "name":"texture_241026_a3",
       "originY":0.0
     },
     "texture_241026_a4":{
-      "frames":1.0,
-      "prefetch":true,
       "file":"texture/texture_241026_a4.png",
-      "name":"texture_241026_a4",
+      "prefetch":true,
+      "frames":1.0,
       "originX":0.0,
+      "name":"texture_241026_a4",
       "originY":0.0
     },
     "texture_241026_a1":{
-      "frames":1.0,
-      "prefetch":true,
       "file":"texture/texture_241026_a1.png",
-      "name":"texture_241026_a1",
+      "prefetch":true,
+      "frames":1.0,
       "originX":0.0,
+      "name":"texture_241026_a1",
       "originY":0.0
     }
-  }
+  },
+  "model":"Collection<io.alkapivo.core.service.texture.TextureIntent>",
+  "version":"1"
 }

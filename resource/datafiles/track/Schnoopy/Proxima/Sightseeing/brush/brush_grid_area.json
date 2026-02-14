@@ -2,11 +2,17 @@
   "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>",
   "data":[
     {
+      "name":"empty",
       "type":"brush_grid_area",
       "texture":"texture_ve_icon_grid_area",
-      "hidden":true,
-      "name":"empty",
+      "color":"#0080FF",
       "properties":{
+        "gr-area_hide-h-length":true,
+        "gr-area_hide-h-size":true,
+        "gr-area_hide-v":false,
+        "gr-area_hide-v-alpha":true,
+        "gr-area_hide-v-col":true,
+        "gr-area_hide-v-length":true,
         "gr-area_hide-v-size":true,
         "gr-area_use-h":false,
         "gr-area_use-h-alpha":false,
@@ -17,29 +23,29 @@
         "gr-area_use-v-col":false,
         "gr-area_use-v-size":false,
         "gr-area_v":{
-          "value":2.0,
-          "increase":0.0,
-          "factor":0.0,
           "duration":0.0,
           "ease":"LINEAR",
+          "increase":0.0,
+          "factor":0.0,
+          "value":2.0,
           "target":2.0
         },
         "gr-area_v-alpha":{
-          "value":1.0,
-          "increase":0.0,
-          "factor":0.0,
           "duration":0.0,
           "ease":"LINEAR",
+          "increase":0.0,
+          "factor":0.0,
+          "value":1.0,
           "target":1.0
         },
         "gr-area_v-col":"#FF0000",
         "gr-area_v-col-spd":0.0,
         "gr-area_v-size":{
-          "value":5.0,
-          "increase":0.0,
-          "factor":0.0,
           "duration":0.0,
           "ease":"LINEAR",
+          "increase":0.0,
+          "factor":0.0,
+          "value":5.0,
           "target":5.0
         },
         "gr-area_change-h":false,
@@ -49,49 +55,49 @@
         "gr-area_change-v-alpha":false,
         "gr-area_change-v-size":false,
         "gr-area_h":{
-          "value":2.0,
-          "increase":0.0,
-          "factor":0.0,
           "duration":0.0,
           "ease":"LINEAR",
+          "increase":0.0,
+          "factor":0.0,
+          "value":2.0,
           "target":2.0
         },
         "gr-area_h-alpha":{
-          "value":1.0,
-          "increase":0.0,
-          "factor":0.0,
           "duration":0.0,
           "ease":"LINEAR",
+          "increase":0.0,
+          "factor":0.0,
+          "value":1.0,
           "target":1.0
         },
         "gr-area_h-col":"#FF0000",
         "gr-area_h-col-spd":0.0,
         "gr-area_h-size":{
-          "value":5.0,
-          "increase":0.0,
-          "factor":0.0,
           "duration":0.0,
           "ease":"LINEAR",
+          "increase":0.0,
+          "factor":0.0,
+          "value":5.0,
           "target":5.0
         },
         "gr-area_hide-h":true,
         "gr-area_hide-h-alpha":true,
-        "gr-area_hide-h-col":true,
-        "gr-area_hide-h-length":true,
-        "gr-area_hide-h-size":true,
-        "gr-area_hide-v":false,
-        "gr-area_hide-v-alpha":true,
-        "gr-area_hide-v-col":true,
-        "gr-area_hide-v-length":true
+        "gr-area_hide-h-col":true
       },
-      "color":"#0080FF"
+      "hidden":true
     },
     {
+      "name":"default",
       "type":"brush_grid_area",
       "texture":"texture_ve_icon_grid_area",
-      "hidden":true,
-      "name":"default",
+      "color":"#00A000",
       "properties":{
+        "gr-area_hide-h-length":true,
+        "gr-area_hide-h-size":true,
+        "gr-area_hide-v":true,
+        "gr-area_hide-v-alpha":true,
+        "gr-area_hide-v-col":true,
+        "gr-area_hide-v-length":true,
         "gr-area_hide-v-size":true,
         "gr-area_use-h":true,
         "gr-area_use-h-alpha":true,
@@ -102,29 +108,29 @@
         "gr-area_use-v-col":true,
         "gr-area_use-v-size":true,
         "gr-area_v":{
-          "value":2.0,
-          "increase":0.0,
-          "factor":0.0,
           "duration":0.0,
           "ease":"LINEAR",
+          "increase":0.0,
+          "factor":0.0,
+          "value":2.0,
           "target":2.0
         },
         "gr-area_v-alpha":{
-          "value":1.0,
-          "increase":0.0,
-          "factor":0.0,
           "duration":0.0,
           "ease":"LINEAR",
+          "increase":0.0,
+          "factor":0.0,
+          "value":1.0,
           "target":1.0
         },
         "gr-area_v-col":"#FF0000",
         "gr-area_v-col-spd":0.0,
         "gr-area_v-size":{
-          "value":5.0,
-          "increase":0.0,
-          "factor":0.0,
           "duration":0.0,
           "ease":"LINEAR",
+          "increase":0.0,
+          "factor":0.0,
+          "value":5.0,
           "target":5.0
         },
         "gr-area_change-h":true,
@@ -134,42 +140,36 @@
         "gr-area_change-v-alpha":true,
         "gr-area_change-v-size":true,
         "gr-area_h":{
-          "value":2.0,
-          "increase":0.0,
-          "factor":0.0,
           "duration":0.0,
           "ease":"LINEAR",
+          "increase":0.0,
+          "factor":0.0,
+          "value":2.0,
           "target":2.0
         },
         "gr-area_h-alpha":{
-          "value":1.0,
-          "increase":0.0,
-          "factor":0.0,
           "duration":0.0,
           "ease":"LINEAR",
+          "increase":0.0,
+          "factor":0.0,
+          "value":1.0,
           "target":1.0
         },
         "gr-area_h-col":"#FF0000",
         "gr-area_h-col-spd":0.0,
         "gr-area_h-size":{
-          "value":5.0,
-          "increase":0.0,
-          "factor":0.0,
           "duration":0.0,
           "ease":"LINEAR",
+          "increase":0.0,
+          "factor":0.0,
+          "value":5.0,
           "target":5.0
         },
         "gr-area_hide-h":true,
         "gr-area_hide-h-alpha":true,
-        "gr-area_hide-h-col":true,
-        "gr-area_hide-h-length":true,
-        "gr-area_hide-h-size":true,
-        "gr-area_hide-v":true,
-        "gr-area_hide-v-alpha":true,
-        "gr-area_hide-v-col":true,
-        "gr-area_hide-v-length":true
+        "gr-area_hide-h-col":true
       },
-      "color":"#00A000"
+      "hidden":true
     }
   ],
   "version":"1"

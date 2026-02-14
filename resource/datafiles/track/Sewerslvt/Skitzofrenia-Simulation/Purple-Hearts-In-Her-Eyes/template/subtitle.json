@@ -1,12 +1,6 @@
 {
-  "version":"1",
   "model":"Collection<io.alkapivo.visu.service.subtitle.SubtitleTemplate>",
   "data":{
-    "subtitle_sewerslvt":{
-      "lines":[
-        "Sewerslvt"
-      ]
-    },
     "subtitle_purple-hearts-in-her-eyes":{
       "lines":[
         "Purple Hearts In Her Eyes"
@@ -17,6 +11,12 @@
         "Alkapivo",
         "2025"
       ]
+    },
+    "subtitle_sewerslvt":{
+      "lines":[
+        "Sewerslvt"
+      ]
     }
-  }
+  },
+  "version":"1"
 }

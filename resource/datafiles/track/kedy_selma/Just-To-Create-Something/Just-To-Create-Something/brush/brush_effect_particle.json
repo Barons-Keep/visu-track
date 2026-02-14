@@ -2,17 +2,17 @@
   "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>",
   "data":[
     {
+      "name":"default (width: 3.0, height: 2.4)",
       "type":"brush_effect_particle",
       "texture":"texture_ve_icon_entity",
-      "hidden":false,
-      "name":"default (width: 3.0, height: 2.4)",
+      "color":"#146CFF",
       "properties":{
         "ef-part_amount":30.0,
         "ef-part_area":{
+          "width":3.0,
           "x":-1.5,
-          "height":2.3999999999999999,
           "y":-1.5,
-          "width":3.0
+          "height":2.3999999999999999
         },
         "ef-part_distribution":"INVERTEDGAUSSIAN",
         "ef-part_duration":1.5,
@@ -23,7 +23,7 @@
         "ef-part_shape":"ELLIPSE",
         "ef-part_template":"particle-default"
       },
-      "color":"#146CFF"
+      "hidden":false
     }
   ],
   "version":"1"

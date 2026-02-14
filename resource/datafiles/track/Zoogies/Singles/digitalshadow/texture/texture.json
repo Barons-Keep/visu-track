@@ -1,62 +1,62 @@
 {
-  "version":"1",
   "model":"Collection<io.alkapivo.core.service.texture.TextureIntent>",
   "data":{
     "texture_double_console_out_strip8":{
-      "frames":8.0,
-      "prefetch":true,
-      "file":"texture/texture_double_console_out_strip8.png",
-      "name":"texture_double_console_out_strip8",
       "originX":0.0,
-      "originY":0.0
+      "originY":0.0,
+      "name":"texture_double_console_out_strip8",
+      "file":"texture/texture_double_console_out_strip8.png",
+      "prefetch":true,
+      "frames":8.0
     },
     "texture_abstract_blue_1":{
-      "frames":1.0,
-      "prefetch":true,
-      "file":"texture/texture_abstract_blue_1.png",
-      "name":"texture_abstract_blue_1",
       "originX":0.0,
-      "originY":0.0
+      "originY":0.0,
+      "name":"texture_abstract_blue_1",
+      "file":"texture/texture_abstract_blue_1.png",
+      "prefetch":true,
+      "frames":1.0
     },
     "texture_neon_city_fantasy":{
-      "frames":1.0,
-      "prefetch":true,
-      "file":"texture/texture_neon_city_fantasy.jpg",
-      "name":"texture_neon_city_fantasy",
       "originX":0.0,
-      "originY":0.0
+      "originY":0.0,
+      "name":"texture_neon_city_fantasy",
+      "file":"texture/texture_neon_city_fantasy.jpg",
+      "prefetch":true,
+      "frames":1.0
     },
     "texture_neon_city_highway":{
-      "frames":1.0,
-      "prefetch":true,
-      "file":"texture/texture_neon_city_highway.jpg",
-      "name":"texture_neon_city_highway",
       "originX":0.0,
-      "originY":0.0
+      "originY":0.0,
+      "name":"texture_neon_city_highway",
+      "file":"texture/texture_neon_city_highway.jpg",
+      "prefetch":true,
+      "frames":1.0
     },
     "texture_abstract_blue_2":{
-      "frames":1.0,
-      "prefetch":true,
-      "file":"texture/texture_abstract_blue_2.png",
-      "name":"texture_abstract_blue_2",
       "originX":0.0,
-      "originY":0.0
+      "originY":0.0,
+      "name":"texture_abstract_blue_2",
+      "file":"texture/texture_abstract_blue_2.png",
+      "prefetch":true,
+      "frames":1.0
     },
     "texture_fingerprint_scan_strip16":{
-      "frames":16.0,
-      "prefetch":true,
-      "file":"texture/texture_fingerprint_scan_strip16.png",
-      "name":"texture_fingerprint_scan_strip16",
       "originX":0.0,
-      "originY":0.0
+      "originY":0.0,
+      "name":"texture_fingerprint_scan_strip16",
+      "file":"texture/texture_fingerprint_scan_strip16.png",
+      "prefetch":true,
+      "frames":16.0
     },
     "texture_hex_file_strip8":{
-      "frames":8.0,
-      "prefetch":true,
-      "file":"texture/texture_hex_file_strip8.png",
-      "name":"texture_hex_file_strip8",
       "originX":0.0,
-      "originY":0.0
+      "originY":0.0,
+      "name":"texture_hex_file_strip8",
+      "file":"texture/texture_hex_file_strip8.png",
+      "prefetch":true,
+      "frames":8.0
     }
-  }
+  },
+  "version":"1"
 }

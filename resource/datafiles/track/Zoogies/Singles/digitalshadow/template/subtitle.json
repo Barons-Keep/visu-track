@@ -1,13 +1,6 @@
 {
-  "version":"1",
   "model":"Collection<io.alkapivo.visu.service.subtitle.SubtitleTemplate>",
   "data":{
-    "subtitle_zoogies_digitalshadow":{
-      "lines":[
-        "",
-        "digitalshadow"
-      ]
-    },
     "subtitle_zoogies":{
       "lines":[
         "Zoogies",
@@ -50,6 +43,13 @@
         "         ",
         "        "
       ]
+    },
+    "subtitle_zoogies_digitalshadow":{
+      "lines":[
+        "",
+        "digitalshadow"
+      ]
     }
-  }
+  },
+  "version":"1"
 }
