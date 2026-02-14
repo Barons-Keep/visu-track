@@ -30,7 +30,7 @@
         "data": {
           "timeout": 25.0,
           "duration": 5.0,
-          "cooldown": 1.0
+          "cooldown": 1.5
         }
       },
       {
@@ -40,7 +40,7 @@
           "timeout": 40.0,
           "amount": 10.0,
           "cooldown": 1.0,
-          "minDuration": 0.2,
+          "minDuration": 1.0,
           "maxDuration": 2.0
         }
       },

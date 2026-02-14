@@ -17,6 +17,6 @@
       ]
     }
   },
-  "version":"1",
-  "model":"Collection<io.alkapivo.visu.service.subtitle.SubtitleTemplate>"
+  "model":"Collection<io.alkapivo.visu.service.subtitle.SubtitleTemplate>",
+  "version":"1"
 }

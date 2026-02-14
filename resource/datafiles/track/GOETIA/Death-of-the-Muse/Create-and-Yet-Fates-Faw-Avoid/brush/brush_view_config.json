@@ -1,7 +1,10 @@
 {
   "data":[
     {
+      "type":"brush_view_config",
       "texture":"texture_ve_icon_view_config",
+      "hidden":true,
+      "color":"#0080FF",
       "properties":{
         "vw-cfg_change-video-alpha":false,
         "vw-cfg_cls-bkg-col":false,
@@ -25,10 +28,10 @@
         "vw-cfg_use-render-video-after":false,
         "vw-cfg_use-video-alpha":false,
         "vw-cfg_video-alpha":{
+          "increase":0.0,
           "value":0.0,
           "duration":0.0,
           "ease":"LINEAR",
-          "increase":0.0,
           "factor":0.0,
           "target":0.0
         },
@@ -41,13 +44,13 @@
         "vw-cfg_video-use-blend":false,
         "vw-cfg_video-use-blend-col":false
       },
-      "type":"brush_view_config",
-      "color":"#0080FF",
-      "name":"empty",
-      "hidden":true
+      "name":"empty"
     },
     {
+      "type":"brush_view_config",
       "texture":"texture_ve_icon_view_config",
+      "hidden":true,
+      "color":"#00A000",
       "properties":{
         "vw-cfg_change-video-alpha":true,
         "vw-cfg_cls-bkg-col":true,
@@ -71,10 +74,10 @@
         "vw-cfg_use-render-video-after":true,
         "vw-cfg_use-video-alpha":true,
         "vw-cfg_video-alpha":{
+          "increase":0.0,
           "value":0.0,
           "duration":0.0,
           "ease":"LINEAR",
-          "increase":0.0,
           "factor":0.0,
           "target":0.0
         },
@@ -87,20 +90,17 @@
         "vw-cfg_video-use-blend":true,
         "vw-cfg_video-use-blend-col":true
       },
-      "type":"brush_view_config",
-      "color":"#00A000",
-      "name":"default",
-      "hidden":true
+      "name":"default"
     },
     {
-      "texture":"texture_baron",
-      "properties":null,
       "type":"brush_view_config",
+      "texture":"texture_baron",
+      "hidden":false,
       "color":"#FFFFFF",
-      "name":"new brush template 1",
-      "hidden":false
+      "properties":null,
+      "name":"new brush template 1"
     }
   ],
-  "version":"1",
-  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>"
+  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>",
+  "version":"1"
 }

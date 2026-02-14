@@ -1,7 +1,10 @@
 {
   "data":[
     {
+      "type":"brush_entity_coin",
       "texture":"texture_ve_icon_entity_coin",
+      "hidden":false,
+      "color":"#00FF00",
       "properties":{
         "en-coin_preview":true,
         "en-coin_rng-x":0.0,
@@ -14,13 +17,13 @@
         "en-coin_x":0.5,
         "en-coin_y":0.0
       },
-      "type":"brush_entity_coin",
-      "color":"#00FF00",
-      "name":"life (amount: 1)",
-      "hidden":false
+      "name":"life (amount: 1)"
     },
     {
+      "type":"brush_entity_coin",
       "texture":"texture_ve_icon_entity_coin",
+      "hidden":false,
+      "color":"#FFFF00",
       "properties":{
         "en-coin_preview":true,
         "en-coin_rng-x":0.0,
@@ -33,13 +36,13 @@
         "en-coin_x":0.5,
         "en-coin_y":0.0
       },
-      "type":"brush_entity_coin",
-      "color":"#FFFF00",
-      "name":"bomb (amount: 1)",
-      "hidden":false
+      "name":"bomb (amount: 1)"
     },
     {
+      "type":"brush_entity_coin",
       "texture":"texture_ve_icon_entity_coin",
+      "hidden":false,
+      "color":"#FF3D39",
       "properties":{
         "en-coin_preview":true,
         "en-coin_rng-x":0.0,
@@ -52,13 +55,13 @@
         "en-coin_x":0.5,
         "en-coin_y":0.0
       },
-      "type":"brush_entity_coin",
-      "color":"#FF3D39",
-      "name":"force (amount: 1)",
-      "hidden":false
+      "name":"force (amount: 1)"
     },
     {
+      "type":"brush_entity_coin",
       "texture":"texture_ve_icon_entity_coin",
+      "hidden":false,
+      "color":"#FF3D39",
       "properties":{
         "en-coin_preview":true,
         "en-coin_rng-x":0.0,
@@ -71,13 +74,13 @@
         "en-coin_x":0.5,
         "en-coin_y":0.0
       },
-      "type":"brush_entity_coin",
-      "color":"#FF3D39",
-      "name":"force (amount: 5)",
-      "hidden":false
+      "name":"force (amount: 5)"
     },
     {
+      "type":"brush_entity_coin",
       "texture":"texture_ve_icon_entity_coin",
+      "hidden":false,
+      "color":"#249AFF",
       "properties":{
         "en-coin_preview":true,
         "en-coin_rng-x":0.0,
@@ -90,13 +93,13 @@
         "en-coin_x":0.5,
         "en-coin_y":0.0
       },
-      "type":"brush_entity_coin",
-      "color":"#249AFF",
-      "name":"point (amount: 1)",
-      "hidden":false
+      "name":"point (amount: 1)"
     },
     {
+      "type":"brush_entity_coin",
       "texture":"texture_ve_icon_entity_coin",
+      "hidden":false,
+      "color":"#249AFF",
       "properties":{
         "en-coin_preview":true,
         "en-coin_rng-x":0.0,
@@ -109,12 +112,9 @@
         "en-coin_x":0.5,
         "en-coin_y":0.0
       },
-      "type":"brush_entity_coin",
-      "color":"#249AFF",
-      "name":"point (amount: 5)",
-      "hidden":false
+      "name":"point (amount: 5)"
     }
   ],
-  "version":"1",
-  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>"
+  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>",
+  "version":"1"
 }

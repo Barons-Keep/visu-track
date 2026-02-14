@@ -1,15 +1,14 @@
 {
   "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>",
+  "version":"1",
   "data":[
     {
       "name":"default (alpha: 0)",
       "type":"brush_grid_area",
       "texture":"texture_ve_icon_grid_area",
+      "hidden":false,
       "color":"#00FF00",
       "properties":{
-        "gr-area_hide-h-length":false,
-        "gr-area_hide-h-size":false,
-        "gr-area_hide-v":false,
         "gr-area_hide-v-alpha":false,
         "gr-area_hide-v-col":false,
         "gr-area_hide-v-length":false,
@@ -23,30 +22,30 @@
         "gr-area_use-v-col":false,
         "gr-area_use-v-size":false,
         "gr-area_v":{
+          "factor":1.0,
+          "increase":0.0,
           "duration":0.0,
           "ease":"LEGACY",
-          "increase":0.0,
-          "factor":1.0,
-          "value":1.0,
-          "target":1.0
+          "target":1.0,
+          "value":1.0
         },
         "gr-area_v-alpha":{
+          "factor":1.0,
+          "increase":0.0,
           "duration":8.0,
           "ease":"OUT_QUART",
-          "increase":0.0,
-          "factor":1.0,
-          "value":0.0,
-          "target":0.0
+          "target":0.0,
+          "value":0.0
         },
         "gr-area_v-col":"#FF00FF",
         "gr-area_v-col-spd":0.0,
         "gr-area_v-size":{
+          "factor":1.0,
+          "increase":0.0,
           "duration":0.14999999999999999,
           "ease":"LEGACY",
-          "increase":0.0,
-          "factor":1.0,
-          "value":10.0,
-          "target":1.0
+          "target":1.0,
+          "value":10.0
         },
         "gr-area_change-h":false,
         "gr-area_change-h-alpha":true,
@@ -55,37 +54,38 @@
         "gr-area_change-v-alpha":true,
         "gr-area_change-v-size":false,
         "gr-area_h":{
+          "factor":1.0,
+          "increase":0.0,
           "duration":0.0,
           "ease":"LEGACY",
-          "increase":0.0,
-          "factor":1.0,
-          "value":1.0,
-          "target":1.0
+          "target":1.0,
+          "value":1.0
         },
         "gr-area_h-alpha":{
+          "factor":1.0,
+          "increase":0.0,
           "duration":8.0,
           "ease":"OUT_QUART",
-          "increase":0.0,
-          "factor":1.0,
-          "value":0.0,
-          "target":0.0
+          "target":0.0,
+          "value":0.0
         },
         "gr-area_h-col":"#FF0000",
         "gr-area_h-col-spd":0.0,
         "gr-area_h-size":{
+          "factor":1.0,
+          "increase":0.0,
           "duration":0.14999999999999999,
           "ease":"LEGACY",
-          "increase":0.0,
-          "factor":1.0,
-          "value":10.0,
-          "target":1.0
+          "target":1.0,
+          "value":10.0
         },
         "gr-area_hide-h":false,
         "gr-area_hide-h-alpha":false,
-        "gr-area_hide-h-col":false
-      },
-      "hidden":false
+        "gr-area_hide-h-col":false,
+        "gr-area_hide-h-length":false,
+        "gr-area_hide-h-size":false,
+        "gr-area_hide-v":false
+      }
     }
-  ],
-  "version":"1"
+  ]
 }

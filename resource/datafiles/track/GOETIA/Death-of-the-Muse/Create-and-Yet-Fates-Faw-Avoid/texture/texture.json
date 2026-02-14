@@ -2,29 +2,29 @@
   "data":{
     "tx_sigil_agares":{
       "frames":1.0,
-      "prefetch":true,
+      "file":"texture/tx_sigil_agares.png",
       "originX":175.0,
+      "prefetch":true,
       "originY":175.0,
-      "name":"tx_sigil_agares",
-      "file":"texture/tx_sigil_agares.png"
+      "name":"tx_sigil_agares"
     },
     "tx_sigil_aim":{
       "frames":1.0,
-      "prefetch":true,
+      "file":"texture/tx_sigil_aim.png",
       "originX":175.0,
+      "prefetch":true,
       "originY":175.0,
-      "name":"tx_sigil_aim",
-      "file":"texture/tx_sigil_aim.png"
+      "name":"tx_sigil_aim"
     },
     "tx_sigil_aamon":{
       "frames":1.0,
-      "prefetch":true,
+      "file":"texture/tx_sigil_aamon.png",
       "originX":175.0,
+      "prefetch":true,
       "originY":175.0,
-      "name":"tx_sigil_aamon",
-      "file":"texture/tx_sigil_aamon.png"
+      "name":"tx_sigil_aamon"
     }
   },
-  "version":"1",
-  "model":"Collection<io.alkapivo.core.service.texture.TextureIntent>"
+  "model":"Collection<io.alkapivo.core.service.texture.TextureIntent>",
+  "version":"1"
 }

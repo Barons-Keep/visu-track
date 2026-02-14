@@ -1,90 +1,11 @@
 {
   "data":[
     {
+      "type":"brush_entity_bullet",
       "texture":"texture_baron",
+      "hidden":false,
+      "color":"#FFFFFF",
       "properties":{
-        "en-blt_use-texture":false,
-        "en-blt_x":-7.0,
-        "en-blt_y":-10.0,
-        "en-blt_em-cfg":{
-          "speed":{
-            "value":4.0,
-            "duration":2.1600000000000001,
-            "ease":"LINEAR",
-            "target":0.0
-          },
-          "perArray":{
-            "value":1.0,
-            "duration":0.0,
-            "ease":"LINEAR",
-            "target":1.0
-          },
-          "amount":4.0,
-          "speedRng":0.0,
-          "angle":{
-            "value":0.0,
-            "duration":2.1600000000000001,
-            "ease":"LINEAR",
-            "target":30.0
-          },
-          "duration":2.1600000000000001,
-          "anglePerArray":{
-            "value":0.0,
-            "duration":2.1600000000000001,
-            "ease":"LINEAR",
-            "target":0.0
-          },
-          "anglePerArrayRng":0.0,
-          "anglePerArrayStep":{
-            "value":0.0,
-            "duration":0.0,
-            "ease":"LINEAR",
-            "target":0.0
-          },
-          "wiggleAmplitude":{
-            "value":0.0,
-            "duration":0.0,
-            "ease":"LINEAR",
-            "target":0.0
-          },
-          "angleRng":0.0,
-          "angleStep":{
-            "value":30.0,
-            "duration":2.1600000000000001,
-            "ease":"LINEAR",
-            "target":30.0
-          },
-          "arrays":{
-            "value":12.0,
-            "duration":0.0,
-            "ease":"LINEAR",
-            "target":12.0
-          },
-          "wiggleFrequency":{
-            "value":0.0,
-            "duration":0.0,
-            "ease":"LINEAR",
-            "target":0.0
-          },
-          "offset":{
-            "value":0.0,
-            "duration":0.0,
-            "ease":"LINEAR",
-            "target":0.0
-          },
-          "offsetX":{
-            "value":0.0,
-            "duration":0.0,
-            "ease":"LINEAR",
-            "target":0.0
-          },
-          "offsetY":{
-            "value":0.0,
-            "duration":0.0,
-            "ease":"LINEAR",
-            "target":0.0
-          }
-        },
         "en-blt_hide":false,
         "en-blt_hide-em":false,
         "en-blt_hide-em-angle":false,
@@ -100,8 +21,8 @@
         "en-blt_mask":{
           "x":0.0,
           "y":0.0,
-          "height":0.0,
-          "width":0.0
+          "width":0.0,
+          "height":0.0
         },
         "en-blt_preview":true,
         "en-blt_rng-x":0.0,
@@ -110,27 +31,27 @@
         "en-blt_snap-y":false,
         "en-blt_spawn-map":{
           "frames":1.0,
+          "file":"",
           "prefetch":true,
           "originX":52.0,
           "originY":43.0,
-          "name":"texture_shroom_spawn_map",
-          "file":""
+          "name":"texture_shroom_spawn_map"
         },
         "en-blt_spd":10.0,
         "en-blt_spd-grid":false,
         "en-blt_spd-rng":0.0,
         "en-blt_template":"bullet-pikaro-2-l",
         "en-blt_texture":{
+          "scaleX":1.0,
           "angle":0.0,
+          "randomFrame":false,
+          "scaleY":1.0,
           "frame":0.0,
           "alpha":1.0,
-          "name":"texture_missing",
-          "scaleX":1.0,
-          "blend":"#FFFFFF",
-          "scaleY":1.0,
           "speed":30.0,
-          "animate":false,
-          "randomFrame":false
+          "blend":"#FFFFFF",
+          "name":"texture_missing",
+          "animate":false
         },
         "en-blt_use-dir-rng":false,
         "en-blt_use-dmg":false,
@@ -142,14 +63,93 @@
         "en-blt_use-mask":false,
         "en-blt_use-rng-x":false,
         "en-blt_use-rng-y":false,
-        "en-blt_use-spd-rng":false
+        "en-blt_use-spd-rng":false,
+        "en-blt_use-texture":false,
+        "en-blt_x":-7.0,
+        "en-blt_em-cfg":{
+          "angle":{
+            "value":0.0,
+            "duration":2.1600000000000001,
+            "target":30.0,
+            "ease":"LINEAR"
+          },
+          "duration":2.1600000000000001,
+          "perArray":{
+            "value":1.0,
+            "duration":0.0,
+            "target":1.0,
+            "ease":"LINEAR"
+          },
+          "anglePerArray":{
+            "value":0.0,
+            "duration":2.1600000000000001,
+            "target":0.0,
+            "ease":"LINEAR"
+          },
+          "anglePerArrayRng":0.0,
+          "anglePerArrayStep":{
+            "value":0.0,
+            "duration":0.0,
+            "target":0.0,
+            "ease":"LINEAR"
+          },
+          "speed":{
+            "value":4.0,
+            "duration":2.1600000000000001,
+            "target":0.0,
+            "ease":"LINEAR"
+          },
+          "speedRng":0.0,
+          "angleRng":0.0,
+          "angleStep":{
+            "value":30.0,
+            "duration":2.1600000000000001,
+            "target":30.0,
+            "ease":"LINEAR"
+          },
+          "arrays":{
+            "value":12.0,
+            "duration":0.0,
+            "target":12.0,
+            "ease":"LINEAR"
+          },
+          "offset":{
+            "value":0.0,
+            "duration":0.0,
+            "target":0.0,
+            "ease":"LINEAR"
+          },
+          "offsetX":{
+            "value":0.0,
+            "duration":0.0,
+            "target":0.0,
+            "ease":"LINEAR"
+          },
+          "offsetY":{
+            "value":0.0,
+            "duration":0.0,
+            "target":0.0,
+            "ease":"LINEAR"
+          },
+          "wiggleAmplitude":{
+            "value":0.0,
+            "duration":0.0,
+            "target":0.0,
+            "ease":"LINEAR"
+          },
+          "wiggleFrequency":{
+            "value":0.0,
+            "duration":0.0,
+            "target":0.0,
+            "ease":"LINEAR"
+          },
+          "amount":4.0
+        },
+        "en-blt_y":-10.0
       },
-      "type":"brush_entity_bullet",
-      "color":"#FFFFFF",
-      "name":"new brush template",
-      "hidden":false
+      "name":"new brush template"
     }
   ],
-  "version":"1",
-  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>"
+  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>",
+  "version":"1"
 }
