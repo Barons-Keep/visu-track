@@ -1,33 +1,19 @@
 {
-  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>",
   "data":[
     {
-      "name":"default",
-      "type":"brush_view_camera",
       "texture":"texture_ve_icon_view_camera",
-      "color":"#00FF00",
       "properties":{
-        "vw-cam_follow-x":0.34999999999999998,
-        "vw-cam_follow-y":0.40000000000000002,
-        "vw-cam_lock-x":false,
-        "vw-cam_lock-y":false,
-        "vw-cam_move-angle":{
-          "factor":0.01,
-          "value":90.0,
-          "target":1.0,
-          "increase":0.0
-        },
         "vw-cam_move-speed":{
-          "factor":0.01,
           "value":0.0,
-          "target":1.0,
-          "increase":0.0
+          "increase":0.0,
+          "factor":0.01,
+          "target":1.0
         },
         "vw-cam_pitch":{
-          "factor":0.0,
           "value":-60.0,
-          "target":0.0,
-          "increase":0.0
+          "increase":0.0,
+          "factor":0.0,
+          "target":0.0
         },
         "vw-cam_reset-follow":true,
         "vw-cam_use-dir":true,
@@ -43,22 +29,22 @@
         "vw-cam_use-y":true,
         "vw-cam_use-z":true,
         "vw-cam_x":{
-          "factor":0.0,
           "value":4096.0,
-          "target":0.0,
-          "increase":0.0
+          "increase":0.0,
+          "factor":0.0,
+          "target":0.0
         },
         "vw-cam_y":{
-          "factor":0.0,
           "value":6000.0,
-          "target":0.0,
-          "increase":0.0
+          "increase":0.0,
+          "factor":0.0,
+          "target":0.0
         },
         "vw-cam_z":{
-          "factor":9999.0,
           "value":6000.0,
-          "target":0.0,
-          "increase":0.0
+          "increase":0.0,
+          "factor":9999.0,
+          "target":0.0
         },
         "vw-cam_change-dir":false,
         "vw-cam_change-move-angle":true,
@@ -68,16 +54,30 @@
         "vw-cam_change-y":false,
         "vw-cam_change-z":false,
         "vw-cam_dir":{
-          "factor":0.0,
           "value":270.0,
-          "target":0.0,
-          "increase":0.0
+          "increase":0.0,
+          "factor":0.0,
+          "target":0.0
         },
         "vw-cam_follow":true,
-        "vw-cam_follow-smooth":32.0
+        "vw-cam_follow-smooth":32.0,
+        "vw-cam_follow-x":0.34999999999999998,
+        "vw-cam_follow-y":0.40000000000000002,
+        "vw-cam_lock-x":false,
+        "vw-cam_lock-y":false,
+        "vw-cam_move-angle":{
+          "value":90.0,
+          "increase":0.0,
+          "factor":0.01,
+          "target":1.0
+        }
       },
+      "type":"brush_view_camera",
+      "color":"#00FF00",
+      "name":"default",
       "hidden":false
     }
   ],
-  "version":"1"
+  "version":"1",
+  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>"
 }

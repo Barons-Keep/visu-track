@@ -67,11 +67,11 @@
       "back": "root.artists",
       "entries": [
         {
-          "name": "01. Create and Yet Fate's Faw Avoid *\n(level under construction)",
+          "name": "Create and Yet Fate's Faw Avoid *\n(level under construction)",
           "event": {
             "type": "open-track-setup",
             "data": {
-              "path": "track/GOETIA/Death-of-the-Muse/01_Create-and-Yet-Fates-Faw-Avoid/manifest.visu",
+              "path": "track/GOETIA/Death-of-the-Muse/Create-and-Yet-Fates-Faw-Avoid/manifest.visu",
               "node": "root.artists.goetia"
             }
           }

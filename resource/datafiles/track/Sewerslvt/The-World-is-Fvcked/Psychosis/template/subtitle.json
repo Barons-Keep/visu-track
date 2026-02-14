@@ -1,5 +1,4 @@
 {
-  "model":"Collection<io.alkapivo.visu.service.subtitle.SubtitleTemplate>",
   "data":{
     "subtitle_schnoopy":{
       "lines":[
@@ -13,6 +12,12 @@
         "Psychosis"
       ]
     },
+    "subtitle_sewerslvt":{
+      "lines":[
+        "Sewerslvt",
+        ""
+      ]
+    },
     "subtitle_alkapivo":{
       "lines":[
         "Alkapivo",
@@ -24,13 +29,8 @@
         "",
         "Destination Unknown"
       ]
-    },
-    "subtitle_sewerslvt":{
-      "lines":[
-        "Sewerslvt",
-        ""
-      ]
     }
   },
-  "version":"1"
+  "version":"1",
+  "model":"Collection<io.alkapivo.visu.service.subtitle.SubtitleTemplate>"
 }

@@ -1,16 +1,11 @@
 {
+  "version":"1",
   "data":[
     {
       "color":"#00FF00",
+      "type":"brush_view_config",
+      "texture":"texture_ve_icon_view_config",
       "properties":{
-        "vw-cfg_change-video-alpha":false,
-        "vw-cfg_cls-bkg-col":true,
-        "vw-cfg_cls-bkg-texture":true,
-        "vw-cfg_cls-frg-col":true,
-        "vw-cfg_cls-frg-texture":true,
-        "vw-cfg_cls-subtitle":true,
-        "vw-cfg_render-hud":true,
-        "vw-cfg_render-subtitle":true,
         "vw-cfg_render-video":true,
         "vw-cfg_render-video-after":false,
         "vw-cfg_use-render-hud":true,
@@ -19,10 +14,10 @@
         "vw-cfg_use-render-video-after":true,
         "vw-cfg_use-video-alpha":true,
         "vw-cfg_video-alpha":{
-          "value":1.0,
           "target":0.0,
           "increase":0.0,
-          "factor":0.0
+          "factor":0.0,
+          "value":1.0
         },
         "vw-cfg_video-blend-col":"#FFFFFF",
         "vw-cfg_video-blend-col-spd":0.0,
@@ -31,14 +26,19 @@
         "vw-cfg_video-blend-eq-alpha":"ADD",
         "vw-cfg_video-blend-src":"SRC_ALPHA",
         "vw-cfg_video-use-blend":true,
-        "vw-cfg_video-use-blend-col":true
+        "vw-cfg_video-use-blend-col":true,
+        "vw-cfg_change-video-alpha":false,
+        "vw-cfg_cls-bkg-col":true,
+        "vw-cfg_cls-bkg-texture":true,
+        "vw-cfg_cls-frg-col":true,
+        "vw-cfg_cls-frg-texture":true,
+        "vw-cfg_cls-subtitle":true,
+        "vw-cfg_render-hud":true,
+        "vw-cfg_render-subtitle":true
       },
       "hidden":false,
-      "name":"default",
-      "texture":"texture_ve_icon_view_config",
-      "type":"brush_view_config"
+      "name":"default"
     }
   ],
-  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>",
-  "version":"1"
+  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>"
 }

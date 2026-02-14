@@ -1,27 +1,47 @@
 {
+  "version":"1",
   "data":[
     {
       "color":"#00FF00",
+      "type":"brush_view_camera",
+      "texture":"texture_ve_icon_view_camera",
       "properties":{
+        "vw-cam_change-dir":false,
+        "vw-cam_change-move-angle":true,
+        "vw-cam_change-move-speed":true,
+        "vw-cam_change-pitch":false,
+        "vw-cam_change-x":false,
+        "vw-cam_change-y":false,
+        "vw-cam_change-z":false,
+        "vw-cam_dir":{
+          "target":0.0,
+          "increase":0.0,
+          "factor":0.0,
+          "value":270.0
+        },
+        "vw-cam_follow":true,
+        "vw-cam_follow-smooth":32.0,
+        "vw-cam_follow-x":1.5,
+        "vw-cam_follow-y":0.40000000000000002,
         "vw-cam_lock-x":true,
         "vw-cam_lock-y":true,
         "vw-cam_move-angle":{
-          "value":90.0,
           "target":1.0,
           "increase":0.0,
-          "factor":0.01
+          "factor":0.01,
+          "value":90.0
         },
         "vw-cam_move-speed":{
-          "value":0.0,
           "target":1.0,
           "increase":0.0,
-          "factor":0.01
+          "factor":0.01,
+          "value":0.0
         },
         "vw-cam_pitch":{
-          "value":-60.0,
           "target":0.0,
           "increase":0.0,
-          "factor":0.0
+          "factor":0.0,
+          "value":-60.0
         },
         "vw-cam_use-dir":false,
         "vw-cam_use-follow-smooth":false,
@@ -36,23 +56,32 @@
         "vw-cam_use-y":false,
         "vw-cam_use-z":false,
         "vw-cam_x":{
-          "value":4096.0,
           "target":0.0,
           "increase":0.0,
-          "factor":0.0
+          "factor":0.0,
+          "value":4096.0
         },
         "vw-cam_y":{
-          "value":6000.0,
           "target":0.0,
           "increase":0.0,
-          "factor":0.0
+          "factor":0.0,
+          "value":6000.0
         },
         "vw-cam_z":{
-          "value":6000.0,
           "target":0.0,
           "increase":0.0,
-          "factor":9999.0
-        },
+          "factor":9999.0,
+          "value":6000.0
+        }
+      },
+      "hidden":false,
+      "name":"empty"
+    },
+    {
+      "color":"#00FF00",
+      "type":"brush_view_camera",
+      "texture":"texture_ve_icon_view_camera",
+      "properties":{
         "vw-cam_change-dir":false,
         "vw-cam_change-move-angle":true,
         "vw-cam_change-move-speed":true,
@@ -61,43 +90,34 @@
         "vw-cam_change-y":false,
         "vw-cam_change-z":false,
         "vw-cam_dir":{
-          "value":270.0,
           "target":0.0,
           "increase":0.0,
-          "factor":0.0
+          "factor":0.0,
+          "value":270.0
         },
         "vw-cam_follow":true,
         "vw-cam_follow-smooth":32.0,
-        "vw-cam_follow-x":1.5,
-        "vw-cam_follow-y":0.40000000000000002
-      },
-      "hidden":false,
-      "name":"empty",
-      "texture":"texture_ve_icon_view_camera",
-      "type":"brush_view_camera"
-    },
-    {
-      "color":"#00FF00",
-      "properties":{
+        "vw-cam_follow-x":0.34999999999999998,
+        "vw-cam_follow-y":0.40000000000000002,
         "vw-cam_lock-x":false,
         "vw-cam_lock-y":false,
         "vw-cam_move-angle":{
-          "value":90.0,
           "target":1.0,
           "increase":0.0,
-          "factor":0.01
+          "factor":0.01,
+          "value":90.0
         },
         "vw-cam_move-speed":{
-          "value":0.0,
           "target":1.0,
           "increase":0.0,
-          "factor":0.01
+          "factor":0.01,
+          "value":0.0
         },
         "vw-cam_pitch":{
-          "value":-60.0,
           "target":0.0,
           "increase":0.0,
-          "factor":0.0
+          "factor":0.0,
+          "value":-60.0
         },
         "vw-cam_reset-follow":true,
         "vw-cam_use-dir":true,
@@ -113,47 +133,27 @@
         "vw-cam_use-y":true,
         "vw-cam_use-z":true,
         "vw-cam_x":{
-          "value":4096.0,
           "target":0.0,
           "increase":0.0,
-          "factor":0.0
+          "factor":0.0,
+          "value":4096.0
         },
         "vw-cam_y":{
-          "value":6000.0,
           "target":0.0,
           "increase":0.0,
-          "factor":0.0
+          "factor":0.0,
+          "value":6000.0
         },
         "vw-cam_z":{
-          "value":6000.0,
           "target":0.0,
           "increase":0.0,
-          "factor":9999.0
-        },
-        "vw-cam_change-dir":false,
-        "vw-cam_change-move-angle":true,
-        "vw-cam_change-move-speed":true,
-        "vw-cam_change-pitch":false,
-        "vw-cam_change-x":false,
-        "vw-cam_change-y":false,
-        "vw-cam_change-z":false,
-        "vw-cam_dir":{
-          "value":270.0,
-          "target":0.0,
-          "increase":0.0,
-          "factor":0.0
-        },
-        "vw-cam_follow":true,
-        "vw-cam_follow-smooth":32.0,
-        "vw-cam_follow-x":0.34999999999999998,
-        "vw-cam_follow-y":0.40000000000000002
+          "factor":9999.0,
+          "value":6000.0
+        }
       },
       "hidden":false,
-      "name":"default",
-      "texture":"texture_ve_icon_view_camera",
-      "type":"brush_view_camera"
+      "name":"default"
     }
   ],
-  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>",
-  "version":"1"
+  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>"
 }

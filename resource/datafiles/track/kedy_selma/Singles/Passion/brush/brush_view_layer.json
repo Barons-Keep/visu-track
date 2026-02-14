@@ -1,8 +1,16 @@
 {
+  "version":"1",
   "data":[
     {
       "color":"#FFFF00",
+      "type":"brush_view_layer",
+      "texture":"texture_ve_icon_view_layer",
       "properties":{
+        "vw-layer_blend-dest":"INV_SRC_ALPHA",
+        "vw-layer_blend-eq":"ADD",
+        "vw-layer_blend-eq-alpha":"ADD",
+        "vw-layer_blend-src":"SRC_ALPHA",
+        "vw-layer_change-dir":false,
         "vw-layer_change-scale-x":false,
         "vw-layer_change-scale-y":false,
         "vw-layer_change-spd":false,
@@ -10,41 +18,41 @@
         "vw-layer_cls-texture":true,
         "vw-layer_col":"#000000",
         "vw-layer_dir":{
-          "value":0.0,
           "target":0.0,
           "increase":0.0,
-          "factor":1.0
+          "factor":1.0,
+          "value":0.0
         },
         "vw-layer_fade-in":0.0,
         "vw-layer_fade-out":0.0,
         "vw-layer_scale-x":{
-          "value":1.0,
           "target":0.0,
           "increase":0.0,
-          "factor":1.0
+          "factor":1.0,
+          "value":1.0
         },
         "vw-layer_scale-y":{
-          "value":1.0,
           "target":0.0,
           "increase":0.0,
-          "factor":1.0
+          "factor":1.0,
+          "value":1.0
         },
         "vw-layer_spd":{
-          "value":0.0,
           "target":0.0,
           "increase":0.0,
-          "factor":1.0
+          "factor":1.0,
+          "value":0.0
         },
         "vw-layer_texture":{
           "angle":0.0,
-          "scaleX":1.0,
-          "scaleY":1.0,
           "alpha":1.0,
           "blend":"#FFFFFF",
-          "randomFrame":false,
+          "scaleX":1.0,
+          "scaleY":1.0,
           "frame":0.0,
           "speed":30.0,
           "animate":false,
+          "randomFrame":false,
           "name":"texture_missing"
         },
         "vw-layer_texture-blend":"#BC2EFC",
@@ -61,19 +69,11 @@
         "vw-layer_use-texture":false,
         "vw-layer_use-texture-blend":0.0,
         "vw-layer_use-texture-replace":true,
-        "vw-layer_use-texture-tiled":true,
-        "vw-layer_blend-dest":"INV_SRC_ALPHA",
-        "vw-layer_blend-eq":"ADD",
-        "vw-layer_blend-eq-alpha":"ADD",
-        "vw-layer_blend-src":"SRC_ALPHA",
-        "vw-layer_change-dir":false
+        "vw-layer_use-texture-tiled":true
       },
       "hidden":false,
-      "name":"default bkg",
-      "texture":"texture_ve_icon_view_layer",
-      "type":"brush_view_layer"
+      "name":"default bkg"
     }
   ],
-  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>",
-  "version":"1"
+  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>"
 }
