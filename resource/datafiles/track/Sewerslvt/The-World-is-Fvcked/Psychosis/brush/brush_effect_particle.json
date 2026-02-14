@@ -1,7 +1,11 @@
 {
-  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>",
   "data":[
     {
+      "type":"brush_effect_particle",
+      "hidden":false,
+      "texture":"texture_ve_icon_entity",
+      "name":"default (width: 3.0, height: 2.4)",
+      "color":"#146CFF",
       "properties":{
         "ef-part_amount":30.0,
         "ef-part_area":{
@@ -16,12 +20,9 @@
         "ef-part_preview":true,
         "ef-part_shape":"ELLIPSE",
         "ef-part_template":"particle-default"
-      },
-      "type":"brush_effect_particle",
-      "name":"default (width: 3.0, height: 2.4)",
-      "color":"#146CFF",
-      "texture":"texture_ve_icon_entity"
+      }
     }
   ],
-  "version":"1"
+  "version":"1",
+  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>"
 }

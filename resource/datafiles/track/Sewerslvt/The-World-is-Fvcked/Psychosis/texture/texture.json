@@ -1,22 +1,22 @@
 {
-  "model":"Collection<io.alkapivo.core.service.texture.TextureIntent>",
   "data":{
     "jvne_raw_and_sewage_internet_and_humanity":{
-      "file":"texture/jvne_raw_and_sewage_internet_and_humanity.png",
-      "frames":1.0,
-      "prefetch":true,
       "originX":0.0,
+      "file":"texture/jvne_raw_and_sewage_internet_and_humanity.png",
       "originY":0.0,
-      "name":"jvne_raw_and_sewage_internet_and_humanity"
+      "frames":1.0,
+      "name":"jvne_raw_and_sewage_internet_and_humanity",
+      "prefetch":true
     },
     "the_world_is_fvcked":{
-      "file":"texture/the_world_is_fvcked.jpg",
-      "frames":1.0,
-      "prefetch":true,
       "originX":0.0,
+      "file":"texture/the_world_is_fvcked.jpg",
       "originY":0.0,
-      "name":"the_world_is_fvcked"
+      "frames":1.0,
+      "name":"the_world_is_fvcked",
+      "prefetch":true
     }
   },
-  "version":"1"
+  "version":"1",
+  "model":"Collection<io.alkapivo.core.service.texture.TextureIntent>"
 }

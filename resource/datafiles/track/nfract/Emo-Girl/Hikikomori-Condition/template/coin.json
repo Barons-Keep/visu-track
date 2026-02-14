@@ -1,56 +1,56 @@
 {
+  "model":"Collection<io.alkapivo.visu.service.coin.CoinTemplate>",
+  "version":"1",
   "data":{
     "coin-force-5":{
-      "category":"force",
       "useSpeed":false,
+      "changeSpeed":false,
       "sprite":{
-        "angle":0.0,
-        "frame":0.0,
-        "alpha":1.0,
-        "animate":false,
-        "blend":"#FFFFFF",
         "scaleX":6.5,
-        "speed":30.0,
         "scaleY":6.5,
+        "randomFrame":false,
+        "animate":false,
+        "angle":0.0,
+        "alpha":1.0,
         "name":"texture_coin_force",
-        "randomFrame":false
+        "speed":30.0,
+        "blend":"#FFFFFF",
+        "frame":0.0
       },
+      "name":"coin-force-5",
       "speed":{
-        "increase":0.0,
+        "value":-3.5,
         "factor":0.050000000000000003,
         "target":2.25,
-        "value":-3.5
+        "increase":0.0
       },
-      "changeSpeed":false,
-      "name":"coin-force-5",
-      "amount":5.0
+      "amount":5.0,
+      "category":"force"
     },
     "coin-point-5":{
-      "category":"point",
       "useSpeed":false,
+      "changeSpeed":false,
       "sprite":{
-        "angle":0.0,
-        "frame":0.0,
-        "alpha":1.0,
-        "animate":false,
-        "blend":"#FFFFFF",
         "scaleX":6.5,
-        "speed":30.0,
         "scaleY":6.5,
+        "randomFrame":false,
+        "animate":false,
+        "angle":0.0,
+        "alpha":1.0,
         "name":"texture_coin_point",
-        "randomFrame":false
+        "speed":30.0,
+        "blend":"#FFFFFF",
+        "frame":0.0
       },
+      "name":"coin-point-5",
       "speed":{
-        "increase":0.0,
+        "value":-2.7999999999999998,
         "factor":0.059999999999999998,
         "target":2.2000000000000002,
-        "value":-2.7999999999999998
+        "increase":0.0
       },
-      "changeSpeed":false,
-      "name":"coin-point-5",
-      "amount":5.0
+      "amount":5.0,
+      "category":"point"
     }
-  },
-  "model":"Collection<io.alkapivo.visu.service.coin.CoinTemplate>",
-  "version":"1"
+  }
 }
