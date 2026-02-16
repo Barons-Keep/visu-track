@@ -1,6 +1,4 @@
 {
-  "version":"1",
-  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>",
   "data":[
     {
       "hidden":false,
@@ -10,15 +8,15 @@
         "vw-sub_align-v":"TOP",
         "vw-sub_change-dir":false,
         "vw-sub_change-spd":false,
+        "vw-sub_char-spd":0.12,
         "icon":{
           "name":"texture_baron"
         },
-        "vw-sub_char-spd":0.12,
         "vw-sub_col":"#242424",
         "vw-sub_dir":{
           "increase":0.0,
-          "factor":0.40000000000000002,
           "value":320.0,
+          "factor":0.40000000000000002,
           "target":280.0
         },
         "vw-sub_end-delay":3.0,
@@ -31,8 +29,8 @@
         "vw-sub_outline":"#D205A6",
         "vw-sub_spd":{
           "increase":0.0,
-          "factor":0.002,
           "value":0.10000000000000001,
+          "factor":0.002,
           "target":8.0
         },
         "vw-sub_template":"subtitle_alkapivo",
@@ -163,5 +161,7 @@
       "texture":"texture_ve_icon_view",
       "type":"brush_view_subtitle"
     }
-  ]
+  ],
+  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>",
+  "version":"1"
 }

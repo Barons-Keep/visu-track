@@ -1,6 +1,4 @@
 {
-  "version":"1",
-  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>",
   "data":[
     {
       "hidden":true,
@@ -28,13 +26,13 @@
             "maxValue":9999999.0,
             "minValue":0.0
           },
-          "bomb":{
-            "value":7.0,
+          "life":{
+            "value":4.0,
             "maxValue":10.0,
             "minValue":0.0
           },
-          "life":{
-            "value":4.0,
+          "bomb":{
+            "value":7.0,
             "maxValue":10.0,
             "minValue":0.0
           }
@@ -42,18 +40,16 @@
         "en-pl_texture":{
           "alpha":0.0,
           "frame":0.0,
-          "blend":"#FFFFFF",
           "name":"texture_empty",
+          "blend":"#FFFFFF",
           "animate":false,
           "speed":0.0,
           "randomFrame":false,
           "scaleX":1.0,
-          "angle":0.0,
-          "scaleY":1.0
+          "scaleY":1.0,
+          "angle":0.0
         },
         "en-pl_use-bullethell":true,
-        "en-pl_use-mask":true,
-        "en-pl_use-stats":false,
         "en-pl_platformer":{
           "x":{
             "acceleration":1.9199999999999999,
@@ -69,7 +65,9 @@
             "size":4.0
           }
         },
+        "en-pl_use-mask":true,
         "en-pl_use-racing":1.0,
+        "en-pl_use-stats":false,
         "en-pl_racing":{
           "throttle":{
             "acceleration":0.20000000000000001,
@@ -136,13 +134,13 @@
             "maxValue":9999999.0,
             "minValue":0.0
           },
-          "bomb":{
-            "value":5.0,
+          "life":{
+            "value":4.0,
             "maxValue":10.0,
             "minValue":0.0
           },
-          "life":{
-            "value":4.0,
+          "bomb":{
+            "value":5.0,
             "maxValue":10.0,
             "minValue":0.0
           }
@@ -150,18 +148,16 @@
         "en-pl_texture":{
           "alpha":1.0,
           "frame":0.0,
-          "blend":"#FFFFFF",
           "name":"texture_player",
+          "blend":"#FFFFFF",
           "animate":1.0,
           "speed":13.0,
           "randomFrame":false,
           "scaleX":3.0,
-          "angle":0.0,
-          "scaleY":3.0
+          "scaleY":3.0,
+          "angle":0.0
         },
         "en-pl_use-bullethell":1.0,
-        "en-pl_use-mask":true,
-        "en-pl_use-stats":true,
         "en-pl_platformer":{
           "x":{
             "acceleration":1.9199999999999999,
@@ -177,7 +173,9 @@
             "size":4.0
           }
         },
+        "en-pl_use-mask":true,
         "en-pl_use-racing":1.0,
+        "en-pl_use-stats":true,
         "en-pl_racing":{
           "throttle":{
             "acceleration":0.20000000000000001,
@@ -294,5 +292,7 @@
       "texture":"texture_ve_icon_entity_player",
       "type":"brush_entity_player"
     }
-  ]
+  ],
+  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>",
+  "version":"1"
 }

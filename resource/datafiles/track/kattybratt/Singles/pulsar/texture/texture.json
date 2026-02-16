@@ -1,54 +1,54 @@
 {
-  "version":"1",
-  "model":"Collection<io.alkapivo.core.service.texture.TextureIntent>",
   "data":{
     "tx_kat_blackhole":{
-      "originY":0.0,
       "prefetch":true,
       "name":"tx_kat_blackhole",
       "frames":1.0,
       "file":"texture/tx_kat_blackhole.png",
-      "originX":0.0
+      "originX":0.0,
+      "originY":0.0
     },
     "tx_sigil_aamon":{
-      "originY":175.0,
       "prefetch":true,
       "name":"tx_sigil_aamon",
       "frames":1.0,
       "file":"texture/tx_sigil_aamon.png",
-      "originX":175.0
+      "originX":175.0,
+      "originY":175.0
     },
     "tx_kat_sploded":{
-      "originY":0.0,
       "prefetch":true,
       "name":"tx_kat_sploded",
       "frames":1.0,
       "file":"texture/tx_kat_sploded.png",
-      "originX":0.0
+      "originX":0.0,
+      "originY":0.0
     },
     "tx_sigil_agares":{
-      "originY":175.0,
       "prefetch":true,
       "name":"tx_sigil_agares",
       "frames":1.0,
       "file":"texture/tx_sigil_agares.png",
-      "originX":175.0
+      "originX":175.0,
+      "originY":175.0
     },
     "tx_sigil_aim":{
-      "originY":175.0,
       "prefetch":true,
       "name":"tx_sigil_aim",
       "frames":1.0,
       "file":"texture/tx_sigil_aim.png",
-      "originX":175.0
+      "originX":175.0,
+      "originY":175.0
     },
     "tx_kat_biteme":{
-      "originY":0.0,
       "prefetch":true,
       "name":"tx_kat_biteme",
       "frames":1.0,
       "file":"texture/tx_kat_biteme.png",
-      "originX":0.0
+      "originX":0.0,
+      "originY":0.0
     }
-  }
+  },
+  "model":"Collection<io.alkapivo.core.service.texture.TextureIntent>",
+  "version":"1"
 }
