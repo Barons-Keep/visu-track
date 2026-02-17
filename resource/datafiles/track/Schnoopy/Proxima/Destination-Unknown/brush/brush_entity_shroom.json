@@ -686,8 +686,8 @@
           "name":"texture_shroom_spawn_map",
           "frames":1.0,
           "file":"",
-          "originX":72.0,
-          "originY":36.0
+          "originX":0.0,
+          "originY":0.0
         },
         "en-shr_spd":15.0,
         "en-shr_spd-grid":false,
@@ -720,98 +720,6 @@
         "en-shr_dir":270.0,
         "en-shr_dir-rng":0.0,
         "en-shr_em-cfg":{
-          "offset":{
-            "value":0.0,
-            "target":0.0,
-            "duration":0.0,
-            "ease":"LINEAR"
-          },
-          "duration":4.3200000000000003,
-          "offsetX":{
-            "value":0.0,
-            "target":0.0,
-            "duration":4.3200000000000003,
-            "ease":"LINEAR"
-          },
-          "offsetY":{
-            "value":0.0,
-            "target":-20.0,
-            "duration":4.3200000000000003,
-            "ease":"LINEAR"
-          },
-          "wiggleAmplitude":{
-            "value":20.0,
-            "target":0.0,
-            "duration":0.0,
-            "ease":"LINEAR"
-          },
-          "amount":6.0,
-          "wiggleFrequency":{
-            "value":1.0,
-            "target":0.0,
-            "duration":0.0,
-            "ease":"LINEAR"
-          },
-          "speed":{
-            "value":0.0,
-            "target":0.0,
-            "duration":4.3200000000000003,
-            "ease":"LINEAR"
-          },
-          "angle":{
-            "value":0.0,
-            "target":0.0,
-            "duration":0.0,
-            "ease":"LINEAR"
-          },
-          "speedRng":{
-            "value":0.0,
-            "target":0.0,
-            "duration":0.0,
-            "ease":"LINEAR"
-          },
-          "anglePerArray":{
-            "value":0.0,
-            "target":0.0,
-            "duration":4.3200000000000003,
-            "ease":"LINEAR"
-          },
-          "anglePerArrayRng":{
-            "value":0.0,
-            "target":0.0,
-            "duration":0.0,
-            "ease":"LINEAR"
-          },
-          "anglePerArrayStep":{
-            "value":0.0,
-            "target":0.0,
-            "duration":0.0,
-            "ease":"LINEAR"
-          },
-          "angleRng":{
-            "value":0.0,
-            "target":0.0,
-            "duration":0.0,
-            "ease":"LINEAR"
-          },
-          "angleStep":{
-            "value":0.0,
-            "target":0.0,
-            "duration":0.0,
-            "ease":"LINEAR"
-          },
-          "arrays":{
-            "value":1.0,
-            "target":1.0,
-            "duration":0.0,
-            "ease":"LINEAR"
-          },
-          "perArray":{
-            "value":1.0,
-            "target":1.0,
-            "duration":0.0,
-            "ease":"LINEAR"
-          }
         },
         "en-shr_hide":false,
         "en-shr_hide-em":false,
@@ -1190,8 +1098,8 @@
           "name":"texture_shroom_spawn_map",
           "frames":1.0,
           "file":"",
-          "originX":72.0,
-          "originY":36.0
+          "originX":0.0,
+          "originY":0.0
         },
         "en-shr_spd":15.0,
         "en-shr_spd-grid":false,
@@ -1210,7 +1118,7 @@
           "angle":0.0
         },
         "en-shr_use-dir-rng":false,
-        "en-shr_use-em":false,
+        "en-shr_use-em":true,
         "en-shr_use-hp":false,
         "en-shr_use-inherit":false,
         "en-shr_use-lifespan":false,
@@ -1224,101 +1132,9 @@
         "en-shr_dir":270.0,
         "en-shr_dir-rng":0.0,
         "en-shr_em-cfg":{
-          "offset":{
-            "value":0.0,
-            "target":0.0,
-            "duration":0.0,
-            "ease":"LINEAR"
-          },
-          "duration":4.3200000000000003,
-          "offsetX":{
-            "value":0.0,
-            "target":0.0,
-            "duration":4.3200000000000003,
-            "ease":"LINEAR"
-          },
-          "offsetY":{
-            "value":0.0,
-            "target":-20.0,
-            "duration":4.3200000000000003,
-            "ease":"LINEAR"
-          },
-          "wiggleAmplitude":{
-            "value":20.0,
-            "target":0.0,
-            "duration":0.0,
-            "ease":"LINEAR"
-          },
-          "amount":6.0,
-          "wiggleFrequency":{
-            "value":1.0,
-            "target":0.0,
-            "duration":0.0,
-            "ease":"LINEAR"
-          },
-          "speed":{
-            "value":0.0,
-            "target":0.0,
-            "duration":4.3200000000000003,
-            "ease":"LINEAR"
-          },
-          "angle":{
-            "value":0.0,
-            "target":0.0,
-            "duration":0.0,
-            "ease":"LINEAR"
-          },
-          "speedRng":{
-            "value":0.0,
-            "target":0.0,
-            "duration":0.0,
-            "ease":"LINEAR"
-          },
-          "anglePerArray":{
-            "value":0.0,
-            "target":0.0,
-            "duration":4.3200000000000003,
-            "ease":"LINEAR"
-          },
-          "anglePerArrayRng":{
-            "value":0.0,
-            "target":0.0,
-            "duration":0.0,
-            "ease":"LINEAR"
-          },
-          "anglePerArrayStep":{
-            "value":0.0,
-            "target":0.0,
-            "duration":0.0,
-            "ease":"LINEAR"
-          },
-          "angleRng":{
-            "value":0.0,
-            "target":0.0,
-            "duration":0.0,
-            "ease":"LINEAR"
-          },
-          "angleStep":{
-            "value":0.0,
-            "target":0.0,
-            "duration":0.0,
-            "ease":"LINEAR"
-          },
-          "arrays":{
-            "value":1.0,
-            "target":1.0,
-            "duration":0.0,
-            "ease":"LINEAR"
-          },
-          "perArray":{
-            "value":1.0,
-            "target":1.0,
-            "duration":0.0,
-            "ease":"LINEAR"
-          }
         },
         "en-shr_hide":false,
-        "en-shr_hide-em":true,
+        "en-shr_hide-em":false,
         "en-shr_hide-em-angle":false,
         "en-shr_hide-em-cfg":false,
         "en-shr_hide-em-offset-x":false,

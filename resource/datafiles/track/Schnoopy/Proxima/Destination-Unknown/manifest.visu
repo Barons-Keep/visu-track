@@ -30,9 +30,9 @@
     "coin":"template/coin.json",
     "particle":"template/particle.json",
     "bullet":"template/bullet.json",
-    "bpm":120.0,
+    "bpm":90.0,
     "bpm-count":8.0,
-    "bpm-shift":300.25
+    "bpm-shift":0.0
   },
   "model":"io.alkapivo.visu.controller.VisuTrack",
   "version":"1"

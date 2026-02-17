@@ -1,5 +1,33 @@
 {
   "data":{
+    "coin-bomb":{
+      "changeSpeed":true,
+      "name":"coin-bomb",
+      "useSpeed":true,
+      "amount":null,
+      "category":"bomb",
+      "mask":null,
+      "speed":{
+        "value":-5.0,
+        "increase":0.0,
+        "target":0.5,
+        "duration":1.0,
+        "ease":"IN_OUT_SINE",
+        "factor":0.10000000000000001
+      },
+      "sprite":{
+        "alpha":1.0,
+        "name":"texture_coin_bomb",
+        "frame":0.0,
+        "blend":"#FFFFFF",
+        "animate":false,
+        "speed":30.0,
+        "scaleX":20.0,
+        "randomFrame":false,
+        "scaleY":20.0,
+        "angle":0.0
+      }
+    },
     "coin-force-5":{
       "changeSpeed":false,
       "name":"coin-force-5",
@@ -35,9 +63,9 @@
       "mask":null,
       "speed":{
         "increase":0.0,
-        "value":-2.7999999999999998,
-        "factor":0.059999999999999998,
-        "target":2.2000000000000002
+        "value":-3.0,
+        "factor":0.10000000000000001,
+        "target":1.0
       },
       "sprite":{
         "alpha":1.0,
@@ -49,6 +77,34 @@
         "randomFrame":false,
         "scaleX":6.5,
         "scaleY":6.5,
+        "angle":0.0
+      }
+    },
+    "coin-life":{
+      "changeSpeed":true,
+      "name":"coin-life",
+      "useSpeed":true,
+      "amount":1.0,
+      "category":"life",
+      "mask":null,
+      "speed":{
+        "value":-5.0,
+        "increase":0.0,
+        "target":0.5,
+        "duration":1.0,
+        "ease":"IN_OUT_SINE",
+        "factor":0.10000000000000001
+      },
+      "sprite":{
+        "alpha":1.0,
+        "name":"texture_coin_life",
+        "frame":0.0,
+        "blend":"#FFFFFF",
+        "animate":false,
+        "speed":30.0,
+        "scaleX":20.0,
+        "randomFrame":false,
+        "scaleY":20.0,
         "angle":0.0
       }
     }

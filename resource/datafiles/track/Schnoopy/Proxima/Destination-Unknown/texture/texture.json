@@ -1,29 +1,5 @@
 {
   "data":{
-    "texture_schnoopy_magenta":{
-      "prefetch":true,
-      "name":"texture_schnoopy_magenta",
-      "frames":2.0,
-      "file":"texture/texture_schnoopy_magenta.png",
-      "originX":128.0,
-      "originY":128.0
-    },
-    "texture_schnoopy_green":{
-      "prefetch":true,
-      "name":"texture_schnoopy_green",
-      "frames":2.0,
-      "file":"texture/texture_schnoopy_green.png",
-      "originX":128.0,
-      "originY":128.0
-    },
-    "texture_schnoopy_blue":{
-      "prefetch":true,
-      "name":"texture_schnoopy_blue",
-      "frames":2.0,
-      "file":"texture/texture_schnoopy_blue.png",
-      "originX":128.0,
-      "originY":128.0
-    },
     "texture_schnoopy_white":{
       "prefetch":true,
       "name":"texture_schnoopy_white",
@@ -45,6 +21,38 @@
       "name":"texture_schnoopy_red",
       "frames":2.0,
       "file":"texture/texture_schnoopy_red.png",
+      "originX":128.0,
+      "originY":128.0
+    },
+    "texture_bkg_schnoopy_proxima":{
+      "prefetch":true,
+      "name":"texture_bkg_schnoopy_proxima",
+      "frames":1.0,
+      "file":"texture/texture_bkg_schnoopy_proxima.jpg",
+      "originX":0.0,
+      "originY":0.0
+    },
+    "texture_schnoopy_magenta":{
+      "prefetch":true,
+      "name":"texture_schnoopy_magenta",
+      "frames":2.0,
+      "file":"texture/texture_schnoopy_magenta.png",
+      "originX":128.0,
+      "originY":128.0
+    },
+    "texture_schnoopy_green":{
+      "prefetch":true,
+      "name":"texture_schnoopy_green",
+      "frames":2.0,
+      "file":"texture/texture_schnoopy_green.png",
+      "originX":128.0,
+      "originY":128.0
+    },
+    "texture_schnoopy_blue":{
+      "prefetch":true,
+      "name":"texture_schnoopy_blue",
+      "frames":2.0,
+      "file":"texture/texture_schnoopy_blue.png",
       "originX":128.0,
       "originY":128.0
     }

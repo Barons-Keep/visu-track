@@ -260,14 +260,11 @@
     },
     "70s Melt 06":{
       "properties":{
-        "iFactor":{
-          "increase":0.0,
-          "value":500.0,
-          "target":100.0,
-          "duration":333.33333333000002,
-          "ease":"LEGACY",
-          "factor":0.0050000000000000001
-        },
+        "iTint_hide":false,
+        "iResolution_hide":false,
+        "iMix_hide":false,
+        "iFactor_hide":false,
+        "iTime_hide":false,
         "iMix":{
           "increase":0.0,
           "value":0.0,
@@ -276,8 +273,6 @@
           "ease":"LEGACY",
           "factor":1.0
         },
-        "iTint_hide":false,
-        "iResolution_hide":false,
         "iResolution":{
           "x":{
             "increase":0.0,
@@ -296,7 +291,6 @@
             "factor":0.00059999999999999995
           }
         },
-        "iMix_hide":false,
         "iTime":{
           "increase":0.0,
           "value":2601.0,
@@ -305,7 +299,6 @@
           "ease":"LEGACY",
           "factor":0.00020000000000000001
         },
-        "iFactor_hide":false,
         "iTint":{
           "x":{
             "increase":0.0,
@@ -332,7 +325,14 @@
             "factor":1.0
           }
         },
-        "iTime_hide":false
+        "iFactor":{
+          "increase":0.0,
+          "value":500.0,
+          "target":100.0,
+          "duration":333.33333333000002,
+          "ease":"LEGACY",
+          "factor":0.0050000000000000001
+        }
       },
       "shader":"shader_70s_melt",
       "inherit":null,
@@ -10482,6 +10482,7 @@
           "ease":"LINEAR",
           "factor":1.0
         },
+        "u_direction_hide":true,
         "u_direction":{
           "increase":0.0,
           "value":90.0,
@@ -10498,9 +10499,14 @@
           "ease":"LINEAR",
           "factor":1.0
         },
-        "u_direction_hide":true,
         "u_distfading_hide":true,
         "u_tile_hide":true,
+        "u_darkmatter_hide":true,
+        "u_opacity_hide":true,
+        "u_zoom_hide":true,
+        "u_tint_hide-to":false,
+        "u_tint_hide":true,
+        "u_tint_hide-from":false,
         "u_hue":{
           "increase":0.0,
           "value":0.0,
@@ -10509,16 +10515,13 @@
           "ease":"LINEAR",
           "factor":1.0
         },
-        "u_darkmatter_hide":true,
-        "u_opacity_hide":true,
-        "u_zoom_hide":true,
-        "u_tint_hide-to":false,
-        "u_tint_hide":true,
-        "u_tint_hide-from":false,
         "u_brightness_hide":true,
         "u_hue_hide":true,
         "u_seed_hide":true,
         "u_offset_hide":true,
+        "u_time_hide":false,
+        "u_angle_hide":true,
+        "u_sat_hide":true,
         "u_offset":{
           "x":{
             "increase":0.0,
@@ -10537,10 +10540,7 @@
             "factor":1.0
           }
         },
-        "u_time_hide":false,
         "u_opacity":0.14999999999999999,
-        "u_angle_hide":true,
-        "u_sat_hide":true,
         "u_resolution":{
           "value":{
             "x":2560.0,
@@ -10630,6 +10630,7 @@
           "ease":"IN_OUT_SINE",
           "factor":1.0
         },
+        "u_tint_hide-to":false,
         "u_frequency":{
           "increase":0.0,
           "value":0.20000000000000001,
@@ -10638,6 +10639,8 @@
           "ease":"LINEAR",
           "factor":1.0
         },
+        "u_tint_hide":true,
+        "u_tint_hide-from":false,
         "u_glow":{
           "increase":0.0,
           "value":1.0,
@@ -10654,17 +10657,6 @@
           "ease":"LINEAR",
           "factor":1.0
         },
-        "u_tint_hide-to":false,
-        "u_tint_hide":true,
-        "u_jumpiness":{
-          "increase":0.0,
-          "value":0.20000000000000001,
-          "target":0.40000000000000002,
-          "duration":3.0,
-          "ease":"IN_OUT_SINE",
-          "factor":1.0
-        },
-        "u_tint_hide-from":false,
         "u_jumpiness_hide":true,
         "u_brightness_hide":true,
         "u_wiggle_hide":true,
@@ -10673,6 +10665,22 @@
         "u_seed_hide":true,
         "u_curves_hide":true,
         "u_offset_hide":true,
+        "u_time_hide":true,
+        "u_frequency_hide":true,
+        "u_jumpiness":{
+          "increase":0.0,
+          "value":0.20000000000000001,
+          "target":0.40000000000000002,
+          "duration":3.0,
+          "ease":"IN_OUT_SINE",
+          "factor":1.0
+        },
+        "u_glow_hide":true,
+        "u_angle_hide":true,
+        "u_scale_hide":true,
+        "u_sat_hide":true,
+        "u_distortion_hide":true,
+        "u_speed_hide":true,
         "u_offset":{
           "x":{
             "increase":0.0,
@@ -10691,20 +10699,12 @@
             "factor":1.0
           }
         },
-        "u_time_hide":true,
-        "u_frequency_hide":true,
-        "u_glow_hide":true,
-        "u_angle_hide":true,
-        "u_scale_hide":true,
-        "u_sat_hide":true,
-        "u_distortion_hide":true,
         "u_resolution":{
           "value":{
             "x":2047.0,
             "y":1151.0
           }
         },
-        "u_speed_hide":true,
         "u_sat":{
           "increase":0.0,
           "value":1.0,
@@ -10789,14 +10789,6 @@
     },
     "wavy spectrum 2":{
       "properties":{
-        "u_brightness":{
-          "increase":0.0,
-          "value":1.0,
-          "target":1.5,
-          "duration":30.0,
-          "ease":"IN_OUT_SINE",
-          "factor":1.0
-        },
         "u_color_a":{
           "value":"#0000FF",
           "target":"#00F5FF",
@@ -10836,6 +10828,12 @@
         "u_brightness_hide":true,
         "u_hue_hide":true,
         "u_seed_hide":true,
+        "u_offset_hide":true,
+        "u_time_hide":true,
+        "u_angle_hide":true,
+        "u_scale_hide":true,
+        "u_sat_hide":true,
+        "u_color_b_hide":true,
         "u_noise":{
           "increase":0.0,
           "value":20.0,
@@ -10844,7 +10842,7 @@
           "ease":"IN_OUT_SINE",
           "factor":1.0
         },
-        "u_offset_hide":true,
+        "u_color_b_hide-from":false,
         "u_offset":{
           "x":{
             "increase":0.0,
@@ -10863,16 +10861,17 @@
             "factor":1.0
           }
         },
-        "u_time_hide":true,
-        "u_angle_hide":true,
-        "u_scale_hide":true,
-        "u_sat_hide":true,
+        "u_color_b_hide-to":false,
+        "u_color_c_hide":true,
+        "u_color_c_hide-from":false,
         "u_resolution":{
           "value":{
             "x":2047.0,
             "y":1151.0
           }
         },
+        "u_color_c_hide-to":false,
+        "u_color_mask_hide":true,
         "u_sat":{
           "increase":0.0,
           "value":1.2,
@@ -10881,7 +10880,7 @@
           "ease":"LINEAR",
           "factor":1.0
         },
-        "u_color_b_hide":true,
+        "u_color_mask_hide-from":false,
         "u_scale":{
           "increase":0.0,
           "value":0.5,
@@ -10890,7 +10889,7 @@
           "ease":"IN_OUT_SINE",
           "factor":1.0
         },
-        "u_color_b_hide-from":false,
+        "u_color_mask_hide-to":false,
         "u_seed":{
           "increase":0.0,
           "value":0.0,
@@ -10899,13 +10898,11 @@
           "ease":"LEGACY",
           "factor":1.0
         },
-        "u_color_b_hide-to":false,
-        "u_color_c_hide":true,
-        "u_color_c_hide-from":false,
-        "u_color_c_hide-to":false,
-        "u_color_mask_hide":true,
-        "u_color_mask_hide-from":false,
-        "u_color_mask_hide-to":false,
+        "u_distort_hide":true,
+        "u_noise_hide":true,
+        "u_color_a_hide":true,
+        "u_color_a_hide-from":true,
+        "u_color_a_hide-to":true,
         "u_angle":{
           "increase":0.0,
           "value":90.0,
@@ -10914,9 +10911,6 @@
           "ease":"LINEAR",
           "factor":1.0
         },
-        "u_distort_hide":true,
-        "u_noise_hide":true,
-        "u_color_a_hide":true,
         "u_time":{
           "increase":0.0,
           "value":0.0,
@@ -10925,8 +10919,14 @@
           "ease":"LINEAR",
           "factor":1.0
         },
-        "u_color_a_hide-from":true,
-        "u_color_a_hide-to":true
+        "u_brightness":{
+          "increase":0.0,
+          "value":1.0,
+          "target":1.5,
+          "duration":30.0,
+          "ease":"IN_OUT_SINE",
+          "factor":1.0
+        }
       },
       "shader":"shader_wavy_spectrum",
       "inherit":null,
@@ -10934,9 +10934,6 @@
     },
     "warp pulse 3":{
       "properties":{
-        "u_mask_size_hide":true,
-        "u_treshold_hide":false,
-        "u_thickness_hide":true,
         "u_bpm_hide":true,
         "u_size_hide":true,
         "u_distortion":{
@@ -10947,6 +10944,9 @@
           "ease":"LINEAR",
           "factor":1.0
         },
+        "u_tint_hide-to":true,
+        "u_tint_hide":true,
+        "u_tint_hide-from":true,
         "u_hardness":{
           "increase":0.0,
           "value":1.0,
@@ -10963,9 +10963,13 @@
           "ease":"IN_OUT_QUINT",
           "factor":1.0
         },
-        "u_tint_hide-to":true,
-        "u_tint_hide":true,
-        "u_tint_hide-from":true,
+        "u_brightness_hide":true,
+        "u_hue_hide":true,
+        "u_seed_hide":true,
+        "u_offset_hide":true,
+        "u_time_hide":true,
+        "u_angle_hide":true,
+        "u_sat_hide":true,
         "u_mask_density":{
           "increase":0.0,
           "value":4.0,
@@ -10974,6 +10978,7 @@
           "ease":"LINEAR",
           "factor":1.0
         },
+        "u_distortion_hide":false,
         "u_mask_mode":{
           "increase":0.0,
           "value":2.0,
@@ -10990,10 +10995,6 @@
           "ease":"LINEAR",
           "factor":1.0
         },
-        "u_brightness_hide":true,
-        "u_hue_hide":true,
-        "u_seed_hide":true,
-        "u_offset_hide":true,
         "u_offset":{
           "x":{
             "increase":0.0,
@@ -11012,16 +11013,12 @@
             "factor":1.0
           }
         },
-        "u_time_hide":true,
-        "u_angle_hide":true,
-        "u_sat_hide":true,
         "u_resolution":{
           "value":{
             "x":2560.0,
             "y":1374.0
           }
         },
-        "u_distortion_hide":false,
         "u_sat":{
           "increase":0.0,
           "value":1.0,
@@ -11046,6 +11043,8 @@
           "ease":"LINEAR",
           "factor":1.0
         },
+        "u_hardness_hide":true,
+        "u_mask_density_hide":true,
         "u_angle":{
           "increase":0.0,
           "value":0.0,
@@ -11054,6 +11053,7 @@
           "ease":"LINEAR",
           "factor":1.0
         },
+        "u_mask_mode_hide":true,
         "u_thickness":{
           "increase":0.0,
           "value":1.0,
@@ -11062,6 +11062,7 @@
           "ease":"LINEAR",
           "factor":1.0
         },
+        "u_mask_size_hide":true,
         "u_time":{
           "increase":0.0,
           "value":0.0,
@@ -11070,11 +11071,13 @@
           "ease":"LINEAR",
           "factor":1.0
         },
+        "u_treshold_hide":false,
         "u_tint":{
           "value":"#504DDA",
           "target":"#504DDA",
           "duration":0.0
         },
+        "u_thickness_hide":true,
         "u_treshold":{
           "increase":0.0,
           "value":0.001,
@@ -11091,7 +11094,6 @@
           "ease":"LEGACY",
           "factor":1.0
         },
-        "u_hardness_hide":true,
         "u_brightness":{
           "increase":0.0,
           "value":1.0,
@@ -11099,9 +11101,7 @@
           "duration":0.0,
           "ease":"LINEAR",
           "factor":1.0
-        },
-        "u_mask_density_hide":true,
-        "u_mask_mode_hide":true
+        }
       },
       "shader":"shader_warp_pulse",
       "inherit":null,
@@ -11109,9 +11109,6 @@
     },
     "warp pulse 1":{
       "properties":{
-        "u_mask_size_hide":true,
-        "u_treshold_hide":false,
-        "u_thickness_hide":true,
         "u_bpm_hide":true,
         "u_size_hide":true,
         "u_distortion":{
@@ -11122,6 +11119,9 @@
           "ease":"LINEAR",
           "factor":1.0
         },
+        "u_tint_hide-to":true,
+        "u_tint_hide":true,
+        "u_tint_hide-from":true,
         "u_hardness":{
           "increase":0.0,
           "value":1.0,
@@ -11138,9 +11138,13 @@
           "ease":"IN_OUT_QUINT",
           "factor":1.0
         },
-        "u_tint_hide-to":true,
-        "u_tint_hide":true,
-        "u_tint_hide-from":true,
+        "u_brightness_hide":true,
+        "u_hue_hide":true,
+        "u_seed_hide":true,
+        "u_offset_hide":true,
+        "u_time_hide":true,
+        "u_angle_hide":true,
+        "u_sat_hide":true,
         "u_mask_density":{
           "increase":0.0,
           "value":4.0,
@@ -11149,6 +11153,7 @@
           "ease":"LINEAR",
           "factor":1.0
         },
+        "u_distortion_hide":true,
         "u_mask_mode":{
           "increase":0.0,
           "value":2.0,
@@ -11165,10 +11170,6 @@
           "ease":"LINEAR",
           "factor":1.0
         },
-        "u_brightness_hide":true,
-        "u_hue_hide":true,
-        "u_seed_hide":true,
-        "u_offset_hide":true,
         "u_offset":{
           "x":{
             "increase":0.0,
@@ -11187,16 +11188,12 @@
             "factor":1.0
           }
         },
-        "u_time_hide":true,
-        "u_angle_hide":true,
-        "u_sat_hide":true,
         "u_resolution":{
           "value":{
             "x":2560.0,
             "y":1440.0
           }
         },
-        "u_distortion_hide":true,
         "u_sat":{
           "increase":0.0,
           "value":1.0,
@@ -11221,6 +11218,8 @@
           "ease":"LINEAR",
           "factor":1.0
         },
+        "u_hardness_hide":true,
+        "u_mask_density_hide":true,
         "u_angle":{
           "increase":0.0,
           "value":0.0,
@@ -11229,6 +11228,7 @@
           "ease":"LINEAR",
           "factor":1.0
         },
+        "u_mask_mode_hide":true,
         "u_thickness":{
           "increase":0.0,
           "value":1.0,
@@ -11237,6 +11237,7 @@
           "ease":"LINEAR",
           "factor":1.0
         },
+        "u_mask_size_hide":true,
         "u_time":{
           "increase":0.0,
           "value":0.0,
@@ -11245,11 +11246,13 @@
           "ease":"LINEAR",
           "factor":1.0
         },
+        "u_treshold_hide":false,
         "u_tint":{
           "value":"#504DDA",
           "target":"#504DDA",
           "duration":0.0
         },
+        "u_thickness_hide":true,
         "u_treshold":{
           "increase":0.0,
           "value":0.001,
@@ -11259,7 +11262,6 @@
           "factor":1.0
         },
         "u_bpm":38.75,
-        "u_hardness_hide":true,
         "u_brightness":{
           "increase":0.0,
           "value":1.0,
@@ -11267,9 +11269,7 @@
           "duration":0.0,
           "ease":"LINEAR",
           "factor":1.0
-        },
-        "u_mask_density_hide":true,
-        "u_mask_mode_hide":true
+        }
       },
       "shader":"shader_warp_pulse",
       "inherit":null,
@@ -11327,6 +11327,7 @@
           "ease":"LEGACY",
           "factor":1.0
         },
+        "u_base_hide":false,
         "u_brightness":{
           "increase":0.0,
           "value":1.2,
@@ -11335,7 +11336,6 @@
           "ease":"LINEAR",
           "factor":1.0
         },
-        "u_base_hide":false,
         "u_contrast_hide":true,
         "u_factor_hide":false,
         "u_neon_hide":true,
@@ -11498,6 +11498,7 @@
           "ease":"LINEAR",
           "factor":1.0
         },
+        "u_direction_hide":true,
         "u_direction":{
           "increase":0.0,
           "value":90.0,
@@ -11514,9 +11515,14 @@
           "ease":"LINEAR",
           "factor":1.0
         },
-        "u_direction_hide":true,
         "u_distfading_hide":true,
         "u_tile_hide":true,
+        "u_darkmatter_hide":false,
+        "u_opacity_hide":true,
+        "u_zoom_hide":false,
+        "u_tint_hide-to":false,
+        "u_tint_hide":false,
+        "u_tint_hide-from":false,
         "u_hue":{
           "increase":0.0,
           "value":0.0,
@@ -11525,16 +11531,13 @@
           "ease":"LINEAR",
           "factor":1.0
         },
-        "u_darkmatter_hide":false,
-        "u_opacity_hide":true,
-        "u_zoom_hide":false,
-        "u_tint_hide-to":false,
-        "u_tint_hide":false,
-        "u_tint_hide-from":false,
         "u_brightness_hide":true,
         "u_hue_hide":true,
         "u_seed_hide":true,
         "u_offset_hide":true,
+        "u_time_hide":false,
+        "u_angle_hide":true,
+        "u_sat_hide":false,
         "u_offset":{
           "x":{
             "increase":0.0,
@@ -11553,10 +11556,7 @@
             "factor":1.0
           }
         },
-        "u_time_hide":false,
         "u_opacity":0.1000000000001,
-        "u_angle_hide":true,
-        "u_sat_hide":false,
         "u_resolution":{
           "value":{
             "x":2560.0,
@@ -11674,6 +11674,7 @@
           "ease":"LEGACY",
           "factor":1.0
         },
+        "u_base_hide":false,
         "u_brightness":{
           "increase":0.0,
           "value":1.1000000000000001,
@@ -11682,7 +11683,6 @@
           "ease":"LINEAR",
           "factor":1.0
         },
-        "u_base_hide":false,
         "u_contrast_hide":true,
         "u_factor_hide":false,
         "u_neon_hide":false,
@@ -11853,6 +11853,7 @@
           "ease":"IN_OUT_SINE",
           "factor":1.0
         },
+        "u_thickness_hide":false,
         "u_border":{
           "increase":0.0,
           "value":0.01,
@@ -11869,7 +11870,6 @@
           "ease":"LINEAR",
           "factor":1.0
         },
-        "u_thickness_hide":false,
         "u_color_between":{
           "value":"#793BA2",
           "target":"#2E5EFD",
@@ -11880,21 +11880,25 @@
           "target":"#C1008E",
           "duration":5.0
         },
+        "u_mesh_size_hide":true,
+        "u_border_hide":true,
+        "u_color_between_hide":true,
+        "u_color_between_hide-from":true,
         "u_color_mesh":{
           "value":"#AF00D8",
           "target":"#FF0000",
           "duration":5.0
         },
-        "u_mesh_size_hide":true,
-        "u_border_hide":true,
-        "u_color_between_hide":true,
-        "u_color_between_hide-from":true,
         "u_color_between_hide-to":true,
         "u_color_bkg_hide":true,
         "u_color_bkg_hide-from":false,
         "u_color_bkg_hide-to":false,
         "u_color_mesh_hide":true,
         "u_color_mesh_hide-from":false,
+        "u_color_mesh_hide-to":false,
+        "u_fbm_scale_hide":true,
+        "u_fbm_size_hide":true,
+        "u_jitter_hide":true,
         "u_fbm_scale":{
           "increase":0.0,
           "value":0.5,
@@ -11903,7 +11907,6 @@
           "ease":"IN_OUT_SINE",
           "factor":1.0
         },
-        "u_color_mesh_hide-to":false,
         "u_fbm_size":{
           "increase":0.0,
           "value":0.5,
@@ -11912,9 +11915,6 @@
           "ease":"IN_OUT_SINE",
           "factor":1.0
         },
-        "u_fbm_scale_hide":true,
-        "u_fbm_size_hide":true,
-        "u_jitter_hide":true,
         "u_hue":{
           "increase":0.0,
           "value":0.0,
@@ -12010,6 +12010,7 @@
     },
     "funk flux 1":{
       "properties":{
+        "u_bpm_hide":true,
         "u_density":{
           "increase":0.0,
           "value":96.0,
@@ -12018,7 +12019,8 @@
           "ease":"OUT_EXPO",
           "factor":1.0
         },
-        "u_bpm_hide":true,
+        "u_sharp_hide":true,
+        "u_density_hide":false,
         "u_hue":{
           "increase":0.0,
           "value":0.0,
@@ -12027,12 +12029,15 @@
           "ease":"IN_OUT_SINE",
           "factor":1.0
         },
-        "u_sharp_hide":true,
-        "u_density_hide":false,
         "u_brightness_hide":true,
         "u_hue_hide":true,
         "u_seed_hide":true,
         "u_offset_hide":true,
+        "u_time_hide":true,
+        "u_angle_hide":true,
+        "u_scale_hide":true,
+        "u_sat_hide":true,
+        "u_speed_hide":true,
         "u_offset":{
           "x":{
             "increase":0.0,
@@ -12051,17 +12056,12 @@
             "factor":1.0
           }
         },
-        "u_time_hide":true,
-        "u_angle_hide":true,
-        "u_scale_hide":true,
-        "u_sat_hide":true,
         "u_resolution":{
           "value":{
             "x":2560.0,
             "y":1440.0
           }
         },
-        "u_speed_hide":true,
         "u_sat":{
           "increase":0.0,
           "value":2.0,
@@ -12104,6 +12104,7 @@
           "ease":"LINEAR",
           "factor":1.0
         },
+        "u_treshold_hide":false,
         "u_treshold":{
           "increase":0.0,
           "value":0.0,
@@ -12127,8 +12128,7 @@
           "duration":0.0,
           "ease":"LINEAR",
           "factor":1.0
-        },
-        "u_treshold_hide":false
+        }
       },
       "shader":"shader_funk_flux",
       "inherit":null,
@@ -12136,22 +12136,15 @@
     },
     "cloudy sky 3":{
       "properties":{
-        "u_cloud_dark":{
-          "increase":0.0,
-          "value":0.5,
-          "target":0.5,
-          "duration":0.0,
-          "ease":"LINEAR",
-          "factor":1.0
-        },
-        "u_cloud_light":{
-          "increase":0.0,
-          "value":0.5,
-          "target":0.90000000000000002,
-          "duration":7.0,
-          "ease":"IN_OUT_SINE",
-          "factor":1.0
-        },
+        "u_zoom_hide":false,
+        "u_sky_color_bottom_hide-to":false,
+        "u_tint_hide-to":false,
+        "u_tint_hide":false,
+        "u_sky_color_top_hide":false,
+        "u_tint_hide-from":false,
+        "u_sky_color_top_hide-from":false,
+        "u_sky_color_top_hide-to":false,
+        "u_cloud_coverage_hide":false,
         "u_hue":{
           "increase":0.0,
           "value":0.0,
@@ -12160,15 +12153,6 @@
           "ease":"IN_OUT_QUINT",
           "factor":1.0
         },
-        "u_zoom_hide":false,
-        "u_sky_color_bottom_hide-to":false,
-        "u_tint_hide-to":false,
-        "u_sky_color_top_hide":false,
-        "u_tint_hide":false,
-        "u_tint_hide-from":false,
-        "u_sky_color_top_hide-from":false,
-        "u_sky_color_top_hide-to":false,
-        "u_cloud_coverage_hide":false,
         "u_cloud_dark_hide":false,
         "u_brightness_hide":false,
         "u_cloud_light_hide":false,
@@ -12177,7 +12161,11 @@
         "u_seed_hide":true,
         "u_sky_color_bottom_hide":true,
         "u_offset_hide":true,
+        "u_sky_color_bottom_hide-from":false,
         "u_time_hide":false,
+        "u_angle_hide":false,
+        "u_sat_hide":false,
+        "u_speed_hide":true,
         "u_offset":{
           "x":{
             "increase":0.0,
@@ -12196,16 +12184,12 @@
             "factor":1.0
           }
         },
-        "u_sky_color_bottom_hide-from":false,
-        "u_angle_hide":false,
-        "u_sat_hide":false,
         "u_resolution":{
           "value":{
             "x":2560.0,
             "y":1440.0
           }
         },
-        "u_speed_hide":true,
         "u_sat":{
           "increase":0.0,
           "value":1.25,
@@ -12285,6 +12269,22 @@
           "duration":7.0,
           "ease":"IN_OUT_SINE",
           "factor":1.0
+        },
+        "u_cloud_dark":{
+          "increase":0.0,
+          "value":0.5,
+          "target":0.5,
+          "duration":0.0,
+          "ease":"LINEAR",
+          "factor":1.0
+        },
+        "u_cloud_light":{
+          "increase":0.0,
+          "value":0.5,
+          "target":0.90000000000000002,
+          "duration":7.0,
+          "ease":"IN_OUT_SINE",
+          "factor":1.0
         }
       },
       "shader":"shader_cloudy_sky",
@@ -12293,9 +12293,6 @@
     },
     "warp pulse 2":{
       "properties":{
-        "u_mask_size_hide":true,
-        "u_treshold_hide":true,
-        "u_thickness_hide":true,
         "u_bpm_hide":true,
         "u_size_hide":true,
         "u_distortion":{
@@ -12306,6 +12303,9 @@
           "ease":"IN_OUT_QUART",
           "factor":1.0
         },
+        "u_tint_hide-to":false,
+        "u_tint_hide":true,
+        "u_tint_hide-from":false,
         "u_hardness":{
           "value":0.75,
           "increase":0.0,
@@ -12322,9 +12322,13 @@
           "ease":"IN_OUT_SINE",
           "factor":1.0
         },
-        "u_tint_hide-to":false,
-        "u_tint_hide":true,
-        "u_tint_hide-from":false,
+        "u_brightness_hide":true,
+        "u_hue_hide":true,
+        "u_seed_hide":true,
+        "u_offset_hide":true,
+        "u_time_hide":true,
+        "u_angle_hide":true,
+        "u_sat_hide":true,
         "u_mask_density":{
           "value":4.0,
           "increase":0.0,
@@ -12333,6 +12337,7 @@
           "ease":"LINEAR",
           "factor":1.0
         },
+        "u_distortion_hide":true,
         "u_mask_mode":{
           "value":0.0,
           "increase":0.0,
@@ -12341,7 +12346,6 @@
           "ease":"LEGACY",
           "factor":1.0
         },
-        "u_brightness_hide":true,
         "u_mask_size":{
           "value":1.0,
           "increase":0.0,
@@ -12350,10 +12354,6 @@
           "ease":"LINEAR",
           "factor":1.0
         },
-        "u_hue_hide":true,
-        "u_seed_hide":true,
-        "u_offset_hide":true,
-        "u_time_hide":true,
         "u_offset":{
           "x":{
             "value":0.5,
@@ -12372,9 +12372,6 @@
             "factor":1.0
           }
         },
-        "u_angle_hide":true,
-        "u_sat_hide":true,
-        "u_distortion_hide":true,
         "u_resolution":{
           "value":{
             "x":2560.0,
@@ -12405,6 +12402,8 @@
           "ease":"LINEAR",
           "factor":1.0
         },
+        "u_hardness_hide":true,
+        "u_mask_density_hide":true,
         "u_angle":{
           "value":0.0,
           "increase":0.0,
@@ -12413,6 +12412,7 @@
           "ease":"LINEAR",
           "factor":1.0
         },
+        "u_mask_mode_hide":false,
         "u_thickness":{
           "value":2.0,
           "increase":0.0,
@@ -12421,6 +12421,7 @@
           "ease":"LINEAR",
           "factor":1.0
         },
+        "u_mask_size_hide":true,
         "u_time":{
           "value":0.0,
           "increase":0.0,
@@ -12429,11 +12430,13 @@
           "ease":"LINEAR",
           "factor":1.0
         },
+        "u_treshold_hide":true,
         "u_tint":{
           "value":"#D3153A",
           "target":"#D3153A",
           "duration":0.0
         },
+        "u_thickness_hide":true,
         "u_treshold":{
           "value":0.01,
           "increase":0.0,
@@ -12450,7 +12453,6 @@
           "ease":"LEGACY",
           "factor":1.0
         },
-        "u_hardness_hide":true,
         "u_brightness":{
           "value":0.75,
           "increase":0.0,
@@ -12458,9 +12460,7 @@
           "duration":0.0,
           "ease":"IN_OUT_SINE",
           "factor":1.0
-        },
-        "u_mask_density_hide":true,
-        "u_mask_mode_hide":false
+        }
       },
       "shader":"shader_warp_pulse",
       "inherit":null,
@@ -12468,10 +12468,14 @@
     },
     "astral flow 1":{
       "properties":{
-        "u_base_hide":true,
         "u_size_hide":true,
         "u_shift_hide":false,
         "u_bold_hide":true,
+        "u_opacity_hide":true,
+        "u_zoom_hide":true,
+        "u_tint_hide-to":false,
+        "u_tint_hide":true,
+        "u_tint_hide-from":false,
         "u_glow":{
           "value":2.0,
           "increase":0.0,
@@ -12488,16 +12492,17 @@
           "ease":"IN_OUT_SINE",
           "factor":1.0
         },
-        "u_opacity_hide":true,
-        "u_zoom_hide":true,
-        "u_tint_hide-to":false,
-        "u_tint_hide":true,
-        "u_tint_hide-from":false,
         "u_brightness_hide":true,
         "u_hue_hide":true,
         "u_seed_hide":true,
         "u_offset_hide":true,
         "u_time_hide":true,
+        "u_angle_hide":true,
+        "u_glow_hide":false,
+        "u_sat_hide":true,
+        "u_base_hide-from":false,
+        "u_speed_hide":true,
+        "u_base_hide-to":false,
         "u_offset":{
           "x":{
             "value":0.5,
@@ -12516,8 +12521,6 @@
             "factor":1.0
           }
         },
-        "u_angle_hide":true,
-        "u_glow_hide":false,
         "u_opacity":{
           "value":0.69999999999999996,
           "increase":0.0,
@@ -12526,16 +12529,12 @@
           "ease":"IN_OUT_SINE",
           "factor":1.0
         },
-        "u_sat_hide":true,
-        "u_base_hide-from":false,
         "u_resolution":{
           "value":{
             "x":2560.0,
             "y":1440.0
           }
         },
-        "u_speed_hide":true,
-        "u_base_hide-to":false,
         "u_sat":{
           "value":1.5,
           "increase":0.0,
@@ -12610,6 +12609,7 @@
           "ease":"LINEAR",
           "factor":1.0
         },
+        "u_base_hide":true,
         "u_zoom":{
           "value":0.5,
           "increase":0.0,
@@ -12683,6 +12683,7 @@
           "ease":"LEGACY",
           "factor":1.0
         },
+        "u_base_hide":true,
         "u_brightness":{
           "increase":0.0,
           "value":1.0,
@@ -12691,7 +12692,6 @@
           "ease":"LINEAR",
           "factor":1.0
         },
-        "u_base_hide":true,
         "u_contrast_hide":true,
         "u_factor_hide":true,
         "u_neon_hide":true,
@@ -12846,7 +12846,7 @@
     },
     "wavy lines 1":{
       "properties":{
-        "u_thickness_hide":true,
+        "u_bpm_hide":true,
         "u_corners":{
           "increase":0.0,
           "value":1.0,
@@ -12855,6 +12855,9 @@
           "ease":"LINEAR",
           "factor":1.0
         },
+        "u_size_hide":false,
+        "u_shift_hide":true,
+        "u_direction_hide":true,
         "u_density":{
           "increase":0.0,
           "value":2.0,
@@ -12871,10 +12874,11 @@
           "ease":"LEGACY",
           "factor":1.0
         },
-        "u_bpm_hide":true,
-        "u_size_hide":false,
-        "u_shift_hide":true,
-        "u_direction_hide":true,
+        "u_density_hide":true,
+        "u_zoom_hide":true,
+        "u_tint_hide-to":true,
+        "u_tint_hide":true,
+        "u_tint_hide-from":true,
         "u_hue":{
           "increase":0.0,
           "value":0.0,
@@ -12883,15 +12887,14 @@
           "ease":"LINEAR",
           "factor":1.0
         },
-        "u_density_hide":true,
-        "u_zoom_hide":true,
-        "u_tint_hide-to":true,
-        "u_tint_hide":true,
-        "u_tint_hide-from":true,
         "u_brightness_hide":true,
         "u_hue_hide":true,
         "u_seed_hide":true,
         "u_offset_hide":false,
+        "u_time_hide":true,
+        "u_angle_hide":false,
+        "u_sat_hide":true,
+        "u_amplitude_hide":true,
         "u_offset":{
           "x":{
             "increase":0.0,
@@ -12910,9 +12913,7 @@
             "factor":1.0
           }
         },
-        "u_time_hide":true,
-        "u_angle_hide":false,
-        "u_sat_hide":true,
+        "u_corners_hide":true,
         "u_resolution":{
           "value":{
             "x":2560.0,
@@ -12927,7 +12928,6 @@
           "ease":"LINEAR",
           "factor":1.0
         },
-        "u_amplitude_hide":true,
         "u_seed":{
           "increase":0.0,
           "value":0.0,
@@ -12936,7 +12936,6 @@
           "ease":"LEGACY",
           "factor":1.0
         },
-        "u_corners_hide":true,
         "u_shift":{
           "increase":0.0,
           "value":0.14999999999999999,
@@ -12990,6 +12989,7 @@
           "target":"#FF0000",
           "duration":0.0
         },
+        "u_thickness_hide":true,
         "u_zoom":{
           "increase":0.0,
           "value":1.0,
@@ -13021,27 +13021,10 @@
     },
     "polycular 1":{
       "properties":{
-        "u_points_hide":true,
         "u_bpm_hide":true,
-        "u_distortion":{
-          "value":1.0,
-          "increase":0.0,
-          "target":1.0,
-          "duration":0.0,
-          "ease":"LINEAR",
-          "factor":1.0
-        },
         "u_shift_hide":true,
         "u_intensity_hide":true,
-        "u_hue":{
-          "value":0.0,
-          "increase":0.0,
-          "target":0.0,
-          "duration":0.0,
-          "ease":"LINEAR",
-          "factor":1.0
-        },
-        "u_intensity":{
+        "u_distortion":{
           "value":1.0,
           "increase":0.0,
           "target":1.0,
@@ -13052,11 +13035,30 @@
         "u_tint_hide-to":false,
         "u_tint_hide":false,
         "u_tint_hide-from":false,
+        "u_hue":{
+          "value":0.0,
+          "increase":0.0,
+          "target":0.0,
+          "duration":0.0,
+          "ease":"LINEAR",
+          "factor":1.0
+        },
         "u_brightness_hide":true,
+        "u_intensity":{
+          "value":1.0,
+          "increase":0.0,
+          "target":1.0,
+          "duration":0.0,
+          "ease":"LINEAR",
+          "factor":1.0
+        },
         "u_hue_hide":true,
         "u_seed_hide":true,
         "u_offset_hide":true,
         "u_time_hide":true,
+        "u_angle_hide":true,
+        "u_sat_hide":true,
+        "u_distortion_hide":true,
         "u_offset":{
           "x":{
             "value":0.5,
@@ -13075,8 +13077,6 @@
             "factor":1.0
           }
         },
-        "u_angle_hide":true,
-        "u_sat_hide":true,
         "u_points":{
           "value":6.0,
           "increase":0.0,
@@ -13085,13 +13085,15 @@
           "ease":"LINEAR",
           "factor":1.0
         },
-        "u_distortion_hide":true,
+        "u_bkg_hide-to":true,
         "u_resolution":{
           "value":{
             "x":2560.0,
             "y":1440.0
           }
         },
+        "u_amount_hide":false,
+        "u_bkg_hide":true,
         "u_sat":{
           "value":1.0,
           "increase":0.0,
@@ -13100,6 +13102,7 @@
           "ease":"LINEAR",
           "factor":1.0
         },
+        "u_bkg_hide-from":true,
         "u_seed":{
           "value":0.0,
           "increase":0.0,
@@ -13116,8 +13119,6 @@
           "ease":"LINEAR",
           "factor":1.0
         },
-        "u_bkg_hide-to":true,
-        "u_amount_hide":false,
         "u_amount":{
           "value":5.0,
           "increase":0.0,
@@ -13126,8 +13127,6 @@
           "ease":"LINEAR",
           "factor":1.0
         },
-        "u_bkg_hide":true,
-        "u_bkg_hide-from":true,
         "u_angle":{
           "value":0.0,
           "increase":0.0,
@@ -13144,15 +13143,16 @@
           "ease":"LINEAR",
           "factor":1.0
         },
-        "u_bkg":{
-          "value":"#FFFFFF",
-          "target":"#FFFFFF",
-          "duration":0.0
-        },
+        "u_treshold_hide":true,
         "u_tint":{
           "value":"#FF0000",
           "target":"#FF0000",
           "duration":5.0
+        },
+        "u_bkg":{
+          "value":"#FFFFFF",
+          "target":"#FFFFFF",
+          "duration":0.0
         },
         "u_treshold":{
           "value":5.0,
@@ -13178,7 +13178,7 @@
           "ease":"LINEAR",
           "factor":1.0
         },
-        "u_treshold_hide":true
+        "u_points_hide":true
       },
       "shader":"shader_polycular",
       "inherit":null,
@@ -13186,8 +13186,9 @@
     },
     "polycular 2":{
       "properties":{
-        "u_points_hide":true,
         "u_bpm_hide":true,
+        "u_shift_hide":true,
+        "u_intensity_hide":true,
         "u_distortion":{
           "increase":0.0,
           "value":1.0,
@@ -13196,8 +13197,9 @@
           "ease":"LINEAR",
           "factor":1.0
         },
-        "u_shift_hide":true,
-        "u_intensity_hide":true,
+        "u_tint_hide-to":true,
+        "u_tint_hide":true,
+        "u_tint_hide-from":true,
         "u_hue":{
           "increase":0.0,
           "value":0.0,
@@ -13206,6 +13208,7 @@
           "ease":"LINEAR",
           "factor":1.0
         },
+        "u_brightness_hide":true,
         "u_intensity":{
           "increase":0.0,
           "value":0.20000000000000001,
@@ -13214,13 +13217,13 @@
           "ease":"LINEAR",
           "factor":1.0
         },
-        "u_tint_hide-to":true,
-        "u_tint_hide":true,
-        "u_tint_hide-from":true,
-        "u_brightness_hide":true,
         "u_hue_hide":true,
         "u_seed_hide":true,
         "u_offset_hide":true,
+        "u_time_hide":true,
+        "u_angle_hide":true,
+        "u_sat_hide":true,
+        "u_distortion_hide":true,
         "u_offset":{
           "x":{
             "increase":0.0,
@@ -13239,8 +13242,6 @@
             "factor":1.0
           }
         },
-        "u_time_hide":true,
-        "u_angle_hide":true,
         "u_points":{
           "increase":0.0,
           "value":6.0,
@@ -13249,14 +13250,15 @@
           "ease":"IN_OUT_SINE",
           "factor":1.0
         },
-        "u_sat_hide":true,
-        "u_distortion_hide":true,
+        "u_bkg_hide-to":false,
         "u_resolution":{
           "value":{
             "x":2560.0,
             "y":1374.0
           }
         },
+        "u_amount_hide":true,
+        "u_bkg_hide":false,
         "u_sat":{
           "increase":0.0,
           "value":1.0,
@@ -13265,6 +13267,7 @@
           "ease":"LINEAR",
           "factor":1.0
         },
+        "u_bkg_hide-from":true,
         "u_seed":{
           "increase":0.0,
           "value":0.0,
@@ -13281,9 +13284,6 @@
           "ease":"LINEAR",
           "factor":1.0
         },
-        "u_bkg_hide-to":false,
-        "u_amount_hide":true,
-        "u_bkg_hide":false,
         "u_amount":{
           "increase":0.0,
           "value":2.0,
@@ -13292,7 +13292,6 @@
           "ease":"LINEAR",
           "factor":1.0
         },
-        "u_bkg_hide-from":true,
         "u_angle":{
           "increase":0.0,
           "value":0.0,
@@ -13309,14 +13308,15 @@
           "ease":"LINEAR",
           "factor":1.0
         },
-        "u_tint":{
-          "value":"#FF0000",
-          "target":"#FF0000",
-          "duration":0.0
-        },
+        "u_treshold_hide":true,
         "u_bkg":{
           "value":"#FFFFFF",
           "target":"#FFFFFF",
+          "duration":0.0
+        },
+        "u_tint":{
+          "value":"#FF0000",
+          "target":"#FF0000",
           "duration":0.0
         },
         "u_treshold":{
@@ -13343,7 +13343,7 @@
           "ease":"LINEAR",
           "factor":1.0
         },
-        "u_treshold_hide":true
+        "u_points_hide":true
       },
       "shader":"shader_polycular",
       "inherit":null,
@@ -13351,22 +13351,15 @@
     },
     "cloudy sky 2":{
       "properties":{
-        "u_cloud_dark":{
-          "increase":0.0,
-          "value":0.10000000000000001,
-          "target":0.10000000000000001,
-          "duration":0.0,
-          "ease":"LINEAR",
-          "factor":1.0
-        },
-        "u_cloud_light":{
-          "increase":0.0,
-          "value":1.0,
-          "target":1.0,
-          "duration":7.0,
-          "ease":"IN_OUT_SINE",
-          "factor":1.0
-        },
+        "u_zoom_hide":true,
+        "u_sky_color_bottom_hide-to":false,
+        "u_tint_hide-to":false,
+        "u_tint_hide":true,
+        "u_sky_color_top_hide":true,
+        "u_tint_hide-from":false,
+        "u_sky_color_top_hide-from":false,
+        "u_sky_color_top_hide-to":false,
+        "u_cloud_coverage_hide":true,
         "u_hue":{
           "increase":0.0,
           "value":0.0,
@@ -13375,15 +13368,6 @@
           "ease":"IN_OUT_QUINT",
           "factor":1.0
         },
-        "u_zoom_hide":true,
-        "u_sky_color_bottom_hide-to":false,
-        "u_tint_hide-to":false,
-        "u_sky_color_top_hide":true,
-        "u_tint_hide":true,
-        "u_tint_hide-from":false,
-        "u_sky_color_top_hide-from":false,
-        "u_sky_color_top_hide-to":false,
-        "u_cloud_coverage_hide":true,
         "u_cloud_dark_hide":true,
         "u_brightness_hide":true,
         "u_cloud_light_hide":true,
@@ -13392,7 +13376,11 @@
         "u_seed_hide":true,
         "u_sky_color_bottom_hide":true,
         "u_offset_hide":true,
+        "u_sky_color_bottom_hide-from":false,
         "u_time_hide":true,
+        "u_angle_hide":true,
+        "u_sat_hide":true,
+        "u_speed_hide":true,
         "u_offset":{
           "x":{
             "increase":0.0,
@@ -13411,16 +13399,12 @@
             "factor":1.0
           }
         },
-        "u_sky_color_bottom_hide-from":false,
-        "u_angle_hide":true,
-        "u_sat_hide":true,
         "u_resolution":{
           "value":{
             "x":2560.0,
             "y":1440.0
           }
         },
-        "u_speed_hide":true,
         "u_sat":{
           "increase":0.0,
           "value":1.25,
@@ -13497,6 +13481,22 @@
           "increase":0.0,
           "value":0.20000000000000001,
           "target":0.5,
+          "duration":7.0,
+          "ease":"IN_OUT_SINE",
+          "factor":1.0
+        },
+        "u_cloud_dark":{
+          "increase":0.0,
+          "value":0.10000000000000001,
+          "target":0.10000000000000001,
+          "duration":0.0,
+          "ease":"LINEAR",
+          "factor":1.0
+        },
+        "u_cloud_light":{
+          "increase":0.0,
+          "value":1.0,
+          "target":1.0,
           "duration":7.0,
           "ease":"IN_OUT_SINE",
           "factor":1.0
@@ -13709,6 +13709,7 @@
     },
     "funk flux 2":{
       "properties":{
+        "u_bpm_hide":true,
         "u_density":{
           "increase":0.0,
           "value":96.0,
@@ -13717,7 +13718,8 @@
           "ease":"OUT_EXPO",
           "factor":1.0
         },
-        "u_bpm_hide":true,
+        "u_sharp_hide":false,
+        "u_density_hide":false,
         "u_hue":{
           "increase":0.0,
           "value":0.0,
@@ -13726,12 +13728,15 @@
           "ease":"IN_OUT_SINE",
           "factor":1.0
         },
-        "u_sharp_hide":false,
-        "u_density_hide":false,
         "u_brightness_hide":false,
         "u_hue_hide":false,
         "u_seed_hide":true,
         "u_offset_hide":true,
+        "u_time_hide":true,
+        "u_angle_hide":false,
+        "u_scale_hide":true,
+        "u_sat_hide":true,
+        "u_speed_hide":false,
         "u_offset":{
           "x":{
             "increase":0.0,
@@ -13750,17 +13755,12 @@
             "factor":1.0
           }
         },
-        "u_time_hide":true,
-        "u_angle_hide":false,
-        "u_scale_hide":true,
-        "u_sat_hide":true,
         "u_resolution":{
           "value":{
             "x":2560.0,
             "y":1440.0
           }
         },
-        "u_speed_hide":false,
         "u_sat":0.5,
         "u_scale":3.0,
         "u_seed":237.0,
@@ -13789,6 +13789,7 @@
           "ease":"LINEAR",
           "factor":1.0
         },
+        "u_treshold_hide":true,
         "u_treshold":{
           "increase":0.0,
           "value":0.0,
@@ -13812,8 +13813,7 @@
           "duration":1.75,
           "ease":"IN_OUT_SINE",
           "factor":1.0
-        },
-        "u_treshold_hide":true
+        }
       },
       "shader":"shader_funk_flux",
       "inherit":null,
@@ -13829,6 +13829,7 @@
           "ease":"LINEAR",
           "factor":1.0
         },
+        "u_direction_hide":true,
         "u_direction":{
           "value":90.0,
           "increase":0.0,
@@ -13845,9 +13846,14 @@
           "ease":"LINEAR",
           "factor":1.0
         },
-        "u_direction_hide":true,
         "u_distfading_hide":true,
         "u_tile_hide":true,
+        "u_darkmatter_hide":true,
+        "u_opacity_hide":true,
+        "u_zoom_hide":true,
+        "u_tint_hide-to":true,
+        "u_tint_hide":true,
+        "u_tint_hide-from":true,
         "u_hue":{
           "value":0.0,
           "increase":0.0,
@@ -13856,16 +13862,13 @@
           "ease":"LINEAR",
           "factor":1.0
         },
-        "u_darkmatter_hide":true,
-        "u_opacity_hide":true,
-        "u_zoom_hide":true,
-        "u_tint_hide-to":true,
-        "u_tint_hide":true,
-        "u_tint_hide-from":true,
         "u_brightness_hide":true,
         "u_hue_hide":true,
         "u_seed_hide":true,
         "u_offset_hide":true,
+        "u_time_hide":false,
+        "u_angle_hide":true,
+        "u_sat_hide":true,
         "u_offset":{
           "x":{
             "value":0.5,
@@ -13884,7 +13887,6 @@
             "factor":1.0
           }
         },
-        "u_time_hide":false,
         "u_opacity":{
           "value":1.0,
           "increase":0.0,
@@ -13893,8 +13895,6 @@
           "ease":"LINEAR",
           "factor":1.0
         },
-        "u_angle_hide":true,
-        "u_sat_hide":true,
         "u_resolution":{
           "value":{
             "x":2560.0,
@@ -13969,6 +13969,7 @@
     },
     "funk flux 3":{
       "properties":{
+        "u_bpm_hide":true,
         "u_density":{
           "increase":0.0,
           "value":16.0,
@@ -13977,7 +13978,8 @@
           "ease":"IN_OUT_EXPO",
           "factor":1.0
         },
-        "u_bpm_hide":true,
+        "u_sharp_hide":true,
+        "u_density_hide":true,
         "u_hue":{
           "increase":0.0,
           "value":0.0,
@@ -13986,12 +13988,15 @@
           "ease":"IN_OUT_SINE",
           "factor":1.0
         },
-        "u_sharp_hide":true,
-        "u_density_hide":true,
         "u_brightness_hide":true,
         "u_hue_hide":true,
         "u_seed_hide":true,
         "u_offset_hide":true,
+        "u_time_hide":true,
+        "u_angle_hide":true,
+        "u_scale_hide":true,
+        "u_sat_hide":true,
+        "u_speed_hide":true,
         "u_offset":{
           "x":{
             "increase":0.0,
@@ -14010,17 +14015,12 @@
             "factor":1.0
           }
         },
-        "u_time_hide":true,
-        "u_angle_hide":true,
-        "u_scale_hide":true,
-        "u_sat_hide":true,
         "u_resolution":{
           "value":{
             "x":2560.0,
             "y":1440.0
           }
         },
-        "u_speed_hide":true,
         "u_sat":{
           "increase":0.0,
           "value":0.25,
@@ -14070,6 +14070,7 @@
           "ease":"LINEAR",
           "factor":1.0
         },
+        "u_treshold_hide":false,
         "u_treshold":{
           "increase":0.0,
           "value":0.0,
@@ -14093,8 +14094,7 @@
           "duration":2.5,
           "ease":"IN_OUT_SINE",
           "factor":1.0
-        },
-        "u_treshold_hide":false
+        }
       },
       "shader":"shader_funk_flux",
       "inherit":null,
@@ -14102,13 +14102,6 @@
     },
     "CRT 1":{
       "properties":{
-        "uni_use_radial_distortion_hide":true,
-        "uni_use_scanlines_hide":true,
-        "uni_border_corner_size_hide":true,
-        "uni_border_corner_smoothness_hide":true,
-        "uni_brightness_hide":true,
-        "uni_crt_sizes_hide":true,
-        "uni_noise_strength_hide":true,
         "uni_border_corner_size":{
           "increase":0.0,
           "value":0.012500000000000001,
@@ -14231,11 +14224,18 @@
           "ease":"LINEAR",
           "factor":1.0
         },
+        "uni_border_corner_smoothness_hide":true,
+        "uni_brightness_hide":true,
+        "uni_crt_sizes_hide":true,
+        "uni_noise_strength_hide":true,
         "uni_radial_distortion_amount_hide":true,
         "uni_timer_hide":true,
         "uni_use_RGB_separation_hide":true,
         "uni_use_border_hide":true,
-        "uni_use_noise_hide":true
+        "uni_use_noise_hide":true,
+        "uni_use_radial_distortion_hide":true,
+        "uni_use_scanlines_hide":true,
+        "uni_border_corner_size_hide":true
       },
       "shader":"shader_crt",
       "inherit":null,
@@ -14243,22 +14243,15 @@
     },
     "cloudy sky 1":{
       "properties":{
-        "u_cloud_dark":{
-          "increase":0.0,
-          "value":0.5,
-          "target":0.5,
-          "duration":0.0,
-          "ease":"LINEAR",
-          "factor":1.0
-        },
-        "u_cloud_light":{
-          "increase":0.0,
-          "value":0.5,
-          "target":0.5,
-          "duration":0.0,
-          "ease":"LINEAR",
-          "factor":1.0
-        },
+        "u_zoom_hide":true,
+        "u_sky_color_bottom_hide-to":false,
+        "u_tint_hide-to":false,
+        "u_tint_hide":false,
+        "u_sky_color_top_hide":true,
+        "u_tint_hide-from":false,
+        "u_sky_color_top_hide-from":false,
+        "u_sky_color_top_hide-to":false,
+        "u_cloud_coverage_hide":true,
         "u_hue":{
           "increase":0.0,
           "value":0.0,
@@ -14267,15 +14260,6 @@
           "ease":"LINEAR",
           "factor":1.0
         },
-        "u_zoom_hide":true,
-        "u_sky_color_bottom_hide-to":false,
-        "u_tint_hide-to":false,
-        "u_sky_color_top_hide":true,
-        "u_tint_hide":false,
-        "u_tint_hide-from":false,
-        "u_sky_color_top_hide-from":false,
-        "u_sky_color_top_hide-to":false,
-        "u_cloud_coverage_hide":true,
         "u_cloud_dark_hide":true,
         "u_brightness_hide":true,
         "u_cloud_light_hide":true,
@@ -14284,7 +14268,11 @@
         "u_seed_hide":true,
         "u_sky_color_bottom_hide":true,
         "u_offset_hide":true,
+        "u_sky_color_bottom_hide-from":true,
         "u_time_hide":true,
+        "u_angle_hide":true,
+        "u_sat_hide":true,
+        "u_speed_hide":true,
         "u_offset":{
           "x":{
             "increase":0.0,
@@ -14303,16 +14291,12 @@
             "factor":1.0
           }
         },
-        "u_sky_color_bottom_hide-from":true,
-        "u_angle_hide":true,
-        "u_sat_hide":true,
         "u_resolution":{
           "value":{
             "x":2560.0,
             "y":1373.0
           }
         },
-        "u_speed_hide":true,
         "u_sat":{
           "increase":0.0,
           "value":1.5,
@@ -14399,6 +14383,22 @@
           "duration":0.0,
           "ease":"LINEAR",
           "factor":1.0
+        },
+        "u_cloud_dark":{
+          "increase":0.0,
+          "value":0.5,
+          "target":0.5,
+          "duration":0.0,
+          "ease":"LINEAR",
+          "factor":1.0
+        },
+        "u_cloud_light":{
+          "increase":0.0,
+          "value":0.5,
+          "target":0.5,
+          "duration":0.0,
+          "ease":"LINEAR",
+          "factor":1.0
         }
       },
       "shader":"shader_cloudy_sky",
@@ -14407,22 +14407,6 @@
     },
     "wavy spectrum 3":{
       "properties":{
-        "u_bpm":{
-          "increase":0.0,
-          "value":0.0,
-          "target":0.0,
-          "duration":0.0,
-          "ease":"LEGACY",
-          "factor":1.0
-        },
-        "u_brightness":{
-          "increase":0.0,
-          "value":1.0,
-          "target":1.5,
-          "duration":30.0,
-          "ease":"IN_OUT_SINE",
-          "factor":1.0
-        },
         "u_color_a":{
           "value":"#0000FF",
           "target":"#00F5FF",
@@ -14443,6 +14427,7 @@
           "target":"#FF0075",
           "duration":30.0
         },
+        "u_bpm_hide":true,
         "u_distort":{
           "increase":0.0,
           "value":20.0,
@@ -14451,7 +14436,6 @@
           "ease":"IN_OUT_SINE",
           "factor":1.0
         },
-        "u_bpm_hide":true,
         "u_hue":{
           "increase":0.0,
           "value":0.0,
@@ -14463,6 +14447,12 @@
         "u_brightness_hide":true,
         "u_hue_hide":true,
         "u_seed_hide":true,
+        "u_offset_hide":true,
+        "u_time_hide":true,
+        "u_angle_hide":true,
+        "u_scale_hide":true,
+        "u_sat_hide":true,
+        "u_color_b_hide":true,
         "u_noise":{
           "increase":0.0,
           "value":5.0,
@@ -14471,7 +14461,7 @@
           "ease":"IN_OUT_SINE",
           "factor":1.0
         },
-        "u_offset_hide":true,
+        "u_color_b_hide-from":false,
         "u_offset":{
           "x":{
             "increase":0.0,
@@ -14490,16 +14480,17 @@
             "factor":1.0
           }
         },
-        "u_time_hide":true,
-        "u_angle_hide":true,
-        "u_scale_hide":true,
-        "u_sat_hide":true,
+        "u_color_b_hide-to":false,
+        "u_color_c_hide":true,
+        "u_color_c_hide-from":false,
         "u_resolution":{
           "value":{
             "x":2560.0,
             "y":1440.0
           }
         },
+        "u_color_c_hide-to":false,
+        "u_color_mask_hide":true,
         "u_sat":{
           "increase":0.0,
           "value":1.2,
@@ -14508,7 +14499,7 @@
           "ease":"LINEAR",
           "factor":1.0
         },
-        "u_color_b_hide":true,
+        "u_color_mask_hide-from":false,
         "u_scale":{
           "increase":0.0,
           "value":0.5,
@@ -14517,7 +14508,7 @@
           "ease":"IN_OUT_SINE",
           "factor":1.0
         },
-        "u_color_b_hide-from":false,
+        "u_color_mask_hide-to":false,
         "u_seed":{
           "increase":0.0,
           "value":0.0,
@@ -14526,13 +14517,11 @@
           "ease":"LEGACY",
           "factor":1.0
         },
-        "u_color_b_hide-to":false,
-        "u_color_c_hide":true,
-        "u_color_c_hide-from":false,
-        "u_color_c_hide-to":false,
-        "u_color_mask_hide":true,
-        "u_color_mask_hide-from":false,
-        "u_color_mask_hide-to":false,
+        "u_distort_hide":false,
+        "u_noise_hide":false,
+        "u_color_a_hide":true,
+        "u_color_a_hide-from":true,
+        "u_color_a_hide-to":true,
         "u_angle":{
           "increase":0.0,
           "value":90.0,
@@ -14541,9 +14530,6 @@
           "ease":"LINEAR",
           "factor":1.0
         },
-        "u_distort_hide":false,
-        "u_noise_hide":false,
-        "u_color_a_hide":true,
         "u_time":{
           "increase":0.0,
           "value":0.0,
@@ -14552,8 +14538,22 @@
           "ease":"LINEAR",
           "factor":1.0
         },
-        "u_color_a_hide-from":true,
-        "u_color_a_hide-to":true
+        "u_bpm":{
+          "increase":0.0,
+          "value":0.0,
+          "target":0.0,
+          "duration":0.0,
+          "ease":"LEGACY",
+          "factor":1.0
+        },
+        "u_brightness":{
+          "increase":0.0,
+          "value":1.0,
+          "target":1.5,
+          "duration":30.0,
+          "ease":"IN_OUT_SINE",
+          "factor":1.0
+        }
       },
       "shader":"shader_wavy_spectrum",
       "inherit":null,
@@ -14561,14 +14561,6 @@
     },
     "wavy spectrum 1":{
       "properties":{
-        "u_brightness":{
-          "increase":0.0,
-          "value":1.0,
-          "target":1.0,
-          "duration":0.0,
-          "ease":"IN_OUT_SINE",
-          "factor":1.0
-        },
         "u_color_a":{
           "value":"#FF0000",
           "target":"#FF00FF",
@@ -14608,6 +14600,12 @@
         "u_brightness_hide":true,
         "u_hue_hide":true,
         "u_seed_hide":true,
+        "u_offset_hide":true,
+        "u_time_hide":true,
+        "u_angle_hide":true,
+        "u_scale_hide":true,
+        "u_sat_hide":true,
+        "u_color_b_hide":true,
         "u_noise":{
           "increase":0.0,
           "value":0.25,
@@ -14616,7 +14614,7 @@
           "ease":"IN_OUT_SINE",
           "factor":1.0
         },
-        "u_offset_hide":true,
+        "u_color_b_hide-from":true,
         "u_offset":{
           "x":{
             "increase":0.0,
@@ -14635,16 +14633,17 @@
             "factor":1.0
           }
         },
-        "u_time_hide":true,
-        "u_angle_hide":true,
-        "u_scale_hide":true,
-        "u_sat_hide":true,
+        "u_color_b_hide-to":true,
+        "u_color_c_hide":true,
+        "u_color_c_hide-from":true,
         "u_resolution":{
           "value":{
             "x":2047.0,
             "y":1151.0
           }
         },
+        "u_color_c_hide-to":true,
+        "u_color_mask_hide":true,
         "u_sat":{
           "increase":0.0,
           "value":1.0,
@@ -14653,7 +14652,7 @@
           "ease":"IN_OUT_SINE",
           "factor":1.0
         },
-        "u_color_b_hide":true,
+        "u_color_mask_hide-from":false,
         "u_scale":{
           "increase":0.0,
           "value":1.0,
@@ -14662,7 +14661,7 @@
           "ease":"IN_OUT_SINE",
           "factor":1.0
         },
-        "u_color_b_hide-from":true,
+        "u_color_mask_hide-to":true,
         "u_seed":{
           "increase":0.0,
           "value":0.0,
@@ -14671,13 +14670,11 @@
           "ease":"LEGACY",
           "factor":1.0
         },
-        "u_color_b_hide-to":true,
-        "u_color_c_hide":true,
-        "u_color_c_hide-from":true,
-        "u_color_c_hide-to":true,
-        "u_color_mask_hide":true,
-        "u_color_mask_hide-from":false,
-        "u_color_mask_hide-to":true,
+        "u_distort_hide":true,
+        "u_noise_hide":true,
+        "u_color_a_hide":true,
+        "u_color_a_hide-from":true,
+        "u_color_a_hide-to":true,
         "u_angle":{
           "increase":0.0,
           "value":90.0,
@@ -14686,9 +14683,6 @@
           "ease":"IN_OUT_SINE",
           "factor":1.0
         },
-        "u_distort_hide":true,
-        "u_noise_hide":true,
-        "u_color_a_hide":true,
         "u_time":{
           "increase":0.0,
           "value":0.0,
@@ -14697,8 +14691,14 @@
           "ease":"LINEAR",
           "factor":1.0
         },
-        "u_color_a_hide-from":true,
-        "u_color_a_hide-to":true
+        "u_brightness":{
+          "increase":0.0,
+          "value":1.0,
+          "target":1.0,
+          "duration":0.0,
+          "ease":"IN_OUT_SINE",
+          "factor":1.0
+        }
       },
       "shader":"shader_wavy_spectrum",
       "inherit":null,
@@ -14706,7 +14706,7 @@
     },
     "wavy lines 2":{
       "properties":{
-        "u_thickness_hide":true,
+        "u_bpm_hide":true,
         "u_corners":{
           "increase":0.0,
           "value":8.0,
@@ -14715,6 +14715,9 @@
           "ease":"IN_OUT_SINE",
           "factor":1.0
         },
+        "u_size_hide":true,
+        "u_shift_hide":true,
+        "u_direction_hide":true,
         "u_density":{
           "increase":0.0,
           "value":1.0,
@@ -14731,10 +14734,11 @@
           "ease":"LEGACY",
           "factor":1.0
         },
-        "u_bpm_hide":true,
-        "u_size_hide":true,
-        "u_shift_hide":true,
-        "u_direction_hide":true,
+        "u_density_hide":true,
+        "u_zoom_hide":false,
+        "u_tint_hide-to":true,
+        "u_tint_hide":true,
+        "u_tint_hide-from":true,
         "u_hue":{
           "increase":0.0,
           "value":0.0,
@@ -14743,15 +14747,14 @@
           "ease":"LINEAR",
           "factor":1.0
         },
-        "u_density_hide":true,
-        "u_zoom_hide":false,
-        "u_tint_hide-to":true,
-        "u_tint_hide":true,
-        "u_tint_hide-from":true,
         "u_brightness_hide":true,
         "u_hue_hide":true,
         "u_seed_hide":true,
         "u_offset_hide":false,
+        "u_time_hide":true,
+        "u_angle_hide":false,
+        "u_sat_hide":true,
+        "u_amplitude_hide":true,
         "u_offset":{
           "x":{
             "increase":0.0,
@@ -14770,9 +14773,7 @@
             "factor":1.0
           }
         },
-        "u_time_hide":true,
-        "u_angle_hide":false,
-        "u_sat_hide":true,
+        "u_corners_hide":false,
         "u_resolution":{
           "value":{
             "x":2560.0,
@@ -14787,7 +14788,6 @@
           "ease":"LINEAR",
           "factor":1.0
         },
-        "u_amplitude_hide":true,
         "u_seed":{
           "increase":0.0,
           "value":0.0,
@@ -14796,7 +14796,6 @@
           "ease":"LEGACY",
           "factor":1.0
         },
-        "u_corners_hide":false,
         "u_shift":{
           "increase":0.0,
           "value":0.025000000000000001,
@@ -14850,6 +14849,7 @@
           "target":"#FF0000",
           "duration":0.0
         },
+        "u_thickness_hide":true,
         "u_zoom":{
           "increase":0.0,
           "value":0.5,
@@ -14889,6 +14889,9 @@
           "ease":"LEGACY",
           "factor":0.00050000000000000001
         },
+        "sizeB_hide":false,
+        "iIterations_hide":false,
+        "sizeA_hide":false,
         "iResolution":{
           "x":{
             "increase":0.0,
@@ -14907,9 +14910,6 @@
             "factor":0.0033
           }
         },
-        "sizeB_hide":false,
-        "iIterations_hide":false,
-        "sizeA_hide":false,
         "sizeA":{
           "increase":0.0,
           "value":25.0,
@@ -14918,6 +14918,7 @@
           "ease":"LEGACY",
           "factor":0.00050000000000000001
         },
+        "iTint_hide":false,
         "sizeB":{
           "increase":0.0,
           "value":4.0,
@@ -14926,8 +14927,8 @@
           "ease":"LEGACY",
           "factor":0.01
         },
-        "iTint_hide":false,
         "iResolution_hide":false,
+        "iTime_hide":false,
         "iTime":{
           "increase":0.0,
           "value":223.80000000000001,
@@ -14961,8 +14962,7 @@
             "ease":"LEGACY",
             "factor":0.00020000000000000001
           }
-        },
-        "iTime_hide":false
+        }
       },
       "shader":"shader_phantom_star",
       "inherit":null,

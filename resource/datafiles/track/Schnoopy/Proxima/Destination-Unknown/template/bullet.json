@@ -1,6 +1,6 @@
 {
   "data":{
-    "bullet-bazyl-1-boom-ondeath":{
+    "bullet-player-blue":{
       "lifespanMax":5.0,
       "damage":0.66000000000000003,
       "wiggle":false,
@@ -8,10 +8,10 @@
       "wiggleDirRng":false,
       "wiggleFrequency":0.016666666666666666,
       "mask":{
-        "x":20.0,
-        "y":20.0,
-        "height":24.0,
-        "width":24.0
+        "x":8.0,
+        "y":8.0,
+        "height":48.0,
+        "width":48.0
       },
       "wiggleTime":0.0,
       "wiggleTimeRng":false,
@@ -37,15 +37,76 @@
       "changeSpeedOffset":false,
       "useSpeedOffset":false,
       "sprite":{
+        "alpha":0.84999999999999998,
+        "frame":2.0,
+        "name":"texture_bullet_blue",
+        "blend":"#FFFFFF",
+        "animate":true,
+        "speed":6.0,
+        "randomFrame":true,
+        "scaleX":3.0,
+        "scaleY":3.0,
+        "angle":0.0
+      },
+      "onDeath":null,
+      "onDeathAmount":null,
+      "onDeathAngle":null,
+      "onDeathAngleIncrease":null,
+      "onDeathAngleRng":null,
+      "onDeathAngleStep":null,
+      "onDeathRngSpeed":null,
+      "onDeathRngStep":null,
+      "onDeathSpeed":null,
+      "onDeathSpeedMerge":null,
+      "sumAngleOffset":false,
+      "sumSpeedOffset":false
+    },
+    "bullet-bazyl-1-boom-ondeath":{
+      "lifespanMax":5.0,
+      "damage":0.66000000000000003,
+      "wiggle":false,
+      "wiggleAmplitude":0.0,
+      "wiggleDirRng":false,
+      "wiggleFrequency":0.016666666666666666,
+      "mask":{
+        "x":20.0,
+        "y":20.0,
+        "width":24.0,
+        "height":24.0
+      },
+      "wiggleTime":0.0,
+      "wiggleTimeRng":false,
+      "speedOffset":{
+        "value":0.0,
+        "increase":0.0,
+        "target":0.0,
+        "duration":1.0,
+        "ease":"LEGACY",
+        "factor":0.0
+      },
+      "angleOffset":{
+        "value":0.0,
+        "increase":0.0,
+        "target":1.5,
+        "duration":0.25,
+        "ease":"LEGACY",
+        "factor":0.10000000000000001
+      },
+      "useAngleOffset":false,
+      "angleOffsetRng":false,
+      "changeAngleOffset":false,
+      "changeSpeedOffset":false,
+      "useSpeedOffset":false,
+      "sprite":{
         "alpha":1.0,
-        "frame":1.0,
         "name":"texture_bullet",
+        "frame":4.0,
         "blend":"#FFFFFF",
         "animate":false,
         "speed":6.0,
+        "scaleX":4.0,
         "randomFrame":true,
-        "scaleX":5.0,
-        "scaleY":5.0,
+        "scaleY":4.0,
         "angle":0.0
       },
       "onDeath":null,
@@ -132,22 +193,22 @@
       "mask":{
         "x":20.0,
         "y":20.0,
-        "height":24.0,
-        "width":24.0
+        "width":24.0,
+        "height":24.0
       },
       "wiggleTime":0.0,
       "wiggleTimeRng":false,
       "speedOffset":{
-        "increase":0.0,
         "value":0.0,
+        "increase":0.0,
         "target":10.0,
         "duration":0.33333332999999998,
         "ease":"LEGACY",
         "factor":0.5
       },
       "angleOffset":{
-        "increase":0.001,
         "value":0.0,
+        "increase":0.001,
         "target":360.0,
         "duration":6.0,
         "ease":"LEGACY",
@@ -160,14 +221,14 @@
       "useSpeedOffset":false,
       "sprite":{
         "alpha":1.0,
-        "frame":0.26380599999999998,
         "name":"texture_bullet_circle",
+        "frame":0.26380599999999998,
         "blend":"#FFFFFF",
         "animate":true,
         "speed":6.6600000000000001,
+        "scaleX":4.0,
         "randomFrame":false,
-        "scaleX":5.0,
-        "scaleY":5.0,
+        "scaleY":4.0,
         "angle":0.0
       },
       "onDeath":null,
@@ -193,22 +254,22 @@
       "mask":{
         "x":20.0,
         "y":20.0,
-        "height":24.0,
-        "width":24.0
+        "width":24.0,
+        "height":24.0
       },
       "wiggleTime":0.0,
       "wiggleTimeRng":false,
       "speedOffset":{
-        "increase":0.0,
         "value":0.0,
+        "increase":0.0,
         "target":0.0,
         "duration":1.0,
         "ease":"LEGACY",
         "factor":0.0
       },
       "angleOffset":{
-        "increase":0.0,
         "value":0.0,
+        "increase":0.0,
         "target":30.0,
         "duration":5.0,
         "ease":"LEGACY",
@@ -221,14 +282,14 @@
       "useSpeedOffset":false,
       "sprite":{
         "alpha":1.0,
-        "frame":0.0,
         "name":"texture_bullet_circle",
+        "frame":2.0,
         "blend":"#FFFFFF",
         "animate":false,
         "speed":10.0,
+        "scaleX":6.0,
         "randomFrame":true,
-        "scaleX":7.5,
-        "scaleY":7.5,
+        "scaleY":6.0,
         "angle":0.0
       },
       "onDeath":null,
@@ -254,22 +315,22 @@
       "mask":{
         "x":20.0,
         "y":20.0,
-        "height":24.0,
-        "width":24.0
+        "width":24.0,
+        "height":24.0
       },
       "wiggleTime":0.0,
       "wiggleTimeRng":false,
       "speedOffset":{
-        "increase":0.0,
         "value":5.0,
+        "increase":0.0,
         "target":-5.0,
         "duration":5.0,
         "ease":"IN_OUT_BACK",
         "factor":0.0
       },
       "angleOffset":{
-        "increase":0.0,
         "value":4.0,
+        "increase":0.0,
         "target":-0.25,
         "duration":2.1600000000000001,
         "ease":"IN_OUT_CUBIC",
@@ -282,14 +343,14 @@
       "useSpeedOffset":true,
       "sprite":{
         "alpha":1.0,
-        "frame":1.0,
         "name":"texture_bullet_circle",
+        "frame":1.0,
         "blend":"#FFFFFF",
         "animate":false,
         "speed":10.0,
+        "scaleX":3.0,
         "randomFrame":false,
-        "scaleX":4.0,
-        "scaleY":4.0,
+        "scaleY":3.0,
         "angle":0.0
       },
       "onDeath":"bullet-pikaro-2",
@@ -315,22 +376,22 @@
       "mask":{
         "x":20.0,
         "y":20.0,
-        "height":24.0,
-        "width":24.0
+        "width":24.0,
+        "height":24.0
       },
       "wiggleTime":6.2800000000000002,
       "wiggleTimeRng":true,
       "speedOffset":{
-        "increase":0.0,
         "value":0.0,
+        "increase":0.0,
         "target":8.0,
         "duration":6.4800000000000004,
         "ease":"IN_OUT_BACK",
         "factor":0.0
       },
       "angleOffset":{
-        "increase":0.0,
         "value":-0.29999999999999999,
+        "increase":0.0,
         "target":0.0,
         "duration":1.72,
         "ease":"IN_OUT_BACK",
@@ -343,14 +404,14 @@
       "useSpeedOffset":true,
       "sprite":{
         "alpha":1.0,
-        "frame":1.0,
         "name":"texture_bullet_circle",
+        "frame":1.0,
         "blend":"#FFFFFF",
         "animate":false,
         "speed":10.0,
+        "scaleX":3.0,
         "randomFrame":false,
-        "scaleX":4.0,
-        "scaleY":4.0,
+        "scaleY":3.0,
         "angle":0.0
       },
       "onDeath":null,
@@ -376,22 +437,22 @@
       "mask":{
         "x":20.0,
         "y":20.0,
-        "height":24.0,
-        "width":24.0
+        "width":24.0,
+        "height":24.0
       },
       "wiggleTime":0.0,
       "wiggleTimeRng":false,
       "speedOffset":{
-        "increase":0.0,
         "value":0.0,
+        "increase":0.0,
         "target":-5.0,
         "duration":15.0,
         "ease":"LINEAR",
         "factor":0.0
       },
       "angleOffset":{
-        "increase":0.0,
         "value":4.0,
+        "increase":0.0,
         "target":-0.25,
         "duration":2.1600000000000001,
         "ease":"IN_OUT_CIRC",
@@ -404,14 +465,14 @@
       "useSpeedOffset":true,
       "sprite":{
         "alpha":1.0,
-        "frame":1.0,
         "name":"texture_bullet_circle",
+        "frame":1.0,
         "blend":"#FFFFFF",
         "animate":false,
         "speed":10.0,
+        "scaleX":3.0,
         "randomFrame":false,
-        "scaleX":4.0,
-        "scaleY":4.0,
+        "scaleY":3.0,
         "angle":0.0
       },
       "onDeath":"bullet-pikaro-2",
@@ -437,22 +498,22 @@
       "mask":{
         "x":20.0,
         "y":20.0,
-        "height":24.0,
-        "width":24.0
+        "width":24.0,
+        "height":24.0
       },
       "wiggleTime":0.0,
       "wiggleTimeRng":false,
       "speedOffset":{
-        "increase":0.0,
         "value":0.0,
+        "increase":0.0,
         "target":-5.0,
         "duration":1.0,
         "ease":"LINEAR",
         "factor":0.0
       },
       "angleOffset":{
-        "increase":0.0,
         "value":-4.0,
+        "increase":0.0,
         "target":0.29999999999999999,
         "duration":2.1600000000000001,
         "ease":"IN_OUT_CIRC",
@@ -465,14 +526,14 @@
       "useSpeedOffset":false,
       "sprite":{
         "alpha":1.0,
-        "frame":1.0,
         "name":"texture_bullet_circle",
+        "frame":1.0,
         "blend":"#FFFFFF",
         "animate":false,
         "speed":10.0,
+        "scaleX":3.0,
         "randomFrame":false,
-        "scaleX":4.0,
-        "scaleY":4.0,
+        "scaleY":3.0,
         "angle":0.0
       },
       "onDeath":"bullet-pikaro-2",
@@ -742,22 +803,22 @@
       "mask":{
         "x":20.0,
         "y":20.0,
-        "height":24.0,
-        "width":24.0
+        "width":24.0,
+        "height":24.0
       },
       "wiggleTime":0.0,
       "wiggleTimeRng":false,
       "speedOffset":{
-        "increase":0.0,
         "value":0.0,
+        "increase":0.0,
         "target":0.0,
         "duration":1.0,
         "ease":"LEGACY",
         "factor":0.0
       },
       "angleOffset":{
-        "increase":0.0,
         "value":0.0,
+        "increase":0.0,
         "target":0.0,
         "duration":0.0,
         "ease":"LEGACY",
@@ -770,13 +831,13 @@
       "useSpeedOffset":false,
       "sprite":{
         "alpha":1.0,
-        "frame":2.0,
         "name":"texture_bullet",
+        "frame":1.0,
         "blend":"#FFFFFF",
         "animate":false,
         "speed":10.0,
-        "randomFrame":true,
         "scaleX":4.0,
+        "randomFrame":true,
         "scaleY":4.0,
         "angle":0.0
       },
@@ -839,67 +900,6 @@
         "randomFrame":true,
         "scaleX":7.0,
         "scaleY":7.0,
-        "angle":0.0
-      },
-      "onDeath":null,
-      "onDeathAmount":null,
-      "onDeathAngle":null,
-      "onDeathAngleIncrease":null,
-      "onDeathAngleRng":null,
-      "onDeathAngleStep":null,
-      "onDeathRngSpeed":null,
-      "onDeathRngStep":null,
-      "onDeathSpeed":null,
-      "onDeathSpeedMerge":null,
-      "sumAngleOffset":false,
-      "sumSpeedOffset":false
-    },
-    "bullet-player-blue":{
-      "lifespanMax":5.0,
-      "damage":0.66000000000000003,
-      "wiggle":false,
-      "wiggleAmplitude":0.0,
-      "wiggleDirRng":false,
-      "wiggleFrequency":0.016666666666666666,
-      "mask":{
-        "x":8.0,
-        "y":8.0,
-        "height":48.0,
-        "width":48.0
-      },
-      "wiggleTime":0.0,
-      "wiggleTimeRng":false,
-      "speedOffset":{
-        "increase":0.0,
-        "value":0.0,
-        "target":0.0,
-        "duration":1.0,
-        "ease":"LEGACY",
-        "factor":0.0
-      },
-      "angleOffset":{
-        "increase":0.0,
-        "value":0.0,
-        "target":1.5,
-        "duration":0.25,
-        "ease":"LEGACY",
-        "factor":0.10000000000000001
-      },
-      "useAngleOffset":false,
-      "angleOffsetRng":false,
-      "changeAngleOffset":false,
-      "changeSpeedOffset":false,
-      "useSpeedOffset":false,
-      "sprite":{
-        "alpha":0.84999999999999998,
-        "frame":2.0,
-        "name":"texture_bullet_blue",
-        "blend":"#FFFFFF",
-        "animate":true,
-        "speed":6.0,
-        "randomFrame":true,
-        "scaleX":3.0,
-        "scaleY":3.0,
         "angle":0.0
       },
       "onDeath":null,
