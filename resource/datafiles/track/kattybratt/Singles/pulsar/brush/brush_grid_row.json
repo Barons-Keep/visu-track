@@ -1,6 +1,4 @@
 {
-  "version":"1",
-  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>",
   "data":[
     {
       "hidden":true,
@@ -160,5 +158,7 @@
       "texture":"texture_ve_icon_grid_row",
       "type":"brush_grid_row"
     }
-  ]
+  ],
+  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>",
+  "version":"1"
 }

@@ -1,24 +1,9 @@
 {
-  "version":"1",
-  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>",
   "data":[
     {
       "hidden":false,
       "color":"#FF20DA",
       "properties":{
-        "vw-layer_texture":{
-          "alpha":1.0,
-          "frame":0.0,
-          "blend":"#FFFFFF",
-          "name":"tx_kat_blackhole",
-          "animate":false,
-          "speed":30.0,
-          "randomFrame":false,
-          "scaleX":1.0,
-          "angle":0.0,
-          "scaleY":1.0
-        },
-        "vw-layer_texture-blend":"#FFFFFF",
         "vw-layer_texture-lifespan":0.5,
         "vw-layer_texture-reset-pos":true,
         "vw-layer_texture-use-lifespan":true,
@@ -92,7 +77,20 @@
           "duration":0.5,
           "ease":"OUT_CIRC",
           "factor":0.0
-        }
+        },
+        "vw-layer_texture":{
+          "alpha":1.0,
+          "frame":0.0,
+          "name":"tx_kat_blackhole",
+          "blend":"#FFFFFF",
+          "animate":false,
+          "speed":30.0,
+          "randomFrame":false,
+          "scaleX":1.0,
+          "scaleY":1.0,
+          "angle":0.0
+        },
+        "vw-layer_texture-blend":"#FFFFFF"
       },
       "name":"tx_kat_blackhole 1 BKG",
       "texture":"texture_ve_icon_view_layer",
@@ -102,19 +100,6 @@
       "hidden":true,
       "color":"#0080FF",
       "properties":{
-        "vw-layer_texture":{
-          "alpha":1.0,
-          "frame":0.0,
-          "blend":"#FFFFFF",
-          "name":"texture_missing",
-          "animate":false,
-          "speed":30.0,
-          "randomFrame":false,
-          "scaleX":1.0,
-          "angle":0.0,
-          "scaleY":1.0
-        },
-        "vw-layer_texture-blend":"#FFFFFF",
         "vw-layer_texture-lifespan":0.0,
         "vw-layer_texture-reset-pos":false,
         "vw-layer_texture-use-lifespan":false,
@@ -184,7 +169,20 @@
           "duration":0.0,
           "ease":"LINEAR",
           "factor":0.0
-        }
+        },
+        "vw-layer_texture":{
+          "alpha":1.0,
+          "frame":0.0,
+          "name":"texture_missing",
+          "blend":"#FFFFFF",
+          "animate":false,
+          "speed":30.0,
+          "randomFrame":false,
+          "scaleX":1.0,
+          "scaleY":1.0,
+          "angle":0.0
+        },
+        "vw-layer_texture-blend":"#FFFFFF"
       },
       "name":"empty",
       "texture":"texture_ve_icon_view_layer",
@@ -194,19 +192,6 @@
       "hidden":true,
       "color":"#FF0060",
       "properties":{
-        "vw-layer_texture":{
-          "alpha":1.0,
-          "frame":0.0,
-          "blend":"#FFFFFF",
-          "name":"tx_kat_blackhole",
-          "animate":false,
-          "speed":30.0,
-          "randomFrame":false,
-          "scaleX":1.0,
-          "angle":0.0,
-          "scaleY":1.0
-        },
-        "vw-layer_texture-blend":"#FFFFFF",
         "vw-layer_texture-lifespan":0.5,
         "vw-layer_texture-reset-pos":false,
         "vw-layer_texture-use-lifespan":true,
@@ -280,7 +265,20 @@
           "duration":0.5,
           "ease":"OUT_CIRC",
           "factor":0.0
-        }
+        },
+        "vw-layer_texture":{
+          "alpha":1.0,
+          "frame":0.0,
+          "name":"tx_kat_blackhole",
+          "blend":"#FFFFFF",
+          "animate":false,
+          "speed":30.0,
+          "randomFrame":false,
+          "scaleX":1.0,
+          "scaleY":1.0,
+          "angle":0.0
+        },
+        "vw-layer_texture-blend":"#FFFFFF"
       },
       "name":"default BKG",
       "texture":"texture_ve_icon_view_layer",
@@ -290,19 +288,6 @@
       "hidden":true,
       "color":"#0060FF",
       "properties":{
-        "vw-layer_texture":{
-          "alpha":1.0,
-          "frame":0.0,
-          "blend":"#FFFFFF",
-          "name":"texture_missing",
-          "animate":false,
-          "speed":30.0,
-          "randomFrame":false,
-          "scaleX":1.0,
-          "angle":0.0,
-          "scaleY":1.0
-        },
-        "vw-layer_texture-blend":"#FFFFFF",
         "vw-layer_texture-lifespan":0.0,
         "vw-layer_texture-reset-pos":true,
         "vw-layer_texture-use-lifespan":false,
@@ -372,11 +357,26 @@
           "duration":0.0,
           "ease":"LINEAR",
           "factor":0.0
-        }
+        },
+        "vw-layer_texture":{
+          "alpha":1.0,
+          "frame":0.0,
+          "name":"texture_missing",
+          "blend":"#FFFFFF",
+          "animate":false,
+          "speed":30.0,
+          "randomFrame":false,
+          "scaleX":1.0,
+          "scaleY":1.0,
+          "angle":0.0
+        },
+        "vw-layer_texture-blend":"#FFFFFF"
       },
       "name":"default FRG",
       "texture":"texture_ve_icon_view_layer",
       "type":"brush_view_layer"
     }
-  ]
+  ],
+  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>",
+  "version":"1"
 }

@@ -1,6 +1,4 @@
 {
-  "version":"1",
-  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>",
   "data":[
     {
       "hidden":false,
@@ -8,12 +6,12 @@
       "properties":{
         "en-blt_snap-y":false,
         "en-blt_spawn-map":{
-          "originY":43.0,
           "prefetch":true,
           "name":"texture_shroom_spawn_map",
           "frames":1.0,
           "file":"",
-          "originX":52.0
+          "originX":52.0,
+          "originY":43.0
         },
         "en-blt_spd":10.0,
         "en-blt_spd-grid":false,
@@ -22,14 +20,14 @@
         "en-blt_texture":{
           "alpha":1.0,
           "frame":0.0,
-          "blend":"#FFFFFF",
           "name":"texture_missing",
+          "blend":"#FFFFFF",
           "animate":false,
           "speed":30.0,
           "randomFrame":false,
           "scaleX":1.0,
-          "angle":0.0,
-          "scaleY":1.0
+          "scaleY":1.0,
+          "angle":0.0
         },
         "en-blt_use-dir-rng":false,
         "en-blt_use-dmg":false,
@@ -64,8 +62,14 @@
             "duration":0.0,
             "ease":"LINEAR"
           },
-          "amount":4.0,
           "wiggleAmplitude":{
+            "value":0.0,
+            "target":0.0,
+            "duration":0.0,
+            "ease":"LINEAR"
+          },
+          "amount":4.0,
+          "wiggleFrequency":{
             "value":0.0,
             "target":0.0,
             "duration":0.0,
@@ -75,12 +79,6 @@
             "value":4.0,
             "target":0.0,
             "duration":2.1600000000000001,
-            "ease":"LINEAR"
-          },
-          "wiggleFrequency":{
-            "value":0.0,
-            "target":0.0,
-            "duration":0.0,
             "ease":"LINEAR"
           },
           "angle":{
@@ -151,5 +149,7 @@
       "texture":"texture_baron",
       "type":"brush_entity_bullet"
     }
-  ]
+  ],
+  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>",
+  "version":"1"
 }

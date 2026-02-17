@@ -1,6 +1,4 @@
 {
-  "version":"1",
-  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>",
   "data":[
     {
       "hidden":false,
@@ -33,8 +31,8 @@
         "ef-shd_hide":false,
         "ef-shd_hide-merge-cfg":false,
         "ef-shd_merge-cfg":{
-          "u_opacity":0.10000000000000001,
-          "u_seed":467.5
+          "u_seed":467.5,
+          "u_opacity":0.10000000000000001
         },
         "ef-shd_pipeline":"BACKGROUND",
         "ef-shd_template":"deep space 1",
@@ -182,8 +180,8 @@
         "ef-shd_hide":false,
         "ef-shd_hide-merge-cfg":false,
         "ef-shd_merge-cfg":{
-          "u_opacity":0.10000000000000001,
-          "u_seed":555.5
+          "u_seed":555.5,
+          "u_opacity":0.10000000000000001
         },
         "ef-shd_pipeline":"BACKGROUND",
         "ef-shd_template":"deep space 1",
@@ -493,5 +491,7 @@
       "texture":"texture_ve_icon_effect_shader",
       "type":"brush_effect_shader"
     }
-  ]
+  ],
+  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>",
+  "version":"1"
 }

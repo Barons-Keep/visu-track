@@ -1,6 +1,4 @@
 {
-  "version":"1",
-  "model":"Collection<io.alkapivo.visu.service.subtitle.SubtitleTemplate>",
   "data":{
     "subtitle-artist-name":{
       "lines":[
@@ -18,5 +16,7 @@
         "2026"
       ]
     }
-  }
+  },
+  "model":"Collection<io.alkapivo.visu.service.subtitle.SubtitleTemplate>",
+  "version":"1"
 }

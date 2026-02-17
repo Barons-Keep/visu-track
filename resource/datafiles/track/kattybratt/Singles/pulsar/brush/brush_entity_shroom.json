@@ -1,6 +1,4 @@
 {
-  "version":"1",
-  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>",
   "data":[
     {
       "hidden":false,
@@ -12,12 +10,12 @@
         "en-shr_snap-x":true,
         "en-shr_snap-y":true,
         "en-shr_spawn-map":{
-          "originY":0.0,
           "prefetch":true,
           "name":"texture_shroom_spawn_map",
           "frames":1.0,
           "file":"",
-          "originX":72.0
+          "originX":72.0,
+          "originY":0.0
         },
         "en-shr_spd":20.0,
         "en-shr_spd-grid":false,
@@ -26,14 +24,14 @@
         "en-shr_texture":{
           "alpha":1.0,
           "frame":0.0,
-          "blend":"#FFFFFF",
           "name":"texture_missing",
+          "blend":"#FFFFFF",
           "animate":false,
           "speed":30.0,
           "randomFrame":false,
           "scaleX":1.0,
-          "angle":0.0,
-          "scaleY":1.0
+          "scaleY":1.0,
+          "angle":0.0
         },
         "en-shr_use-dir-rng":true,
         "en-shr_use-em":true,
@@ -88,12 +86,12 @@
         "en-shr_snap-x":true,
         "en-shr_snap-y":true,
         "en-shr_spawn-map":{
-          "originY":0.0,
           "prefetch":true,
           "name":"texture_shroom_spawn_map",
           "frames":1.0,
           "file":"",
-          "originX":72.0
+          "originX":72.0,
+          "originY":0.0
         },
         "en-shr_spd":20.0,
         "en-shr_spd-grid":false,
@@ -102,14 +100,14 @@
         "en-shr_texture":{
           "alpha":1.0,
           "frame":0.0,
-          "blend":"#FFFFFF",
           "name":"texture_missing",
+          "blend":"#FFFFFF",
           "animate":false,
           "speed":30.0,
           "randomFrame":false,
           "scaleX":1.0,
-          "angle":0.0,
-          "scaleY":1.0
+          "scaleY":1.0,
+          "angle":0.0
         },
         "en-shr_use-dir-rng":true,
         "en-shr_use-em":true,
@@ -164,12 +162,12 @@
         "en-shr_snap-x":true,
         "en-shr_snap-y":true,
         "en-shr_spawn-map":{
-          "originY":0.0,
           "prefetch":true,
           "name":"texture_shroom_spawn_map",
           "frames":1.0,
           "file":"",
-          "originX":72.0
+          "originX":72.0,
+          "originY":0.0
         },
         "en-shr_spd":20.0,
         "en-shr_spd-grid":false,
@@ -178,14 +176,14 @@
         "en-shr_texture":{
           "alpha":1.0,
           "frame":0.0,
-          "blend":"#FFFFFF",
           "name":"texture_missing",
+          "blend":"#FFFFFF",
           "animate":false,
           "speed":30.0,
           "randomFrame":false,
           "scaleX":1.0,
-          "angle":0.0,
-          "scaleY":1.0
+          "scaleY":1.0,
+          "angle":0.0
         },
         "en-shr_use-dir-rng":true,
         "en-shr_use-em":true,
@@ -240,12 +238,12 @@
         "en-shr_snap-x":true,
         "en-shr_snap-y":true,
         "en-shr_spawn-map":{
-          "originY":0.0,
           "prefetch":true,
           "name":"texture_shroom_spawn_map",
           "frames":1.0,
           "file":"",
-          "originX":72.0
+          "originX":72.0,
+          "originY":0.0
         },
         "en-shr_spd":30.0,
         "en-shr_spd-grid":false,
@@ -254,14 +252,14 @@
         "en-shr_texture":{
           "alpha":1.0,
           "frame":0.0,
-          "blend":"#FFFFFF",
           "name":"texture_missing",
+          "blend":"#FFFFFF",
           "animate":false,
           "speed":30.0,
           "randomFrame":false,
           "scaleX":1.0,
-          "angle":0.0,
-          "scaleY":1.0
+          "scaleY":1.0,
+          "angle":0.0
         },
         "en-shr_use-dir-rng":true,
         "en-shr_use-em":true,
@@ -316,12 +314,12 @@
         "en-shr_snap-x":true,
         "en-shr_snap-y":true,
         "en-shr_spawn-map":{
-          "originY":0.0,
           "prefetch":true,
           "name":"texture_shroom_spawn_map",
           "frames":1.0,
           "file":"",
-          "originX":72.0
+          "originX":72.0,
+          "originY":0.0
         },
         "en-shr_spd":30.0,
         "en-shr_spd-grid":false,
@@ -330,14 +328,14 @@
         "en-shr_texture":{
           "alpha":1.0,
           "frame":0.0,
-          "blend":"#FFFFFF",
           "name":"texture_missing",
+          "blend":"#FFFFFF",
           "animate":false,
           "speed":30.0,
           "randomFrame":false,
           "scaleX":1.0,
-          "angle":0.0,
-          "scaleY":1.0
+          "scaleY":1.0,
+          "angle":0.0
         },
         "en-shr_use-dir-rng":true,
         "en-shr_use-em":true,
@@ -392,12 +390,12 @@
         "en-shr_snap-x":true,
         "en-shr_snap-y":true,
         "en-shr_spawn-map":{
-          "originY":0.0,
           "prefetch":true,
           "name":"texture_shroom_spawn_map",
           "frames":1.0,
           "file":"",
-          "originX":72.0
+          "originX":72.0,
+          "originY":0.0
         },
         "en-shr_spd":50.0,
         "en-shr_spd-grid":false,
@@ -406,14 +404,14 @@
         "en-shr_texture":{
           "alpha":1.0,
           "frame":0.0,
-          "blend":"#FFFFFF",
           "name":"texture_missing",
+          "blend":"#FFFFFF",
           "animate":false,
           "speed":30.0,
           "randomFrame":false,
           "scaleX":1.0,
-          "angle":0.0,
-          "scaleY":1.0
+          "scaleY":1.0,
+          "angle":0.0
         },
         "en-shr_use-dir-rng":true,
         "en-shr_use-em":true,
@@ -468,12 +466,12 @@
         "en-shr_snap-x":true,
         "en-shr_snap-y":true,
         "en-shr_spawn-map":{
-          "originY":0.0,
           "prefetch":true,
           "name":"texture_shroom_spawn_map",
           "frames":1.0,
           "file":"",
-          "originX":72.0
+          "originX":72.0,
+          "originY":0.0
         },
         "en-shr_spd":20.0,
         "en-shr_spd-grid":false,
@@ -482,14 +480,14 @@
         "en-shr_texture":{
           "alpha":1.0,
           "frame":0.0,
-          "blend":"#FFFFFF",
           "name":"texture_missing",
+          "blend":"#FFFFFF",
           "animate":false,
           "speed":30.0,
           "randomFrame":false,
           "scaleX":1.0,
-          "angle":0.0,
-          "scaleY":1.0
+          "scaleY":1.0,
+          "angle":0.0
         },
         "en-shr_use-dir-rng":true,
         "en-shr_use-em":false,
@@ -544,12 +542,12 @@
         "en-shr_snap-x":true,
         "en-shr_snap-y":true,
         "en-shr_spawn-map":{
-          "originY":0.0,
           "prefetch":true,
           "name":"texture_shroom_spawn_map",
           "frames":1.0,
           "file":"",
-          "originX":72.0
+          "originX":72.0,
+          "originY":0.0
         },
         "en-shr_spd":20.0,
         "en-shr_spd-grid":false,
@@ -558,14 +556,14 @@
         "en-shr_texture":{
           "alpha":1.0,
           "frame":0.0,
-          "blend":"#FFFFFF",
           "name":"texture_missing",
+          "blend":"#FFFFFF",
           "animate":false,
           "speed":30.0,
           "randomFrame":false,
           "scaleX":1.0,
-          "angle":0.0,
-          "scaleY":1.0
+          "scaleY":1.0,
+          "angle":0.0
         },
         "en-shr_use-dir-rng":true,
         "en-shr_use-em":false,
@@ -620,12 +618,12 @@
         "en-shr_snap-x":true,
         "en-shr_snap-y":true,
         "en-shr_spawn-map":{
-          "originY":0.0,
           "prefetch":true,
           "name":"texture_shroom_spawn_map",
           "frames":1.0,
           "file":"",
-          "originX":72.0
+          "originX":72.0,
+          "originY":0.0
         },
         "en-shr_spd":20.0,
         "en-shr_spd-grid":false,
@@ -634,14 +632,14 @@
         "en-shr_texture":{
           "alpha":1.0,
           "frame":0.0,
-          "blend":"#FFFFFF",
           "name":"texture_missing",
+          "blend":"#FFFFFF",
           "animate":false,
           "speed":30.0,
           "randomFrame":false,
           "scaleX":1.0,
-          "angle":0.0,
-          "scaleY":1.0
+          "scaleY":1.0,
+          "angle":0.0
         },
         "en-shr_use-dir-rng":true,
         "en-shr_use-em":false,
@@ -685,6 +683,1352 @@
       "name":"shroom-sigil-aim-3",
       "texture":"texture_bazyl",
       "type":"brush_entity_shroom"
+    },
+    {
+      "hidden":false,
+      "color":"#FF14B9",
+      "properties":{
+        "en-shr_preview":true,
+        "en-shr_rng-x":25.0,
+        "en-shr_rng-y":2.0,
+        "en-shr_snap-x":true,
+        "en-shr_snap-y":true,
+        "en-shr_spawn-map":{
+          "prefetch":true,
+          "name":"texture_shroom_spawn_map",
+          "frames":1.0,
+          "file":"",
+          "originX":0.0,
+          "originY":0.0
+        },
+        "en-shr_spd":15.0,
+        "en-shr_spd-grid":false,
+        "en-shr_spd-rng":5.0,
+        "en-shr_template":"pink-baron-turn-l",
+        "en-shr_texture":{
+          "alpha":1.0,
+          "name":"texture_missing",
+          "frame":0.0,
+          "blend":"#FFFFFF",
+          "animate":false,
+          "speed":30.0,
+          "scaleX":1.0,
+          "randomFrame":false,
+          "scaleY":1.0,
+          "angle":0.0
+        },
+        "en-shr_use-dir-rng":false,
+        "en-shr_use-em":true,
+        "en-shr_use-hp":false,
+        "en-shr_use-inherit":false,
+        "en-shr_use-lifespan":false,
+        "en-shr_use-mask":false,
+        "en-shr_use-rng-x":false,
+        "en-shr_use-rng-y":false,
+        "en-shr_use-spd-rng":false,
+        "en-shr_use-texture":false,
+        "en-shr_x":0.0,
+        "en-shr_y":-15.0,
+        "en-shr_dir":270.0,
+        "en-shr_dir-rng":0.0,
+        "en-shr_em-cfg":{
+          "offset":{
+            "value":0.0,
+            "target":0.0,
+            "duration":0.0,
+            "ease":"LINEAR"
+          },
+          "duration":4.3200000000000003,
+          "offsetX":{
+            "value":0.0,
+            "target":0.0,
+            "duration":0.0,
+            "ease":"LINEAR"
+          },
+          "offsetY":{
+            "value":0.0,
+            "target":-20.0,
+            "duration":0.0,
+            "ease":"LINEAR"
+          },
+          "wiggleAmplitude":{
+            "value":20.0,
+            "target":0.0,
+            "duration":0.0,
+            "ease":"LINEAR"
+          },
+          "amount":16.0,
+          "wiggleFrequency":{
+            "value":1.0,
+            "target":0.0,
+            "duration":0.0,
+            "ease":"LINEAR"
+          },
+          "speed":{
+            "value":0.0,
+            "target":0.0,
+            "duration":0.0,
+            "ease":"LINEAR"
+          },
+          "angle":{
+            "value":0.0,
+            "target":0.0,
+            "duration":0.0,
+            "ease":"LINEAR"
+          },
+          "speedRng":{
+            "value":0.0,
+            "target":0.0,
+            "duration":0.0,
+            "ease":"LINEAR"
+          },
+          "anglePerArray":{
+            "value":0.0,
+            "target":0.0,
+            "duration":0.0,
+            "ease":"LINEAR"
+          },
+          "anglePerArrayRng":{
+            "value":0.0,
+            "target":0.0,
+            "duration":0.0,
+            "ease":"LINEAR"
+          },
+          "anglePerArrayStep":{
+            "value":0.0,
+            "target":0.0,
+            "duration":0.0,
+            "ease":"LINEAR"
+          },
+          "angleRng":{
+            "value":0.0,
+            "target":0.0,
+            "duration":0.0,
+            "ease":"LINEAR"
+          },
+          "angleStep":{
+            "value":0.0,
+            "target":0.0,
+            "duration":0.0,
+            "ease":"LINEAR"
+          },
+          "arrays":{
+            "value":1.0,
+            "target":1.0,
+            "duration":0.0,
+            "ease":"LINEAR"
+          },
+          "perArray":{
+            "value":1.0,
+            "target":1.0,
+            "duration":0.0,
+            "ease":"LINEAR"
+          }
+        },
+        "en-shr_hide":false,
+        "en-shr_hide-em":false,
+        "en-shr_hide-em-angle":false,
+        "en-shr_hide-em-cfg":false,
+        "en-shr_hide-em-offset-x":false,
+        "en-shr_hide-em-offset-y":false,
+        "en-shr_hide-em-per-array":false,
+        "en-shr_hide-em-spd":false,
+        "en-shr_hide-em-wiggle-amp":false,
+        "en-shr_hide-em-wiggle-freq":false,
+        "en-shr_hide-inherit":true,
+        "en-shr_hide-spawn":true,
+        "en-shr_hp":10.0,
+        "en-shr_inherit":[
+        ],
+        "en-shr_lifespan":15.0,
+        "en-shr_mask":{
+          "x":0.0,
+          "y":0.0,
+          "width":0.0,
+          "height":0.0
+        }
+      },
+      "name":"pink-baron-turn-l",
+      "texture":"texture_ve_icon_entity_shroom",
+      "type":"brush_entity_shroom"
+    },
+    {
+      "hidden":false,
+      "color":"#FF14B9",
+      "properties":{
+        "en-shr_preview":true,
+        "en-shr_rng-x":25.0,
+        "en-shr_rng-y":2.0,
+        "en-shr_snap-x":true,
+        "en-shr_snap-y":true,
+        "en-shr_spawn-map":{
+          "prefetch":true,
+          "name":"texture_shroom_spawn_map",
+          "frames":1.0,
+          "file":"",
+          "originX":72.0,
+          "originY":36.0
+        },
+        "en-shr_spd":15.0,
+        "en-shr_spd-grid":false,
+        "en-shr_spd-rng":5.0,
+        "en-shr_template":"pink-baron-turn-r",
+        "en-shr_texture":{
+          "alpha":1.0,
+          "name":"texture_missing",
+          "frame":0.0,
+          "blend":"#FFFFFF",
+          "animate":false,
+          "speed":30.0,
+          "scaleX":1.0,
+          "randomFrame":false,
+          "scaleY":1.0,
+          "angle":0.0
+        },
+        "en-shr_use-dir-rng":false,
+        "en-shr_use-em":true,
+        "en-shr_use-hp":false,
+        "en-shr_use-inherit":false,
+        "en-shr_use-lifespan":false,
+        "en-shr_use-mask":false,
+        "en-shr_use-rng-x":false,
+        "en-shr_use-rng-y":false,
+        "en-shr_use-spd-rng":false,
+        "en-shr_use-texture":false,
+        "en-shr_x":0.0,
+        "en-shr_y":-15.0,
+        "en-shr_dir":270.0,
+        "en-shr_dir-rng":0.0,
+        "en-shr_em-cfg":{
+          "offset":{
+            "value":0.0,
+            "target":0.0,
+            "duration":0.0,
+            "ease":"LINEAR"
+          },
+          "duration":4.3200000000000003,
+          "offsetX":{
+            "value":0.0,
+            "target":0.0,
+            "duration":0.0,
+            "ease":"LINEAR"
+          },
+          "offsetY":{
+            "value":0.0,
+            "target":0.0,
+            "duration":0.0,
+            "ease":"LINEAR"
+          },
+          "wiggleAmplitude":{
+            "value":20.0,
+            "target":0.0,
+            "duration":0.0,
+            "ease":"LINEAR"
+          },
+          "amount":18.0,
+          "wiggleFrequency":{
+            "value":1.0,
+            "target":0.0,
+            "duration":0.0,
+            "ease":"LINEAR"
+          },
+          "speed":{
+            "value":0.0,
+            "target":0.0,
+            "duration":0.0,
+            "ease":"LINEAR"
+          },
+          "angle":{
+            "value":0.0,
+            "target":0.0,
+            "duration":0.0,
+            "ease":"LINEAR"
+          },
+          "speedRng":{
+            "value":0.0,
+            "target":0.0,
+            "duration":0.0,
+            "ease":"LINEAR"
+          },
+          "anglePerArray":{
+            "value":0.0,
+            "target":0.0,
+            "duration":0.0,
+            "ease":"LINEAR"
+          },
+          "anglePerArrayRng":{
+            "value":0.0,
+            "target":0.0,
+            "duration":0.0,
+            "ease":"LINEAR"
+          },
+          "anglePerArrayStep":{
+            "value":0.0,
+            "target":0.0,
+            "duration":0.0,
+            "ease":"LINEAR"
+          },
+          "angleRng":{
+            "value":0.0,
+            "target":0.0,
+            "duration":0.0,
+            "ease":"LINEAR"
+          },
+          "angleStep":{
+            "value":0.0,
+            "target":0.0,
+            "duration":0.0,
+            "ease":"LINEAR"
+          },
+          "arrays":{
+            "value":1.0,
+            "target":1.0,
+            "duration":0.0,
+            "ease":"LINEAR"
+          },
+          "perArray":{
+            "value":1.0,
+            "target":1.0,
+            "duration":0.0,
+            "ease":"LINEAR"
+          }
+        },
+        "en-shr_hide":false,
+        "en-shr_hide-em":false,
+        "en-shr_hide-em-angle":false,
+        "en-shr_hide-em-cfg":false,
+        "en-shr_hide-em-offset-x":false,
+        "en-shr_hide-em-offset-y":false,
+        "en-shr_hide-em-per-array":false,
+        "en-shr_hide-em-spd":false,
+        "en-shr_hide-em-wiggle-amp":false,
+        "en-shr_hide-em-wiggle-freq":false,
+        "en-shr_hide-inherit":true,
+        "en-shr_hide-spawn":true,
+        "en-shr_hp":10.0,
+        "en-shr_inherit":[
+        ],
+        "en-shr_lifespan":15.0,
+        "en-shr_mask":{
+          "x":0.0,
+          "y":0.0,
+          "width":0.0,
+          "height":0.0
+        }
+      },
+      "name":"pink-baron-turn-r",
+      "texture":"texture_ve_icon_entity_shroom",
+      "type":"brush_entity_shroom"
+    },
+    {
+      "hidden":false,
+      "color":"#FF14DB",
+      "properties":{
+        "en-shr_preview":true,
+        "en-shr_rng-x":25.0,
+        "en-shr_rng-y":2.0,
+        "en-shr_snap-x":true,
+        "en-shr_snap-y":true,
+        "en-shr_spawn-map":{
+          "prefetch":true,
+          "name":"texture_shroom_spawn_map",
+          "frames":1.0,
+          "file":"",
+          "originX":0.0,
+          "originY":0.0
+        },
+        "en-shr_spd":15.0,
+        "en-shr_spd-grid":false,
+        "en-shr_spd-rng":5.0,
+        "en-shr_template":"pink-bazyl-turn-l",
+        "en-shr_texture":{
+          "alpha":1.0,
+          "name":"texture_missing",
+          "frame":0.0,
+          "blend":"#FFFFFF",
+          "animate":false,
+          "speed":30.0,
+          "scaleX":1.0,
+          "randomFrame":false,
+          "scaleY":1.0,
+          "angle":0.0
+        },
+        "en-shr_use-dir-rng":false,
+        "en-shr_use-em":false,
+        "en-shr_use-hp":false,
+        "en-shr_use-inherit":false,
+        "en-shr_use-lifespan":false,
+        "en-shr_use-mask":false,
+        "en-shr_use-rng-x":false,
+        "en-shr_use-rng-y":false,
+        "en-shr_use-spd-rng":false,
+        "en-shr_use-texture":false,
+        "en-shr_x":0.0,
+        "en-shr_y":-15.0,
+        "en-shr_dir":270.0,
+        "en-shr_dir-rng":0.0,
+        "en-shr_em-cfg":{
+          "offset":{
+            "value":0.0,
+            "target":0.0,
+            "duration":0.0,
+            "ease":"LINEAR"
+          },
+          "duration":4.3200000000000003,
+          "offsetX":{
+            "value":0.0,
+            "target":0.0,
+            "duration":4.3200000000000003,
+            "ease":"LINEAR"
+          },
+          "offsetY":{
+            "value":0.0,
+            "target":-20.0,
+            "duration":4.3200000000000003,
+            "ease":"LINEAR"
+          },
+          "wiggleAmplitude":{
+            "value":20.0,
+            "target":0.0,
+            "duration":0.0,
+            "ease":"LINEAR"
+          },
+          "amount":6.0,
+          "wiggleFrequency":{
+            "value":1.0,
+            "target":0.0,
+            "duration":0.0,
+            "ease":"LINEAR"
+          },
+          "speed":{
+            "value":0.0,
+            "target":0.0,
+            "duration":4.3200000000000003,
+            "ease":"LINEAR"
+          },
+          "angle":{
+            "value":0.0,
+            "target":0.0,
+            "duration":0.0,
+            "ease":"LINEAR"
+          },
+          "speedRng":{
+            "value":0.0,
+            "target":0.0,
+            "duration":0.0,
+            "ease":"LINEAR"
+          },
+          "anglePerArray":{
+            "value":0.0,
+            "target":0.0,
+            "duration":4.3200000000000003,
+            "ease":"LINEAR"
+          },
+          "anglePerArrayRng":{
+            "value":0.0,
+            "target":0.0,
+            "duration":0.0,
+            "ease":"LINEAR"
+          },
+          "anglePerArrayStep":{
+            "value":0.0,
+            "target":0.0,
+            "duration":0.0,
+            "ease":"LINEAR"
+          },
+          "angleRng":{
+            "value":0.0,
+            "target":0.0,
+            "duration":0.0,
+            "ease":"LINEAR"
+          },
+          "angleStep":{
+            "value":0.0,
+            "target":0.0,
+            "duration":0.0,
+            "ease":"LINEAR"
+          },
+          "arrays":{
+            "value":1.0,
+            "target":1.0,
+            "duration":0.0,
+            "ease":"LINEAR"
+          },
+          "perArray":{
+            "value":1.0,
+            "target":1.0,
+            "duration":0.0,
+            "ease":"LINEAR"
+          }
+        },
+        "en-shr_hide":false,
+        "en-shr_hide-em":false,
+        "en-shr_hide-em-angle":false,
+        "en-shr_hide-em-cfg":false,
+        "en-shr_hide-em-offset-x":false,
+        "en-shr_hide-em-offset-y":false,
+        "en-shr_hide-em-per-array":false,
+        "en-shr_hide-em-spd":false,
+        "en-shr_hide-em-wiggle-amp":false,
+        "en-shr_hide-em-wiggle-freq":false,
+        "en-shr_hide-inherit":true,
+        "en-shr_hide-spawn":true,
+        "en-shr_hp":10.0,
+        "en-shr_inherit":[
+        ],
+        "en-shr_lifespan":15.0,
+        "en-shr_mask":{
+          "x":0.0,
+          "y":0.0,
+          "width":0.0,
+          "height":0.0
+        }
+      },
+      "name":"pink-bazyl-turn-l",
+      "texture":"texture_bazyl",
+      "type":"brush_entity_shroom"
+    },
+    {
+      "hidden":false,
+      "color":"#FF14DB",
+      "properties":{
+        "en-shr_preview":true,
+        "en-shr_rng-x":25.0,
+        "en-shr_rng-y":2.0,
+        "en-shr_snap-x":true,
+        "en-shr_snap-y":true,
+        "en-shr_spawn-map":{
+          "prefetch":true,
+          "name":"texture_shroom_spawn_map",
+          "frames":1.0,
+          "file":"",
+          "originX":0.0,
+          "originY":0.0
+        },
+        "en-shr_spd":15.0,
+        "en-shr_spd-grid":false,
+        "en-shr_spd-rng":5.0,
+        "en-shr_template":"pink-bazyl-turn-r",
+        "en-shr_texture":{
+          "alpha":1.0,
+          "name":"texture_missing",
+          "frame":0.0,
+          "blend":"#FFFFFF",
+          "animate":false,
+          "speed":30.0,
+          "scaleX":1.0,
+          "randomFrame":false,
+          "scaleY":1.0,
+          "angle":0.0
+        },
+        "en-shr_use-dir-rng":false,
+        "en-shr_use-em":false,
+        "en-shr_use-hp":false,
+        "en-shr_use-inherit":false,
+        "en-shr_use-lifespan":false,
+        "en-shr_use-mask":false,
+        "en-shr_use-rng-x":false,
+        "en-shr_use-rng-y":false,
+        "en-shr_use-spd-rng":false,
+        "en-shr_use-texture":false,
+        "en-shr_x":0.0,
+        "en-shr_y":-15.0,
+        "en-shr_dir":270.0,
+        "en-shr_dir-rng":0.0,
+        "en-shr_em-cfg":{
+          "offset":{
+            "value":0.0,
+            "target":0.0,
+            "duration":0.0,
+            "ease":"LINEAR"
+          },
+          "duration":4.3200000000000003,
+          "offsetX":{
+            "value":0.0,
+            "target":0.0,
+            "duration":4.3200000000000003,
+            "ease":"LINEAR"
+          },
+          "offsetY":{
+            "value":0.0,
+            "target":-20.0,
+            "duration":4.3200000000000003,
+            "ease":"LINEAR"
+          },
+          "wiggleAmplitude":{
+            "value":20.0,
+            "target":0.0,
+            "duration":0.0,
+            "ease":"LINEAR"
+          },
+          "amount":6.0,
+          "wiggleFrequency":{
+            "value":1.0,
+            "target":0.0,
+            "duration":0.0,
+            "ease":"LINEAR"
+          },
+          "speed":{
+            "value":0.0,
+            "target":0.0,
+            "duration":4.3200000000000003,
+            "ease":"LINEAR"
+          },
+          "angle":{
+            "value":0.0,
+            "target":0.0,
+            "duration":0.0,
+            "ease":"LINEAR"
+          },
+          "speedRng":{
+            "value":0.0,
+            "target":0.0,
+            "duration":0.0,
+            "ease":"LINEAR"
+          },
+          "anglePerArray":{
+            "value":0.0,
+            "target":0.0,
+            "duration":4.3200000000000003,
+            "ease":"LINEAR"
+          },
+          "anglePerArrayRng":{
+            "value":0.0,
+            "target":0.0,
+            "duration":0.0,
+            "ease":"LINEAR"
+          },
+          "anglePerArrayStep":{
+            "value":0.0,
+            "target":0.0,
+            "duration":0.0,
+            "ease":"LINEAR"
+          },
+          "angleRng":{
+            "value":0.0,
+            "target":0.0,
+            "duration":0.0,
+            "ease":"LINEAR"
+          },
+          "angleStep":{
+            "value":0.0,
+            "target":0.0,
+            "duration":0.0,
+            "ease":"LINEAR"
+          },
+          "arrays":{
+            "value":1.0,
+            "target":1.0,
+            "duration":0.0,
+            "ease":"LINEAR"
+          },
+          "perArray":{
+            "value":1.0,
+            "target":1.0,
+            "duration":0.0,
+            "ease":"LINEAR"
+          }
+        },
+        "en-shr_hide":false,
+        "en-shr_hide-em":false,
+        "en-shr_hide-em-angle":false,
+        "en-shr_hide-em-cfg":false,
+        "en-shr_hide-em-offset-x":false,
+        "en-shr_hide-em-offset-y":false,
+        "en-shr_hide-em-per-array":false,
+        "en-shr_hide-em-spd":false,
+        "en-shr_hide-em-wiggle-amp":false,
+        "en-shr_hide-em-wiggle-freq":false,
+        "en-shr_hide-inherit":true,
+        "en-shr_hide-spawn":true,
+        "en-shr_hp":10.0,
+        "en-shr_inherit":[
+        ],
+        "en-shr_lifespan":15.0,
+        "en-shr_mask":{
+          "x":0.0,
+          "y":0.0,
+          "width":0.0,
+          "height":0.0
+        }
+      },
+      "name":"pink-bazyl-turn-r",
+      "texture":"texture_bazyl",
+      "type":"brush_entity_shroom"
+    },
+    {
+      "hidden":false,
+      "color":"#1E41D5",
+      "properties":{
+        "en-shr_preview":true,
+        "en-shr_rng-x":25.0,
+        "en-shr_rng-y":2.0,
+        "en-shr_snap-x":true,
+        "en-shr_snap-y":true,
+        "en-shr_spawn-map":{
+          "prefetch":true,
+          "name":"texture_shroom_spawn_map",
+          "frames":1.0,
+          "file":"",
+          "originX":72.0,
+          "originY":36.0
+        },
+        "en-shr_spd":15.0,
+        "en-shr_spd-grid":false,
+        "en-shr_spd-rng":5.0,
+        "en-shr_template":"blue-baron-ripple",
+        "en-shr_texture":{
+          "alpha":1.0,
+          "name":"texture_missing",
+          "frame":0.0,
+          "blend":"#FFFFFF",
+          "animate":false,
+          "speed":30.0,
+          "scaleX":1.0,
+          "randomFrame":false,
+          "scaleY":1.0,
+          "angle":0.0
+        },
+        "en-shr_use-dir-rng":false,
+        "en-shr_use-em":false,
+        "en-shr_use-hp":false,
+        "en-shr_use-inherit":false,
+        "en-shr_use-lifespan":false,
+        "en-shr_use-mask":false,
+        "en-shr_use-rng-x":false,
+        "en-shr_use-rng-y":false,
+        "en-shr_use-spd-rng":false,
+        "en-shr_use-texture":false,
+        "en-shr_x":0.0,
+        "en-shr_y":-15.0,
+        "en-shr_dir":270.0,
+        "en-shr_dir-rng":0.0,
+        "en-shr_em-cfg":{
+          "offset":{
+            "value":0.0,
+            "target":0.0,
+            "duration":0.0,
+            "ease":"LINEAR"
+          },
+          "duration":4.3200000000000003,
+          "offsetX":{
+            "value":0.0,
+            "target":0.0,
+            "duration":4.3200000000000003,
+            "ease":"LINEAR"
+          },
+          "offsetY":{
+            "value":0.0,
+            "target":-20.0,
+            "duration":4.3200000000000003,
+            "ease":"LINEAR"
+          },
+          "wiggleAmplitude":{
+            "value":20.0,
+            "target":0.0,
+            "duration":0.0,
+            "ease":"LINEAR"
+          },
+          "amount":6.0,
+          "wiggleFrequency":{
+            "value":1.0,
+            "target":0.0,
+            "duration":0.0,
+            "ease":"LINEAR"
+          },
+          "speed":{
+            "value":0.0,
+            "target":0.0,
+            "duration":4.3200000000000003,
+            "ease":"LINEAR"
+          },
+          "angle":{
+            "value":0.0,
+            "target":0.0,
+            "duration":0.0,
+            "ease":"LINEAR"
+          },
+          "speedRng":{
+            "value":0.0,
+            "target":0.0,
+            "duration":0.0,
+            "ease":"LINEAR"
+          },
+          "anglePerArray":{
+            "value":0.0,
+            "target":0.0,
+            "duration":4.3200000000000003,
+            "ease":"LINEAR"
+          },
+          "anglePerArrayRng":{
+            "value":0.0,
+            "target":0.0,
+            "duration":0.0,
+            "ease":"LINEAR"
+          },
+          "anglePerArrayStep":{
+            "value":0.0,
+            "target":0.0,
+            "duration":0.0,
+            "ease":"LINEAR"
+          },
+          "angleRng":{
+            "value":0.0,
+            "target":0.0,
+            "duration":0.0,
+            "ease":"LINEAR"
+          },
+          "angleStep":{
+            "value":0.0,
+            "target":0.0,
+            "duration":0.0,
+            "ease":"LINEAR"
+          },
+          "arrays":{
+            "value":1.0,
+            "target":1.0,
+            "duration":0.0,
+            "ease":"LINEAR"
+          },
+          "perArray":{
+            "value":1.0,
+            "target":1.0,
+            "duration":0.0,
+            "ease":"LINEAR"
+          }
+        },
+        "en-shr_hide":false,
+        "en-shr_hide-em":false,
+        "en-shr_hide-em-angle":false,
+        "en-shr_hide-em-cfg":false,
+        "en-shr_hide-em-offset-x":false,
+        "en-shr_hide-em-offset-y":false,
+        "en-shr_hide-em-per-array":false,
+        "en-shr_hide-em-spd":false,
+        "en-shr_hide-em-wiggle-amp":false,
+        "en-shr_hide-em-wiggle-freq":false,
+        "en-shr_hide-inherit":true,
+        "en-shr_hide-spawn":true,
+        "en-shr_hp":10.0,
+        "en-shr_inherit":[
+        ],
+        "en-shr_lifespan":15.0,
+        "en-shr_mask":{
+          "x":0.0,
+          "y":0.0,
+          "width":0.0,
+          "height":0.0
+        }
+      },
+      "name":"blue-baron-ripple",
+      "texture":"texture_ve_icon_entity_shroom",
+      "type":"brush_entity_shroom"
+    },
+    {
+      "hidden":false,
+      "color":"#FF232B",
+      "properties":{
+        "en-shr_preview":true,
+        "en-shr_rng-x":25.0,
+        "en-shr_rng-y":2.0,
+        "en-shr_snap-x":true,
+        "en-shr_snap-y":true,
+        "en-shr_spawn-map":{
+          "prefetch":true,
+          "name":"texture_shroom_spawn_map",
+          "frames":1.0,
+          "file":"",
+          "originX":72.0,
+          "originY":36.0
+        },
+        "en-shr_spd":15.0,
+        "en-shr_spd-grid":false,
+        "en-shr_spd-rng":5.0,
+        "en-shr_template":"red-baron-circle-r",
+        "en-shr_texture":{
+          "alpha":1.0,
+          "name":"texture_missing",
+          "frame":0.0,
+          "blend":"#FFFFFF",
+          "animate":false,
+          "speed":30.0,
+          "scaleX":1.0,
+          "randomFrame":false,
+          "scaleY":1.0,
+          "angle":0.0
+        },
+        "en-shr_use-dir-rng":false,
+        "en-shr_use-em":false,
+        "en-shr_use-hp":false,
+        "en-shr_use-inherit":false,
+        "en-shr_use-lifespan":false,
+        "en-shr_use-mask":false,
+        "en-shr_use-rng-x":false,
+        "en-shr_use-rng-y":false,
+        "en-shr_use-spd-rng":false,
+        "en-shr_use-texture":false,
+        "en-shr_x":0.0,
+        "en-shr_y":-15.0,
+        "en-shr_dir":270.0,
+        "en-shr_dir-rng":0.0,
+        "en-shr_em-cfg":{
+          "offset":{
+            "value":0.0,
+            "target":0.0,
+            "duration":0.0,
+            "ease":"LINEAR"
+          },
+          "duration":4.3200000000000003,
+          "offsetX":{
+            "value":0.0,
+            "target":0.0,
+            "duration":4.3200000000000003,
+            "ease":"LINEAR"
+          },
+          "offsetY":{
+            "value":0.0,
+            "target":-20.0,
+            "duration":4.3200000000000003,
+            "ease":"LINEAR"
+          },
+          "wiggleAmplitude":{
+            "value":20.0,
+            "target":0.0,
+            "duration":0.0,
+            "ease":"LINEAR"
+          },
+          "amount":6.0,
+          "wiggleFrequency":{
+            "value":1.0,
+            "target":0.0,
+            "duration":0.0,
+            "ease":"LINEAR"
+          },
+          "speed":{
+            "value":0.0,
+            "target":0.0,
+            "duration":4.3200000000000003,
+            "ease":"LINEAR"
+          },
+          "angle":{
+            "value":0.0,
+            "target":0.0,
+            "duration":0.0,
+            "ease":"LINEAR"
+          },
+          "speedRng":{
+            "value":0.0,
+            "target":0.0,
+            "duration":0.0,
+            "ease":"LINEAR"
+          },
+          "anglePerArray":{
+            "value":0.0,
+            "target":0.0,
+            "duration":4.3200000000000003,
+            "ease":"LINEAR"
+          },
+          "anglePerArrayRng":{
+            "value":0.0,
+            "target":0.0,
+            "duration":0.0,
+            "ease":"LINEAR"
+          },
+          "anglePerArrayStep":{
+            "value":0.0,
+            "target":0.0,
+            "duration":0.0,
+            "ease":"LINEAR"
+          },
+          "angleRng":{
+            "value":0.0,
+            "target":0.0,
+            "duration":0.0,
+            "ease":"LINEAR"
+          },
+          "angleStep":{
+            "value":0.0,
+            "target":0.0,
+            "duration":0.0,
+            "ease":"LINEAR"
+          },
+          "arrays":{
+            "value":1.0,
+            "target":1.0,
+            "duration":0.0,
+            "ease":"LINEAR"
+          },
+          "perArray":{
+            "value":1.0,
+            "target":1.0,
+            "duration":0.0,
+            "ease":"LINEAR"
+          }
+        },
+        "en-shr_hide":false,
+        "en-shr_hide-em":true,
+        "en-shr_hide-em-angle":false,
+        "en-shr_hide-em-cfg":false,
+        "en-shr_hide-em-offset-x":false,
+        "en-shr_hide-em-offset-y":false,
+        "en-shr_hide-em-per-array":false,
+        "en-shr_hide-em-spd":false,
+        "en-shr_hide-em-wiggle-amp":false,
+        "en-shr_hide-em-wiggle-freq":false,
+        "en-shr_hide-inherit":true,
+        "en-shr_hide-spawn":true,
+        "en-shr_hp":10.0,
+        "en-shr_inherit":[
+        ],
+        "en-shr_lifespan":15.0,
+        "en-shr_mask":{
+          "x":0.0,
+          "y":0.0,
+          "width":0.0,
+          "height":0.0
+        }
+      },
+      "name":"red-baron-circle-r",
+      "texture":"texture_ve_icon_entity_shroom",
+      "type":"brush_entity_shroom"
+    },
+    {
+      "hidden":false,
+      "color":"#FFCE46",
+      "properties":{
+        "en-shr_preview":true,
+        "en-shr_rng-x":25.0,
+        "en-shr_rng-y":2.0,
+        "en-shr_snap-x":true,
+        "en-shr_snap-y":true,
+        "en-shr_spawn-map":{
+          "prefetch":true,
+          "name":"texture_shroom_spawn_map",
+          "frames":1.0,
+          "file":"",
+          "originX":72.0,
+          "originY":36.0
+        },
+        "en-shr_spd":15.0,
+        "en-shr_spd-grid":false,
+        "en-shr_spd-rng":5.0,
+        "en-shr_template":"yellow-bazyl-circle-l",
+        "en-shr_texture":{
+          "alpha":1.0,
+          "name":"texture_missing",
+          "frame":0.0,
+          "blend":"#FFFFFF",
+          "animate":false,
+          "speed":30.0,
+          "scaleX":1.0,
+          "randomFrame":false,
+          "scaleY":1.0,
+          "angle":0.0
+        },
+        "en-shr_use-dir-rng":false,
+        "en-shr_use-em":false,
+        "en-shr_use-hp":false,
+        "en-shr_use-inherit":false,
+        "en-shr_use-lifespan":false,
+        "en-shr_use-mask":false,
+        "en-shr_use-rng-x":false,
+        "en-shr_use-rng-y":false,
+        "en-shr_use-spd-rng":false,
+        "en-shr_use-texture":false,
+        "en-shr_x":0.0,
+        "en-shr_y":-15.0,
+        "en-shr_dir":270.0,
+        "en-shr_dir-rng":0.0,
+        "en-shr_em-cfg":{
+          "offset":{
+            "value":0.0,
+            "target":0.0,
+            "duration":0.0,
+            "ease":"LINEAR"
+          },
+          "duration":4.3200000000000003,
+          "offsetX":{
+            "value":0.0,
+            "target":0.0,
+            "duration":4.3200000000000003,
+            "ease":"LINEAR"
+          },
+          "offsetY":{
+            "value":0.0,
+            "target":-20.0,
+            "duration":4.3200000000000003,
+            "ease":"LINEAR"
+          },
+          "wiggleAmplitude":{
+            "value":20.0,
+            "target":0.0,
+            "duration":0.0,
+            "ease":"LINEAR"
+          },
+          "amount":6.0,
+          "wiggleFrequency":{
+            "value":1.0,
+            "target":0.0,
+            "duration":0.0,
+            "ease":"LINEAR"
+          },
+          "speed":{
+            "value":0.0,
+            "target":0.0,
+            "duration":4.3200000000000003,
+            "ease":"LINEAR"
+          },
+          "angle":{
+            "value":0.0,
+            "target":0.0,
+            "duration":0.0,
+            "ease":"LINEAR"
+          },
+          "speedRng":{
+            "value":0.0,
+            "target":0.0,
+            "duration":0.0,
+            "ease":"LINEAR"
+          },
+          "anglePerArray":{
+            "value":0.0,
+            "target":0.0,
+            "duration":4.3200000000000003,
+            "ease":"LINEAR"
+          },
+          "anglePerArrayRng":{
+            "value":0.0,
+            "target":0.0,
+            "duration":0.0,
+            "ease":"LINEAR"
+          },
+          "anglePerArrayStep":{
+            "value":0.0,
+            "target":0.0,
+            "duration":0.0,
+            "ease":"LINEAR"
+          },
+          "angleRng":{
+            "value":0.0,
+            "target":0.0,
+            "duration":0.0,
+            "ease":"LINEAR"
+          },
+          "angleStep":{
+            "value":0.0,
+            "target":0.0,
+            "duration":0.0,
+            "ease":"LINEAR"
+          },
+          "arrays":{
+            "value":1.0,
+            "target":1.0,
+            "duration":0.0,
+            "ease":"LINEAR"
+          },
+          "perArray":{
+            "value":1.0,
+            "target":1.0,
+            "duration":0.0,
+            "ease":"LINEAR"
+          }
+        },
+        "en-shr_hide":false,
+        "en-shr_hide-em":true,
+        "en-shr_hide-em-angle":false,
+        "en-shr_hide-em-cfg":false,
+        "en-shr_hide-em-offset-x":false,
+        "en-shr_hide-em-offset-y":false,
+        "en-shr_hide-em-per-array":false,
+        "en-shr_hide-em-spd":false,
+        "en-shr_hide-em-wiggle-amp":false,
+        "en-shr_hide-em-wiggle-freq":false,
+        "en-shr_hide-inherit":true,
+        "en-shr_hide-spawn":true,
+        "en-shr_hp":10.0,
+        "en-shr_inherit":[
+        ],
+        "en-shr_lifespan":15.0,
+        "en-shr_mask":{
+          "x":0.0,
+          "y":0.0,
+          "width":0.0,
+          "height":0.0
+        }
+      },
+      "name":"yellow-bazyl-circle-l",
+      "texture":"texture_bazyl",
+      "type":"brush_entity_shroom"
+    },
+    {
+      "hidden":false,
+      "color":"#808080",
+      "properties":{
+        "en-shr_preview":true,
+        "en-shr_rng-x":25.0,
+        "en-shr_rng-y":2.0,
+        "en-shr_snap-x":true,
+        "en-shr_snap-y":true,
+        "en-shr_spawn-map":{
+          "prefetch":true,
+          "name":"texture_shroom_spawn_map",
+          "frames":1.0,
+          "file":"",
+          "originX":72.0,
+          "originY":36.0
+        },
+        "en-shr_spd":15.0,
+        "en-shr_spd-grid":false,
+        "en-shr_spd-rng":5.0,
+        "en-shr_template":"big-baron-12star",
+        "en-shr_texture":{
+          "alpha":1.0,
+          "name":"texture_missing",
+          "frame":0.0,
+          "blend":"#FFFFFF",
+          "animate":false,
+          "speed":30.0,
+          "scaleX":1.0,
+          "randomFrame":false,
+          "scaleY":1.0,
+          "angle":0.0
+        },
+        "en-shr_use-dir-rng":false,
+        "en-shr_use-em":false,
+        "en-shr_use-hp":false,
+        "en-shr_use-inherit":false,
+        "en-shr_use-lifespan":false,
+        "en-shr_use-mask":false,
+        "en-shr_use-rng-x":false,
+        "en-shr_use-rng-y":false,
+        "en-shr_use-spd-rng":false,
+        "en-shr_use-texture":false,
+        "en-shr_x":0.0,
+        "en-shr_y":-15.0,
+        "en-shr_dir":270.0,
+        "en-shr_dir-rng":0.0,
+        "en-shr_em-cfg":{
+          "offset":{
+            "value":0.0,
+            "target":0.0,
+            "duration":0.0,
+            "ease":"LINEAR"
+          },
+          "duration":4.3200000000000003,
+          "offsetX":{
+            "value":0.0,
+            "target":0.0,
+            "duration":4.3200000000000003,
+            "ease":"LINEAR"
+          },
+          "offsetY":{
+            "value":0.0,
+            "target":-20.0,
+            "duration":4.3200000000000003,
+            "ease":"LINEAR"
+          },
+          "wiggleAmplitude":{
+            "value":20.0,
+            "target":0.0,
+            "duration":0.0,
+            "ease":"LINEAR"
+          },
+          "amount":6.0,
+          "wiggleFrequency":{
+            "value":1.0,
+            "target":0.0,
+            "duration":0.0,
+            "ease":"LINEAR"
+          },
+          "speed":{
+            "value":0.0,
+            "target":0.0,
+            "duration":4.3200000000000003,
+            "ease":"LINEAR"
+          },
+          "angle":{
+            "value":0.0,
+            "target":0.0,
+            "duration":0.0,
+            "ease":"LINEAR"
+          },
+          "speedRng":{
+            "value":0.0,
+            "target":0.0,
+            "duration":0.0,
+            "ease":"LINEAR"
+          },
+          "anglePerArray":{
+            "value":0.0,
+            "target":0.0,
+            "duration":4.3200000000000003,
+            "ease":"LINEAR"
+          },
+          "anglePerArrayRng":{
+            "value":0.0,
+            "target":0.0,
+            "duration":0.0,
+            "ease":"LINEAR"
+          },
+          "anglePerArrayStep":{
+            "value":0.0,
+            "target":0.0,
+            "duration":0.0,
+            "ease":"LINEAR"
+          },
+          "angleRng":{
+            "value":0.0,
+            "target":0.0,
+            "duration":0.0,
+            "ease":"LINEAR"
+          },
+          "angleStep":{
+            "value":0.0,
+            "target":0.0,
+            "duration":0.0,
+            "ease":"LINEAR"
+          },
+          "arrays":{
+            "value":1.0,
+            "target":1.0,
+            "duration":0.0,
+            "ease":"LINEAR"
+          },
+          "perArray":{
+            "value":1.0,
+            "target":1.0,
+            "duration":0.0,
+            "ease":"LINEAR"
+          }
+        },
+        "en-shr_hide":false,
+        "en-shr_hide-em":true,
+        "en-shr_hide-em-angle":false,
+        "en-shr_hide-em-cfg":false,
+        "en-shr_hide-em-offset-x":false,
+        "en-shr_hide-em-offset-y":false,
+        "en-shr_hide-em-per-array":false,
+        "en-shr_hide-em-spd":false,
+        "en-shr_hide-em-wiggle-amp":false,
+        "en-shr_hide-em-wiggle-freq":false,
+        "en-shr_hide-inherit":true,
+        "en-shr_hide-spawn":true,
+        "en-shr_hp":10.0,
+        "en-shr_inherit":[
+        ],
+        "en-shr_lifespan":15.0,
+        "en-shr_mask":{
+          "x":0.0,
+          "y":0.0,
+          "width":0.0,
+          "height":0.0
+        }
+      },
+      "name":"big-baron-12star",
+      "texture":"texture_ve_icon_entity_shroom",
+      "type":"brush_entity_shroom"
     }
-  ]
+  ],
+  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>",
+  "version":"1"
 }

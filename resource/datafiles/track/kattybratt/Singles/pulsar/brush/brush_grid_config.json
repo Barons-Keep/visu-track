@@ -1,6 +1,4 @@
 {
-  "version":"1",
-  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>",
   "data":[
     {
       "hidden":false,
@@ -434,9 +432,7 @@
       "hidden":true,
       "color":"#0080FF",
       "properties":{
-        "gr-cfg_focus-grid-blend-col-spd":0.0,
         "gr-cfg_render-focus-grid":false,
-        "gr-cfg_focus-grid-use-blend":false,
         "gr-cfg_spd":{
           "increase":0.0,
           "value":4.0,
@@ -445,12 +441,6 @@
           "ease":"LINEAR",
           "factor":0.0
         },
-        "gr-cfg_focus-grid-blend-src":"SRC_ALPHA",
-        "gr-cfg_focus-grid-blend-dest":"INV_SRC_ALPHA",
-        "gr-cfg_focus-grid-blend-eq":"ADD",
-        "gr-cfg_focus-grid-blend-eq-alpha":"ADD",
-        "gr-cfg_focus-grid-use-blend-col":false,
-        "gr-cfg_focus-grid-blend-col":"#FFFFFF",
         "gr-cfg_use-cls-frame":true,
         "gr-cfg_use-cls-frame-alpha":false,
         "gr-cfg_use-cls-frame-col":false,
@@ -468,6 +458,14 @@
           "ease":"LINEAR",
           "factor":0.0
         },
+        "gr-cfg_focus-grid-blend-col-spd":0.0,
+        "gr-cfg_focus-grid-use-blend":false,
+        "gr-cfg_focus-grid-blend-src":"SRC_ALPHA",
+        "gr-cfg_focus-grid-blend-dest":"INV_SRC_ALPHA",
+        "gr-cfg_focus-grid-blend-eq":"ADD",
+        "gr-cfg_focus-grid-blend-eq-alpha":"ADD",
+        "gr-cfg_focus-grid-use-blend-col":false,
+        "gr-cfg_focus-grid-blend-col":"#FFFFFF",
         "gr-cfg_hide-focus-grid-col":true,
         "gr-cfg_hide-focus-grid-blend":true,
         "gr-cfg_change-cls-frame-alpha":false,
@@ -630,5 +628,7 @@
       "texture":"texture_ve_icon_grid_config",
       "type":"brush_grid_config"
     }
-  ]
+  ],
+  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>",
+  "version":"1"
 }
