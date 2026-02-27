@@ -3,7 +3,7 @@
   "model": "Collection<io.alkapivo.visu.ui.VisuMenuNode>",
   "data": {
     "root.tracks": {
-      "title": "Select track",
+      "title": "visu.menu.select-track",
       "back": "root",
       "entries": [
         {
