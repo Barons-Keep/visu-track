@@ -1,6 +1,6 @@
 {
-  "version":"1",
   "model":"Collection<io.alkapivo.visu.service.subtitle.SubtitleTemplate>",
+  "version":"1",
   "data":{
     "subtitle_alkapivo":{
       "lines":[
