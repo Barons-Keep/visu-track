@@ -9511,7 +9511,7 @@
           "timer":0.25,
           "type":"FollowPlayerFeature",
           "data":{
-            "value":{
+            "factor":{
               "value":0.0,
               "target":0.20000000000000001,
               "duration":0.25,

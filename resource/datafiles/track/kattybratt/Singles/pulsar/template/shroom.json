@@ -457,7 +457,7 @@
         },
         {
           "data":{
-            "value":{
+            "factor":{
               "value":0.0,
               "target":0.050000000000000003,
               "duration":0.80000000000000004,
@@ -695,7 +695,7 @@
       "queue":[
         {
           "data":{
-            "value":{
+            "factor":{
               "value":0.0,
               "target":0.25,
               "duration":0.25,
@@ -2336,7 +2336,7 @@
         },
         {
           "data":{
-            "value":{
+            "factor":{
               "value":-0.050000000000000003,
               "target":0.050000000000000003,
               "duration":0.5,
@@ -2695,7 +2695,7 @@
         },
         {
           "data":{
-            "value":{
+            "factor":{
               "value":-0.050000000000000003,
               "target":0.050000000000000003,
               "duration":0.5,
@@ -3009,7 +3009,7 @@
         },
         {
           "data":{
-            "value":{
+            "factor":{
               "value":0.0,
               "target":0.20000000000000001,
               "duration":0.25,
