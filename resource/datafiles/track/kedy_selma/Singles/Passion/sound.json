@@ -1,10 +1,10 @@
 {
   "model":"Collection<io.alkapivo.core.service.sound.SoundIntent>",
+  "version":"1",
   "data":{
     "sound_external":{
-      "waveform":null,
-      "file":"Passion.ogg"
+      "file":"Passion.ogg",
+      "waveform":null
     }
-  },
-  "version":"1"
+  }
 }

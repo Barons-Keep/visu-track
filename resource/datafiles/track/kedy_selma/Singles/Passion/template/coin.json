@@ -1,58 +1,58 @@
 {
   "model":"Collection<io.alkapivo.visu.service.coin.CoinTemplate>",
+  "version":"1",
   "data":{
     "coin-force-5":{
-      "mask":null,
+      "category":"force",
       "sprite":{
+        "angle":0.0,
+        "randomFrame":false,
+        "alpha":1.0,
+        "frame":0.0,
+        "scaleX":6.5,
+        "speed":30.0,
         "scaleY":6.5,
         "blend":"#FFFFFF",
-        "alpha":1.0,
-        "randomFrame":false,
         "animate":false,
-        "name":"texture_coin_force",
-        "speed":30.0,
-        "frame":0.0,
-        "angle":0.0,
-        "scaleX":6.5
+        "name":"texture_coin_force"
+      },
+      "mask":null,
+      "useSpeed":false,
+      "changeSpeed":false,
+      "speed":{
+        "duration":1.9166666666666667,
+        "target":2.25,
+        "ease":"LINEAR",
+        "value":-3.5
       },
       "name":"coin-force-5",
-      "category":"force",
-      "useSpeed":false,
-      "speed":{
-        "target":2.25,
-        "value":-3.5,
-        "duration":1.9166666666666667,
-        "ease":"LINEAR"
-      },
-      "changeSpeed":false,
       "amount":5.0
     },
     "coin-point-5":{
-      "mask":null,
+      "category":"point",
       "sprite":{
+        "angle":0.0,
+        "randomFrame":false,
+        "alpha":1.0,
+        "frame":0.0,
+        "scaleX":6.5,
+        "speed":30.0,
         "scaleY":6.5,
         "blend":"#FFFFFF",
-        "alpha":1.0,
-        "randomFrame":false,
         "animate":false,
-        "name":"texture_coin_point",
-        "speed":30.0,
-        "frame":0.0,
-        "angle":0.0,
-        "scaleX":6.5
+        "name":"texture_coin_point"
+      },
+      "mask":null,
+      "useSpeed":false,
+      "changeSpeed":false,
+      "speed":{
+        "duration":0.66666666666666663,
+        "target":1.0,
+        "ease":"LINEAR",
+        "value":-3.0
       },
       "name":"coin-point-5",
-      "category":"point",
-      "useSpeed":false,
-      "speed":{
-        "target":1.0,
-        "value":-3.0,
-        "duration":0.66666666666666663,
-        "ease":"LINEAR"
-      },
-      "changeSpeed":false,
       "amount":5.0
     }
-  },
-  "version":"1"
+  }
 }
