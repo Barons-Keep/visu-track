@@ -1,6 +1,26 @@
 {
-  "version":"1",
   "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>",
+  "version":"1",
   "data":[
+    {
+      "hidden":false,
+      "color":"#FFFFFF",
+      "texture":"texture_baron",
+      "type":"brush_effect_shader",
+      "properties":{
+        "ef-shd_alpha":1.0,
+        "ef-shd_duration":5.0,
+        "ef-shd_fade-in":1.0,
+        "ef-shd_fade-out":1.0,
+        "ef-shd_hide":false,
+        "ef-shd_hide-merge-cfg":false,
+        "ef-shd_merge-cfg":{
+        },
+        "ef-shd_pipeline":"COMBINED",
+        "ef-shd_template":"Broken Time Portal 01",
+        "ef-shd_use-merge-cfg":false
+      },
+      "name":"new brush template"
+    }
   ]
 }

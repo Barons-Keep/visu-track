@@ -1,14 +1,14 @@
 {
+  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>",
+  "version":"1",
   "data":[
     {
       "hidden":false,
       "color":"#FFFFFF",
-      "properties":null,
-      "name":"new brush template",
       "texture":"texture_baron",
-      "type":"brush_entity_player"
+      "type":"brush_entity_player",
+      "properties":null,
+      "name":"new brush template"
     }
-  ],
-  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>",
-  "version":"1"
+  ]
 }

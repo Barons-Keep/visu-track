@@ -1,8 +1,12 @@
 {
+  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>",
+  "version":"1",
   "data":[
     {
       "hidden":false,
       "color":"#7800C8",
+      "texture":"texture_ve_icon_effect_shader",
+      "type":"brush_effect_shader",
       "properties":{
         "ef-shd_alpha":1.0,
         "ef-shd_duration":6.0,
@@ -16,13 +20,13 @@
         "ef-shd_template":"wavy spectrum 3",
         "ef-shd_use-merge-cfg":false
       },
-      "name":"wavy spectrum 3",
-      "texture":"texture_ve_icon_effect_shader",
-      "type":"brush_effect_shader"
+      "name":"wavy spectrum 3"
     },
     {
       "hidden":false,
       "color":"#07006E",
+      "texture":"texture_ve_icon_effect_shader",
+      "type":"brush_effect_shader",
       "properties":{
         "ef-shd_alpha":1.0,
         "ef-shd_duration":24.960000000000001,
@@ -31,20 +35,20 @@
         "ef-shd_hide":false,
         "ef-shd_hide-merge-cfg":false,
         "ef-shd_merge-cfg":{
-          "u_seed":467.5,
-          "u_opacity":0.10000000000000001
+          "u_opacity":0.10000000000000001,
+          "u_seed":467.5
         },
         "ef-shd_pipeline":"BACKGROUND",
         "ef-shd_template":"deep space 1",
         "ef-shd_use-merge-cfg":true
       },
-      "name":"deep space 2",
-      "texture":"texture_ve_icon_effect_shader",
-      "type":"brush_effect_shader"
+      "name":"deep space 2"
     },
     {
       "hidden":false,
       "color":"#5B8F53",
+      "texture":"texture_ve_icon_effect_shader",
+      "type":"brush_effect_shader",
       "properties":{
         "ef-shd_alpha":0.75,
         "ef-shd_duration":12.44,
@@ -60,13 +64,13 @@
         "ef-shd_template":"warp pulse 2",
         "ef-shd_use-merge-cfg":true
       },
-      "name":"warp pulse 2",
-      "texture":"texture_ve_icon_effect_shader",
-      "type":"brush_effect_shader"
+      "name":"warp pulse 2"
     },
     {
       "hidden":false,
       "color":"#2EFF29",
+      "texture":"texture_ve_icon_effect_shader",
+      "type":"brush_effect_shader",
       "properties":{
         "ef-shd_alpha":1.0,
         "ef-shd_duration":8.0,
@@ -82,13 +86,13 @@
         "ef-shd_template":"wavy lines 2",
         "ef-shd_use-merge-cfg":true
       },
-      "name":"wavy lines 2",
-      "texture":"texture_ve_icon_effect_shader",
-      "type":"brush_effect_shader"
+      "name":"wavy lines 2"
     },
     {
       "hidden":false,
       "color":"#4621E2",
+      "texture":"texture_ve_icon_effect_shader",
+      "type":"brush_effect_shader",
       "properties":{
         "ef-shd_alpha":1.0,
         "ef-shd_duration":10.0,
@@ -102,13 +106,13 @@
         "ef-shd_template":"astral flow 1",
         "ef-shd_use-merge-cfg":false
       },
-      "name":"astral flow 1",
-      "texture":"texture_ve_icon_effect_shader",
-      "type":"brush_effect_shader"
+      "name":"astral flow 1"
     },
     {
       "hidden":false,
       "color":"#FF0043",
+      "texture":"texture_ve_icon_effect_shader",
+      "type":"brush_effect_shader",
       "properties":{
         "ef-shd_alpha":0.75,
         "ef-shd_duration":3.8799999999999999,
@@ -123,13 +127,13 @@
         "ef-shd_template":"fractal bloom 1",
         "ef-shd_use-merge-cfg":true
       },
-      "name":"fractal bloom 1",
-      "texture":"texture_ve_icon_effect_shader",
-      "type":"brush_effect_shader"
+      "name":"fractal bloom 1"
     },
     {
       "hidden":false,
       "color":"#FF0043",
+      "texture":"texture_ve_icon_effect_shader",
+      "type":"brush_effect_shader",
       "properties":{
         "ef-shd_alpha":0.5,
         "ef-shd_duration":3.8799999999999999,
@@ -144,13 +148,13 @@
         "ef-shd_template":"fractal bloom 2",
         "ef-shd_use-merge-cfg":true
       },
-      "name":"fractal bloom 2",
-      "texture":"texture_ve_icon_effect_shader",
-      "type":"brush_effect_shader"
+      "name":"fractal bloom 2"
     },
     {
       "hidden":false,
       "color":"#FF0043",
+      "texture":"texture_ve_icon_effect_shader",
+      "type":"brush_effect_shader",
       "properties":{
         "ef-shd_alpha":0.5,
         "ef-shd_duration":3.8799999999999999,
@@ -165,13 +169,13 @@
         "ef-shd_template":"fractal bloom 3",
         "ef-shd_use-merge-cfg":true
       },
-      "name":"fractal bloom 3",
-      "texture":"texture_ve_icon_effect_shader",
-      "type":"brush_effect_shader"
+      "name":"fractal bloom 3"
     },
     {
       "hidden":false,
       "color":"#07006E",
+      "texture":"texture_ve_icon_effect_shader",
+      "type":"brush_effect_shader",
       "properties":{
         "ef-shd_alpha":1.0,
         "ef-shd_duration":16.0,
@@ -180,20 +184,20 @@
         "ef-shd_hide":false,
         "ef-shd_hide-merge-cfg":false,
         "ef-shd_merge-cfg":{
-          "u_seed":1052.5,
-          "u_opacity":0.245
+          "u_opacity":0.245,
+          "u_seed":1052.5
         },
         "ef-shd_pipeline":"BACKGROUND",
         "ef-shd_template":"deep space 1",
         "ef-shd_use-merge-cfg":false
       },
-      "name":"deep space 1",
-      "texture":"texture_ve_icon_effect_shader",
-      "type":"brush_effect_shader"
+      "name":"deep space 1"
     },
     {
       "hidden":false,
       "color":"#009EFF",
+      "texture":"texture_ve_icon_effect_shader",
+      "type":"brush_effect_shader",
       "properties":{
         "ef-shd_alpha":1.0,
         "ef-shd_duration":5.0,
@@ -208,13 +212,13 @@
         "ef-shd_template":"cloudy sky 1",
         "ef-shd_use-merge-cfg":false
       },
-      "name":"cloudy sky 1",
-      "texture":"texture_ve_icon_effect_shader",
-      "type":"brush_effect_shader"
+      "name":"cloudy sky 1"
     },
     {
       "hidden":false,
       "color":"#009EFF",
+      "texture":"texture_ve_icon_effect_shader",
+      "type":"brush_effect_shader",
       "properties":{
         "ef-shd_alpha":1.0,
         "ef-shd_duration":25.960000000000001,
@@ -232,13 +236,13 @@
         "ef-shd_template":"cloudy sky 2",
         "ef-shd_use-merge-cfg":true
       },
-      "name":"cloudy sky 2",
-      "texture":"texture_ve_icon_effect_shader",
-      "type":"brush_effect_shader"
+      "name":"cloudy sky 2"
     },
     {
       "hidden":false,
       "color":"#C77C96",
+      "texture":"texture_ve_icon_effect_shader",
+      "type":"brush_effect_shader",
       "properties":{
         "ef-shd_alpha":1.0,
         "ef-shd_duration":5.0,
@@ -253,13 +257,13 @@
         "ef-shd_template":"wormhole vortex 1",
         "ef-shd_use-merge-cfg":false
       },
-      "name":"wormhole vortex 1",
-      "texture":"texture_ve_icon_effect_shader",
-      "type":"brush_effect_shader"
+      "name":"wormhole vortex 1"
     },
     {
       "hidden":false,
       "color":"#2EFF29",
+      "texture":"texture_ve_icon_effect_shader",
+      "type":"brush_effect_shader",
       "properties":{
         "ef-shd_alpha":1.0,
         "ef-shd_duration":5.0,
@@ -274,13 +278,13 @@
         "ef-shd_template":"wavy lines 1",
         "ef-shd_use-merge-cfg":true
       },
-      "name":"wavy lines 1",
-      "texture":"texture_ve_icon_effect_shader",
-      "type":"brush_effect_shader"
+      "name":"wavy lines 1"
     },
     {
       "hidden":false,
       "color":"#5B8F53",
+      "texture":"texture_ve_icon_effect_shader",
+      "type":"brush_effect_shader",
       "properties":{
         "ef-shd_alpha":1.0,
         "ef-shd_duration":5.0,
@@ -295,13 +299,13 @@
         "ef-shd_template":"warp pulse 1",
         "ef-shd_use-merge-cfg":true
       },
-      "name":"warp pulse 1",
-      "texture":"texture_ve_icon_effect_shader",
-      "type":"brush_effect_shader"
+      "name":"warp pulse 1"
     },
     {
       "hidden":false,
       "color":"#8D1666",
+      "texture":"texture_ve_icon_effect_shader",
+      "type":"brush_effect_shader",
       "properties":{
         "ef-shd_alpha":1.0,
         "ef-shd_duration":5.0,
@@ -316,13 +320,13 @@
         "ef-shd_template":"polycular 1",
         "ef-shd_use-merge-cfg":true
       },
-      "name":"polycular 1",
-      "texture":"texture_ve_icon_effect_shader",
-      "type":"brush_effect_shader"
+      "name":"polycular 1"
     },
     {
       "hidden":false,
       "color":"#7800C8",
+      "texture":"texture_ve_icon_effect_shader",
+      "type":"brush_effect_shader",
       "properties":{
         "ef-shd_alpha":1.0,
         "ef-shd_duration":10.0,
@@ -336,13 +340,13 @@
         "ef-shd_template":"wavy spectrum 1",
         "ef-shd_use-merge-cfg":false
       },
-      "name":"wavy spectrum 1",
-      "texture":"texture_ve_icon_effect_shader",
-      "type":"brush_effect_shader"
+      "name":"wavy spectrum 1"
     },
     {
       "hidden":false,
       "color":"#7800C8",
+      "texture":"texture_ve_icon_effect_shader",
+      "type":"brush_effect_shader",
       "properties":{
         "ef-shd_alpha":1.0,
         "ef-shd_duration":10.0,
@@ -356,13 +360,13 @@
         "ef-shd_template":"wavy spectrum 2",
         "ef-shd_use-merge-cfg":false
       },
-      "name":"wavy spectrum 2",
-      "texture":"texture_ve_icon_effect_shader",
-      "type":"brush_effect_shader"
+      "name":"wavy spectrum 2"
     },
     {
       "hidden":false,
       "color":"#0D6CFF",
+      "texture":"texture_ve_icon_effect_shader",
+      "type":"brush_effect_shader",
       "properties":{
         "ef-shd_alpha":1.0,
         "ef-shd_duration":15.0,
@@ -376,13 +380,13 @@
         "ef-shd_template":"arc runner 1",
         "ef-shd_use-merge-cfg":false
       },
-      "name":"arc runner 1",
-      "texture":"texture_ve_icon_effect_shader",
-      "type":"brush_effect_shader"
+      "name":"arc runner 1"
     },
     {
       "hidden":false,
       "color":"#6CBD0F",
+      "texture":"texture_ve_icon_effect_shader",
+      "type":"brush_effect_shader",
       "properties":{
         "ef-shd_alpha":1.0,
         "ef-shd_duration":10.0,
@@ -397,13 +401,13 @@
         "ef-shd_template":"funk flux 1",
         "ef-shd_use-merge-cfg":true
       },
-      "name":"funk flux 1",
-      "texture":"texture_ve_icon_effect_shader",
-      "type":"brush_effect_shader"
+      "name":"funk flux 1"
     },
     {
       "hidden":false,
       "color":"#6CBD0F",
+      "texture":"texture_ve_icon_effect_shader",
+      "type":"brush_effect_shader",
       "properties":{
         "ef-shd_alpha":1.0,
         "ef-shd_duration":10.0,
@@ -418,13 +422,13 @@
         "ef-shd_template":"funk flux 2",
         "ef-shd_use-merge-cfg":true
       },
-      "name":"funk flux 2",
-      "texture":"texture_ve_icon_effect_shader",
-      "type":"brush_effect_shader"
+      "name":"funk flux 2"
     },
     {
       "hidden":false,
       "color":"#6CBD0F",
+      "texture":"texture_ve_icon_effect_shader",
+      "type":"brush_effect_shader",
       "properties":{
         "ef-shd_alpha":1.0,
         "ef-shd_duration":22.0,
@@ -437,9 +441,9 @@
             "duration":22.0
           },
           "u_angle":{
-            "value":-180.0,
+            "duration":22.0,
             "target":30.0,
-            "duration":22.0
+            "value":-180.0
           },
           "u_seed":760.0
         },
@@ -447,13 +451,13 @@
         "ef-shd_template":"funk flux 3",
         "ef-shd_use-merge-cfg":true
       },
-      "name":"funk flux 3",
-      "texture":"texture_ve_icon_effect_shader",
-      "type":"brush_effect_shader"
+      "name":"funk flux 3"
     },
     {
       "hidden":false,
       "color":"#6CCE9E",
+      "texture":"texture_ve_icon_effect_shader",
+      "type":"brush_effect_shader",
       "properties":{
         "ef-shd_alpha":1.0,
         "ef-shd_duration":10.0,
@@ -467,13 +471,13 @@
         "ef-shd_template":"CRT 1",
         "ef-shd_use-merge-cfg":false
       },
-      "name":"CRT 1",
-      "texture":"texture_ve_icon_effect_shader",
-      "type":"brush_effect_shader"
+      "name":"CRT 1"
     },
     {
       "hidden":false,
       "color":"#FF00FF",
+      "texture":"texture_ve_icon_effect_shader",
+      "type":"brush_effect_shader",
       "properties":{
         "ef-shd_alpha":1.0,
         "ef-shd_duration":10.0,
@@ -487,19 +491,15 @@
         "ef-shd_template":"wavy mesh 1",
         "ef-shd_use-merge-cfg":false
       },
-      "name":"wavy mesh 1",
-      "texture":"texture_ve_icon_effect_shader",
-      "type":"brush_effect_shader"
+      "name":"wavy mesh 1"
     },
     {
       "hidden":false,
       "color":"#FFFFFF",
-      "properties":null,
-      "name":"new brush template 1",
       "texture":"texture_ve_icon_event_1",
-      "type":"brush_effect_shader"
+      "type":"brush_effect_shader",
+      "properties":null,
+      "name":"new brush template 1"
     }
-  ],
-  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>",
-  "version":"1"
+  ]
 }

@@ -3,7 +3,7 @@
   "model": "Collection<io.alkapivo.visu.ui.VisuMenuNode>",
   "data": {
     "root.tracks": {
-      "title": "Select track",
+      "title": "visu.menu.select-track",
       "back": "root",
       "entries": [
         {
@@ -95,19 +95,8 @@
           }
         },
         {
-          "name": "Sightseeing",
-          "title": "Schnoopy (Work in progress)",
-          "event": {
-            "type": "open-track-setup",
-            "data": {
-              "path": "track/Schnoopy/Proxima/Sightseeing/manifest.visu",
-              "node": "root.tracks"
-            }
-          }
-        },
-        {
           "name": "pulsar",
-          "title": "kattybratt (Work in progress)",
+          "title": "kattybratt",
           "event": {
             "type": "open-track-setup",
             "data": {

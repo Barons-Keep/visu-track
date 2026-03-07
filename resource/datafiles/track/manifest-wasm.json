@@ -3,7 +3,7 @@
   "model": "Collection<io.alkapivo.visu.ui.VisuMenuNode>",
   "data": {
     "root.tracks": {
-      "title": "Select track",
+      "title": "visu.menu.select-track",
       "back": "root",
       "entries": [
         {
@@ -80,17 +80,6 @@
             "data": {
               "path": "track/Sewerslvt/Skitzofrenia-Simulation/Purple-Hearts-In-Her-Eyes/manifest.visu",
               "node": "root.tracks"
-            }
-          }
-        },
-        {
-          "name": "Destination Unknown",
-          "title": "Schnoopy",
-          "event": {
-            "type": "open-track-setup",
-            "data": {
-              "path": "track/Schnoopy/Proxima/Destination-Unknown/manifest.visu",
-              "node": "rooty"
             }
           }
         }
