@@ -8,22 +8,6 @@
       "texture":"texture_ve_icon_entity_player",
       "type":"brush_entity_player",
       "properties":{
-        "en-pl_platformer":{
-          "x":{
-            "friction":9.3000000000000007,
-            "speedMax":2.5,
-            "acceleration":1.9199999999999999
-          },
-          "y":{
-            "friction":0.0,
-            "speedMax":25.0,
-            "acceleration":1.9199999999999999
-          },
-          "jump":{
-            "size":4.0
-          }
-        },
-        "en-pl_use-racing":1.0,
         "en-pl_racing":{
           "throttle":{
             "friction":0.5,
@@ -42,6 +26,22 @@
           }
         },
         "en-pl_use-platformer":1.0,
+        "en-pl_platformer":{
+          "x":{
+            "friction":9.3000000000000007,
+            "speedMax":2.5,
+            "acceleration":1.9199999999999999
+          },
+          "y":{
+            "friction":0.0,
+            "speedMax":25.0,
+            "acceleration":1.9199999999999999
+          },
+          "jump":{
+            "size":4.0
+          }
+        },
+        "en-pl_use-racing":1.0,
         "en-pl_bullethell":{
           "x":{
             "friction":20.0,
@@ -116,22 +116,6 @@
       "texture":"texture_ve_icon_entity_player",
       "type":"brush_entity_player",
       "properties":{
-        "en-pl_platformer":{
-          "x":{
-            "friction":9.3000000000000007,
-            "speedMax":2.5,
-            "acceleration":1.9199999999999999
-          },
-          "y":{
-            "friction":0.0,
-            "speedMax":25.0,
-            "acceleration":1.9199999999999999
-          },
-          "jump":{
-            "size":4.0
-          }
-        },
-        "en-pl_use-racing":1.0,
         "en-pl_racing":{
           "throttle":{
             "friction":0.5,
@@ -150,6 +134,22 @@
           }
         },
         "en-pl_use-platformer":1.0,
+        "en-pl_platformer":{
+          "x":{
+            "friction":9.3000000000000007,
+            "speedMax":2.5,
+            "acceleration":1.9199999999999999
+          },
+          "y":{
+            "friction":0.0,
+            "speedMax":25.0,
+            "acceleration":1.9199999999999999
+          },
+          "jump":{
+            "size":4.0
+          }
+        },
+        "en-pl_use-racing":1.0,
         "en-pl_bullethell":{
           "x":{
             "friction":20.0,

@@ -7,17 +7,6 @@
       "back": "root",
       "entries": [
         {
-          "name": "digitalshadow",
-          "title": "Zoogies",
-          "event": {
-            "type": "open-track-setup",
-            "data": {
-              "path": "track/Zoogies/Singles/digitalshadow/manifest.visu",
-              "node": "root.tracks"
-            }
-          }
-        },
-        {
           "name": "Just To Create Something",
           "title": "kedy_selma",
           "event": {
@@ -51,23 +40,23 @@
           }
         },
         {
-          "name": "Psychosis",
-          "title": "Sewerslvt",
-          "event": {
-            "type": "open-track-setup",
-            "data": {
-              "path": "track/Sewerslvt/The-World-is-Fvcked/Psychosis/manifest.visu",
-              "node": "root.tracks"
-            }
-          }
-        },
-        {
           "name": "Create and Yet Fate's Faw Avoid *",
           "title": "GOETIA",
           "event": {
             "type": "open-track-setup",
             "data": {
               "path": "track/GOETIA/Death-of-the-Muse/Create-and-Yet-Fates-Faw-Avoid/manifest.visu",
+              "node": "root.tracks"
+            }
+          }
+        },
+        {
+          "name": "pulsar",
+          "title": "kattybratt",
+          "event": {
+            "type": "open-track-setup",
+            "data": {
+              "path": "track/kattybratt/Singles/pulsar/manifest.visu",
               "node": "root.tracks"
             }
           }
@@ -84,6 +73,17 @@
           }
         },
         {
+          "name": "Psychosis",
+          "title": "Sewerslvt",
+          "event": {
+            "type": "open-track-setup",
+            "data": {
+              "path": "track/Sewerslvt/The-World-is-Fvcked/Psychosis/manifest.visu",
+              "node": "root.tracks"
+            }
+          }
+        },
+        {
           "name": "Destination Unknown",
           "title": "Schnoopy",
           "event": {
@@ -95,12 +95,12 @@
           }
         },
         {
-          "name": "pulsar",
-          "title": "kattybratt",
+          "name": "digitalshadow",
+          "title": "Zoogies",
           "event": {
             "type": "open-track-setup",
             "data": {
-              "path": "track/kattybratt/Singles/pulsar/manifest.visu",
+              "path": "track/Zoogies/Singles/digitalshadow/manifest.visu",
               "node": "root.tracks"
             }
           }

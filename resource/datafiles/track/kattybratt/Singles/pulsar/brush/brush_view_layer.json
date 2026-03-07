@@ -377,6 +377,14 @@
         "vw-layer_use-texture-tiled":true
       },
       "name":"default FRG"
+    },
+    {
+      "hidden":false,
+      "color":"#FFFFFF",
+      "texture":"texture_ve_icon_event_1",
+      "type":"brush_view_layer",
+      "properties":null,
+      "name":"new brush template 1"
     }
   ]
 }

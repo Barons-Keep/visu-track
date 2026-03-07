@@ -35,13 +35,13 @@
             "ease":"LINEAR",
             "value":0.0
           },
+          "anglePerArrayRng":0.0,
           "wiggleFrequency":{
             "duration":0.0,
             "target":0.0,
             "ease":"LINEAR",
             "value":0.0
           },
-          "anglePerArrayRng":0.0,
           "anglePerArrayStep":{
             "duration":0.0,
             "target":0.0,
@@ -87,13 +87,13 @@
             "ease":"LINEAR",
             "value":0.0
           },
+          "amount":4.0,
           "offsetY":{
             "duration":0.0,
             "target":0.0,
             "ease":"LINEAR",
             "value":0.0
-          },
-          "amount":4.0
+          }
         },
         "en-blt_hide":false,
         "en-blt_hide-em":false,
@@ -119,8 +119,8 @@
         "en-blt_snap-x":false,
         "en-blt_snap-y":false,
         "en-blt_spawn-map":{
-          "originX":52.0,
-          "originY":43.0,
+          "originX":55.0,
+          "originY":48.0,
           "frames":1.0,
           "file":"",
           "prefetch":true,
@@ -129,7 +129,7 @@
         "en-blt_spd":10.0,
         "en-blt_spd-grid":false,
         "en-blt_spd-rng":0.0,
-        "en-blt_template":"bullet-pikaro-2-l",
+        "en-blt_template":"bullet-katt-1-l",
         "en-blt_texture":{
           "angle":0.0,
           "randomFrame":false,
@@ -144,12 +144,12 @@
         },
         "en-blt_use-dir-rng":false,
         "en-blt_use-dmg":false,
-        "en-blt_use-em":true,
+        "en-blt_use-em":false,
         "en-blt_use-lifespan":false,
         "en-blt_use-mask":false,
         "en-blt_use-rng-x":false
       },
-      "name":"new brush template"
+      "name":"bullet-katt-1-l"
     }
   ]
 }
