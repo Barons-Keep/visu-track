@@ -1,62 +1,62 @@
 {
+  "model":"Collection<io.alkapivo.core.service.texture.TextureIntent>",
+  "version":"1",
   "data":{
-    "texture_schnoopy_white":{
-      "prefetch":true,
-      "name":"texture_schnoopy_white",
-      "frames":2.0,
-      "file":"texture/texture_schnoopy_white.png",
-      "originX":128.0,
-      "originY":128.0
-    },
-    "texture_schnoopy_yellow":{
-      "prefetch":true,
-      "name":"texture_schnoopy_yellow",
-      "frames":2.0,
-      "file":"texture/texture_schnoopy_yellow.png",
-      "originX":128.0,
-      "originY":128.0
-    },
-    "texture_schnoopy_red":{
-      "prefetch":true,
-      "name":"texture_schnoopy_red",
-      "frames":2.0,
-      "file":"texture/texture_schnoopy_red.png",
-      "originX":128.0,
-      "originY":128.0
-    },
     "texture_bkg_schnoopy_proxima":{
-      "prefetch":true,
-      "name":"texture_bkg_schnoopy_proxima",
+      "originX":0.0,
+      "originY":0.0,
       "frames":1.0,
       "file":"texture/texture_bkg_schnoopy_proxima.jpg",
-      "originX":0.0,
-      "originY":0.0
+      "prefetch":true,
+      "name":"texture_bkg_schnoopy_proxima"
     },
     "texture_schnoopy_magenta":{
-      "prefetch":true,
-      "name":"texture_schnoopy_magenta",
+      "originX":128.0,
+      "originY":128.0,
       "frames":2.0,
       "file":"texture/texture_schnoopy_magenta.png",
-      "originX":128.0,
-      "originY":128.0
+      "prefetch":true,
+      "name":"texture_schnoopy_magenta"
     },
     "texture_schnoopy_green":{
-      "prefetch":true,
-      "name":"texture_schnoopy_green",
+      "originX":128.0,
+      "originY":128.0,
       "frames":2.0,
       "file":"texture/texture_schnoopy_green.png",
-      "originX":128.0,
-      "originY":128.0
+      "prefetch":true,
+      "name":"texture_schnoopy_green"
     },
     "texture_schnoopy_blue":{
-      "prefetch":true,
-      "name":"texture_schnoopy_blue",
+      "originX":128.0,
+      "originY":128.0,
       "frames":2.0,
       "file":"texture/texture_schnoopy_blue.png",
+      "prefetch":true,
+      "name":"texture_schnoopy_blue"
+    },
+    "texture_schnoopy_white":{
       "originX":128.0,
-      "originY":128.0
+      "originY":128.0,
+      "frames":2.0,
+      "file":"texture/texture_schnoopy_white.png",
+      "prefetch":true,
+      "name":"texture_schnoopy_white"
+    },
+    "texture_schnoopy_yellow":{
+      "originX":128.0,
+      "originY":128.0,
+      "frames":2.0,
+      "file":"texture/texture_schnoopy_yellow.png",
+      "prefetch":true,
+      "name":"texture_schnoopy_yellow"
+    },
+    "texture_schnoopy_red":{
+      "originX":128.0,
+      "originY":128.0,
+      "frames":2.0,
+      "file":"texture/texture_schnoopy_red.png",
+      "prefetch":true,
+      "name":"texture_schnoopy_red"
     }
-  },
-  "model":"Collection<io.alkapivo.core.service.texture.TextureIntent>",
-  "version":"1"
+  }
 }

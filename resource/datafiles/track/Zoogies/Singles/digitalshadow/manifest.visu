@@ -27,12 +27,12 @@
     "subtitle":"template/subtitle.json",
     "texture":"texture/texture.json",
     "bullet":"template/bullet.json",
-    "bpm":174.0,
+    "bpm":144.0,
     "particle":"template/particle.json",
     "bpm-count":8.0,
     "bpm-shift":0.0,
     "shader":"template/shader.json",
-    "bpm-sub":2.0,
+    "bpm-sub":3.0,
     "sound":"sound.json",
     "video":null
   }

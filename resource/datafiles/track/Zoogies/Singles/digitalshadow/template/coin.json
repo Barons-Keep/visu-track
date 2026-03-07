@@ -21,9 +21,9 @@
       "changeSpeed":false,
       "speed":{
         "duration":1.9166666666666667,
-        "target":2.25,
+        "target":1.0,
         "ease":"LINEAR",
-        "value":-3.5
+        "value":-3.0
       },
       "name":"coin-force-5",
       "amount":5.0

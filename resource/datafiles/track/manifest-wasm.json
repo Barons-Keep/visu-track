@@ -82,17 +82,6 @@
               "node": "root.tracks"
             }
           }
-        },
-        {
-          "name": "Destination Unknown",
-          "title": "Schnoopy",
-          "event": {
-            "type": "open-track-setup",
-            "data": {
-              "path": "track/Schnoopy/Proxima/Destination-Unknown/manifest.visu",
-              "node": "rooty"
-            }
-          }
         }
       ]
     }

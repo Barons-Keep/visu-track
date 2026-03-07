@@ -1,0 +1,424 @@
+{
+  "version": "1",
+  "model": "io.alkapivo.core.test.TestSuite",
+  "data": {
+    "name": "Test kedy_selma - Just To Create Something",
+    "stopAfterFailure": false,
+    "tests": [
+      {
+        "handler": "Test_VisuController_load",
+        "description": "Load kedy_selma - Just To Create Something (isVisualMode: true)",
+        "data": {
+          "trackName": "kedy_selma - Just To Create Something",
+          "timeout": 20.0,
+          "cooldown": 1.0,
+          "path": "track/kedy_selma/Just-To-Create-Something/Just-To-Create-Something/manifest.visu",
+          "isVisualMode": true,
+          "isRawMode": false,
+          "isMouseAim": false
+        }
+      },
+      {
+        "handler": "Test_VisuController_playback",
+        "description": "Play whole kedy_selma - Just To Create Something (4:05) (isVisualMode: true)",
+        "data": {
+          "timeout": 264.0,
+          "duration": 244.0,
+          "cooldown": 1.0,
+          "isDemoMode": true
+        }
+      },
+      {
+        "handler": "Test_VisuController_load",
+        "description": "Load kedy_selma - Passion",
+        "data": {
+          "trackName": "kedy_selma - Passion",
+          "timeout": 20.0,
+          "cooldown": 1.0,
+          "path": "track/kedy_selma/Singles/Passion/manifest.visu",
+          "isVisualMode": false,
+          "isRawMode": false,
+          "isMouseAim": false
+        }
+      },
+      {
+        "handler": "Test_VisuController_playback",
+        "description": "Play whole kedy_selma - Passion (2:55)",
+        "data": {
+          "timeout": 194.0,
+          "duration": 174.0,
+          "cooldown": 1.0,
+          "isDemoMode": true
+        }
+      },
+      {
+        "handler": "Test_VisuController_load",
+        "description": "Load pikaro & paxnkoxd - the memories fade but the feeling remains (isVisualMode: true)",
+        "data": {
+          "trackName": "pikaro & paxnkoxd - the memories fade but the feeling remains",
+          "timeout": 20.0,
+          "cooldown": 1.0,
+          "path": "track/pikaro/Singles/the-memories-fade-but-the-feeling-remains/manifest.visu",
+          "isVisualMode": true,
+          "isRawMode": false,
+          "isMouseAim": false
+        }
+      },
+      {
+        "handler": "Test_VisuController_playback",
+        "description": "Play finished part of pikaro & paxnkoxd - the memories fade but the feeling remains (4:09) (isVisualMode: true)",
+        "data": {
+          "timeout": 268.0,
+          "duration": 248.0,
+          "cooldown": 1.0,
+          "isDemoMode": true
+        }
+      },
+      {
+        "handler": "Test_VisuController_load",
+        "description": "Load GOETIA - Create and Yet Fate's Faw Avoid",
+        "data": {
+          "trackName": "GOETIA - Create and Yet Fate's Faw Avoid",
+          "timeout": 20.0,
+          "cooldown": 1.0,
+          "path": "track/GOETIA/Death-of-the-Muse/Create-and-Yet-Fates-Faw-Avoid/manifest.visu",
+          "isVisualMode": false,
+          "isRawMode": false,
+          "isMouseAim": false
+        }
+      },
+      {
+        "handler": "Test_VisuController_playback",
+        "description": "Play finished part of GOETIA - Create and Yet Fate's Faw Avoid (4:17)",
+        "data": {
+          "timeout": 276.0,
+          "duration": 256.0,
+          "cooldown": 1.0,
+          "isDemoMode": true
+        }
+      },
+      {
+        "handler": "Test_VisuController_load",
+        "description": "Load kattybratt - pulsar (isVisualMode: true)",
+        "data": {
+          "trackName": "kattybratt - pulsar",
+          "timeout": 20.0,
+          "cooldown": 1.0,
+          "path": "track/kattybratt/Singles/pulsar/manifest.visu",
+          "isVisualMode": true,
+          "isRawMode": false,
+          "isMouseAim": false
+        }
+      },
+      {
+        "handler": "Test_VisuController_playback",
+        "description": "Play finished part of kattybratt - pulsar (4:17) (isVisualMode: true)",
+        "data": {
+          "timeout": 374.0,
+          "duration": 354.0,
+          "cooldown": 1.0,
+          "isDemoMode": true
+        }
+      },
+      {
+        "handler": "Test_VisuController_load",
+        "description": "Load Sewerslvt - Purple Hearts In Her Eyes",
+        "data": {
+          "trackName": "Sewerslvt - Purple Hearts In Her Eyes",
+          "timeout": 20.0,
+          "cooldown": 1.0,
+          "path": "track/Sewerslvt/Skitzofrenia-Simulation/Purple-Hearts-In-Her-Eyes/manifest.visu",
+          "isVisualMode": false,
+          "isRawMode": false,
+          "isMouseAim": false
+        }
+      },
+      {
+        "handler": "Test_VisuController_playback",
+        "description": "Play finished part of Sewerslvt - Purple Hearts In Her Eyes (6:34)",
+        "data": {
+          "timeout": 413.0,
+          "duration": 393.0,
+          "cooldown": 1.0,
+          "isDemoMode": true
+        }
+      },
+      {
+        "handler": "Test_VisuController_load",
+        "description": "Load Sewerslvt - Psychosis (isVisualMode: true)",
+        "data": {
+          "trackName": "Sewerslvt - Psychosis",
+          "timeout": 20.0,
+          "cooldown": 1.0,
+          "path": "track/Sewerslvt/The-World-is-Fvcked/Psychosis/manifest.visu",
+          "isVisualMode": true,
+          "isRawMode": false,
+          "isMouseAim": false
+        }
+      },
+      {
+        "handler": "Test_VisuController_playback",
+        "description": "Play finished part of Sewerslvt - Psychosis (3:49) (isVisualMode: true)",
+        "data": {
+          "timeout": 248.0,
+          "duration": 228.0,
+          "cooldown": 1.0,
+          "isDemoMode": true
+        }
+      },
+      {
+        "handler": "Test_VisuController_load",
+        "description": "Load Schnoopy - Destination Unknown",
+        "data": {
+          "trackName": "Schnoopy - Destination Unknown",
+          "timeout": 20.0,
+          "cooldown": 1.0,
+          "path": "track/Schnoopy/Proxima/Destination-Unknown/manifest.visu",
+          "isVisualMode": false,
+          "isRawMode": false,
+          "isMouseAim": false
+        }
+      },
+      {
+        "handler": "Test_VisuController_playback",
+        "description": "Play finished part of Schnoopy - Destination Unknown (9:05)",
+        "data": {
+          "timeout": 564.0,
+          "duration": 544.0,
+          "cooldown": 1.0,
+          "isDemoMode": true
+        }
+      },
+      {
+        "handler": "Test_VisuController_load",
+        "description": "Load Zoogies - digitalshadow (isVisualMode: true)",
+        "data": {
+          "trackName": "zoogies - digitalshadow",
+          "timeout": 20.0,
+          "cooldown": 1.0,
+          "path": "track/Zoogies/Singles/digitalshadow/manifest.visu",
+          "isVisualMode": true,
+          "isRawMode": false,
+          "isMouseAim": false
+        }
+      },
+      {
+        "handler": "Test_VisuController_playback",
+        "description": "Play whole Zoogies - digitalshadow (1:24) (isVisualMode: true)",
+        "data": {
+          "timeout": 103.0,
+          "duration": 83.0,
+          "cooldown": 1.0,
+          "isDemoMode": true
+        }
+      },
+      {
+        "handler": "Test_VisuController_load",
+        "description": "Load kedy_selma - Just To Create Something",
+        "data": {
+          "trackName": "kedy_selma - Just To Create Something",
+          "timeout": 20.0,
+          "cooldown": 1.0,
+          "path": "track/kedy_selma/Just-To-Create-Something/Just-To-Create-Something/manifest.visu",
+          "isVisualMode": false,
+          "isRawMode": false,
+          "isMouseAim": false
+        }
+      },
+      {
+        "handler": "Test_VisuController_playback",
+        "description": "Play whole kedy_selma - Just To Create Something (4:05)",
+        "data": {
+          "timeout": 264.0,
+          "duration": 244.0,
+          "cooldown": 1.0,
+          "isDemoMode": true
+        }
+      },
+      {
+        "handler": "Test_VisuController_load",
+        "description": "Load kedy_selma - Passion (isVisualMode: true)",
+        "data": {
+          "trackName": "kedy_selma - Passion",
+          "timeout": 20.0,
+          "cooldown": 1.0,
+          "path": "track/kedy_selma/Singles/Passion/manifest.visu",
+          "isVisualMode": true,
+          "isRawMode": false,
+          "isMouseAim": false
+        }
+      },
+      {
+        "handler": "Test_VisuController_playback",
+        "description": "Play whole kedy_selma - Passion (2:55) (isVisualMode: true)",
+        "data": {
+          "timeout": 194.0,
+          "duration": 174.0,
+          "cooldown": 1.0,
+          "isDemoMode": true
+        }
+      },
+      {
+        "handler": "Test_VisuController_load",
+        "description": "Load pikaro & paxnkoxd - the memories fade but the feeling remains",
+        "data": {
+          "trackName": "pikaro & paxnkoxd - the memories fade but the feeling remains",
+          "timeout": 20.0,
+          "cooldown": 1.0,
+          "path": "track/pikaro/Singles/the-memories-fade-but-the-feeling-remains/manifest.visu",
+          "isVisualMode": false,
+          "isRawMode": false,
+          "isMouseAim": false
+        }
+      },
+      {
+        "handler": "Test_VisuController_playback",
+        "description": "Play finished part of pikaro & paxnkoxd - the memories fade but the feeling remains (4:09)",
+        "data": {
+          "timeout": 268.0,
+          "duration": 248.0,
+          "cooldown": 1.0,
+          "isDemoMode": true
+        }
+      },
+      {
+        "handler": "Test_VisuController_load",
+        "description": "Load GOETIA - Create and Yet Fate's Faw Avoid (isVisualMode: true)",
+        "data": {
+          "trackName": "GOETIA - Create and Yet Fate's Faw Avoid",
+          "timeout": 20.0,
+          "cooldown": 1.0,
+          "path": "track/GOETIA/Death-of-the-Muse/Create-and-Yet-Fates-Faw-Avoid/manifest.visu",
+          "isVisualMode": true,
+          "isRawMode": false,
+          "isMouseAim": false
+        }
+      },
+      {
+        "handler": "Test_VisuController_playback",
+        "description": "Play finished part of GOETIA - Create and Yet Fate's Faw Avoid (4:17) (isVisualMode: true)",
+        "data": {
+          "timeout": 276.0,
+          "duration": 256.0,
+          "cooldown": 1.0,
+          "isDemoMode": true
+        }
+      },
+      {
+        "handler": "Test_VisuController_load",
+        "description": "Load kattybratt - pulsar",
+        "data": {
+          "trackName": "kattybratt - pulsar",
+          "timeout": 20.0,
+          "cooldown": 1.0,
+          "path": "track/kattybratt/Singles/pulsar/manifest.visu",
+          "isVisualMode": false,
+          "isRawMode": false,
+          "isMouseAim": false
+        }
+      },
+      {
+        "handler": "Test_VisuController_playback",
+        "description": "Play finished part of kattybratt - pulsar (4:17)",
+        "data": {
+          "timeout": 374.0,
+          "duration": 354.0,
+          "cooldown": 1.0,
+          "isDemoMode": true
+        }
+      },
+      {
+        "handler": "Test_VisuController_load",
+        "description": "Load Sewerslvt - Purple Hearts In Her Eyes (isVisualMode: true)",
+        "data": {
+          "trackName": "Sewerslvt - Purple Hearts In Her Eyes",
+          "timeout": 20.0,
+          "cooldown": 1.0,
+          "path": "track/Sewerslvt/Skitzofrenia-Simulation/Purple-Hearts-In-Her-Eyes/manifest.visu",
+          "isVisualMode": true,
+          "isRawMode": false,
+          "isMouseAim": false
+        }
+      },
+      {
+        "handler": "Test_VisuController_playback",
+        "description": "Play finished part of Sewerslvt - Purple Hearts In Her Eyes (6:34) (isVisualMode: true)",
+        "data": {
+          "timeout": 413.0,
+          "duration": 393.0,
+          "cooldown": 1.0,
+          "isDemoMode": true
+        }
+      },
+      {
+        "handler": "Test_VisuController_load",
+        "description": "Load Sewerslvt - Psychosis",
+        "data": {
+          "trackName": "Sewerslvt - Psychosis",
+          "timeout": 20.0,
+          "cooldown": 1.0,
+          "path": "track/Sewerslvt/The-World-is-Fvcked/Psychosis/manifest.visu",
+          "isVisualMode": false,
+          "isRawMode": false,
+          "isMouseAim": false
+        }
+      },
+      {
+        "handler": "Test_VisuController_playback",
+        "description": "Play finished part of Sewerslvt - Psychosis (3:49)",
+        "data": {
+          "timeout": 248.0,
+          "duration": 228.0,
+          "cooldown": 1.0,
+          "isDemoMode": true
+        }
+      },
+      {
+        "handler": "Test_VisuController_load",
+        "description": "Load Schnoopy - Destination Unknown (isVisualMode: true)",
+        "data": {
+          "trackName": "Schnoopy - Destination Unknown",
+          "timeout": 20.0,
+          "cooldown": 1.0,
+          "path": "track/Schnoopy/Proxima/Destination-Unknown/manifest.visu",
+          "isVisualMode": true,
+          "isRawMode": false,
+          "isMouseAim": false
+        }
+      },
+      {
+        "handler": "Test_VisuController_playback",
+        "description": "Play finished part of Schnoopy - Destination Unknown (9:05) (isVisualMode: true)",
+        "data": {
+          "timeout": 564.0,
+          "duration": 544.0,
+          "cooldown": 1.0,
+          "isDemoMode": true
+        }
+      },
+      {
+        "handler": "Test_VisuController_load",
+        "description": "Load Zoogies - digitalshadow",
+        "data": {
+          "trackName": "zoogies - digitalshadow",
+          "timeout": 20.0,
+          "cooldown": 1.0,
+          "path": "track/Zoogies/Singles/digitalshadow/manifest.visu",
+          "isVisualMode": false,
+          "isRawMode": false,
+          "isMouseAim": false
+        }
+      },
+      {
+        "handler": "Test_VisuController_playback",
+        "description": "Play whole Zoogies - digitalshadow (1:24)",
+        "data": {
+          "timeout": 103.0,
+          "duration": 83.0,
+          "cooldown": 1.0,
+          "isDemoMode": true
+        }
+      }
+    ]
+  }
+}

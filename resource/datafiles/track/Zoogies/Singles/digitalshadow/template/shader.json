@@ -2,10 +2,1012 @@
   "model":"Collection<io.alkapivo.core.service.shader.ShaderTemplate>",
   "version":"1",
   "data":{
-    "70s Melt 02":{
+    "Sketch 02":{
+      "shader":"shader_sketch",
+      "properties":null,
+      "name":"Sketch 02",
+      "inherit":null
+    },
+    "Sketch 03":{
+      "shader":"shader_sketch",
+      "properties":null,
+      "name":"Sketch 03",
+      "inherit":null
+    },
+    "Emboss 02":{
+      "shader":"shader_emboss",
+      "properties":null,
+      "name":"Emboss 02",
+      "inherit":null
+    },
+    "Emboss 03":{
+      "shader":"shader_emboss",
+      "properties":null,
+      "name":"Emboss 03",
+      "inherit":null
+    },
+    "flame 01":{
+      "shader":"shader_flame",
+      "properties":null,
+      "name":"flame 01",
+      "inherit":null
+    },
+    "Ripple 01":{
+      "shader":"shader_ripple",
+      "properties":null,
+      "name":"Ripple 01",
+      "inherit":null
+    },
+    "Ripple 02":{
+      "shader":"shader_ripple",
+      "properties":null,
+      "name":"Ripple 02",
+      "inherit":null
+    },
+    "Ripple 04":{
+      "shader":"shader_ripple",
+      "properties":null,
+      "name":"Ripple 04",
+      "inherit":null
+    },
+    "Ripple 05":{
+      "shader":"shader_ripple",
+      "properties":null,
+      "name":"Ripple 05",
+      "inherit":null
+    },
+    "Abberation":{
+      "shader":"shader_abberation",
+      "properties":null,
+      "name":"Abberation",
+      "inherit":null
+    },
+    "Scanlines 01":{
+      "shader":"shader_scanlines",
+      "properties":null,
+      "name":"Scanlines 01",
+      "inherit":null
+    },
+    "Scanlines 02":{
+      "shader":"shader_scanlines",
+      "properties":null,
+      "name":"Scanlines 02",
+      "inherit":null
+    },
+    "Scanlines 03":{
+      "shader":"shader_scanlines",
+      "properties":null,
+      "name":"Scanlines 03",
+      "inherit":null
+    },
+    "Emboss 01":{
+      "shader":"shader_emboss",
+      "properties":null,
+      "name":"Emboss 01",
+      "inherit":null
+    },
+    "Thermal":{
+      "shader":"shader_thermal",
+      "properties":null,
+      "name":"Thermal",
+      "inherit":null
+    },
+    "ui noise halo 01":{
+      "shader":"shader_ui_noise_halo",
+      "properties":null,
+      "name":"ui noise halo 01",
+      "inherit":null
+    },
+    "shader-default":{
+      "shader":"shader_revert",
+      "properties":null,
+      "name":"shader-default",
+      "inherit":null
+    },
+    "Posterization 03":{
+      "shader":"shader_posterization",
+      "properties":{
+        "colorNumber_hide":true,
+        "gamma":{
+          "duration":28.333333333333332,
+          "target":2.0,
+          "ease":"LINEAR",
+          "value":0.29999999999999999
+        },
+        "gamma_hide":true,
+        "colorNumber":{
+          "duration":0.0,
+          "target":9.0,
+          "ease":"LINEAR",
+          "value":7.0
+        }
+      },
+      "name":"Posterization 03",
+      "inherit":null
+    },
+    "LED 05":{
+      "shader":"shader_led",
+      "properties":{
+        "ledSize":{
+          "duration":12.929292929292929,
+          "target":512.0,
+          "ease":"LINEAR",
+          "value":1024.0
+        },
+        "resolution":{
+          "value":{
+            "x":2560.0,
+            "y":1440.0
+          }
+        },
+        "ledSize_hide":true,
+        "brightness_hide":true,
+        "brightness":{
+          "duration":0.0,
+          "target":1.0,
+          "ease":"LINEAR",
+          "value":1.0
+        }
+      },
+      "name":"LED 05",
+      "inherit":null
+    },
+    "HUE 01":{
+      "shader":"shader_hue",
+      "properties":{
+        "colorShift":{
+          "duration":10416.666666666666,
+          "target":10000.0,
+          "ease":"LINEAR",
+          "value":0.0
+        },
+        "colorShift_hide":true
+      },
+      "name":"HUE 01",
+      "inherit":null
+    },
+    "HUE 02":{
+      "shader":"shader_hue",
+      "properties":{
+        "colorShift":{
+          "duration":232.28333333333333,
+          "target":10000.0,
+          "ease":"IN_QUAD",
+          "value":66.0
+        },
+        "colorShift_hide":true
+      },
+      "name":"HUE 02",
+      "inherit":null
+    },
+    "warp speed 2 01":{
+      "shader":"shader_warp_speed_2",
+      "properties":{
+        "iSeed":{
+          "x":{
+            "duration":8.3333333333333339,
+            "target":0.29999999999999999,
+            "ease":"LINEAR",
+            "value":0.80000000000000004
+          },
+          "y":{
+            "duration":6.6666666666666661,
+            "target":0.29999999999999999,
+            "ease":"LINEAR",
+            "value":0.10000000000000001
+          },
+          "z":{
+            "duration":0.066666666666666666,
+            "target":0.0050000000000000001,
+            "ease":"LINEAR",
+            "value":0.001
+          }
+        },
+        "iSize":{
+          "x":{
+            "duration":1.6666666666666667,
+            "target":2.5,
+            "ease":"LINEAR",
+            "value":0.5
+          },
+          "y":{
+            "duration":2.3333333333333335,
+            "target":1.5,
+            "ease":"LINEAR",
+            "value":0.10000000000000001
+          }
+        },
+        "iTime":{
+          "duration":1030.2083333333333,
+          "target":999.0,
+          "ease":"LINEAR",
+          "value":10.0
+        },
+        "iFactor":{
+          "duration":83.333333333333329,
+          "target":2.0,
+          "ease":"LINEAR",
+          "value":1.5
+        },
+        "iFactor_hide":true,
+        "iResolution_hide":true,
+        "iIterations":{
+          "duration":0.0,
+          "target":10.0,
+          "ease":"LINEAR",
+          "value":10.0
+        },
+        "iTime_hide":true,
+        "iIterations_hide":true,
+        "iSeed_hide":true,
+        "iSize_hide":true,
+        "iResolution":{
+          "x":{
+            "duration":83.333333333333329,
+            "target":0.5,
+            "ease":"LINEAR",
+            "value":1.0
+          },
+          "y":{
+            "duration":83.333333333333329,
+            "target":0.5,
+            "ease":"LINEAR",
+            "value":1.0
+          }
+        }
+      },
+      "name":"warp speed 2 01",
+      "inherit":null
+    },
+    "HUE 03":{
+      "shader":"shader_hue",
+      "properties":{
+        "colorShift":{
+          "duration":1666.5,
+          "target":9999.0,
+          "ease":"LINEAR",
+          "value":0.0
+        },
+        "colorShift_hide":true
+      },
+      "name":"HUE 03",
+      "inherit":null
+    },
+    "HUE 04":{
+      "shader":"shader_hue",
+      "properties":{
+        "colorShift":{
+          "duration":505.0,
+          "target":9999.0,
+          "ease":"LINEAR",
+          "value":0.0
+        },
+        "colorShift_hide":true
+      },
+      "name":"HUE 04",
+      "inherit":null
+    },
+    "HUE 05":{
+      "shader":"shader_hue",
+      "properties":{
+        "colorShift":{
+          "duration":252.52525252525251,
+          "target":10000.0,
+          "ease":"LINEAR",
+          "value":0.0
+        },
+        "colorShift_hide":true
+      },
+      "name":"HUE 05",
+      "inherit":null
+    },
+    "Octagrams 06":{
+      "shader":"shader_octagrams",
+      "properties":{
+        "iDepth":{
+          "duration":0.0,
+          "target":0.10000000000000001,
+          "ease":"LINEAR",
+          "value":0.10000000000000001
+        },
+        "iTime":{
+          "duration":2066.4583333333335,
+          "target":999.89999999999998,
+          "ease":"LINEAR",
+          "value":8.0
+        },
+        "iFactor":{
+          "duration":0.0,
+          "target":1.5,
+          "ease":"LINEAR",
+          "value":1.5
+        },
+        "iTint":{
+          "x":{
+            "duration":2.2000000000000002,
+            "target":0.66000000000000003,
+            "ease":"LINEAR",
+            "value":0.0
+          },
+          "y":{
+            "duration":1.0416666666666667,
+            "target":0.29999999999999999,
+            "ease":"LINEAR",
+            "value":0.80000000000000004
+          },
+          "z":{
+            "duration":2.7777777777777777,
+            "target":0.5,
+            "ease":"LINEAR",
+            "value":1.0
+          }
+        },
+        "iHeight":{
+          "duration":0.0,
+          "target":0.40000000000000002,
+          "ease":"LINEAR",
+          "value":0.40000000000000002
+        },
+        "iFactor_hide":true,
+        "iResolution_hide":true,
+        "iWidth":{
+          "duration":0.0,
+          "target":0.40000000000000002,
+          "ease":"LINEAR",
+          "value":0.40000000000000002
+        },
+        "iIterations":{
+          "duration":33.333333333333336,
+          "target":10.0,
+          "ease":"LINEAR",
+          "value":6.0
+        },
+        "iTime_hide":true,
+        "iIterations_hide":true,
+        "iResolution":{
+          "x":{
+            "duration":25.0,
+            "target":2.0,
+            "ease":"LINEAR",
+            "value":-1.0
+          },
+          "y":{
+            "duration":6.25,
+            "target":1.0,
+            "ease":"LINEAR",
+            "value":4.0
+          }
+        },
+        "iTint_hide":true,
+        "iHeight_hide":true,
+        "iWidth_hide":true,
+        "iDepth_hide":true
+      },
+      "name":"Octagrams 06",
+      "inherit":null
+    },
+    "Octagrams 01":{
+      "shader":"shader_octagrams",
+      "properties":{
+        "iDepth":{
+          "duration":100.0,
+          "target":0.59999999999999998,
+          "ease":"LINEAR",
+          "value":0.0
+        },
+        "iTime":{
+          "duration":500.0,
+          "target":10000.0,
+          "ease":"IN_QUAD",
+          "value":0.0
+        },
+        "iFactor":{
+          "duration":20.833333329999999,
+          "target":0.5,
+          "ease":"LINEAR",
+          "value":3.0
+        },
+        "iTint":{
+          "x":{
+            "duration":6.6666666699999997,
+            "target":0.10000000000000001,
+            "ease":"LINEAR",
+            "value":0.5
+          },
+          "y":{
+            "duration":3.3333333299999999,
+            "target":1.0,
+            "ease":"LINEAR",
+            "value":0.0
+          },
+          "z":{
+            "duration":4.1666666699999997,
+            "target":1.0,
+            "ease":"LINEAR",
+            "value":0.5
+          }
+        },
+        "iHeight":{
+          "duration":6.6666666699999997,
+          "target":0.5,
+          "ease":"LINEAR",
+          "value":0.10000000000000001
+        },
+        "iFactor_hide":true,
+        "iResolution_hide":true,
+        "iWidth":{
+          "duration":6.6666666699999997,
+          "target":0.5,
+          "ease":"LINEAR",
+          "value":0.10000000000000001
+        },
+        "iIterations":{
+          "duration":266.66666666999998,
+          "target":20.0,
+          "ease":"LINEAR",
+          "value":4.0
+        },
+        "iTime_hide":false,
+        "iIterations_hide":true,
+        "iResolution":{
+          "x":{
+            "duration":16.666666670000001,
+            "target":1.5,
+            "ease":"LINEAR",
+            "value":0.5
+          },
+          "y":{
+            "duration":25.0,
+            "target":0.5,
+            "ease":"LINEAR",
+            "value":2.0
+          }
+        },
+        "iTint_hide":true,
+        "iHeight_hide":true,
+        "iWidth_hide":true,
+        "iDepth_hide":true
+      },
+      "name":"Octagrams 01",
+      "inherit":null
+    },
+    "Octagrams 02":{
+      "shader":"shader_octagrams",
+      "properties":{
+        "iDepth":{
+          "duration":0.0,
+          "target":0.10000000000000001,
+          "ease":"LINEAR",
+          "value":0.10000000000000001
+        },
+        "iTime":{
+          "duration":10282.291666666666,
+          "target":9999.0,
+          "ease":"LINEAR",
+          "value":128.0
+        },
+        "iFactor":{
+          "duration":0.0,
+          "target":1.5,
+          "ease":"LINEAR",
+          "value":1.5
+        },
+        "iTint":{
+          "x":{
+            "duration":0.0,
+            "target":1.0,
+            "ease":"LINEAR",
+            "value":1.0
+          },
+          "y":{
+            "duration":0.0,
+            "target":1.0,
+            "ease":"LINEAR",
+            "value":1.0
+          },
+          "z":{
+            "duration":0.0,
+            "target":1.0,
+            "ease":"LINEAR",
+            "value":1.0
+          }
+        },
+        "iHeight":{
+          "duration":0.0,
+          "target":0.40000000000000002,
+          "ease":"LINEAR",
+          "value":0.40000000000000002
+        },
+        "iFactor_hide":true,
+        "iResolution_hide":true,
+        "iWidth":{
+          "duration":0.0,
+          "target":0.40000000000000002,
+          "ease":"LINEAR",
+          "value":0.40000000000000002
+        },
+        "iIterations":{
+          "duration":50.0,
+          "target":3.0,
+          "ease":"LINEAR",
+          "value":6.0
+        },
+        "iTime_hide":true,
+        "iIterations_hide":true,
+        "iResolution":{
+          "x":{
+            "duration":14.166666666666666,
+            "target":5.0,
+            "ease":"LINEAR",
+            "value":0.75
+          },
+          "y":{
+            "duration":23.333333333333329,
+            "target":1.3999999999999999,
+            "ease":"LINEAR",
+            "value":0.0
+          }
+        },
+        "iTint_hide":true,
+        "iHeight_hide":true,
+        "iWidth_hide":true,
+        "iDepth_hide":true
+      },
+      "name":"Octagrams 02",
+      "inherit":null
+    },
+    "Octagrams 03":{
+      "shader":"shader_octagrams",
+      "properties":{
+        "iDepth":{
+          "duration":24.166666666666664,
+          "target":0.29999999999999999,
+          "ease":"LINEAR",
+          "value":0.01
+        },
+        "iTime":{
+          "duration":10346.875,
+          "target":9999.0,
+          "ease":"LINEAR",
+          "value":66.0
+        },
+        "iFactor":{
+          "duration":25.0,
+          "target":3.0,
+          "ease":"LINEAR",
+          "value":1.5
+        },
+        "iTint":{
+          "x":{
+            "duration":0.013333333333333334,
+            "target":0.80000000000000004,
+            "ease":"LINEAR",
+            "value":0.0
+          },
+          "y":{
+            "duration":0.010000000000000002,
+            "target":0.29999999999999999,
+            "ease":"LINEAR",
+            "value":0.90000000000000002
+          },
+          "z":{
+            "duration":0.013500000000000002,
+            "target":0.91000000000000003,
+            "ease":"LINEAR",
+            "value":0.10000000000000001
+          }
+        },
+        "iHeight":{
+          "duration":6.666666666666667,
+          "target":0.20000000000000001,
+          "ease":"LINEAR",
+          "value":0.40000000000000002
+        },
+        "iFactor_hide":true,
+        "iResolution_hide":true,
+        "iWidth":{
+          "duration":6.666666666666667,
+          "target":0.20000000000000001,
+          "ease":"LINEAR",
+          "value":0.40000000000000002
+        },
+        "iIterations":{
+          "duration":283.33333333333331,
+          "target":20.0,
+          "ease":"LINEAR",
+          "value":3.0
+        },
+        "iTime_hide":true,
+        "iIterations_hide":true,
+        "iResolution":{
+          "x":{
+            "duration":10.0,
+            "target":1.0,
+            "ease":"LINEAR",
+            "value":4.0
+          },
+          "y":{
+            "duration":33.333333333333336,
+            "target":0.0,
+            "ease":"LINEAR",
+            "value":2.0
+          }
+        },
+        "iTint_hide":true,
+        "iHeight_hide":true,
+        "iWidth_hide":true,
+        "iDepth_hide":true
+      },
+      "name":"Octagrams 03",
+      "inherit":null
+    },
+    "Octagrams 04":{
+      "shader":"shader_octagrams",
+      "properties":{
+        "iDepth":{
+          "duration":33.333333333333329,
+          "target":0.29999999999999999,
+          "ease":"LINEAR",
+          "value":0.10000000000000001
+        },
+        "iTime":{
+          "duration":58.533333333333331,
+          "target":999.89999999999998,
+          "ease":"IN_QUAD",
+          "value":5.0
+        },
+        "iFactor":{
+          "duration":111.66666666666666,
+          "target":2.0,
+          "ease":"LINEAR",
+          "value":1.3300000000000001
+        },
+        "iTint":{
+          "x":{
+            "duration":4.166666666666667,
+            "target":1.0,
+            "ease":"LINEAR",
+            "value":0.5
+          },
+          "y":{
+            "duration":8.3333333333333339,
+            "target":1.0,
+            "ease":"LINEAR",
+            "value":0.0
+          },
+          "z":{
+            "duration":6.666666666666667,
+            "target":0.20000000000000001,
+            "ease":"LINEAR",
+            "value":1.0
+          }
+        },
+        "iHeight":{
+          "duration":0.33333333333333326,
+          "target":0.59999999999999998,
+          "ease":"LINEAR",
+          "value":0.40000000000000002
+        },
+        "iFactor_hide":true,
+        "iResolution_hide":true,
+        "iWidth":{
+          "duration":0.33333333333333326,
+          "target":0.59999999999999998,
+          "ease":"LINEAR",
+          "value":0.40000000000000002
+        },
+        "iIterations":{
+          "duration":50.0,
+          "target":3.0,
+          "ease":"LINEAR",
+          "value":6.0
+        },
+        "iTime_hide":true,
+        "iIterations_hide":true,
+        "iResolution":{
+          "x":{
+            "duration":16.666666666666668,
+            "target":0.0,
+            "ease":"LINEAR",
+            "value":1.0
+          },
+          "y":{
+            "duration":16.666666666666668,
+            "target":0.0,
+            "ease":"LINEAR",
+            "value":1.0
+          }
+        },
+        "iTint_hide":true,
+        "iHeight_hide":true,
+        "iWidth_hide":true,
+        "iDepth_hide":true
+      },
+      "name":"Octagrams 04",
+      "inherit":null
+    },
+    "Octagrams 05":{
+      "shader":"shader_octagrams",
+      "properties":{
+        "iDepth":{
+          "duration":0.0,
+          "target":0.10000000000000001,
+          "ease":"LINEAR",
+          "value":0.10000000000000001
+        },
+        "iTime":{
+          "duration":1899.7916666666667,
+          "target":999.89999999999998,
+          "ease":"LINEAR",
+          "value":88.0
+        },
+        "iFactor":{
+          "duration":0.0,
+          "target":1.5,
+          "ease":"LINEAR",
+          "value":1.5
+        },
+        "iTint":{
+          "x":{
+            "duration":0.66666666666666652,
+            "target":0.80000000000000004,
+            "ease":"LINEAR",
+            "value":1.0
+          },
+          "y":{
+            "duration":2.0833333333333335,
+            "target":1.0,
+            "ease":"LINEAR",
+            "value":0.0
+          },
+          "z":{
+            "duration":0.0,
+            "target":1.0,
+            "ease":"LINEAR",
+            "value":1.0
+          }
+        },
+        "iHeight":{
+          "duration":0.0,
+          "target":0.40000000000000002,
+          "ease":"LINEAR",
+          "value":0.40000000000000002
+        },
+        "iFactor_hide":true,
+        "iResolution_hide":true,
+        "iWidth":{
+          "duration":0.0,
+          "target":0.40000000000000002,
+          "ease":"LINEAR",
+          "value":0.40000000000000002
+        },
+        "iIterations":{
+          "duration":66.666666666666671,
+          "target":8.0,
+          "ease":"LINEAR",
+          "value":4.0
+        },
+        "iTime_hide":true,
+        "iIterations_hide":true,
+        "iResolution":{
+          "x":{
+            "duration":10.25,
+            "target":-3.0,
+            "ease":"IN_QUAD",
+            "value":2.0
+          },
+          "y":{
+            "duration":7.5,
+            "target":0.75,
+            "ease":"LINEAR",
+            "value":3.0
+          }
+        },
+        "iTint_hide":true,
+        "iHeight_hide":true,
+        "iWidth_hide":true,
+        "iDepth_hide":true
+      },
+      "name":"Octagrams 05",
+      "inherit":null
+    },
+    "Revert":{
+      "shader":"shader_revert",
+      "properties":null,
+      "name":"Revert",
+      "inherit":null
+    },
+    "CRT 02":{
+      "shader":"shader_crt",
+      "properties":{
+        "uni_crt_sizes":{
+          "x":{
+            "duration":0.0,
+            "target":256.0,
+            "ease":"LINEAR",
+            "value":256.0
+          },
+          "y":{
+            "duration":42.666666666666664,
+            "target":512.0,
+            "ease":"LINEAR",
+            "value":256.0
+          },
+          "z":{
+            "duration":0.0,
+            "target":1024.0,
+            "ease":"LINEAR",
+            "value":1024.0
+          },
+          "a":{
+            "duration":0.0,
+            "target":1024.0,
+            "ease":"LINEAR",
+            "value":1024.0
+          }
+        },
+        "uni_radial_distortion_amount_hide":true,
+        "uni_noise_strength":{
+          "duration":16.666666666666668,
+          "target":0.10000000000000001,
+          "ease":"LINEAR",
+          "value":0.20000000000000001
+        },
+        "uni_timer_hide":true,
+        "uni_radial_distortion_amount":{
+          "duration":14.791666666666664,
+          "target":1.5,
+          "ease":"LINEAR",
+          "value":0.080000000000000002
+        },
+        "uni_use_RGB_separation_hide":true,
+        "uni_timer":{
+          "duration":1041.6666666666667,
+          "target":1000.0,
+          "ease":"LINEAR",
+          "value":0.0
+        },
+        "uni_use_border_hide":true,
+        "uni_use_border":{
+          "duration":0.0,
+          "target":1.0,
+          "ease":"LINEAR",
+          "value":1.0
+        },
+        "uni_use_noise_hide":true,
+        "uni_use_noise":{
+          "duration":0.0,
+          "target":1.0,
+          "ease":"LINEAR",
+          "value":1.0
+        },
+        "uni_use_radial_distortion_hide":true,
+        "uni_use_radial_distortion":{
+          "duration":0.0,
+          "target":1.0,
+          "ease":"LINEAR",
+          "value":1.0
+        },
+        "uni_use_scanlines_hide":true,
+        "uni_use_RGB_separation":{
+          "duration":0.016666666666666666,
+          "target":0.0,
+          "ease":"LINEAR",
+          "value":1.0
+        },
+        "uni_border_corner_size_hide":true,
+        "uni_use_scanlines":{
+          "duration":0.0,
+          "target":0.0,
+          "ease":"LINEAR",
+          "value":0.0
+        },
+        "uni_border_corner_smoothness_hide":true,
+        "uni_brightness_hide":true,
+        "uni_crt_sizes_hide":true,
+        "uni_noise_strength_hide":true,
+        "uni_border_corner_size":{
+          "duration":110.0,
+          "target":0.66000000000000003,
+          "ease":"LINEAR",
+          "value":0.0
+        },
+        "uni_border_corner_smoothness":{
+          "duration":20.0,
+          "target":200.0,
+          "ease":"LINEAR",
+          "value":80.0
+        },
+        "uni_brightness":{
+          "duration":0.0,
+          "target":1.0,
+          "ease":"LINEAR",
+          "value":1.0
+        }
+      },
+      "name":"CRT 02",
+      "inherit":null
+    },
+    "Phantom Star 01":{
+      "shader":"shader_phantom_star",
+      "properties":{
+        "sizeA_hide":true,
+        "sizeB_hide":true,
+        "iTime":{
+          "duration":1041.5625,
+          "target":999.89999999999998,
+          "ease":"LINEAR",
+          "value":0.0
+        },
+        "iTint":{
+          "x":{
+            "duration":6.583333333333333,
+            "target":0.89000000000000001,
+            "ease":"LINEAR",
+            "value":0.10000000000000001
+          },
+          "y":{
+            "duration":5.0000000000000009,
+            "target":0.10000000000000001,
+            "ease":"LINEAR",
+            "value":0.40000000000000002
+          },
+          "z":{
+            "duration":2.6666666666666665,
+            "target":0.10000000000000001,
+            "ease":"LINEAR",
+            "value":0.90000000000000002
+          }
+        },
+        "sizeA":{
+          "duration":5.333333333333333,
+          "target":32.0,
+          "ease":"LINEAR",
+          "value":16.0
+        },
+        "iResolution_hide":true,
+        "sizeB":{
+          "duration":6.666666666666667,
+          "target":2.0,
+          "ease":"LINEAR",
+          "value":10.0
+        },
+        "iTime_hide":true,
+        "iIterations":{
+          "duration":0.0,
+          "target":2.0,
+          "ease":"LINEAR",
+          "value":2.0
+        },
+        "iIterations_hide":true,
+        "iResolution":{
+          "x":{
+            "duration":16.666666666666668,
+            "target":2.0,
+            "ease":"LINEAR",
+            "value":1.0
+          },
+          "y":{
+            "duration":16.666666666666668,
+            "target":1.0,
+            "ease":"LINEAR",
+            "value":0.0
+          }
+        },
+        "iTint_hide":true
+      },
+      "name":"Phantom Star 01",
+      "inherit":null
+    },
+    "70s Melt 03":{
       "shader":"shader_70s_melt",
       "properties":{
-        "iFactor_hide":true,
+        "iFactor":{
+          "duration":0.0,
+          "target":0.0,
+          "ease":"LINEAR",
+          "value":0.0
+        },
         "iTint":{
           "x":{
             "duration":0.0,
@@ -26,12 +1028,7 @@
             "value":0.0
           }
         },
-        "iFactor":{
-          "duration":0.0,
-          "target":0.0,
-          "ease":"LINEAR",
-          "value":0.0
-        },
+        "iFactor_hide":true,
         "iResolution_hide":true,
         "iTime_hide":true,
         "iMix":{
@@ -40,7 +1037,811 @@
           "ease":"LINEAR",
           "value":0.0
         },
+        "iMix_hide":true,
+        "iResolution":{
+          "x":{
+            "duration":33.333333333333336,
+            "target":-1.0,
+            "ease":"LINEAR",
+            "value":-3.0
+          },
+          "y":{
+            "duration":25.0,
+            "target":-0.5,
+            "ease":"LINEAR",
+            "value":-2.0
+          }
+        },
         "iTint_hide":true,
+        "iTime":{
+          "duration":1040.625,
+          "target":0.0,
+          "ease":"LINEAR",
+          "value":999.0
+        }
+      },
+      "name":"70s Melt 03",
+      "inherit":null
+    },
+    "70s Melt 04":{
+      "shader":"shader_70s_melt",
+      "properties":{
+        "iFactor":{
+          "duration":51.899999999999999,
+          "target":100.0,
+          "ease":"IN_QUAD",
+          "value":0.0
+        },
+        "iTint":{
+          "x":{
+            "duration":0.0,
+            "target":0.0,
+            "ease":"IN_OUT_QUINT",
+            "value":0.0
+          },
+          "y":{
+            "duration":0.0,
+            "target":0.0,
+            "ease":"IN_OUT_QUINT",
+            "value":0.0
+          },
+          "z":{
+            "duration":0.0,
+            "target":0.0,
+            "ease":"IN_OUT_QUINT",
+            "value":0.0
+          }
+        },
+        "iFactor_hide":true,
+        "iResolution_hide":true,
+        "iTime_hide":true,
+        "iMix":{
+          "duration":0.0,
+          "target":0.0,
+          "ease":"LINEAR",
+          "value":0.0
+        },
+        "iMix_hide":true,
+        "iResolution":{
+          "x":{
+            "duration":14.833333333333334,
+            "target":-10.0,
+            "ease":"IN_QUAD",
+            "value":-2.0
+          },
+          "y":{
+            "duration":1333.3333333333333,
+            "target":-2.0,
+            "ease":"LINEAR",
+            "value":-10.0
+          }
+        },
+        "iTint_hide":true,
+        "iTime":{
+          "duration":65516.666666666664,
+          "target":9999.0,
+          "ease":"LINEAR",
+          "value":2137.0
+        }
+      },
+      "name":"70s Melt 04",
+      "inherit":null
+    },
+    "70s Melt 05":{
+      "shader":"shader_70s_melt",
+      "properties":{
+        "iFactor":{
+          "duration":0.0,
+          "target":0.0,
+          "ease":"LINEAR",
+          "value":0.0
+        },
+        "iTint":{
+          "x":{
+            "duration":0.0,
+            "target":0.0,
+            "ease":"IN_OUT_QUINT",
+            "value":0.0
+          },
+          "y":{
+            "duration":0.0,
+            "target":0.0,
+            "ease":"IN_OUT_QUINT",
+            "value":0.0
+          },
+          "z":{
+            "duration":0.0,
+            "target":0.0,
+            "ease":"IN_OUT_QUINT",
+            "value":0.0
+          }
+        },
+        "iFactor_hide":true,
+        "iResolution_hide":true,
+        "iTime_hide":true,
+        "iMix":{
+          "duration":0.0,
+          "target":0.0,
+          "ease":"LINEAR",
+          "value":0.0
+        },
+        "iMix_hide":true,
+        "iResolution":{
+          "x":{
+            "duration":48.611111111111114,
+            "target":-2.0,
+            "ease":"LINEAR",
+            "value":-5.5
+          },
+          "y":{
+            "duration":51.3888888888889,
+            "target":-6.0,
+            "ease":"LINEAR",
+            "value":-2.2999999999999998
+          }
+        },
+        "iTint_hide":true,
+        "iTime":{
+          "duration":5570.833333333333,
+          "target":0.0,
+          "ease":"LINEAR",
+          "value":1337.0
+        }
+      },
+      "name":"70s Melt 05",
+      "inherit":null
+    },
+    "ART 02":{
+      "shader":"shader_art",
+      "properties":{
+        "iResolution_hide":true,
+        "iTime_hide":true,
+        "iIterations":{
+          "duration":0.0,
+          "target":8.0,
+          "ease":"LINEAR",
+          "value":8.0
+        },
+        "iIterations_hide":true,
+        "iResolution":{
+          "x":{
+            "duration":0.0,
+            "target":1.0,
+            "ease":"LINEAR",
+            "value":1.0
+          },
+          "y":{
+            "duration":12.916666666666666,
+            "target":16.0,
+            "ease":"IN_QUAD",
+            "value":0.25
+          }
+        },
+        "iTime":{
+          "duration":9165.625,
+          "target":9999.0,
+          "ease":"LINEAR",
+          "value":1200.0
+        }
+      },
+      "name":"ART 02",
+      "inherit":null
+    },
+    "Sincos 3D 01":{
+      "shader":"shader_sincos_3d",
+      "properties":{
+        "iTime":{
+          "duration":3330.0,
+          "target":999.0,
+          "ease":"LINEAR",
+          "value":0.0
+        },
+        "pointRadius":{
+          "duration":33.333333333333336,
+          "target":0.40000000000000002,
+          "ease":"LINEAR",
+          "value":0.20000000000000001
+        },
+        "lineThickness_hide":true,
+        "lineThickness":{
+          "duration":33.333333333333329,
+          "target":0.29999999999999999,
+          "ease":"LINEAR",
+          "value":0.10000000000000001
+        },
+        "pointRadius_hide":true,
+        "iResolution_hide":true,
+        "iTime_hide":true,
+        "iMouse":{
+          "x":{
+            "duration":166.66666666666666,
+            "target":1.0,
+            "ease":"LINEAR",
+            "value":0.0
+          },
+          "y":{
+            "duration":166.66666666666666,
+            "target":0.0,
+            "ease":"LINEAR",
+            "value":1.0
+          },
+          "z":{
+            "duration":0.0,
+            "target":1.0,
+            "ease":"LINEAR",
+            "value":1.0
+          },
+          "a":{
+            "duration":0.0,
+            "target":1.0,
+            "ease":"LINEAR",
+            "value":1.0
+          }
+        },
+        "iResolution":{
+          "x":{
+            "duration":66.666666666666671,
+            "target":0.0,
+            "ease":"LINEAR",
+            "value":2.0
+          },
+          "y":{
+            "duration":33.333333333333336,
+            "target":2.0,
+            "ease":"LINEAR",
+            "value":1.0
+          },
+          "z":{
+            "duration":0.0,
+            "target":1.0,
+            "ease":"LINEAR",
+            "value":1.0
+          }
+        },
+        "iMouse_hide":true
+      },
+      "name":"Sincos 3D 01",
+      "inherit":null
+    },
+    "CRT 03":{
+      "shader":"shader_crt",
+      "properties":{
+        "uni_crt_sizes":{
+          "x":{
+            "duration":0.0,
+            "target":256.0,
+            "ease":"LINEAR",
+            "value":256.0
+          },
+          "y":{
+            "duration":42.666666666666664,
+            "target":512.0,
+            "ease":"LINEAR",
+            "value":256.0
+          },
+          "z":{
+            "duration":0.0,
+            "target":1024.0,
+            "ease":"LINEAR",
+            "value":1024.0
+          },
+          "a":{
+            "duration":0.0,
+            "target":1024.0,
+            "ease":"LINEAR",
+            "value":1024.0
+          }
+        },
+        "uni_radial_distortion_amount_hide":true,
+        "uni_noise_strength":{
+          "duration":16.666666666666668,
+          "target":0.10000000000000001,
+          "ease":"LINEAR",
+          "value":0.20000000000000001
+        },
+        "uni_timer_hide":true,
+        "uni_radial_distortion_amount":{
+          "duration":14.791666666666664,
+          "target":1.5,
+          "ease":"LINEAR",
+          "value":0.080000000000000002
+        },
+        "uni_use_RGB_separation_hide":true,
+        "uni_timer":{
+          "duration":1041.6666666666667,
+          "target":1000.0,
+          "ease":"LINEAR",
+          "value":0.0
+        },
+        "uni_use_border_hide":true,
+        "uni_use_border":{
+          "duration":0.0,
+          "target":1.0,
+          "ease":"LINEAR",
+          "value":1.0
+        },
+        "uni_use_noise_hide":true,
+        "uni_use_noise":{
+          "duration":0.0,
+          "target":1.0,
+          "ease":"LINEAR",
+          "value":1.0
+        },
+        "uni_use_radial_distortion_hide":true,
+        "uni_use_radial_distortion":{
+          "duration":0.0,
+          "target":1.0,
+          "ease":"LINEAR",
+          "value":1.0
+        },
+        "uni_use_scanlines_hide":true,
+        "uni_use_RGB_separation":{
+          "duration":0.016666666666666666,
+          "target":0.0,
+          "ease":"LINEAR",
+          "value":1.0
+        },
+        "uni_border_corner_size_hide":true,
+        "uni_use_scanlines":{
+          "duration":0.0,
+          "target":0.0,
+          "ease":"LINEAR",
+          "value":0.0
+        },
+        "uni_border_corner_smoothness_hide":true,
+        "uni_brightness_hide":true,
+        "uni_crt_sizes_hide":true,
+        "uni_noise_strength_hide":true,
+        "uni_border_corner_size":{
+          "duration":110.0,
+          "target":0.66000000000000003,
+          "ease":"LINEAR",
+          "value":0.0
+        },
+        "uni_border_corner_smoothness":{
+          "duration":20.0,
+          "target":200.0,
+          "ease":"LINEAR",
+          "value":80.0
+        },
+        "uni_brightness":{
+          "duration":0.0,
+          "target":1.0,
+          "ease":"LINEAR",
+          "value":1.0
+        }
+      },
+      "name":"CRT 03",
+      "inherit":null
+    },
+    "Phantom Star 06":{
+      "shader":"shader_phantom_star",
+      "properties":{
+        "sizeA_hide":true,
+        "sizeB_hide":true,
+        "iTime":{
+          "duration":12915.277777777777,
+          "target":9999.0,
+          "ease":"LINEAR",
+          "value":700.0
+        },
+        "iTint":{
+          "x":{
+            "duration":3.1666666666666665,
+            "target":0.01,
+            "ease":"LINEAR",
+            "value":0.20000000000000001
+          },
+          "y":{
+            "duration":6.6666666666666661,
+            "target":0.69999999999999996,
+            "ease":"LINEAR",
+            "value":0.29999999999999999
+          },
+          "z":{
+            "duration":1.6666666666666665,
+            "target":0.14999999999999999,
+            "ease":"LINEAR",
+            "value":0.050000000000000003
+          }
+        },
+        "sizeA":{
+          "duration":0.0,
+          "target":30.0,
+          "ease":"LINEAR",
+          "value":30.0
+        },
+        "iResolution_hide":true,
+        "sizeB":{
+          "duration":333.33333333333331,
+          "target":1.0,
+          "ease":"LINEAR",
+          "value":5.0
+        },
+        "iTime_hide":true,
+        "iIterations":{
+          "duration":133.33333333333334,
+          "target":5.0,
+          "ease":"LINEAR",
+          "value":1.0
+        },
+        "iIterations_hide":true,
+        "iResolution":{
+          "x":{
+            "duration":0.0,
+            "target":1.0,
+            "ease":"LINEAR",
+            "value":1.0
+          },
+          "y":{
+            "duration":0.0,
+            "target":1.0,
+            "ease":"LINEAR",
+            "value":1.0
+          }
+        },
+        "iTint_hide":true
+      },
+      "name":"Phantom Star 06",
+      "inherit":null
+    },
+    "ART 03":{
+      "shader":"shader_art",
+      "properties":{
+        "iResolution_hide":true,
+        "iTime_hide":true,
+        "iIterations":{
+          "duration":0.0,
+          "target":6.0,
+          "ease":"LINEAR",
+          "value":6.0
+        },
+        "iIterations_hide":true,
+        "iResolution":{
+          "x":{
+            "duration":66.666666666666671,
+            "target":-2.0,
+            "ease":"LINEAR",
+            "value":2.0
+          },
+          "y":{
+            "duration":0.0,
+            "target":1.0,
+            "ease":"LINEAR",
+            "value":1.0
+          }
+        },
+        "iTime":{
+          "duration":32590.0,
+          "target":9999.0,
+          "ease":"LINEAR",
+          "value":222.0
+        }
+      },
+      "name":"ART 03",
+      "inherit":null
+    },
+    "ART 04":{
+      "shader":"shader_art",
+      "properties":{
+        "iResolution_hide":true,
+        "iTime_hide":true,
+        "iIterations":{
+          "duration":400.0,
+          "target":8.0,
+          "ease":"LINEAR",
+          "value":32.0
+        },
+        "iIterations_hide":true,
+        "iResolution":{
+          "x":{
+            "duration":0.0,
+            "target":1.0,
+            "ease":"LINEAR",
+            "value":1.0
+          },
+          "y":{
+            "duration":0.0,
+            "target":1.0,
+            "ease":"LINEAR",
+            "value":1.0
+          }
+        },
+        "iTime":{
+          "duration":742.77777777777783,
+          "target":0.0,
+          "ease":"LINEAR",
+          "value":1337.0
+        }
+      },
+      "name":"ART 04",
+      "inherit":null
+    },
+    "ART 05":{
+      "shader":"shader_art",
+      "properties":{
+        "iResolution_hide":true,
+        "iTime_hide":true,
+        "iIterations":{
+          "duration":12.883333333333333,
+          "target":256.0,
+          "ease":"IN_QUAD",
+          "value":16.0
+        },
+        "iIterations_hide":true,
+        "iResolution":{
+          "x":{
+            "duration":0.0,
+            "target":1.0,
+            "ease":"LINEAR",
+            "value":1.0
+          },
+          "y":{
+            "duration":41.033333333333331,
+            "target":1000.0,
+            "ease":"IN_QUAD",
+            "value":0.5
+          }
+        },
+        "iTime":{
+          "duration":10290.625,
+          "target":9999.0,
+          "ease":"LINEAR",
+          "value":120.0
+        }
+      },
+      "name":"ART 05",
+      "inherit":null
+    },
+    "70s Melt 01":{
+      "shader":"shader_70s_melt",
+      "properties":{
+        "iFactor":{
+          "duration":0.0,
+          "target":0.0,
+          "ease":"LINEAR",
+          "value":0.0
+        },
+        "iTint":{
+          "x":{
+            "duration":0.0,
+            "target":0.0,
+            "ease":"IN_OUT_QUINT",
+            "value":0.0
+          },
+          "y":{
+            "duration":0.0,
+            "target":0.0,
+            "ease":"IN_OUT_QUINT",
+            "value":0.0
+          },
+          "z":{
+            "duration":0.0,
+            "target":0.0,
+            "ease":"IN_OUT_QUINT",
+            "value":0.0
+          }
+        },
+        "iFactor_hide":true,
+        "iResolution_hide":true,
+        "iTime_hide":true,
+        "iMix":{
+          "duration":0.0,
+          "target":0.0,
+          "ease":"LINEAR",
+          "value":0.0
+        },
+        "iMix_hide":true,
+        "iResolution":{
+          "x":{
+            "duration":83.333333333333329,
+            "target":-0.5,
+            "ease":"LINEAR",
+            "value":-1.5
+          },
+          "y":{
+            "duration":166.66666666666666,
+            "target":1.5,
+            "ease":"LINEAR",
+            "value":-0.5
+          }
+        },
+        "iTint_hide":true,
+        "iTime":{
+          "duration":1453.3333333333333,
+          "target":999.0,
+          "ease":"LINEAR",
+          "value":127.0
+        }
+      },
+      "name":"70s Melt 01",
+      "inherit":null
+    },
+    "CRT 01":{
+      "shader":"shader_crt",
+      "properties":{
+        "uni_crt_sizes":{
+          "x":{
+            "duration":0.0,
+            "target":256.0,
+            "ease":"LINEAR",
+            "value":256.0
+          },
+          "y":{
+            "duration":0.0,
+            "target":256.0,
+            "ease":"LINEAR",
+            "value":256.0
+          },
+          "z":{
+            "duration":0.0,
+            "target":1024.0,
+            "ease":"LINEAR",
+            "value":1024.0
+          },
+          "a":{
+            "duration":0.0,
+            "target":1024.0,
+            "ease":"LINEAR",
+            "value":1024.0
+          }
+        },
+        "uni_radial_distortion_amount_hide":true,
+        "uni_noise_strength":{
+          "duration":0.0,
+          "target":0.17499999999999999,
+          "ease":"LINEAR",
+          "value":0.17499999999999999
+        },
+        "uni_timer_hide":true,
+        "uni_radial_distortion_amount":{
+          "duration":0.0,
+          "target":0.12,
+          "ease":"LINEAR",
+          "value":0.12
+        },
+        "uni_use_RGB_separation_hide":true,
+        "uni_timer":{
+          "duration":1000.0,
+          "target":1000.0,
+          "ease":"LINEAR",
+          "value":0.0
+        },
+        "uni_use_border_hide":true,
+        "uni_use_border":{
+          "duration":0.0,
+          "target":1.0,
+          "ease":"LINEAR",
+          "value":1.0
+        },
+        "uni_use_noise_hide":true,
+        "uni_use_noise":{
+          "duration":0.0,
+          "target":1.0,
+          "ease":"LINEAR",
+          "value":1.0
+        },
+        "uni_use_radial_distortion_hide":true,
+        "uni_use_radial_distortion":{
+          "duration":0.0,
+          "target":1.0,
+          "ease":"LINEAR",
+          "value":1.0
+        },
+        "uni_use_scanlines_hide":true,
+        "uni_use_RGB_separation":{
+          "duration":0.0,
+          "target":1.0,
+          "ease":"LINEAR",
+          "value":1.0
+        },
+        "uni_border_corner_size_hide":true,
+        "uni_use_scanlines":{
+          "duration":0.0,
+          "target":1.0,
+          "ease":"LINEAR",
+          "value":1.0
+        },
+        "uni_border_corner_smoothness_hide":true,
+        "uni_brightness_hide":true,
+        "uni_crt_sizes_hide":true,
+        "uni_noise_strength_hide":true,
+        "uni_border_corner_size":{
+          "duration":0.0,
+          "target":0.029999999999999999,
+          "ease":"LINEAR",
+          "value":0.029999999999999999
+        },
+        "uni_border_corner_smoothness":{
+          "duration":0.0,
+          "target":80.0,
+          "ease":"LINEAR",
+          "value":80.0
+        },
+        "uni_brightness":{
+          "duration":0.0,
+          "target":1.0,
+          "ease":"LINEAR",
+          "value":1.0
+        }
+      },
+      "name":"CRT 01",
+      "inherit":null
+    },
+    "ART 01":{
+      "shader":"shader_art",
+      "properties":{
+        "iResolution_hide":true,
+        "iTime_hide":true,
+        "iIterations":{
+          "duration":0.0,
+          "target":8.0,
+          "ease":"LINEAR",
+          "value":8.0
+        },
+        "iIterations_hide":true,
+        "iResolution":{
+          "x":{
+            "duration":6.666666666666667,
+            "target":2.0,
+            "ease":"LINEAR",
+            "value":0.0
+          },
+          "y":{
+            "duration":0.0,
+            "target":-5.0,
+            "ease":"LINEAR",
+            "value":-5.0
+          }
+        },
+        "iTime":{
+          "duration":1017.7083333333334,
+          "target":22.0,
+          "ease":"LINEAR",
+          "value":999.0
+        }
+      },
+      "name":"ART 01",
+      "inherit":null
+    },
+    "70s Melt 02":{
+      "shader":"shader_70s_melt",
+      "properties":{
+        "iFactor":{
+          "duration":0.0,
+          "target":0.0,
+          "ease":"LINEAR",
+          "value":0.0
+        },
+        "iTint":{
+          "x":{
+            "duration":0.0,
+            "target":0.0,
+            "ease":"IN_OUT_QUINT",
+            "value":0.0
+          },
+          "y":{
+            "duration":0.0,
+            "target":0.0,
+            "ease":"IN_OUT_QUINT",
+            "value":0.0
+          },
+          "z":{
+            "duration":0.0,
+            "target":0.0,
+            "ease":"IN_OUT_QUINT",
+            "value":0.0
+          }
+        },
+        "iFactor_hide":true,
+        "iResolution_hide":true,
+        "iTime_hide":true,
+        "iMix":{
+          "duration":0.0,
+          "target":0.0,
+          "ease":"LINEAR",
+          "value":0.0
+        },
         "iMix_hide":true,
         "iResolution":{
           "x":{
@@ -56,6 +1857,7 @@
             "value":-2.5
           }
         },
+        "iTint_hide":true,
         "iTime":{
           "duration":1354.1666666666667,
           "target":999.0,
@@ -69,8 +1871,6 @@
     "Octagrams 07":{
       "shader":"shader_octagrams",
       "properties":{
-        "iHeight_hide":true,
-        "iWidth_hide":true,
         "iDepth":{
           "duration":2.7666666666666671,
           "target":0.01,
@@ -109,13 +1909,14 @@
             "value":0.0
           }
         },
-        "iIterations_hide":true,
         "iHeight":{
           "duration":27.708333333333329,
           "target":1.6599999999999999,
           "ease":"LINEAR",
           "value":0.33000000000000002
         },
+        "iFactor_hide":true,
+        "iResolution_hide":true,
         "iWidth":{
           "duration":27.708333333333329,
           "target":1.6599999999999999,
@@ -128,9 +1929,8 @@
           "ease":"LINEAR",
           "value":4.0
         },
-        "iResolution_hide":true,
         "iTime_hide":true,
-        "iTint_hide":true,
+        "iIterations_hide":true,
         "iResolution":{
           "x":{
             "duration":0.0,
@@ -145,8 +1945,10 @@
             "value":1.0
           }
         },
-        "iDepth_hide":true,
-        "iFactor_hide":true
+        "iTint_hide":true,
+        "iHeight_hide":true,
+        "iWidth_hide":true,
+        "iDepth_hide":true
       },
       "name":"Octagrams 07",
       "inherit":null
@@ -182,28 +1984,27 @@
             "value":1.0
           }
         },
-        "iIterations_hide":true,
         "sizeA":{
           "duration":186.66666666666666,
           "target":16.0,
           "ease":"LINEAR",
           "value":128.0
         },
+        "iResolution_hide":true,
         "sizeB":{
           "duration":51.666666666666664,
           "target":1.0,
           "ease":"LINEAR",
           "value":32.0
         },
-        "iResolution_hide":true,
+        "iTime_hide":true,
         "iIterations":{
           "duration":13.333333333333334,
           "target":6.0,
           "ease":"LINEAR",
           "value":2.0
         },
-        "iTime_hide":true,
-        "iTint_hide":true,
+        "iIterations_hide":true,
         "iResolution":{
           "x":{
             "duration":11.111111111111111,
@@ -217,7 +2018,8 @@
             "ease":"LINEAR",
             "value":1.0
           }
-        }
+        },
+        "iTint_hide":true
       },
       "name":"Phantom Star 02",
       "inherit":null
@@ -226,8 +2028,8 @@
       "shader":"shader_base_warp_fbm",
       "properties":{
         "iResolution_hide":true,
-        "iSize_hide":true,
         "iTime_hide":true,
+        "iSize_hide":true,
         "iResolution":{
           "x":{
             "duration":0.0,
@@ -264,24 +2066,12 @@
       "name":"Base warp fBM 02",
       "inherit":null
     },
-    "CineShader Lava 02":{
-      "shader":"shader_cineshader_lava",
-      "properties":null,
-      "name":"CineShader Lava 02",
-      "inherit":null
-    },
-    "shader-default":{
-      "shader":"shader_revert",
-      "properties":null,
-      "name":"shader-default",
-      "inherit":null
-    },
     "Base warp fBM 03":{
       "shader":"shader_base_warp_fbm",
       "properties":{
         "iResolution_hide":true,
-        "iSize_hide":true,
         "iTime_hide":true,
+        "iSize_hide":true,
         "iResolution":{
           "x":{
             "duration":16.666666666666668,
@@ -349,28 +2139,27 @@
             "value":0.10000000000000001
           }
         },
-        "iIterations_hide":true,
         "sizeA":{
           "duration":83.333333333333329,
           "target":20.0,
           "ease":"LINEAR",
           "value":30.0
         },
+        "iResolution_hide":true,
         "sizeB":{
           "duration":0.0,
           "target":4.0,
           "ease":"LINEAR",
           "value":4.0
         },
-        "iResolution_hide":true,
+        "iTime_hide":true,
         "iIterations":{
           "duration":250.0,
           "target":2.5,
           "ease":"LINEAR",
           "value":1.0
         },
-        "iTime_hide":true,
-        "iTint_hide":true,
+        "iIterations_hide":true,
         "iResolution":{
           "x":{
             "duration":0.0,
@@ -384,7 +2173,8 @@
             "ease":"LINEAR",
             "value":1.0
           }
-        }
+        },
+        "iTint_hide":true
       },
       "name":"Phantom Star 03",
       "inherit":null
@@ -392,6 +2182,9 @@
     "002 blue 02":{
       "shader":"shader_002_blue",
       "properties":{
+        "iDistance_hide":true,
+        "iPhase_hide":true,
+        "iTreshold_hide":false,
         "iDistance":{
           "duration":4.0,
           "target":10.0,
@@ -410,7 +2203,6 @@
           "ease":"LINEAR",
           "value":3.0
         },
-        "iDistance_hide":true,
         "iTint":{
           "x":{
             "duration":10.0,
@@ -431,31 +2223,28 @@
             "value":0.40000000000000002
           }
         },
-        "iIterations_hide":true,
         "iTreshold":{
           "duration":0.0,
           "target":0.0050000000000000001,
           "ease":"LINEAR",
           "value":0.0050000000000000001
         },
-        "iPhase_hide":true,
+        "iResolution_hide":true,
         "iIterations":{
           "duration":0.0,
           "target":32.0,
           "ease":"LINEAR",
           "value":32.0
         },
-        "iResolution_hide":true,
-        "iSize_hide":true,
         "iTime_hide":true,
-        "iTint_hide":true,
+        "iIterations_hide":true,
+        "iSize_hide":true,
         "iPhase":{
           "duration":116.66666667,
           "target":0.25,
           "ease":"LINEAR",
           "value":2.0
         },
-        "iTreshold_hide":false,
         "iResolution":{
           "x":{
             "duration":0.0,
@@ -469,7 +2258,8 @@
             "ease":"LINEAR",
             "value":1.0
           }
-        }
+        },
+        "iTint_hide":true
       },
       "name":"002 blue 02",
       "inherit":null
@@ -505,28 +2295,27 @@
             "value":0.20000000000000001
           }
         },
-        "iIterations_hide":true,
         "sizeA":{
           "duration":0.0,
           "target":30.0,
           "ease":"LINEAR",
           "value":30.0
         },
+        "iResolution_hide":true,
         "sizeB":{
           "duration":19.333333333333332,
           "target":30.0,
           "ease":"LINEAR",
           "value":1.0
         },
-        "iResolution_hide":true,
+        "iTime_hide":true,
         "iIterations":{
           "duration":77.777777777777786,
           "target":8.0,
           "ease":"LINEAR",
           "value":1.0
         },
-        "iTime_hide":true,
-        "iTint_hide":true,
+        "iIterations_hide":true,
         "iResolution":{
           "x":{
             "duration":0.0,
@@ -540,7 +2329,8 @@
             "ease":"LINEAR",
             "value":1.0
           }
-        }
+        },
+        "iTint_hide":true
       },
       "name":"Phantom Star 04",
       "inherit":null
@@ -554,7 +2344,6 @@
           "ease":"LINEAR",
           "value":666.0
         },
-        "amount_hide":true,
         "iTint":{
           "x":{
             "duration":0.0,
@@ -577,7 +2366,8 @@
         },
         "iResolution_hide":true,
         "iTime_hide":true,
-        "iTint_hide":true,
+        "amount_hide":true,
+        "size_hide":true,
         "iResolution":{
           "x":{
             "duration":0.0,
@@ -598,7 +2388,7 @@
             "value":1.0
           }
         },
-        "size_hide":true,
+        "iTint_hide":true,
         "size":{
           "duration":166.66666666666666,
           "target":5.0,
@@ -646,28 +2436,27 @@
             "value":0.14999999999999999
           }
         },
-        "iIterations_hide":true,
         "sizeA":{
           "duration":1833.3333333333333,
           "target":10.0,
           "ease":"LINEAR",
           "value":120.0
         },
+        "iResolution_hide":true,
         "sizeB":{
           "duration":15.833333333333334,
           "target":100.0,
           "ease":"LINEAR",
           "value":5.0
         },
-        "iResolution_hide":true,
+        "iTime_hide":true,
         "iIterations":{
           "duration":28.809523809523807,
           "target":2.1000000000000001,
           "ease":"LINEAR",
           "value":0.89000000000000001
         },
-        "iTime_hide":true,
-        "iTint_hide":true,
+        "iIterations_hide":true,
         "iResolution":{
           "x":{
             "duration":116.66666666666667,
@@ -681,7 +2470,8 @@
             "ease":"LINEAR",
             "value":0.80000000000000004
           }
-        }
+        },
+        "iTint_hide":true
       },
       "name":"Phantom Star 05",
       "inherit":null
@@ -689,6 +2479,7 @@
     "Warp 01":{
       "shader":"shader_warp",
       "properties":{
+        "iResolution_hide":true,
         "iResolution":{
           "x":{
             "duration":41.666666666666664,
@@ -703,7 +2494,6 @@
             "value":1.0
           }
         },
-        "iResolution_hide":true,
         "iTime_hide":true,
         "iTime":{
           "duration":234.05000000000001,
@@ -718,6 +2508,9 @@
     "002 blue 03":{
       "shader":"shader_002_blue",
       "properties":{
+        "iDistance_hide":true,
+        "iPhase_hide":true,
+        "iTreshold_hide":true,
         "iDistance":{
           "duration":80.0,
           "target":8.0,
@@ -736,7 +2529,6 @@
           "ease":"LINEAR",
           "value":3.0
         },
-        "iDistance_hide":true,
         "iTint":{
           "x":{
             "duration":16.666666670000001,
@@ -757,31 +2549,28 @@
             "value":0.25
           }
         },
-        "iIterations_hide":true,
         "iTreshold":{
           "duration":0.0,
           "target":0.0050000000000000001,
           "ease":"LINEAR",
           "value":0.0050000000000000001
         },
-        "iPhase_hide":true,
+        "iResolution_hide":true,
         "iIterations":{
           "duration":0.0,
           "target":32.0,
           "ease":"LINEAR",
           "value":32.0
         },
-        "iResolution_hide":true,
-        "iSize_hide":true,
         "iTime_hide":false,
-        "iTint_hide":true,
+        "iIterations_hide":true,
+        "iSize_hide":true,
         "iPhase":{
           "duration":120.0,
           "target":1.2,
           "ease":"LINEAR",
           "value":12.0
         },
-        "iTreshold_hide":true,
         "iResolution":{
           "x":{
             "duration":0.0,
@@ -795,7 +2584,8 @@
             "ease":"LINEAR",
             "value":1.0
           }
-        }
+        },
+        "iTint_hide":true
       },
       "name":"002 blue 03",
       "inherit":null
@@ -809,7 +2599,6 @@
           "ease":"LINEAR",
           "value":333.0
         },
-        "amount_hide":true,
         "iTint":{
           "x":{
             "duration":0.0,
@@ -832,7 +2621,8 @@
         },
         "iResolution_hide":true,
         "iTime_hide":true,
-        "iTint_hide":true,
+        "amount_hide":true,
+        "size_hide":true,
         "iResolution":{
           "x":{
             "duration":0.0,
@@ -853,7 +2643,7 @@
             "value":1.0
           }
         },
-        "size_hide":true,
+        "iTint_hide":true,
         "size":{
           "duration":166.66666666666666,
           "target":5.0,
@@ -873,6 +2663,7 @@
     "Warp 02":{
       "shader":"shader_warp",
       "properties":{
+        "iResolution_hide":true,
         "iResolution":{
           "x":{
             "duration":8.3333333333333339,
@@ -887,7 +2678,6 @@
             "value":0.5
           }
         },
-        "iResolution_hide":true,
         "iTime_hide":true,
         "iTime":{
           "duration":5555.5,
@@ -902,6 +2692,7 @@
     "discoteq 2 01":{
       "shader":"shader_discoteq_2",
       "properties":{
+        "iResolution_hide":true,
         "iResolution":{
           "x":{
             "duration":0.0,
@@ -916,7 +2707,6 @@
             "value":1.0
           }
         },
-        "iResolution_hide":true,
         "iTime_hide":true,
         "iTime":{
           "duration":1041.5625,
@@ -931,6 +2721,9 @@
     "002 blue 04":{
       "shader":"shader_002_blue",
       "properties":{
+        "iDistance_hide":true,
+        "iPhase_hide":true,
+        "iTreshold_hide":true,
         "iDistance":{
           "duration":2291.6666666666665,
           "target":32.0,
@@ -949,7 +2742,6 @@
           "ease":"LINEAR",
           "value":0.0
         },
-        "iDistance_hide":true,
         "iTint":{
           "x":{
             "duration":8.3333333333333339,
@@ -970,31 +2762,28 @@
             "value":0.0
           }
         },
-        "iIterations_hide":true,
         "iTreshold":{
           "duration":16.663333333333334,
           "target":0.050000000000000003,
           "ease":"LINEAR",
           "value":1.0000000000000001e-05
         },
-        "iPhase_hide":true,
+        "iResolution_hide":true,
         "iIterations":{
           "duration":0.0,
           "target":32.0,
           "ease":"LINEAR",
           "value":32.0
         },
-        "iResolution_hide":true,
-        "iSize_hide":true,
         "iTime_hide":true,
-        "iTint_hide":true,
+        "iIterations_hide":true,
+        "iSize_hide":true,
         "iPhase":{
           "duration":33.166666666666664,
           "target":0.01,
           "ease":"LINEAR",
           "value":2.0
         },
-        "iTreshold_hide":true,
         "iResolution":{
           "x":{
             "duration":0.0,
@@ -1008,7 +2797,8 @@
             "ease":"LINEAR",
             "value":1.0
           }
-        }
+        },
+        "iTint_hide":true
       },
       "name":"002 blue 04",
       "inherit":null
@@ -1016,6 +2806,7 @@
     "Warp 03":{
       "shader":"shader_warp",
       "properties":{
+        "iResolution_hide":true,
         "iResolution":{
           "x":{
             "duration":0.0,
@@ -1030,7 +2821,6 @@
             "value":1.0
           }
         },
-        "iResolution_hide":true,
         "iTime_hide":true,
         "iTime":{
           "duration":5505.5,
@@ -1045,6 +2835,9 @@
     "002 blue 05":{
       "shader":"shader_002_blue",
       "properties":{
+        "iDistance_hide":true,
+        "iPhase_hide":true,
+        "iTreshold_hide":true,
         "iDistance":{
           "duration":15.0,
           "target":1.0,
@@ -1063,7 +2856,6 @@
           "ease":"LINEAR",
           "value":0.0
         },
-        "iDistance_hide":true,
         "iTint":{
           "x":{
             "duration":5.0000000000000009,
@@ -1084,31 +2876,28 @@
             "value":0.40000000000000002
           }
         },
-        "iIterations_hide":true,
         "iTreshold":{
           "duration":0.0,
           "target":0.050000000000000003,
           "ease":"LINEAR",
           "value":9.9999999999999995e-07
         },
-        "iPhase_hide":true,
+        "iResolution_hide":true,
         "iIterations":{
           "duration":53.333333333333336,
           "target":32.0,
           "ease":"LINEAR",
           "value":16.0
         },
-        "iResolution_hide":true,
-        "iSize_hide":true,
         "iTime_hide":true,
-        "iTint_hide":true,
+        "iIterations_hide":true,
+        "iSize_hide":true,
         "iPhase":{
           "duration":2.2666666666666662,
           "target":1.6599999999999999,
           "ease":"LINEAR",
           "value":0.29999999999999999
         },
-        "iTreshold_hide":true,
         "iResolution":{
           "x":{
             "duration":0.0,
@@ -1122,7 +2911,8 @@
             "ease":"LINEAR",
             "value":1.0
           }
-        }
+        },
+        "iTint_hide":true
       },
       "name":"002 blue 05",
       "inherit":null
@@ -1132,8 +2922,8 @@
       "properties":{
         "iDistance_hide":true,
         "iResolution_hide":true,
-        "iSize_hide":true,
         "iTime_hide":true,
+        "iSize_hide":true,
         "iResolution":{
           "x":{
             "duration":13.333333333333334,
@@ -1173,18 +2963,26 @@
     "Sincos 3D 03":{
       "shader":"shader_sincos_3d",
       "properties":{
+        "iTime":{
+          "duration":5203.125,
+          "target":999.0,
+          "ease":"LINEAR",
+          "value":0.0
+        },
         "pointRadius":{
           "duration":75.0,
           "target":0.5,
           "ease":"LINEAR",
           "value":0.050000000000000003
         },
+        "lineThickness_hide":true,
         "lineThickness":{
           "duration":56.666666666666657,
           "target":0.34999999999999998,
           "ease":"LINEAR",
           "value":0.01
         },
+        "pointRadius_hide":true,
         "iResolution_hide":true,
         "iTime_hide":true,
         "iMouse":{
@@ -1213,7 +3011,6 @@
             "value":1.0
           }
         },
-        "iMouse_hide":true,
         "iResolution":{
           "x":{
             "duration":0.0,
@@ -1234,14 +3031,7 @@
             "value":1.0
           }
         },
-        "lineThickness_hide":true,
-        "pointRadius_hide":true,
-        "iTime":{
-          "duration":5203.125,
-          "target":999.0,
-          "ease":"LINEAR",
-          "value":0.0
-        }
+        "iMouse_hide":true
       },
       "name":"Sincos 3D 03",
       "inherit":null
@@ -1249,6 +3039,7 @@
     "Warp 04":{
       "shader":"shader_warp",
       "properties":{
+        "iResolution_hide":true,
         "iResolution":{
           "x":{
             "duration":0.0,
@@ -1263,7 +3054,6 @@
             "value":1.0
           }
         },
-        "iResolution_hide":true,
         "iTime_hide":true,
         "iTime":{
           "duration":5505.5,
@@ -1278,18 +3068,26 @@
     "Sincos 3D 04":{
       "shader":"shader_sincos_3d",
       "properties":{
+        "iTime":{
+          "duration":5366.666666666667,
+          "target":999.0,
+          "ease":"LINEAR",
+          "value":33.0
+        },
         "pointRadius":{
           "duration":6.666666666666667,
           "target":0.5,
           "ease":"LINEAR",
           "value":0.10000000000000001
         },
+        "lineThickness_hide":true,
         "lineThickness":{
           "duration":20.416666666666668,
           "target":0.050000000000000003,
           "ease":"LINEAR",
           "value":2.5
         },
+        "pointRadius_hide":true,
         "iResolution_hide":true,
         "iTime_hide":true,
         "iMouse":{
@@ -1318,7 +3116,6 @@
             "value":1.0
           }
         },
-        "iMouse_hide":true,
         "iResolution":{
           "x":{
             "duration":33.333333333333336,
@@ -1339,14 +3136,7 @@
             "value":1.0
           }
         },
-        "lineThickness_hide":true,
-        "pointRadius_hide":true,
-        "iTime":{
-          "duration":5366.666666666667,
-          "target":999.0,
-          "ease":"LINEAR",
-          "value":33.0
-        }
+        "iMouse_hide":true
       },
       "name":"Sincos 3D 04",
       "inherit":null
@@ -1354,6 +3144,7 @@
     "Warp 05":{
       "shader":"shader_warp",
       "properties":{
+        "iResolution_hide":true,
         "iResolution":{
           "x":{
             "duration":0.0,
@@ -1368,7 +3159,6 @@
             "value":1.0
           }
         },
-        "iResolution_hide":true,
         "iTime_hide":true,
         "iTime":{
           "duration":5505.5,
@@ -1383,18 +3173,26 @@
     "Sincos 3D 05":{
       "shader":"shader_sincos_3d",
       "properties":{
+        "iTime":{
+          "duration":9000.0,
+          "target":0.0,
+          "ease":"LINEAR",
+          "value":1000.0
+        },
         "pointRadius":{
           "duration":15.0,
           "target":0.10000000000000001,
           "ease":"LINEAR",
           "value":0.01
         },
+        "lineThickness_hide":true,
         "lineThickness":{
           "duration":116.33333333,
           "target":0.01,
           "ease":"LINEAR",
           "value":3.5
         },
+        "pointRadius_hide":true,
         "iResolution_hide":true,
         "iTime_hide":false,
         "iMouse":{
@@ -1423,7 +3221,6 @@
             "value":1.0
           }
         },
-        "iMouse_hide":true,
         "iResolution":{
           "x":{
             "duration":0.0,
@@ -1444,22 +3241,9 @@
             "value":1.0
           }
         },
-        "lineThickness_hide":true,
-        "pointRadius_hide":true,
-        "iTime":{
-          "duration":9000.0,
-          "target":0.0,
-          "ease":"LINEAR",
-          "value":1000.0
-        }
+        "iMouse_hide":true
       },
       "name":"Sincos 3D 05",
-      "inherit":null
-    },
-    "Wave 01":{
-      "shader":"shader_wave",
-      "properties":null,
-      "name":"Wave 01",
       "inherit":null
     },
     "warp speed 2 05":{
@@ -1485,7 +3269,6 @@
             "value":0.0050000000000000001
           }
         },
-        "iSeed_hide":true,
         "iSize":{
           "x":{
             "duration":0.0,
@@ -1512,16 +3295,18 @@
           "ease":"LINEAR",
           "value":1.0
         },
-        "iIterations_hide":true,
+        "iFactor_hide":true,
+        "iResolution_hide":true,
         "iIterations":{
           "duration":0.0,
           "target":15.0,
           "ease":"LINEAR",
           "value":15.0
         },
-        "iResolution_hide":true,
-        "iSize_hide":true,
         "iTime_hide":true,
+        "iIterations_hide":true,
+        "iSeed_hide":true,
+        "iSize_hide":true,
         "iResolution":{
           "x":{
             "duration":0.0,
@@ -1535,16 +3320,9 @@
             "ease":"LINEAR",
             "value":1.0
           }
-        },
-        "iFactor_hide":true
+        }
       },
       "name":"warp speed 2 05",
-      "inherit":null
-    },
-    "Wave 02":{
-      "shader":"shader_wave",
-      "properties":null,
-      "name":"Wave 02",
       "inherit":null
     },
     "warp speed 2 06":{
@@ -1570,7 +3348,6 @@
             "value":0.0080000000000000002
           }
         },
-        "iSeed_hide":true,
         "iSize":{
           "x":{
             "duration":16.666666666666668,
@@ -1597,16 +3374,18 @@
           "ease":"LINEAR",
           "value":1.5
         },
-        "iIterations_hide":true,
+        "iFactor_hide":true,
+        "iResolution_hide":true,
         "iIterations":{
           "duration":0.0,
           "target":15.0,
           "ease":"LINEAR",
           "value":15.0
         },
-        "iResolution_hide":true,
-        "iSize_hide":true,
         "iTime_hide":true,
+        "iIterations_hide":true,
+        "iSeed_hide":true,
+        "iSize_hide":true,
         "iResolution":{
           "x":{
             "duration":0.0,
@@ -1620,16 +3399,9 @@
             "ease":"LINEAR",
             "value":1.0
           }
-        },
-        "iFactor_hide":true
+        }
       },
       "name":"warp speed 2 06",
-      "inherit":null
-    },
-    "Wave 03":{
-      "shader":"shader_wave",
-      "properties":null,
-      "name":"Wave 03",
       "inherit":null
     },
     "warp speed 2 07":{
@@ -1655,7 +3427,6 @@
             "value":0.01
           }
         },
-        "iSeed_hide":true,
         "iSize":{
           "x":{
             "duration":0.0,
@@ -1682,16 +3453,18 @@
           "ease":"LINEAR",
           "value":1.0
         },
-        "iIterations_hide":true,
+        "iFactor_hide":true,
+        "iResolution_hide":true,
         "iIterations":{
           "duration":0.0,
           "target":11.0,
           "ease":"LINEAR",
           "value":11.0
         },
-        "iResolution_hide":true,
-        "iSize_hide":true,
         "iTime_hide":true,
+        "iIterations_hide":true,
+        "iSeed_hide":true,
+        "iSize_hide":true,
         "iResolution":{
           "x":{
             "duration":0.0,
@@ -1705,45 +3478,15 @@
             "ease":"LINEAR",
             "value":1.0
           }
-        },
-        "iFactor_hide":true
+        }
       },
       "name":"warp speed 2 07",
-      "inherit":null
-    },
-    "Wave 04":{
-      "shader":"shader_wave",
-      "properties":null,
-      "name":"Wave 04",
-      "inherit":null
-    },
-    "Wave 05":{
-      "shader":"shader_wave",
-      "properties":null,
-      "name":"Wave 05",
-      "inherit":null
-    },
-    "Magnify 01":{
-      "shader":"shader_magnify",
-      "properties":null,
-      "name":"Magnify 01",
-      "inherit":null
-    },
-    "Magnify 02":{
-      "shader":"shader_magnify",
-      "properties":null,
-      "name":"Magnify 02",
-      "inherit":null
-    },
-    "Shock-wave 01":{
-      "shader":"shader_shock_wave",
-      "properties":null,
-      "name":"Shock-wave 01",
       "inherit":null
     },
     "discoteq 2 02":{
       "shader":"shader_discoteq_2",
       "properties":{
+        "iResolution_hide":true,
         "iResolution":{
           "x":{
             "duration":0.0,
@@ -1758,7 +3501,6 @@
             "value":1.0
           }
         },
-        "iResolution_hide":true,
         "iTime_hide":true,
         "iTime":{
           "duration":333.0,
@@ -1773,6 +3515,7 @@
     "discoteq 2 03":{
       "shader":"shader_discoteq_2",
       "properties":{
+        "iResolution_hide":true,
         "iResolution":{
           "x":{
             "duration":0.0,
@@ -1787,7 +3530,6 @@
             "value":1.0
           }
         },
-        "iResolution_hide":true,
         "iTime_hide":true,
         "iTime":{
           "duration":299.96666666666664,
@@ -1829,10 +3571,9 @@
           "value":0.01
         },
         "iResolution_hide":true,
-        "iSize_hide":true,
-        "iTime_hide":true,
-        "iTint_hide":true,
         "iTreshold_hide":true,
+        "iTime_hide":true,
+        "iSize_hide":true,
         "iResolution":{
           "x":{
             "duration":0.0,
@@ -1853,6 +3594,7 @@
             "value":1.0
           }
         },
+        "iTint_hide":true,
         "iSize":{
           "duration":0.0,
           "target":5.0,
@@ -1867,18 +3609,6 @@
         }
       },
       "name":"Broken Time Portal 08",
-      "inherit":null
-    },
-    "lighting with glow 02":{
-      "shader":"shader_lighting_with_glow",
-      "properties":null,
-      "name":"lighting with glow 02",
-      "inherit":null
-    },
-    "lighting with glow 03":{
-      "shader":"shader_lighting_with_glow",
-      "properties":null,
-      "name":"lighting with glow 03",
       "inherit":null
     },
     "warp speed 2 02":{
@@ -1904,7 +3634,6 @@
             "value":0.0050000000000000001
           }
         },
-        "iSeed_hide":true,
         "iSize":{
           "x":{
             "duration":0.0,
@@ -1931,16 +3660,18 @@
           "ease":"LINEAR",
           "value":1.0
         },
-        "iIterations_hide":true,
+        "iFactor_hide":true,
+        "iResolution_hide":true,
         "iIterations":{
           "duration":0.0,
           "target":15.0,
           "ease":"LINEAR",
           "value":15.0
         },
-        "iResolution_hide":true,
-        "iSize_hide":true,
         "iTime_hide":true,
+        "iIterations_hide":true,
+        "iSeed_hide":true,
+        "iSize_hide":true,
         "iResolution":{
           "x":{
             "duration":0.0,
@@ -1954,8 +3685,7 @@
             "ease":"LINEAR",
             "value":1.0
           }
-        },
-        "iFactor_hide":true
+        }
       },
       "name":"warp speed 2 02",
       "inherit":null
@@ -1990,10 +3720,9 @@
           "value":0.01
         },
         "iResolution_hide":true,
-        "iSize_hide":true,
-        "iTime_hide":true,
-        "iTint_hide":true,
         "iTreshold_hide":true,
+        "iTime_hide":true,
+        "iSize_hide":true,
         "iResolution":{
           "x":{
             "duration":18.75,
@@ -2014,6 +3743,7 @@
             "value":1.0
           }
         },
+        "iTint_hide":true,
         "iSize":{
           "duration":0.0,
           "target":4.0,
@@ -2060,10 +3790,9 @@
           "value":0.0001
         },
         "iResolution_hide":true,
-        "iSize_hide":true,
-        "iTime_hide":true,
-        "iTint_hide":true,
         "iTreshold_hide":true,
+        "iTime_hide":true,
+        "iSize_hide":true,
         "iResolution":{
           "x":{
             "duration":16.666666666666668,
@@ -2084,6 +3813,7 @@
             "value":1.0
           }
         },
+        "iTint_hide":true,
         "iSize":{
           "duration":20.016666666666666,
           "target":20.0,
@@ -2098,12 +3828,6 @@
         }
       },
       "name":"Broken Time Portal 03",
-      "inherit":null
-    },
-    "lighting with glow 01":{
-      "shader":"shader_lighting_with_glow",
-      "properties":null,
-      "name":"lighting with glow 01",
       "inherit":null
     },
     "Broken Time Portal 04":{
@@ -2136,10 +3860,9 @@
           "value":0.050000000000000003
         },
         "iResolution_hide":true,
-        "iSize_hide":true,
-        "iTime_hide":true,
-        "iTint_hide":true,
         "iTreshold_hide":true,
+        "iTime_hide":true,
+        "iSize_hide":true,
         "iResolution":{
           "x":{
             "duration":8.3333333333333339,
@@ -2160,6 +3883,7 @@
             "value":1.0
           }
         },
+        "iTint_hide":true,
         "iSize":{
           "duration":9.5500000000000007,
           "target":1.0,
@@ -2206,10 +3930,9 @@
           "value":0.0001
         },
         "iResolution_hide":true,
-        "iSize_hide":true,
-        "iTime_hide":true,
-        "iTint_hide":true,
         "iTreshold_hide":true,
+        "iTime_hide":true,
+        "iSize_hide":true,
         "iResolution":{
           "x":{
             "duration":20.0,
@@ -2230,6 +3953,7 @@
             "value":1.0
           }
         },
+        "iTint_hide":true,
         "iSize":{
           "duration":31.666666666666668,
           "target":20.0,
@@ -2249,6 +3973,9 @@
     "002 blue 01":{
       "shader":"shader_002_blue",
       "properties":{
+        "iDistance_hide":true,
+        "iPhase_hide":true,
+        "iTreshold_hide":true,
         "iDistance":{
           "duration":4.0,
           "target":10.0,
@@ -2267,7 +3994,6 @@
           "ease":"LINEAR",
           "value":3.0
         },
-        "iDistance_hide":true,
         "iTint":{
           "x":{
             "duration":0.0,
@@ -2288,31 +4014,28 @@
             "value":0.29999999999999999
           }
         },
-        "iIterations_hide":true,
         "iTreshold":{
           "duration":0.0,
           "target":1.0000000000000001e-05,
           "ease":"LINEAR",
           "value":1.0000000000000001e-05
         },
-        "iPhase_hide":true,
+        "iResolution_hide":true,
         "iIterations":{
           "duration":0.0,
           "target":32.0,
           "ease":"LINEAR",
           "value":32.0
         },
-        "iResolution_hide":true,
-        "iSize_hide":true,
         "iTime_hide":true,
-        "iTint_hide":true,
+        "iIterations_hide":true,
+        "iSize_hide":true,
         "iPhase":{
           "duration":4.0,
           "target":1.2,
           "ease":"LINEAR",
           "value":0.59999999999999998
         },
-        "iTreshold_hide":true,
         "iResolution":{
           "x":{
             "duration":0.0,
@@ -2326,7 +4049,8 @@
             "ease":"LINEAR",
             "value":1.0
           }
-        }
+        },
+        "iTint_hide":true
       },
       "name":"002 blue 01",
       "inherit":null
@@ -2354,7 +4078,6 @@
             "value":0.01
           }
         },
-        "iSeed_hide":true,
         "iSize":{
           "x":{
             "duration":3.3333333333333326,
@@ -2381,16 +4104,18 @@
           "ease":"LINEAR",
           "value":1.6000000000000001
         },
-        "iIterations_hide":true,
+        "iFactor_hide":true,
+        "iResolution_hide":true,
         "iIterations":{
           "duration":0.0,
           "target":10.0,
           "ease":"LINEAR",
           "value":10.0
         },
-        "iResolution_hide":true,
-        "iSize_hide":true,
         "iTime_hide":true,
+        "iIterations_hide":true,
+        "iSeed_hide":true,
+        "iSize_hide":true,
         "iResolution":{
           "x":{
             "duration":0.0,
@@ -2404,8 +4129,7 @@
             "ease":"LINEAR",
             "value":1.0
           }
-        },
-        "iFactor_hide":true
+        }
       },
       "name":"warp speed 2 03",
       "inherit":null
@@ -2440,10 +4164,9 @@
           "value":0.001
         },
         "iResolution_hide":true,
-        "iSize_hide":true,
-        "iTime_hide":true,
-        "iTint_hide":true,
         "iTreshold_hide":true,
+        "iTime_hide":true,
+        "iSize_hide":true,
         "iResolution":{
           "x":{
             "duration":37.5,
@@ -2464,6 +4187,7 @@
             "value":1.0
           }
         },
+        "iTint_hide":true,
         "iSize":{
           "duration":12.916666666666666,
           "target":32.0,
@@ -2503,7 +4227,6 @@
             "value":0.0060000000000000001
           }
         },
-        "iSeed_hide":true,
         "iSize":{
           "x":{
             "duration":0.0,
@@ -2530,16 +4253,18 @@
           "ease":"LINEAR",
           "value":1.0
         },
-        "iIterations_hide":true,
+        "iFactor_hide":true,
+        "iResolution_hide":true,
         "iIterations":{
           "duration":0.0,
           "target":15.0,
           "ease":"LINEAR",
           "value":15.0
         },
-        "iResolution_hide":true,
-        "iSize_hide":true,
         "iTime_hide":true,
+        "iIterations_hide":true,
+        "iSeed_hide":true,
+        "iSize_hide":true,
         "iResolution":{
           "x":{
             "duration":0.0,
@@ -2553,8 +4278,7 @@
             "ease":"LINEAR",
             "value":1.0
           }
-        },
-        "iFactor_hide":true
+        }
       },
       "name":"warp speed 2 04",
       "inherit":null
@@ -2589,10 +4313,9 @@
           "value":0.0050000000000000001
         },
         "iResolution_hide":true,
-        "iSize_hide":true,
-        "iTime_hide":true,
-        "iTint_hide":true,
         "iTreshold_hide":true,
+        "iTime_hide":true,
+        "iSize_hide":true,
         "iResolution":{
           "x":{
             "duration":0.0,
@@ -2613,6 +4336,7 @@
             "value":1.0
           }
         },
+        "iTint_hide":true,
         "iSize":{
           "duration":0.0,
           "target":4.0,
@@ -2632,23 +4356,23 @@
     "whirlpool 02":{
       "shader":"shader_whirlpool",
       "properties":{
-        "iFactor_hide":true,
         "iFactor":{
           "duration":5.291666666666667,
           "target":64.0,
           "ease":"LINEAR",
           "value":0.5
         },
-        "iIterations_hide":true,
+        "iFactor_hide":true,
+        "iResolution_hide":true,
         "iIterations":{
           "duration":0.0,
           "target":10.0,
           "ease":"LINEAR",
           "value":10.0
         },
-        "iResolution_hide":true,
-        "iSize_hide":true,
         "iTime_hide":true,
+        "iIterations_hide":true,
+        "iSize_hide":true,
         "iResolution":{
           "x":{
             "duration":0.0,
@@ -2682,18 +4406,26 @@
     "Sincos 3D 02":{
       "shader":"shader_sincos_3d",
       "properties":{
+        "iTime":{
+          "duration":1734.375,
+          "target":0.0,
+          "ease":"LINEAR",
+          "value":666.0
+        },
         "pointRadius":{
           "duration":66.666666666666671,
           "target":0.5,
           "ease":"LINEAR",
           "value":0.10000000000000001
         },
+        "lineThickness_hide":true,
         "lineThickness":{
           "duration":56.666666666666657,
           "target":0.34999999999999998,
           "ease":"LINEAR",
           "value":0.01
         },
+        "pointRadius_hide":true,
         "iResolution_hide":true,
         "iTime_hide":true,
         "iMouse":{
@@ -2722,7 +4454,6 @@
             "value":1.0
           }
         },
-        "iMouse_hide":true,
         "iResolution":{
           "x":{
             "duration":0.0,
@@ -2743,14 +4474,7 @@
             "value":1.0
           }
         },
-        "lineThickness_hide":true,
-        "pointRadius_hide":true,
-        "iTime":{
-          "duration":1734.375,
-          "target":0.0,
-          "ease":"LINEAR",
-          "value":666.0
-        }
+        "iMouse_hide":true
       },
       "name":"Sincos 3D 02",
       "inherit":null
@@ -2764,7 +4488,6 @@
           "ease":"LINEAR",
           "value":0.0
         },
-        "amount_hide":true,
         "iTint":{
           "x":{
             "duration":0.0,
@@ -2787,7 +4510,8 @@
         },
         "iResolution_hide":true,
         "iTime_hide":true,
-        "iTint_hide":true,
+        "amount_hide":true,
+        "size_hide":true,
         "iResolution":{
           "x":{
             "duration":0.0,
@@ -2808,7 +4532,7 @@
             "value":1.0
           }
         },
-        "size_hide":true,
+        "iTint_hide":true,
         "size":{
           "duration":31.666666666666668,
           "target":0.20000000000000001,
@@ -2855,10 +4579,9 @@
           "value":0.001
         },
         "iResolution_hide":true,
-        "iSize_hide":true,
-        "iTime_hide":true,
-        "iTint_hide":true,
         "iTreshold_hide":true,
+        "iTime_hide":true,
+        "iSize_hide":true,
         "iResolution":{
           "x":{
             "duration":25.0,
@@ -2879,6 +4602,7 @@
             "value":1.0
           }
         },
+        "iTint_hide":true,
         "iSize":{
           "duration":50.0,
           "target":4.0,
@@ -2899,8 +4623,8 @@
       "shader":"shader_base_warp_fbm",
       "properties":{
         "iResolution_hide":true,
-        "iSize_hide":true,
         "iTime_hide":true,
+        "iSize_hide":true,
         "iResolution":{
           "x":{
             "duration":0.0,
@@ -2937,70 +4661,22 @@
       "name":"Base warp fBM 01",
       "inherit":null
     },
-    "CineShader Lava 01":{
-      "shader":"shader_cineshader_lava",
-      "properties":null,
-      "name":"CineShader Lava 01",
-      "inherit":null
-    },
-    "Dive to Cloud 01":{
-      "shader":"shader_dive_to_cloud",
-      "properties":null,
-      "name":"Dive to Cloud 01",
-      "inherit":null
-    },
-    "Shock-wave 02":{
-      "shader":"shader_shock_wave",
-      "properties":null,
-      "name":"Shock-wave 02",
-      "inherit":null
-    },
-    "Magnify 04":{
-      "shader":"shader_magnify",
-      "properties":null,
-      "name":"Magnify 04",
-      "inherit":null
-    },
-    "Shock-wave 03":{
-      "shader":"shader_shock_wave",
-      "properties":null,
-      "name":"Shock-wave 03",
-      "inherit":null
-    },
-    "Magnify 05":{
-      "shader":"shader_magnify",
-      "properties":null,
-      "name":"Magnify 05",
-      "inherit":null
-    },
-    "Shock-wave 04":{
-      "shader":"shader_shock_wave",
-      "properties":null,
-      "name":"Shock-wave 04",
-      "inherit":null
-    },
-    "Shock-wave 05":{
-      "shader":"shader_shock_wave",
-      "properties":null,
-      "name":"Shock-wave 05",
-      "inherit":null
-    },
     "Mosaic 01":{
       "shader":"shader_mosaic",
       "properties":{
         "resolution":{
           "value":{
             "x":2560.0,
-            "y":1374.0
+            "y":1440.0
           }
         },
+        "amount_hide":true,
         "amount":{
           "duration":0.0,
           "target":96.0,
           "ease":"LINEAR",
           "value":96.0
-        },
-        "amount_hide":true
+        }
       },
       "name":"Mosaic 01",
       "inherit":null
@@ -3011,24 +4687,18 @@
         "resolution":{
           "value":{
             "x":2560.0,
-            "y":1374.0
+            "y":1440.0
           }
         },
+        "amount_hide":true,
         "amount":{
           "duration":3.5166666666666666,
           "target":1.0,
           "ease":"IN_QUAD",
           "value":128.0
-        },
-        "amount_hide":true
+        }
       },
       "name":"Mosaic 02",
-      "inherit":null
-    },
-    "Sketch 01":{
-      "shader":"shader_sketch",
-      "properties":null,
-      "name":"Sketch 01",
       "inherit":null
     },
     "Mosaic 03":{
@@ -3037,29 +4707,24 @@
         "resolution":{
           "value":{
             "x":2560.0,
-            "y":1374.0
+            "y":1440.0
           }
         },
+        "amount_hide":true,
         "amount":{
           "duration":6.5333333333333332,
           "target":128.0,
           "ease":"IN_QUAD",
           "value":32.0
-        },
-        "amount_hide":true
+        }
       },
       "name":"Mosaic 03",
-      "inherit":null
-    },
-    "Sketch 02":{
-      "shader":"shader_sketch",
-      "properties":null,
-      "name":"Sketch 02",
       "inherit":null
     },
     "clouds 2d 01":{
       "shader":"shader_clouds_2d",
       "properties":{
+        "iResolution_hide":true,
         "iResolution":{
           "x":{
             "duration":0.0,
@@ -3074,7 +4739,6 @@
             "value":1.0
           }
         },
-        "iResolution_hide":true,
         "iTime_hide":true,
         "iTime":{
           "duration":1040.625,
@@ -3092,24 +4756,18 @@
         "resolution":{
           "value":{
             "x":2560.0,
-            "y":1374.0
+            "y":1440.0
           }
         },
+        "amount_hide":false,
         "amount":{
           "duration":3.0,
           "target":32.0,
           "ease":"IN_QUAD",
           "value":96.0
-        },
-        "amount_hide":false
+        }
       },
       "name":"Mosaic 04",
-      "inherit":null
-    },
-    "Sketch 03":{
-      "shader":"shader_sketch",
-      "properties":null,
-      "name":"Sketch 03",
       "inherit":null
     },
     "Mosaic 05":{
@@ -3118,36 +4776,23 @@
         "resolution":{
           "value":{
             "x":2560.0,
-            "y":1374.0
+            "y":1440.0
           }
         },
+        "amount_hide":true,
         "amount":{
           "duration":26.666666666666668,
           "target":32.0,
           "ease":"LINEAR",
           "value":16.0
-        },
-        "amount_hide":true
+        }
       },
       "name":"Mosaic 05",
-      "inherit":null
-    },
-    "Emboss 02":{
-      "shader":"shader_emboss",
-      "properties":null,
-      "name":"Emboss 02",
-      "inherit":null
-    },
-    "Emboss 03":{
-      "shader":"shader_emboss",
-      "properties":null,
-      "name":"Emboss 03",
       "inherit":null
     },
     "LED 01":{
       "shader":"shader_led",
       "properties":{
-        "ledSize_hide":true,
         "ledSize":{
           "duration":39.966666666666669,
           "target":1000.0,
@@ -3157,30 +4802,24 @@
         "resolution":{
           "value":{
             "x":2560.0,
-            "y":1374.0
+            "y":1440.0
           }
         },
+        "ledSize_hide":true,
+        "brightness_hide":true,
         "brightness":{
           "duration":5.5000000000000009,
           "target":1.3300000000000001,
           "ease":"LINEAR",
           "value":1.0
-        },
-        "brightness_hide":true
+        }
       },
       "name":"LED 01",
-      "inherit":null
-    },
-    "flame 01":{
-      "shader":"shader_flame",
-      "properties":null,
-      "name":"flame 01",
       "inherit":null
     },
     "LED 02":{
       "shader":"shader_led",
       "properties":{
-        "ledSize_hide":true,
         "ledSize":{
           "duration":3.5666666666666669,
           "target":32.0,
@@ -3190,16 +4829,17 @@
         "resolution":{
           "value":{
             "x":2560.0,
-            "y":1374.0
+            "y":1440.0
           }
         },
+        "ledSize_hide":true,
+        "brightness_hide":true,
         "brightness":{
           "duration":8.3333333333333339,
           "target":1.0,
           "ease":"LINEAR",
           "value":1.5
-        },
-        "brightness_hide":true
+        }
       },
       "name":"LED 02",
       "inherit":null
@@ -3228,7 +4868,6 @@
     "LED 03":{
       "shader":"shader_led",
       "properties":{
-        "ledSize_hide":true,
         "ledSize":{
           "duration":100.0,
           "target":80.0,
@@ -3238,16 +4877,17 @@
         "resolution":{
           "value":{
             "x":2560.0,
-            "y":1374.0
+            "y":1440.0
           }
         },
+        "ledSize_hide":true,
+        "brightness_hide":true,
         "brightness":{
           "duration":0.0,
           "target":1.0,
           "ease":"LINEAR",
           "value":1.0
-        },
-        "brightness_hide":true
+        }
       },
       "name":"LED 03",
       "inherit":null
@@ -3276,7 +4916,6 @@
     "LED 04":{
       "shader":"shader_led",
       "properties":{
-        "ledSize_hide":true,
         "ledSize":{
           "duration":8.5333333333333332,
           "target":1024.0,
@@ -3286,16 +4925,17 @@
         "resolution":{
           "value":{
             "x":2560.0,
-            "y":1374.0
+            "y":1440.0
           }
         },
+        "ledSize_hide":true,
+        "brightness_hide":true,
         "brightness":{
           "duration":0.0,
           "target":1.0,
           "ease":"LINEAR",
           "value":1.0
-        },
-        "brightness_hide":true
+        }
       },
       "name":"LED 04",
       "inherit":null
@@ -3329,66 +4969,66 @@
             "value":1024.0
           }
         },
-        "uni_border_corner_size_hide":true,
+        "uni_radial_distortion_amount_hide":true,
         "uni_noise_strength":{
           "duration":93.333333333333314,
           "target":3.0,
           "ease":"LINEAR",
           "value":0.20000000000000001
         },
-        "uni_border_corner_smoothness_hide":true,
+        "uni_timer_hide":true,
         "uni_radial_distortion_amount":{
           "duration":8.2083333333333339,
           "target":2.0,
           "ease":"LINEAR",
           "value":0.029999999999999999
         },
-        "uni_brightness_hide":true,
+        "uni_use_RGB_separation_hide":true,
         "uni_timer":{
           "duration":1041.6666666666667,
           "target":1000.0,
           "ease":"LINEAR",
           "value":0.0
         },
-        "uni_crt_sizes_hide":true,
+        "uni_use_border_hide":true,
         "uni_use_border":{
           "duration":0.0,
           "target":1.0,
           "ease":"LINEAR",
           "value":1.0
         },
-        "uni_noise_strength_hide":true,
+        "uni_use_noise_hide":true,
         "uni_use_noise":{
           "duration":0.0,
           "target":1.0,
           "ease":"LINEAR",
           "value":1.0
         },
-        "uni_radial_distortion_amount_hide":true,
+        "uni_use_radial_distortion_hide":true,
         "uni_use_radial_distortion":{
           "duration":0.0,
           "target":1.0,
           "ease":"LINEAR",
           "value":1.0
         },
+        "uni_use_scanlines_hide":true,
         "uni_use_RGB_separation":{
           "duration":0.0,
           "target":0.0,
           "ease":"LINEAR",
           "value":0.0
         },
-        "uni_timer_hide":true,
-        "uni_use_RGB_separation_hide":true,
+        "uni_border_corner_size_hide":true,
         "uni_use_scanlines":{
           "duration":0.0,
           "target":1.0,
           "ease":"LINEAR",
           "value":1.0
         },
-        "uni_use_border_hide":true,
-        "uni_use_noise_hide":true,
-        "uni_use_radial_distortion_hide":true,
-        "uni_use_scanlines_hide":true,
+        "uni_border_corner_smoothness_hide":true,
+        "uni_brightness_hide":true,
+        "uni_crt_sizes_hide":true,
+        "uni_noise_strength_hide":true,
         "uni_border_corner_size":{
           "duration":19.333333333333336,
           "target":0.66000000000000003,
@@ -3414,23 +5054,23 @@
     "whirlpool 01":{
       "shader":"shader_whirlpool",
       "properties":{
-        "iFactor_hide":true,
         "iFactor":{
           "duration":1.3333333333333333,
           "target":64.0,
           "ease":"LINEAR",
           "value":32.0
         },
-        "iIterations_hide":true,
+        "iFactor_hide":true,
+        "iResolution_hide":true,
         "iIterations":{
           "duration":0.0,
           "target":2.0,
           "ease":"LINEAR",
           "value":2.0
         },
-        "iResolution_hide":true,
-        "iSize_hide":true,
         "iTime_hide":true,
+        "iIterations_hide":true,
+        "iSize_hide":true,
         "iResolution":{
           "x":{
             "duration":0.0,
@@ -3503,1770 +5143,130 @@
       "name":"Posterization 05",
       "inherit":null
     },
-    "Posterization 03":{
-      "shader":"shader_posterization",
-      "properties":{
-        "colorNumber_hide":true,
-        "gamma":{
-          "duration":28.333333333333332,
-          "target":2.0,
-          "ease":"LINEAR",
-          "value":0.29999999999999999
-        },
-        "gamma_hide":true,
-        "colorNumber":{
-          "duration":0.0,
-          "target":9.0,
-          "ease":"LINEAR",
-          "value":7.0
-        }
-      },
-      "name":"Posterization 03",
-      "inherit":null
-    },
-    "LED 05":{
-      "shader":"shader_led",
-      "properties":{
-        "ledSize_hide":true,
-        "ledSize":{
-          "duration":12.929292929292929,
-          "target":512.0,
-          "ease":"LINEAR",
-          "value":1024.0
-        },
-        "resolution":{
-          "value":{
-            "x":2560.0,
-            "y":1374.0
-          }
-        },
-        "brightness":{
-          "duration":0.0,
-          "target":1.0,
-          "ease":"LINEAR",
-          "value":1.0
-        },
-        "brightness_hide":true
-      },
-      "name":"LED 05",
-      "inherit":null
-    },
-    "HUE 01":{
-      "shader":"shader_hue",
-      "properties":{
-        "colorShift":{
-          "duration":10416.666666666666,
-          "target":10000.0,
-          "ease":"LINEAR",
-          "value":0.0
-        },
-        "colorShift_hide":true
-      },
-      "name":"HUE 01",
-      "inherit":null
-    },
-    "HUE 02":{
-      "shader":"shader_hue",
-      "properties":{
-        "colorShift":{
-          "duration":232.28333333333333,
-          "target":10000.0,
-          "ease":"IN_QUAD",
-          "value":66.0
-        },
-        "colorShift_hide":true
-      },
-      "name":"HUE 02",
-      "inherit":null
-    },
-    "warp speed 2 01":{
-      "shader":"shader_warp_speed_2",
-      "properties":{
-        "iSeed":{
-          "x":{
-            "duration":8.3333333333333339,
-            "target":0.29999999999999999,
-            "ease":"LINEAR",
-            "value":0.80000000000000004
-          },
-          "y":{
-            "duration":6.6666666666666661,
-            "target":0.29999999999999999,
-            "ease":"LINEAR",
-            "value":0.10000000000000001
-          },
-          "z":{
-            "duration":0.066666666666666666,
-            "target":0.0050000000000000001,
-            "ease":"LINEAR",
-            "value":0.001
-          }
-        },
-        "iSeed_hide":true,
-        "iSize":{
-          "x":{
-            "duration":1.6666666666666667,
-            "target":2.5,
-            "ease":"LINEAR",
-            "value":0.5
-          },
-          "y":{
-            "duration":2.3333333333333335,
-            "target":1.5,
-            "ease":"LINEAR",
-            "value":0.10000000000000001
-          }
-        },
-        "iTime":{
-          "duration":1030.2083333333333,
-          "target":999.0,
-          "ease":"LINEAR",
-          "value":10.0
-        },
-        "iFactor":{
-          "duration":83.333333333333329,
-          "target":2.0,
-          "ease":"LINEAR",
-          "value":1.5
-        },
-        "iIterations_hide":true,
-        "iIterations":{
-          "duration":0.0,
-          "target":10.0,
-          "ease":"LINEAR",
-          "value":10.0
-        },
-        "iResolution_hide":true,
-        "iSize_hide":true,
-        "iTime_hide":true,
-        "iResolution":{
-          "x":{
-            "duration":83.333333333333329,
-            "target":0.5,
-            "ease":"LINEAR",
-            "value":1.0
-          },
-          "y":{
-            "duration":83.333333333333329,
-            "target":0.5,
-            "ease":"LINEAR",
-            "value":1.0
-          }
-        },
-        "iFactor_hide":true
-      },
-      "name":"warp speed 2 01",
-      "inherit":null
-    },
-    "Ripple 01":{
-      "shader":"shader_ripple",
+    "CineShader Lava 02":{
+      "shader":"shader_cineshader_lava",
       "properties":null,
-      "name":"Ripple 01",
+      "name":"CineShader Lava 02",
       "inherit":null
     },
-    "Ripple 02":{
-      "shader":"shader_ripple",
+    "Wave 01":{
+      "shader":"shader_wave",
       "properties":null,
-      "name":"Ripple 02",
+      "name":"Wave 01",
       "inherit":null
     },
-    "HUE 03":{
-      "shader":"shader_hue",
-      "properties":{
-        "colorShift":{
-          "duration":1666.5,
-          "target":9999.0,
-          "ease":"LINEAR",
-          "value":0.0
-        },
-        "colorShift_hide":true
-      },
-      "name":"HUE 03",
-      "inherit":null
-    },
-    "HUE 04":{
-      "shader":"shader_hue",
-      "properties":{
-        "colorShift":{
-          "duration":505.0,
-          "target":9999.0,
-          "ease":"LINEAR",
-          "value":0.0
-        },
-        "colorShift_hide":true
-      },
-      "name":"HUE 04",
-      "inherit":null
-    },
-    "HUE 05":{
-      "shader":"shader_hue",
-      "properties":{
-        "colorShift":{
-          "duration":252.52525252525251,
-          "target":10000.0,
-          "ease":"LINEAR",
-          "value":0.0
-        },
-        "colorShift_hide":true
-      },
-      "name":"HUE 05",
-      "inherit":null
-    },
-    "Ripple 04":{
-      "shader":"shader_ripple",
+    "Wave 02":{
+      "shader":"shader_wave",
       "properties":null,
-      "name":"Ripple 04",
+      "name":"Wave 02",
       "inherit":null
     },
-    "Ripple 05":{
-      "shader":"shader_ripple",
+    "Wave 03":{
+      "shader":"shader_wave",
       "properties":null,
-      "name":"Ripple 05",
+      "name":"Wave 03",
       "inherit":null
     },
-    "Octagrams 06":{
-      "shader":"shader_octagrams",
-      "properties":{
-        "iHeight_hide":true,
-        "iWidth_hide":true,
-        "iDepth":{
-          "duration":0.0,
-          "target":0.10000000000000001,
-          "ease":"LINEAR",
-          "value":0.10000000000000001
-        },
-        "iTime":{
-          "duration":2066.4583333333335,
-          "target":999.89999999999998,
-          "ease":"LINEAR",
-          "value":8.0
-        },
-        "iFactor":{
-          "duration":0.0,
-          "target":1.5,
-          "ease":"LINEAR",
-          "value":1.5
-        },
-        "iTint":{
-          "x":{
-            "duration":2.2000000000000002,
-            "target":0.66000000000000003,
-            "ease":"LINEAR",
-            "value":0.0
-          },
-          "y":{
-            "duration":1.0416666666666667,
-            "target":0.29999999999999999,
-            "ease":"LINEAR",
-            "value":0.80000000000000004
-          },
-          "z":{
-            "duration":2.7777777777777777,
-            "target":0.5,
-            "ease":"LINEAR",
-            "value":1.0
-          }
-        },
-        "iIterations_hide":true,
-        "iHeight":{
-          "duration":0.0,
-          "target":0.40000000000000002,
-          "ease":"LINEAR",
-          "value":0.40000000000000002
-        },
-        "iWidth":{
-          "duration":0.0,
-          "target":0.40000000000000002,
-          "ease":"LINEAR",
-          "value":0.40000000000000002
-        },
-        "iIterations":{
-          "duration":33.333333333333336,
-          "target":10.0,
-          "ease":"LINEAR",
-          "value":6.0
-        },
-        "iResolution_hide":true,
-        "iTime_hide":true,
-        "iTint_hide":true,
-        "iResolution":{
-          "x":{
-            "duration":25.0,
-            "target":2.0,
-            "ease":"LINEAR",
-            "value":-1.0
-          },
-          "y":{
-            "duration":6.25,
-            "target":1.0,
-            "ease":"LINEAR",
-            "value":4.0
-          }
-        },
-        "iDepth_hide":true,
-        "iFactor_hide":true
-      },
-      "name":"Octagrams 06",
-      "inherit":null
-    },
-    "Abberation":{
-      "shader":"shader_abberation",
+    "Wave 04":{
+      "shader":"shader_wave",
       "properties":null,
-      "name":"Abberation",
+      "name":"Wave 04",
       "inherit":null
     },
-    "Octagrams 01":{
-      "shader":"shader_octagrams",
-      "properties":{
-        "iHeight_hide":true,
-        "iWidth_hide":true,
-        "iDepth":{
-          "duration":100.0,
-          "target":0.59999999999999998,
-          "ease":"LINEAR",
-          "value":0.0
-        },
-        "iTime":{
-          "duration":500.0,
-          "target":10000.0,
-          "ease":"IN_QUAD",
-          "value":0.0
-        },
-        "iFactor":{
-          "duration":20.833333329999999,
-          "target":0.5,
-          "ease":"LINEAR",
-          "value":3.0
-        },
-        "iTint":{
-          "x":{
-            "duration":6.6666666699999997,
-            "target":0.10000000000000001,
-            "ease":"LINEAR",
-            "value":0.5
-          },
-          "y":{
-            "duration":3.3333333299999999,
-            "target":1.0,
-            "ease":"LINEAR",
-            "value":0.0
-          },
-          "z":{
-            "duration":4.1666666699999997,
-            "target":1.0,
-            "ease":"LINEAR",
-            "value":0.5
-          }
-        },
-        "iIterations_hide":true,
-        "iHeight":{
-          "duration":6.6666666699999997,
-          "target":0.5,
-          "ease":"LINEAR",
-          "value":0.10000000000000001
-        },
-        "iWidth":{
-          "duration":6.6666666699999997,
-          "target":0.5,
-          "ease":"LINEAR",
-          "value":0.10000000000000001
-        },
-        "iIterations":{
-          "duration":266.66666666999998,
-          "target":20.0,
-          "ease":"LINEAR",
-          "value":4.0
-        },
-        "iResolution_hide":true,
-        "iTime_hide":false,
-        "iTint_hide":true,
-        "iResolution":{
-          "x":{
-            "duration":16.666666670000001,
-            "target":1.5,
-            "ease":"LINEAR",
-            "value":0.5
-          },
-          "y":{
-            "duration":25.0,
-            "target":0.5,
-            "ease":"LINEAR",
-            "value":2.0
-          }
-        },
-        "iDepth_hide":true,
-        "iFactor_hide":true
-      },
-      "name":"Octagrams 01",
-      "inherit":null
-    },
-    "Octagrams 02":{
-      "shader":"shader_octagrams",
-      "properties":{
-        "iHeight_hide":true,
-        "iWidth_hide":true,
-        "iDepth":{
-          "duration":0.0,
-          "target":0.10000000000000001,
-          "ease":"LINEAR",
-          "value":0.10000000000000001
-        },
-        "iTime":{
-          "duration":10282.291666666666,
-          "target":9999.0,
-          "ease":"LINEAR",
-          "value":128.0
-        },
-        "iFactor":{
-          "duration":0.0,
-          "target":1.5,
-          "ease":"LINEAR",
-          "value":1.5
-        },
-        "iTint":{
-          "x":{
-            "duration":0.0,
-            "target":1.0,
-            "ease":"LINEAR",
-            "value":1.0
-          },
-          "y":{
-            "duration":0.0,
-            "target":1.0,
-            "ease":"LINEAR",
-            "value":1.0
-          },
-          "z":{
-            "duration":0.0,
-            "target":1.0,
-            "ease":"LINEAR",
-            "value":1.0
-          }
-        },
-        "iIterations_hide":true,
-        "iHeight":{
-          "duration":0.0,
-          "target":0.40000000000000002,
-          "ease":"LINEAR",
-          "value":0.40000000000000002
-        },
-        "iWidth":{
-          "duration":0.0,
-          "target":0.40000000000000002,
-          "ease":"LINEAR",
-          "value":0.40000000000000002
-        },
-        "iIterations":{
-          "duration":50.0,
-          "target":3.0,
-          "ease":"LINEAR",
-          "value":6.0
-        },
-        "iResolution_hide":true,
-        "iTime_hide":true,
-        "iTint_hide":true,
-        "iResolution":{
-          "x":{
-            "duration":14.166666666666666,
-            "target":5.0,
-            "ease":"LINEAR",
-            "value":0.75
-          },
-          "y":{
-            "duration":23.333333333333329,
-            "target":1.3999999999999999,
-            "ease":"LINEAR",
-            "value":0.0
-          }
-        },
-        "iDepth_hide":true,
-        "iFactor_hide":true
-      },
-      "name":"Octagrams 02",
-      "inherit":null
-    },
-    "Octagrams 03":{
-      "shader":"shader_octagrams",
-      "properties":{
-        "iHeight_hide":true,
-        "iWidth_hide":true,
-        "iDepth":{
-          "duration":24.166666666666664,
-          "target":0.29999999999999999,
-          "ease":"LINEAR",
-          "value":0.01
-        },
-        "iTime":{
-          "duration":10346.875,
-          "target":9999.0,
-          "ease":"LINEAR",
-          "value":66.0
-        },
-        "iFactor":{
-          "duration":25.0,
-          "target":3.0,
-          "ease":"LINEAR",
-          "value":1.5
-        },
-        "iTint":{
-          "x":{
-            "duration":0.013333333333333334,
-            "target":0.80000000000000004,
-            "ease":"LINEAR",
-            "value":0.0
-          },
-          "y":{
-            "duration":0.010000000000000002,
-            "target":0.29999999999999999,
-            "ease":"LINEAR",
-            "value":0.90000000000000002
-          },
-          "z":{
-            "duration":0.013500000000000002,
-            "target":0.91000000000000003,
-            "ease":"LINEAR",
-            "value":0.10000000000000001
-          }
-        },
-        "iIterations_hide":true,
-        "iHeight":{
-          "duration":6.666666666666667,
-          "target":0.20000000000000001,
-          "ease":"LINEAR",
-          "value":0.40000000000000002
-        },
-        "iWidth":{
-          "duration":6.666666666666667,
-          "target":0.20000000000000001,
-          "ease":"LINEAR",
-          "value":0.40000000000000002
-        },
-        "iIterations":{
-          "duration":283.33333333333331,
-          "target":20.0,
-          "ease":"LINEAR",
-          "value":3.0
-        },
-        "iResolution_hide":true,
-        "iTime_hide":true,
-        "iTint_hide":true,
-        "iResolution":{
-          "x":{
-            "duration":10.0,
-            "target":1.0,
-            "ease":"LINEAR",
-            "value":4.0
-          },
-          "y":{
-            "duration":33.333333333333336,
-            "target":0.0,
-            "ease":"LINEAR",
-            "value":2.0
-          }
-        },
-        "iDepth_hide":true,
-        "iFactor_hide":true
-      },
-      "name":"Octagrams 03",
-      "inherit":null
-    },
-    "Scanlines 01":{
-      "shader":"shader_scanlines",
+    "Wave 05":{
+      "shader":"shader_wave",
       "properties":null,
-      "name":"Scanlines 01",
+      "name":"Wave 05",
       "inherit":null
     },
-    "Octagrams 04":{
-      "shader":"shader_octagrams",
-      "properties":{
-        "iHeight_hide":true,
-        "iWidth_hide":true,
-        "iDepth":{
-          "duration":33.333333333333329,
-          "target":0.29999999999999999,
-          "ease":"LINEAR",
-          "value":0.10000000000000001
-        },
-        "iTime":{
-          "duration":58.533333333333331,
-          "target":999.89999999999998,
-          "ease":"IN_QUAD",
-          "value":5.0
-        },
-        "iFactor":{
-          "duration":111.66666666666666,
-          "target":2.0,
-          "ease":"LINEAR",
-          "value":1.3300000000000001
-        },
-        "iTint":{
-          "x":{
-            "duration":4.166666666666667,
-            "target":1.0,
-            "ease":"LINEAR",
-            "value":0.5
-          },
-          "y":{
-            "duration":8.3333333333333339,
-            "target":1.0,
-            "ease":"LINEAR",
-            "value":0.0
-          },
-          "z":{
-            "duration":6.666666666666667,
-            "target":0.20000000000000001,
-            "ease":"LINEAR",
-            "value":1.0
-          }
-        },
-        "iIterations_hide":true,
-        "iHeight":{
-          "duration":0.33333333333333326,
-          "target":0.59999999999999998,
-          "ease":"LINEAR",
-          "value":0.40000000000000002
-        },
-        "iWidth":{
-          "duration":0.33333333333333326,
-          "target":0.59999999999999998,
-          "ease":"LINEAR",
-          "value":0.40000000000000002
-        },
-        "iIterations":{
-          "duration":50.0,
-          "target":3.0,
-          "ease":"LINEAR",
-          "value":6.0
-        },
-        "iResolution_hide":true,
-        "iTime_hide":true,
-        "iTint_hide":true,
-        "iResolution":{
-          "x":{
-            "duration":16.666666666666668,
-            "target":0.0,
-            "ease":"LINEAR",
-            "value":1.0
-          },
-          "y":{
-            "duration":16.666666666666668,
-            "target":0.0,
-            "ease":"LINEAR",
-            "value":1.0
-          }
-        },
-        "iDepth_hide":true,
-        "iFactor_hide":true
-      },
-      "name":"Octagrams 04",
-      "inherit":null
-    },
-    "Scanlines 02":{
-      "shader":"shader_scanlines",
+    "Magnify 01":{
+      "shader":"shader_magnify",
       "properties":null,
-      "name":"Scanlines 02",
+      "name":"Magnify 01",
       "inherit":null
     },
-    "Octagrams 05":{
-      "shader":"shader_octagrams",
-      "properties":{
-        "iHeight_hide":true,
-        "iWidth_hide":true,
-        "iDepth":{
-          "duration":0.0,
-          "target":0.10000000000000001,
-          "ease":"LINEAR",
-          "value":0.10000000000000001
-        },
-        "iTime":{
-          "duration":1899.7916666666667,
-          "target":999.89999999999998,
-          "ease":"LINEAR",
-          "value":88.0
-        },
-        "iFactor":{
-          "duration":0.0,
-          "target":1.5,
-          "ease":"LINEAR",
-          "value":1.5
-        },
-        "iTint":{
-          "x":{
-            "duration":0.66666666666666652,
-            "target":0.80000000000000004,
-            "ease":"LINEAR",
-            "value":1.0
-          },
-          "y":{
-            "duration":2.0833333333333335,
-            "target":1.0,
-            "ease":"LINEAR",
-            "value":0.0
-          },
-          "z":{
-            "duration":0.0,
-            "target":1.0,
-            "ease":"LINEAR",
-            "value":1.0
-          }
-        },
-        "iIterations_hide":true,
-        "iHeight":{
-          "duration":0.0,
-          "target":0.40000000000000002,
-          "ease":"LINEAR",
-          "value":0.40000000000000002
-        },
-        "iWidth":{
-          "duration":0.0,
-          "target":0.40000000000000002,
-          "ease":"LINEAR",
-          "value":0.40000000000000002
-        },
-        "iIterations":{
-          "duration":66.666666666666671,
-          "target":8.0,
-          "ease":"LINEAR",
-          "value":4.0
-        },
-        "iResolution_hide":true,
-        "iTime_hide":true,
-        "iTint_hide":true,
-        "iResolution":{
-          "x":{
-            "duration":10.25,
-            "target":-3.0,
-            "ease":"IN_QUAD",
-            "value":2.0
-          },
-          "y":{
-            "duration":7.5,
-            "target":0.75,
-            "ease":"LINEAR",
-            "value":3.0
-          }
-        },
-        "iDepth_hide":true,
-        "iFactor_hide":true
-      },
-      "name":"Octagrams 05",
-      "inherit":null
-    },
-    "Revert":{
-      "shader":"shader_revert",
+    "Magnify 02":{
+      "shader":"shader_magnify",
       "properties":null,
-      "name":"Revert",
+      "name":"Magnify 02",
       "inherit":null
     },
-    "Scanlines 03":{
-      "shader":"shader_scanlines",
+    "Shock-wave 01":{
+      "shader":"shader_shock_wave",
       "properties":null,
-      "name":"Scanlines 03",
+      "name":"Shock-wave 01",
       "inherit":null
     },
-    "Emboss 01":{
-      "shader":"shader_emboss",
+    "lighting with glow 02":{
+      "shader":"shader_lighting_with_glow",
       "properties":null,
-      "name":"Emboss 01",
+      "name":"lighting with glow 02",
       "inherit":null
     },
-    "CRT 02":{
-      "shader":"shader_crt",
-      "properties":{
-        "uni_crt_sizes":{
-          "x":{
-            "duration":0.0,
-            "target":256.0,
-            "ease":"LINEAR",
-            "value":256.0
-          },
-          "y":{
-            "duration":42.666666666666664,
-            "target":512.0,
-            "ease":"LINEAR",
-            "value":256.0
-          },
-          "z":{
-            "duration":0.0,
-            "target":1024.0,
-            "ease":"LINEAR",
-            "value":1024.0
-          },
-          "a":{
-            "duration":0.0,
-            "target":1024.0,
-            "ease":"LINEAR",
-            "value":1024.0
-          }
-        },
-        "uni_border_corner_size_hide":true,
-        "uni_noise_strength":{
-          "duration":16.666666666666668,
-          "target":0.10000000000000001,
-          "ease":"LINEAR",
-          "value":0.20000000000000001
-        },
-        "uni_border_corner_smoothness_hide":true,
-        "uni_radial_distortion_amount":{
-          "duration":14.791666666666664,
-          "target":1.5,
-          "ease":"LINEAR",
-          "value":0.080000000000000002
-        },
-        "uni_brightness_hide":true,
-        "uni_timer":{
-          "duration":1041.6666666666667,
-          "target":1000.0,
-          "ease":"LINEAR",
-          "value":0.0
-        },
-        "uni_crt_sizes_hide":true,
-        "uni_use_border":{
-          "duration":0.0,
-          "target":1.0,
-          "ease":"LINEAR",
-          "value":1.0
-        },
-        "uni_noise_strength_hide":true,
-        "uni_use_noise":{
-          "duration":0.0,
-          "target":1.0,
-          "ease":"LINEAR",
-          "value":1.0
-        },
-        "uni_radial_distortion_amount_hide":true,
-        "uni_use_radial_distortion":{
-          "duration":0.0,
-          "target":1.0,
-          "ease":"LINEAR",
-          "value":1.0
-        },
-        "uni_use_RGB_separation":{
-          "duration":0.016666666666666666,
-          "target":0.0,
-          "ease":"LINEAR",
-          "value":1.0
-        },
-        "uni_timer_hide":true,
-        "uni_use_RGB_separation_hide":true,
-        "uni_use_scanlines":{
-          "duration":0.0,
-          "target":0.0,
-          "ease":"LINEAR",
-          "value":0.0
-        },
-        "uni_use_border_hide":true,
-        "uni_use_noise_hide":true,
-        "uni_use_radial_distortion_hide":true,
-        "uni_use_scanlines_hide":true,
-        "uni_border_corner_size":{
-          "duration":110.0,
-          "target":0.66000000000000003,
-          "ease":"LINEAR",
-          "value":0.0
-        },
-        "uni_border_corner_smoothness":{
-          "duration":20.0,
-          "target":200.0,
-          "ease":"LINEAR",
-          "value":80.0
-        },
-        "uni_brightness":{
-          "duration":0.0,
-          "target":1.0,
-          "ease":"LINEAR",
-          "value":1.0
-        }
-      },
-      "name":"CRT 02",
-      "inherit":null
-    },
-    "Thermal":{
-      "shader":"shader_thermal",
+    "lighting with glow 03":{
+      "shader":"shader_lighting_with_glow",
       "properties":null,
-      "name":"Thermal",
+      "name":"lighting with glow 03",
       "inherit":null
     },
-    "Phantom Star 01":{
-      "shader":"shader_phantom_star",
-      "properties":{
-        "sizeA_hide":true,
-        "sizeB_hide":true,
-        "iTime":{
-          "duration":1041.5625,
-          "target":999.89999999999998,
-          "ease":"LINEAR",
-          "value":0.0
-        },
-        "iTint":{
-          "x":{
-            "duration":6.583333333333333,
-            "target":0.89000000000000001,
-            "ease":"LINEAR",
-            "value":0.10000000000000001
-          },
-          "y":{
-            "duration":5.0000000000000009,
-            "target":0.10000000000000001,
-            "ease":"LINEAR",
-            "value":0.40000000000000002
-          },
-          "z":{
-            "duration":2.6666666666666665,
-            "target":0.10000000000000001,
-            "ease":"LINEAR",
-            "value":0.90000000000000002
-          }
-        },
-        "iIterations_hide":true,
-        "sizeA":{
-          "duration":5.333333333333333,
-          "target":32.0,
-          "ease":"LINEAR",
-          "value":16.0
-        },
-        "sizeB":{
-          "duration":6.666666666666667,
-          "target":2.0,
-          "ease":"LINEAR",
-          "value":10.0
-        },
-        "iResolution_hide":true,
-        "iIterations":{
-          "duration":0.0,
-          "target":2.0,
-          "ease":"LINEAR",
-          "value":2.0
-        },
-        "iTime_hide":true,
-        "iTint_hide":true,
-        "iResolution":{
-          "x":{
-            "duration":16.666666666666668,
-            "target":2.0,
-            "ease":"LINEAR",
-            "value":1.0
-          },
-          "y":{
-            "duration":16.666666666666668,
-            "target":1.0,
-            "ease":"LINEAR",
-            "value":0.0
-          }
-        }
-      },
-      "name":"Phantom Star 01",
-      "inherit":null
-    },
-    "70s Melt 03":{
-      "shader":"shader_70s_melt",
-      "properties":{
-        "iFactor_hide":true,
-        "iTint":{
-          "x":{
-            "duration":0.0,
-            "target":0.0,
-            "ease":"IN_OUT_QUINT",
-            "value":0.0
-          },
-          "y":{
-            "duration":0.0,
-            "target":0.0,
-            "ease":"IN_OUT_QUINT",
-            "value":0.0
-          },
-          "z":{
-            "duration":0.0,
-            "target":0.0,
-            "ease":"IN_OUT_QUINT",
-            "value":0.0
-          }
-        },
-        "iFactor":{
-          "duration":0.0,
-          "target":0.0,
-          "ease":"LINEAR",
-          "value":0.0
-        },
-        "iResolution_hide":true,
-        "iTime_hide":true,
-        "iMix":{
-          "duration":0.0,
-          "target":0.0,
-          "ease":"LINEAR",
-          "value":0.0
-        },
-        "iTint_hide":true,
-        "iMix_hide":true,
-        "iResolution":{
-          "x":{
-            "duration":33.333333333333336,
-            "target":-1.0,
-            "ease":"LINEAR",
-            "value":-3.0
-          },
-          "y":{
-            "duration":25.0,
-            "target":-0.5,
-            "ease":"LINEAR",
-            "value":-2.0
-          }
-        },
-        "iTime":{
-          "duration":1040.625,
-          "target":0.0,
-          "ease":"LINEAR",
-          "value":999.0
-        }
-      },
-      "name":"70s Melt 03",
-      "inherit":null
-    },
-    "70s Melt 04":{
-      "shader":"shader_70s_melt",
-      "properties":{
-        "iFactor_hide":true,
-        "iTint":{
-          "x":{
-            "duration":0.0,
-            "target":0.0,
-            "ease":"IN_OUT_QUINT",
-            "value":0.0
-          },
-          "y":{
-            "duration":0.0,
-            "target":0.0,
-            "ease":"IN_OUT_QUINT",
-            "value":0.0
-          },
-          "z":{
-            "duration":0.0,
-            "target":0.0,
-            "ease":"IN_OUT_QUINT",
-            "value":0.0
-          }
-        },
-        "iFactor":{
-          "duration":51.899999999999999,
-          "target":100.0,
-          "ease":"IN_QUAD",
-          "value":0.0
-        },
-        "iResolution_hide":true,
-        "iTime_hide":true,
-        "iMix":{
-          "duration":0.0,
-          "target":0.0,
-          "ease":"LINEAR",
-          "value":0.0
-        },
-        "iTint_hide":true,
-        "iMix_hide":true,
-        "iResolution":{
-          "x":{
-            "duration":14.833333333333334,
-            "target":-10.0,
-            "ease":"IN_QUAD",
-            "value":-2.0
-          },
-          "y":{
-            "duration":1333.3333333333333,
-            "target":-2.0,
-            "ease":"LINEAR",
-            "value":-10.0
-          }
-        },
-        "iTime":{
-          "duration":65516.666666666664,
-          "target":9999.0,
-          "ease":"LINEAR",
-          "value":2137.0
-        }
-      },
-      "name":"70s Melt 04",
-      "inherit":null
-    },
-    "70s Melt 05":{
-      "shader":"shader_70s_melt",
-      "properties":{
-        "iFactor_hide":true,
-        "iTint":{
-          "x":{
-            "duration":0.0,
-            "target":0.0,
-            "ease":"IN_OUT_QUINT",
-            "value":0.0
-          },
-          "y":{
-            "duration":0.0,
-            "target":0.0,
-            "ease":"IN_OUT_QUINT",
-            "value":0.0
-          },
-          "z":{
-            "duration":0.0,
-            "target":0.0,
-            "ease":"IN_OUT_QUINT",
-            "value":0.0
-          }
-        },
-        "iFactor":{
-          "duration":0.0,
-          "target":0.0,
-          "ease":"LINEAR",
-          "value":0.0
-        },
-        "iResolution_hide":true,
-        "iTime_hide":true,
-        "iMix":{
-          "duration":0.0,
-          "target":0.0,
-          "ease":"LINEAR",
-          "value":0.0
-        },
-        "iTint_hide":true,
-        "iMix_hide":true,
-        "iResolution":{
-          "x":{
-            "duration":48.611111111111114,
-            "target":-2.0,
-            "ease":"LINEAR",
-            "value":-5.5
-          },
-          "y":{
-            "duration":51.3888888888889,
-            "target":-6.0,
-            "ease":"LINEAR",
-            "value":-2.2999999999999998
-          }
-        },
-        "iTime":{
-          "duration":5570.833333333333,
-          "target":0.0,
-          "ease":"LINEAR",
-          "value":1337.0
-        }
-      },
-      "name":"70s Melt 05",
-      "inherit":null
-    },
-    "ui noise halo 01":{
-      "shader":"shader_ui_noise_halo",
+    "lighting with glow 01":{
+      "shader":"shader_lighting_with_glow",
       "properties":null,
-      "name":"ui noise halo 01",
+      "name":"lighting with glow 01",
       "inherit":null
     },
-    "ART 02":{
-      "shader":"shader_art",
-      "properties":{
-        "iIterations_hide":true,
-        "iIterations":{
-          "duration":0.0,
-          "target":8.0,
-          "ease":"LINEAR",
-          "value":8.0
-        },
-        "iResolution_hide":true,
-        "iTime_hide":true,
-        "iResolution":{
-          "x":{
-            "duration":0.0,
-            "target":1.0,
-            "ease":"LINEAR",
-            "value":1.0
-          },
-          "y":{
-            "duration":12.916666666666666,
-            "target":16.0,
-            "ease":"IN_QUAD",
-            "value":0.25
-          }
-        },
-        "iTime":{
-          "duration":9165.625,
-          "target":9999.0,
-          "ease":"LINEAR",
-          "value":1200.0
-        }
-      },
-      "name":"ART 02",
+    "CineShader Lava 01":{
+      "shader":"shader_cineshader_lava",
+      "properties":null,
+      "name":"CineShader Lava 01",
       "inherit":null
     },
-    "Sincos 3D 01":{
-      "shader":"shader_sincos_3d",
-      "properties":{
-        "pointRadius":{
-          "duration":33.333333333333336,
-          "target":0.40000000000000002,
-          "ease":"LINEAR",
-          "value":0.20000000000000001
-        },
-        "lineThickness":{
-          "duration":33.333333333333329,
-          "target":0.29999999999999999,
-          "ease":"LINEAR",
-          "value":0.10000000000000001
-        },
-        "iResolution_hide":true,
-        "iTime_hide":true,
-        "iMouse":{
-          "x":{
-            "duration":166.66666666666666,
-            "target":1.0,
-            "ease":"LINEAR",
-            "value":0.0
-          },
-          "y":{
-            "duration":166.66666666666666,
-            "target":0.0,
-            "ease":"LINEAR",
-            "value":1.0
-          },
-          "z":{
-            "duration":0.0,
-            "target":1.0,
-            "ease":"LINEAR",
-            "value":1.0
-          },
-          "a":{
-            "duration":0.0,
-            "target":1.0,
-            "ease":"LINEAR",
-            "value":1.0
-          }
-        },
-        "iMouse_hide":true,
-        "iResolution":{
-          "x":{
-            "duration":66.666666666666671,
-            "target":0.0,
-            "ease":"LINEAR",
-            "value":2.0
-          },
-          "y":{
-            "duration":33.333333333333336,
-            "target":2.0,
-            "ease":"LINEAR",
-            "value":1.0
-          },
-          "z":{
-            "duration":0.0,
-            "target":1.0,
-            "ease":"LINEAR",
-            "value":1.0
-          }
-        },
-        "lineThickness_hide":true,
-        "pointRadius_hide":true,
-        "iTime":{
-          "duration":3330.0,
-          "target":999.0,
-          "ease":"LINEAR",
-          "value":0.0
-        }
-      },
-      "name":"Sincos 3D 01",
+    "Dive to Cloud 01":{
+      "shader":"shader_dive_to_cloud",
+      "properties":null,
+      "name":"Dive to Cloud 01",
       "inherit":null
     },
-    "CRT 03":{
-      "shader":"shader_crt",
-      "properties":{
-        "uni_crt_sizes":{
-          "x":{
-            "duration":0.0,
-            "target":256.0,
-            "ease":"LINEAR",
-            "value":256.0
-          },
-          "y":{
-            "duration":42.666666666666664,
-            "target":512.0,
-            "ease":"LINEAR",
-            "value":256.0
-          },
-          "z":{
-            "duration":0.0,
-            "target":1024.0,
-            "ease":"LINEAR",
-            "value":1024.0
-          },
-          "a":{
-            "duration":0.0,
-            "target":1024.0,
-            "ease":"LINEAR",
-            "value":1024.0
-          }
-        },
-        "uni_border_corner_size_hide":true,
-        "uni_noise_strength":{
-          "duration":16.666666666666668,
-          "target":0.10000000000000001,
-          "ease":"LINEAR",
-          "value":0.20000000000000001
-        },
-        "uni_border_corner_smoothness_hide":true,
-        "uni_radial_distortion_amount":{
-          "duration":14.791666666666664,
-          "target":1.5,
-          "ease":"LINEAR",
-          "value":0.080000000000000002
-        },
-        "uni_brightness_hide":true,
-        "uni_timer":{
-          "duration":1041.6666666666667,
-          "target":1000.0,
-          "ease":"LINEAR",
-          "value":0.0
-        },
-        "uni_crt_sizes_hide":true,
-        "uni_use_border":{
-          "duration":0.0,
-          "target":1.0,
-          "ease":"LINEAR",
-          "value":1.0
-        },
-        "uni_noise_strength_hide":true,
-        "uni_use_noise":{
-          "duration":0.0,
-          "target":1.0,
-          "ease":"LINEAR",
-          "value":1.0
-        },
-        "uni_radial_distortion_amount_hide":true,
-        "uni_use_radial_distortion":{
-          "duration":0.0,
-          "target":1.0,
-          "ease":"LINEAR",
-          "value":1.0
-        },
-        "uni_use_RGB_separation":{
-          "duration":0.016666666666666666,
-          "target":0.0,
-          "ease":"LINEAR",
-          "value":1.0
-        },
-        "uni_timer_hide":true,
-        "uni_use_RGB_separation_hide":true,
-        "uni_use_scanlines":{
-          "duration":0.0,
-          "target":0.0,
-          "ease":"LINEAR",
-          "value":0.0
-        },
-        "uni_use_border_hide":true,
-        "uni_use_noise_hide":true,
-        "uni_use_radial_distortion_hide":true,
-        "uni_use_scanlines_hide":true,
-        "uni_border_corner_size":{
-          "duration":110.0,
-          "target":0.66000000000000003,
-          "ease":"LINEAR",
-          "value":0.0
-        },
-        "uni_border_corner_smoothness":{
-          "duration":20.0,
-          "target":200.0,
-          "ease":"LINEAR",
-          "value":80.0
-        },
-        "uni_brightness":{
-          "duration":0.0,
-          "target":1.0,
-          "ease":"LINEAR",
-          "value":1.0
-        }
-      },
-      "name":"CRT 03",
+    "Shock-wave 02":{
+      "shader":"shader_shock_wave",
+      "properties":null,
+      "name":"Shock-wave 02",
       "inherit":null
     },
-    "Phantom Star 06":{
-      "shader":"shader_phantom_star",
-      "properties":{
-        "sizeA_hide":true,
-        "sizeB_hide":true,
-        "iTime":{
-          "duration":12915.277777777777,
-          "target":9999.0,
-          "ease":"LINEAR",
-          "value":700.0
-        },
-        "iTint":{
-          "x":{
-            "duration":3.1666666666666665,
-            "target":0.01,
-            "ease":"LINEAR",
-            "value":0.20000000000000001
-          },
-          "y":{
-            "duration":6.6666666666666661,
-            "target":0.69999999999999996,
-            "ease":"LINEAR",
-            "value":0.29999999999999999
-          },
-          "z":{
-            "duration":1.6666666666666665,
-            "target":0.14999999999999999,
-            "ease":"LINEAR",
-            "value":0.050000000000000003
-          }
-        },
-        "iIterations_hide":true,
-        "sizeA":{
-          "duration":0.0,
-          "target":30.0,
-          "ease":"LINEAR",
-          "value":30.0
-        },
-        "sizeB":{
-          "duration":333.33333333333331,
-          "target":1.0,
-          "ease":"LINEAR",
-          "value":5.0
-        },
-        "iResolution_hide":true,
-        "iIterations":{
-          "duration":133.33333333333334,
-          "target":5.0,
-          "ease":"LINEAR",
-          "value":1.0
-        },
-        "iTime_hide":true,
-        "iTint_hide":true,
-        "iResolution":{
-          "x":{
-            "duration":0.0,
-            "target":1.0,
-            "ease":"LINEAR",
-            "value":1.0
-          },
-          "y":{
-            "duration":0.0,
-            "target":1.0,
-            "ease":"LINEAR",
-            "value":1.0
-          }
-        }
-      },
-      "name":"Phantom Star 06",
+    "Magnify 04":{
+      "shader":"shader_magnify",
+      "properties":null,
+      "name":"Magnify 04",
       "inherit":null
     },
-    "ART 03":{
-      "shader":"shader_art",
-      "properties":{
-        "iIterations_hide":true,
-        "iIterations":{
-          "duration":0.0,
-          "target":6.0,
-          "ease":"LINEAR",
-          "value":6.0
-        },
-        "iResolution_hide":true,
-        "iTime_hide":true,
-        "iResolution":{
-          "x":{
-            "duration":66.666666666666671,
-            "target":-2.0,
-            "ease":"LINEAR",
-            "value":2.0
-          },
-          "y":{
-            "duration":0.0,
-            "target":1.0,
-            "ease":"LINEAR",
-            "value":1.0
-          }
-        },
-        "iTime":{
-          "duration":32590.0,
-          "target":9999.0,
-          "ease":"LINEAR",
-          "value":222.0
-        }
-      },
-      "name":"ART 03",
+    "Shock-wave 03":{
+      "shader":"shader_shock_wave",
+      "properties":null,
+      "name":"Shock-wave 03",
       "inherit":null
     },
-    "ART 04":{
-      "shader":"shader_art",
-      "properties":{
-        "iIterations_hide":true,
-        "iIterations":{
-          "duration":400.0,
-          "target":8.0,
-          "ease":"LINEAR",
-          "value":32.0
-        },
-        "iResolution_hide":true,
-        "iTime_hide":true,
-        "iResolution":{
-          "x":{
-            "duration":0.0,
-            "target":1.0,
-            "ease":"LINEAR",
-            "value":1.0
-          },
-          "y":{
-            "duration":0.0,
-            "target":1.0,
-            "ease":"LINEAR",
-            "value":1.0
-          }
-        },
-        "iTime":{
-          "duration":742.77777777777783,
-          "target":0.0,
-          "ease":"LINEAR",
-          "value":1337.0
-        }
-      },
-      "name":"ART 04",
+    "Magnify 05":{
+      "shader":"shader_magnify",
+      "properties":null,
+      "name":"Magnify 05",
       "inherit":null
     },
-    "ART 05":{
-      "shader":"shader_art",
-      "properties":{
-        "iIterations_hide":true,
-        "iIterations":{
-          "duration":12.883333333333333,
-          "target":256.0,
-          "ease":"IN_QUAD",
-          "value":16.0
-        },
-        "iResolution_hide":true,
-        "iTime_hide":true,
-        "iResolution":{
-          "x":{
-            "duration":0.0,
-            "target":1.0,
-            "ease":"LINEAR",
-            "value":1.0
-          },
-          "y":{
-            "duration":41.033333333333331,
-            "target":1000.0,
-            "ease":"IN_QUAD",
-            "value":0.5
-          }
-        },
-        "iTime":{
-          "duration":10290.625,
-          "target":9999.0,
-          "ease":"LINEAR",
-          "value":120.0
-        }
-      },
-      "name":"ART 05",
+    "Shock-wave 04":{
+      "shader":"shader_shock_wave",
+      "properties":null,
+      "name":"Shock-wave 04",
       "inherit":null
     },
-    "70s Melt 01":{
-      "shader":"shader_70s_melt",
-      "properties":{
-        "iFactor_hide":true,
-        "iTint":{
-          "x":{
-            "duration":0.0,
-            "target":0.0,
-            "ease":"IN_OUT_QUINT",
-            "value":0.0
-          },
-          "y":{
-            "duration":0.0,
-            "target":0.0,
-            "ease":"IN_OUT_QUINT",
-            "value":0.0
-          },
-          "z":{
-            "duration":0.0,
-            "target":0.0,
-            "ease":"IN_OUT_QUINT",
-            "value":0.0
-          }
-        },
-        "iFactor":{
-          "duration":0.0,
-          "target":0.0,
-          "ease":"LINEAR",
-          "value":0.0
-        },
-        "iResolution_hide":true,
-        "iTime_hide":true,
-        "iMix":{
-          "duration":0.0,
-          "target":0.0,
-          "ease":"LINEAR",
-          "value":0.0
-        },
-        "iTint_hide":true,
-        "iMix_hide":true,
-        "iResolution":{
-          "x":{
-            "duration":83.333333333333329,
-            "target":-0.5,
-            "ease":"LINEAR",
-            "value":-1.5
-          },
-          "y":{
-            "duration":166.66666666666666,
-            "target":1.5,
-            "ease":"LINEAR",
-            "value":-0.5
-          }
-        },
-        "iTime":{
-          "duration":1453.3333333333333,
-          "target":999.0,
-          "ease":"LINEAR",
-          "value":127.0
-        }
-      },
-      "name":"70s Melt 01",
+    "Shock-wave 05":{
+      "shader":"shader_shock_wave",
+      "properties":null,
+      "name":"Shock-wave 05",
       "inherit":null
     },
-    "CRT 01":{
-      "shader":"shader_crt",
-      "properties":{
-        "uni_crt_sizes":{
-          "x":{
-            "duration":0.0,
-            "target":256.0,
-            "ease":"LINEAR",
-            "value":256.0
-          },
-          "y":{
-            "duration":0.0,
-            "target":256.0,
-            "ease":"LINEAR",
-            "value":256.0
-          },
-          "z":{
-            "duration":0.0,
-            "target":1024.0,
-            "ease":"LINEAR",
-            "value":1024.0
-          },
-          "a":{
-            "duration":0.0,
-            "target":1024.0,
-            "ease":"LINEAR",
-            "value":1024.0
-          }
-        },
-        "uni_border_corner_size_hide":true,
-        "uni_noise_strength":{
-          "duration":0.0,
-          "target":0.17499999999999999,
-          "ease":"LINEAR",
-          "value":0.17499999999999999
-        },
-        "uni_border_corner_smoothness_hide":true,
-        "uni_radial_distortion_amount":{
-          "duration":0.0,
-          "target":0.12,
-          "ease":"LINEAR",
-          "value":0.12
-        },
-        "uni_brightness_hide":true,
-        "uni_timer":{
-          "duration":1000.0,
-          "target":1000.0,
-          "ease":"LINEAR",
-          "value":0.0
-        },
-        "uni_crt_sizes_hide":true,
-        "uni_use_border":{
-          "duration":0.0,
-          "target":1.0,
-          "ease":"LINEAR",
-          "value":1.0
-        },
-        "uni_noise_strength_hide":true,
-        "uni_use_noise":{
-          "duration":0.0,
-          "target":1.0,
-          "ease":"LINEAR",
-          "value":1.0
-        },
-        "uni_radial_distortion_amount_hide":true,
-        "uni_use_radial_distortion":{
-          "duration":0.0,
-          "target":1.0,
-          "ease":"LINEAR",
-          "value":1.0
-        },
-        "uni_use_RGB_separation":{
-          "duration":0.0,
-          "target":1.0,
-          "ease":"LINEAR",
-          "value":1.0
-        },
-        "uni_timer_hide":true,
-        "uni_use_RGB_separation_hide":true,
-        "uni_use_scanlines":{
-          "duration":0.0,
-          "target":1.0,
-          "ease":"LINEAR",
-          "value":1.0
-        },
-        "uni_use_border_hide":true,
-        "uni_use_noise_hide":true,
-        "uni_use_radial_distortion_hide":true,
-        "uni_use_scanlines_hide":true,
-        "uni_border_corner_size":{
-          "duration":0.0,
-          "target":0.029999999999999999,
-          "ease":"LINEAR",
-          "value":0.029999999999999999
-        },
-        "uni_border_corner_smoothness":{
-          "duration":0.0,
-          "target":80.0,
-          "ease":"LINEAR",
-          "value":80.0
-        },
-        "uni_brightness":{
-          "duration":0.0,
-          "target":1.0,
-          "ease":"LINEAR",
-          "value":1.0
-        }
-      },
-      "name":"CRT 01",
-      "inherit":null
-    },
-    "ART 01":{
-      "shader":"shader_art",
-      "properties":{
-        "iIterations_hide":true,
-        "iIterations":{
-          "duration":0.0,
-          "target":8.0,
-          "ease":"LINEAR",
-          "value":8.0
-        },
-        "iResolution_hide":true,
-        "iTime_hide":true,
-        "iResolution":{
-          "x":{
-            "duration":6.666666666666667,
-            "target":2.0,
-            "ease":"LINEAR",
-            "value":0.0
-          },
-          "y":{
-            "duration":0.0,
-            "target":-5.0,
-            "ease":"LINEAR",
-            "value":-5.0
-          }
-        },
-        "iTime":{
-          "duration":1017.7083333333334,
-          "target":22.0,
-          "ease":"LINEAR",
-          "value":999.0
-        }
-      },
-      "name":"ART 01",
+    "Sketch 01":{
+      "shader":"shader_sketch",
+      "properties":null,
+      "name":"Sketch 01",
       "inherit":null
     }
   }

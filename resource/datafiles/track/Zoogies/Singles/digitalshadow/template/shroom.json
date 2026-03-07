@@ -2,12 +2,1663 @@
   "model":"Collection<io.alkapivo.visu.service.shroom.ShroomTemplate>",
   "version":"1",
   "data":{
-    "bazyl-1-star-s3x8":{
+    "bazyl-1-boomerang-l":{
+      "sprite":{
+        "angle":0.0,
+        "randomFrame":true,
+        "alpha":1.0,
+        "frame":2.0,
+        "scaleX":1.75,
+        "speed":30.0,
+        "scaleY":1.75,
+        "blend":"#FFFFFF",
+        "animate":false,
+        "name":"texture_shroom_bazyl_yellow"
+      },
+      "onDamage":[
+      ],
+      "onDeath":[
+        {
+          "conditions":[
+          ],
+          "type":"ParticleFeature",
+          "data":{
+            "particle":"particle-shroom-death",
+            "amount":1.0
+          }
+        },
+        {
+          "conditions":[
+          ],
+          "type":"CoinFeature",
+          "data":{
+            "luck":0.75,
+            "coin":[
+              "coin-point",
+              "coin-force"
+            ],
+            "amount":2.0,
+            "offsetY":-256.0
+          }
+        }
+      ],
+      "healthPoints":3.0,
+      "queue":[
+      ],
+      "lifespanMax":15.0,
+      "hostile":true,
+      "inherit":[
+      ],
+      "mask":{
+        "x":60.0,
+        "y":60.0,
+        "width":136.0,
+        "height":136.0
+      },
+      "use_shroom_features":true,
+      "shroom_hide":false,
+      "use_shroom_healthPoints":true,
+      "shroom_hide_features":true,
+      "shroom_hide_inherit":true,
+      "use_shroom_inherit":true,
+      "use_shroom_lifespan":false,
+      "shroom_hide_mask":true,
+      "features":[
+        {
+          "conditions":[
+            {
+              "type":"lifespan",
+              "data":{
+                "operator":"lessOrEqual",
+                "value":0.050000000000000003
+              }
+            }
+          ],
+          "type":"DeprecatedSpriteFeature",
+          "data":{
+            "angle":{
+              "transform":{
+                "factor":360.0,
+                "target":0.0
+              }
+            }
+          }
+        },
+        {
+          "conditions":[
+          ],
+          "type":"DeprecatedSpriteFeature",
+          "data":{
+            "angle":{
+              "add":{
+                "target":-2.0
+              }
+            }
+          }
+        },
+        {
+          "conditions":[
+            {
+              "type":"lifespan",
+              "data":{
+                "operator":"greaterOrEqual",
+                "value":1.3300000000000001
+              }
+            }
+          ],
+          "type":"DeprecatedAngleFeature",
+          "data":{
+            "transform":{
+              "factor":2.5,
+              "target":180.0
+            }
+          }
+        }
+      ],
+      "use_shroom_mask":true,
+      "shroom_hide_on_damage":true,
+      "use_shroom_on_damage":true,
+      "shroom_hide_on_death":true,
+      "use_shroom_on_death":true,
+      "shroom_hide_queue":true,
+      "use_shroom_queue":true,
+      "shroom_hide_texture":true,
+      "name":"bazyl-1-boomerang-l"
+    },
+    "bazyl-1-boomerang-r":{
+      "sprite":{
+        "angle":0.0,
+        "randomFrame":true,
+        "alpha":1.0,
+        "frame":1.0,
+        "scaleX":1.75,
+        "speed":30.0,
+        "scaleY":1.75,
+        "blend":"#FFFFFF",
+        "animate":false,
+        "name":"texture_shroom_bazyl_green"
+      },
+      "onDamage":[
+      ],
+      "onDeath":[
+        {
+          "conditions":[
+          ],
+          "type":"ParticleFeature",
+          "data":{
+            "particle":"particle-shroom-death",
+            "amount":1.0
+          }
+        },
+        {
+          "conditions":[
+          ],
+          "type":"CoinFeature",
+          "data":{
+            "luck":0.75,
+            "coin":[
+              "coin-point",
+              "coin-force"
+            ],
+            "amount":2.0,
+            "offsetY":-256.0
+          }
+        }
+      ],
+      "healthPoints":3.0,
+      "queue":[
+      ],
+      "lifespanMax":15.0,
+      "hostile":true,
+      "inherit":[
+      ],
+      "mask":{
+        "x":60.0,
+        "y":60.0,
+        "width":136.0,
+        "height":136.0
+      },
+      "use_shroom_features":true,
+      "shroom_hide":false,
+      "use_shroom_healthPoints":true,
+      "shroom_hide_features":true,
+      "shroom_hide_inherit":true,
+      "use_shroom_inherit":true,
+      "use_shroom_lifespan":false,
+      "shroom_hide_mask":true,
+      "features":[
+        {
+          "conditions":[
+            {
+              "type":"lifespan",
+              "data":{
+                "operator":"lessOrEqual",
+                "value":0.050000000000000003
+              }
+            }
+          ],
+          "type":"DeprecatedSpriteFeature",
+          "data":{
+            "angle":{
+              "transform":{
+                "factor":360.0,
+                "target":300.0
+              }
+            }
+          }
+        },
+        {
+          "conditions":[
+          ],
+          "type":"DeprecatedSpriteFeature",
+          "data":{
+            "angle":{
+              "add":{
+                "target":2.0
+              }
+            }
+          }
+        },
+        {
+          "conditions":[
+            {
+              "type":"lifespan",
+              "data":{
+                "operator":"greaterOrEqual",
+                "value":1.3300000000000001
+              }
+            }
+          ],
+          "type":"DeprecatedAngleFeature",
+          "data":{
+            "transform":{
+              "factor":-2.5,
+              "target":-180.0
+            }
+          }
+        }
+      ],
+      "use_shroom_mask":true,
+      "shroom_hide_on_damage":true,
+      "use_shroom_on_damage":true,
+      "shroom_hide_on_death":true,
+      "use_shroom_on_death":true,
+      "shroom_hide_queue":true,
+      "use_shroom_queue":true,
+      "shroom_hide_texture":true,
+      "name":"bazyl-1-boomerang-r"
+    },
+    "bazyl-1-intro":{
+      "sprite":{
+        "angle":0.0,
+        "randomFrame":true,
+        "alpha":1.0,
+        "frame":1.0,
+        "scaleX":1.75,
+        "speed":30.0,
+        "scaleY":1.75,
+        "blend":"#FFFFFF",
+        "animate":false,
+        "name":"texture_shroom_bazyl"
+      },
+      "onDamage":[
+      ],
+      "onDeath":[
+        {
+          "conditions":[
+          ],
+          "type":"ParticleFeature",
+          "data":{
+            "particle":"particle-shroom-death",
+            "amount":1.0
+          }
+        },
+        {
+          "conditions":[
+          ],
+          "type":"CoinFeature",
+          "data":{
+            "luck":0.5,
+            "coin":[
+              "coin-point",
+              "coin-force"
+            ],
+            "amount":3.0,
+            "offsetY":-256.0
+          }
+        }
+      ],
+      "healthPoints":2.0,
+      "queue":[
+      ],
+      "lifespanMax":15.0,
+      "hostile":true,
+      "inherit":[
+      ],
+      "mask":{
+        "x":60.0,
+        "y":60.0,
+        "width":136.0,
+        "height":136.0
+      },
+      "use_shroom_features":true,
+      "shroom_hide":false,
+      "use_shroom_healthPoints":true,
+      "shroom_hide_features":true,
+      "shroom_hide_inherit":true,
+      "use_shroom_inherit":true,
+      "use_shroom_lifespan":false,
+      "shroom_hide_mask":true,
+      "features":[
+        {
+          "conditions":[
+            {
+              "type":"lifespan",
+              "data":{
+                "operator":"lessOrEqual",
+                "value":0.050000000000000003
+              }
+            }
+          ],
+          "type":"DeprecatedSpriteFeature",
+          "data":{
+            "angle":{
+              "transform":{
+                "factor":360.0,
+                "target":90.0
+              }
+            }
+          }
+        },
+        {
+          "conditions":[
+            {
+              "type":"lifespan",
+              "data":{
+                "operator":"greaterOrEqual",
+                "value":0.0625
+              }
+            }
+          ],
+          "type":"DeprecatedSpriteFeature",
+          "data":{
+            "angle":{
+              "add":{
+                "factor":0.01,
+                "target":-0.10000000000000001
+              }
+            }
+          }
+        },
+        {
+          "conditions":[
+            {
+              "type":"lifespan",
+              "data":{
+                "operator":"lessOrEqual",
+                "value":1.3
+              }
+            },
+            {
+              "type":"speed",
+              "data":{
+                "operator":"greaterOrEqual",
+                "value":5.0
+              }
+            }
+          ],
+          "type":"DeprecatedSpeedFeature",
+          "data":{
+            "add":{
+              "target":-0.10000000000000001
+            }
+          }
+        },
+        {
+          "conditions":[
+            {
+              "type":"lifespan",
+              "data":{
+                "operator":"greaterOrEqual",
+                "value":1.8
+              }
+            },
+            {
+              "type":"lifespan",
+              "data":{
+                "operator":"lessOrEqual",
+                "value":2.5
+              }
+            }
+          ],
+          "type":"DeprecatedAngleFeature",
+          "data":{
+            "transform":{
+              "factor":5.0,
+              "target":[
+                60.0,
+                70.0,
+                90.0,
+                110.0,
+                120.0
+              ]
+            }
+          }
+        },
+        {
+          "conditions":[
+            {
+              "type":"lifespan",
+              "data":{
+                "operator":"greaterOrEqual",
+                "value":2.5
+              }
+            },
+            {
+              "type":"lifespan",
+              "data":{
+                "operator":"lessOrEqual",
+                "value":3.5
+              }
+            }
+          ],
+          "type":"DeprecatedAngleFeature",
+          "data":{
+            "transform":{
+              "factor":2.5,
+              "target":[
+                250.0,
+                260.0,
+                270.0,
+                280.0,
+                290.0
+              ]
+            }
+          }
+        },
+        {
+          "conditions":[
+            {
+              "type":"lifespan",
+              "data":{
+                "operator":"greaterOrEqual",
+                "value":3.5
+              }
+            },
+            {
+              "type":"lifespan",
+              "data":{
+                "operator":"lessOrEqual",
+                "value":4.5
+              }
+            }
+          ],
+          "type":"DeprecatedAngleFeature",
+          "data":{
+            "transform":{
+              "factor":2.0,
+              "target":[
+                0.0,
+                50.0,
+                100.0,
+                150.0,
+                200.0,
+                250.0,
+                300.0,
+                350.0
+              ]
+            }
+          }
+        },
+        {
+          "conditions":[
+            {
+              "type":"lifespan",
+              "data":{
+                "operator":"greaterOrEqual",
+                "value":2.5
+              }
+            },
+            {
+              "type":"speed",
+              "data":{
+                "operator":"lessOrEqual",
+                "value":25.0
+              }
+            }
+          ],
+          "type":"DeprecatedSpeedFeature",
+          "data":{
+            "add":{
+              "target":[
+                0.01,
+                0.050000000000000003,
+                0.10000000000000001
+              ]
+            }
+          }
+        }
+      ],
+      "use_shroom_mask":true,
+      "shroom_hide_on_damage":true,
+      "use_shroom_on_damage":true,
+      "shroom_hide_on_death":true,
+      "use_shroom_on_death":true,
+      "shroom_hide_queue":true,
+      "use_shroom_queue":true,
+      "shroom_hide_texture":true,
+      "name":"bazyl-1-intro"
+    },
+    "baron-1-r8":{
+      "sprite":{
+        "angle":0.0,
+        "randomFrame":true,
+        "alpha":1.0,
+        "frame":1.0,
+        "scaleX":3.0,
+        "speed":30.0,
+        "scaleY":2.0,
+        "blend":"#FFFFFF",
+        "animate":false,
+        "name":"texture_shroom_baron_yellow"
+      },
+      "onDamage":[
+        {
+          "conditions":[
+          ],
+          "type":"ParticleFeature",
+          "data":{
+            "particle":"particle-shroom-damage",
+            "amount":4.0
+          }
+        }
+      ],
+      "onDeath":[
+        {
+          "conditions":[
+          ],
+          "type":"ParticleFeature",
+          "data":{
+            "particle":"particle-shroom-death",
+            "amount":8.0
+          }
+        },
+        {
+          "conditions":[
+          ],
+          "type":"CoinFeature",
+          "data":{
+            "coin":"coin-point",
+            "offsetY":-256.0
+          }
+        }
+      ],
+      "healthPoints":2.0,
+      "queue":[
+      ],
+      "lifespanMax":15.0,
+      "hostile":true,
+      "inherit":[
+      ],
+      "mask":{
+        "x":76.0,
+        "y":60.0,
+        "width":136.0,
+        "height":136.0
+      },
+      "use_shroom_features":true,
+      "shroom_hide":false,
+      "use_shroom_healthPoints":true,
+      "shroom_hide_features":true,
+      "shroom_hide_inherit":true,
+      "use_shroom_inherit":true,
+      "use_shroom_lifespan":false,
+      "shroom_hide_mask":true,
+      "features":[
+        {
+          "conditions":[
+            {
+              "type":"lifespan",
+              "data":{
+                "operator":"lessOrEqual",
+                "value":0.050000000000000003
+              }
+            }
+          ],
+          "type":"DeprecatedSpriteFeature",
+          "data":{
+            "angle":{
+              "transform":{
+                "factor":360.0,
+                "target":120.0
+              }
+            }
+          }
+        },
+        {
+          "conditions":[
+            {
+              "type":"lifespan",
+              "data":{
+                "operator":"greaterOrEqual",
+                "value":0.0625
+              }
+            }
+          ],
+          "type":"DeprecatedSpriteFeature",
+          "data":{
+            "angle":{
+              "add":{
+                "factor":0.01,
+                "target":-0.40000000000000002
+              }
+            }
+          }
+        },
+        {
+          "conditions":[
+            {
+              "type":"lifespan",
+              "data":{
+                "operator":"greaterOrEqual",
+                "value":0.5
+              }
+            },
+            {
+              "type":"lifespan",
+              "data":{
+                "operator":"lessOrEqual",
+                "value":9.0
+              }
+            }
+          ],
+          "type":"ShootFeature",
+          "data":{
+            "bullets":8.0,
+            "bullet":"bullet-swing",
+            "speed":25.0,
+            "interval":0.16,
+            "randomRange":20.0
+          }
+        }
+      ],
+      "use_shroom_mask":true,
+      "shroom_hide_on_damage":true,
+      "use_shroom_on_damage":true,
+      "shroom_hide_on_death":true,
+      "use_shroom_on_death":true,
+      "shroom_hide_queue":true,
+      "use_shroom_queue":true,
+      "shroom_hide_texture":true,
+      "name":"baron-1-r8"
+    },
+    "baron-1-p5":{
+      "sprite":{
+        "angle":0.0,
+        "randomFrame":true,
+        "alpha":1.0,
+        "frame":2.0,
+        "scaleX":2.0,
+        "speed":30.0,
+        "scaleY":3.3300000000000001,
+        "blend":"#FFFFFF",
+        "animate":false,
+        "name":"texture_shroom_baron_green"
+      },
+      "onDamage":[
+        {
+          "conditions":[
+          ],
+          "type":"ParticleFeature",
+          "data":{
+            "particle":"particle-shroom-damage",
+            "amount":4.0
+          }
+        }
+      ],
+      "onDeath":[
+        {
+          "conditions":[
+          ],
+          "type":"ParticleFeature",
+          "data":{
+            "particle":"particle-shroom-death",
+            "amount":8.0
+          }
+        }
+      ],
+      "healthPoints":1.0,
+      "queue":[
+      ],
+      "lifespanMax":15.0,
+      "hostile":true,
+      "inherit":[
+      ],
+      "mask":{
+        "x":76.0,
+        "y":60.0,
+        "width":136.0,
+        "height":136.0
+      },
+      "use_shroom_features":true,
+      "shroom_hide":true,
+      "use_shroom_healthPoints":false,
+      "shroom_hide_features":true,
+      "shroom_hide_inherit":true,
+      "use_shroom_inherit":true,
+      "use_shroom_lifespan":false,
+      "shroom_hide_mask":true,
+      "features":[
+        {
+          "conditions":[
+            {
+              "type":"lifespan",
+              "data":{
+                "operator":"lessOrEqual",
+                "value":0.050000000000000003
+              }
+            }
+          ],
+          "type":"DeprecatedSpriteFeature",
+          "data":{
+            "angle":{
+              "transform":{
+                "factor":360.0,
+                "target":[
+                  0.0,
+                  30.0,
+                  60.0,
+                  90.0,
+                  120.0,
+                  150.0,
+                  180.0,
+                  220.0,
+                  250.0,
+                  270.0,
+                  300.0,
+                  330.0
+                ]
+              }
+            }
+          }
+        },
+        {
+          "conditions":[
+            {
+              "type":"lifespan",
+              "data":{
+                "operator":"greaterOrEqual",
+                "value":0.0625
+              }
+            }
+          ],
+          "type":"DeprecatedSpriteFeature",
+          "data":{
+            "angle":{
+              "add":{
+                "factor":0.01,
+                "target":[
+                  0.10000000000000001,
+                  -0.10000000000000001,
+                  0.40000000000000002,
+                  -0.40000000000000002,
+                  0.80000000000000004,
+                  -0.80000000000000004,
+                  1.0,
+                  -1.0,
+                  1.2,
+                  -1.2,
+                  1.6000000000000001,
+                  -1.6000000000000001
+                ]
+              }
+            }
+          }
+        },
+        {
+          "conditions":[
+            {
+              "type":"lifespan",
+              "data":{
+                "operator":"greaterOrEqual",
+                "value":0.25
+              }
+            },
+            {
+              "type":"lifespan",
+              "data":{
+                "operator":"lessOrEqual",
+                "value":5.0
+              }
+            }
+          ],
+          "type":"ShootFeature",
+          "data":{
+            "bullet":"bullet-shroom",
+            "bullets":5.0,
+            "targetPlayer":true,
+            "speed":25.0,
+            "interval":0.25,
+            "randomRange":1.0
+          }
+        }
+      ],
+      "use_shroom_mask":true,
+      "shroom_hide_on_damage":true,
+      "use_shroom_on_damage":true,
+      "shroom_hide_on_death":true,
+      "use_shroom_on_death":true,
+      "shroom_hide_queue":true,
+      "use_shroom_queue":true,
+      "shroom_hide_texture":true,
+      "name":"baron-1-p5"
+    },
+    "baron-1-turns-r-s2x6":{
+      "sprite":{
+        "angle":0.0,
+        "randomFrame":true,
+        "alpha":1.0,
+        "frame":2.0,
+        "scaleX":2.0,
+        "speed":30.0,
+        "scaleY":2.0,
+        "blend":"#FFFFFF",
+        "animate":false,
+        "name":"texture_shroom_baron_blue"
+      },
+      "onDamage":[
+        {
+          "conditions":[
+          ],
+          "type":"ParticleFeature",
+          "data":{
+            "particle":"particle-shroom-damage",
+            "amount":4.0
+          }
+        }
+      ],
+      "onDeath":[
+        {
+          "conditions":[
+          ],
+          "type":"ParticleFeature",
+          "data":{
+            "particle":"particle-shroom-death",
+            "amount":8.0
+          }
+        },
+        {
+          "conditions":[
+          ],
+          "type":"CoinFeature",
+          "data":{
+            "coin":[
+              "coin-point",
+              "coin-empty",
+              "coin-empty"
+            ],
+            "offsetY":-256.0
+          }
+        }
+      ],
+      "healthPoints":1.0,
+      "queue":[
+      ],
+      "lifespanMax":15.0,
+      "hostile":true,
+      "inherit":[
+      ],
+      "mask":{
+        "x":76.0,
+        "y":60.0,
+        "width":136.0,
+        "height":136.0
+      },
+      "use_shroom_features":true,
+      "shroom_hide":true,
+      "use_shroom_healthPoints":false,
+      "shroom_hide_features":true,
+      "shroom_hide_inherit":true,
+      "use_shroom_inherit":true,
+      "use_shroom_lifespan":false,
+      "shroom_hide_mask":true,
+      "features":[
+        {
+          "conditions":[
+            {
+              "type":"lifespan",
+              "data":{
+                "operator":"greaterOrEqual",
+                "value":0.0
+              }
+            },
+            {
+              "type":"lifespan",
+              "data":{
+                "operator":"lessOrEqual",
+                "value":1.6000000000000001
+              }
+            }
+          ],
+          "type":"DeprecatedAngleFeature",
+          "data":{
+            "add":{
+              "increase":0.0,
+              "factor":0.10000000000000001,
+              "target":-1.0
+            }
+          }
+        },
+        {
+          "conditions":[
+            {
+              "type":"lifespan",
+              "data":{
+                "operator":"greaterOrEqual",
+                "value":1.5
+              }
+            },
+            {
+              "type":"lifespan",
+              "data":{
+                "operator":"lessOrEqual",
+                "value":4.5
+              }
+            }
+          ],
+          "type":"ShootFeature",
+          "data":{
+            "bullet":"bullet-shroom",
+            "angle":90.0,
+            "bullets":6.0,
+            "speed":10.0,
+            "interval":0.40000000000000002,
+            "randomRange":5.0
+          }
+        },
+        {
+          "conditions":[
+            {
+              "type":"lifespan",
+              "data":{
+                "operator":"greaterOrEqual",
+                "value":4.0
+              }
+            },
+            {
+              "type":"lifespan",
+              "data":{
+                "operator":"lessOrEqual",
+                "value":7.0
+              }
+            }
+          ],
+          "type":"DeprecatedAngleFeature",
+          "data":{
+            "add":{
+              "increase":0.0,
+              "factor":0.10000000000000001,
+              "target":1.0
+            }
+          }
+        },
+        {
+          "conditions":[
+            {
+              "type":"lifespan",
+              "data":{
+                "operator":"greaterOrEqual",
+                "value":7.0
+              }
+            },
+            {
+              "type":"lifespan",
+              "data":{
+                "operator":"lessOrEqual",
+                "value":9.0
+              }
+            }
+          ],
+          "type":"ShootFeature",
+          "data":{
+            "bullet":"bullet-shroom",
+            "angle":315.0,
+            "bullets":6.0,
+            "speed":10.0,
+            "interval":0.5,
+            "randomRange":45.0
+          }
+        },
+        {
+          "conditions":[
+            {
+              "type":"lifespan",
+              "data":{
+                "operator":"greaterOrEqual",
+                "value":9.0
+              }
+            },
+            {
+              "type":"lifespan",
+              "data":{
+                "operator":"lessOrEqual",
+                "value":11.0
+              }
+            }
+          ],
+          "type":"DeprecatedAngleFeature",
+          "data":{
+            "add":{
+              "increase":0.0,
+              "factor":0.10000000000000001,
+              "target":-1.0
+            }
+          }
+        }
+      ],
+      "use_shroom_mask":true,
+      "shroom_hide_on_damage":true,
+      "use_shroom_on_damage":true,
+      "shroom_hide_on_death":true,
+      "use_shroom_on_death":true,
+      "shroom_hide_queue":true,
+      "use_shroom_queue":true,
+      "shroom_hide_texture":true,
+      "name":"baron-1-turns-r-s2x6"
+    },
+    "baron-1-turns-l-s2x6":{
+      "sprite":{
+        "angle":0.0,
+        "randomFrame":true,
+        "alpha":1.0,
+        "frame":2.0,
+        "scaleX":2.0,
+        "speed":30.0,
+        "scaleY":2.0,
+        "blend":"#FFFFFF",
+        "animate":false,
+        "name":"texture_shroom_baron_red"
+      },
+      "onDamage":[
+        {
+          "conditions":[
+          ],
+          "type":"ParticleFeature",
+          "data":{
+            "particle":"particle-shroom-damage",
+            "amount":4.0
+          }
+        }
+      ],
+      "onDeath":[
+        {
+          "conditions":[
+          ],
+          "type":"ParticleFeature",
+          "data":{
+            "particle":"particle-shroom-death",
+            "amount":8.0
+          }
+        },
+        {
+          "conditions":[
+          ],
+          "type":"CoinFeature",
+          "data":{
+            "coin":[
+              "coin-force"
+            ],
+            "offsetY":-256.0
+          }
+        }
+      ],
+      "healthPoints":1.0,
+      "queue":[
+      ],
+      "lifespanMax":15.0,
+      "hostile":true,
+      "inherit":[
+      ],
+      "mask":{
+        "x":76.0,
+        "y":60.0,
+        "width":136.0,
+        "height":136.0
+      },
+      "use_shroom_features":true,
+      "shroom_hide":true,
+      "use_shroom_healthPoints":false,
+      "shroom_hide_features":true,
+      "shroom_hide_inherit":true,
+      "use_shroom_inherit":true,
+      "use_shroom_lifespan":false,
+      "shroom_hide_mask":true,
+      "features":[
+        {
+          "conditions":[
+            {
+              "type":"lifespan",
+              "data":{
+                "operator":"greaterOrEqual",
+                "value":0.0
+              }
+            },
+            {
+              "type":"lifespan",
+              "data":{
+                "operator":"lessOrEqual",
+                "value":1.6000000000000001
+              }
+            }
+          ],
+          "type":"DeprecatedAngleFeature",
+          "data":{
+            "add":{
+              "increase":0.0,
+              "factor":0.10000000000000001,
+              "target":1.0
+            }
+          }
+        },
+        {
+          "conditions":[
+            {
+              "type":"lifespan",
+              "data":{
+                "operator":"greaterOrEqual",
+                "value":1.5
+              }
+            },
+            {
+              "type":"lifespan",
+              "data":{
+                "operator":"lessOrEqual",
+                "value":4.5
+              }
+            }
+          ],
+          "type":"ShootFeature",
+          "data":{
+            "bullet":"bullet-shroom",
+            "angle":270.0,
+            "bullets":6.0,
+            "speed":15.0,
+            "interval":0.40000000000000002,
+            "randomRange":5.0
+          }
+        },
+        {
+          "conditions":[
+            {
+              "type":"lifespan",
+              "data":{
+                "operator":"greaterOrEqual",
+                "value":4.0
+              }
+            },
+            {
+              "type":"lifespan",
+              "data":{
+                "operator":"lessOrEqual",
+                "value":7.0
+              }
+            }
+          ],
+          "type":"DeprecatedAngleFeature",
+          "data":{
+            "add":{
+              "increase":0.0,
+              "factor":0.10000000000000001,
+              "target":-1.0
+            }
+          }
+        },
+        {
+          "conditions":[
+            {
+              "type":"lifespan",
+              "data":{
+                "operator":"greaterOrEqual",
+                "value":6.0
+              }
+            },
+            {
+              "type":"lifespan",
+              "data":{
+                "operator":"lessOrEqual",
+                "value":9.0
+              }
+            }
+          ],
+          "type":"ShootFeature",
+          "data":{
+            "bullet":"bullet-shroom",
+            "angle":-315.0,
+            "bullets":6.0,
+            "speed":10.0,
+            "interval":0.5,
+            "randomRange":45.0
+          }
+        },
+        {
+          "conditions":[
+            {
+              "type":"lifespan",
+              "data":{
+                "operator":"greaterOrEqual",
+                "value":9.0
+              }
+            },
+            {
+              "type":"lifespan",
+              "data":{
+                "operator":"lessOrEqual",
+                "value":11.0
+              }
+            }
+          ],
+          "type":"DeprecatedAngleFeature",
+          "data":{
+            "add":{
+              "increase":0.0,
+              "factor":0.10000000000000001,
+              "target":1.0
+            }
+          }
+        }
+      ],
+      "use_shroom_mask":true,
+      "shroom_hide_on_damage":true,
+      "use_shroom_on_damage":true,
+      "shroom_hide_on_death":true,
+      "use_shroom_on_death":true,
+      "shroom_hide_queue":true,
+      "use_shroom_queue":true,
+      "shroom_hide_texture":true,
+      "name":"baron-1-turns-l-s2x6"
+    },
+    "baron-1-swing":{
       "sprite":{
         "angle":0.0,
         "randomFrame":true,
         "alpha":1.0,
         "frame":0.0,
+        "scaleX":3.5,
+        "speed":30.0,
+        "scaleY":3.5,
+        "blend":"#FFFFFF",
+        "animate":false,
+        "name":"texture_shroom_baron_magenta"
+      },
+      "onDamage":[
+        {
+          "conditions":[
+          ],
+          "type":"ParticleFeature",
+          "data":{
+            "particle":"particle-shroom-damage",
+            "amount":4.0
+          }
+        }
+      ],
+      "onDeath":[
+        {
+          "conditions":[
+          ],
+          "type":"ParticleFeature",
+          "data":{
+            "particle":"particle-shroom-death",
+            "amount":1.0
+          }
+        },
+        {
+          "conditions":[
+          ],
+          "type":"CoinFeature",
+          "data":{
+            "coin":"coin-force",
+            "offsetY":-256.0
+          }
+        }
+      ],
+      "healthPoints":5.0,
+      "queue":[
+      ],
+      "lifespanMax":15.0,
+      "hostile":true,
+      "inherit":[
+      ],
+      "mask":{
+        "x":76.0,
+        "y":60.0,
+        "width":136.0,
+        "height":136.0
+      },
+      "use_shroom_features":true,
+      "shroom_hide":false,
+      "use_shroom_healthPoints":true,
+      "shroom_hide_features":true,
+      "shroom_hide_inherit":true,
+      "use_shroom_inherit":true,
+      "use_shroom_lifespan":false,
+      "shroom_hide_mask":true,
+      "features":[
+        {
+          "conditions":[
+            {
+              "type":"lifespan",
+              "data":{
+                "operator":"lessOrEqual",
+                "value":0.65000000000000002
+              }
+            }
+          ],
+          "type":"DeprecatedSpriteFeature",
+          "data":{
+            "angle":{
+              "add":{
+                "target":6.5
+              }
+            }
+          }
+        },
+        {
+          "conditions":[
+            {
+              "type":"lifespan",
+              "data":{
+                "operator":"greaterOrEqual",
+                "value":0.66000000000000003
+              }
+            }
+          ],
+          "type":"DeprecatedSpriteFeature",
+          "data":{
+            "angle":{
+              "add":{
+                "target":-0.25
+              }
+            }
+          }
+        },
+        {
+          "conditions":[
+          ],
+          "type":"DeprecatedSpriteFeature",
+          "data":{
+            "angle":{
+              "add":{
+                "target":0.5
+              }
+            }
+          }
+        },
+        {
+          "conditions":[
+          ],
+          "type":"SwingFeature",
+          "data":{
+            "amount":8.0,
+            "size":5.0
+          }
+        }
+      ],
+      "use_shroom_mask":true,
+      "shroom_hide_on_damage":true,
+      "use_shroom_on_damage":true,
+      "shroom_hide_on_death":true,
+      "use_shroom_on_death":true,
+      "shroom_hide_queue":true,
+      "use_shroom_queue":true,
+      "shroom_hide_texture":true,
+      "name":"baron-1-swing"
+    },
+    "bazyl-1-sniper-p5":{
+      "sprite":{
+        "angle":0.0,
+        "randomFrame":true,
+        "alpha":1.0,
+        "frame":1.0,
+        "scaleX":2.5,
+        "speed":30.0,
+        "scaleY":2.5,
+        "blend":"#FFFFFF",
+        "animate":false,
+        "name":"texture_shroom_bazyl_magenta"
+      },
+      "onDamage":[
+        {
+          "conditions":[
+          ],
+          "type":"ParticleFeature",
+          "data":{
+            "particle":"particle-shroom-damage",
+            "amount":4.0
+          }
+        }
+      ],
+      "onDeath":[
+        {
+          "conditions":[
+          ],
+          "type":"ParticleFeature",
+          "data":{
+            "particle":"particle-shroom-death",
+            "amount":1.0
+          }
+        },
+        {
+          "conditions":[
+          ],
+          "type":"CoinFeature",
+          "data":{
+            "coin":[
+              "coin-force",
+              "coin-force",
+              "coin-empty"
+            ],
+            "offsetY":-256.0
+          }
+        }
+      ],
+      "healthPoints":2.0,
+      "queue":[
+      ],
+      "lifespanMax":15.0,
+      "hostile":true,
+      "inherit":[
+      ],
+      "mask":{
+        "x":60.0,
+        "y":60.0,
+        "width":136.0,
+        "height":136.0
+      },
+      "use_shroom_features":true,
+      "shroom_hide":false,
+      "use_shroom_healthPoints":true,
+      "shroom_hide_features":true,
+      "shroom_hide_inherit":true,
+      "use_shroom_inherit":true,
+      "use_shroom_lifespan":false,
+      "shroom_hide_mask":true,
+      "features":[
+        {
+          "conditions":[
+            {
+              "type":"lifespan",
+              "data":{
+                "operator":"lessOrEqual",
+                "value":0.050000000000000003
+              }
+            }
+          ],
+          "type":"DeprecatedSpriteFeature",
+          "data":{
+            "angle":{
+              "transform":{
+                "factor":360.0,
+                "target":[
+                  0.0,
+                  30.0,
+                  60.0,
+                  90.0,
+                  120.0,
+                  150.0,
+                  180.0,
+                  220.0,
+                  250.0,
+                  270.0,
+                  300.0,
+                  330.0
+                ]
+              }
+            }
+          }
+        },
+        {
+          "conditions":[
+            {
+              "type":"lifespan",
+              "data":{
+                "operator":"greaterOrEqual",
+                "value":0.0625
+              }
+            }
+          ],
+          "type":"DeprecatedSpriteFeature",
+          "data":{
+            "angle":{
+              "add":{
+                "factor":0.01,
+                "target":[
+                  0.10000000000000001,
+                  -0.10000000000000001,
+                  0.40000000000000002,
+                  -0.40000000000000002,
+                  0.80000000000000004,
+                  -0.80000000000000004,
+                  1.0,
+                  -1.0,
+                  1.2,
+                  -1.2,
+                  1.6000000000000001,
+                  -1.6000000000000001
+                ]
+              }
+            }
+          }
+        },
+        {
+          "conditions":[
+            {
+              "type":"lifespan",
+              "data":{
+                "operator":"lessOrEqual",
+                "value":1.5
+              }
+            },
+            {
+              "type":"speed",
+              "data":{
+                "operator":"greaterOrEqual",
+                "value":5.0
+              }
+            }
+          ],
+          "type":"DeprecatedSpeedFeature",
+          "data":{
+            "add":{
+              "target":-0.10000000000000001
+            }
+          }
+        },
+        {
+          "conditions":[
+            {
+              "type":"lifespan",
+              "data":{
+                "operator":"greaterOrEqual",
+                "value":1.6000000000000001
+              }
+            }
+          ],
+          "type":"ShootFeature",
+          "data":{
+            "bullets":5.0,
+            "bullet":"bullet-shroom",
+            "targetPlayer":true,
+            "speed":15.0,
+            "interval":0.20000000000000001
+          }
+        },
+        {
+          "conditions":[
+            {
+              "type":"lifespan",
+              "data":{
+                "operator":"greaterOrEqual",
+                "value":2.0
+              }
+            },
+            {
+              "type":"lifespan",
+              "data":{
+                "operator":"lessOrEqual",
+                "value":3.0
+              }
+            }
+          ],
+          "type":"DeprecatedAngleFeature",
+          "data":{
+            "transform":{
+              "factor":6.0,
+              "target":[
+                60.0,
+                70.0,
+                90.0,
+                110.0,
+                120.0
+              ]
+            }
+          }
+        },
+        {
+          "conditions":[
+            {
+              "type":"lifespan",
+              "data":{
+                "operator":"greaterOrEqual",
+                "value":3.0
+              }
+            },
+            {
+              "type":"lifespan",
+              "data":{
+                "operator":"lessOrEqual",
+                "value":4.0
+              }
+            }
+          ],
+          "type":"DeprecatedAngleFeature",
+          "data":{
+            "transform":{
+              "factor":3.0,
+              "target":[
+                250.0,
+                260.0,
+                270.0,
+                280.0,
+                290.0
+              ]
+            }
+          }
+        },
+        {
+          "conditions":[
+            {
+              "type":"lifespan",
+              "data":{
+                "operator":"greaterOrEqual",
+                "value":5.0
+              }
+            },
+            {
+              "type":"speed",
+              "data":{
+                "operator":"lessOrEqual",
+                "value":25.0
+              }
+            }
+          ],
+          "type":"DeprecatedSpeedFeature",
+          "data":{
+            "add":{
+              "target":[
+                0.10000000000000001,
+                0.20000000000000001,
+                0.29999999999999999
+              ]
+            }
+          }
+        }
+      ],
+      "use_shroom_mask":true,
+      "shroom_hide_on_damage":true,
+      "use_shroom_on_damage":true,
+      "shroom_hide_on_death":true,
+      "use_shroom_on_death":true,
+      "shroom_hide_queue":true,
+      "use_shroom_queue":true,
+      "shroom_hide_texture":true,
+      "name":"bazyl-1-sniper-p5"
+    },
+    "bazyl-1-star-s3x8":{
+      "sprite":{
+        "angle":0.0,
+        "randomFrame":true,
+        "alpha":1.0,
+        "frame":2.0,
         "scaleX":3.0,
         "speed":30.0,
         "scaleY":3.0,
@@ -77,15 +1728,15 @@
             {
               "type":"lifespan",
               "data":{
-                "value":1.6000000000000001,
-                "operator":"lessOrEqual"
+                "operator":"lessOrEqual",
+                "value":1.6000000000000001
               }
             },
             {
               "type":"speed",
               "data":{
-                "value":3.0,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":3.0
               }
             }
           ],
@@ -101,8 +1752,8 @@
             {
               "type":"lifespan",
               "data":{
-                "value":1.8,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":1.8
               }
             }
           ],
@@ -120,8 +1771,8 @@
             {
               "type":"lifespan",
               "data":{
-                "value":1.8,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":1.8
               }
             }
           ],
@@ -139,8 +1790,8 @@
             {
               "type":"lifespan",
               "data":{
-                "value":1.8,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":1.8
               }
             }
           ],
@@ -158,8 +1809,8 @@
             {
               "type":"lifespan",
               "data":{
-                "value":1.8,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":1.8
               }
             }
           ],
@@ -177,8 +1828,8 @@
             {
               "type":"lifespan",
               "data":{
-                "value":1.8,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":1.8
               }
             }
           ],
@@ -196,8 +1847,8 @@
             {
               "type":"lifespan",
               "data":{
-                "value":1.8,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":1.8
               }
             }
           ],
@@ -215,8 +1866,8 @@
             {
               "type":"lifespan",
               "data":{
-                "value":1.8,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":1.8
               }
             }
           ],
@@ -234,8 +1885,8 @@
             {
               "type":"lifespan",
               "data":{
-                "value":1.8,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":1.8
               }
             }
           ],
@@ -253,8 +1904,8 @@
             {
               "type":"lifespan",
               "data":{
-                "value":2.2999999999999998,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":2.2999999999999998
               }
             }
           ],
@@ -271,8 +1922,8 @@
             {
               "type":"lifespan",
               "data":{
-                "value":3.0,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":3.0
               }
             }
           ],
@@ -369,8 +2020,8 @@
             {
               "type":"lifespan",
               "data":{
-                "value":0.5,
-                "operator":"lessOrEqual"
+                "operator":"lessOrEqual",
+                "value":0.5
               }
             }
           ],
@@ -388,15 +2039,15 @@
             {
               "type":"lifespan",
               "data":{
-                "value":1.2,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":1.2
               }
             },
             {
               "type":"lifespan",
               "data":{
-                "value":1.7,
-                "operator":"lessOrEqual"
+                "operator":"lessOrEqual",
+                "value":1.7
               }
             }
           ],
@@ -414,15 +2065,15 @@
             {
               "type":"lifespan",
               "data":{
-                "value":2.3999999999999999,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":2.3999999999999999
               }
             },
             {
               "type":"lifespan",
               "data":{
-                "value":2.8999999999999999,
-                "operator":"lessOrEqual"
+                "operator":"lessOrEqual",
+                "value":2.8999999999999999
               }
             }
           ],
@@ -440,15 +2091,15 @@
             {
               "type":"lifespan",
               "data":{
-                "value":3.6000000000000001,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":3.6000000000000001
               }
             },
             {
               "type":"lifespan",
               "data":{
-                "value":4.0999999999999996,
-                "operator":"lessOrEqual"
+                "operator":"lessOrEqual",
+                "value":4.0999999999999996
               }
             }
           ],
@@ -466,15 +2117,15 @@
             {
               "type":"lifespan",
               "data":{
-                "value":4.7999999999999998,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":4.7999999999999998
               }
             },
             {
               "type":"lifespan",
               "data":{
-                "value":5.2999999999999998,
-                "operator":"lessOrEqual"
+                "operator":"lessOrEqual",
+                "value":5.2999999999999998
               }
             }
           ],
@@ -492,8 +2143,8 @@
             {
               "type":"lifespan",
               "data":{
-                "value":5.75,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":5.75
               }
             }
           ],
@@ -590,15 +2241,15 @@
             {
               "type":"lifespan",
               "data":{
-                "value":2.0,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":2.0
               }
             },
             {
               "type":"lifespan",
               "data":{
-                "value":2.2999999999999998,
-                "operator":"lessOrEqual"
+                "operator":"lessOrEqual",
+                "value":2.2999999999999998
               }
             }
           ],
@@ -616,15 +2267,15 @@
             {
               "type":"lifespan",
               "data":{
-                "value":3.2999999999999998,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":3.2999999999999998
               }
             },
             {
               "type":"lifespan",
               "data":{
-                "value":4.0,
-                "operator":"lessOrEqual"
+                "operator":"lessOrEqual",
+                "value":4.0
               }
             }
           ],
@@ -642,15 +2293,15 @@
             {
               "type":"lifespan",
               "data":{
-                "value":4.0999999999999996,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":4.0999999999999996
               }
             },
             {
               "type":"lifespan",
               "data":{
-                "value":4.5999999999999996,
-                "operator":"lessOrEqual"
+                "operator":"lessOrEqual",
+                "value":4.5999999999999996
               }
             }
           ],
@@ -668,15 +2319,15 @@
             {
               "type":"lifespan",
               "data":{
-                "value":5.0,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":5.0
               }
             },
             {
               "type":"lifespan",
               "data":{
-                "value":5.5,
-                "operator":"lessOrEqual"
+                "operator":"lessOrEqual",
+                "value":5.5
               }
             }
           ],
@@ -774,8 +2425,8 @@
             {
               "type":"lifespan",
               "data":{
-                "value":2.0,
-                "operator":"lessOrEqual"
+                "operator":"lessOrEqual",
+                "value":2.0
               }
             }
           ],
@@ -793,8 +2444,8 @@
             {
               "type":"lifespan",
               "data":{
-                "value":0.80000000000000004,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":0.80000000000000004
               }
             }
           ],
@@ -815,15 +2466,15 @@
             {
               "type":"lifespan",
               "data":{
-                "value":2.0,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":2.0
               }
             },
             {
               "type":"lifespan",
               "data":{
-                "value":2.6000000000000001,
-                "operator":"lessOrEqual"
+                "operator":"lessOrEqual",
+                "value":2.6000000000000001
               }
             }
           ],
@@ -844,8 +2495,8 @@
             {
               "type":"lifespan",
               "data":{
-                "value":2.2000000000000002,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":2.2000000000000002
               }
             }
           ],
@@ -863,15 +2514,15 @@
             {
               "type":"lifespan",
               "data":{
-                "value":3.5,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":3.5
               }
             },
             {
               "type":"lifespan",
               "data":{
-                "value":3.6000000000000001,
-                "operator":"lessOrEqual"
+                "operator":"lessOrEqual",
+                "value":3.6000000000000001
               }
             }
           ],
@@ -896,15 +2547,15 @@
             {
               "type":"lifespan",
               "data":{
-                "value":4.5,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":4.5
               }
             },
             {
               "type":"lifespan",
               "data":{
-                "value":4.5999999999999996,
-                "operator":"lessOrEqual"
+                "operator":"lessOrEqual",
+                "value":4.5999999999999996
               }
             }
           ],
@@ -940,7 +2591,7 @@
         "angle":0.0,
         "randomFrame":true,
         "alpha":1.0,
-        "frame":1.0,
+        "frame":2.0,
         "scaleX":4.0,
         "speed":3.3300000000000001,
         "scaleY":4.0,
@@ -1009,8 +2660,8 @@
             {
               "type":"lifespan",
               "data":{
-                "value":0.050000000000000003,
-                "operator":"lessOrEqual"
+                "operator":"lessOrEqual",
+                "value":0.050000000000000003
               }
             }
           ],
@@ -1029,8 +2680,8 @@
             {
               "type":"lifespan",
               "data":{
-                "value":0.0625,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":0.0625
               }
             }
           ],
@@ -1049,8 +2700,8 @@
             {
               "type":"lifespan",
               "data":{
-                "value":2.0,
-                "operator":"lessOrEqual"
+                "operator":"lessOrEqual",
+                "value":2.0
               }
             }
           ],
@@ -1077,15 +2728,15 @@
             {
               "type":"lifespan",
               "data":{
-                "value":1.0,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":1.0
               }
             },
             {
               "type":"lifespan",
               "data":{
-                "value":2.0,
-                "operator":"lessOrEqual"
+                "operator":"lessOrEqual",
+                "value":2.0
               }
             }
           ],
@@ -1107,8 +2758,8 @@
             {
               "type":"lifespan",
               "data":{
-                "value":2.5,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":2.5
               }
             }
           ],
@@ -1126,8 +2777,8 @@
             {
               "type":"lifespan",
               "data":{
-                "value":2.5,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":2.5
               }
             }
           ],
@@ -1155,7 +2806,7 @@
         "angle":0.0,
         "randomFrame":true,
         "alpha":1.0,
-        "frame":2.0,
+        "frame":0.0,
         "scaleX":2.0,
         "speed":30.0,
         "scaleY":3.3300000000000001,
@@ -1212,8 +2863,8 @@
             {
               "type":"lifespan",
               "data":{
-                "value":0.050000000000000003,
-                "operator":"lessOrEqual"
+                "operator":"lessOrEqual",
+                "value":0.050000000000000003
               }
             }
           ],
@@ -1245,8 +2896,8 @@
             {
               "type":"lifespan",
               "data":{
-                "value":0.0625,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":0.0625
               }
             }
           ],
@@ -1351,8 +3002,8 @@
             {
               "type":"lifespan",
               "data":{
-                "value":0.050000000000000003,
-                "operator":"lessOrEqual"
+                "operator":"lessOrEqual",
+                "value":0.050000000000000003
               }
             }
           ],
@@ -1384,8 +3035,8 @@
             {
               "type":"lifespan",
               "data":{
-                "value":0.0625,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":0.0625
               }
             }
           ],
@@ -1413,15 +3064,15 @@
             {
               "type":"lifespan",
               "data":{
-                "value":0.5,
-                "operator":"lessOrEqual"
+                "operator":"lessOrEqual",
+                "value":0.5
               }
             },
             {
               "type":"speed",
               "data":{
-                "value":10.0,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":10.0
               }
             }
           ],
@@ -1437,15 +3088,15 @@
             {
               "type":"lifespan",
               "data":{
-                "value":1.3,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":1.3
               }
             },
             {
               "type":"lifespan",
               "data":{
-                "value":1.7,
-                "operator":"lessOrEqual"
+                "operator":"lessOrEqual",
+                "value":1.7
               }
             }
           ],
@@ -1468,15 +3119,15 @@
             {
               "type":"lifespan",
               "data":{
-                "value":3.0,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":3.0
               }
             },
             {
               "type":"lifespan",
               "data":{
-                "value":3.5,
-                "operator":"lessOrEqual"
+                "operator":"lessOrEqual",
+                "value":3.5
               }
             }
           ],
@@ -1499,15 +3150,15 @@
             {
               "type":"lifespan",
               "data":{
-                "value":4.0,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":4.0
               }
             },
             {
               "type":"lifespan",
               "data":{
-                "value":4.5,
-                "operator":"lessOrEqual"
+                "operator":"lessOrEqual",
+                "value":4.5
               }
             }
           ],
@@ -1533,15 +3184,15 @@
             {
               "type":"lifespan",
               "data":{
-                "value":3.2000000000000002,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":3.2000000000000002
               }
             },
             {
               "type":"speed",
               "data":{
-                "value":25.0,
-                "operator":"lessOrEqual"
+                "operator":"lessOrEqual",
+                "value":25.0
               }
             }
           ],
@@ -1572,7 +3223,7 @@
         "angle":0.0,
         "randomFrame":true,
         "alpha":1.0,
-        "frame":0.0,
+        "frame":1.0,
         "scaleX":3.0,
         "speed":30.0,
         "scaleY":2.0,
@@ -1638,8 +3289,8 @@
             {
               "type":"lifespan",
               "data":{
-                "value":0.050000000000000003,
-                "operator":"lessOrEqual"
+                "operator":"lessOrEqual",
+                "value":0.050000000000000003
               }
             }
           ],
@@ -1671,8 +3322,8 @@
             {
               "type":"lifespan",
               "data":{
-                "value":0.0625,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":0.0625
               }
             }
           ],
@@ -1784,8 +3435,8 @@
             {
               "type":"lifespan",
               "data":{
-                "value":2.0,
-                "operator":"lessOrEqual"
+                "operator":"lessOrEqual",
+                "value":2.0
               }
             }
           ],
@@ -1803,15 +3454,15 @@
             {
               "type":"lifespan",
               "data":{
-                "value":1.0,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":1.0
               }
             },
             {
               "type":"lifespan",
               "data":{
-                "value":3.0,
-                "operator":"lessOrEqual"
+                "operator":"lessOrEqual",
+                "value":3.0
               }
             }
           ],
@@ -1832,15 +3483,15 @@
             {
               "type":"lifespan",
               "data":{
-                "value":2.0,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":2.0
               }
             },
             {
               "type":"lifespan",
               "data":{
-                "value":2.6000000000000001,
-                "operator":"lessOrEqual"
+                "operator":"lessOrEqual",
+                "value":2.6000000000000001
               }
             }
           ],
@@ -1861,8 +3512,8 @@
             {
               "type":"lifespan",
               "data":{
-                "value":2.2000000000000002,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":2.2000000000000002
               }
             }
           ],
@@ -1880,15 +3531,15 @@
             {
               "type":"lifespan",
               "data":{
-                "value":3.5,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":3.5
               }
             },
             {
               "type":"lifespan",
               "data":{
-                "value":3.6000000000000001,
-                "operator":"lessOrEqual"
+                "operator":"lessOrEqual",
+                "value":3.6000000000000001
               }
             }
           ],
@@ -1913,15 +3564,15 @@
             {
               "type":"lifespan",
               "data":{
-                "value":4.5,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":4.5
               }
             },
             {
               "type":"lifespan",
               "data":{
-                "value":4.5999999999999996,
-                "operator":"lessOrEqual"
+                "operator":"lessOrEqual",
+                "value":4.5999999999999996
               }
             }
           ],
@@ -2058,8 +3709,8 @@
             {
               "type":"lifespan",
               "data":{
-                "value":1.5,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":1.5
               }
             }
           ],
@@ -2078,8 +3729,8 @@
             {
               "type":"lifespan",
               "data":{
-                "value":1.2,
-                "operator":"lessOrEqual"
+                "operator":"lessOrEqual",
+                "value":1.2
               }
             }
           ],
@@ -2097,15 +3748,15 @@
             {
               "type":"lifespan",
               "data":{
-                "value":2.0,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":2.0
               }
             },
             {
               "type":"lifespan",
               "data":{
-                "value":7.0,
-                "operator":"lessOrEqual"
+                "operator":"lessOrEqual",
+                "value":7.0
               }
             }
           ],
@@ -2127,15 +3778,15 @@
             {
               "type":"lifespan",
               "data":{
-                "value":1.3500000000000001,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":1.3500000000000001
               }
             },
             {
               "type":"lifespan",
               "data":{
-                "value":5.0,
-                "operator":"lessOrEqual"
+                "operator":"lessOrEqual",
+                "value":5.0
               }
             }
           ],
@@ -2156,15 +3807,15 @@
             {
               "type":"lifespan",
               "data":{
-                "value":2.0,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":2.0
               }
             },
             {
               "type":"lifespan",
               "data":{
-                "value":6.0,
-                "operator":"lessOrEqual"
+                "operator":"lessOrEqual",
+                "value":6.0
               }
             }
           ],
@@ -2262,8 +3913,8 @@
             {
               "type":"lifespan",
               "data":{
-                "value":0.5,
-                "operator":"lessOrEqual"
+                "operator":"lessOrEqual",
+                "value":0.5
               }
             }
           ],
@@ -2281,15 +3932,15 @@
             {
               "type":"lifespan",
               "data":{
-                "value":1.2,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":1.2
               }
             },
             {
               "type":"lifespan",
               "data":{
-                "value":1.7,
-                "operator":"lessOrEqual"
+                "operator":"lessOrEqual",
+                "value":1.7
               }
             }
           ],
@@ -2307,15 +3958,15 @@
             {
               "type":"lifespan",
               "data":{
-                "value":2.3999999999999999,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":2.3999999999999999
               }
             },
             {
               "type":"lifespan",
               "data":{
-                "value":2.8999999999999999,
-                "operator":"lessOrEqual"
+                "operator":"lessOrEqual",
+                "value":2.8999999999999999
               }
             }
           ],
@@ -2333,15 +3984,15 @@
             {
               "type":"lifespan",
               "data":{
-                "value":3.6000000000000001,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":3.6000000000000001
               }
             },
             {
               "type":"lifespan",
               "data":{
-                "value":4.0999999999999996,
-                "operator":"lessOrEqual"
+                "operator":"lessOrEqual",
+                "value":4.0999999999999996
               }
             }
           ],
@@ -2359,15 +4010,15 @@
             {
               "type":"lifespan",
               "data":{
-                "value":4.7999999999999998,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":4.7999999999999998
               }
             },
             {
               "type":"lifespan",
               "data":{
-                "value":5.2999999999999998,
-                "operator":"lessOrEqual"
+                "operator":"lessOrEqual",
+                "value":5.2999999999999998
               }
             }
           ],
@@ -2385,8 +4036,8 @@
             {
               "type":"lifespan",
               "data":{
-                "value":5.75,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":5.75
               }
             }
           ],
@@ -2484,15 +4135,15 @@
             {
               "type":"lifespan",
               "data":{
-                "value":2.0,
-                "operator":"lessOrEqual"
+                "operator":"lessOrEqual",
+                "value":2.0
               }
             },
             {
               "type":"lifespan",
               "data":{
-                "value":0.59999999999999998,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":0.59999999999999998
               }
             }
           ],
@@ -2509,8 +4160,8 @@
             {
               "type":"lifespan",
               "data":{
-                "value":2.0,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":2.0
               }
             }
           ],
@@ -2531,15 +4182,15 @@
             {
               "type":"lifespan",
               "data":{
-                "value":1.8999999999999999,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":1.8999999999999999
               }
             },
             {
               "type":"lifespan",
               "data":{
-                "value":3.6000000000000001,
-                "operator":"lessOrEqual"
+                "operator":"lessOrEqual",
+                "value":3.6000000000000001
               }
             }
           ],
@@ -2560,8 +4211,8 @@
             {
               "type":"lifespan",
               "data":{
-                "value":2.6000000000000001,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":2.6000000000000001
               }
             }
           ],
@@ -2579,15 +4230,15 @@
             {
               "type":"lifespan",
               "data":{
-                "value":3.5,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":3.5
               }
             },
             {
               "type":"lifespan",
               "data":{
-                "value":3.6000000000000001,
-                "operator":"lessOrEqual"
+                "operator":"lessOrEqual",
+                "value":3.6000000000000001
               }
             }
           ],
@@ -2612,15 +4263,15 @@
             {
               "type":"lifespan",
               "data":{
-                "value":4.5,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":4.5
               }
             },
             {
               "type":"lifespan",
               "data":{
-                "value":4.5999999999999996,
-                "operator":"lessOrEqual"
+                "operator":"lessOrEqual",
+                "value":4.5999999999999996
               }
             }
           ],
@@ -2736,8 +4387,8 @@
             {
               "type":"lifespan",
               "data":{
-                "value":0.5,
-                "operator":"lessOrEqual"
+                "operator":"lessOrEqual",
+                "value":0.5
               }
             }
           ],
@@ -2755,15 +4406,15 @@
             {
               "type":"lifespan",
               "data":{
-                "value":1.2,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":1.2
               }
             },
             {
               "type":"lifespan",
               "data":{
-                "value":1.7,
-                "operator":"lessOrEqual"
+                "operator":"lessOrEqual",
+                "value":1.7
               }
             }
           ],
@@ -2781,15 +4432,15 @@
             {
               "type":"lifespan",
               "data":{
-                "value":1.71,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":1.71
               }
             },
             {
               "type":"lifespan",
               "data":{
-                "value":2.2999999999999998,
-                "operator":"lessOrEqual"
+                "operator":"lessOrEqual",
+                "value":2.2999999999999998
               }
             }
           ],
@@ -2816,15 +4467,15 @@
             {
               "type":"lifespan",
               "data":{
-                "value":2.3999999999999999,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":2.3999999999999999
               }
             },
             {
               "type":"lifespan",
               "data":{
-                "value":2.8999999999999999,
-                "operator":"lessOrEqual"
+                "operator":"lessOrEqual",
+                "value":2.8999999999999999
               }
             }
           ],
@@ -2842,15 +4493,15 @@
             {
               "type":"lifespan",
               "data":{
-                "value":3.6000000000000001,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":3.6000000000000001
               }
             },
             {
               "type":"lifespan",
               "data":{
-                "value":4.0999999999999996,
-                "operator":"lessOrEqual"
+                "operator":"lessOrEqual",
+                "value":4.0999999999999996
               }
             }
           ],
@@ -2868,15 +4519,15 @@
             {
               "type":"lifespan",
               "data":{
-                "value":3.7999999999999998,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":3.7999999999999998
               }
             },
             {
               "type":"lifespan",
               "data":{
-                "value":4.2999999999999998,
-                "operator":"lessOrEqual"
+                "operator":"lessOrEqual",
+                "value":4.2999999999999998
               }
             }
           ],
@@ -2903,15 +4554,15 @@
             {
               "type":"lifespan",
               "data":{
-                "value":4.7999999999999998,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":4.7999999999999998
               }
             },
             {
               "type":"lifespan",
               "data":{
-                "value":5.2999999999999998,
-                "operator":"lessOrEqual"
+                "operator":"lessOrEqual",
+                "value":5.2999999999999998
               }
             }
           ],
@@ -2929,8 +4580,8 @@
             {
               "type":"lifespan",
               "data":{
-                "value":5.75,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":5.75
               }
             }
           ],
@@ -3040,8 +4691,8 @@
             {
               "type":"lifespan",
               "data":{
-                "value":0.5,
-                "operator":"lessOrEqual"
+                "operator":"lessOrEqual",
+                "value":0.5
               }
             }
           ],
@@ -3059,15 +4710,15 @@
             {
               "type":"lifespan",
               "data":{
-                "value":1.2,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":1.2
               }
             },
             {
               "type":"lifespan",
               "data":{
-                "value":1.7,
-                "operator":"lessOrEqual"
+                "operator":"lessOrEqual",
+                "value":1.7
               }
             }
           ],
@@ -3085,15 +4736,15 @@
             {
               "type":"lifespan",
               "data":{
-                "value":1.71,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":1.71
               }
             },
             {
               "type":"lifespan",
               "data":{
-                "value":2.2999999999999998,
-                "operator":"lessOrEqual"
+                "operator":"lessOrEqual",
+                "value":2.2999999999999998
               }
             }
           ],
@@ -3120,15 +4771,15 @@
             {
               "type":"lifespan",
               "data":{
-                "value":2.3999999999999999,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":2.3999999999999999
               }
             },
             {
               "type":"lifespan",
               "data":{
-                "value":2.8999999999999999,
-                "operator":"lessOrEqual"
+                "operator":"lessOrEqual",
+                "value":2.8999999999999999
               }
             }
           ],
@@ -3146,15 +4797,15 @@
             {
               "type":"lifespan",
               "data":{
-                "value":3.6000000000000001,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":3.6000000000000001
               }
             },
             {
               "type":"lifespan",
               "data":{
-                "value":4.0999999999999996,
-                "operator":"lessOrEqual"
+                "operator":"lessOrEqual",
+                "value":4.0999999999999996
               }
             }
           ],
@@ -3172,15 +4823,15 @@
             {
               "type":"lifespan",
               "data":{
-                "value":3.7999999999999998,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":3.7999999999999998
               }
             },
             {
               "type":"lifespan",
               "data":{
-                "value":4.2999999999999998,
-                "operator":"lessOrEqual"
+                "operator":"lessOrEqual",
+                "value":4.2999999999999998
               }
             }
           ],
@@ -3207,15 +4858,15 @@
             {
               "type":"lifespan",
               "data":{
-                "value":4.7999999999999998,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":4.7999999999999998
               }
             },
             {
               "type":"lifespan",
               "data":{
-                "value":5.2999999999999998,
-                "operator":"lessOrEqual"
+                "operator":"lessOrEqual",
+                "value":5.2999999999999998
               }
             }
           ],
@@ -3233,8 +4884,8 @@
             {
               "type":"lifespan",
               "data":{
-                "value":5.75,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":5.75
               }
             }
           ],
@@ -3344,15 +4995,15 @@
             {
               "type":"lifespan",
               "data":{
-                "value":2.0,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":2.0
               }
             },
             {
               "type":"lifespan",
               "data":{
-                "value":2.2999999999999998,
-                "operator":"lessOrEqual"
+                "operator":"lessOrEqual",
+                "value":2.2999999999999998
               }
             }
           ],
@@ -3370,15 +5021,15 @@
             {
               "type":"lifespan",
               "data":{
-                "value":1.7,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":1.7
               }
             },
             {
               "type":"lifespan",
               "data":{
-                "value":2.7999999999999998,
-                "operator":"lessOrEqual"
+                "operator":"lessOrEqual",
+                "value":2.7999999999999998
               }
             }
           ],
@@ -3403,15 +5054,15 @@
             {
               "type":"lifespan",
               "data":{
-                "value":3.2999999999999998,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":3.2999999999999998
               }
             },
             {
               "type":"lifespan",
               "data":{
-                "value":4.0,
-                "operator":"lessOrEqual"
+                "operator":"lessOrEqual",
+                "value":4.0
               }
             }
           ],
@@ -3429,15 +5080,15 @@
             {
               "type":"lifespan",
               "data":{
-                "value":4.0999999999999996,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":4.0999999999999996
               }
             },
             {
               "type":"lifespan",
               "data":{
-                "value":4.5999999999999996,
-                "operator":"lessOrEqual"
+                "operator":"lessOrEqual",
+                "value":4.5999999999999996
               }
             }
           ],
@@ -3455,15 +5106,15 @@
             {
               "type":"lifespan",
               "data":{
-                "value":5.0,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":5.0
               }
             },
             {
               "type":"lifespan",
               "data":{
-                "value":5.5,
-                "operator":"lessOrEqual"
+                "operator":"lessOrEqual",
+                "value":5.5
               }
             }
           ],
@@ -3573,15 +5224,15 @@
             {
               "type":"lifespan",
               "data":{
-                "value":2.0,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":2.0
               }
             },
             {
               "type":"lifespan",
               "data":{
-                "value":2.2999999999999998,
-                "operator":"lessOrEqual"
+                "operator":"lessOrEqual",
+                "value":2.2999999999999998
               }
             }
           ],
@@ -3599,15 +5250,15 @@
             {
               "type":"lifespan",
               "data":{
-                "value":1.7,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":1.7
               }
             },
             {
               "type":"lifespan",
               "data":{
-                "value":2.7999999999999998,
-                "operator":"lessOrEqual"
+                "operator":"lessOrEqual",
+                "value":2.7999999999999998
               }
             }
           ],
@@ -3632,15 +5283,15 @@
             {
               "type":"lifespan",
               "data":{
-                "value":3.2999999999999998,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":3.2999999999999998
               }
             },
             {
               "type":"lifespan",
               "data":{
-                "value":4.0,
-                "operator":"lessOrEqual"
+                "operator":"lessOrEqual",
+                "value":4.0
               }
             }
           ],
@@ -3658,15 +5309,15 @@
             {
               "type":"lifespan",
               "data":{
-                "value":4.0999999999999996,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":4.0999999999999996
               }
             },
             {
               "type":"lifespan",
               "data":{
-                "value":4.5999999999999996,
-                "operator":"lessOrEqual"
+                "operator":"lessOrEqual",
+                "value":4.5999999999999996
               }
             }
           ],
@@ -3684,15 +5335,15 @@
             {
               "type":"lifespan",
               "data":{
-                "value":5.0,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":5.0
               }
             },
             {
               "type":"lifespan",
               "data":{
-                "value":5.5,
-                "operator":"lessOrEqual"
+                "operator":"lessOrEqual",
+                "value":5.5
               }
             }
           ],
@@ -3789,15 +5440,15 @@
             {
               "type":"lifespan",
               "data":{
-                "value":2.0,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":2.0
               }
             },
             {
               "type":"lifespan",
               "data":{
-                "value":2.2999999999999998,
-                "operator":"lessOrEqual"
+                "operator":"lessOrEqual",
+                "value":2.2999999999999998
               }
             }
           ],
@@ -3815,15 +5466,15 @@
             {
               "type":"lifespan",
               "data":{
-                "value":3.2999999999999998,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":3.2999999999999998
               }
             },
             {
               "type":"lifespan",
               "data":{
-                "value":4.0,
-                "operator":"lessOrEqual"
+                "operator":"lessOrEqual",
+                "value":4.0
               }
             }
           ],
@@ -3841,15 +5492,15 @@
             {
               "type":"lifespan",
               "data":{
-                "value":4.0999999999999996,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":4.0999999999999996
               }
             },
             {
               "type":"lifespan",
               "data":{
-                "value":4.5999999999999996,
-                "operator":"lessOrEqual"
+                "operator":"lessOrEqual",
+                "value":4.5999999999999996
               }
             }
           ],
@@ -3867,15 +5518,15 @@
             {
               "type":"lifespan",
               "data":{
-                "value":5.0,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":5.0
               }
             },
             {
               "type":"lifespan",
               "data":{
-                "value":5.5,
-                "operator":"lessOrEqual"
+                "operator":"lessOrEqual",
+                "value":5.5
               }
             }
           ],
@@ -3904,7 +5555,7 @@
         "angle":0.0,
         "randomFrame":true,
         "alpha":1.0,
-        "frame":1.0,
+        "frame":2.0,
         "scaleX":4.0,
         "speed":30.0,
         "scaleY":4.0,
@@ -3974,8 +5625,8 @@
             {
               "type":"lifespan",
               "data":{
-                "value":0.050000000000000003,
-                "operator":"lessOrEqual"
+                "operator":"lessOrEqual",
+                "value":0.050000000000000003
               }
             }
           ],
@@ -4007,8 +5658,8 @@
             {
               "type":"lifespan",
               "data":{
-                "value":0.0625,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":0.0625
               }
             }
           ],
@@ -4040,15 +5691,15 @@
             {
               "type":"lifespan",
               "data":{
-                "value":1.6000000000000001,
-                "operator":"lessOrEqual"
+                "operator":"lessOrEqual",
+                "value":1.6000000000000001
               }
             },
             {
               "type":"speed",
               "data":{
-                "value":2.0,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":2.0
               }
             }
           ],
@@ -4064,8 +5715,8 @@
             {
               "type":"lifespan",
               "data":{
-                "value":1.25,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":1.25
               }
             }
           ],
@@ -4084,8 +5735,8 @@
             {
               "type":"lifespan",
               "data":{
-                "value":1.25,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":1.25
               }
             }
           ],
@@ -4104,8 +5755,8 @@
             {
               "type":"lifespan",
               "data":{
-                "value":1.25,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":1.25
               }
             }
           ],
@@ -4124,15 +5775,15 @@
             {
               "type":"lifespan",
               "data":{
-                "value":3.02,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":3.02
               }
             },
             {
               "type":"lifespan",
               "data":{
-                "value":4.5,
-                "operator":"lessOrEqual"
+                "operator":"lessOrEqual",
+                "value":4.5
               }
             }
           ],
@@ -4154,8 +5805,8 @@
             {
               "type":"lifespan",
               "data":{
-                "value":4.5,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":4.5
               }
             }
           ],
@@ -4183,7 +5834,7 @@
         "angle":0.0,
         "randomFrame":true,
         "alpha":1.0,
-        "frame":2.0,
+        "frame":0.0,
         "scaleX":1.6000000000000001,
         "speed":30.0,
         "scaleY":1.6000000000000001,
@@ -4244,15 +5895,15 @@
             {
               "type":"lifespan",
               "data":{
-                "value":1.3,
-                "operator":"lessOrEqual"
+                "operator":"lessOrEqual",
+                "value":1.3
               }
             },
             {
               "type":"speed",
               "data":{
-                "value":4.0,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":4.0
               }
             }
           ],
@@ -4268,8 +5919,8 @@
             {
               "type":"lifespan",
               "data":{
-                "value":1.8,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":1.8
               }
             }
           ],
@@ -4286,8 +5937,8 @@
             {
               "type":"lifespan",
               "data":{
-                "value":1.8,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":1.8
               }
             }
           ],
@@ -4377,15 +6028,15 @@
             {
               "type":"lifespan",
               "data":{
-                "value":1.3,
-                "operator":"lessOrEqual"
+                "operator":"lessOrEqual",
+                "value":1.3
               }
             },
             {
               "type":"speed",
               "data":{
-                "value":4.0,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":4.0
               }
             }
           ],
@@ -4401,8 +6052,8 @@
             {
               "type":"lifespan",
               "data":{
-                "value":1.8,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":1.8
               }
             }
           ],
@@ -4419,8 +6070,8 @@
             {
               "type":"lifespan",
               "data":{
-                "value":1.8,
-                "operator":"greaterOrEqual"
+                "operator":"greaterOrEqual",
+                "value":1.8
               }
             }
           ],
@@ -4443,1657 +6094,6 @@
       "use_shroom_queue":true,
       "shroom_hide_texture":true,
       "name":"bazyl-1-turns-r"
-    },
-    "bazyl-1-boomerang-l":{
-      "sprite":{
-        "angle":0.0,
-        "randomFrame":true,
-        "alpha":1.0,
-        "frame":2.0,
-        "scaleX":1.75,
-        "speed":30.0,
-        "scaleY":1.75,
-        "blend":"#FFFFFF",
-        "animate":false,
-        "name":"texture_shroom_bazyl_yellow"
-      },
-      "onDamage":[
-      ],
-      "onDeath":[
-        {
-          "conditions":[
-          ],
-          "type":"ParticleFeature",
-          "data":{
-            "particle":"particle-shroom-death",
-            "amount":1.0
-          }
-        },
-        {
-          "conditions":[
-          ],
-          "type":"CoinFeature",
-          "data":{
-            "luck":0.75,
-            "coin":[
-              "coin-point",
-              "coin-force"
-            ],
-            "amount":2.0,
-            "offsetY":-256.0
-          }
-        }
-      ],
-      "healthPoints":3.0,
-      "queue":[
-      ],
-      "lifespanMax":15.0,
-      "hostile":true,
-      "inherit":[
-      ],
-      "mask":{
-        "x":60.0,
-        "y":60.0,
-        "width":136.0,
-        "height":136.0
-      },
-      "use_shroom_features":true,
-      "shroom_hide":false,
-      "use_shroom_healthPoints":true,
-      "shroom_hide_features":true,
-      "shroom_hide_inherit":true,
-      "use_shroom_inherit":true,
-      "use_shroom_lifespan":false,
-      "shroom_hide_mask":true,
-      "features":[
-        {
-          "conditions":[
-            {
-              "type":"lifespan",
-              "data":{
-                "value":0.050000000000000003,
-                "operator":"lessOrEqual"
-              }
-            }
-          ],
-          "type":"DeprecatedSpriteFeature",
-          "data":{
-            "angle":{
-              "transform":{
-                "factor":360.0,
-                "target":0.0
-              }
-            }
-          }
-        },
-        {
-          "conditions":[
-          ],
-          "type":"DeprecatedSpriteFeature",
-          "data":{
-            "angle":{
-              "add":{
-                "target":-2.0
-              }
-            }
-          }
-        },
-        {
-          "conditions":[
-            {
-              "type":"lifespan",
-              "data":{
-                "value":1.3300000000000001,
-                "operator":"greaterOrEqual"
-              }
-            }
-          ],
-          "type":"DeprecatedAngleFeature",
-          "data":{
-            "transform":{
-              "factor":2.5,
-              "target":180.0
-            }
-          }
-        }
-      ],
-      "use_shroom_mask":true,
-      "shroom_hide_on_damage":true,
-      "use_shroom_on_damage":true,
-      "shroom_hide_on_death":true,
-      "use_shroom_on_death":true,
-      "shroom_hide_queue":true,
-      "use_shroom_queue":true,
-      "shroom_hide_texture":true,
-      "name":"bazyl-1-boomerang-l"
-    },
-    "bazyl-1-boomerang-r":{
-      "sprite":{
-        "angle":0.0,
-        "randomFrame":true,
-        "alpha":1.0,
-        "frame":0.0,
-        "scaleX":1.75,
-        "speed":30.0,
-        "scaleY":1.75,
-        "blend":"#FFFFFF",
-        "animate":false,
-        "name":"texture_shroom_bazyl_green"
-      },
-      "onDamage":[
-      ],
-      "onDeath":[
-        {
-          "conditions":[
-          ],
-          "type":"ParticleFeature",
-          "data":{
-            "particle":"particle-shroom-death",
-            "amount":1.0
-          }
-        },
-        {
-          "conditions":[
-          ],
-          "type":"CoinFeature",
-          "data":{
-            "luck":0.75,
-            "coin":[
-              "coin-point",
-              "coin-force"
-            ],
-            "amount":2.0,
-            "offsetY":-256.0
-          }
-        }
-      ],
-      "healthPoints":3.0,
-      "queue":[
-      ],
-      "lifespanMax":15.0,
-      "hostile":true,
-      "inherit":[
-      ],
-      "mask":{
-        "x":60.0,
-        "y":60.0,
-        "width":136.0,
-        "height":136.0
-      },
-      "use_shroom_features":true,
-      "shroom_hide":false,
-      "use_shroom_healthPoints":true,
-      "shroom_hide_features":true,
-      "shroom_hide_inherit":true,
-      "use_shroom_inherit":true,
-      "use_shroom_lifespan":false,
-      "shroom_hide_mask":true,
-      "features":[
-        {
-          "conditions":[
-            {
-              "type":"lifespan",
-              "data":{
-                "value":0.050000000000000003,
-                "operator":"lessOrEqual"
-              }
-            }
-          ],
-          "type":"DeprecatedSpriteFeature",
-          "data":{
-            "angle":{
-              "transform":{
-                "factor":360.0,
-                "target":300.0
-              }
-            }
-          }
-        },
-        {
-          "conditions":[
-          ],
-          "type":"DeprecatedSpriteFeature",
-          "data":{
-            "angle":{
-              "add":{
-                "target":2.0
-              }
-            }
-          }
-        },
-        {
-          "conditions":[
-            {
-              "type":"lifespan",
-              "data":{
-                "value":1.3300000000000001,
-                "operator":"greaterOrEqual"
-              }
-            }
-          ],
-          "type":"DeprecatedAngleFeature",
-          "data":{
-            "transform":{
-              "factor":-2.5,
-              "target":-180.0
-            }
-          }
-        }
-      ],
-      "use_shroom_mask":true,
-      "shroom_hide_on_damage":true,
-      "use_shroom_on_damage":true,
-      "shroom_hide_on_death":true,
-      "use_shroom_on_death":true,
-      "shroom_hide_queue":true,
-      "use_shroom_queue":true,
-      "shroom_hide_texture":true,
-      "name":"bazyl-1-boomerang-r"
-    },
-    "bazyl-1-intro":{
-      "sprite":{
-        "angle":0.0,
-        "randomFrame":true,
-        "alpha":1.0,
-        "frame":0.0,
-        "scaleX":1.75,
-        "speed":30.0,
-        "scaleY":1.75,
-        "blend":"#FFFFFF",
-        "animate":false,
-        "name":"texture_shroom_bazyl"
-      },
-      "onDamage":[
-      ],
-      "onDeath":[
-        {
-          "conditions":[
-          ],
-          "type":"ParticleFeature",
-          "data":{
-            "particle":"particle-shroom-death",
-            "amount":1.0
-          }
-        },
-        {
-          "conditions":[
-          ],
-          "type":"CoinFeature",
-          "data":{
-            "luck":0.5,
-            "coin":[
-              "coin-point",
-              "coin-force"
-            ],
-            "amount":3.0,
-            "offsetY":-256.0
-          }
-        }
-      ],
-      "healthPoints":2.0,
-      "queue":[
-      ],
-      "lifespanMax":15.0,
-      "hostile":true,
-      "inherit":[
-      ],
-      "mask":{
-        "x":60.0,
-        "y":60.0,
-        "width":136.0,
-        "height":136.0
-      },
-      "use_shroom_features":true,
-      "shroom_hide":false,
-      "use_shroom_healthPoints":true,
-      "shroom_hide_features":true,
-      "shroom_hide_inherit":true,
-      "use_shroom_inherit":true,
-      "use_shroom_lifespan":false,
-      "shroom_hide_mask":true,
-      "features":[
-        {
-          "conditions":[
-            {
-              "type":"lifespan",
-              "data":{
-                "value":0.050000000000000003,
-                "operator":"lessOrEqual"
-              }
-            }
-          ],
-          "type":"DeprecatedSpriteFeature",
-          "data":{
-            "angle":{
-              "transform":{
-                "factor":360.0,
-                "target":90.0
-              }
-            }
-          }
-        },
-        {
-          "conditions":[
-            {
-              "type":"lifespan",
-              "data":{
-                "value":0.0625,
-                "operator":"greaterOrEqual"
-              }
-            }
-          ],
-          "type":"DeprecatedSpriteFeature",
-          "data":{
-            "angle":{
-              "add":{
-                "factor":0.01,
-                "target":-0.10000000000000001
-              }
-            }
-          }
-        },
-        {
-          "conditions":[
-            {
-              "type":"lifespan",
-              "data":{
-                "value":1.3,
-                "operator":"lessOrEqual"
-              }
-            },
-            {
-              "type":"speed",
-              "data":{
-                "value":5.0,
-                "operator":"greaterOrEqual"
-              }
-            }
-          ],
-          "type":"DeprecatedSpeedFeature",
-          "data":{
-            "add":{
-              "target":-0.10000000000000001
-            }
-          }
-        },
-        {
-          "conditions":[
-            {
-              "type":"lifespan",
-              "data":{
-                "value":1.8,
-                "operator":"greaterOrEqual"
-              }
-            },
-            {
-              "type":"lifespan",
-              "data":{
-                "value":2.5,
-                "operator":"lessOrEqual"
-              }
-            }
-          ],
-          "type":"DeprecatedAngleFeature",
-          "data":{
-            "transform":{
-              "factor":5.0,
-              "target":[
-                60.0,
-                70.0,
-                90.0,
-                110.0,
-                120.0
-              ]
-            }
-          }
-        },
-        {
-          "conditions":[
-            {
-              "type":"lifespan",
-              "data":{
-                "value":2.5,
-                "operator":"greaterOrEqual"
-              }
-            },
-            {
-              "type":"lifespan",
-              "data":{
-                "value":3.5,
-                "operator":"lessOrEqual"
-              }
-            }
-          ],
-          "type":"DeprecatedAngleFeature",
-          "data":{
-            "transform":{
-              "factor":2.5,
-              "target":[
-                250.0,
-                260.0,
-                270.0,
-                280.0,
-                290.0
-              ]
-            }
-          }
-        },
-        {
-          "conditions":[
-            {
-              "type":"lifespan",
-              "data":{
-                "value":3.5,
-                "operator":"greaterOrEqual"
-              }
-            },
-            {
-              "type":"lifespan",
-              "data":{
-                "value":4.5,
-                "operator":"lessOrEqual"
-              }
-            }
-          ],
-          "type":"DeprecatedAngleFeature",
-          "data":{
-            "transform":{
-              "factor":2.0,
-              "target":[
-                0.0,
-                50.0,
-                100.0,
-                150.0,
-                200.0,
-                250.0,
-                300.0,
-                350.0
-              ]
-            }
-          }
-        },
-        {
-          "conditions":[
-            {
-              "type":"lifespan",
-              "data":{
-                "value":2.5,
-                "operator":"greaterOrEqual"
-              }
-            },
-            {
-              "type":"speed",
-              "data":{
-                "value":25.0,
-                "operator":"lessOrEqual"
-              }
-            }
-          ],
-          "type":"DeprecatedSpeedFeature",
-          "data":{
-            "add":{
-              "target":[
-                0.01,
-                0.050000000000000003,
-                0.10000000000000001
-              ]
-            }
-          }
-        }
-      ],
-      "use_shroom_mask":true,
-      "shroom_hide_on_damage":true,
-      "use_shroom_on_damage":true,
-      "shroom_hide_on_death":true,
-      "use_shroom_on_death":true,
-      "shroom_hide_queue":true,
-      "use_shroom_queue":true,
-      "shroom_hide_texture":true,
-      "name":"bazyl-1-intro"
-    },
-    "baron-1-r8":{
-      "sprite":{
-        "angle":0.0,
-        "randomFrame":true,
-        "alpha":1.0,
-        "frame":1.0,
-        "scaleX":3.0,
-        "speed":30.0,
-        "scaleY":2.0,
-        "blend":"#FFFFFF",
-        "animate":false,
-        "name":"texture_shroom_baron_yellow"
-      },
-      "onDamage":[
-        {
-          "conditions":[
-          ],
-          "type":"ParticleFeature",
-          "data":{
-            "particle":"particle-shroom-damage",
-            "amount":4.0
-          }
-        }
-      ],
-      "onDeath":[
-        {
-          "conditions":[
-          ],
-          "type":"ParticleFeature",
-          "data":{
-            "particle":"particle-shroom-death",
-            "amount":8.0
-          }
-        },
-        {
-          "conditions":[
-          ],
-          "type":"CoinFeature",
-          "data":{
-            "coin":"coin-point",
-            "offsetY":-256.0
-          }
-        }
-      ],
-      "healthPoints":2.0,
-      "queue":[
-      ],
-      "lifespanMax":15.0,
-      "hostile":true,
-      "inherit":[
-      ],
-      "mask":{
-        "x":76.0,
-        "y":60.0,
-        "width":136.0,
-        "height":136.0
-      },
-      "use_shroom_features":true,
-      "shroom_hide":false,
-      "use_shroom_healthPoints":true,
-      "shroom_hide_features":true,
-      "shroom_hide_inherit":true,
-      "use_shroom_inherit":true,
-      "use_shroom_lifespan":false,
-      "shroom_hide_mask":true,
-      "features":[
-        {
-          "conditions":[
-            {
-              "type":"lifespan",
-              "data":{
-                "value":0.050000000000000003,
-                "operator":"lessOrEqual"
-              }
-            }
-          ],
-          "type":"DeprecatedSpriteFeature",
-          "data":{
-            "angle":{
-              "transform":{
-                "factor":360.0,
-                "target":120.0
-              }
-            }
-          }
-        },
-        {
-          "conditions":[
-            {
-              "type":"lifespan",
-              "data":{
-                "value":0.0625,
-                "operator":"greaterOrEqual"
-              }
-            }
-          ],
-          "type":"DeprecatedSpriteFeature",
-          "data":{
-            "angle":{
-              "add":{
-                "factor":0.01,
-                "target":-0.40000000000000002
-              }
-            }
-          }
-        },
-        {
-          "conditions":[
-            {
-              "type":"lifespan",
-              "data":{
-                "value":0.5,
-                "operator":"greaterOrEqual"
-              }
-            },
-            {
-              "type":"lifespan",
-              "data":{
-                "value":9.0,
-                "operator":"lessOrEqual"
-              }
-            }
-          ],
-          "type":"ShootFeature",
-          "data":{
-            "bullets":8.0,
-            "bullet":"bullet-swing",
-            "speed":25.0,
-            "interval":0.16,
-            "randomRange":20.0
-          }
-        }
-      ],
-      "use_shroom_mask":true,
-      "shroom_hide_on_damage":true,
-      "use_shroom_on_damage":true,
-      "shroom_hide_on_death":true,
-      "use_shroom_on_death":true,
-      "shroom_hide_queue":true,
-      "use_shroom_queue":true,
-      "shroom_hide_texture":true,
-      "name":"baron-1-r8"
-    },
-    "baron-1-p5":{
-      "sprite":{
-        "angle":0.0,
-        "randomFrame":true,
-        "alpha":1.0,
-        "frame":1.0,
-        "scaleX":2.0,
-        "speed":30.0,
-        "scaleY":3.3300000000000001,
-        "blend":"#FFFFFF",
-        "animate":false,
-        "name":"texture_shroom_baron_green"
-      },
-      "onDamage":[
-        {
-          "conditions":[
-          ],
-          "type":"ParticleFeature",
-          "data":{
-            "particle":"particle-shroom-damage",
-            "amount":4.0
-          }
-        }
-      ],
-      "onDeath":[
-        {
-          "conditions":[
-          ],
-          "type":"ParticleFeature",
-          "data":{
-            "particle":"particle-shroom-death",
-            "amount":8.0
-          }
-        }
-      ],
-      "healthPoints":1.0,
-      "queue":[
-      ],
-      "lifespanMax":15.0,
-      "hostile":true,
-      "inherit":[
-      ],
-      "mask":{
-        "x":76.0,
-        "y":60.0,
-        "width":136.0,
-        "height":136.0
-      },
-      "use_shroom_features":true,
-      "shroom_hide":true,
-      "use_shroom_healthPoints":false,
-      "shroom_hide_features":true,
-      "shroom_hide_inherit":true,
-      "use_shroom_inherit":true,
-      "use_shroom_lifespan":false,
-      "shroom_hide_mask":true,
-      "features":[
-        {
-          "conditions":[
-            {
-              "type":"lifespan",
-              "data":{
-                "value":0.050000000000000003,
-                "operator":"lessOrEqual"
-              }
-            }
-          ],
-          "type":"DeprecatedSpriteFeature",
-          "data":{
-            "angle":{
-              "transform":{
-                "factor":360.0,
-                "target":[
-                  0.0,
-                  30.0,
-                  60.0,
-                  90.0,
-                  120.0,
-                  150.0,
-                  180.0,
-                  220.0,
-                  250.0,
-                  270.0,
-                  300.0,
-                  330.0
-                ]
-              }
-            }
-          }
-        },
-        {
-          "conditions":[
-            {
-              "type":"lifespan",
-              "data":{
-                "value":0.0625,
-                "operator":"greaterOrEqual"
-              }
-            }
-          ],
-          "type":"DeprecatedSpriteFeature",
-          "data":{
-            "angle":{
-              "add":{
-                "factor":0.01,
-                "target":[
-                  0.10000000000000001,
-                  -0.10000000000000001,
-                  0.40000000000000002,
-                  -0.40000000000000002,
-                  0.80000000000000004,
-                  -0.80000000000000004,
-                  1.0,
-                  -1.0,
-                  1.2,
-                  -1.2,
-                  1.6000000000000001,
-                  -1.6000000000000001
-                ]
-              }
-            }
-          }
-        },
-        {
-          "conditions":[
-            {
-              "type":"lifespan",
-              "data":{
-                "value":0.25,
-                "operator":"greaterOrEqual"
-              }
-            },
-            {
-              "type":"lifespan",
-              "data":{
-                "value":5.0,
-                "operator":"lessOrEqual"
-              }
-            }
-          ],
-          "type":"ShootFeature",
-          "data":{
-            "bullet":"bullet-shroom",
-            "bullets":5.0,
-            "targetPlayer":true,
-            "speed":25.0,
-            "interval":0.25,
-            "randomRange":1.0
-          }
-        }
-      ],
-      "use_shroom_mask":true,
-      "shroom_hide_on_damage":true,
-      "use_shroom_on_damage":true,
-      "shroom_hide_on_death":true,
-      "use_shroom_on_death":true,
-      "shroom_hide_queue":true,
-      "use_shroom_queue":true,
-      "shroom_hide_texture":true,
-      "name":"baron-1-p5"
-    },
-    "baron-1-turns-r-s2x6":{
-      "sprite":{
-        "angle":0.0,
-        "randomFrame":true,
-        "alpha":1.0,
-        "frame":1.0,
-        "scaleX":2.0,
-        "speed":30.0,
-        "scaleY":2.0,
-        "blend":"#FFFFFF",
-        "animate":false,
-        "name":"texture_shroom_baron_blue"
-      },
-      "onDamage":[
-        {
-          "conditions":[
-          ],
-          "type":"ParticleFeature",
-          "data":{
-            "particle":"particle-shroom-damage",
-            "amount":4.0
-          }
-        }
-      ],
-      "onDeath":[
-        {
-          "conditions":[
-          ],
-          "type":"ParticleFeature",
-          "data":{
-            "particle":"particle-shroom-death",
-            "amount":8.0
-          }
-        },
-        {
-          "conditions":[
-          ],
-          "type":"CoinFeature",
-          "data":{
-            "coin":[
-              "coin-point",
-              "coin-empty",
-              "coin-empty"
-            ],
-            "offsetY":-256.0
-          }
-        }
-      ],
-      "healthPoints":1.0,
-      "queue":[
-      ],
-      "lifespanMax":15.0,
-      "hostile":true,
-      "inherit":[
-      ],
-      "mask":{
-        "x":76.0,
-        "y":60.0,
-        "width":136.0,
-        "height":136.0
-      },
-      "use_shroom_features":true,
-      "shroom_hide":true,
-      "use_shroom_healthPoints":false,
-      "shroom_hide_features":true,
-      "shroom_hide_inherit":true,
-      "use_shroom_inherit":true,
-      "use_shroom_lifespan":false,
-      "shroom_hide_mask":true,
-      "features":[
-        {
-          "conditions":[
-            {
-              "type":"lifespan",
-              "data":{
-                "value":0.0,
-                "operator":"greaterOrEqual"
-              }
-            },
-            {
-              "type":"lifespan",
-              "data":{
-                "value":1.6000000000000001,
-                "operator":"lessOrEqual"
-              }
-            }
-          ],
-          "type":"DeprecatedAngleFeature",
-          "data":{
-            "add":{
-              "increase":0.0,
-              "factor":0.10000000000000001,
-              "target":-1.0
-            }
-          }
-        },
-        {
-          "conditions":[
-            {
-              "type":"lifespan",
-              "data":{
-                "value":1.5,
-                "operator":"greaterOrEqual"
-              }
-            },
-            {
-              "type":"lifespan",
-              "data":{
-                "value":4.5,
-                "operator":"lessOrEqual"
-              }
-            }
-          ],
-          "type":"ShootFeature",
-          "data":{
-            "bullet":"bullet-shroom",
-            "angle":90.0,
-            "bullets":6.0,
-            "speed":10.0,
-            "interval":0.40000000000000002,
-            "randomRange":5.0
-          }
-        },
-        {
-          "conditions":[
-            {
-              "type":"lifespan",
-              "data":{
-                "value":4.0,
-                "operator":"greaterOrEqual"
-              }
-            },
-            {
-              "type":"lifespan",
-              "data":{
-                "value":7.0,
-                "operator":"lessOrEqual"
-              }
-            }
-          ],
-          "type":"DeprecatedAngleFeature",
-          "data":{
-            "add":{
-              "increase":0.0,
-              "factor":0.10000000000000001,
-              "target":1.0
-            }
-          }
-        },
-        {
-          "conditions":[
-            {
-              "type":"lifespan",
-              "data":{
-                "value":7.0,
-                "operator":"greaterOrEqual"
-              }
-            },
-            {
-              "type":"lifespan",
-              "data":{
-                "value":9.0,
-                "operator":"lessOrEqual"
-              }
-            }
-          ],
-          "type":"ShootFeature",
-          "data":{
-            "bullet":"bullet-shroom",
-            "angle":315.0,
-            "bullets":6.0,
-            "speed":10.0,
-            "interval":0.5,
-            "randomRange":45.0
-          }
-        },
-        {
-          "conditions":[
-            {
-              "type":"lifespan",
-              "data":{
-                "value":9.0,
-                "operator":"greaterOrEqual"
-              }
-            },
-            {
-              "type":"lifespan",
-              "data":{
-                "value":11.0,
-                "operator":"lessOrEqual"
-              }
-            }
-          ],
-          "type":"DeprecatedAngleFeature",
-          "data":{
-            "add":{
-              "increase":0.0,
-              "factor":0.10000000000000001,
-              "target":-1.0
-            }
-          }
-        }
-      ],
-      "use_shroom_mask":true,
-      "shroom_hide_on_damage":true,
-      "use_shroom_on_damage":true,
-      "shroom_hide_on_death":true,
-      "use_shroom_on_death":true,
-      "shroom_hide_queue":true,
-      "use_shroom_queue":true,
-      "shroom_hide_texture":true,
-      "name":"baron-1-turns-r-s2x6"
-    },
-    "baron-1-turns-l-s2x6":{
-      "sprite":{
-        "angle":0.0,
-        "randomFrame":true,
-        "alpha":1.0,
-        "frame":2.0,
-        "scaleX":2.0,
-        "speed":30.0,
-        "scaleY":2.0,
-        "blend":"#FFFFFF",
-        "animate":false,
-        "name":"texture_shroom_baron_red"
-      },
-      "onDamage":[
-        {
-          "conditions":[
-          ],
-          "type":"ParticleFeature",
-          "data":{
-            "particle":"particle-shroom-damage",
-            "amount":4.0
-          }
-        }
-      ],
-      "onDeath":[
-        {
-          "conditions":[
-          ],
-          "type":"ParticleFeature",
-          "data":{
-            "particle":"particle-shroom-death",
-            "amount":8.0
-          }
-        },
-        {
-          "conditions":[
-          ],
-          "type":"CoinFeature",
-          "data":{
-            "coin":[
-              "coin-force"
-            ],
-            "offsetY":-256.0
-          }
-        }
-      ],
-      "healthPoints":1.0,
-      "queue":[
-      ],
-      "lifespanMax":15.0,
-      "hostile":true,
-      "inherit":[
-      ],
-      "mask":{
-        "x":76.0,
-        "y":60.0,
-        "width":136.0,
-        "height":136.0
-      },
-      "use_shroom_features":true,
-      "shroom_hide":true,
-      "use_shroom_healthPoints":false,
-      "shroom_hide_features":true,
-      "shroom_hide_inherit":true,
-      "use_shroom_inherit":true,
-      "use_shroom_lifespan":false,
-      "shroom_hide_mask":true,
-      "features":[
-        {
-          "conditions":[
-            {
-              "type":"lifespan",
-              "data":{
-                "value":0.0,
-                "operator":"greaterOrEqual"
-              }
-            },
-            {
-              "type":"lifespan",
-              "data":{
-                "value":1.6000000000000001,
-                "operator":"lessOrEqual"
-              }
-            }
-          ],
-          "type":"DeprecatedAngleFeature",
-          "data":{
-            "add":{
-              "increase":0.0,
-              "factor":0.10000000000000001,
-              "target":1.0
-            }
-          }
-        },
-        {
-          "conditions":[
-            {
-              "type":"lifespan",
-              "data":{
-                "value":1.5,
-                "operator":"greaterOrEqual"
-              }
-            },
-            {
-              "type":"lifespan",
-              "data":{
-                "value":4.5,
-                "operator":"lessOrEqual"
-              }
-            }
-          ],
-          "type":"ShootFeature",
-          "data":{
-            "bullet":"bullet-shroom",
-            "angle":270.0,
-            "bullets":6.0,
-            "speed":15.0,
-            "interval":0.40000000000000002,
-            "randomRange":5.0
-          }
-        },
-        {
-          "conditions":[
-            {
-              "type":"lifespan",
-              "data":{
-                "value":4.0,
-                "operator":"greaterOrEqual"
-              }
-            },
-            {
-              "type":"lifespan",
-              "data":{
-                "value":7.0,
-                "operator":"lessOrEqual"
-              }
-            }
-          ],
-          "type":"DeprecatedAngleFeature",
-          "data":{
-            "add":{
-              "increase":0.0,
-              "factor":0.10000000000000001,
-              "target":-1.0
-            }
-          }
-        },
-        {
-          "conditions":[
-            {
-              "type":"lifespan",
-              "data":{
-                "value":6.0,
-                "operator":"greaterOrEqual"
-              }
-            },
-            {
-              "type":"lifespan",
-              "data":{
-                "value":9.0,
-                "operator":"lessOrEqual"
-              }
-            }
-          ],
-          "type":"ShootFeature",
-          "data":{
-            "bullet":"bullet-shroom",
-            "angle":-315.0,
-            "bullets":6.0,
-            "speed":10.0,
-            "interval":0.5,
-            "randomRange":45.0
-          }
-        },
-        {
-          "conditions":[
-            {
-              "type":"lifespan",
-              "data":{
-                "value":9.0,
-                "operator":"greaterOrEqual"
-              }
-            },
-            {
-              "type":"lifespan",
-              "data":{
-                "value":11.0,
-                "operator":"lessOrEqual"
-              }
-            }
-          ],
-          "type":"DeprecatedAngleFeature",
-          "data":{
-            "add":{
-              "increase":0.0,
-              "factor":0.10000000000000001,
-              "target":1.0
-            }
-          }
-        }
-      ],
-      "use_shroom_mask":true,
-      "shroom_hide_on_damage":true,
-      "use_shroom_on_damage":true,
-      "shroom_hide_on_death":true,
-      "use_shroom_on_death":true,
-      "shroom_hide_queue":true,
-      "use_shroom_queue":true,
-      "shroom_hide_texture":true,
-      "name":"baron-1-turns-l-s2x6"
-    },
-    "baron-1-swing":{
-      "sprite":{
-        "angle":0.0,
-        "randomFrame":true,
-        "alpha":1.0,
-        "frame":2.0,
-        "scaleX":3.5,
-        "speed":30.0,
-        "scaleY":3.5,
-        "blend":"#FFFFFF",
-        "animate":false,
-        "name":"texture_shroom_baron_magenta"
-      },
-      "onDamage":[
-        {
-          "conditions":[
-          ],
-          "type":"ParticleFeature",
-          "data":{
-            "particle":"particle-shroom-damage",
-            "amount":4.0
-          }
-        }
-      ],
-      "onDeath":[
-        {
-          "conditions":[
-          ],
-          "type":"ParticleFeature",
-          "data":{
-            "particle":"particle-shroom-death",
-            "amount":1.0
-          }
-        },
-        {
-          "conditions":[
-          ],
-          "type":"CoinFeature",
-          "data":{
-            "coin":"coin-force",
-            "offsetY":-256.0
-          }
-        }
-      ],
-      "healthPoints":5.0,
-      "queue":[
-      ],
-      "lifespanMax":15.0,
-      "hostile":true,
-      "inherit":[
-      ],
-      "mask":{
-        "x":76.0,
-        "y":60.0,
-        "width":136.0,
-        "height":136.0
-      },
-      "use_shroom_features":true,
-      "shroom_hide":false,
-      "use_shroom_healthPoints":true,
-      "shroom_hide_features":true,
-      "shroom_hide_inherit":true,
-      "use_shroom_inherit":true,
-      "use_shroom_lifespan":false,
-      "shroom_hide_mask":true,
-      "features":[
-        {
-          "conditions":[
-            {
-              "type":"lifespan",
-              "data":{
-                "value":0.65000000000000002,
-                "operator":"lessOrEqual"
-              }
-            }
-          ],
-          "type":"DeprecatedSpriteFeature",
-          "data":{
-            "angle":{
-              "add":{
-                "target":6.5
-              }
-            }
-          }
-        },
-        {
-          "conditions":[
-            {
-              "type":"lifespan",
-              "data":{
-                "value":0.66000000000000003,
-                "operator":"greaterOrEqual"
-              }
-            }
-          ],
-          "type":"DeprecatedSpriteFeature",
-          "data":{
-            "angle":{
-              "add":{
-                "target":-0.25
-              }
-            }
-          }
-        },
-        {
-          "conditions":[
-          ],
-          "type":"DeprecatedSpriteFeature",
-          "data":{
-            "angle":{
-              "add":{
-                "target":0.5
-              }
-            }
-          }
-        },
-        {
-          "conditions":[
-          ],
-          "type":"SwingFeature",
-          "data":{
-            "amount":8.0,
-            "size":5.0
-          }
-        }
-      ],
-      "use_shroom_mask":true,
-      "shroom_hide_on_damage":true,
-      "use_shroom_on_damage":true,
-      "shroom_hide_on_death":true,
-      "use_shroom_on_death":true,
-      "shroom_hide_queue":true,
-      "use_shroom_queue":true,
-      "shroom_hide_texture":true,
-      "name":"baron-1-swing"
-    },
-    "bazyl-1-sniper-p5":{
-      "sprite":{
-        "angle":0.0,
-        "randomFrame":true,
-        "alpha":1.0,
-        "frame":2.0,
-        "scaleX":2.5,
-        "speed":30.0,
-        "scaleY":2.5,
-        "blend":"#FFFFFF",
-        "animate":false,
-        "name":"texture_shroom_bazyl_magenta"
-      },
-      "onDamage":[
-        {
-          "conditions":[
-          ],
-          "type":"ParticleFeature",
-          "data":{
-            "particle":"particle-shroom-damage",
-            "amount":4.0
-          }
-        }
-      ],
-      "onDeath":[
-        {
-          "conditions":[
-          ],
-          "type":"ParticleFeature",
-          "data":{
-            "particle":"particle-shroom-death",
-            "amount":1.0
-          }
-        },
-        {
-          "conditions":[
-          ],
-          "type":"CoinFeature",
-          "data":{
-            "coin":[
-              "coin-force",
-              "coin-force",
-              "coin-empty"
-            ],
-            "offsetY":-256.0
-          }
-        }
-      ],
-      "healthPoints":2.0,
-      "queue":[
-      ],
-      "lifespanMax":15.0,
-      "hostile":true,
-      "inherit":[
-      ],
-      "mask":{
-        "x":60.0,
-        "y":60.0,
-        "width":136.0,
-        "height":136.0
-      },
-      "use_shroom_features":true,
-      "shroom_hide":false,
-      "use_shroom_healthPoints":true,
-      "shroom_hide_features":true,
-      "shroom_hide_inherit":true,
-      "use_shroom_inherit":true,
-      "use_shroom_lifespan":false,
-      "shroom_hide_mask":true,
-      "features":[
-        {
-          "conditions":[
-            {
-              "type":"lifespan",
-              "data":{
-                "value":0.050000000000000003,
-                "operator":"lessOrEqual"
-              }
-            }
-          ],
-          "type":"DeprecatedSpriteFeature",
-          "data":{
-            "angle":{
-              "transform":{
-                "factor":360.0,
-                "target":[
-                  0.0,
-                  30.0,
-                  60.0,
-                  90.0,
-                  120.0,
-                  150.0,
-                  180.0,
-                  220.0,
-                  250.0,
-                  270.0,
-                  300.0,
-                  330.0
-                ]
-              }
-            }
-          }
-        },
-        {
-          "conditions":[
-            {
-              "type":"lifespan",
-              "data":{
-                "value":0.0625,
-                "operator":"greaterOrEqual"
-              }
-            }
-          ],
-          "type":"DeprecatedSpriteFeature",
-          "data":{
-            "angle":{
-              "add":{
-                "factor":0.01,
-                "target":[
-                  0.10000000000000001,
-                  -0.10000000000000001,
-                  0.40000000000000002,
-                  -0.40000000000000002,
-                  0.80000000000000004,
-                  -0.80000000000000004,
-                  1.0,
-                  -1.0,
-                  1.2,
-                  -1.2,
-                  1.6000000000000001,
-                  -1.6000000000000001
-                ]
-              }
-            }
-          }
-        },
-        {
-          "conditions":[
-            {
-              "type":"lifespan",
-              "data":{
-                "value":1.5,
-                "operator":"lessOrEqual"
-              }
-            },
-            {
-              "type":"speed",
-              "data":{
-                "value":5.0,
-                "operator":"greaterOrEqual"
-              }
-            }
-          ],
-          "type":"DeprecatedSpeedFeature",
-          "data":{
-            "add":{
-              "target":-0.10000000000000001
-            }
-          }
-        },
-        {
-          "conditions":[
-            {
-              "type":"lifespan",
-              "data":{
-                "value":1.6000000000000001,
-                "operator":"greaterOrEqual"
-              }
-            }
-          ],
-          "type":"ShootFeature",
-          "data":{
-            "bullets":5.0,
-            "bullet":"bullet-shroom",
-            "targetPlayer":true,
-            "speed":15.0,
-            "interval":0.20000000000000001
-          }
-        },
-        {
-          "conditions":[
-            {
-              "type":"lifespan",
-              "data":{
-                "value":2.0,
-                "operator":"greaterOrEqual"
-              }
-            },
-            {
-              "type":"lifespan",
-              "data":{
-                "value":3.0,
-                "operator":"lessOrEqual"
-              }
-            }
-          ],
-          "type":"DeprecatedAngleFeature",
-          "data":{
-            "transform":{
-              "factor":6.0,
-              "target":[
-                60.0,
-                70.0,
-                90.0,
-                110.0,
-                120.0
-              ]
-            }
-          }
-        },
-        {
-          "conditions":[
-            {
-              "type":"lifespan",
-              "data":{
-                "value":3.0,
-                "operator":"greaterOrEqual"
-              }
-            },
-            {
-              "type":"lifespan",
-              "data":{
-                "value":4.0,
-                "operator":"lessOrEqual"
-              }
-            }
-          ],
-          "type":"DeprecatedAngleFeature",
-          "data":{
-            "transform":{
-              "factor":3.0,
-              "target":[
-                250.0,
-                260.0,
-                270.0,
-                280.0,
-                290.0
-              ]
-            }
-          }
-        },
-        {
-          "conditions":[
-            {
-              "type":"lifespan",
-              "data":{
-                "value":5.0,
-                "operator":"greaterOrEqual"
-              }
-            },
-            {
-              "type":"speed",
-              "data":{
-                "value":25.0,
-                "operator":"lessOrEqual"
-              }
-            }
-          ],
-          "type":"DeprecatedSpeedFeature",
-          "data":{
-            "add":{
-              "target":[
-                0.10000000000000001,
-                0.20000000000000001,
-                0.29999999999999999
-              ]
-            }
-          }
-        }
-      ],
-      "use_shroom_mask":true,
-      "shroom_hide_on_damage":true,
-      "use_shroom_on_damage":true,
-      "shroom_hide_on_death":true,
-      "use_shroom_on_death":true,
-      "shroom_hide_queue":true,
-      "use_shroom_queue":true,
-      "shroom_hide_texture":true,
-      "name":"bazyl-1-sniper-p5"
     }
   }
 }

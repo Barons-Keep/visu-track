@@ -8,24 +8,22 @@
       "texture":"texture_ve_icon_entity_player",
       "type":"brush_entity_player",
       "properties":{
-        "en-pl_racing":{
-          "nitro":{
-            "friction":1.0,
-            "speedMax":1.0,
-            "acceleration":0.5
+        "en-pl_platformer":{
+          "x":{
+            "friction":9.3000000000000007,
+            "speedMax":2.5,
+            "acceleration":1.9199999999999999
           },
-          "wheel":{
-            "friction":0.059999999999999998,
-            "speedMax":3.0,
-            "acceleration":0.29999999999999999
+          "y":{
+            "friction":0.0,
+            "speedMax":25.0,
+            "acceleration":1.9199999999999999
           },
-          "throttle":{
-            "friction":0.5,
-            "speedMax":1.5,
-            "acceleration":0.20000000000000001
+          "jump":{
+            "size":4.0
           }
         },
-        "en-pl_use-platformer":1.0,
+        "en-pl_use-racing":1.0,
         "en-pl_bullethell":{
           "x":{
             "friction":20.0,
@@ -113,23 +111,25 @@
           "animate":1.0,
           "name":"texture_player"
         },
-        "en-pl_platformer":{
-          "jump":{
-            "size":4.0
+        "en-pl_racing":{
+          "throttle":{
+            "friction":0.5,
+            "speedMax":1.5,
+            "acceleration":0.20000000000000001
           },
-          "x":{
-            "friction":9.3000000000000007,
-            "speedMax":2.5,
-            "acceleration":1.9199999999999999
+          "nitro":{
+            "friction":1.0,
+            "speedMax":1.0,
+            "acceleration":0.5
           },
-          "y":{
-            "friction":0.0,
-            "speedMax":25.0,
-            "acceleration":1.9199999999999999
+          "wheel":{
+            "friction":0.059999999999999998,
+            "speedMax":3.0,
+            "acceleration":0.29999999999999999
           }
         },
         "en-pl_use-bullethell":1.0,
-        "en-pl_use-racing":1.0,
+        "en-pl_use-platformer":1.0,
         "en-pl_use-mask":true,
         "en-pl_use-stats":true
       },
@@ -141,24 +141,22 @@
       "texture":"texture_ve_icon_entity_player",
       "type":"brush_entity_player",
       "properties":{
-        "en-pl_racing":{
-          "nitro":{
-            "friction":1.0,
-            "speedMax":1.0,
-            "acceleration":0.5
+        "en-pl_platformer":{
+          "x":{
+            "friction":9.3000000000000007,
+            "speedMax":2.5,
+            "acceleration":1.9199999999999999
           },
-          "wheel":{
-            "friction":0.059999999999999998,
-            "speedMax":3.0,
-            "acceleration":0.29999999999999999
+          "y":{
+            "friction":0.0,
+            "speedMax":25.0,
+            "acceleration":1.9199999999999999
           },
-          "throttle":{
-            "friction":0.5,
-            "speedMax":1.5,
-            "acceleration":0.20000000000000001
+          "jump":{
+            "size":4.0
           }
         },
-        "en-pl_use-platformer":1.0,
+        "en-pl_use-racing":1.0,
         "en-pl_bullethell":{
           "x":{
             "friction":20.0,
@@ -221,23 +219,25 @@
           "animate":false,
           "name":"texture_empty"
         },
-        "en-pl_platformer":{
-          "jump":{
-            "size":4.0
+        "en-pl_racing":{
+          "throttle":{
+            "friction":0.5,
+            "speedMax":1.5,
+            "acceleration":0.20000000000000001
           },
-          "x":{
-            "friction":9.3000000000000007,
-            "speedMax":2.5,
-            "acceleration":1.9199999999999999
+          "nitro":{
+            "friction":1.0,
+            "speedMax":1.0,
+            "acceleration":0.5
           },
-          "y":{
-            "friction":0.0,
-            "speedMax":25.0,
-            "acceleration":1.9199999999999999
+          "wheel":{
+            "friction":0.059999999999999998,
+            "speedMax":3.0,
+            "acceleration":0.29999999999999999
           }
         },
         "en-pl_use-bullethell":true,
-        "en-pl_use-racing":1.0,
+        "en-pl_use-platformer":1.0,
         "en-pl_use-mask":true,
         "en-pl_use-stats":false
       },
@@ -249,24 +249,22 @@
       "texture":"texture_ve_icon_entity_player",
       "type":"brush_entity_player",
       "properties":{
-        "en-pl_racing":{
-          "nitro":{
-            "friction":1.0,
-            "speedMax":1.0,
-            "acceleration":0.5
+        "en-pl_platformer":{
+          "x":{
+            "friction":9.3000000000000007,
+            "speedMax":2.5,
+            "acceleration":1.9199999999999999
           },
-          "wheel":{
-            "friction":0.059999999999999998,
-            "speedMax":3.0,
-            "acceleration":0.29999999999999999
+          "y":{
+            "friction":0.0,
+            "speedMax":25.0,
+            "acceleration":1.9199999999999999
           },
-          "throttle":{
-            "friction":0.5,
-            "speedMax":1.5,
-            "acceleration":0.20000000000000001
+          "jump":{
+            "size":4.0
           }
         },
-        "en-pl_use-platformer":1.0,
+        "en-pl_use-racing":1.0,
         "en-pl_bullethell":{
           "x":{
             "friction":20.0,
@@ -405,23 +403,25 @@
           "animate":1.0,
           "name":"texture_player"
         },
-        "en-pl_platformer":{
-          "jump":{
-            "size":4.0
+        "en-pl_racing":{
+          "throttle":{
+            "friction":0.5,
+            "speedMax":1.5,
+            "acceleration":0.20000000000000001
           },
-          "x":{
-            "friction":9.3000000000000007,
-            "speedMax":2.5,
-            "acceleration":1.9199999999999999
+          "nitro":{
+            "friction":1.0,
+            "speedMax":1.0,
+            "acceleration":0.5
           },
-          "y":{
-            "friction":0.0,
-            "speedMax":25.0,
-            "acceleration":1.9199999999999999
+          "wheel":{
+            "friction":0.059999999999999998,
+            "speedMax":3.0,
+            "acceleration":0.29999999999999999
           }
         },
         "en-pl_use-bullethell":1.0,
-        "en-pl_use-racing":1.0,
+        "en-pl_use-platformer":1.0,
         "en-pl_use-mask":true,
         "en-pl_use-stats":true
       },

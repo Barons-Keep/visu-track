@@ -45,10 +45,10 @@
               "ef-cfg_use-render-gr-glt":true,
               "ef-cfg_use-render-part":true,
               "ef-cfg_use-render-shd-all":true,
-              "ef-cfg_use-render-shd-bkg":1.0,
-              "ef-cfg_use-render-shd-gr":1.0,
               "ef-cfg_use-cls-frame-col":true,
+              "ef-cfg_use-render-shd-bkg":1.0,
               "ef-cfg_cls-frame-col":"#190B1C",
+              "ef-cfg_use-render-shd-gr":1.0,
               "ef-cfg_cls-frame-col-spd":0.0,
               "ef-cfg_cls-frame-alpha":{
                 "increase":0.0,
@@ -59,10 +59,10 @@
                 "value":0.0
               },
               "ef-cfg_use-cls-frame-alpha":false,
-              "hidden":false,
               "ef-cfg_change-cls-frame-alpha":true,
               "ef-cfg_use-cls-frame":1.0,
               "ef-cfg_cls-frame":true,
+              "hidden":false,
               "icon":{
                 "blend":"#FFFF00",
                 "name":"texture_ve_icon_effect_config"
@@ -276,10 +276,10 @@
               "ef-cfg_use-render-gr-glt":false,
               "ef-cfg_use-render-part":false,
               "ef-cfg_use-render-shd-all":false,
-              "ef-cfg_use-render-shd-bkg":false,
-              "ef-cfg_use-render-shd-gr":false,
               "ef-cfg_use-cls-frame-col":false,
+              "ef-cfg_use-render-shd-bkg":false,
               "ef-cfg_cls-frame-col":"#000000",
+              "ef-cfg_use-render-shd-gr":false,
               "ef-cfg_cls-frame-col-spd":1.0,
               "ef-cfg_cls-frame-alpha":{
                 "increase":0.0,
@@ -290,10 +290,10 @@
                 "value":0.0
               },
               "ef-cfg_use-cls-frame-alpha":false,
-              "hidden":false,
               "ef-cfg_change-cls-frame-alpha":false,
               "ef-cfg_use-cls-frame":false,
               "ef-cfg_cls-frame":false,
+              "hidden":false,
               "icon":{
                 "blend":"#FF0000",
                 "name":"texture_ve_icon_effect"
@@ -494,18 +494,21 @@
             "timestamp":0.13888900000000001,
             "data":{
               "ef-shd_alpha":1.0,
-              "ef-shd_duration":4.0,
+              "ef-shd_duration":6.0,
               "ef-shd_fade-in":1.0,
               "icon":{
                 "blend":"#CD56BD",
                 "name":"texture_ve_icon_effect_shader"
               },
               "ef-shd_fade-out":1.0,
+              "ef-shd_hide":false,
+              "ef-shd_hide-merge-cfg":false,
               "ef-shd_merge-cfg":{
               },
               "ef-shd_pipeline":"COMBINED",
               "ef-shd_template":"002 blue 02",
-              "ef-shd_use-merge-cfg":false
+              "ef-shd_use-merge-cfg":false,
+              "hidden":false
             }
           },
           {
@@ -29182,24 +29185,6 @@
             "callable":"brush_entity_player",
             "timestamp":5.0,
             "data":{
-              "en-pl_racing":{
-                "throttle":{
-                  "friction":0.5,
-                  "speedMax":1.5,
-                  "acceleration":0.20000000000000001
-                },
-                "nitro":{
-                  "friction":1.0,
-                  "speedMax":1.0,
-                  "acceleration":0.5
-                },
-                "wheel":{
-                  "friction":0.059999999999999998,
-                  "speedMax":3.0,
-                  "acceleration":0.29999999999999999
-                }
-              },
-              "en-pl_use-platformer":1.0,
               "en-pl_platformer":{
                 "x":{
                   "friction":9.3000000000000007,
@@ -29358,15 +29343,6 @@
                 "animate":1.0,
                 "name":"texture_player"
               },
-              "en-pl_use-bullethell":1.0,
-              "en-pl_use-mask":true,
-              "en-pl_use-stats":true
-            }
-          },
-          {
-            "callable":"brush_entity_player",
-            "timestamp":79.166666666666671,
-            "data":{
               "en-pl_racing":{
                 "throttle":{
                   "friction":0.5,
@@ -29384,7 +29360,17 @@
                   "acceleration":0.29999999999999999
                 }
               },
+              "en-pl_use-bullethell":1.0,
               "en-pl_use-platformer":1.0,
+              "en-pl_use-mask":true,
+              "en-pl_use-stats":true
+            }
+          },
+          {
+            "callable":"brush_entity_player",
+            "timestamp":79.166666666666671,
+            "data":{
+              "en-pl_use-stats":false,
               "en-pl_platformer":{
                 "x":{
                   "friction":9.3000000000000007,
@@ -29544,15 +29530,6 @@
                 "animate":1.0,
                 "name":"texture_player"
               },
-              "en-pl_use-bullethell":true,
-              "en-pl_use-mask":true,
-              "en-pl_use-stats":false
-            }
-          },
-          {
-            "callable":"brush_entity_player",
-            "timestamp":100.83333333333334,
-            "data":{
               "en-pl_racing":{
                 "throttle":{
                   "friction":0.5,
@@ -29570,7 +29547,16 @@
                   "acceleration":0.29999999999999999
                 }
               },
+              "en-pl_use-bullethell":true,
               "en-pl_use-platformer":1.0,
+              "en-pl_use-mask":true
+            }
+          },
+          {
+            "callable":"brush_entity_player",
+            "timestamp":100.83333333333334,
+            "data":{
+              "en-pl_use-stats":false,
               "en-pl_platformer":{
                 "x":{
                   "friction":9.3000000000000007,
@@ -29730,9 +29716,26 @@
                 "animate":1.0,
                 "name":"texture_player"
               },
+              "en-pl_racing":{
+                "throttle":{
+                  "friction":0.5,
+                  "speedMax":1.5,
+                  "acceleration":0.20000000000000001
+                },
+                "nitro":{
+                  "friction":1.0,
+                  "speedMax":1.0,
+                  "acceleration":0.5
+                },
+                "wheel":{
+                  "friction":0.059999999999999998,
+                  "speedMax":3.0,
+                  "acceleration":0.29999999999999999
+                }
+              },
               "en-pl_use-bullethell":true,
-              "en-pl_use-mask":true,
-              "en-pl_use-stats":false
+              "en-pl_use-platformer":1.0,
+              "en-pl_use-mask":true
             }
           },
           {
@@ -29801,24 +29804,6 @@
             "callable":"brush_entity_player",
             "timestamp":240.0,
             "data":{
-              "en-pl_racing":{
-                "throttle":{
-                  "friction":0.5,
-                  "speedMax":0.0,
-                  "acceleration":0.0
-                },
-                "nitro":{
-                  "friction":1.0,
-                  "speedMax":0.0,
-                  "acceleration":0.0
-                },
-                "wheel":{
-                  "friction":0.059999999999999998,
-                  "speedMax":0.0,
-                  "acceleration":0.0
-                }
-              },
-              "en-pl_use-platformer":1.0,
               "en-pl_platformer":{
                 "x":{
                   "friction":9.3000000000000007,
@@ -29886,7 +29871,25 @@
                 "animate":1.0,
                 "name":"texture_empty"
               },
+              "en-pl_racing":{
+                "throttle":{
+                  "friction":0.5,
+                  "speedMax":0.0,
+                  "acceleration":0.0
+                },
+                "nitro":{
+                  "friction":1.0,
+                  "speedMax":0.0,
+                  "acceleration":0.0
+                },
+                "wheel":{
+                  "friction":0.059999999999999998,
+                  "speedMax":0.0,
+                  "acceleration":0.0
+                }
+              },
               "en-pl_use-bullethell":1.0,
+              "en-pl_use-platformer":1.0,
               "en-pl_use-mask":true,
               "en-pl_use-stats":false
             }
@@ -29911,6 +29914,7 @@
             "callable":"brush_grid_area",
             "timestamp":0.0,
             "data":{
+              "hidden":false,
               "gr-area_change-h":true,
               "gr-area_change-h-alpha":true,
               "gr-area_change-h-size":true,
@@ -29918,29 +29922,39 @@
               "gr-area_change-v-alpha":true,
               "gr-area_change-v-size":true,
               "gr-area_h":{
-                "increase":5.0000000000000004e-06,
-                "factor":0.002,
+                "duration":25.0,
                 "target":3.0,
+                "ease":"IN_OUT_SINE",
                 "value":0.0
               },
               "gr-area_h-alpha":{
-                "increase":0.0,
-                "factor":0.002,
+                "duration":7.5,
                 "target":0.90000000000000002,
+                "ease":"IN_OUT_SINE",
                 "value":0.0
               },
               "gr-area_h-col":"#99DCFFED",
               "gr-area_h-col-spd":0.0,
               "gr-area_h-size":{
-                "increase":0.0,
-                "factor":0.01,
+                "duration":25.0,
                 "target":16.0,
+                "ease":"LINEAR",
                 "value":0.0
               },
+              "gr-area_hide-h":false,
               "icon":{
                 "blend":"#00FF00",
                 "name":"texture_ve_icon_grid_area"
               },
+              "gr-area_hide-h-alpha":false,
+              "gr-area_hide-h-col":false,
+              "gr-area_hide-h-length":false,
+              "gr-area_hide-h-size":false,
+              "gr-area_hide-v":false,
+              "gr-area_hide-v-alpha":false,
+              "gr-area_hide-v-col":false,
+              "gr-area_hide-v-length":false,
+              "gr-area_hide-v-size":false,
               "gr-area_use-h":true,
               "gr-area_use-h-alpha":true,
               "gr-area_use-h-col":true,
@@ -29950,23 +29964,23 @@
               "gr-area_use-v-col":true,
               "gr-area_use-v-size":true,
               "gr-area_v":{
-                "increase":0.0,
-                "factor":999.0,
+                "duration":0.0,
                 "target":1.8,
+                "ease":"LINEAR",
                 "value":1.8
               },
               "gr-area_v-alpha":{
-                "increase":0.0,
-                "factor":0.002,
+                "duration":7.5,
                 "target":0.90000000000000002,
+                "ease":"IN_OUT_SINE",
                 "value":0.0
               },
               "gr-area_v-col":"#99DCFFED",
               "gr-area_v-col-spd":0.0,
               "gr-area_v-size":{
-                "increase":0.0,
-                "factor":0.01,
+                "duration":25.0,
                 "target":16.0,
+                "ease":"IN_OUT_SINE",
                 "value":0.0
               }
             }
@@ -30263,70 +30277,66 @@
               "gr-cfg_bpm-shift":0.0,
               "gr-cfg_bpm-sub":3.0,
               "gr-cfg_change-cls-frame-alpha":false,
+              "gr-cfg_change-focus-color-alpha":false,
               "gr-cfg_change-focus-grid-alpha":false,
               "gr-cfg_change-focus-grid-treshold":false,
               "gr-cfg_change-spd":true,
               "gr-cfg_change-z":false,
               "gr-cfg_cls-frame":1.0,
               "gr-cfg_cls-frame-alpha":{
-                "increase":0.0,
-                "target":0.0,
                 "duration":0.0,
-                "factor":999.0,
-                "ease":"LEGACY",
+                "target":0.0,
+                "ease":"LINEAR",
                 "value":0.0
               },
-              "gr-cfg_focus-grid-blend-col-spd":1.0,
               "gr-cfg_cls-frame-col":"#000000",
-              "gr-cfg_focus-grid-use-blend":true,
               "gr-cfg_cls-frame-col-spd":0.0,
-              "gr-cfg_focus-grid-blend-src":"SRC_ALPHA",
-              "gr-cfg_focus-grid-blend-dest":"INV_SRC_ALPHA",
-              "gr-cfg_focus-grid-blend-eq":"ADD",
-              "gr-cfg_focus-grid-blend-eq-alpha":"ADD",
-              "gr-cfg_focus-grid-use-blend-col":true,
+              "gr-cfg_focus-col":"#FF00FF",
+              "gr-cfg_focus-col-spd":0.0,
+              "gr-cfg_focus-color-alpha":{
+                "duration":0.0,
+                "target":0.0,
+                "ease":"LINEAR",
+                "value":0.5
+              },
               "gr-cfg_focus-grid-alpha":{
-                "increase":0.0,
-                "target":0.0,
                 "duration":0.0,
-                "factor":0.0,
-                "ease":"LEGACY",
+                "target":0.0,
+                "ease":"LINEAR",
                 "value":1.0
               },
-              "gr-cfg_focus-grid-blend-col":"#FFFFFF",
               "gr-cfg_focus-grid-treshold":{
-                "increase":0.0,
-                "target":0.0,
                 "duration":0.0,
-                "factor":0.0,
-                "ease":"LEGACY",
-                "value":1.0
+                "target":0.0,
+                "ease":"LINEAR",
+                "value":8.0
               },
+              "gr-cfg_focus-use-col":true,
               "gr-cfg_grid-blend-dest":"INV_SRC_ALPHA",
               "gr-cfg_grid-blend-eq":"ADD",
               "gr-cfg_grid-blend-eq-alpha":"ADD",
               "gr-cfg_grid-blend-src":"SRC_ALPHA",
               "gr-cfg_grid-use-blend":true,
-              "gr-cfg_hide-bpm":false,
-              "gr-cfg_hide-cls":false,
+              "gr-cfg_hide-bpm":true,
+              "gr-cfg_hide-cls":true,
               "gr-cfg_hide-cls-alpha":false,
               "gr-cfg_hide-cls-col":false,
-              "gr-cfg_hide-focus-grid":false,
-              "gr-cfg_hide-focus-grid-alpha":false,
-              "gr-cfg_hide-focus-grid-treshold":false,
+              "gr-cfg_hide-focus-col":true,
+              "gr-cfg_hide-focus-color-alpha":true,
+              "gr-cfg_hide-focus-grid":true,
+              "gr-cfg_hide-focus-grid-alpha":true,
+              "gr-cfg_hide-focus-grid-treshold":true,
               "gr-cfg_hide-grid":false,
-              "gr-cfg_hide-grid-blend":false,
-              "gr-cfg_hide-grid-spd":false,
-              "gr-cfg_hide-grid-z":false,
+              "gr-cfg_hide-grid-blend":true,
+              "gr-cfg_hide-grid-spd":true,
+              "gr-cfg_hide-grid-z":true,
               "gr-cfg_render":true,
               "hidden":false,
               "gr-cfg_render-focus-grid":false,
               "gr-cfg_spd":{
-                "increase":0.0,
+                "duration":4.0,
                 "target":6.0,
-                "duration":3.3333333333333335,
-                "factor":0.01,
-                "ease":"LEGACY",
+                "ease":"IN_OUT_SINE",
                 "value":4.0
               },
               "gr-cfg_use-bpm":true,
@@ -30336,6 +30346,7 @@
               "gr-cfg_use-cls-frame":true,
               "gr-cfg_use-cls-frame-alpha":true,
               "gr-cfg_use-cls-frame-col":true,
+              "gr-cfg_use-focus-color-alpha":true,
               "gr-cfg_use-focus-grid-alpha":true,
               "gr-cfg_use-focus-grid-treshold":true,
               "gr-cfg_use-render":1.0,
@@ -30343,91 +30354,15 @@
               "gr-cfg_use-spd":true,
               "gr-cfg_use-z":true,
               "gr-cfg_z":{
-                "increase":0.0,
-                "target":0.0,
                 "duration":0.0,
-                "factor":0.0,
-                "ease":"LEGACY",
+                "target":0.0,
+                "ease":"LINEAR",
                 "value":1.0
               },
               "icon":{
                 "blend":"#00FF00",
                 "name":"texture_ve_icon_grid_config"
-              },
-              "gr-cfg_hide-focus-grid-col":false,
-              "gr-cfg_hide-focus-grid-blend":false
-            }
-          },
-          {
-            "callable":"brush_grid_config",
-            "timestamp":1.7045454499999999,
-            "data":{
-              "gr-cfg_grid-blend-eq":"ADD",
-              "gr-cfg_grid-blend-eq-alpha":"ADD",
-              "gr-cfg_grid-blend-src":"SRC_ALPHA",
-              "gr-cfg_grid-use-blend":false,
-              "gr-cfg_render":true,
-              "gr-cfg_render-focus-grid":false,
-              "gr-cfg_spd":{
-                "increase":0.0,
-                "factor":0.10000000000000001,
-                "target":6.0,
-                "value":4.1666666699999997
-              },
-              "gr-cfg_use-cls-frame":true,
-              "gr-cfg_use-cls-frame-alpha":true,
-              "gr-cfg_use-cls-frame-col":false,
-              "gr-cfg_use-focus-grid-alpha":false,
-              "gr-cfg_use-focus-grid-treshold":false,
-              "gr-cfg_use-render":false,
-              "gr-cfg_use-render-focus-grid":false,
-              "gr-cfg_use-spd":false,
-              "gr-cfg_use-z":false,
-              "gr-cfg_z":{
-                "increase":0.0,
-                "factor":0.0,
-                "target":0.0,
-                "value":0.0
-              },
-              "icon":{
-                "blend":"#FF0000",
-                "name":"texture_ve_icon_grid_config"
-              },
-              "gr-cfg_change-cls-frame-alpha":false,
-              "gr-cfg_change-focus-grid-alpha":false,
-              "gr-cfg_change-focus-grid-treshold":false,
-              "gr-cfg_change-spd":false,
-              "gr-cfg_change-z":false,
-              "gr-cfg_cls-frame":false,
-              "gr-cfg_cls-frame-alpha":{
-                "increase":0.0,
-                "factor":999.0,
-                "target":0.001,
-                "value":0.001
-              },
-              "gr-cfg_focus-grid-blend-col-spd":1.0,
-              "gr-cfg_cls-frame-col":"#FF0000",
-              "gr-cfg_focus-grid-use-blend":false,
-              "gr-cfg_cls-frame-col-spd":0.0,
-              "gr-cfg_focus-grid-blend-src":"SRC_ALPHA",
-              "gr-cfg_focus-grid-blend-dest":"INV_SRC_ALPHA",
-              "gr-cfg_focus-grid-blend-eq":"ADD",
-              "gr-cfg_focus-grid-blend-eq-alpha":"ADD",
-              "gr-cfg_focus-grid-use-blend-col":false,
-              "gr-cfg_focus-grid-alpha":{
-                "increase":0.0,
-                "factor":0.0,
-                "target":0.0,
-                "value":0.0
-              },
-              "gr-cfg_focus-grid-blend-col":"#FFFFFF",
-              "gr-cfg_focus-grid-treshold":{
-                "increase":0.0,
-                "factor":0.0,
-                "target":0.0,
-                "value":1.0
-              },
-              "gr-cfg_grid-blend-dest":"INV_SRC_ALPHA"
+              }
             }
           },
           {
@@ -30438,7 +30373,7 @@
               "gr-cfg_bpm-count":0.0,
               "gr-cfg_bpm-shift":0.0,
               "gr-cfg_bpm-sub":0.0,
-              "gr-cfg_change-cls-frame-alpha":true,
+              "gr-cfg_change-cls-frame-alpha":false,
               "gr-cfg_change-focus-color-alpha":false,
               "gr-cfg_change-focus-grid-alpha":false,
               "gr-cfg_change-focus-grid-treshold":false,
@@ -30479,33 +30414,33 @@
               "gr-cfg_grid-blend-eq-alpha":"ADD",
               "gr-cfg_grid-blend-src":"SRC_ALPHA",
               "gr-cfg_grid-use-blend":false,
-              "gr-cfg_hide-bpm":false,
-              "gr-cfg_hide-cls":false,
-              "gr-cfg_hide-cls-alpha":false,
-              "gr-cfg_hide-cls-col":false,
+              "gr-cfg_hide-bpm":true,
+              "gr-cfg_hide-cls":true,
+              "gr-cfg_hide-cls-alpha":true,
+              "gr-cfg_hide-cls-col":true,
               "gr-cfg_hide-focus-col":false,
               "gr-cfg_hide-focus-color-alpha":false,
-              "gr-cfg_hide-focus-grid":false,
+              "gr-cfg_hide-focus-grid":true,
               "gr-cfg_hide-focus-grid-alpha":false,
               "gr-cfg_hide-focus-grid-treshold":false,
               "gr-cfg_hide-grid":false,
-              "gr-cfg_hide-grid-blend":false,
+              "gr-cfg_hide-grid-blend":true,
               "gr-cfg_hide-grid-spd":false,
-              "gr-cfg_hide-grid-z":false,
+              "gr-cfg_hide-grid-z":true,
               "gr-cfg_render":0.0,
               "hidden":false,
               "gr-cfg_render-focus-grid":false,
               "gr-cfg_spd":{
-                "duration":0.93333332999999996,
+                "duration":1.0,
                 "target":20.0,
-                "ease":"IN_QUAD",
+                "ease":"IN_OUT_QUAD",
                 "value":4.1666666699999997
               },
               "gr-cfg_use-bpm":false,
               "gr-cfg_use-bpm-count":false,
               "gr-cfg_use-bpm-shift":false,
               "gr-cfg_use-bpm-sub":false,
-              "gr-cfg_use-cls-frame":true,
+              "gr-cfg_use-cls-frame":false,
               "gr-cfg_use-cls-frame-alpha":false,
               "gr-cfg_use-cls-frame-col":false,
               "gr-cfg_use-focus-color-alpha":false,
@@ -30791,6 +30726,15 @@
             "callable":"brush_grid_config",
             "timestamp":79.166667000000004,
             "data":{
+              "gr-cfg_focus-grid-blend-col-spd":1.0,
+              "gr-cfg_focus-grid-use-blend":false,
+              "gr-cfg_focus-grid-blend-src":"SRC_ALPHA",
+              "gr-cfg_focus-grid-blend-dest":"INV_SRC_ALPHA",
+              "gr-cfg_focus-grid-blend-eq":"ADD",
+              "gr-cfg_focus-grid-blend-eq-alpha":"ADD",
+              "gr-cfg_focus-grid-use-blend-col":false,
+              "gr-cfg_focus-grid-blend-col":"#FFFFFF",
+              "gr-cfg_hide-focus-grid-blend":false,
               "gr-cfg_change-cls-frame-alpha":false,
               "gr-cfg_change-focus-grid-alpha":false,
               "gr-cfg_change-focus-grid-treshold":false,
@@ -30805,15 +30749,8 @@
                 "ease":"LEGACY",
                 "value":0.0
               },
-              "gr-cfg_focus-grid-blend-col-spd":1.0,
               "gr-cfg_cls-frame-col":"#FFFFFF",
-              "gr-cfg_focus-grid-use-blend":false,
               "gr-cfg_cls-frame-col-spd":1.0,
-              "gr-cfg_focus-grid-blend-src":"SRC_ALPHA",
-              "gr-cfg_focus-grid-blend-dest":"INV_SRC_ALPHA",
-              "gr-cfg_focus-grid-blend-eq":"ADD",
-              "gr-cfg_focus-grid-blend-eq-alpha":"ADD",
-              "gr-cfg_focus-grid-use-blend-col":false,
               "gr-cfg_focus-grid-alpha":{
                 "increase":0.0,
                 "target":0.0,
@@ -30822,7 +30759,6 @@
                 "ease":"LEGACY",
                 "value":0.0
               },
-              "gr-cfg_focus-grid-blend-col":"#FFFFFF",
               "gr-cfg_focus-grid-treshold":{
                 "increase":0.0,
                 "target":0.0,
@@ -30839,6 +30775,7 @@
               "gr-cfg_hide-cls":false,
               "gr-cfg_hide-cls-alpha":false,
               "gr-cfg_hide-cls-col":false,
+              "gr-cfg_hide-focus-grid-col":false,
               "gr-cfg_hide-focus-grid":false,
               "gr-cfg_hide-focus-grid-alpha":false,
               "gr-cfg_hide-focus-grid-treshold":false,
@@ -30877,15 +30814,22 @@
               "icon":{
                 "blend":"#26DCFF",
                 "name":"texture_ve_icon_grid_config"
-              },
-              "gr-cfg_hide-focus-grid-col":false,
-              "gr-cfg_hide-focus-grid-blend":false
+              }
             }
           },
           {
             "callable":"brush_grid_config",
             "timestamp":80.0,
             "data":{
+              "gr-cfg_focus-grid-blend-col-spd":1.0,
+              "gr-cfg_focus-grid-use-blend":false,
+              "gr-cfg_focus-grid-blend-src":"SRC_ALPHA",
+              "gr-cfg_focus-grid-blend-dest":"INV_SRC_ALPHA",
+              "gr-cfg_focus-grid-blend-eq":"ADD",
+              "gr-cfg_focus-grid-blend-eq-alpha":"ADD",
+              "gr-cfg_focus-grid-use-blend-col":false,
+              "gr-cfg_focus-grid-blend-col":"#FFFFFF",
+              "gr-cfg_hide-focus-grid-blend":false,
               "gr-cfg_change-cls-frame-alpha":0.0,
               "gr-cfg_change-focus-grid-alpha":false,
               "gr-cfg_change-focus-grid-treshold":false,
@@ -30900,15 +30844,8 @@
                 "ease":"LEGACY",
                 "value":0.0
               },
-              "gr-cfg_focus-grid-blend-col-spd":1.0,
               "gr-cfg_cls-frame-col":"#FFEFFF",
-              "gr-cfg_focus-grid-use-blend":false,
               "gr-cfg_cls-frame-col-spd":1.0,
-              "gr-cfg_focus-grid-blend-src":"SRC_ALPHA",
-              "gr-cfg_focus-grid-blend-dest":"INV_SRC_ALPHA",
-              "gr-cfg_focus-grid-blend-eq":"ADD",
-              "gr-cfg_focus-grid-blend-eq-alpha":"ADD",
-              "gr-cfg_focus-grid-use-blend-col":false,
               "gr-cfg_focus-grid-alpha":{
                 "increase":0.0,
                 "target":0.0,
@@ -30917,7 +30854,6 @@
                 "ease":"LEGACY",
                 "value":0.0
               },
-              "gr-cfg_focus-grid-blend-col":"#FFFFFF",
               "gr-cfg_focus-grid-treshold":{
                 "increase":0.0,
                 "target":0.0,
@@ -30934,6 +30870,7 @@
               "gr-cfg_hide-cls":false,
               "gr-cfg_hide-cls-alpha":false,
               "gr-cfg_hide-cls-col":false,
+              "gr-cfg_hide-focus-grid-col":false,
               "gr-cfg_hide-focus-grid":false,
               "gr-cfg_hide-focus-grid-alpha":false,
               "gr-cfg_hide-focus-grid-treshold":false,
@@ -30972,9 +30909,7 @@
               "icon":{
                 "blend":"#FF392C",
                 "name":"texture_ve_icon_grid_config"
-              },
-              "gr-cfg_hide-focus-grid-col":false,
-              "gr-cfg_hide-focus-grid-blend":false
+              }
             }
           },
           {
@@ -31051,7 +30986,9 @@
               "gr-cfg_hide-cls-alpha":false,
               "gr-cfg_hide-cls-col":false,
               "gr-cfg_hide-focus-col":false,
+              "gr-cfg_hide-focus-grid-col":false,
               "gr-cfg_hide-focus-color-alpha":false,
+              "gr-cfg_hide-focus-alpha":false,
               "gr-cfg_hide-focus-grid":false,
               "gr-cfg_hide-focus-grid-alpha":false,
               "gr-cfg_hide-focus-grid-treshold":false,
@@ -31096,9 +31033,7 @@
               "icon":{
                 "blend":"#00FF00",
                 "name":"texture_ve_icon_grid_config"
-              },
-              "gr-cfg_hide-focus-grid-col":false,
-              "gr-cfg_hide-focus-alpha":false
+              }
             }
           },
           {
@@ -31239,14 +31174,22 @@
               "gr-cfg_grid-blend-eq-alpha":"ADD",
               "gr-cfg_grid-blend-src":"SRC_ALPHA",
               "gr-cfg_grid-use-blend":false,
+              "gr-cfg_focus-grid-blend-col-spd":1.0,
+              "gr-cfg_focus-grid-use-blend":false,
               "gr-cfg_render":0.0,
+              "gr-cfg_focus-grid-blend-src":"SRC_ALPHA",
               "gr-cfg_render-focus-grid":false,
+              "gr-cfg_focus-grid-blend-dest":"INV_SRC_ALPHA",
               "gr-cfg_spd":{
                 "increase":0.0,
                 "factor":0.5,
                 "target":32.0,
                 "value":4.1666666699999997
               },
+              "gr-cfg_focus-grid-blend-eq":"ADD",
+              "gr-cfg_focus-grid-blend-eq-alpha":"ADD",
+              "gr-cfg_focus-grid-use-blend-col":false,
+              "gr-cfg_focus-grid-blend-col":"#FFFFFF",
               "gr-cfg_use-cls-frame":true,
               "gr-cfg_use-cls-frame-alpha":true,
               "gr-cfg_use-cls-frame-col":true,
@@ -31278,22 +31221,14 @@
                 "target":0.0,
                 "value":0.0
               },
-              "gr-cfg_focus-grid-blend-col-spd":1.0,
               "gr-cfg_cls-frame-col":"#000000",
-              "gr-cfg_focus-grid-use-blend":false,
               "gr-cfg_cls-frame-col-spd":0.0,
-              "gr-cfg_focus-grid-blend-src":"SRC_ALPHA",
-              "gr-cfg_focus-grid-blend-dest":"INV_SRC_ALPHA",
-              "gr-cfg_focus-grid-blend-eq":"ADD",
-              "gr-cfg_focus-grid-blend-eq-alpha":"ADD",
-              "gr-cfg_focus-grid-use-blend-col":false,
               "gr-cfg_focus-grid-alpha":{
                 "increase":0.0,
                 "factor":0.0,
                 "target":0.0,
                 "value":0.0
               },
-              "gr-cfg_focus-grid-blend-col":"#FFFFFF",
               "gr-cfg_focus-grid-treshold":{
                 "increase":0.0,
                 "factor":0.0,
@@ -31324,7 +31259,7 @@
             "timestamp":0.0,
             "data":{
               "gr-c_change-main-alpha":true,
-              "gr-c_change-main-size":false,
+              "gr-c_change-main-size":true,
               "gr-c_change-side-alpha":true,
               "gr-c_change-side-size":false,
               "gr-c_hide":false,
@@ -31341,41 +31276,33 @@
               "gr-c_hide-side-size":false,
               "gr-c_hide-side-tx":false,
               "gr-c_main-alpha":{
-                "increase":0.0,
+                "duration":80.0,
                 "target":0.33000000000000002,
-                "duration":0.55000000000000004,
-                "factor":0.01,
-                "ease":"LEGACY",
+                "ease":"IN_OUT_SINE",
                 "value":0.0
               },
               "gr-c_main-col":"#B468E8",
               "gr-c_main-col-spd":0.0,
               "gr-c_main-size":{
-                "increase":0.0,
+                "duration":4.0,
                 "target":344.0,
-                "duration":0.0,
-                "factor":999.0,
-                "ease":"LEGACY",
-                "value":344.0
+                "ease":"IN_OUT_SINE",
+                "value":0.0
               },
               "gr-c_main-tx":"SIMPLE",
-              "gr-c_mode":"DUAL",
+              "gr-c_mode":"SINGLE",
               "gr-c_side-alpha":{
-                "increase":0.0,
+                "duration":1.0,
                 "target":0.33000000000000002,
-                "duration":0.55000000000000004,
-                "factor":0.01,
-                "ease":"LEGACY",
+                "ease":"IN_OUT_SINE",
                 "value":0.0
               },
               "gr-c_side-col":"#B468E8",
               "gr-c_side-col-spd":0.0,
               "gr-c_side-size":{
-                "increase":0.0,
-                "target":344.0,
                 "duration":0.0,
-                "factor":999.0,
-                "ease":"LEGACY",
+                "target":344.0,
+                "ease":"LINEAR",
                 "value":344.0
               },
               "gr-c_side-tx":"SIMPLE",
@@ -31384,7 +31311,7 @@
               "gr-c_use-main-col":true,
               "gr-c_use-main-size":true,
               "gr-c_use-main-tx":true,
-              "gr-c_use-mode":false,
+              "gr-c_use-mode":true,
               "gr-c_use-side-alpha":true,
               "gr-c_use-side-col":true,
               "gr-c_use-side-size":true,
@@ -31395,11 +31322,9 @@
                 "name":"texture_ve_icon_grid_column"
               },
               "gr-c_amount":{
-                "increase":0.0,
-                "target":1.0,
                 "duration":0.0,
-                "factor":999.0,
-                "ease":"LEGACY",
+                "target":1.0,
+                "ease":"LINEAR",
                 "value":1.0
               },
               "gr-c_change-amount":false
@@ -32014,11 +31939,9 @@
               "gr-r_side-col":"#3CD8E4ED",
               "gr-r_side-col-spd":0.0,
               "gr-r_side-size":{
-                "increase":0.0,
+                "duration":4.0,
                 "target":10.0,
-                "duration":0.00016683350016683351,
-                "factor":999.0,
-                "ease":"LEGACY",
+                "ease":"IN_OUT_SINE",
                 "value":0.0
               },
               "gr-r_side-tx":"MAGIC_1",
@@ -32034,11 +31957,9 @@
               "gr-r_use-side-tx":true,
               "hidden":false,
               "gr-r_amount":{
-                "increase":0.0,
-                "target":1.0,
                 "duration":0.0,
-                "factor":999.0,
-                "ease":"LEGACY",
+                "target":1.0,
+                "ease":"LINEAR",
                 "value":1.0
               },
               "gr-r_change-amount":false,
@@ -32065,31 +31986,25 @@
               "gr-r_hide-side-size":false,
               "gr-r_hide-side-tx":false,
               "gr-r_main-alpha":{
-                "increase":0.0,
+                "duration":8.0,
                 "target":0.80000000000000004,
-                "duration":6.666666666666667,
-                "factor":0.002,
-                "ease":"LEGACY",
+                "ease":"IN_OUT_SINE",
                 "value":0.0
               },
               "gr-r_main-col":"#1FA0FF",
               "gr-r_main-col-spd":0.0,
               "gr-r_main-size":{
-                "increase":0.0,
+                "duration":4.0,
                 "target":333.0,
-                "duration":0.0055555555555555549,
-                "factor":999.0,
-                "ease":"LEGACY",
+                "ease":"IN_OUT_SINE",
                 "value":0.0
               },
               "gr-r_main-tx":"SIMPLE",
               "gr-r_mode":"DUAL",
               "gr-r_side-alpha":{
-                "increase":0.0,
+                "duration":8.0,
                 "target":0.94999999999999996,
-                "duration":7.9166666666666652,
-                "factor":0.002,
-                "ease":"LEGACY",
+                "ease":"IN_OUT_SINE",
                 "value":0.0
               }
             }
@@ -32654,11 +32569,9 @@
             "timestamp":0.0,
             "data":{
               "vw-cam_dir":{
-                "increase":0.0,
-                "target":270.0,
                 "duration":0.0,
-                "factor":9999.0,
-                "ease":"LEGACY",
+                "target":270.0,
+                "ease":"LINEAR",
                 "value":270.0
               },
               "vw-cam_follow":true,
@@ -32675,27 +32588,21 @@
               "vw-cam_lock-x":true,
               "vw-cam_lock-y":false,
               "vw-cam_move-angle":{
-                "increase":0.0,
-                "target":1.0,
                 "duration":148.33333333333334,
-                "factor":0.01,
-                "ease":"LEGACY",
+                "target":1.0,
+                "ease":"LINEAR",
                 "value":90.0
               },
               "vw-cam_move-speed":{
-                "increase":0.0,
-                "target":1.0,
                 "duration":1.6666666666666667,
-                "factor":0.01,
-                "ease":"LEGACY",
+                "target":1.0,
+                "ease":"LINEAR",
                 "value":0.0
               },
               "vw-cam_pitch":{
-                "increase":0.0,
-                "target":-45.0,
                 "duration":6.25,
-                "factor":0.040000000000000001,
-                "ease":"LEGACY",
+                "target":-45.0,
+                "ease":"IN_OUT_SINE",
                 "value":-60.0
               },
               "vw-cam_reset-follow":true,
@@ -32712,26 +32619,20 @@
               "vw-cam_use-y":true,
               "vw-cam_use-z":true,
               "vw-cam_x":{
-                "increase":0.0,
-                "target":4096.0,
                 "duration":0.0,
-                "factor":9999.0,
-                "ease":"LEGACY",
+                "target":4096.0,
+                "ease":"LINEAR",
                 "value":4096.0
               },
               "vw-cam_y":{
-                "increase":0.0,
-                "target":7400.0,
                 "duration":10.0,
-                "factor":3.2000000000000002,
+                "target":7400.0,
                 "ease":"IN_OUT_SINE",
                 "value":5356.0
               },
               "vw-cam_z":{
-                "increase":0.0,
-                "target":6400.0,
                 "duration":10.0,
-                "factor":4.5999999999999996,
+                "target":6400.0,
                 "ease":"IN_OUT_SINE",
                 "value":4000.0
               },
@@ -37592,87 +37493,73 @@
         "events":[
           {
             "callable":"brush_view_camera",
-            "timestamp":0.41666666666666669,
+            "timestamp":0.13888888999999999,
             "data":{
               "vw-cam_dir":{
-                "increase":0.0,
-                "target":270.0,
                 "duration":0.0,
-                "factor":9999.0,
-                "ease":"LEGACY",
+                "target":270.0,
+                "ease":"LINEAR",
                 "value":270.0
               },
               "vw-cam_follow":true,
               "vw-cam_follow-smooth":5.0,
               "vw-cam_follow-x":0.5,
               "vw-cam_follow-y":0.5,
-              "vw-cam_hide-dir":false,
-              "vw-cam_hide-pitch":false,
-              "vw-cam_hide-pos":false,
+              "vw-cam_hide-dir":true,
+              "vw-cam_hide-pitch":true,
+              "vw-cam_hide-pos":true,
               "vw-cam_hide-view":false,
-              "vw-cam_hide-x":false,
-              "vw-cam_hide-y":false,
-              "vw-cam_hide-z":false,
+              "vw-cam_hide-x":true,
+              "vw-cam_hide-y":true,
+              "vw-cam_hide-z":true,
               "vw-cam_lock-x":true,
               "vw-cam_lock-y":false,
               "vw-cam_move-angle":{
-                "increase":0.0,
-                "target":1.0,
                 "duration":148.33333333333334,
-                "factor":0.01,
-                "ease":"LEGACY",
+                "target":1.0,
+                "ease":"LINEAR",
                 "value":90.0
               },
               "vw-cam_move-speed":{
-                "increase":0.0,
-                "target":1.0,
                 "duration":1.6666666666666667,
-                "factor":0.01,
-                "ease":"LEGACY",
+                "target":1.0,
+                "ease":"LINEAR",
                 "value":0.0
               },
               "vw-cam_pitch":{
-                "increase":0.0,
-                "target":-45.0,
                 "duration":6.25,
-                "factor":0.040000000000000001,
-                "ease":"LEGACY",
+                "target":-45.0,
+                "ease":"LINEAR",
                 "value":-60.0
               },
-              "vw-cam_reset-follow":true,
-              "vw-cam_use-dir":true,
+              "vw-cam_reset-follow":false,
+              "vw-cam_use-dir":false,
               "vw-cam_use-follow-smooth":true,
               "vw-cam_use-follow-x":true,
               "vw-cam_use-follow-y":true,
               "vw-cam_use-lock-x":true,
-              "vw-cam_use-lock-y":true,
+              "vw-cam_use-lock-y":false,
               "vw-cam_use-move-angle":false,
               "vw-cam_use-move-speed":false,
-              "vw-cam_use-pitch":true,
-              "vw-cam_use-x":true,
-              "vw-cam_use-y":true,
-              "vw-cam_use-z":true,
+              "vw-cam_use-pitch":false,
+              "vw-cam_use-x":false,
+              "vw-cam_use-y":false,
+              "vw-cam_use-z":false,
               "vw-cam_x":{
-                "increase":0.0,
-                "target":4096.0,
                 "duration":0.0,
-                "factor":9999.0,
-                "ease":"LEGACY",
+                "target":4096.0,
+                "ease":"LINEAR",
                 "value":4096.0
               },
               "vw-cam_y":{
-                "increase":0.0,
-                "target":7400.0,
                 "duration":10.0,
-                "factor":3.2000000000000002,
+                "target":7400.0,
                 "ease":"IN_OUT_SINE",
                 "value":5356.0
               },
               "vw-cam_z":{
-                "increase":0.0,
-                "target":6400.0,
                 "duration":10.0,
-                "factor":4.5999999999999996,
+                "target":6400.0,
                 "ease":"IN_OUT_SINE",
                 "value":4000.0
               },
@@ -37684,15 +37571,15 @@
               "vw-cam_change-dir":false,
               "vw-cam_change-move-angle":true,
               "vw-cam_change-move-speed":true,
-              "vw-cam_change-pitch":true,
+              "vw-cam_change-pitch":false,
               "vw-cam_change-x":false,
-              "vw-cam_change-y":true,
-              "vw-cam_change-z":true
+              "vw-cam_change-y":false,
+              "vw-cam_change-z":false
             }
           },
           {
             "callable":"brush_entity_player",
-            "timestamp":5.416666666666667,
+            "timestamp":5.1388888888888893,
             "data":{
               "icon":{
                 "blend":"#00A000",
@@ -37987,15 +37874,15 @@
                 "value":0.0
               },
               "gr-area_hide-h":true,
-              "gr-area_hide-h-alpha":true,
               "icon":{
                 "blend":"#00FF00",
                 "name":"texture_ve_icon_grid_area"
               },
+              "gr-area_hide-h-alpha":true,
               "gr-area_hide-h-col":true,
               "gr-area_hide-h-length":true,
               "gr-area_hide-h-size":true,
-              "gr-area_hide-v":true,
+              "gr-area_hide-v":false,
               "gr-area_hide-v-alpha":true,
               "gr-area_hide-v-col":true,
               "gr-area_hide-v-length":true,

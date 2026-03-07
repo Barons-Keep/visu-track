@@ -1,16 +1,20 @@
 {
+  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>",
+  "version":"1",
   "data":[
     {
       "hidden":false,
       "color":"#FFFFFF",
-      "properties":null,
-      "name":"new brush template",
       "texture":"texture_baron",
-      "type":"brush_entity_coin"
+      "type":"brush_entity_coin",
+      "properties":null,
+      "name":"new brush template"
     },
     {
       "hidden":false,
       "color":"#00FF00",
+      "texture":"texture_ve_icon_entity_coin",
+      "type":"brush_entity_coin",
       "properties":{
         "en-coin_preview":true,
         "en-coin_rng-x":0.0,
@@ -23,13 +27,13 @@
         "en-coin_x":0.5,
         "en-coin_y":0.0
       },
-      "name":"life (amount: 1)",
-      "texture":"texture_ve_icon_entity_coin",
-      "type":"brush_entity_coin"
+      "name":"life (amount: 1)"
     },
     {
       "hidden":false,
       "color":"#FFFF00",
+      "texture":"texture_ve_icon_entity_coin",
+      "type":"brush_entity_coin",
       "properties":{
         "en-coin_preview":true,
         "en-coin_rng-x":0.0,
@@ -42,13 +46,13 @@
         "en-coin_x":0.5,
         "en-coin_y":0.0
       },
-      "name":"bomb (amount: 1)",
-      "texture":"texture_ve_icon_entity_coin",
-      "type":"brush_entity_coin"
+      "name":"bomb (amount: 1)"
     },
     {
       "hidden":false,
       "color":"#FF3D39",
+      "texture":"texture_ve_icon_entity_coin",
+      "type":"brush_entity_coin",
       "properties":{
         "en-coin_preview":true,
         "en-coin_rng-x":0.0,
@@ -61,13 +65,13 @@
         "en-coin_x":0.5,
         "en-coin_y":0.0
       },
-      "name":"force (amount: 1)",
-      "texture":"texture_ve_icon_entity_coin",
-      "type":"brush_entity_coin"
+      "name":"force (amount: 1)"
     },
     {
       "hidden":false,
       "color":"#FF3D39",
+      "texture":"texture_ve_icon_entity_coin",
+      "type":"brush_entity_coin",
       "properties":{
         "en-coin_preview":true,
         "en-coin_rng-x":0.0,
@@ -80,13 +84,13 @@
         "en-coin_x":0.5,
         "en-coin_y":0.0
       },
-      "name":"force (amount: 5)",
-      "texture":"texture_ve_icon_entity_coin",
-      "type":"brush_entity_coin"
+      "name":"force (amount: 5)"
     },
     {
       "hidden":false,
       "color":"#249AFF",
+      "texture":"texture_ve_icon_entity_coin",
+      "type":"brush_entity_coin",
       "properties":{
         "en-coin_preview":true,
         "en-coin_rng-x":0.0,
@@ -99,13 +103,13 @@
         "en-coin_x":0.5,
         "en-coin_y":0.0
       },
-      "name":"point (amount: 1)",
-      "texture":"texture_ve_icon_entity_coin",
-      "type":"brush_entity_coin"
+      "name":"point (amount: 1)"
     },
     {
       "hidden":false,
       "color":"#249AFF",
+      "texture":"texture_ve_icon_entity_coin",
+      "type":"brush_entity_coin",
       "properties":{
         "en-coin_preview":true,
         "en-coin_rng-x":0.0,
@@ -118,11 +122,7 @@
         "en-coin_x":0.5,
         "en-coin_y":0.0
       },
-      "name":"point (amount: 5)",
-      "texture":"texture_ve_icon_entity_coin",
-      "type":"brush_entity_coin"
+      "name":"point (amount: 5)"
     }
-  ],
-  "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>",
-  "version":"1"
+  ]
 }

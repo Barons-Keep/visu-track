@@ -8,6 +8,7 @@
       "frames":1.0,
       "file":"texture/texture_neon_city_highway.jpg",
       "prefetch":true,
+      "type":"template_texture",
       "name":"texture_neon_city_highway"
     },
     "texture_abstract_blue_2":{
@@ -16,6 +17,7 @@
       "frames":1.0,
       "file":"texture/texture_abstract_blue_2.png",
       "prefetch":true,
+      "type":"template_texture",
       "name":"texture_abstract_blue_2"
     },
     "texture_fingerprint_scan_strip16":{
@@ -32,6 +34,7 @@
       "frames":8.0,
       "file":"texture/texture_hex_file_strip8.png",
       "prefetch":true,
+      "type":"template_texture",
       "name":"texture_hex_file_strip8"
     },
     "texture_double_console_out_strip8":{
@@ -40,6 +43,7 @@
       "frames":8.0,
       "file":"texture/texture_double_console_out_strip8.png",
       "prefetch":true,
+      "type":"template_texture",
       "name":"texture_double_console_out_strip8"
     },
     "texture_abstract_blue_1":{
@@ -48,6 +52,7 @@
       "frames":1.0,
       "file":"texture/texture_abstract_blue_1.png",
       "prefetch":true,
+      "type":"template_texture",
       "name":"texture_abstract_blue_1"
     },
     "texture_neon_city_fantasy":{

@@ -1,6 +1,14 @@
 {
-  "version":"1",
   "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>",
+  "version":"1",
   "data":[
+    {
+      "hidden":false,
+      "color":"#FFFFFF",
+      "texture":"texture_baron",
+      "type":"brush_grid_config",
+      "properties":null,
+      "name":"new brush template"
+    }
   ]
 }

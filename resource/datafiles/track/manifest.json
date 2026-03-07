@@ -95,17 +95,6 @@
           }
         },
         {
-          "name": "Sightseeing",
-          "title": "Schnoopy",
-          "event": {
-            "type": "open-track-setup",
-            "data": {
-              "path": "track/Schnoopy/Proxima/Sightseeing/manifest.visu",
-              "node": "root.tracks"
-            }
-          }
-        },
-        {
           "name": "pulsar",
           "title": "kattybratt",
           "event": {
