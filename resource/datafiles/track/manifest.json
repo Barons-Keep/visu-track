@@ -51,17 +51,6 @@
           }
         },
         {
-          "name": "pulsar",
-          "title": "kattybratt",
-          "event": {
-            "type": "open-track-setup",
-            "data": {
-              "path": "track/kattybratt/Singles/pulsar/manifest.visu",
-              "node": "root.tracks"
-            }
-          }
-        },
-        {
           "name": "Purple Hearts In Her Eyes",
           "title": "Sewerslvt",
           "event": {
@@ -91,6 +80,17 @@
             "data": {
               "path": "track/Schnoopy/Proxima/Destination-Unknown/manifest.visu",
               "node": "rooty"
+            }
+          }
+        },
+        {
+          "name": "pulsar",
+          "title": "kattybratt",
+          "event": {
+            "type": "open-track-setup",
+            "data": {
+              "path": "track/kattybratt/Singles/pulsar/manifest.visu",
+              "node": "root.tracks"
             }
           }
         },

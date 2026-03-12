@@ -1,19 +1,50 @@
 {
   "model":"Collection<io.alkapivo.visu.service.bullet.BulletTemplate>",
-  "version":"1",
   "data":{
     "bullet-pikaro-2-r":{
+      "damage":1.0,
+      "sumAngleOffset":true,
+      "mask":{
+        "x":20.0,
+        "y":20.0,
+        "height":24.0,
+        "width":24.0
+      },
+      "sumSpeedOffset":false,
+      "angleOffset":{
+        "value":4.0,
+        "ease":"IN_OUT_CIRC",
+        "target":-0.25,
+        "duration":2.1600000000000001
+      },
+      "changeAngleOffset":true,
+      "angleOffsetRng":false,
+      "changeSpeedOffset":true,
+      "wiggle":false,
+      "wiggleAmplitude":0.0,
+      "wiggleDirRng":false,
+      "wiggleFrequency":0.016666666666666666,
+      "wiggleTime":0.0,
+      "wiggleTimeRng":false,
+      "useAngleOffset":true,
+      "speedOffset":{
+        "value":0.0,
+        "ease":"LINEAR",
+        "target":-5.0,
+        "duration":15.0
+      },
+      "useSpeedOffset":true,
       "sprite":{
-        "angle":0.0,
-        "randomFrame":false,
-        "alpha":1.0,
-        "frame":1.0,
         "scaleX":4.0,
-        "speed":10.0,
-        "scaleY":4.0,
         "blend":"#FFFFFF",
+        "scaleY":4.0,
         "animate":false,
-        "name":"texture_bullet_circle"
+        "name":"texture_bullet_circle",
+        "angle":0.0,
+        "speed":10.0,
+        "alpha":1.0,
+        "randomFrame":false,
+        "frame":1.0
       },
       "onDeath":"bullet-pikaro-2",
       "onDeathAmount":1.0,
@@ -25,52 +56,52 @@
       "onDeathRngStep":0.0,
       "onDeathSpeed":0.0,
       "onDeathSpeedMerge":true,
-      "lifespanMax":7.5,
-      "sumAngleOffset":true,
-      "damage":1.0,
-      "sumSpeedOffset":false,
-      "mask":{
-        "x":20.0,
-        "y":20.0,
-        "width":24.0,
-        "height":24.0
-      },
-      "angleOffset":{
-        "duration":2.1600000000000001,
-        "target":-0.25,
-        "ease":"IN_OUT_CIRC",
-        "value":4.0
-      },
-      "wiggle":false,
-      "changeAngleOffset":true,
-      "angleOffsetRng":false,
-      "wiggleAmplitude":0.0,
-      "wiggleDirRng":false,
-      "wiggleFrequency":0.016666666666666666,
-      "changeSpeedOffset":true,
-      "wiggleTime":0.0,
-      "wiggleTimeRng":false,
-      "useAngleOffset":true,
-      "speedOffset":{
-        "duration":15.0,
-        "target":-5.0,
-        "ease":"LINEAR",
-        "value":0.0
-      },
-      "useSpeedOffset":true
+      "lifespanMax":7.5
     },
     "bullet-pikaro-2-l":{
+      "damage":1.0,
+      "sumAngleOffset":true,
+      "mask":{
+        "x":20.0,
+        "y":20.0,
+        "height":24.0,
+        "width":24.0
+      },
+      "sumSpeedOffset":false,
+      "angleOffset":{
+        "value":-4.0,
+        "ease":"IN_OUT_CIRC",
+        "target":0.29999999999999999,
+        "duration":2.1600000000000001
+      },
+      "changeAngleOffset":true,
+      "angleOffsetRng":false,
+      "changeSpeedOffset":false,
+      "wiggle":false,
+      "wiggleAmplitude":0.0,
+      "wiggleDirRng":false,
+      "wiggleFrequency":0.016666666666666666,
+      "wiggleTime":0.0,
+      "wiggleTimeRng":false,
+      "useAngleOffset":true,
+      "speedOffset":{
+        "value":0.0,
+        "ease":"LINEAR",
+        "target":-5.0,
+        "duration":1.0
+      },
+      "useSpeedOffset":false,
       "sprite":{
-        "angle":0.0,
-        "randomFrame":false,
-        "alpha":1.0,
-        "frame":1.0,
         "scaleX":4.0,
-        "speed":10.0,
-        "scaleY":4.0,
         "blend":"#FFFFFF",
+        "scaleY":4.0,
         "animate":false,
-        "name":"texture_bullet_circle"
+        "name":"texture_bullet_circle",
+        "angle":0.0,
+        "speed":10.0,
+        "alpha":1.0,
+        "randomFrame":false,
+        "frame":1.0
       },
       "onDeath":"bullet-pikaro-2",
       "onDeathAmount":1.0,
@@ -82,52 +113,52 @@
       "onDeathRngStep":0.0,
       "onDeathSpeed":0.0,
       "onDeathSpeedMerge":true,
-      "lifespanMax":7.5,
-      "sumAngleOffset":true,
-      "damage":1.0,
-      "sumSpeedOffset":false,
-      "mask":{
-        "x":20.0,
-        "y":20.0,
-        "width":24.0,
-        "height":24.0
-      },
-      "angleOffset":{
-        "duration":2.1600000000000001,
-        "target":0.29999999999999999,
-        "ease":"IN_OUT_CIRC",
-        "value":-4.0
-      },
-      "wiggle":false,
-      "changeAngleOffset":true,
-      "angleOffsetRng":false,
-      "wiggleAmplitude":0.0,
-      "wiggleDirRng":false,
-      "wiggleFrequency":0.016666666666666666,
-      "changeSpeedOffset":false,
-      "wiggleTime":0.0,
-      "wiggleTimeRng":false,
-      "useAngleOffset":true,
-      "speedOffset":{
-        "duration":1.0,
-        "target":-5.0,
-        "ease":"LINEAR",
-        "value":0.0
-      },
-      "useSpeedOffset":false
+      "lifespanMax":7.5
     },
     "bullet-player-l":{
+      "damage":1.0,
+      "sumAngleOffset":false,
+      "mask":{
+        "x":8.0,
+        "y":8.0,
+        "height":48.0,
+        "width":48.0
+      },
+      "sumSpeedOffset":false,
+      "angleOffset":{
+        "value":0.0,
+        "ease":"LINEAR",
+        "target":15.0,
+        "duration":1.6666666699999999
+      },
+      "changeAngleOffset":true,
+      "angleOffsetRng":false,
+      "changeSpeedOffset":false,
+      "wiggle":true,
+      "wiggleAmplitude":2.0,
+      "wiggleDirRng":false,
+      "wiggleFrequency":8.0,
+      "wiggleTime":8.0,
+      "wiggleTimeRng":true,
+      "useAngleOffset":true,
+      "speedOffset":{
+        "value":4.0,
+        "ease":"LINEAR",
+        "target":4.0,
+        "duration":0.0
+      },
+      "useSpeedOffset":false,
       "sprite":{
-        "angle":0.0,
-        "randomFrame":true,
-        "alpha":1.0,
-        "frame":0.0,
         "scaleX":3.0,
-        "speed":6.0,
-        "scaleY":3.0,
         "blend":"#FFFFFF",
+        "scaleY":3.0,
         "animate":false,
-        "name":"texture_bullet_blue"
+        "name":"texture_bullet_blue",
+        "angle":0.0,
+        "speed":6.0,
+        "alpha":1.0,
+        "randomFrame":true,
+        "frame":0.0
       },
       "onDeath":null,
       "onDeathAmount":null,
@@ -139,109 +170,52 @@
       "onDeathRngStep":null,
       "onDeathSpeed":null,
       "onDeathSpeedMerge":null,
-      "lifespanMax":4.0,
-      "sumAngleOffset":false,
-      "damage":1.0,
-      "sumSpeedOffset":false,
-      "mask":{
-        "x":8.0,
-        "y":8.0,
-        "width":48.0,
-        "height":48.0
-      },
-      "angleOffset":{
-        "duration":1.6666666699999999,
-        "target":15.0,
-        "ease":"LINEAR",
-        "value":0.0
-      },
-      "wiggle":true,
-      "changeAngleOffset":true,
-      "angleOffsetRng":false,
-      "wiggleAmplitude":2.0,
-      "wiggleDirRng":false,
-      "wiggleFrequency":8.0,
-      "changeSpeedOffset":false,
-      "wiggleTime":8.0,
-      "wiggleTimeRng":true,
-      "useAngleOffset":true,
-      "speedOffset":{
-        "duration":0.0,
-        "target":4.0,
-        "ease":"LINEAR",
-        "value":4.0
-      },
-      "useSpeedOffset":false
+      "lifespanMax":4.0
     },
     "bullet-player-r":{
-      "sprite":{
-        "angle":0.0,
-        "randomFrame":true,
-        "alpha":1.0,
-        "frame":7.0,
-        "scaleX":3.0,
-        "speed":6.0,
-        "scaleY":3.0,
-        "blend":"#FFFFFF",
-        "animate":false,
-        "name":"texture_bullet_blue"
-      },
-      "onDeath":null,
-      "onDeathAmount":null,
-      "onDeathAngle":null,
-      "onDeathAngleIncrease":null,
-      "onDeathAngleRng":null,
-      "onDeathAngleStep":null,
-      "onDeathRngSpeed":null,
-      "onDeathRngStep":null,
-      "onDeathSpeed":null,
-      "onDeathSpeedMerge":null,
-      "lifespanMax":4.0,
-      "sumAngleOffset":false,
       "damage":1.0,
-      "sumSpeedOffset":false,
+      "sumAngleOffset":false,
       "mask":{
         "x":8.0,
         "y":8.0,
-        "width":48.0,
-        "height":48.0
+        "height":48.0,
+        "width":48.0
       },
+      "sumSpeedOffset":false,
       "angleOffset":{
-        "duration":1.6666666699999999,
-        "target":-15.0,
+        "value":0.0,
         "ease":"LINEAR",
-        "value":0.0
+        "target":-15.0,
+        "duration":1.6666666699999999
       },
-      "wiggle":true,
       "changeAngleOffset":true,
       "angleOffsetRng":false,
+      "changeSpeedOffset":false,
+      "wiggle":true,
       "wiggleAmplitude":2.0,
       "wiggleDirRng":false,
       "wiggleFrequency":8.0,
-      "changeSpeedOffset":false,
       "wiggleTime":8.0,
       "wiggleTimeRng":true,
       "useAngleOffset":true,
       "speedOffset":{
-        "duration":0.0,
-        "target":4.0,
+        "value":4.0,
         "ease":"LINEAR",
-        "value":4.0
+        "target":4.0,
+        "duration":0.0
       },
-      "useSpeedOffset":false
-    },
-    "bullet-shroom":{
+      "useSpeedOffset":false,
       "sprite":{
-        "angle":0.0,
-        "randomFrame":true,
-        "alpha":1.0,
-        "frame":1.0,
-        "scaleX":4.0,
-        "speed":10.0,
-        "scaleY":4.0,
+        "scaleX":3.0,
         "blend":"#FFFFFF",
+        "scaleY":3.0,
         "animate":false,
-        "name":"texture_bullet"
+        "name":"texture_bullet_blue",
+        "angle":0.0,
+        "speed":6.0,
+        "alpha":1.0,
+        "randomFrame":true,
+        "frame":7.0
       },
       "onDeath":null,
       "onDeathAmount":null,
@@ -253,52 +227,52 @@
       "onDeathRngStep":null,
       "onDeathSpeed":null,
       "onDeathSpeedMerge":null,
-      "lifespanMax":20.0,
-      "sumAngleOffset":false,
+      "lifespanMax":4.0
+    },
+    "bullet-shroom":{
       "damage":1.0,
-      "sumSpeedOffset":false,
+      "sumAngleOffset":false,
       "mask":{
         "x":19.0,
         "y":21.0,
-        "width":26.0,
-        "height":26.0
+        "height":26.0,
+        "width":26.0
       },
+      "sumSpeedOffset":false,
       "angleOffset":{
-        "duration":0.0,
-        "target":0.0,
+        "value":0.0,
         "ease":"LINEAR",
-        "value":0.0
+        "target":0.0,
+        "duration":0.0
       },
-      "wiggle":false,
       "changeAngleOffset":false,
       "angleOffsetRng":false,
+      "changeSpeedOffset":false,
+      "wiggle":false,
       "wiggleAmplitude":0.0,
       "wiggleDirRng":false,
       "wiggleFrequency":0.016666666666666666,
-      "changeSpeedOffset":false,
       "wiggleTime":0.0,
       "wiggleTimeRng":false,
       "useAngleOffset":false,
       "speedOffset":{
-        "duration":1.0,
-        "target":0.0,
+        "value":0.0,
         "ease":"LINEAR",
-        "value":0.0
+        "target":0.0,
+        "duration":1.0
       },
-      "useSpeedOffset":false
-    },
-    "bullet-katt-2-r":{
+      "useSpeedOffset":false,
       "sprite":{
-        "angle":0.0,
-        "randomFrame":false,
-        "alpha":1.0,
-        "frame":3.0,
         "scaleX":4.0,
-        "speed":10.0,
-        "scaleY":4.0,
         "blend":"#FFFFFF",
+        "scaleY":4.0,
         "animate":false,
-        "name":"texture_bullet_circle"
+        "name":"texture_bullet",
+        "angle":0.0,
+        "speed":10.0,
+        "alpha":1.0,
+        "randomFrame":true,
+        "frame":1.0
       },
       "onDeath":null,
       "onDeathAmount":null,
@@ -310,52 +284,109 @@
       "onDeathRngStep":null,
       "onDeathSpeed":null,
       "onDeathSpeedMerge":null,
-      "lifespanMax":7.6799999999999997,
-      "sumAngleOffset":false,
+      "lifespanMax":20.0
+    },
+    "bullet-katt-2-r":{
       "damage":1.0,
-      "sumSpeedOffset":true,
+      "sumAngleOffset":false,
       "mask":{
         "x":20.0,
         "y":20.0,
-        "width":24.0,
-        "height":24.0
+        "height":24.0,
+        "width":24.0
       },
+      "sumSpeedOffset":true,
       "angleOffset":{
-        "duration":1.921,
-        "target":-360.0,
+        "value":0.0,
         "ease":"OUT_QUAD",
-        "value":0.0
+        "target":-360.0,
+        "duration":1.921
       },
-      "wiggle":false,
       "changeAngleOffset":true,
       "angleOffsetRng":false,
+      "changeSpeedOffset":true,
+      "wiggle":false,
       "wiggleAmplitude":0.0,
       "wiggleDirRng":false,
       "wiggleFrequency":0.016666666666666666,
-      "changeSpeedOffset":true,
       "wiggleTime":0.0,
       "wiggleTimeRng":false,
       "useAngleOffset":true,
       "speedOffset":{
-        "duration":1.9199999999999999,
-        "target":0.10000000000000001,
+        "value":0.0,
         "ease":"OUT_QUAD",
-        "value":0.0
+        "target":0.10000000000000001,
+        "duration":1.9199999999999999
       },
-      "useSpeedOffset":false
+      "useSpeedOffset":false,
+      "sprite":{
+        "scaleX":4.0,
+        "blend":"#FFFFFF",
+        "scaleY":4.0,
+        "animate":false,
+        "name":"texture_bullet_circle",
+        "angle":0.0,
+        "speed":10.0,
+        "alpha":1.0,
+        "randomFrame":false,
+        "frame":3.0
+      },
+      "onDeath":null,
+      "onDeathAmount":null,
+      "onDeathAngle":null,
+      "onDeathAngleIncrease":null,
+      "onDeathAngleRng":null,
+      "onDeathAngleStep":null,
+      "onDeathRngSpeed":null,
+      "onDeathRngStep":null,
+      "onDeathSpeed":null,
+      "onDeathSpeedMerge":null,
+      "lifespanMax":7.6799999999999997
     },
     "bullet-katt-1-r":{
+      "damage":1.0,
+      "sumAngleOffset":false,
+      "mask":{
+        "x":20.0,
+        "y":20.0,
+        "height":24.0,
+        "width":24.0
+      },
+      "sumSpeedOffset":true,
+      "angleOffset":{
+        "value":0.0,
+        "ease":"OUT_QUAD",
+        "target":-360.0,
+        "duration":1.921
+      },
+      "changeAngleOffset":true,
+      "angleOffsetRng":false,
+      "changeSpeedOffset":true,
+      "wiggle":false,
+      "wiggleAmplitude":0.0,
+      "wiggleDirRng":false,
+      "wiggleFrequency":0.016666666666666666,
+      "wiggleTime":0.0,
+      "wiggleTimeRng":false,
+      "useAngleOffset":true,
+      "speedOffset":{
+        "value":0.0,
+        "ease":"OUT_QUAD",
+        "target":0.025000000000000001,
+        "duration":1.9199999999999999
+      },
+      "useSpeedOffset":true,
       "sprite":{
-        "angle":0.0,
-        "randomFrame":false,
-        "alpha":1.0,
-        "frame":2.0,
         "scaleX":4.0,
-        "speed":10.0,
-        "scaleY":4.0,
         "blend":"#FFFFFF",
+        "scaleY":4.0,
         "animate":false,
-        "name":"texture_bullet_circle"
+        "name":"texture_bullet_circle",
+        "angle":0.0,
+        "speed":10.0,
+        "alpha":1.0,
+        "randomFrame":false,
+        "frame":2.0
       },
       "onDeath":"bullet-katt-2-l",
       "onDeathAmount":1.0,
@@ -367,52 +398,52 @@
       "onDeathRngStep":0.0,
       "onDeathSpeed":0.0,
       "onDeathSpeedMerge":true,
-      "lifespanMax":3.8399999999999999,
-      "sumAngleOffset":false,
+      "lifespanMax":3.8399999999999999
+    },
+    "bullet-katt-1-l":{
       "damage":1.0,
-      "sumSpeedOffset":true,
+      "sumAngleOffset":false,
       "mask":{
         "x":20.0,
         "y":20.0,
-        "width":24.0,
-        "height":24.0
+        "height":24.0,
+        "width":24.0
       },
+      "sumSpeedOffset":true,
       "angleOffset":{
-        "duration":1.921,
-        "target":-360.0,
+        "value":0.0,
         "ease":"OUT_QUAD",
-        "value":0.0
+        "target":360.0,
+        "duration":1.921
       },
-      "wiggle":false,
       "changeAngleOffset":true,
       "angleOffsetRng":false,
+      "changeSpeedOffset":true,
+      "wiggle":false,
       "wiggleAmplitude":0.0,
       "wiggleDirRng":false,
       "wiggleFrequency":0.016666666666666666,
-      "changeSpeedOffset":true,
       "wiggleTime":0.0,
       "wiggleTimeRng":false,
       "useAngleOffset":true,
       "speedOffset":{
-        "duration":1.9199999999999999,
-        "target":0.025000000000000001,
+        "value":0.0,
         "ease":"OUT_QUAD",
-        "value":0.0
+        "target":0.025000000000000001,
+        "duration":1.9199999999999999
       },
-      "useSpeedOffset":true
-    },
-    "bullet-katt-1-l":{
+      "useSpeedOffset":true,
       "sprite":{
-        "angle":0.0,
-        "randomFrame":false,
-        "alpha":1.0,
-        "frame":1.0,
         "scaleX":4.0,
-        "speed":10.0,
-        "scaleY":4.0,
         "blend":"#FFFFFF",
+        "scaleY":4.0,
         "animate":false,
-        "name":"texture_bullet_circle"
+        "name":"texture_bullet_circle",
+        "angle":0.0,
+        "speed":10.0,
+        "alpha":1.0,
+        "randomFrame":false,
+        "frame":1.0
       },
       "onDeath":"bullet-katt-2-r",
       "onDeathAmount":1.0,
@@ -424,109 +455,52 @@
       "onDeathRngStep":0.0,
       "onDeathSpeed":0.0,
       "onDeathSpeedMerge":true,
-      "lifespanMax":3.8399999999999999,
-      "sumAngleOffset":false,
-      "damage":1.0,
-      "sumSpeedOffset":true,
-      "mask":{
-        "x":20.0,
-        "y":20.0,
-        "width":24.0,
-        "height":24.0
-      },
-      "angleOffset":{
-        "duration":1.921,
-        "target":360.0,
-        "ease":"OUT_QUAD",
-        "value":0.0
-      },
-      "wiggle":false,
-      "changeAngleOffset":true,
-      "angleOffsetRng":false,
-      "wiggleAmplitude":0.0,
-      "wiggleDirRng":false,
-      "wiggleFrequency":0.016666666666666666,
-      "changeSpeedOffset":true,
-      "wiggleTime":0.0,
-      "wiggleTimeRng":false,
-      "useAngleOffset":true,
-      "speedOffset":{
-        "duration":1.9199999999999999,
-        "target":0.025000000000000001,
-        "ease":"OUT_QUAD",
-        "value":0.0
-      },
-      "useSpeedOffset":true
+      "lifespanMax":3.8399999999999999
     },
     "bullet-swing":{
-      "sprite":{
-        "angle":0.0,
-        "randomFrame":true,
-        "alpha":1.0,
-        "frame":3.0,
-        "scaleX":4.0,
-        "speed":10.0,
-        "scaleY":4.0,
-        "blend":"#FFFFFF",
-        "animate":false,
-        "name":"texture_bullet_circle"
-      },
-      "onDeath":null,
-      "onDeathAmount":null,
-      "onDeathAngle":null,
-      "onDeathAngleIncrease":null,
-      "onDeathAngleRng":null,
-      "onDeathAngleStep":null,
-      "onDeathRngSpeed":null,
-      "onDeathRngStep":null,
-      "onDeathSpeed":null,
-      "onDeathSpeedMerge":null,
-      "lifespanMax":10.0,
-      "sumAngleOffset":false,
       "damage":1.0,
-      "sumSpeedOffset":false,
+      "sumAngleOffset":false,
       "mask":{
         "x":20.0,
         "y":20.0,
-        "width":24.0,
-        "height":24.0
+        "height":24.0,
+        "width":24.0
       },
+      "sumSpeedOffset":false,
       "angleOffset":{
-        "duration":1.25,
-        "target":15.0,
+        "value":0.0,
         "ease":"LINEAR",
-        "value":0.0
+        "target":15.0,
+        "duration":1.25
       },
-      "wiggle":true,
       "changeAngleOffset":false,
       "angleOffsetRng":true,
+      "changeSpeedOffset":false,
+      "wiggle":true,
       "wiggleAmplitude":10.0,
       "wiggleDirRng":true,
       "wiggleFrequency":5.0,
-      "changeSpeedOffset":false,
       "wiggleTime":6.0,
       "wiggleTimeRng":true,
       "useAngleOffset":false,
       "speedOffset":{
-        "duration":1.0,
-        "target":0.0,
+        "value":0.0,
         "ease":"LINEAR",
-        "value":0.0
+        "target":0.0,
+        "duration":1.0
       },
-      "useSpeedOffset":false
-    },
-    "bullet-katt-2-l":{
+      "useSpeedOffset":false,
       "sprite":{
-        "angle":0.0,
-        "randomFrame":false,
-        "alpha":1.0,
-        "frame":3.0,
-        "scaleX":3.0,
-        "speed":10.0,
-        "scaleY":3.0,
+        "scaleX":4.0,
         "blend":"#FFFFFF",
+        "scaleY":4.0,
         "animate":false,
-        "name":"texture_bullet_circle"
+        "name":"texture_bullet_circle",
+        "angle":0.0,
+        "speed":10.0,
+        "alpha":1.0,
+        "randomFrame":true,
+        "frame":3.0
       },
       "onDeath":null,
       "onDeathAmount":null,
@@ -538,52 +512,52 @@
       "onDeathRngStep":null,
       "onDeathSpeed":null,
       "onDeathSpeedMerge":null,
-      "lifespanMax":7.6799999999999997,
-      "sumAngleOffset":false,
+      "lifespanMax":10.0
+    },
+    "bullet-katt-2-l":{
       "damage":1.0,
-      "sumSpeedOffset":true,
+      "sumAngleOffset":false,
       "mask":{
         "x":20.0,
         "y":20.0,
-        "width":24.0,
-        "height":24.0
+        "height":24.0,
+        "width":24.0
       },
+      "sumSpeedOffset":true,
       "angleOffset":{
-        "duration":1.921,
-        "target":360.0,
+        "value":0.0,
         "ease":"OUT_QUAD",
-        "value":0.0
+        "target":360.0,
+        "duration":1.921
       },
-      "wiggle":false,
       "changeAngleOffset":true,
       "angleOffsetRng":false,
+      "changeSpeedOffset":true,
+      "wiggle":false,
       "wiggleAmplitude":0.0,
       "wiggleDirRng":false,
       "wiggleFrequency":0.016666666666666666,
-      "changeSpeedOffset":true,
       "wiggleTime":0.0,
       "wiggleTimeRng":false,
       "useAngleOffset":true,
       "speedOffset":{
-        "duration":1.9199999999999999,
-        "target":0.10000000000000001,
+        "value":0.0,
         "ease":"OUT_QUAD",
-        "value":0.0
+        "target":0.10000000000000001,
+        "duration":1.9199999999999999
       },
-      "useSpeedOffset":false
-    },
-    "bullet-player":{
+      "useSpeedOffset":false,
       "sprite":{
-        "angle":0.0,
-        "randomFrame":true,
-        "alpha":1.0,
-        "frame":0.0,
         "scaleX":3.0,
-        "speed":6.0,
-        "scaleY":3.0,
         "blend":"#FFFFFF",
+        "scaleY":3.0,
         "animate":false,
-        "name":"texture_bullet_blue"
+        "name":"texture_bullet_circle",
+        "angle":0.0,
+        "speed":10.0,
+        "alpha":1.0,
+        "randomFrame":false,
+        "frame":3.0
       },
       "onDeath":null,
       "onDeathAmount":null,
@@ -595,52 +569,109 @@
       "onDeathRngStep":null,
       "onDeathSpeed":null,
       "onDeathSpeedMerge":null,
-      "lifespanMax":4.0,
-      "sumAngleOffset":false,
+      "lifespanMax":7.6799999999999997
+    },
+    "bullet-player":{
       "damage":1.0,
-      "sumSpeedOffset":false,
+      "sumAngleOffset":false,
       "mask":{
         "x":8.0,
         "y":8.0,
-        "width":48.0,
-        "height":48.0
+        "height":48.0,
+        "width":48.0
       },
+      "sumSpeedOffset":false,
       "angleOffset":{
-        "duration":0.25,
-        "target":1.5,
+        "value":0.0,
         "ease":"LINEAR",
-        "value":0.0
+        "target":1.5,
+        "duration":0.25
       },
-      "wiggle":true,
       "changeAngleOffset":false,
       "angleOffsetRng":false,
+      "changeSpeedOffset":false,
+      "wiggle":true,
       "wiggleAmplitude":2.0,
       "wiggleDirRng":false,
       "wiggleFrequency":8.0,
-      "changeSpeedOffset":false,
       "wiggleTime":8.0,
       "wiggleTimeRng":true,
       "useAngleOffset":false,
       "speedOffset":{
-        "duration":0.0,
-        "target":4.0,
+        "value":4.0,
         "ease":"LINEAR",
-        "value":4.0
+        "target":4.0,
+        "duration":0.0
       },
-      "useSpeedOffset":false
+      "useSpeedOffset":false,
+      "sprite":{
+        "scaleX":3.0,
+        "blend":"#FFFFFF",
+        "scaleY":3.0,
+        "animate":false,
+        "name":"texture_bullet_blue",
+        "angle":0.0,
+        "speed":6.0,
+        "alpha":1.0,
+        "randomFrame":true,
+        "frame":0.0
+      },
+      "onDeath":null,
+      "onDeathAmount":null,
+      "onDeathAngle":null,
+      "onDeathAngleIncrease":null,
+      "onDeathAngleRng":null,
+      "onDeathAngleStep":null,
+      "onDeathRngSpeed":null,
+      "onDeathRngStep":null,
+      "onDeathSpeed":null,
+      "onDeathSpeedMerge":null,
+      "lifespanMax":4.0
     },
     "bullet-sigil-aamon-1":{
+      "damage":1.0,
+      "sumAngleOffset":true,
+      "mask":{
+        "x":20.0,
+        "y":20.0,
+        "height":24.0,
+        "width":24.0
+      },
+      "sumSpeedOffset":false,
+      "angleOffset":{
+        "value":5.0,
+        "ease":"IN_OUT_CUBIC",
+        "target":-0.25,
+        "duration":2.3224999999999998
+      },
+      "changeAngleOffset":true,
+      "angleOffsetRng":false,
+      "changeSpeedOffset":true,
+      "wiggle":false,
+      "wiggleAmplitude":0.0,
+      "wiggleDirRng":false,
+      "wiggleFrequency":0.016666666666666666,
+      "wiggleTime":0.0,
+      "wiggleTimeRng":false,
+      "useAngleOffset":true,
+      "speedOffset":{
+        "value":5.0,
+        "ease":"IN_OUT_CUBIC",
+        "target":-2.5,
+        "duration":4.6449999999999996
+      },
+      "useSpeedOffset":true,
       "sprite":{
-        "angle":0.0,
-        "randomFrame":false,
-        "alpha":1.0,
-        "frame":3.0,
         "scaleX":4.0,
-        "speed":10.0,
-        "scaleY":4.0,
         "blend":"#FFFFFF",
+        "scaleY":4.0,
         "animate":false,
-        "name":"texture_bullet_circle"
+        "name":"texture_bullet_circle",
+        "angle":0.0,
+        "speed":10.0,
+        "alpha":1.0,
+        "randomFrame":false,
+        "frame":3.0
       },
       "onDeath":"bullet-sigil-aamon-2",
       "onDeathAmount":1.0,
@@ -652,52 +683,52 @@
       "onDeathRngStep":0.0,
       "onDeathSpeed":0.0,
       "onDeathSpeedMerge":true,
-      "lifespanMax":7.5,
-      "sumAngleOffset":true,
+      "lifespanMax":7.5
+    },
+    "bullet-sigil-aamon-2":{
       "damage":1.0,
-      "sumSpeedOffset":false,
+      "sumAngleOffset":true,
       "mask":{
         "x":20.0,
         "y":20.0,
-        "width":24.0,
-        "height":24.0
+        "height":24.0,
+        "width":24.0
       },
+      "sumSpeedOffset":false,
       "angleOffset":{
-        "duration":2.3224999999999998,
-        "target":-0.25,
-        "ease":"IN_OUT_CUBIC",
-        "value":5.0
+        "value":-0.29999999999999999,
+        "ease":"IN_OUT_BACK",
+        "target":0.0,
+        "duration":1.72
       },
-      "wiggle":false,
       "changeAngleOffset":true,
-      "angleOffsetRng":false,
-      "wiggleAmplitude":0.0,
-      "wiggleDirRng":false,
-      "wiggleFrequency":0.016666666666666666,
+      "angleOffsetRng":true,
       "changeSpeedOffset":true,
-      "wiggleTime":0.0,
-      "wiggleTimeRng":false,
+      "wiggle":true,
+      "wiggleAmplitude":0.20000000000000001,
+      "wiggleDirRng":true,
+      "wiggleFrequency":0.016666670000000001,
+      "wiggleTime":6.2800000000000002,
+      "wiggleTimeRng":true,
       "useAngleOffset":true,
       "speedOffset":{
-        "duration":4.6449999999999996,
-        "target":-2.5,
-        "ease":"IN_OUT_CUBIC",
-        "value":5.0
+        "value":0.0,
+        "ease":"IN_OUT_BACK",
+        "target":8.0,
+        "duration":6.4800000000000004
       },
-      "useSpeedOffset":true
-    },
-    "bullet-sigil-aamon-2":{
+      "useSpeedOffset":true,
       "sprite":{
-        "angle":0.0,
-        "randomFrame":false,
-        "alpha":1.0,
-        "frame":2.0,
         "scaleX":4.0,
-        "speed":10.0,
-        "scaleY":4.0,
         "blend":"#FFFFFF",
+        "scaleY":4.0,
         "animate":false,
-        "name":"texture_bullet_circle"
+        "name":"texture_bullet_circle",
+        "angle":0.0,
+        "speed":10.0,
+        "alpha":1.0,
+        "randomFrame":false,
+        "frame":2.0
       },
       "onDeath":null,
       "onDeathAmount":null,
@@ -709,52 +740,52 @@
       "onDeathRngStep":null,
       "onDeathSpeed":null,
       "onDeathSpeedMerge":null,
-      "lifespanMax":7.5,
-      "sumAngleOffset":true,
+      "lifespanMax":7.5
+    },
+    "bullet-pikaro-3":{
       "damage":1.0,
-      "sumSpeedOffset":false,
+      "sumAngleOffset":true,
       "mask":{
         "x":20.0,
         "y":20.0,
-        "width":24.0,
-        "height":24.0
+        "height":24.0,
+        "width":24.0
       },
+      "sumSpeedOffset":false,
       "angleOffset":{
-        "duration":1.72,
-        "target":0.0,
-        "ease":"IN_OUT_BACK",
-        "value":-0.29999999999999999
+        "value":4.0,
+        "ease":"IN_OUT_CUBIC",
+        "target":-0.25,
+        "duration":2.1600000000000001
       },
-      "wiggle":true,
       "changeAngleOffset":true,
-      "angleOffsetRng":true,
-      "wiggleAmplitude":0.20000000000000001,
-      "wiggleDirRng":true,
-      "wiggleFrequency":0.016666670000000001,
+      "angleOffsetRng":false,
       "changeSpeedOffset":true,
-      "wiggleTime":6.2800000000000002,
-      "wiggleTimeRng":true,
+      "wiggle":false,
+      "wiggleAmplitude":0.0,
+      "wiggleDirRng":false,
+      "wiggleFrequency":0.016666666666666666,
+      "wiggleTime":0.0,
+      "wiggleTimeRng":false,
       "useAngleOffset":true,
       "speedOffset":{
-        "duration":6.4800000000000004,
-        "target":8.0,
+        "value":5.0,
         "ease":"IN_OUT_BACK",
-        "value":0.0
+        "target":-5.0,
+        "duration":5.0
       },
-      "useSpeedOffset":true
-    },
-    "bullet-pikaro-3":{
+      "useSpeedOffset":true,
       "sprite":{
-        "angle":0.0,
-        "randomFrame":false,
-        "alpha":1.0,
-        "frame":1.0,
         "scaleX":4.0,
-        "speed":10.0,
-        "scaleY":4.0,
         "blend":"#FFFFFF",
+        "scaleY":4.0,
         "animate":false,
-        "name":"texture_bullet_circle"
+        "name":"texture_bullet_circle",
+        "angle":0.0,
+        "speed":10.0,
+        "alpha":1.0,
+        "randomFrame":false,
+        "frame":1.0
       },
       "onDeath":"bullet-pikaro-2",
       "onDeathAmount":1.0,
@@ -766,52 +797,52 @@
       "onDeathRngStep":0.0,
       "onDeathSpeed":0.0,
       "onDeathSpeedMerge":true,
-      "lifespanMax":7.5,
-      "sumAngleOffset":true,
+      "lifespanMax":7.5
+    },
+    "bullet-pikaro-2":{
       "damage":1.0,
-      "sumSpeedOffset":false,
+      "sumAngleOffset":true,
       "mask":{
         "x":20.0,
         "y":20.0,
-        "width":24.0,
-        "height":24.0
+        "height":24.0,
+        "width":24.0
       },
+      "sumSpeedOffset":false,
       "angleOffset":{
-        "duration":2.1600000000000001,
-        "target":-0.25,
-        "ease":"IN_OUT_CUBIC",
-        "value":4.0
+        "value":-0.29999999999999999,
+        "ease":"IN_OUT_BACK",
+        "target":0.0,
+        "duration":1.72
       },
-      "wiggle":false,
       "changeAngleOffset":true,
-      "angleOffsetRng":false,
-      "wiggleAmplitude":0.0,
-      "wiggleDirRng":false,
-      "wiggleFrequency":0.016666666666666666,
+      "angleOffsetRng":true,
       "changeSpeedOffset":true,
-      "wiggleTime":0.0,
-      "wiggleTimeRng":false,
+      "wiggle":true,
+      "wiggleAmplitude":0.20000000000000001,
+      "wiggleDirRng":true,
+      "wiggleFrequency":0.016666670000000001,
+      "wiggleTime":6.2800000000000002,
+      "wiggleTimeRng":true,
       "useAngleOffset":true,
       "speedOffset":{
-        "duration":5.0,
-        "target":-5.0,
+        "value":0.0,
         "ease":"IN_OUT_BACK",
-        "value":5.0
+        "target":8.0,
+        "duration":6.4800000000000004
       },
-      "useSpeedOffset":true
-    },
-    "bullet-pikaro-2":{
+      "useSpeedOffset":true,
       "sprite":{
-        "angle":0.0,
-        "randomFrame":false,
-        "alpha":1.0,
-        "frame":1.0,
         "scaleX":4.0,
-        "speed":10.0,
-        "scaleY":4.0,
         "blend":"#FFFFFF",
+        "scaleY":4.0,
         "animate":false,
-        "name":"texture_bullet_circle"
+        "name":"texture_bullet_circle",
+        "angle":0.0,
+        "speed":10.0,
+        "alpha":1.0,
+        "randomFrame":false,
+        "frame":1.0
       },
       "onDeath":null,
       "onDeathAmount":null,
@@ -823,39 +854,8 @@
       "onDeathRngStep":null,
       "onDeathSpeed":null,
       "onDeathSpeedMerge":null,
-      "lifespanMax":7.5,
-      "sumAngleOffset":true,
-      "damage":1.0,
-      "sumSpeedOffset":false,
-      "mask":{
-        "x":20.0,
-        "y":20.0,
-        "width":24.0,
-        "height":24.0
-      },
-      "angleOffset":{
-        "duration":1.72,
-        "target":0.0,
-        "ease":"IN_OUT_BACK",
-        "value":-0.29999999999999999
-      },
-      "wiggle":true,
-      "changeAngleOffset":true,
-      "angleOffsetRng":true,
-      "wiggleAmplitude":0.20000000000000001,
-      "wiggleDirRng":true,
-      "wiggleFrequency":0.016666670000000001,
-      "changeSpeedOffset":true,
-      "wiggleTime":6.2800000000000002,
-      "wiggleTimeRng":true,
-      "useAngleOffset":true,
-      "speedOffset":{
-        "duration":6.4800000000000004,
-        "target":8.0,
-        "ease":"IN_OUT_BACK",
-        "value":0.0
-      },
-      "useSpeedOffset":true
+      "lifespanMax":7.5
     }
-  }
+  },
+  "version":"1"
 }

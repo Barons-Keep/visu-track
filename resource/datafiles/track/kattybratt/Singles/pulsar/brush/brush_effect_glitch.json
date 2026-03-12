@@ -1,13 +1,10 @@
 {
   "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>",
-  "version":"1",
   "data":[
     {
-      "hidden":false,
-      "color":"#FF0000",
       "texture":"texture_ve_icon_effect_particle",
-      "type":"brush_effect_glitch",
       "properties":{
+        "ef-glt_use-fade-out":true,
         "ef-glt_fade-out":1.0,
         "ef-glt_jumb-chaos":0.0,
         "ef-glt_jumb-res":0.0,
@@ -24,17 +21,17 @@
         "ef-glt_shd-noise":0.0,
         "ef-glt_shd-rng-seed":0.0,
         "ef-glt_shd-shakiness":0.0,
-        "ef-glt_use-config":true,
-        "ef-glt_use-fade-out":true
+        "ef-glt_use-config":true
       },
-      "name":"clear (factor: 1.0)"
+      "name":"clear (factor: 1.0)",
+      "type":"brush_effect_glitch",
+      "hidden":false,
+      "color":"#FF0000"
     },
     {
-      "hidden":false,
-      "color":"#FF8377",
       "texture":"texture_ve_icon_effect_particle",
-      "type":"brush_effect_glitch",
       "properties":{
+        "ef-glt_use-fade-out":true,
         "ef-glt_fade-out":0.10931200000000001,
         "ef-glt_jumb-chaos":0.10000000000000001,
         "ef-glt_jumb-res":0.198381,
@@ -51,17 +48,17 @@
         "ef-glt_shd-noise":0.44,
         "ef-glt_shd-rng-seed":0.14000000000000001,
         "ef-glt_shd-shakiness":2.1000000000000001,
-        "ef-glt_use-config":true,
-        "ef-glt_use-fade-out":true
+        "ef-glt_use-config":true
       },
-      "name":"subtle wave noise (factor: 0.1)"
+      "name":"subtle wave noise (factor: 0.1)",
+      "type":"brush_effect_glitch",
+      "hidden":false,
+      "color":"#FF8377"
     },
     {
-      "hidden":false,
-      "color":"#FF8377",
       "texture":"texture_ve_icon_effect_particle",
-      "type":"brush_effect_glitch",
       "properties":{
+        "ef-glt_use-fade-out":true,
         "ef-glt_fade-out":0.10931200000000001,
         "ef-glt_jumb-chaos":0.26000000000000001,
         "ef-glt_jumb-res":0.059999999999999998,
@@ -78,17 +75,17 @@
         "ef-glt_shd-noise":0.5,
         "ef-glt_shd-rng-seed":0.0,
         "ef-glt_shd-shakiness":0.769231,
-        "ef-glt_use-config":true,
-        "ef-glt_use-fade-out":true
+        "ef-glt_use-config":true
       },
-      "name":"moderate wave noise (factor: 0.1)"
+      "name":"moderate wave noise (factor: 0.1)",
+      "type":"brush_effect_glitch",
+      "hidden":false,
+      "color":"#FF8377"
     },
     {
-      "hidden":false,
-      "color":"#24D9FF",
       "texture":"texture_ve_icon_effect_particle",
-      "type":"brush_effect_glitch",
       "properties":{
+        "ef-glt_use-fade-out":true,
         "ef-glt_fade-out":0.060728999999999998,
         "ef-glt_jumb-chaos":0.20000000000000001,
         "ef-glt_jumb-res":0.20000000000000001,
@@ -105,17 +102,17 @@
         "ef-glt_shd-noise":0.5,
         "ef-glt_shd-rng-seed":0.0,
         "ef-glt_shd-shakiness":0.5,
-        "ef-glt_use-config":true,
-        "ef-glt_use-fade-out":true
+        "ef-glt_use-config":true
       },
-      "name":"subtle pixelation (factor: 0.06)"
+      "name":"subtle pixelation (factor: 0.06)",
+      "type":"brush_effect_glitch",
+      "hidden":false,
+      "color":"#24D9FF"
     },
     {
-      "hidden":false,
-      "color":"#24D9FF",
       "texture":"texture_ve_icon_effect_particle",
-      "type":"brush_effect_glitch",
       "properties":{
+        "ef-glt_use-fade-out":true,
         "ef-glt_fade-out":0.10931200000000001,
         "ef-glt_jumb-chaos":0.193798,
         "ef-glt_jumb-res":0.198381,
@@ -132,17 +129,17 @@
         "ef-glt_shd-noise":0.34883700000000001,
         "ef-glt_shd-rng-seed":0.0,
         "ef-glt_shd-shakiness":0.769231,
-        "ef-glt_use-config":true,
-        "ef-glt_use-fade-out":true
+        "ef-glt_use-config":true
       },
-      "name":"modearate pixelation (factor: 0.1)"
+      "name":"modearate pixelation (factor: 0.1)",
+      "type":"brush_effect_glitch",
+      "hidden":false,
+      "color":"#24D9FF"
     },
     {
-      "hidden":false,
-      "color":"#5DFF00",
       "texture":"texture_ve_icon_effect_particle",
-      "type":"brush_effect_glitch",
       "properties":{
+        "ef-glt_use-fade-out":true,
         "ef-glt_fade-out":0.12,
         "ef-glt_jumb-chaos":0.052631999999999998,
         "ef-glt_jumb-res":0.068825999999999998,
@@ -159,17 +156,17 @@
         "ef-glt_shd-noise":0.295547,
         "ef-glt_shd-rng-seed":0.0,
         "ef-glt_shd-shakiness":1.9028339999999999,
-        "ef-glt_use-config":true,
-        "ef-glt_use-fade-out":true
+        "ef-glt_use-config":true
       },
-      "name":"subtle rgb channel shift (factor: 0.12)"
+      "name":"subtle rgb channel shift (factor: 0.12)",
+      "type":"brush_effect_glitch",
+      "hidden":false,
+      "color":"#5DFF00"
     },
     {
-      "hidden":false,
-      "color":"#5DFF00",
       "texture":"texture_ve_icon_effect_particle",
-      "type":"brush_effect_glitch",
       "properties":{
+        "ef-glt_use-fade-out":true,
         "ef-glt_fade-out":0.65000000000000002,
         "ef-glt_jumb-chaos":0.82999999999999996,
         "ef-glt_jumb-res":0.34000000000000002,
@@ -186,10 +183,13 @@
         "ef-glt_shd-noise":0.34883700000000001,
         "ef-glt_shd-rng-seed":0.46406799999999998,
         "ef-glt_shd-shakiness":6.9549329999999996,
-        "ef-glt_use-config":true,
-        "ef-glt_use-fade-out":true
+        "ef-glt_use-config":true
       },
-      "name":"moderate rgb channel shift (factor: 0.65)"
+      "name":"moderate rgb channel shift (factor: 0.65)",
+      "type":"brush_effect_glitch",
+      "hidden":false,
+      "color":"#5DFF00"
     }
-  ]
+  ],
+  "version":"1"
 }
