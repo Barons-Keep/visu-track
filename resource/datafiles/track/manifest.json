@@ -95,6 +95,17 @@
           }
         },
         {
+          "name": "life.delete",
+          "title": "4evrx",
+          "event": {
+            "type": "open-track-setup",
+            "data": {
+              "path": "track/4evrx/Singles/life.delete/manifest.visu",
+              "node": "root.tracks"
+            }
+          }
+        },
+        {
           "name": "digitalshadow",
           "title": "Zoogies",
           "event": {

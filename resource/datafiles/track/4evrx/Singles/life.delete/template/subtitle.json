@@ -1,0 +1,22 @@
+{
+  "data":{
+    "subtitle-alkapivo":{
+      "lines":[
+        "Alkapivo",
+        "2026"
+      ]
+    },
+    "subtitle-artist-name":{
+      "lines":[
+        "4evrx"
+      ]
+    },
+    "subtitle-track-name":{
+      "lines":[
+        "life.delete"
+      ]
+    }
+  },
+  "model":"Collection<io.alkapivo.visu.service.subtitle.SubtitleTemplate>",
+  "version":"1"
+}

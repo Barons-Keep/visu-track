@@ -183,8 +183,31 @@
         "handler": "Test_VisuController_playback",
         "description": "Play finished part of kattybratt - pulsar (4:17) (isVisualMode: false)",
         "data": {
-          "timeout": 374.0,
-          "duration": 354.0,
+          "timeout": 276.0,
+          "duration": 256.0,
+          "cooldown": 1.0,
+          "isDemoMode": true
+        }
+      },
+      {
+        "handler": "Test_VisuController_load",
+        "description": "Load 4evrx - life.delete (isVisualMode: false)",
+        "data": {
+          "trackName": "4evrx - life.delete",
+          "timeout": 20.0,
+          "cooldown": 1.0,
+          "path": "track/4evrx/Singles/life.delete/manifest.visu",
+          "isVisualMode": false,
+          "isRawMode": false,
+          "isMouseAim": false
+        }
+      },
+      {
+        "handler": "Test_VisuController_playback",
+        "description": "Play finished part of 4evrx - life.delete (4:43) (isVisualMode: false)",
+        "data": {
+          "timeout": 302.0,
+          "duration": 282.0,
           "cooldown": 1.0,
           "isDemoMode": true
         }
