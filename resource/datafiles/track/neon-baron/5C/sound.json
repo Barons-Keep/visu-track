@@ -1,0 +1,10 @@
+{
+  "data":{
+    "sound_external":{
+      "waveform":null,
+      "file":"5C.ogg"
+    }
+  },
+  "model":"Collection<io.alkapivo.core.service.sound.SoundIntent>",
+  "version":"1"
+}

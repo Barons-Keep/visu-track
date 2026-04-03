@@ -1,0 +1,30 @@
+{
+  "data":{
+    "4C-subtitles":{
+      "lines":[
+        "SHOOT SHROOM TO SET FACT",
+        "",
+        "4C_august_apartment: true",
+        ""
+      ]
+    },
+    "subtitle-track-name":{
+      "lines":[
+        "pulsar"
+      ]
+    },
+    "subtitle-alkapivo":{
+      "lines":[
+        "Alkapivo",
+        "2026"
+      ]
+    },
+    "subtitle-artist-name":{
+      "lines":[
+        "kattybratt"
+      ]
+    }
+  },
+  "version":"1",
+  "model":"Collection<io.alkapivo.visu.service.subtitle.SubtitleTemplate>"
+}
