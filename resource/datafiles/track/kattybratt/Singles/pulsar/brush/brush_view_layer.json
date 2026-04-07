@@ -1,48 +1,71 @@
 {
   "model":"Collection<io.alkapivo.visu.editor.api.VEBrushTemplate>",
+  "version":"1",
   "data":[
     {
-      "texture":"texture_ve_icon_view_layer",
       "properties":{
+        "vw-layer_change-scale-x":true,
+        "vw-layer_change-scale-y":true,
+        "vw-layer_change-spd":true,
+        "vw-layer_cls-col":true,
+        "vw-layer_cls-texture":true,
+        "vw-layer_col":"#000000",
+        "vw-layer_dir":{
+          "duration":0.0,
+          "ease":"LINEAR",
+          "value":77.0,
+          "factor":0.0,
+          "target":0.0,
+          "increase":0.0
+        },
+        "vw-layer_fade-in":0.16,
+        "vw-layer_fade-out":0.16,
+        "vw-layer_hide":false,
+        "vw-layer_hide-blend":false,
+        "vw-layer_hide-cls":true,
+        "vw-layer_hide-col":false,
+        "vw-layer_hide-tx":true,
+        "vw-layer_hide-tx-blend":true,
+        "vw-layer_hide-tx-dir":false,
         "vw-layer_hide-tx-layer":false,
         "vw-layer_hide-tx-scale-x":false,
         "vw-layer_hide-tx-scale-y":false,
         "vw-layer_hide-tx-spd":false,
         "vw-layer_scale-x":{
-          "factor":0.0,
+          "duration":0.5,
           "ease":"OUT_CIRC",
-          "increase":0.0,
           "value":2.0,
+          "factor":0.0,
           "target":1.25,
-          "duration":0.5
+          "increase":0.0
         },
         "vw-layer_scale-y":{
-          "factor":0.0,
+          "duration":0.5,
           "ease":"OUT_CIRC",
-          "increase":0.0,
           "value":2.0,
+          "factor":0.0,
           "target":1.25,
-          "duration":0.5
+          "increase":0.0
         },
         "vw-layer_spd":{
-          "factor":0.0,
+          "duration":0.5,
           "ease":"OUT_CIRC",
-          "increase":0.0,
           "value":32.0,
+          "factor":0.0,
           "target":0.0,
-          "duration":0.5
+          "increase":0.0
         },
         "vw-layer_texture":{
-          "scaleX":1.0,
-          "blend":"#FFFFFF",
           "scaleY":1.0,
           "animate":false,
-          "name":"tx_kat_blackhole",
+          "frame":0.0,
           "angle":0.0,
-          "speed":30.0,
-          "alpha":1.0,
           "randomFrame":false,
-          "frame":0.0
+          "alpha":1.0,
+          "speed":30.0,
+          "scaleX":1.0,
+          "name":"tx_kat_blackhole",
+          "blend":"#FFFFFF"
         },
         "vw-layer_texture-blend":"#FFFFFF",
         "vw-layer_texture-lifespan":0.5,
@@ -67,78 +90,78 @@
         "vw-layer_blend-eq":"ADD",
         "vw-layer_blend-eq-alpha":"ADD",
         "vw-layer_blend-src":"SRC_ALPHA",
-        "vw-layer_change-dir":false,
-        "vw-layer_change-scale-x":true,
-        "vw-layer_change-scale-y":true,
-        "vw-layer_change-spd":true,
-        "vw-layer_cls-col":true,
-        "vw-layer_cls-texture":true,
-        "vw-layer_col":"#000000",
-        "vw-layer_dir":{
-          "factor":0.0,
-          "ease":"LINEAR",
-          "increase":0.0,
-          "value":77.0,
-          "target":0.0,
-          "duration":0.0
-        },
-        "vw-layer_fade-in":0.16,
-        "vw-layer_fade-out":0.16,
-        "vw-layer_hide":false,
-        "vw-layer_hide-blend":false,
-        "vw-layer_hide-cls":true,
-        "vw-layer_hide-col":false,
-        "vw-layer_hide-tx":true,
-        "vw-layer_hide-tx-blend":true,
-        "vw-layer_hide-tx-dir":false
+        "vw-layer_change-dir":false
       },
-      "name":"tx_kat_blackhole 1 BKG",
+      "texture":"texture_ve_icon_view_layer",
       "type":"brush_view_layer",
+      "color":"#FF20DA",
       "hidden":false,
-      "color":"#FF20DA"
+      "name":"tx_kat_blackhole 1 BKG"
     },
     {
-      "texture":"texture_ve_icon_view_layer",
       "properties":{
+        "vw-layer_change-scale-x":false,
+        "vw-layer_change-scale-y":false,
+        "vw-layer_change-spd":false,
+        "vw-layer_cls-col":false,
+        "vw-layer_cls-texture":false,
+        "vw-layer_col":"#000000",
+        "vw-layer_dir":{
+          "duration":0.0,
+          "ease":"LINEAR",
+          "value":0.0,
+          "factor":0.0,
+          "target":0.0,
+          "increase":0.0
+        },
+        "vw-layer_fade-in":0.0,
+        "vw-layer_fade-out":0.0,
+        "vw-layer_hide":true,
+        "vw-layer_hide-blend":true,
+        "vw-layer_hide-cls":true,
+        "vw-layer_hide-col":true,
+        "vw-layer_hide-tx":true,
+        "vw-layer_hide-tx-blend":true,
+        "vw-layer_hide-tx-dir":true,
         "vw-layer_hide-tx-layer":true,
         "vw-layer_hide-tx-scale-x":true,
         "vw-layer_hide-tx-scale-y":true,
         "vw-layer_hide-tx-spd":true,
         "vw-layer_scale-x":{
-          "factor":0.0,
+          "duration":0.0,
           "ease":"LINEAR",
-          "increase":0.0,
           "value":1.0,
+          "factor":0.0,
           "target":1.0,
-          "duration":0.0
+          "increase":0.0
         },
         "vw-layer_scale-y":{
-          "factor":0.0,
+          "duration":0.0,
           "ease":"LINEAR",
-          "increase":0.0,
           "value":1.0,
+          "factor":0.0,
           "target":1.0,
-          "duration":0.0
+          "increase":0.0
         },
         "vw-layer_spd":{
-          "factor":0.0,
+          "duration":0.0,
           "ease":"LINEAR",
-          "increase":0.0,
           "value":0.0,
+          "factor":0.0,
           "target":0.0,
-          "duration":0.0
+          "increase":0.0
         },
         "vw-layer_texture":{
-          "scaleX":1.0,
-          "blend":"#FFFFFF",
           "scaleY":1.0,
           "animate":false,
-          "name":"texture_missing",
+          "frame":0.0,
           "angle":0.0,
-          "speed":30.0,
-          "alpha":1.0,
           "randomFrame":false,
-          "frame":0.0
+          "alpha":1.0,
+          "speed":30.0,
+          "scaleX":1.0,
+          "name":"texture_missing",
+          "blend":"#FFFFFF"
         },
         "vw-layer_texture-blend":"#FFFFFF",
         "vw-layer_texture-lifespan":0.0,
@@ -159,78 +182,78 @@
         "vw-layer_blend-eq":"ADD",
         "vw-layer_blend-eq-alpha":"ADD",
         "vw-layer_blend-src":"SRC_ALPHA",
-        "vw-layer_change-dir":false,
-        "vw-layer_change-scale-x":false,
-        "vw-layer_change-scale-y":false,
-        "vw-layer_change-spd":false,
-        "vw-layer_cls-col":false,
-        "vw-layer_cls-texture":false,
-        "vw-layer_col":"#000000",
-        "vw-layer_dir":{
-          "factor":0.0,
-          "ease":"LINEAR",
-          "increase":0.0,
-          "value":0.0,
-          "target":0.0,
-          "duration":0.0
-        },
-        "vw-layer_fade-in":0.0,
-        "vw-layer_fade-out":0.0,
-        "vw-layer_hide":true,
-        "vw-layer_hide-blend":true,
-        "vw-layer_hide-cls":true,
-        "vw-layer_hide-col":true,
-        "vw-layer_hide-tx":true,
-        "vw-layer_hide-tx-blend":true,
-        "vw-layer_hide-tx-dir":true
+        "vw-layer_change-dir":false
       },
-      "name":"empty",
+      "texture":"texture_ve_icon_view_layer",
       "type":"brush_view_layer",
+      "color":"#0080FF",
       "hidden":true,
-      "color":"#0080FF"
+      "name":"empty"
     },
     {
-      "texture":"texture_ve_icon_view_layer",
       "properties":{
+        "vw-layer_change-scale-x":true,
+        "vw-layer_change-scale-y":true,
+        "vw-layer_change-spd":true,
+        "vw-layer_cls-col":true,
+        "vw-layer_cls-texture":true,
+        "vw-layer_col":"#000000",
+        "vw-layer_dir":{
+          "duration":0.0,
+          "ease":"LINEAR",
+          "value":77.0,
+          "factor":0.0,
+          "target":0.0,
+          "increase":0.0
+        },
+        "vw-layer_fade-in":0.16,
+        "vw-layer_fade-out":0.16,
+        "vw-layer_hide":false,
+        "vw-layer_hide-blend":false,
+        "vw-layer_hide-cls":true,
+        "vw-layer_hide-col":false,
+        "vw-layer_hide-tx":true,
+        "vw-layer_hide-tx-blend":true,
+        "vw-layer_hide-tx-dir":false,
         "vw-layer_hide-tx-layer":false,
         "vw-layer_hide-tx-scale-x":true,
         "vw-layer_hide-tx-scale-y":true,
         "vw-layer_hide-tx-spd":false,
         "vw-layer_scale-x":{
-          "factor":0.0,
+          "duration":0.0,
           "ease":"LINEAR",
-          "increase":0.0,
           "value":1.0,
+          "factor":0.0,
           "target":1.0,
-          "duration":0.0
+          "increase":0.0
         },
         "vw-layer_scale-y":{
-          "factor":0.0,
+          "duration":0.0,
           "ease":"LINEAR",
-          "increase":0.0,
           "value":1.0,
+          "factor":0.0,
           "target":1.0,
-          "duration":0.0
+          "increase":0.0
         },
         "vw-layer_spd":{
-          "factor":0.0,
+          "duration":0.5,
           "ease":"OUT_CIRC",
-          "increase":0.0,
           "value":32.0,
+          "factor":0.0,
           "target":0.0,
-          "duration":0.5
+          "increase":0.0
         },
         "vw-layer_texture":{
-          "scaleX":1.0,
-          "blend":"#FFFFFF",
           "scaleY":1.0,
           "animate":false,
-          "name":"tx_kat_blackhole",
+          "frame":0.0,
           "angle":0.0,
-          "speed":30.0,
-          "alpha":1.0,
           "randomFrame":false,
-          "frame":0.0
+          "alpha":1.0,
+          "speed":30.0,
+          "scaleX":1.0,
+          "name":"tx_kat_blackhole",
+          "blend":"#FFFFFF"
         },
         "vw-layer_texture-blend":"#FFFFFF",
         "vw-layer_texture-lifespan":0.5,
@@ -255,7 +278,16 @@
         "vw-layer_blend-eq":"ADD",
         "vw-layer_blend-eq-alpha":"ADD",
         "vw-layer_blend-src":"SRC_ALPHA",
-        "vw-layer_change-dir":false,
+        "vw-layer_change-dir":false
+      },
+      "texture":"texture_ve_icon_view_layer",
+      "type":"brush_view_layer",
+      "color":"#FF0060",
+      "hidden":true,
+      "name":"default BKG"
+    },
+    {
+      "properties":{
         "vw-layer_change-scale-x":true,
         "vw-layer_change-scale-y":true,
         "vw-layer_change-spd":true,
@@ -263,70 +295,61 @@
         "vw-layer_cls-texture":true,
         "vw-layer_col":"#000000",
         "vw-layer_dir":{
-          "factor":0.0,
+          "duration":0.0,
           "ease":"LINEAR",
-          "increase":0.0,
-          "value":77.0,
+          "value":0.0,
+          "factor":0.0,
           "target":0.0,
-          "duration":0.0
+          "increase":0.0
         },
-        "vw-layer_fade-in":0.16,
-        "vw-layer_fade-out":0.16,
-        "vw-layer_hide":false,
-        "vw-layer_hide-blend":false,
+        "vw-layer_fade-in":0.0,
+        "vw-layer_fade-out":0.25,
+        "vw-layer_hide":true,
+        "vw-layer_hide-blend":true,
         "vw-layer_hide-cls":true,
-        "vw-layer_hide-col":false,
+        "vw-layer_hide-col":true,
         "vw-layer_hide-tx":true,
         "vw-layer_hide-tx-blend":true,
-        "vw-layer_hide-tx-dir":false
-      },
-      "name":"default BKG",
-      "type":"brush_view_layer",
-      "hidden":true,
-      "color":"#FF0060"
-    },
-    {
-      "texture":"texture_ve_icon_view_layer",
-      "properties":{
+        "vw-layer_hide-tx-dir":true,
         "vw-layer_hide-tx-layer":true,
         "vw-layer_hide-tx-scale-x":true,
         "vw-layer_hide-tx-scale-y":true,
         "vw-layer_hide-tx-spd":true,
         "vw-layer_scale-x":{
-          "factor":0.0,
+          "duration":0.0,
           "ease":"LINEAR",
-          "increase":0.0,
           "value":1.0,
+          "factor":0.0,
           "target":1.0,
-          "duration":0.0
+          "increase":0.0
         },
         "vw-layer_scale-y":{
-          "factor":0.0,
+          "duration":0.0,
           "ease":"LINEAR",
-          "increase":0.0,
           "value":1.0,
+          "factor":0.0,
           "target":1.0,
-          "duration":0.0
+          "increase":0.0
         },
         "vw-layer_spd":{
-          "factor":0.0,
+          "duration":0.0,
           "ease":"LINEAR",
-          "increase":0.0,
           "value":0.0,
+          "factor":0.0,
           "target":0.0,
-          "duration":0.0
+          "increase":0.0
         },
         "vw-layer_texture":{
-          "scaleX":1.0,
-          "blend":"#FFFFFF",
           "scaleY":1.0,
           "animate":false,
-          "name":"texture_missing",
+          "frame":0.0,
           "angle":0.0,
-          "speed":30.0,
-          "alpha":1.0,
           "randomFrame":false,
-          "frame":0.0
+          "alpha":1.0,
+          "speed":30.0,
+          "scaleX":1.0,
+          "name":"texture_missing",
+          "blend":"#FFFFFF"
         },
         "vw-layer_texture-blend":"#FFFFFF",
         "vw-layer_texture-lifespan":0.0,
@@ -347,44 +370,21 @@
         "vw-layer_blend-eq":"ADD",
         "vw-layer_blend-eq-alpha":"ADD",
         "vw-layer_blend-src":"SRC_ALPHA",
-        "vw-layer_change-dir":true,
-        "vw-layer_change-scale-x":true,
-        "vw-layer_change-scale-y":true,
-        "vw-layer_change-spd":true,
-        "vw-layer_cls-col":true,
-        "vw-layer_cls-texture":true,
-        "vw-layer_col":"#000000",
-        "vw-layer_dir":{
-          "factor":0.0,
-          "ease":"LINEAR",
-          "increase":0.0,
-          "value":0.0,
-          "target":0.0,
-          "duration":0.0
-        },
-        "vw-layer_fade-in":0.0,
-        "vw-layer_fade-out":0.25,
-        "vw-layer_hide":true,
-        "vw-layer_hide-blend":true,
-        "vw-layer_hide-cls":true,
-        "vw-layer_hide-col":true,
-        "vw-layer_hide-tx":true,
-        "vw-layer_hide-tx-blend":true,
-        "vw-layer_hide-tx-dir":true
+        "vw-layer_change-dir":true
       },
-      "name":"default FRG",
+      "texture":"texture_ve_icon_view_layer",
       "type":"brush_view_layer",
+      "color":"#0060FF",
       "hidden":true,
-      "color":"#0060FF"
+      "name":"default FRG"
     },
     {
-      "texture":"texture_ve_icon_event_1",
       "properties":null,
-      "name":"new brush template 1",
+      "texture":"texture_ve_icon_event_1",
       "type":"brush_view_layer",
+      "color":"#FFFFFF",
       "hidden":false,
-      "color":"#FFFFFF"
+      "name":"new brush template 1"
     }
-  ],
-  "version":"1"
+  ]
 }
