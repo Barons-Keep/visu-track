@@ -1,46 +1,22 @@
 {
   "model":"Collection<io.alkapivo.visu.service.subtitle.SubtitleTemplate>",
-  "version":"1",
   "data":{
     "subtitle-alkapivo":{
-      "en_EN":{
-        "enable":true,
-        "lines":[
-          "Alkapivo",
-          "2026"
-        ]
-      },
-      "pl_PL":{
-        "enable":false,
-        "lines":[
-        ]
-      }
+      "lines":[
+        "Alkapivo",
+        "2026"
+      ]
     },
     "subtitle-artist-name":{
-      "en_EN":{
-        "enable":true,
-        "lines":[
-          "kattybratt"
-        ]
-      },
-      "pl_PL":{
-        "enable":false,
-        "lines":[
-        ]
-      }
+      "lines":[
+        "kattybratt"
+      ]
     },
     "subtitle-track-name":{
-      "en_EN":{
-        "enable":true,
-        "lines":[
-          "pulsar"
-        ]
-      },
-      "pl_PL":{
-        "enable":false,
-        "lines":[
-        ]
-      }
+      "lines":[
+        "pulsar"
+      ]
     }
-  }
+  },
+  "version":"1"
 }
