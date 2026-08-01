@@ -1216,7 +1216,7 @@
               "vw-sub_hide-spd":false,
               "vw-sub_template":"3C-subtitles",
               "vw-sub_hide-dir":false,
-              "vw-sub_font":"font_kodeo_mono_28_regular",
+              "vw-sub_font":"font_kodeo_mono_28_bold",
               "vw-sub_fh":40.0,
               "vw-sub_use-timeout":false,
               "vw-sub_timeout":4.0,

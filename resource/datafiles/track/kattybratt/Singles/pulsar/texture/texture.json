@@ -9,22 +9,6 @@
       "originX":0.0,
       "frames":1.0
     },
-    "tx_sigil_agares":{
-      "originY":175.0,
-      "file":"texture/tx_sigil_agares.png",
-      "prefetch":true,
-      "name":"tx_sigil_agares",
-      "originX":175.0,
-      "frames":1.0
-    },
-    "tx_sigil_aim":{
-      "originY":175.0,
-      "file":"texture/tx_sigil_aim.png",
-      "prefetch":true,
-      "name":"tx_sigil_aim",
-      "originX":175.0,
-      "frames":1.0
-    },
     "tx_kat_biteme":{
       "originY":0.0,
       "file":"texture/tx_kat_biteme.png",
@@ -39,14 +23,6 @@
       "prefetch":true,
       "name":"tx_kat_blackhole",
       "originX":0.0,
-      "frames":1.0
-    },
-    "tx_sigil_aamon":{
-      "originY":175.0,
-      "file":"texture/tx_sigil_aamon.png",
-      "prefetch":true,
-      "name":"tx_sigil_aamon",
-      "originX":175.0,
       "frames":1.0
     }
   },
