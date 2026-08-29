@@ -1,0 +1,48 @@
+{
+  "version": "1",
+  "model": "io.alkapivo.core.test.TestSuite",
+  "data":{
+    "name": "Test editor Schnoopy - Destination Unknown",
+    "stopAfterFailure": false,
+    "tests": [
+      {
+        "handler": "Test_VisuController_load",
+        "description": "Load Schnoopy - Destination Unknown (editor)",
+        "data": {
+          "trackName": "Schnoopy - Destination Unknown",
+          "timeout": 20.0,
+          "cooldown": 1.0,
+          "path": "track/Schnoopy/Proxima/Destination-Unknown/manifest.visu"
+        }
+      },
+      {
+        "handler": "Test_VisuController_playback",
+        "description": "Play first 5 sec of Schnoopy - Destination Unknown",
+        "data": {
+          "timeout": 25.0,
+          "duration": 5.0,
+          "cooldown": 1.0
+        }
+      },
+      {
+        "handler": "Test_VisuController_rewind",
+        "description": "Rewind on Schnoopy - Destination Unknown (10 times)",
+        "data": {
+          "timeout": 50.0,
+          "amount": 10.0,
+          "cooldown": 1.0,
+          "minDuration": 3.0,
+          "maxDuration": 3.0
+        }
+      },
+      {
+        "handler": "Test_BrushToolbar_save",
+        "description": "Save one brush in every category and type on Schnoopy - Destination Unknown",
+        "data": {
+          "timeout": 60.0,
+          "cooldown": 0.5
+        }
+      }
+    ]
+  }
+}
