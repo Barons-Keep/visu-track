@@ -1,5 +1,6 @@
 {
   "model":"Collection<io.alkapivo.core.service.texture.TextureIntent>",
   "version":"1",
-  "data":{}
+  "data":{
+  }
 }

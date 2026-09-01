@@ -3,18 +3,17 @@
   "version":"1",
   "data":[
     {
-      "hidden":false,
-      "color":"#009EB9",
+      "name":"subtitle_alkapivo",
       "texture":"texture_ve_icon_view",
-      "type":"brush_view_subtitle",
+      "hidden":false,
       "properties":{
         "vw-sub_nl-delay":0.20000000000000001,
         "vw-sub_outline":"#D205A6",
         "vw-sub_spd":{
-          "increase":0.0,
-          "factor":0.002,
           "target":8.0,
-          "value":0.10000000000000001
+          "increase":0.0,
+          "value":0.10000000000000001,
+          "factor":0.002
         },
         "vw-sub_template":"subtitle_alkapivo",
         "vw-sub_timeout":1.0,
@@ -27,9 +26,6 @@
         "vw-sub_w":0.5,
         "vw-sub_x":0.25,
         "vw-sub_y":0.40000000000000002,
-        "icon":{
-          "name":"texture_baron"
-        },
         "vw-sub_align-h":"CENTER",
         "vw-sub_align-v":"TOP",
         "vw-sub_change-dir":false,
@@ -37,37 +33,38 @@
         "vw-sub_char-spd":0.12,
         "vw-sub_col":"#242424",
         "vw-sub_dir":{
-          "increase":0.0,
-          "factor":0.40000000000000002,
           "target":280.0,
-          "value":320.0
+          "increase":0.0,
+          "value":320.0,
+          "factor":0.40000000000000002
         },
         "vw-sub_end-delay":3.0,
         "vw-sub_fade-in":0.5,
         "vw-sub_fade-out":0.5,
         "vw-sub_fh":72.0,
+        "icon":{
+          "name":"texture_baron"
+        },
         "vw-sub_font":"font_kodeo_mono_48_bold",
         "vw-sub_h":0.59999999999999998
       },
-      "name":"subtitle_alkapivo"
+      "color":"#009EB9",
+      "type":"brush_view_subtitle"
     },
     {
-      "hidden":false,
-      "color":"#F998FF",
+      "name":"subtitle_artist_name",
       "texture":"texture_ve_icon_view",
-      "type":"brush_view_subtitle",
+      "hidden":false,
       "properties":{
-        "vw-sub_hide-dir":false,
-        "vw-sub_hide-font":false,
         "vw-sub_hide-spd":false,
         "vw-sub_nl-delay":0.5,
         "vw-sub_outline":"#F914FF",
         "vw-sub_spd":{
-          "increase":0.00050000000000000001,
-          "target":0.25,
-          "duration":18.229166666666668,
-          "factor":0.0016000000000000001,
           "ease":"LEGACY",
+          "increase":0.00050000000000000001,
+          "factor":0.0016000000000000001,
+          "duration":18.229166666666668,
+          "target":0.25,
           "value":2.0
         },
         "vw-sub_template":"subtitle-artist-name",
@@ -89,11 +86,11 @@
         "vw-sub_char-spd":0.059999999999999998,
         "vw-sub_col":"#181818",
         "vw-sub_dir":{
-          "increase":0.0,
-          "target":280.0,
-          "duration":1.6666666666666667,
-          "factor":0.40000000000000002,
           "ease":"LEGACY",
+          "increase":0.0,
+          "factor":0.40000000000000002,
+          "duration":1.6666666666666667,
+          "target":280.0,
           "value":320.0
         },
         "vw-sub_end-delay":9.0,
@@ -103,27 +100,27 @@
         "vw-sub_font":"font_kodeo_mono_48_bold",
         "vw-sub_h":0.20000000000000001,
         "vw-sub_hide":false,
-        "vw-sub_hide-area":false
+        "vw-sub_hide-area":false,
+        "vw-sub_hide-dir":false,
+        "vw-sub_hide-font":false
       },
-      "name":"subtitle_artist_name"
+      "color":"#F998FF",
+      "type":"brush_view_subtitle"
     },
     {
-      "hidden":false,
-      "color":"#F914FF",
+      "name":"subtitle_track_name",
       "texture":"texture_ve_icon_view",
-      "type":"brush_view_subtitle",
+      "hidden":false,
       "properties":{
-        "vw-sub_hide-dir":false,
-        "vw-sub_hide-font":false,
         "vw-sub_hide-spd":false,
         "vw-sub_nl-delay":0.5,
         "vw-sub_outline":"#181818",
         "vw-sub_spd":{
-          "increase":0.00050000000000000001,
-          "target":0.25,
-          "duration":18.229166666666668,
-          "factor":0.0016000000000000001,
           "ease":"LEGACY",
+          "increase":0.00050000000000000001,
+          "factor":0.0016000000000000001,
+          "duration":18.229166666666668,
+          "target":0.25,
           "value":2.0
         },
         "vw-sub_template":"subtitle-track-name",
@@ -145,11 +142,11 @@
         "vw-sub_char-spd":0.188,
         "vw-sub_col":"#F914FF",
         "vw-sub_dir":{
-          "increase":0.0,
-          "target":280.0,
-          "duration":1.6666666666666667,
-          "factor":0.40000000000000002,
           "ease":"LEGACY",
+          "increase":0.0,
+          "factor":0.40000000000000002,
+          "duration":1.6666666666666667,
+          "target":280.0,
           "value":320.0
         },
         "vw-sub_end-delay":7.5,
@@ -159,9 +156,12 @@
         "vw-sub_font":"font_kodeo_mono_28_bold",
         "vw-sub_h":0.40000000000000002,
         "vw-sub_hide":false,
-        "vw-sub_hide-area":false
+        "vw-sub_hide-area":false,
+        "vw-sub_hide-dir":false,
+        "vw-sub_hide-font":false
       },
-      "name":"subtitle_track_name"
+      "color":"#F914FF",
+      "type":"brush_view_subtitle"
     }
   ]
 }
