@@ -23,34 +23,6 @@
           "duration": 282.0,
           "cooldown": 1.0
         }
-      },
-      {
-        "handler": "Test_VisuController_playback",
-        "description": "Play first 5 sec of 4evrx - life.delete",
-        "data": {
-          "timeout": 25.0,
-          "duration": 5.0,
-          "cooldown": 1.0
-        }
-      },
-      {
-        "handler": "Test_VisuController_rewind",
-        "description": "Rewind on 4evrx - life.delete (10 times)",
-        "data": {
-          "timeout": 50.0,
-          "amount": 10.0,
-          "cooldown": 1.0,
-          "minDuration": 3.0,
-          "maxDuration": 3.0
-        }
-      },
-      {
-        "handler": "Test_BrushToolbar_save",
-        "description": "Save one brush in every category and type on 4evrx - life.delete",
-        "data": {
-          "timeout": 60.0,
-          "cooldown": 0.5
-        }
       }
     ]
   }

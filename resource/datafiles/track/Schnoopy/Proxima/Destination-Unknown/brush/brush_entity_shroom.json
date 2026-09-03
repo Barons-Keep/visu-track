@@ -3,103 +3,102 @@
   "version":"1",
   "data":[
     {
-      "hidden":false,
-      "color":"#FF14B9",
+      "name":"pink-baron-turn-l",
       "texture":"texture_ve_icon_entity_shroom",
-      "type":"brush_entity_shroom",
+      "hidden":false,
       "properties":{
         "en-shr_dir":270.0,
         "en-shr_dir-rng":0.0,
         "en-shr_em-cfg":{
           "angle":{
+            "ease":"LINEAR",
             "duration":0.0,
             "target":0.0,
-            "ease":"LINEAR",
             "value":0.0
           },
           "wiggleAmplitude":{
+            "ease":"LINEAR",
             "duration":0.0,
             "target":0.0,
-            "ease":"LINEAR",
             "value":20.0
           },
-          "anglePerArray":{
-            "duration":0.0,
-            "target":0.0,
-            "ease":"LINEAR",
-            "value":0.0
-          },
           "wiggleFrequency":{
+            "ease":"LINEAR",
             "duration":0.0,
             "target":0.0,
-            "ease":"LINEAR",
             "value":1.0
           },
-          "anglePerArrayRng":{
+          "anglePerArray":{
+            "ease":"LINEAR",
             "duration":0.0,
             "target":0.0,
+            "value":0.0
+          },
+          "duration":4.3200000000000003,
+          "speed":{
             "ease":"LINEAR",
+            "duration":0.0,
+            "target":0.0,
+            "value":0.0
+          },
+          "anglePerArrayRng":{
+            "ease":"LINEAR",
+            "duration":0.0,
+            "target":0.0,
+            "value":0.0
+          },
+          "offset":{
+            "ease":"LINEAR",
+            "duration":0.0,
+            "target":0.0,
             "value":0.0
           },
           "anglePerArrayStep":{
+            "ease":"LINEAR",
             "duration":0.0,
             "target":0.0,
-            "ease":"LINEAR",
-            "value":0.0
-          },
-          "speed":{
-            "duration":0.0,
-            "target":0.0,
-            "ease":"LINEAR",
             "value":0.0
           },
           "angleRng":{
+            "ease":"LINEAR",
             "duration":0.0,
             "target":0.0,
-            "ease":"LINEAR",
             "value":0.0
           },
           "angleStep":{
+            "ease":"LINEAR",
             "duration":0.0,
             "target":0.0,
-            "ease":"LINEAR",
-            "value":0.0
-          },
-          "arrays":{
-            "duration":0.0,
-            "target":1.0,
-            "ease":"LINEAR",
-            "value":1.0
-          },
-          "speedRng":{
-            "duration":0.0,
-            "target":0.0,
-            "ease":"LINEAR",
-            "value":0.0
-          },
-          "perArray":{
-            "duration":0.0,
-            "target":1.0,
-            "ease":"LINEAR",
-            "value":1.0
-          },
-          "duration":4.3200000000000003,
-          "offset":{
-            "duration":0.0,
-            "target":0.0,
-            "ease":"LINEAR",
             "value":0.0
           },
           "offsetX":{
+            "ease":"LINEAR",
             "duration":0.0,
             "target":0.0,
-            "ease":"LINEAR",
             "value":0.0
           },
+          "perArray":{
+            "ease":"LINEAR",
+            "duration":0.0,
+            "target":1.0,
+            "value":1.0
+          },
           "offsetY":{
+            "ease":"LINEAR",
             "duration":0.0,
             "target":-20.0,
+            "value":0.0
+          },
+          "arrays":{
             "ease":"LINEAR",
+            "duration":0.0,
+            "target":1.0,
+            "value":1.0
+          },
+          "speedRng":{
+            "ease":"LINEAR",
+            "duration":0.0,
+            "target":0.0,
             "value":0.0
           },
           "amount":16.0
@@ -132,28 +131,28 @@
         "en-shr_snap-x":true,
         "en-shr_snap-y":true,
         "en-shr_spawn-map":{
+          "name":"texture_shroom_spawn_map",
           "originX":72.0,
           "originY":36.0,
-          "frames":1.0,
           "file":"",
           "prefetch":true,
-          "name":"texture_shroom_spawn_map"
+          "frames":1.0
         },
         "en-shr_spd":15.0,
         "en-shr_spd-grid":false,
         "en-shr_spd-rng":5.0,
         "en-shr_template":"pink-baron-turn-l",
         "en-shr_texture":{
-          "angle":0.0,
-          "randomFrame":false,
-          "alpha":1.0,
-          "frame":0.0,
           "scaleX":1.0,
-          "speed":30.0,
           "scaleY":1.0,
+          "name":"texture_missing",
+          "angle":0.0,
+          "alpha":1.0,
+          "speed":30.0,
+          "frame":0.0,
           "blend":"#FFFFFF",
-          "animate":false,
-          "name":"texture_missing"
+          "randomFrame":false,
+          "animate":false
         },
         "en-shr_use-dir-rng":false,
         "en-shr_use-em":true,
@@ -168,106 +167,106 @@
         "en-shr_x":0.0,
         "en-shr_y":-15.0
       },
-      "name":"pink-baron-turn-l"
+      "color":"#FF14B9",
+      "type":"brush_entity_shroom"
     },
     {
-      "hidden":false,
-      "color":"#FF14B9",
+      "name":"pink-baron-turn-r",
       "texture":"texture_ve_icon_entity_shroom",
-      "type":"brush_entity_shroom",
+      "hidden":false,
       "properties":{
         "en-shr_dir":270.0,
         "en-shr_dir-rng":0.0,
         "en-shr_em-cfg":{
           "angle":{
+            "ease":"LINEAR",
             "duration":0.0,
             "target":0.0,
-            "ease":"LINEAR",
             "value":0.0
           },
           "wiggleAmplitude":{
+            "ease":"LINEAR",
             "duration":0.0,
             "target":0.0,
-            "ease":"LINEAR",
             "value":20.0
           },
-          "anglePerArray":{
-            "duration":0.0,
-            "target":0.0,
-            "ease":"LINEAR",
-            "value":0.0
-          },
           "wiggleFrequency":{
+            "ease":"LINEAR",
             "duration":0.0,
             "target":0.0,
-            "ease":"LINEAR",
             "value":1.0
           },
-          "anglePerArrayRng":{
+          "anglePerArray":{
+            "ease":"LINEAR",
             "duration":0.0,
             "target":0.0,
+            "value":0.0
+          },
+          "duration":4.3200000000000003,
+          "speed":{
             "ease":"LINEAR",
+            "duration":0.0,
+            "target":0.0,
+            "value":0.0
+          },
+          "anglePerArrayRng":{
+            "ease":"LINEAR",
+            "duration":0.0,
+            "target":0.0,
+            "value":0.0
+          },
+          "offset":{
+            "ease":"LINEAR",
+            "duration":0.0,
+            "target":0.0,
             "value":0.0
           },
           "anglePerArrayStep":{
+            "ease":"LINEAR",
             "duration":0.0,
             "target":0.0,
-            "ease":"LINEAR",
-            "value":0.0
-          },
-          "speed":{
-            "duration":0.0,
-            "target":0.0,
-            "ease":"LINEAR",
             "value":0.0
           },
           "angleRng":{
+            "ease":"LINEAR",
             "duration":0.0,
             "target":0.0,
-            "ease":"LINEAR",
             "value":0.0
           },
           "angleStep":{
+            "ease":"LINEAR",
             "duration":0.0,
             "target":0.0,
-            "ease":"LINEAR",
-            "value":0.0
-          },
-          "arrays":{
-            "duration":0.0,
-            "target":1.0,
-            "ease":"LINEAR",
-            "value":1.0
-          },
-          "speedRng":{
-            "duration":0.0,
-            "target":0.0,
-            "ease":"LINEAR",
-            "value":0.0
-          },
-          "perArray":{
-            "duration":0.0,
-            "target":1.0,
-            "ease":"LINEAR",
-            "value":1.0
-          },
-          "duration":4.3200000000000003,
-          "offset":{
-            "duration":0.0,
-            "target":0.0,
-            "ease":"LINEAR",
             "value":0.0
           },
           "offsetX":{
+            "ease":"LINEAR",
             "duration":0.0,
             "target":0.0,
-            "ease":"LINEAR",
             "value":0.0
           },
+          "perArray":{
+            "ease":"LINEAR",
+            "duration":0.0,
+            "target":1.0,
+            "value":1.0
+          },
           "offsetY":{
+            "ease":"LINEAR",
             "duration":0.0,
             "target":0.0,
+            "value":0.0
+          },
+          "arrays":{
             "ease":"LINEAR",
+            "duration":0.0,
+            "target":1.0,
+            "value":1.0
+          },
+          "speedRng":{
+            "ease":"LINEAR",
+            "duration":0.0,
+            "target":0.0,
             "value":0.0
           },
           "amount":18.0
@@ -300,28 +299,28 @@
         "en-shr_snap-x":true,
         "en-shr_snap-y":true,
         "en-shr_spawn-map":{
+          "name":"texture_shroom_spawn_map",
           "originX":72.0,
           "originY":36.0,
-          "frames":1.0,
           "file":"",
           "prefetch":true,
-          "name":"texture_shroom_spawn_map"
+          "frames":1.0
         },
         "en-shr_spd":15.0,
         "en-shr_spd-grid":false,
         "en-shr_spd-rng":5.0,
         "en-shr_template":"pink-baron-turn-r",
         "en-shr_texture":{
-          "angle":0.0,
-          "randomFrame":false,
-          "alpha":1.0,
-          "frame":0.0,
           "scaleX":1.0,
-          "speed":30.0,
           "scaleY":1.0,
+          "name":"texture_missing",
+          "angle":0.0,
+          "alpha":1.0,
+          "speed":30.0,
+          "frame":0.0,
           "blend":"#FFFFFF",
-          "animate":false,
-          "name":"texture_missing"
+          "randomFrame":false,
+          "animate":false
         },
         "en-shr_use-dir-rng":false,
         "en-shr_use-em":true,
@@ -336,106 +335,106 @@
         "en-shr_x":0.0,
         "en-shr_y":-15.0
       },
-      "name":"pink-baron-turn-r"
+      "color":"#FF14B9",
+      "type":"brush_entity_shroom"
     },
     {
-      "hidden":false,
-      "color":"#FF14DB",
+      "name":"pink-bazyl-turn-l",
       "texture":"texture_bazyl",
-      "type":"brush_entity_shroom",
+      "hidden":false,
       "properties":{
         "en-shr_dir":270.0,
         "en-shr_dir-rng":0.0,
         "en-shr_em-cfg":{
           "angle":{
+            "ease":"LINEAR",
             "duration":0.0,
             "target":0.0,
-            "ease":"LINEAR",
             "value":0.0
           },
           "wiggleAmplitude":{
+            "ease":"LINEAR",
             "duration":0.0,
             "target":0.0,
-            "ease":"LINEAR",
             "value":20.0
           },
-          "anglePerArray":{
-            "duration":4.3200000000000003,
-            "target":0.0,
-            "ease":"LINEAR",
-            "value":0.0
-          },
           "wiggleFrequency":{
+            "ease":"LINEAR",
             "duration":0.0,
             "target":0.0,
-            "ease":"LINEAR",
             "value":1.0
           },
+          "anglePerArray":{
+            "ease":"LINEAR",
+            "duration":4.3200000000000003,
+            "target":0.0,
+            "value":0.0
+          },
+          "duration":4.3200000000000003,
+          "speed":{
+            "ease":"LINEAR",
+            "duration":4.3200000000000003,
+            "target":0.0,
+            "value":0.0
+          },
           "anglePerArrayRng":{
+            "ease":"LINEAR",
             "duration":0.0,
             "target":0.0,
+            "value":0.0
+          },
+          "offset":{
             "ease":"LINEAR",
+            "duration":0.0,
+            "target":0.0,
             "value":0.0
           },
           "anglePerArrayStep":{
+            "ease":"LINEAR",
             "duration":0.0,
             "target":0.0,
-            "ease":"LINEAR",
-            "value":0.0
-          },
-          "speed":{
-            "duration":4.3200000000000003,
-            "target":0.0,
-            "ease":"LINEAR",
             "value":0.0
           },
           "angleRng":{
+            "ease":"LINEAR",
             "duration":0.0,
             "target":0.0,
-            "ease":"LINEAR",
             "value":0.0
           },
           "angleStep":{
+            "ease":"LINEAR",
             "duration":0.0,
             "target":0.0,
-            "ease":"LINEAR",
-            "value":0.0
-          },
-          "arrays":{
-            "duration":0.0,
-            "target":1.0,
-            "ease":"LINEAR",
-            "value":1.0
-          },
-          "speedRng":{
-            "duration":0.0,
-            "target":0.0,
-            "ease":"LINEAR",
-            "value":0.0
-          },
-          "perArray":{
-            "duration":0.0,
-            "target":1.0,
-            "ease":"LINEAR",
-            "value":1.0
-          },
-          "duration":4.3200000000000003,
-          "offset":{
-            "duration":0.0,
-            "target":0.0,
-            "ease":"LINEAR",
             "value":0.0
           },
           "offsetX":{
+            "ease":"LINEAR",
             "duration":4.3200000000000003,
             "target":0.0,
-            "ease":"LINEAR",
             "value":0.0
           },
+          "perArray":{
+            "ease":"LINEAR",
+            "duration":0.0,
+            "target":1.0,
+            "value":1.0
+          },
           "offsetY":{
+            "ease":"LINEAR",
             "duration":4.3200000000000003,
             "target":-20.0,
+            "value":0.0
+          },
+          "arrays":{
             "ease":"LINEAR",
+            "duration":0.0,
+            "target":1.0,
+            "value":1.0
+          },
+          "speedRng":{
+            "ease":"LINEAR",
+            "duration":0.0,
+            "target":0.0,
             "value":0.0
           },
           "amount":6.0
@@ -468,28 +467,28 @@
         "en-shr_snap-x":true,
         "en-shr_snap-y":true,
         "en-shr_spawn-map":{
+          "name":"texture_shroom_spawn_map",
           "originX":0.0,
           "originY":0.0,
-          "frames":1.0,
           "file":"",
           "prefetch":true,
-          "name":"texture_shroom_spawn_map"
+          "frames":1.0
         },
         "en-shr_spd":15.0,
         "en-shr_spd-grid":false,
         "en-shr_spd-rng":5.0,
         "en-shr_template":"pink-bazyl-turn-l",
         "en-shr_texture":{
-          "angle":0.0,
-          "randomFrame":false,
-          "alpha":1.0,
-          "frame":0.0,
           "scaleX":1.0,
-          "speed":30.0,
           "scaleY":1.0,
+          "name":"texture_missing",
+          "angle":0.0,
+          "alpha":1.0,
+          "speed":30.0,
+          "frame":0.0,
           "blend":"#FFFFFF",
-          "animate":false,
-          "name":"texture_missing"
+          "randomFrame":false,
+          "animate":false
         },
         "en-shr_use-dir-rng":false,
         "en-shr_use-em":false,
@@ -504,106 +503,106 @@
         "en-shr_x":0.0,
         "en-shr_y":-15.0
       },
-      "name":"pink-bazyl-turn-l"
+      "color":"#FF14DB",
+      "type":"brush_entity_shroom"
     },
     {
-      "hidden":false,
-      "color":"#FF14DB",
+      "name":"pink-bazyl-turn-r",
       "texture":"texture_bazyl",
-      "type":"brush_entity_shroom",
+      "hidden":false,
       "properties":{
         "en-shr_dir":270.0,
         "en-shr_dir-rng":0.0,
         "en-shr_em-cfg":{
           "angle":{
+            "ease":"LINEAR",
             "duration":0.0,
             "target":0.0,
-            "ease":"LINEAR",
             "value":0.0
           },
           "wiggleAmplitude":{
+            "ease":"LINEAR",
             "duration":0.0,
             "target":0.0,
-            "ease":"LINEAR",
             "value":20.0
           },
-          "anglePerArray":{
-            "duration":4.3200000000000003,
-            "target":0.0,
-            "ease":"LINEAR",
-            "value":0.0
-          },
           "wiggleFrequency":{
+            "ease":"LINEAR",
             "duration":0.0,
             "target":0.0,
-            "ease":"LINEAR",
             "value":1.0
           },
+          "anglePerArray":{
+            "ease":"LINEAR",
+            "duration":4.3200000000000003,
+            "target":0.0,
+            "value":0.0
+          },
+          "duration":4.3200000000000003,
+          "speed":{
+            "ease":"LINEAR",
+            "duration":4.3200000000000003,
+            "target":0.0,
+            "value":0.0
+          },
           "anglePerArrayRng":{
+            "ease":"LINEAR",
             "duration":0.0,
             "target":0.0,
+            "value":0.0
+          },
+          "offset":{
             "ease":"LINEAR",
+            "duration":0.0,
+            "target":0.0,
             "value":0.0
           },
           "anglePerArrayStep":{
+            "ease":"LINEAR",
             "duration":0.0,
             "target":0.0,
-            "ease":"LINEAR",
-            "value":0.0
-          },
-          "speed":{
-            "duration":4.3200000000000003,
-            "target":0.0,
-            "ease":"LINEAR",
             "value":0.0
           },
           "angleRng":{
+            "ease":"LINEAR",
             "duration":0.0,
             "target":0.0,
-            "ease":"LINEAR",
             "value":0.0
           },
           "angleStep":{
+            "ease":"LINEAR",
             "duration":0.0,
             "target":0.0,
-            "ease":"LINEAR",
-            "value":0.0
-          },
-          "arrays":{
-            "duration":0.0,
-            "target":1.0,
-            "ease":"LINEAR",
-            "value":1.0
-          },
-          "speedRng":{
-            "duration":0.0,
-            "target":0.0,
-            "ease":"LINEAR",
-            "value":0.0
-          },
-          "perArray":{
-            "duration":0.0,
-            "target":1.0,
-            "ease":"LINEAR",
-            "value":1.0
-          },
-          "duration":4.3200000000000003,
-          "offset":{
-            "duration":0.0,
-            "target":0.0,
-            "ease":"LINEAR",
             "value":0.0
           },
           "offsetX":{
+            "ease":"LINEAR",
             "duration":4.3200000000000003,
             "target":0.0,
-            "ease":"LINEAR",
             "value":0.0
           },
+          "perArray":{
+            "ease":"LINEAR",
+            "duration":0.0,
+            "target":1.0,
+            "value":1.0
+          },
           "offsetY":{
+            "ease":"LINEAR",
             "duration":4.3200000000000003,
             "target":-20.0,
+            "value":0.0
+          },
+          "arrays":{
             "ease":"LINEAR",
+            "duration":0.0,
+            "target":1.0,
+            "value":1.0
+          },
+          "speedRng":{
+            "ease":"LINEAR",
+            "duration":0.0,
+            "target":0.0,
             "value":0.0
           },
           "amount":6.0
@@ -636,28 +635,28 @@
         "en-shr_snap-x":true,
         "en-shr_snap-y":true,
         "en-shr_spawn-map":{
+          "name":"texture_shroom_spawn_map",
           "originX":0.0,
           "originY":0.0,
-          "frames":1.0,
           "file":"",
           "prefetch":true,
-          "name":"texture_shroom_spawn_map"
+          "frames":1.0
         },
         "en-shr_spd":15.0,
         "en-shr_spd-grid":false,
         "en-shr_spd-rng":5.0,
         "en-shr_template":"pink-bazyl-turn-r",
         "en-shr_texture":{
-          "angle":0.0,
-          "randomFrame":false,
-          "alpha":1.0,
-          "frame":0.0,
           "scaleX":1.0,
-          "speed":30.0,
           "scaleY":1.0,
+          "name":"texture_missing",
+          "angle":0.0,
+          "alpha":1.0,
+          "speed":30.0,
+          "frame":0.0,
           "blend":"#FFFFFF",
-          "animate":false,
-          "name":"texture_missing"
+          "randomFrame":false,
+          "animate":false
         },
         "en-shr_use-dir-rng":false,
         "en-shr_use-em":false,
@@ -672,13 +671,13 @@
         "en-shr_x":0.0,
         "en-shr_y":-15.0
       },
-      "name":"pink-bazyl-turn-r"
+      "color":"#FF14DB",
+      "type":"brush_entity_shroom"
     },
     {
-      "hidden":false,
-      "color":"#1E41D5",
+      "name":"blue-baron-ripple",
       "texture":"texture_ve_icon_entity_shroom",
-      "type":"brush_entity_shroom",
+      "hidden":false,
       "properties":{
         "en-shr_dir":270.0,
         "en-shr_dir-rng":0.0,
@@ -712,28 +711,28 @@
         "en-shr_snap-x":true,
         "en-shr_snap-y":true,
         "en-shr_spawn-map":{
+          "name":"texture_shroom_spawn_map",
           "originX":0.0,
           "originY":0.0,
-          "frames":1.0,
           "file":"",
           "prefetch":true,
-          "name":"texture_shroom_spawn_map"
+          "frames":1.0
         },
         "en-shr_spd":15.0,
         "en-shr_spd-grid":false,
         "en-shr_spd-rng":5.0,
         "en-shr_template":"blue-baron-ripple",
         "en-shr_texture":{
-          "angle":0.0,
-          "randomFrame":false,
-          "alpha":1.0,
-          "frame":0.0,
           "scaleX":1.0,
-          "speed":30.0,
           "scaleY":1.0,
+          "name":"texture_missing",
+          "angle":0.0,
+          "alpha":1.0,
+          "speed":30.0,
+          "frame":0.0,
           "blend":"#FFFFFF",
-          "animate":false,
-          "name":"texture_missing"
+          "randomFrame":false,
+          "animate":false
         },
         "en-shr_use-dir-rng":false,
         "en-shr_use-em":false,
@@ -748,106 +747,106 @@
         "en-shr_x":0.0,
         "en-shr_y":-15.0
       },
-      "name":"blue-baron-ripple"
+      "color":"#1E41D5",
+      "type":"brush_entity_shroom"
     },
     {
-      "hidden":false,
-      "color":"#FF232B",
+      "name":"red-baron-circle-r",
       "texture":"texture_ve_icon_entity_shroom",
-      "type":"brush_entity_shroom",
+      "hidden":false,
       "properties":{
         "en-shr_dir":270.0,
         "en-shr_dir-rng":0.0,
         "en-shr_em-cfg":{
           "angle":{
+            "ease":"LINEAR",
             "duration":0.0,
             "target":0.0,
-            "ease":"LINEAR",
             "value":0.0
           },
           "wiggleAmplitude":{
+            "ease":"LINEAR",
             "duration":0.0,
             "target":0.0,
-            "ease":"LINEAR",
             "value":20.0
           },
-          "anglePerArray":{
-            "duration":4.3200000000000003,
-            "target":0.0,
-            "ease":"LINEAR",
-            "value":0.0
-          },
           "wiggleFrequency":{
+            "ease":"LINEAR",
             "duration":0.0,
             "target":0.0,
-            "ease":"LINEAR",
             "value":1.0
           },
+          "anglePerArray":{
+            "ease":"LINEAR",
+            "duration":4.3200000000000003,
+            "target":0.0,
+            "value":0.0
+          },
+          "duration":4.3200000000000003,
+          "speed":{
+            "ease":"LINEAR",
+            "duration":4.3200000000000003,
+            "target":0.0,
+            "value":0.0
+          },
           "anglePerArrayRng":{
+            "ease":"LINEAR",
             "duration":0.0,
             "target":0.0,
+            "value":0.0
+          },
+          "offset":{
             "ease":"LINEAR",
+            "duration":0.0,
+            "target":0.0,
             "value":0.0
           },
           "anglePerArrayStep":{
+            "ease":"LINEAR",
             "duration":0.0,
             "target":0.0,
-            "ease":"LINEAR",
-            "value":0.0
-          },
-          "speed":{
-            "duration":4.3200000000000003,
-            "target":0.0,
-            "ease":"LINEAR",
             "value":0.0
           },
           "angleRng":{
+            "ease":"LINEAR",
             "duration":0.0,
             "target":0.0,
-            "ease":"LINEAR",
             "value":0.0
           },
           "angleStep":{
+            "ease":"LINEAR",
             "duration":0.0,
             "target":0.0,
-            "ease":"LINEAR",
-            "value":0.0
-          },
-          "arrays":{
-            "duration":0.0,
-            "target":1.0,
-            "ease":"LINEAR",
-            "value":1.0
-          },
-          "speedRng":{
-            "duration":0.0,
-            "target":0.0,
-            "ease":"LINEAR",
-            "value":0.0
-          },
-          "perArray":{
-            "duration":0.0,
-            "target":1.0,
-            "ease":"LINEAR",
-            "value":1.0
-          },
-          "duration":4.3200000000000003,
-          "offset":{
-            "duration":0.0,
-            "target":0.0,
-            "ease":"LINEAR",
             "value":0.0
           },
           "offsetX":{
+            "ease":"LINEAR",
             "duration":4.3200000000000003,
             "target":0.0,
-            "ease":"LINEAR",
             "value":0.0
           },
+          "perArray":{
+            "ease":"LINEAR",
+            "duration":0.0,
+            "target":1.0,
+            "value":1.0
+          },
           "offsetY":{
+            "ease":"LINEAR",
             "duration":4.3200000000000003,
             "target":-20.0,
+            "value":0.0
+          },
+          "arrays":{
             "ease":"LINEAR",
+            "duration":0.0,
+            "target":1.0,
+            "value":1.0
+          },
+          "speedRng":{
+            "ease":"LINEAR",
+            "duration":0.0,
+            "target":0.0,
             "value":0.0
           },
           "amount":6.0
@@ -880,28 +879,28 @@
         "en-shr_snap-x":true,
         "en-shr_snap-y":true,
         "en-shr_spawn-map":{
+          "name":"texture_shroom_spawn_map",
           "originX":72.0,
           "originY":36.0,
-          "frames":1.0,
           "file":"",
           "prefetch":true,
-          "name":"texture_shroom_spawn_map"
+          "frames":1.0
         },
         "en-shr_spd":15.0,
         "en-shr_spd-grid":false,
         "en-shr_spd-rng":5.0,
         "en-shr_template":"red-baron-circle-r",
         "en-shr_texture":{
-          "angle":0.0,
-          "randomFrame":false,
-          "alpha":1.0,
-          "frame":0.0,
           "scaleX":1.0,
-          "speed":30.0,
           "scaleY":1.0,
+          "name":"texture_missing",
+          "angle":0.0,
+          "alpha":1.0,
+          "speed":30.0,
+          "frame":0.0,
           "blend":"#FFFFFF",
-          "animate":false,
-          "name":"texture_missing"
+          "randomFrame":false,
+          "animate":false
         },
         "en-shr_use-dir-rng":false,
         "en-shr_use-em":false,
@@ -916,106 +915,106 @@
         "en-shr_x":0.0,
         "en-shr_y":-15.0
       },
-      "name":"red-baron-circle-r"
+      "color":"#FF232B",
+      "type":"brush_entity_shroom"
     },
     {
-      "hidden":false,
-      "color":"#FFCE46",
+      "name":"yellow-bazyl-circle-l",
       "texture":"texture_bazyl",
-      "type":"brush_entity_shroom",
+      "hidden":false,
       "properties":{
         "en-shr_dir":270.0,
         "en-shr_dir-rng":0.0,
         "en-shr_em-cfg":{
           "angle":{
+            "ease":"LINEAR",
             "duration":0.0,
             "target":0.0,
-            "ease":"LINEAR",
             "value":0.0
           },
           "wiggleAmplitude":{
+            "ease":"LINEAR",
             "duration":0.0,
             "target":0.0,
-            "ease":"LINEAR",
             "value":20.0
           },
-          "anglePerArray":{
-            "duration":4.3200000000000003,
-            "target":0.0,
-            "ease":"LINEAR",
-            "value":0.0
-          },
           "wiggleFrequency":{
+            "ease":"LINEAR",
             "duration":0.0,
             "target":0.0,
-            "ease":"LINEAR",
             "value":1.0
           },
+          "anglePerArray":{
+            "ease":"LINEAR",
+            "duration":4.3200000000000003,
+            "target":0.0,
+            "value":0.0
+          },
+          "duration":4.3200000000000003,
+          "speed":{
+            "ease":"LINEAR",
+            "duration":4.3200000000000003,
+            "target":0.0,
+            "value":0.0
+          },
           "anglePerArrayRng":{
+            "ease":"LINEAR",
             "duration":0.0,
             "target":0.0,
+            "value":0.0
+          },
+          "offset":{
             "ease":"LINEAR",
+            "duration":0.0,
+            "target":0.0,
             "value":0.0
           },
           "anglePerArrayStep":{
+            "ease":"LINEAR",
             "duration":0.0,
             "target":0.0,
-            "ease":"LINEAR",
-            "value":0.0
-          },
-          "speed":{
-            "duration":4.3200000000000003,
-            "target":0.0,
-            "ease":"LINEAR",
             "value":0.0
           },
           "angleRng":{
+            "ease":"LINEAR",
             "duration":0.0,
             "target":0.0,
-            "ease":"LINEAR",
             "value":0.0
           },
           "angleStep":{
+            "ease":"LINEAR",
             "duration":0.0,
             "target":0.0,
-            "ease":"LINEAR",
-            "value":0.0
-          },
-          "arrays":{
-            "duration":0.0,
-            "target":1.0,
-            "ease":"LINEAR",
-            "value":1.0
-          },
-          "speedRng":{
-            "duration":0.0,
-            "target":0.0,
-            "ease":"LINEAR",
-            "value":0.0
-          },
-          "perArray":{
-            "duration":0.0,
-            "target":1.0,
-            "ease":"LINEAR",
-            "value":1.0
-          },
-          "duration":4.3200000000000003,
-          "offset":{
-            "duration":0.0,
-            "target":0.0,
-            "ease":"LINEAR",
             "value":0.0
           },
           "offsetX":{
+            "ease":"LINEAR",
             "duration":4.3200000000000003,
             "target":0.0,
-            "ease":"LINEAR",
             "value":0.0
           },
+          "perArray":{
+            "ease":"LINEAR",
+            "duration":0.0,
+            "target":1.0,
+            "value":1.0
+          },
           "offsetY":{
+            "ease":"LINEAR",
             "duration":4.3200000000000003,
             "target":-20.0,
+            "value":0.0
+          },
+          "arrays":{
             "ease":"LINEAR",
+            "duration":0.0,
+            "target":1.0,
+            "value":1.0
+          },
+          "speedRng":{
+            "ease":"LINEAR",
+            "duration":0.0,
+            "target":0.0,
             "value":0.0
           },
           "amount":6.0
@@ -1048,28 +1047,28 @@
         "en-shr_snap-x":true,
         "en-shr_snap-y":true,
         "en-shr_spawn-map":{
+          "name":"texture_shroom_spawn_map",
           "originX":72.0,
           "originY":36.0,
-          "frames":1.0,
           "file":"",
           "prefetch":true,
-          "name":"texture_shroom_spawn_map"
+          "frames":1.0
         },
         "en-shr_spd":15.0,
         "en-shr_spd-grid":false,
         "en-shr_spd-rng":5.0,
         "en-shr_template":"yellow-bazyl-circle-l",
         "en-shr_texture":{
-          "angle":0.0,
-          "randomFrame":false,
-          "alpha":1.0,
-          "frame":0.0,
           "scaleX":1.0,
-          "speed":30.0,
           "scaleY":1.0,
+          "name":"texture_missing",
+          "angle":0.0,
+          "alpha":1.0,
+          "speed":30.0,
+          "frame":0.0,
           "blend":"#FFFFFF",
-          "animate":false,
-          "name":"texture_missing"
+          "randomFrame":false,
+          "animate":false
         },
         "en-shr_use-dir-rng":false,
         "en-shr_use-em":false,
@@ -1084,13 +1083,13 @@
         "en-shr_x":0.0,
         "en-shr_y":-15.0
       },
-      "name":"yellow-bazyl-circle-l"
+      "color":"#FFCE46",
+      "type":"brush_entity_shroom"
     },
     {
-      "hidden":false,
-      "color":"#808080",
+      "name":"big-baron-12star",
       "texture":"texture_ve_icon_entity_shroom",
-      "type":"brush_entity_shroom",
+      "hidden":false,
       "properties":{
         "en-shr_dir":270.0,
         "en-shr_dir-rng":0.0,
@@ -1124,28 +1123,28 @@
         "en-shr_snap-x":true,
         "en-shr_snap-y":true,
         "en-shr_spawn-map":{
+          "name":"texture_shroom_spawn_map",
           "originX":0.0,
           "originY":0.0,
-          "frames":1.0,
           "file":"",
           "prefetch":true,
-          "name":"texture_shroom_spawn_map"
+          "frames":1.0
         },
         "en-shr_spd":15.0,
         "en-shr_spd-grid":false,
         "en-shr_spd-rng":5.0,
         "en-shr_template":"big-baron-12star",
         "en-shr_texture":{
-          "angle":0.0,
-          "randomFrame":false,
-          "alpha":1.0,
-          "frame":0.0,
           "scaleX":1.0,
-          "speed":30.0,
           "scaleY":1.0,
+          "name":"texture_missing",
+          "angle":0.0,
+          "alpha":1.0,
+          "speed":30.0,
+          "frame":0.0,
           "blend":"#FFFFFF",
-          "animate":false,
-          "name":"texture_missing"
+          "randomFrame":false,
+          "animate":false
         },
         "en-shr_use-dir-rng":false,
         "en-shr_use-em":true,
@@ -1160,7 +1159,8 @@
         "en-shr_x":0.0,
         "en-shr_y":-15.0
       },
-      "name":"big-baron-12star"
+      "color":"#808080",
+      "type":"brush_entity_shroom"
     }
   ]
 }

@@ -2,23 +2,47 @@
   "model":"Collection<io.alkapivo.visu.service.subtitle.SubtitleTemplate>",
   "version":"1",
   "data":{
+    "subtitle_schnoopy_destination_unknown":{
+      "en_EN":{
+        "lines":[
+          "",
+          "Destination Unknown"
+        ],
+        "enable":true
+      },
+      "pl_PL":{
+        "lines":[
+        ],
+        "enable":false
+      }
+    },
     "subtitle_schnoopy":{
-      "lines":[
-        "Schnoopy",
-        ""
-      ]
+      "en_EN":{
+        "lines":[
+          "Schnoopy",
+          ""
+        ],
+        "enable":true
+      },
+      "pl_PL":{
+        "lines":[
+        ],
+        "enable":false
+      }
     },
     "subtitle_alkapivo":{
-      "lines":[
-        "Alkapivo",
-        "2026"
-      ]
-    },
-    "subtitle_schnoopy_destination_unknown":{
-      "lines":[
-        "",
-        "Destination Unknown"
-      ]
+      "en_EN":{
+        "lines":[
+          "Alkapivo",
+          "2026"
+        ],
+        "enable":true
+      },
+      "pl_PL":{
+        "lines":[
+        ],
+        "enable":false
+      }
     }
   }
 }

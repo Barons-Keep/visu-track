@@ -3,12 +3,12 @@
   "version":"1",
   "data":[
     {
-      "hidden":false,
-      "color":"#FFFFFF",
+      "name":"new brush template",
       "texture":"texture_baron",
-      "type":"brush_grid_column",
+      "hidden":false,
       "properties":null,
-      "name":"new brush template"
+      "color":"#FFFFFF",
+      "type":"brush_grid_column"
     }
   ]
 }

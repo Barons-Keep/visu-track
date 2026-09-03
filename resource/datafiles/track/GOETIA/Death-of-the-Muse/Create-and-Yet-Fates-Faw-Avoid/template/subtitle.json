@@ -3,20 +3,44 @@
   "version":"1",
   "data":{
     "subtitle-alkapivo":{
-      "lines":[
-        "Alkapivo",
-        "2026"
-      ]
+      "en_EN":{
+        "lines":[
+          "Alkapivo",
+          "2026"
+        ],
+        "enable":true
+      },
+      "pl_PL":{
+        "lines":[
+        ],
+        "enable":false
+      }
     },
     "subtitle-artist-name":{
-      "lines":[
-        "GOETIA"
-      ]
+      "en_EN":{
+        "lines":[
+          "GOETIA"
+        ],
+        "enable":true
+      },
+      "pl_PL":{
+        "lines":[
+        ],
+        "enable":false
+      }
     },
     "subtitle-track-name":{
-      "lines":[
-        "Create and Yet Fate's Faw Avoid"
-      ]
+      "en_EN":{
+        "lines":[
+          "Create and Yet Fate's Faw Avoid"
+        ],
+        "enable":true
+      },
+      "pl_PL":{
+        "lines":[
+        ],
+        "enable":false
+      }
     }
   }
 }

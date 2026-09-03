@@ -2,14 +2,6 @@
   "version":"1",
   "model":"Collection<io.alkapivo.core.service.texture.TextureIntent>",
   "data":{
-    "tx_particle_heart_2":{
-      "originY":16.0,
-      "prefetch":true,
-      "name":"tx_particle_heart_2",
-      "frames":1.0,
-      "file":"texture/tx_particle_heart_2.png",
-      "originX":16.0
-    },
     "tx_skitzofrenia_simulation_2":{
       "originY":0.0,
       "prefetch":true,
@@ -49,14 +41,6 @@
       "frames":1.0,
       "file":"texture/tx_sewerslvt_3album_v.png",
       "originX":0.0
-    },
-    "tx_particle_heart_1":{
-      "originY":256.0,
-      "prefetch":true,
-      "name":"tx_particle_heart_1",
-      "frames":1.0,
-      "file":"texture/tx_particle_heart_1.png",
-      "originX":256.0
     }
   }
 }
