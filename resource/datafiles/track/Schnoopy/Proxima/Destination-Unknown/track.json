@@ -83950,81 +83950,21 @@
               "en-pl_stats": {
                 "force": {
                   "maxValue": 250,
-                  "onValueUpdate": {
-                    "toString": {
-                      "length": 0
-                    }
-                  },
-                  "onMaxValueExceed": {
-                    "toString": {
-                      "length": 0
-                    }
-                  },
-                  "onMinValueExceed": {
-                    "toString": {
-                      "length": 0
-                    }
-                  },
                   "value": 0,
                   "minValue": 0
                 },
                 "point": {
                   "maxValue": 9999999,
-                  "onValueUpdate": {
-                    "toString": {
-                      "length": 0
-                    }
-                  },
-                  "onMaxValueExceed": {
-                    "toString": {
-                      "length": 0
-                    }
-                  },
-                  "onMinValueExceed": {
-                    "toString": {
-                      "length": 0
-                    }
-                  },
                   "value": 0,
                   "minValue": 0
                 },
                 "bomb": {
                   "maxValue": 10,
-                  "onValueUpdate": {
-                    "toString": {
-                      "length": 0
-                    }
-                  },
-                  "onMaxValueExceed": {
-                    "toString": {
-                      "length": 0
-                    }
-                  },
-                  "onMinValueExceed": {
-                    "toString": {
-                      "length": 0
-                    }
-                  },
                   "value": 5,
                   "minValue": 0
                 },
                 "life": {
                   "maxValue": 10,
-                  "onValueUpdate": {
-                    "toString": {
-                      "length": 0
-                    }
-                  },
-                  "onMaxValueExceed": {
-                    "toString": {
-                      "length": 0
-                    }
-                  },
-                  "onMinValueExceed": {
-                    "toString": {
-                      "length": 0
-                    }
-                  },
                   "value": 6,
                   "minValue": 0
                 }
