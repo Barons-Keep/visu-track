@@ -31,7 +31,7 @@
         "ef-shd_hide":false,
         "ef-shd_hide-merge-cfg":false,
         "ef-shd_merge-cfg":{
-          "u_seed":467.5,
+          "u_seed":467,
           "u_opacity":0.10000000000000001
         },
         "ef-shd_pipeline":"BACKGROUND",
@@ -53,7 +53,7 @@
         "ef-shd_hide":false,
         "ef-shd_hide-merge-cfg":false,
         "ef-shd_merge-cfg":{
-          "u_seed":420.0,
+          "u_seed":420,
           "u_bpm":38.5
         },
         "ef-shd_pipeline":"COMBINED",
@@ -75,7 +75,7 @@
         "ef-shd_hide":false,
         "ef-shd_hide-merge-cfg":false,
         "ef-shd_merge-cfg":{
-          "u_seed":444.39999999999998,
+          "u_seed":444,
           "u_bpm":25.0
         },
         "ef-shd_pipeline":"BACKGROUND",
@@ -180,7 +180,7 @@
         "ef-shd_hide":false,
         "ef-shd_hide-merge-cfg":false,
         "ef-shd_merge-cfg":{
-          "u_seed":555.5,
+          "u_seed":555,
           "u_opacity":0.10000000000000001
         },
         "ef-shd_pipeline":"BACKGROUND",
@@ -223,7 +223,7 @@
         "ef-shd_hide":false,
         "ef-shd_hide-merge-cfg":false,
         "ef-shd_merge-cfg":{
-          "u_seed":444.44,
+          "u_seed":444,
           "u_zoom":{
             "duration":25.960000000000001
           }
@@ -433,7 +433,7 @@
         "ef-shd_hide":false,
         "ef-shd_hide-merge-cfg":false,
         "ef-shd_merge-cfg":{
-          "u_seed":2137.0,
+          "u_seed":2137,
           "u_hue":{
             "duration":10.0
           },

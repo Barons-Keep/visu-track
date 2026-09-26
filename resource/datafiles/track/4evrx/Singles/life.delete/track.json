@@ -80,7 +80,7 @@
               },
               "ef-shd_hide-merge-cfg": false,
               "ef-shd_merge-cfg": {
-                "u_seed": 444.4,
+                "u_seed": 444,
                 "u_offset": {
                   "x": 0.98
                 },
@@ -202,7 +202,7 @@
               },
               "ef-shd_hide-merge-cfg": false,
               "ef-shd_merge-cfg": {
-                "u_seed": 0,
+                "u_seed": 1,
                 "u_bpm": -32
               },
               "ef-shd_pipeline": "BACKGROUND",
@@ -296,7 +296,7 @@
               },
               "ef-shd_hide-merge-cfg": false,
               "ef-shd_merge-cfg": {
-                "u_seed": 0,
+                "u_seed": 1,
                 "u_bpm": -32
               },
               "ef-shd_pipeline": "BACKGROUND",
@@ -319,7 +319,7 @@
               },
               "ef-shd_hide-merge-cfg": false,
               "ef-shd_merge-cfg": {
-                "u_seed": 467.5,
+                "u_seed": 467,
                 "u_opacity": 0.1
               },
               "ef-shd_pipeline": "BACKGROUND",
@@ -412,7 +412,7 @@
               },
               "ef-shd_hide-merge-cfg": false,
               "ef-shd_merge-cfg": {
-                "u_seed": 467.5,
+                "u_seed": 467,
                 "u_opacity": 0.1
               },
               "ef-shd_pipeline": "BACKGROUND",
@@ -576,7 +576,7 @@
               },
               "ef-shd_hide-merge-cfg": false,
               "ef-shd_merge-cfg": {
-                "u_seed": 0,
+                "u_seed": 1,
                 "u_bpm": -32
               },
               "ef-shd_pipeline": "BACKGROUND",
@@ -763,7 +763,7 @@
               },
               "ef-shd_hide-merge-cfg": false,
               "ef-shd_merge-cfg": {
-                "u_seed": 0,
+                "u_seed": 1,
                 "u_bpm": -64
               },
               "ef-shd_pipeline": "BACKGROUND",
@@ -904,7 +904,7 @@
               },
               "ef-shd_hide-merge-cfg": false,
               "ef-shd_merge-cfg": {
-                "u_seed": 0,
+                "u_seed": 1,
                 "u_bpm": -32
               },
               "ef-shd_pipeline": "BACKGROUND",
@@ -1021,7 +1021,7 @@
               },
               "ef-shd_hide-merge-cfg": false,
               "ef-shd_merge-cfg": {
-                "u_seed": 0,
+                "u_seed": 1,
                 "u_bpm": -32
               },
               "ef-shd_pipeline": "BACKGROUND",
@@ -1091,7 +1091,7 @@
               },
               "ef-shd_hide-merge-cfg": false,
               "ef-shd_merge-cfg": {
-                "u_seed": 467.5,
+                "u_seed": 467,
                 "u_opacity": 0.1
               },
               "ef-shd_pipeline": "BACKGROUND",
@@ -1185,7 +1185,7 @@
               },
               "ef-shd_hide-merge-cfg": false,
               "ef-shd_merge-cfg": {
-                "u_seed": 0,
+                "u_seed": 1,
                 "u_bpm": -64
               },
               "ef-shd_pipeline": "BACKGROUND",
@@ -1208,7 +1208,7 @@
               },
               "ef-shd_hide-merge-cfg": false,
               "ef-shd_merge-cfg": {
-                "u_seed": 555.5,
+                "u_seed": 555,
                 "u_opacity": 0.1
               },
               "ef-shd_pipeline": "BACKGROUND",
@@ -1252,7 +1252,7 @@
               },
               "ef-shd_hide-merge-cfg": false,
               "ef-shd_merge-cfg": {
-                "u_seed": 555.5,
+                "u_seed": 555,
                 "u_opacity": 0.1
               },
               "ef-shd_pipeline": "BACKGROUND",
@@ -1392,7 +1392,7 @@
               },
               "ef-shd_hide-merge-cfg": false,
               "ef-shd_merge-cfg": {
-                "u_seed": 0,
+                "u_seed": 1,
                 "u_bpm": -64
               },
               "ef-shd_pipeline": "BACKGROUND",
@@ -1415,7 +1415,7 @@
               },
               "ef-shd_hide-merge-cfg": false,
               "ef-shd_merge-cfg": {
-                "u_seed": 555.5,
+                "u_seed": 555,
                 "u_opacity": 0.1
               },
               "ef-shd_pipeline": "BACKGROUND",
@@ -1501,7 +1501,7 @@
               },
               "ef-shd_hide-merge-cfg": false,
               "ef-shd_merge-cfg": {
-                "u_seed": 444.4,
+                "u_seed": 444,
                 "u_offset": {
                   "x": 0.02
                 },

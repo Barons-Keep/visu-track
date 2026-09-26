@@ -85,7 +85,7 @@
           {
             "data": {
               "ef-shd_merge-cfg": {
-                "u_seed": 467.5,
+                "u_seed": 467,
                 "u_opacity": 0.1
               },
               "ef-shd_pipeline": "BACKGROUND",
@@ -266,7 +266,7 @@
           {
             "data": {
               "ef-shd_merge-cfg": {
-                "u_seed": 444.44,
+                "u_seed": 444,
                 "u_zoom": {
                   "duration": 25.96
                 }
@@ -292,7 +292,7 @@
           {
             "data": {
               "ef-shd_merge-cfg": {
-                "u_seed": 867.5,
+                "u_seed": 867,
                 "u_opacity": 0.1000000000001
               },
               "ef-shd_pipeline": "BACKGROUND",
@@ -316,7 +316,7 @@
           {
             "data": {
               "ef-shd_merge-cfg": {
-                "u_seed": 666.44,
+                "u_seed": 666,
                 "u_zoom": {
                   "duration": 25.96
                 }
@@ -342,7 +342,7 @@
           {
             "data": {
               "ef-shd_merge-cfg": {
-                "u_seed": 86.5,
+                "u_seed": 86,
                 "u_time": {
                   "duration": 100
                 },
@@ -373,7 +373,7 @@
           {
             "data": {
               "ef-shd_merge-cfg": {
-                "u_seed": 467.5,
+                "u_seed": 467,
                 "u_opacity": 0.1
               },
               "ef-shd_pipeline": "BACKGROUND",
@@ -523,7 +523,7 @@
           {
             "data": {
               "ef-shd_merge-cfg": {
-                "u_seed": 444.44,
+                "u_seed": 444,
                 "u_zoom": {
                   "duration": 25.96
                 }
@@ -549,7 +549,7 @@
           {
             "data": {
               "ef-shd_merge-cfg": {
-                "u_seed": 867.5,
+                "u_seed": 867,
                 "u_opacity": 0.1000000000001
               },
               "ef-shd_pipeline": "BACKGROUND",

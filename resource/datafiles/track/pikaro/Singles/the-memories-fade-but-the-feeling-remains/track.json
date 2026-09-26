@@ -297,7 +297,7 @@
             "data": {
               "ef-shd_merge-cfg": {
                 "u_speed": 1,
-                "u_seed": 213.37,
+                "u_seed": 213,
                 "u_offset": {
                   "x": 0.5,
                   "y": 1
@@ -349,7 +349,7 @@
           {
             "data": {
               "ef-shd_merge-cfg": {
-                "u_seed": 1517.37
+                "u_seed": 1517
               },
               "ef-shd_pipeline": "BACKGROUND",
               "ef-shd_template": "funk flux 2",
@@ -373,7 +373,7 @@
             "data": {
               "ef-shd_merge-cfg": {
                 "u_speed": 1.5,
-                "u_seed": 1344.37,
+                "u_seed": 1344,
                 "u_offset": {
                   "x": 0.5,
                   "y": 1
@@ -618,7 +618,7 @@
             "data": {
               "ef-shd_merge-cfg": {
                 "u_speed": 1.5,
-                "u_seed": 1344.37,
+                "u_seed": 1344,
                 "u_offset": {
                   "x": 0.5,
                   "y": 1
