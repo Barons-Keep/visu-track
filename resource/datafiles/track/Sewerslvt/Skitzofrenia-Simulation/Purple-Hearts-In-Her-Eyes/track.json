@@ -67353,10 +67353,10 @@
               "gr-cfg_focus-col": "#85B2FF",
               "gr-cfg_focus-col-spd": 0,
               "gr-cfg_focus-color-alpha": {
-                "duration": 0,
-                "target": 0,
+                "duration": 5,
+                "target": 0.25,
                 "ease": "LINEAR",
-                "value": 1
+                "value": 0.0
               },
               "gr-cfg_focus-grid-alpha": {
                 "duration": 3,

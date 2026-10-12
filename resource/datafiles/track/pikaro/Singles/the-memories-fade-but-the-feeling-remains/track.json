@@ -24791,7 +24791,7 @@
                 "increase": 0,
                 "factor": 0,
                 "duration": 1,
-                "target": 1,
+                "target": 0.5,
                 "value": 0
               },
               "gr-cfg_focus-grid-treshold": {
@@ -25000,7 +25000,7 @@
                 "factor": 0,
                 "duration": 1,
                 "target": 0,
-                "value": 1
+                "value": 0.5
               },
               "gr-cfg_focus-grid-treshold": {
                 "ease": "LINEAR",
