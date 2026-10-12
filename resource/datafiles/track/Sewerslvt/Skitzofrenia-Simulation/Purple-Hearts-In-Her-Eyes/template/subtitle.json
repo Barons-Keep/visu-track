@@ -1,22 +1,46 @@
 {
-  "model":"Collection<io.alkapivo.visu.service.subtitle.SubtitleTemplate>",
-  "version":"1",
   "data":{
+    "subtitle_alkapivo":{
+      "en_EN":{
+        "enable":true,
+        "lines":[
+          "Alkapivo",
+          "2026"
+        ]
+      },
+      "pl_PL":{
+        "enable":false,
+        "lines":[
+        ]
+      }
+    },
     "subtitle_sewerslvt":{
-      "lines":[
-        "Sewerslvt"
-      ]
+      "en_EN":{
+        "enable":true,
+        "lines":[
+          "Sewerslvt"
+        ]
+      },
+      "pl_PL":{
+        "enable":false,
+        "lines":[
+        ]
+      }
     },
     "subtitle_purple-hearts-in-her-eyes":{
-      "lines":[
-        "Purple Hearts In Her Eyes"
-      ]
-    },
-    "subtitle_alkapivo":{
-      "lines":[
-        "Alkapivo",
-        "2026"
-      ]
+      "en_EN":{
+        "enable":true,
+        "lines":[
+          "Purple Hearts In Her Eyes"
+        ]
+      },
+      "pl_PL":{
+        "enable":false,
+        "lines":[
+        ]
+      }
     }
-  }
+  },
+  "model":"Collection<io.alkapivo.visu.service.subtitle.SubtitleTemplate>",
+  "version":"1"
 }

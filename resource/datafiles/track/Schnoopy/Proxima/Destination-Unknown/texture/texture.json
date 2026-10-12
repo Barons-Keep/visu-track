@@ -1,14 +1,14 @@
 {
-  "model":"Collection<io.alkapivo.core.service.texture.TextureIntent>",
-  "version":"1",
   "data":{
     "texture_bkg_schnoopy_proxima":{
-      "name":"texture_bkg_schnoopy_proxima",
+      "frames":1.0,
+      "prefetch":true,
+      "file":"texture/texture_bkg_schnoopy_proxima.jpg",
       "originX":0.0,
       "originY":0.0,
-      "file":"texture/texture_bkg_schnoopy_proxima.jpg",
-      "prefetch":true,
-      "frames":1.0
+      "name":"texture_bkg_schnoopy_proxima"
     }
-  }
+  },
+  "model":"Collection<io.alkapivo.core.service.texture.TextureIntent>",
+  "version":"1"
 }

@@ -1,35 +1,67 @@
 {
-  "model":"Collection<io.alkapivo.visu.service.subtitle.SubtitleTemplate>",
-  "version":"1",
   "data":{
     "subtitle_alkapivo":{
-      "lines":[
-        "Alkapivo",
-        "2025"
-      ]
-    },
-    "subtitle_kedy_selma_jtcs":{
-      "lines":[
-        "",
-        "Just To Create Something"
-      ]
+      "en_EN":{
+        "enable":true,
+        "lines":[
+          "Alkapivo",
+          "2025"
+        ]
+      },
+      "pl_PL":{
+        "enable":false,
+        "lines":[
+        ]
+      }
     },
     "subtitle_kedy_selma_jtcs_poem":{
-      "lines":[
-        "If it was easier,",
-        "it wouldn't feel this rewarding,",
-        "when somebody finally notice.",
-        "I struggle this much,",
-        "just to create something.",
-        "",
-        "kedy_selma"
-      ]
+      "en_EN":{
+        "enable":true,
+        "lines":[
+          "If it was easier,",
+          "it wouldn't feel this rewarding,",
+          "when somebody finally notice.",
+          "I struggle this much,",
+          "just to create something.",
+          "",
+          "kedy_selma"
+        ]
+      },
+      "pl_PL":{
+        "enable":false,
+        "lines":[
+        ]
+      }
     },
     "subtitle_kedy_selma":{
-      "lines":[
-        "kedy_selma",
-        ""
-      ]
+      "en_EN":{
+        "enable":true,
+        "lines":[
+          "kedy_selma",
+          ""
+        ]
+      },
+      "pl_PL":{
+        "enable":false,
+        "lines":[
+        ]
+      }
+    },
+    "subtitle_kedy_selma_jtcs":{
+      "en_EN":{
+        "enable":true,
+        "lines":[
+          "",
+          "Just To Create Something"
+        ]
+      },
+      "pl_PL":{
+        "enable":false,
+        "lines":[
+        ]
+      }
     }
-  }
+  },
+  "model":"Collection<io.alkapivo.visu.service.subtitle.SubtitleTemplate>",
+  "version":"1"
 }

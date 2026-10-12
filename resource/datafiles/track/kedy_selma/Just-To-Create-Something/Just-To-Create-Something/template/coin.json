@@ -1,58 +1,58 @@
 {
-  "model":"Collection<io.alkapivo.visu.service.coin.CoinTemplate>",
-  "version":"1",
   "data":{
     "coin-force-5":{
-      "category":"force",
+      "amount":5.0,
+      "changeSpeed":false,
+      "mask":null,
       "sprite":{
-        "angle":0.0,
-        "randomFrame":false,
-        "alpha":1.0,
-        "frame":0.0,
         "scaleX":6.5,
-        "speed":30.0,
         "scaleY":6.5,
         "blend":"#FFFFFF",
+        "randomFrame":false,
         "animate":false,
-        "name":"texture_coin_force"
-      },
-      "mask":null,
-      "useSpeed":false,
-      "changeSpeed":false,
-      "speed":{
-        "duration":1.9166666666666667,
-        "target":2.25,
-        "ease":"LINEAR",
-        "value":-3.5
+        "alpha":1.0,
+        "speed":30.0,
+        "name":"texture_coin_force",
+        "angle":0.0,
+        "frame":0.0
       },
       "name":"coin-force-5",
-      "amount":5.0
+      "speed":{
+        "target":2.25,
+        "value":-3.5,
+        "duration":1.9166666666666667,
+        "ease":"LINEAR"
+      },
+      "category":"force",
+      "useSpeed":false
     },
     "coin-point-5":{
-      "category":"point",
+      "amount":5.0,
+      "changeSpeed":false,
+      "mask":null,
       "sprite":{
-        "angle":0.0,
-        "randomFrame":false,
-        "alpha":1.0,
-        "frame":0.0,
         "scaleX":6.5,
-        "speed":30.0,
         "scaleY":6.5,
         "blend":"#FFFFFF",
+        "randomFrame":false,
         "animate":false,
-        "name":"texture_coin_point"
-      },
-      "mask":null,
-      "useSpeed":false,
-      "changeSpeed":false,
-      "speed":{
-        "duration":1.3888888888888891,
-        "target":2.2000000000000002,
-        "ease":"LINEAR",
-        "value":-2.7999999999999998
+        "alpha":1.0,
+        "speed":30.0,
+        "name":"texture_coin_point",
+        "angle":0.0,
+        "frame":0.0
       },
       "name":"coin-point-5",
-      "amount":5.0
+      "speed":{
+        "target":2.2000000000000002,
+        "value":-2.7999999999999998,
+        "duration":1.3888888888888891,
+        "ease":"LINEAR"
+      },
+      "category":"point",
+      "useSpeed":false
     }
-  }
+  },
+  "model":"Collection<io.alkapivo.visu.service.coin.CoinTemplate>",
+  "version":"1"
 }

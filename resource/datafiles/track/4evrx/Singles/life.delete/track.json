@@ -32127,11 +32127,9 @@
               "vw-sub_char-spd": 0.04,
               "vw-sub_col": "#F914FF",
               "vw-sub_dir": {
-                "increase": 0,
                 "duration": 1.6666666666666667,
-                "factor": 0.4,
                 "value": 320,
-                "ease": "LEGACY",
+                "ease": "OUT_QUART",
                 "target": 280
               },
               "vw-sub_end-delay": 7.5,

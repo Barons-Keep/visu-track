@@ -1,48 +1,48 @@
 {
-  "model":"Collection<io.alkapivo.visu.service.subtitle.SubtitleTemplate>",
-  "version":"1",
   "data":{
+    "subtitle_alkapivo":{
+      "en_EN":{
+        "enable":true,
+        "lines":[
+          "Alkapivo",
+          "2026"
+        ]
+      },
+      "pl_PL":{
+        "enable":false,
+        "lines":[
+        ]
+      }
+    },
     "subtitle_schnoopy_destination_unknown":{
       "en_EN":{
+        "enable":true,
         "lines":[
           "",
           "Destination Unknown"
-        ],
-        "enable":true
+        ]
       },
       "pl_PL":{
+        "enable":false,
         "lines":[
-        ],
-        "enable":false
+        ]
       }
     },
     "subtitle_schnoopy":{
       "en_EN":{
+        "enable":true,
         "lines":[
           "Schnoopy",
           ""
-        ],
-        "enable":true
+        ]
       },
       "pl_PL":{
+        "enable":false,
         "lines":[
-        ],
-        "enable":false
-      }
-    },
-    "subtitle_alkapivo":{
-      "en_EN":{
-        "lines":[
-          "Alkapivo",
-          "2026"
-        ],
-        "enable":true
-      },
-      "pl_PL":{
-        "lines":[
-        ],
-        "enable":false
+        ]
       }
     }
-  }
+  },
+  "model":"Collection<io.alkapivo.visu.service.subtitle.SubtitleTemplate>",
+  "version":"1"
 }
