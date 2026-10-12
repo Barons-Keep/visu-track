@@ -1430,12 +1430,7 @@
           "duration":3.0
         },
         "u_brightness_hide":true,
-        "u_time":{
-          "value":0.0,
-          "ease":"LINEAR",
-          "target":1000.0,
-          "duration":1000.0
-        },
+        "u_time":{ "value": 1.0 },
         "u_hue_hide":true,
         "u_tint":{
           "value":"#00FF96",

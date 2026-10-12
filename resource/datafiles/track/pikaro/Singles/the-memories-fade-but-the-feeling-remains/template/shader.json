@@ -639,12 +639,7 @@
           "target":0.14999999999999999,
           "value":0.5
         },
-        "u_time":{
-          "ease":"LINEAR",
-          "duration":1000.0,
-          "target":1000.0,
-          "value":0.0
-        },
+        "u_time":{ "value": 1.0 },
         "u_tint":{
           "duration":5.0,
           "target":"#6E8DFF",

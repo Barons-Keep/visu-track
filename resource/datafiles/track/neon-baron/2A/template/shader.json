@@ -980,12 +980,7 @@
           "duration":5.0,
           "ease":"IN_OUT_SINE"
         },
-        "u_time":{
-          "target":1000.0,
-          "value":0.0,
-          "duration":1000.0,
-          "ease":"LINEAR"
-        },
+        "u_time":{ "value": 1.0 },
         "u_wiggle":{
           "target":1.01,
           "value":1.0,

@@ -1954,12 +1954,7 @@
           "ease":"IN_OUT_SINE",
           "target":0.0
         },
-        "u_time":{
-          "duration":1000.0,
-          "value":0.0,
-          "ease":"LINEAR",
-          "target":1000.0
-        },
+        "u_time":{ "value": 1.0 },
         "u_bend":{
           "duration":3.0,
           "value":0.5,
