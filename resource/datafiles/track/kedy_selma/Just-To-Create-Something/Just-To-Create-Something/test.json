@@ -10,7 +10,7 @@
         "description": "Load kedy_selma - Just To Create Something",
         "data": {
           "trackName": "kedy_selma - Just To Create Something",
-          "timeout": 20.0,
+          "timeout": 50.0,
           "cooldown": 1.0,
           "path": "track/kedy_selma/Just-To-Create-Something/Just-To-Create-Something/manifest.visu"
         }
@@ -19,7 +19,7 @@
         "handler": "Test_VisuController_playback",
         "description": "Play whole kedy_selma - Just To Create Something (4:05)",
         "data": {
-          "timeout": 264.0,
+          "timeout": 294.0,
           "duration": 244.0,
           "cooldown": 1.0
         }

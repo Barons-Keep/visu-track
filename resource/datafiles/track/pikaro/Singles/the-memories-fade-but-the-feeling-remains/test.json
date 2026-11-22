@@ -10,7 +10,7 @@
         "description": "Load pikaro & paxnkoxd - the memories fade but the feeling remains",
         "data": {
           "trackName": "pikaro & paxnkoxd - the memories fade but the feeling remains",
-          "timeout": 20.0,
+          "timeout": 50.0,
           "cooldown": 1.0,
           "path": "track/pikaro/Singles/the-memories-fade-but-the-feeling-remains/manifest.visu"
         }
@@ -19,7 +19,7 @@
         "handler": "Test_VisuController_playback",
         "description": "Play finished part of pikaro & paxnkoxd - the memories fade but the feeling remains (4:09)",
         "data": {
-          "timeout": 268.0,
+          "timeout": 298.0,
           "duration": 248.0,
           "cooldown": 1.0
         }

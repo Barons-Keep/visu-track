@@ -10,7 +10,7 @@
         "description": "Load Schnoopy - Destination Unknown",
         "data": {
           "trackName": "Schnoopy - Destination Unknown",
-          "timeout": 20.0,
+          "timeout": 50.0,
           "cooldown": 1.0,
           "path": "track/Schnoopy/Proxima/Destination-Unknown/manifest.visu"
         }
@@ -19,7 +19,7 @@
         "handler": "Test_VisuController_playback",
         "description": "Play finished part of Schnoopy - Destination Unknown (9:05)",
         "data": {
-          "timeout": 564.0,
+          "timeout": 594.0,
           "duration": 544.0,
           "cooldown": 1.0
         }

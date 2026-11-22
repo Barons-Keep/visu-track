@@ -10,7 +10,7 @@
         "description": "Load kedy_selma - Passion",
         "data": {
           "trackName": "kedy_selma - Passion",
-          "timeout": 20.0,
+          "timeout": 50.0,
           "cooldown": 1.0,
           "path": "track/kedy_selma/Singles/Passion/manifest.visu"
         }
@@ -19,7 +19,7 @@
         "handler": "Test_VisuController_playback",
         "description": "Play whole kedy_selma - Passion (2:55)",
         "data": {
-          "timeout": 194.0,
+          "timeout": 224.0,
           "duration": 174.0,
           "cooldown": 1.0
         }

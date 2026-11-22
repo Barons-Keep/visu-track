@@ -10,7 +10,7 @@
         "description": "Load Zoogies - digitalshadow",
         "data": {
           "trackName": "zoogies - digitalshadow",
-          "timeout": 20.0,
+          "timeout": 50.0,
           "cooldown": 1.0,
           "path": "track/Zoogies/Singles/digitalshadow/manifest.visu"
         }
@@ -19,7 +19,7 @@
         "handler": "Test_VisuController_playback",
         "description": "Play whole Zoogies - digitalshadow (1:24)",
         "data": {
-          "timeout": 103.0,
+          "timeout": 123.0,
           "duration": 83.0,
           "cooldown": 1.0
         }

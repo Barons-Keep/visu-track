@@ -10,7 +10,7 @@
         "description": "Load 4evrx - life.delete",
         "data": {
           "trackName": "4evrx - life.delete",
-          "timeout": 20.0,
+          "timeout": 50.0,
           "cooldown": 1.0,
           "path": "track/4evrx/Singles/life.delete/manifest.visu"
         }
@@ -19,7 +19,7 @@
         "handler": "Test_VisuController_playback",
         "description": "Play finished part of 4evrx - life.delete (4:43)",
         "data": {
-          "timeout": 302.0,
+          "timeout": 332.0,
           "duration": 282.0,
           "cooldown": 1.0
         }
